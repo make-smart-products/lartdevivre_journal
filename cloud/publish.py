@@ -121,7 +121,9 @@ def ensure_ready(state, now):
     if state.get("pending"):
         raise PublishError("Есть неподтверждённая отправка: требуется проверка канала, автоповтор запрещён")
     last = state.get("last_published_at")
-    if last and (now - dt.datetime.fromisoformat(last)).total_seconds() < 3 * 3600 - 120:
+    # A delayed GitHub run must not cause the next scheduled slot to be skipped.
+    # Suppress duplicate manual runs in the same three-hour UTC slot instead.
+    if last and int(now.timestamp()) // 10800 <= int(dt.datetime.fromisoformat(last).timestamp()) // 10800:
         return False
     return True
 
@@ -171,7 +173,7 @@ def main():
     state = store.load() if store else json.loads((ROOT / "cloud" / "state.json").read_text(encoding="utf-8-sig"))
     now = dt.datetime.now(dt.timezone.utc)
     if not ensure_ready(state, now) and not args.dry_run:
-        print("Ещё не прошло 3 часа после предыдущей публикации.")
+        print("В текущем трёхчасовом интервале материал уже опубликован.")
         return
     post = choose_post(state)
     if args.dry_run:

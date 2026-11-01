@@ -32,10 +32,14 @@ class PublishTests(unittest.TestCase):
         with self.assertRaises(publish.PublishError):
             publish.ensure_ready({"pending": {"object_id": 123}}, dt.datetime.now(dt.timezone.utc))
 
-    def test_three_hour_gap(self):
-        now = dt.datetime.now(dt.timezone.utc)
+    def test_three_hour_slot_deduplication(self):
+        now = dt.datetime(2026, 11, 1, 10, 0, tzinfo=dt.timezone.utc)
         self.assertFalse(publish.ensure_ready({"last_published_at": (now - dt.timedelta(hours=1)).isoformat()}, now))
         self.assertTrue(publish.ensure_ready({"last_published_at": (now - dt.timedelta(hours=3)).isoformat()}, now))
+
+    def test_delayed_run_does_not_skip_next_slot(self):
+        now = dt.datetime(2026, 11, 1, 12, 0, tzinfo=dt.timezone.utc)
+        self.assertTrue(publish.ensure_ready({"last_published_at": "2026-11-01T09:10:00+00:00"}, now))
 
     def test_incomplete_telegram_album_rejected(self):
         card = publish.make_card(self.obj())
