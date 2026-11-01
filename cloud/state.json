@@ -5,22 +5,19 @@
     436532,
     436141,
     435882,
-    436965
+    436965,
+    436528
   ],
-  "last_published_at": "2026-11-01T09:51:13.546089+00:00",
-  "pending": {
-    "object_id": 436528,
-    "attempted_at": "2026-11-01T17:40:54.897295+00:00",
-    "post": {
+  "last_published_at": "2026-11-01T17:40:56.936191+00:00",
+  "pending": null,
+  "publications": [
+    {
       "object_id": 436528,
-      "topic": "Ван Гог — Ирисы",
-      "caption": "💐 Цвет, который изменило время\n\nВинсент ван Гог. «Ирисы», 1890.\n\nИзначально художник задумал фиолетовые цветы на розовом фоне. Но красные пигменты со временем выцвели — и привычная нам картина выглядит иначе, чем в момент создания.\n\nПосмотрите на букет с этой мыслью: музей хранит не только замысел художника, но и следы времени.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ВанГог #КартинаДня",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ep/web-large/DP346474.jpg"
+      "message_ids": [
+        24
       ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/436528"
-    },
-    "sha256": "2aa48e451cd963c1a916a93ddba7e1b27f280e990329345cfe57d76d31b1fa75"
-  },
-  "publications": []
+      "source_url": "https://www.metmuseum.org/art/collection/search/436528",
+      "published_at": "2026-11-01T17:40:56.936191+00:00"
+    }
+  ]
 }
