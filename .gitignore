@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.example
+.local-tools/
+__pycache__/
+.cloud-preview.json

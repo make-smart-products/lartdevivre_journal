@@ -1,0 +1,39 @@
+name: Publish journal every three hours
+
+on:
+  schedule:
+    # UTC: Moscow is UTC+3, giving 00:00, 03:00, ... 21:00 Moscow.
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Validate a new card without posting to Telegram'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: journal-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test duplicate protection and caption validation
+        run: python3 -m unittest discover -s cloud -p 'test_*.py'
+      - name: Publish or validate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            python3 cloud/publish.py --dry-run
+          else
+            python3 cloud/publish.py
+          fi
