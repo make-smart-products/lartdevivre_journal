@@ -177,7 +177,19 @@ def main():
         return
     post = choose_post(state)
     if args.dry_run:
-        print(json.dumps({"validated": True, "topic": post["topic"], "images": len(post["images"]), "caption": post["caption"]}, ensure_ascii=False))
+        telegram_verified = False
+        telegram_token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+        if telegram_token:
+            endpoint = "https://api.telegram.org/bot" + telegram_token
+            me = request(endpoint + "/getMe", {})
+            if not me.get("ok") or not me.get("result", {}).get("id"):
+                raise PublishError("Telegram не подтвердил токен бота")
+            member = request(endpoint + "/getChatMember", {"chat_id": CHANNEL, "user_id": me["result"]["id"]})
+            rights = member.get("result", {})
+            if not member.get("ok") or not (rights.get("status") == "creator" or rights.get("status") == "administrator" and rights.get("can_post_messages")):
+                raise PublishError("У бота нет права публиковать в канале")
+            telegram_verified = True
+        print(json.dumps({"validated": True, "telegram_verified": telegram_verified, "topic": post["topic"], "images": len(post["images"]), "caption": post["caption"]}, ensure_ascii=False))
         return
     telegram_token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     if not store or not telegram_token:
