@@ -6,23 +6,11 @@
     436141,
     435882,
     436965,
-    436528
+    436528,
+    436535
   ],
-  "last_published_at": "2026-11-01T17:40:56.936191+00:00",
-  "pending": {
-    "object_id": 436535,
-    "attempted_at": "2026-11-01T21:44:19.405906+00:00",
-    "post": {
-      "object_id": 436535,
-      "topic": "Ван Гог — Пшеничное поле с кипарисами",
-      "caption": "🌾 Пейзаж, в котором всё движется\n\nВинсент ван Гог. «Пшеничное поле с кипарисами», 1889.\n\nХудожник написал этот пейзаж с натуры и считал его одним из лучших своих летних видов. Позднее он создал ещё две версии в мастерской.\n\nПроследите за мазками: они ведут взгляд от колосьев к тёмным кипарисам и дальше, к завихрениям облаков.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ВанГог #ИскусствоЖить",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/436535"
-    },
-    "sha256": "dad395c0cea821f2879e04def9afa62d26dc815038a4515eb9d25f790aa02499"
-  },
+  "last_published_at": "2026-11-01T21:44:21.876843+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -31,6 +19,14 @@
       ],
       "source_url": "https://www.metmuseum.org/art/collection/search/436528",
       "published_at": "2026-11-01T17:40:56.936191+00:00"
+    },
+    {
+      "object_id": 436535,
+      "message_ids": [
+        25
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/436535",
+      "published_at": "2026-11-01T21:44:21.876843+00:00"
     }
   ]
 }
