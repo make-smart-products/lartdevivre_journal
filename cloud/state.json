@@ -18,27 +18,11 @@
     262468,
     653246,
     334494,
-    436531
+    436531,
+    106552
   ],
-  "last_published_at": "2026-11-02T19:36:01.211751+00:00",
-  "pending": {
-    "object_id": 106552,
-    "attempted_at": "2026-11-02T19:36:02.728160+00:00",
-    "post": {
-      "topic": "Dress",
-      "caption": "👗 История моды\n\nDress\nHouse of Worth · 1892–93\n\nИсторический костюм из коллекции Института костюма. Присмотритесь к силуэту, линии плеч и отделке: какая деталь кажется вам самой выразительной? Представьте, как меняется впечатление от наряда при движении и другом освещении.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/CI39.9.1ab_F.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/CI39.9.1ab_S.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/CI39.9.1ab_B.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/106552",
-      "object_id": 106552,
-      "rubric": "fashion"
-    },
-    "batch_date": "2026-11-02",
-    "sha256": "f1d302889e1c7eb043d9e3e75b9fcf349577782dde2196434b32bad1c99710a3"
-  },
+  "last_published_at": "2026-11-02T19:36:05.597043+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -169,12 +153,24 @@
       "published_at": "2026-11-02T19:36:01.211751+00:00",
       "rubric": "painting",
       "batch_date": "2026-11-02"
+    },
+    {
+      "object_id": 106552,
+      "message_ids": [
+        44,
+        45,
+        46
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/106552",
+      "published_at": "2026-11-02T19:36:05.597043+00:00",
+      "rubric": "fashion",
+      "batch_date": "2026-11-02"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
-      "completed": 9,
+      "completed": 10,
       "target": 15
     }
   }
