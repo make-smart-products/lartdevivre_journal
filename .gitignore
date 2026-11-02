@@ -4,3 +4,4 @@
 .local-tools/
 __pycache__/
 .cloud-preview.json
+.vercel/

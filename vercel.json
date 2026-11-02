@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app.py": {
+      "maxDuration": 300,
+      "includeFiles": "cloud/**"
+    }
+  },
+  "crons": [
+    {"path": "/api/publish", "schedule": "0 19 * * *"}
+  ]
+}

@@ -126,7 +126,10 @@ def choose_post(state, fetch=request, rubric=None):
     for path in sorted((ROOT / "cloud" / "queue").glob("*.json")):
         post = json.loads(path.read_text(encoding="utf-8-sig"))
         if post.get("rubric", "painting") == rubric and int(post["object_id"]) not in used:
-            obj = fetch(MET + "/objects/" + str(post["object_id"]))
+            try:
+                obj = fetch(MET + "/objects/" + str(post["object_id"]))
+            except PublishError:
+                continue
             if not obj.get("isPublicDomain") or not obj.get("primaryImageSmall") or not matches_rubric(obj, rubric):
                 continue
             approved = [obj["primaryImageSmall"]] + obj.get("additionalImages", [])
@@ -206,19 +209,20 @@ def publish(post, token, fetch=request):
     return [x["message_id"] for x in results]
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--dry-run", action="store_true")
-    args = parser.parse_args()
-    token = os.environ.get("GITHUB_TOKEN")
+def execute_one(dry_run=False, batch_date=None):
+    token = os.environ.get("JOURNAL_GITHUB_TOKEN") or os.environ.get("GITHUB_TOKEN")
     store = StateStore(token) if token else None
     state = store.load() if store else json.loads((ROOT / "cloud" / "state.json").read_text(encoding="utf-8-sig"))
     now = dt.datetime.now(dt.timezone.utc)
-    if not ensure_ready(state, now) and not args.dry_run:
-        print("В текущем часовом интервале материал уже опубликован.")
-        return
+    if batch_date:
+        if state.get("pending"):
+            raise PublishError("Есть неподтверждённая отправка: требуется проверка канала")
+        if state.get("daily_batches", {}).get(batch_date, {}).get("completed", 0) >= 15:
+            return {"status": "batch_complete"}
+    elif not ensure_ready(state, now) and not dry_run:
+        return {"status": "already_published"}
     post = choose_post(state)
-    if args.dry_run:
+    if dry_run:
         telegram_verified = False
         telegram_token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
         if telegram_token:
@@ -231,13 +235,12 @@ def main():
             if not member.get("ok") or not (rights.get("status") == "creator" or rights.get("status") == "administrator" and rights.get("can_post_messages")):
                 raise PublishError("У бота нет права публиковать в канале")
             telegram_verified = True
-        print(json.dumps({"validated": True, "telegram_verified": telegram_verified, "topic": post["topic"], "images": len(post["images"]), "caption": post["caption"]}, ensure_ascii=False))
-        return
+        return {"validated": True, "telegram_verified": telegram_verified, "topic": post["topic"], "images": len(post["images"]), "caption": post["caption"]}
     telegram_token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     if not store or not telegram_token:
         raise PublishError("Не настроены секреты облачного запуска")
     state["pending"] = {"object_id": post["object_id"], "attempted_at": now.isoformat(),
-                        "post": post, "sha256": hashlib.sha256(json.dumps(post, sort_keys=True).encode()).hexdigest()}
+                        "post": post, "batch_date": batch_date, "sha256": hashlib.sha256(json.dumps(post, sort_keys=True).encode()).hexdigest()}
     store.save(state, "Reserve museum publication before Telegram send")
     message_ids = publish(post, telegram_token)
     state.setdefault("used_object_ids", []).append(post["object_id"])
@@ -246,9 +249,38 @@ def main():
                                                "source_url": post["source_url"], "published_at": state["last_published_at"]})
     state["next_rubric_index"] = (state.get("next_rubric_index", 0) + 1) % len(RUBRIC_ORDER)
     state["publications"][-1]["rubric"] = post["rubric"]
+    if batch_date:
+        batch = state.setdefault("daily_batches", {}).setdefault(batch_date, {"completed": 0, "target": 15})
+        batch["completed"] += 1
+        state["publications"][-1]["batch_date"] = batch_date
     state["pending"] = None
     store.save(state, "Record confirmed Telegram publication")
-    print("Опубликовано: https://t.me/lartdevivre_journal/" + str(message_ids[0]))
+    return {"status": "published", "message_ids": message_ids, "url": "https://t.me/lartdevivre_journal/" + str(message_ids[0])}
+
+
+def execute(dry_run=False, now=None):
+    """One daily block; confirmed items survive interruptions and retries."""
+    local = (now or dt.datetime.now(dt.timezone.utc)).astimezone(dt.timezone(dt.timedelta(hours=3)))
+    day = local.date().isoformat()
+    if dry_run:
+        preview = execute_one(dry_run=True, batch_date=day)
+        return {"daily_target": 15, "time_moscow": "22:00", "preview": preview}
+    if local.hour < 22:
+        return {"status": "not_due", "time_moscow": "22:00"}
+    results = []
+    for _ in range(15):
+        result = execute_one(batch_date=day)
+        if result.get("status") != "published":
+            return {"status": result["status"], "published_this_run": len(results), "date_moscow": day}
+        results.append(result)
+    return {"status": "batch_complete", "published_this_run": len(results), "date_moscow": day, "posts": results}
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args()
+    print(json.dumps(execute(dry_run=args.dry_run), ensure_ascii=False))
 
 
 if __name__ == "__main__":

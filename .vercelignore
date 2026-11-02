@@ -1,0 +1,10 @@
+.env
+.env.*
+.git
+.vscode
+.local-tools
+__pycache__
+**/__pycache__
+scripts
+content
+cloud/test_*.py

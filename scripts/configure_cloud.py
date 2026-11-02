@@ -17,7 +17,7 @@ BASE = 'https://api.github.com/repos/make-smart-products/lartdevivre_journal'
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('mode', choices=['secrets', 'dispatch', 'runs', 'logs'])
+    parser.add_argument('mode', choices=['secrets', 'dispatch', 'runs', 'logs', 'status'])
     parser.add_argument('--run-id', type=int)
     parser.add_argument('--publish', action='store_true')
     args = parser.parse_args()
@@ -61,6 +61,12 @@ def main():
     elif args.mode == 'dispatch':
         api('/actions/workflows/publish.yml/dispatches', {'ref': 'main', 'inputs': {'dry_run': 'false' if args.publish else 'true'}}, 'POST')
         print('Cloud publication requested.' if args.publish else 'Cloud validation requested (no Telegram publication).')
+    elif args.mode == 'status':
+        workflow = api('/actions/workflows/publish.yml')
+        print(json.dumps({key: workflow.get(key) for key in ('id', 'name', 'state', 'path', 'updated_at')}, ensure_ascii=False))
+        runs = api('/actions/workflows/publish.yml/runs?event=schedule&per_page=3')
+        for run in runs.get('workflow_runs', []):
+            print(json.dumps({key: run.get(key) for key in ('id', 'event', 'created_at', 'status', 'conclusion')}, ensure_ascii=False))
     elif args.mode == 'logs':
         import io
         import zipfile

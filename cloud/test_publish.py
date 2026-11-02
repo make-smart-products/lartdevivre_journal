@@ -124,7 +124,7 @@ class PublishTests(unittest.TestCase):
             self.assertIsNotNone(snapshots[0]["pending"])
             return [42]
         with patch.dict(publish.os.environ, {"GITHUB_TOKEN": "fake", "TELEGRAM_BOT_TOKEN": "fake"}), patch.object(publish.sys, "argv", ["publish"]), patch.object(publish, "StateStore", return_value=store), patch.object(publish, "choose_post", return_value=card), patch.object(publish, "publish", side_effect=send):
-            publish.main()
+            publish.execute_one()
         self.assertEqual(0, state["next_rubric_index"])
         self.assertIsNone(snapshots[-1]["pending"])
         self.assertEqual("painting", state["publications"][-1]["rubric"])
@@ -136,7 +136,7 @@ class PublishTests(unittest.TestCase):
         card = publish.make_card(self.obj())
         with patch.dict(publish.os.environ, {"GITHUB_TOKEN": "fake", "TELEGRAM_BOT_TOKEN": "fake"}), patch.object(publish.sys, "argv", ["publish"]), patch.object(publish, "StateStore", return_value=store), patch.object(publish, "choose_post", return_value=card), patch.object(publish, "publish", side_effect=publish.PublishError("Timeout")):
             with self.assertRaises(publish.PublishError):
-                publish.main()
+                publish.execute_one()
         self.assertEqual(0, state["next_rubric_index"])
         self.assertIsNotNone(state["pending"])
         self.assertEqual(1, store.save.call_count)

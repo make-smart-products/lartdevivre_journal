@@ -1,10 +1,9 @@
-name: Publish journal every hour
+name: Publish 15 journal posts daily
 
 on:
   schedule:
-    - cron: '0 * * * *'
-    # Recover delayed starts; state allows only one post per hourly slot.
-    - cron: '7,27,47 * * * *'
+    # 19:00 UTC = 22:00 Moscow; one block of 15 editorial posts.
+    - cron: '0 19 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -25,6 +24,8 @@ jobs:
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+      - name: Install server dependencies
+        run: python3 -m pip install -r requirements.txt
       - name: Test duplicate protection and caption validation
         run: python3 -m unittest discover -s cloud -p 'test_*.py'
       - name: Publish or validate
