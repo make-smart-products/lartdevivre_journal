@@ -1,10 +1,9 @@
-name: Publish journal every three hours
+name: Publish journal every hour
 
 on:
   schedule:
-    # UTC: Moscow is UTC+3, giving 00:00, 03:00, ... 21:00 Moscow.
-    - cron: '0 */3 * * *'
-    # Recover delayed starts; state allows only one post per three-hour slot.
+    - cron: '0 * * * *'
+    # Recover delayed starts; state allows only one post per hourly slot.
     - cron: '7,27,47 * * * *'
   workflow_dispatch:
     inputs:

@@ -23,6 +23,14 @@ MET_SEARCH = "https://collectionapi.metmuseum.org/public/collection/v1.1/search"
 REPO = "make-smart-products/lartdevivre_journal"
 CHANNEL = "@lartdevivre_journal"
 QUERIES = ["Mary Cassatt", "Katsushika Hokusai", "Vincent van Gogh", "dress", "Edgar Degas", "Paul Cezanne", "textile", "Edouard Manet", "Berthe Morisot", "vase", "Albrecht Durer", "landscape"]
+RUBRIC_ORDER = ["fashion", "architecture", "travel", "women", "painting"]
+RUBRICS = {
+    "fashion": {"label": "👗 История моды", "tag": "#ИсторияМоды", "queries": ["evening dress", "robe", "coat", "hat", "House of Worth"]},
+    "architecture": {"label": "🏛 Архитектура", "tag": "#Архитектура", "queries": ["temple", "architectural", "column", "facade", "floor plan", "cathedral"]},
+    "travel": {"label": "🧳 Культурные путешествия", "tag": "#КультурныеПутешествия", "queries": ["Venice", "Rome", "Paris", "Florence", "Kyoto", "Istanbul"]},
+    "women": {"label": "🎨 Женщины в искусстве", "tag": "#ЖенщиныВИскусстве", "queries": ["Berthe Morisot", "Mary Cassatt", "Rosa Bonheur", "Judith Leyster", "Elisabeth Louise Vigee Le Brun"]},
+    "painting": {"label": "🖼 Картина дня", "tag": "#КартинаДня"},
+}
 ARTISTS = {"Vincent van Gogh": "Винсент ван Гог", "Katsushika Hokusai": "Кацусика Хокусай", "Edgar Degas": "Эдгар Дега", "Paul Cézanne": "Поль Сезанн", "Edouard Manet": "Эдуард Мане", "Mary Cassatt": "Мэри Кассат", "Berthe Morisot": "Берта Моризо", "Albrecht Dürer": "Альбрехт Дюрер"}
 
 
@@ -63,7 +71,22 @@ def validate_post(post):
         raise PublishError("Отсутствует официальный первоисточник")
 
 
-def make_card(obj):
+def matches_rubric(obj, rubric):
+    kind = (obj.get("objectName", "") + " " + obj.get("classification", "")).lower()
+    title = obj.get("title", "").lower()
+    if rubric == "women":
+        # A portrait OF a woman is not necessarily a work BY a woman.
+        return obj.get("artistGender", "").lower() == "female"
+    if rubric == "fashion":
+        return obj.get("department") == "Costume Institute" and any(word in kind for word in ("dress", "robe", "coat", "gown", "hat", "shoe", "jacket", "ensemble", "suit"))
+    if rubric == "architecture":
+        return any(word in kind + " " + title for word in ("temple", "capital", "column", "architectural", "floor plan", "facade", "façade", "elevation", "portal", "church", "cathedral", "palace"))
+    if rubric == "travel":
+        return any(word in kind for word in ("painting", "watercolor", "print", "drawing", "photograph")) and any(place.lower() in title for place in RUBRICS["travel"]["queries"])
+    return any(word in kind for word in ("painting", "watercolor"))
+
+
+def make_card(obj, rubric="painting"):
     if not obj.get("isPublicDomain") or not obj.get("primaryImageSmall"):
         raise PublishError("Нет открытого музейного изображения")
     artist = obj.get("artistDisplayName") or obj.get("culture") or "Автор не указан в каталоге"
@@ -73,15 +96,19 @@ def make_card(obj):
     if not title or not date:
         raise PublishError("Недостаточно подтверждённых сведений")
     # Preserve original catalogue titles instead of inventing translations or facts.
-    caption = ("🏛 Музейная находка\n\n" + title + "\n" + artist + " · " + date +
-               "\n\nПеред вами произведение из открытой коллекции Метрополитен-музея. "
-               "Название и датировка приведены по музейному каталогу. "
-               "Уделите изображению минуту: что первым привлекает ваше внимание — цвет, линия или фактура? "
-               "Выберите одну деталь и попробуйте описать её тремя словами.\n\n"
-               "Источник и изображение: Метрополитен-музей, Public Domain.\n#ИскусствоЖить")
+    config = RUBRICS[rubric]
+    prompts = {
+        "fashion": "Исторический костюм из коллекции Института костюма. Присмотритесь к силуэту, линии плеч и отделке: какая деталь кажется вам самой выразительной? Представьте, как меняется впечатление от наряда при движении и другом освещении.",
+        "architecture": "Архитектура из музейной коллекции: сооружения, их фрагменты и проекты. Проследите за ритмом линий и пропорциями. Какая деталь задаёт характер всему пространству? Попробуйте мысленно изменить масштаб: что останется узнаваемым?",
+        "travel": "Путешествие через искусство: перед вами исторический образ места, название которого сохранено в музейном каталоге. Посмотрите, как художник выстраивает пространство. Какая деталь помогает почувствовать атмосферу? Это взгляд автора своего времени, а не современный путеводитель.",
+        "women": "Автор этой работы — художница, указанная в музейном каталоге. Уделите изображению минуту: как она направляет ваше внимание? Начните с самого заметного элемента, затем найдите тихую деталь, которую легко пропустить при первом взгляде.",
+        "painting": "Произведение из открытой музейной коллекции. Уделите изображению минуту: что первым привлекает ваше внимание — цвет, линия или фактура? Выберите одну деталь и попробуйте описать её тремя словами. Затем посмотрите на картину целиком ещё раз.",
+    }
+    caption = (config["label"] + "\n\n" + title + "\n" + artist + " · " + date +
+               "\n\n" + prompts[rubric] + "\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n" + config["tag"])
     post = {"topic": title, "caption": caption, "images": [obj["primaryImageSmall"]],
             "source_url": "https://www.metmuseum.org/art/collection/search/" + str(obj["objectID"]),
-            "object_id": obj["objectID"]}
+            "object_id": obj["objectID"], "rubric": rubric}
     for image in obj.get("additionalImages", []):
         if image not in post["images"] and urllib.parse.urlparse(image).hostname == "images.metmuseum.org":
             post["images"].append(image)
@@ -91,22 +118,27 @@ def make_card(obj):
     return post
 
 
-def choose_post(state, fetch=request):
+def choose_post(state, fetch=request, rubric=None):
+    rubric = rubric or RUBRIC_ORDER[state.get("next_rubric_index", 0) % len(RUBRIC_ORDER)]
     used = {int(x) for x in state.get("used_object_ids", [])}
     # Prepared cards have individual editorial captions. Automatic discovery keeps
     # the channel supplied after this queue is consumed, without API subscriptions.
     for path in sorted((ROOT / "cloud" / "queue").glob("*.json")):
         post = json.loads(path.read_text(encoding="utf-8-sig"))
-        if int(post["object_id"]) not in used:
+        if post.get("rubric", "painting") == rubric and int(post["object_id"]) not in used:
             obj = fetch(MET + "/objects/" + str(post["object_id"]))
-            if not obj.get("isPublicDomain") or not obj.get("primaryImageSmall"):
+            if not obj.get("isPublicDomain") or not obj.get("primaryImageSmall") or not matches_rubric(obj, rubric):
                 continue
-            post["images"] = [obj["primaryImageSmall"]]
+            approved = [obj["primaryImageSmall"]] + obj.get("additionalImages", [])
+            selected = [image for image in post.get("images", []) if image in approved]
+            post["images"] = selected[:3] or [obj["primaryImageSmall"]]
+            post["rubric"] = rubric
             validate_post(post)
             return post
-    start = len(used) % len(QUERIES)
-    for offset in range(len(QUERIES)):
-        query = QUERIES[(start + offset) % len(QUERIES)]
+    queries = RUBRICS[rubric].get("queries", QUERIES)
+    start = len(used) % len(queries)
+    for offset in range(len(queries)):
+        query = queries[(start + offset) % len(queries)]
         for offset_in_results in range(0, 300, 100):
             try:
                 results = fetch(MET_SEARCH + "?" + urllib.parse.urlencode({
@@ -117,12 +149,14 @@ def choose_post(state, fetch=request):
             random.Random(len(used)).shuffle(ids)
             for object_id in ids[:20]:
                 try:
-                    return make_card(fetch(MET + "/objects/" + str(object_id)))
+                    obj = fetch(MET + "/objects/" + str(object_id))
+                    if matches_rubric(obj, rubric):
+                        return make_card(obj, rubric)
                 except PublishError:
                     continue
             if offset_in_results + 100 >= results.get("total", 0):
                 break
-    raise PublishError("Не найден новый материал с открытыми официальными изображениями")
+    raise PublishError("Не найден новый материал рубрики " + RUBRICS[rubric]["label"] + " с открытыми официальными изображениями")
 
 
 def ensure_ready(state, now):
@@ -130,8 +164,8 @@ def ensure_ready(state, now):
         raise PublishError("Есть неподтверждённая отправка: требуется проверка канала, автоповтор запрещён")
     last = state.get("last_published_at")
     # A delayed GitHub run must not cause the next scheduled slot to be skipped.
-    # Suppress duplicate manual runs in the same three-hour UTC slot instead.
-    if last and int(now.timestamp()) // 10800 <= int(dt.datetime.fromisoformat(last).timestamp()) // 10800:
+    # Suppress duplicate manual/watchdog runs in the same hourly UTC slot.
+    if last and int(now.timestamp()) // 3600 <= int(dt.datetime.fromisoformat(last).timestamp()) // 3600:
         return False
     return True
 
@@ -181,7 +215,7 @@ def main():
     state = store.load() if store else json.loads((ROOT / "cloud" / "state.json").read_text(encoding="utf-8-sig"))
     now = dt.datetime.now(dt.timezone.utc)
     if not ensure_ready(state, now) and not args.dry_run:
-        print("В текущем трёхчасовом интервале материал уже опубликован.")
+        print("В текущем часовом интервале материал уже опубликован.")
         return
     post = choose_post(state)
     if args.dry_run:
@@ -210,6 +244,8 @@ def main():
     state["last_published_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
     state.setdefault("publications", []).append({"object_id": post["object_id"], "message_ids": message_ids,
                                                "source_url": post["source_url"], "published_at": state["last_published_at"]})
+    state["next_rubric_index"] = (state.get("next_rubric_index", 0) + 1) % len(RUBRIC_ORDER)
+    state["publications"][-1]["rubric"] = post["rubric"]
     state["pending"] = None
     store.save(state, "Record confirmed Telegram publication")
     print("Опубликовано: https://t.me/lartdevivre_journal/" + str(message_ids[0]))
