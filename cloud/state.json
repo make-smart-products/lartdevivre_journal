@@ -15,7 +15,22 @@
     438009
   ],
   "last_published_at": "2026-11-02T19:32:41.812874+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 48882,
+    "attempted_at": "2026-11-02T19:32:43.202750+00:00",
+    "post": {
+      "topic": "Buddha’s Hand Citron (Busshukan)",
+      "caption": "🖼 Картина дня\n\nBuddha’s Hand Citron (Busshukan)\nКацусика Хокусай · mid-19th century\n\nПроизведение из открытой музейной коллекции. Уделите изображению минуту: что первым привлекает ваше внимание — цвет, линия или фактура? Выберите одну деталь и попробуйте описать её тремя словами. Затем посмотрите на картину целиком ещё раз.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/as/web-large/DP-24850-001.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/48882",
+      "object_id": 48882,
+      "rubric": "painting"
+    },
+    "batch_date": "2026-11-02",
+    "sha256": "3e3c75aa5a7b185f16530dd53be1092a4a687661d9a9bf7d4b5594f18d644b77"
+  },
   "publications": [
     {
       "object_id": 436528,
