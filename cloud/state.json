@@ -8,25 +8,11 @@
     436965,
     436528,
     436535,
-    337627
+    337627,
+    83980
   ],
-  "last_published_at": "2026-11-02T17:16:34.444407+00:00",
-  "pending": {
-    "object_id": 83980,
-    "attempted_at": "2026-11-02T18:13:41.282496+00:00",
-    "post": {
-      "object_id": 83980,
-      "rubric": "fashion",
-      "topic": "Дом Worth — чёрные розы",
-      "caption": "👗 История моды · Чёрные розы\n\nВечернее платье дома Worth, 1898–1900.\n\nНа рубеже веков драму можно было создать двумя цветами. В этом наряде Жан-Филипп Ворт использовал контраст чёрного и белого; музей связывает образ чёрных роз с меланхоличной поэзией эпохи.\n\nРассмотрите общий силуэт и отделку: что сильнее притягивает взгляд — форма или узор?\n\nИсточник и изображения: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/DT10337.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/CT11577.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/83980"
-    },
-    "sha256": "d417bfa30d79328f7169a570fafe7a21c1abba128e5b6fe675b7dafaddeba07e"
-  },
+  "last_published_at": "2026-11-02T18:13:44.359960+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -51,6 +37,17 @@
       ],
       "source_url": "https://www.metmuseum.org/art/collection/search/337627",
       "published_at": "2026-11-02T17:16:34.444407+00:00"
+    },
+    {
+      "object_id": 83980,
+      "message_ids": [
+        27,
+        28
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/83980",
+      "published_at": "2026-11-02T18:13:44.359960+00:00",
+      "rubric": "fashion"
     }
-  ]
+  ],
+  "next_rubric_index": 1
 }
