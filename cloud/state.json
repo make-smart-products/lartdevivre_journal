@@ -23,7 +23,22 @@
     463721
   ],
   "last_published_at": "2026-11-02T19:36:15.283157+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 416885,
+    "attempted_at": "2026-11-02T19:36:16.731328+00:00",
+    "post": {
+      "topic": "Frontispiece, from \"Les Caprices\" Series A, The Florence Set",
+      "caption": "🧳 Культурные путешествия\n\nFrontispiece, from \"Les Caprices\" Series A, The Florence Set\nJacques Callot · 1617\n\nПутешествие через искусство: перед вами исторический образ места, название которого сохранено в музейном каталоге. Посмотрите, как художник выстраивает пространство. Какая деталь помогает почувствовать атмосферу? Это взгляд автора своего времени, а не современный путеводитель.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP888279.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/416885",
+      "object_id": 416885,
+      "rubric": "travel"
+    },
+    "batch_date": "2026-11-02",
+    "sha256": "93defc2e1bb531b37c331cb0509b0ef60e8c758d3fd77e711f6feda8203cf932"
+  },
   "publications": [
     {
       "object_id": 436528,
