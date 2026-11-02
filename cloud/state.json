@@ -18,7 +18,24 @@
     262468
   ],
   "last_published_at": "2026-11-02T19:32:59.751384+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 653246,
+    "attempted_at": "2026-11-02T19:33:01.042867+00:00",
+    "post": {
+      "topic": "Amusements at Higashiyama in Kyoto",
+      "caption": "🧳 Культурные путешествия\n\nAmusements at Higashiyama in Kyoto\nStudio of Kano Sadanobu · early 1620s\n\nПутешествие через искусство: перед вами исторический образ места, название которого сохранено в музейном каталоге. Посмотрите, как художник выстраивает пространство. Какая деталь помогает почувствовать атмосферу? Это взгляд автора своего времени, а не современный путеводитель.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/as/web-large/DP344319.jpg",
+        "https://images.metmuseum.org/CRDImages/as/original/DP344328.jpg",
+        "https://images.metmuseum.org/CRDImages/as/original/DP340788.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/653246",
+      "object_id": 653246,
+      "rubric": "travel"
+    },
+    "batch_date": "2026-11-02",
+    "sha256": "7a84f67c4eb08a1235e1dfc8e52b2563b5e84e82e3a95a0ac8e04004559cb9ee"
+  },
   "publications": [
     {
       "object_id": 436528,
