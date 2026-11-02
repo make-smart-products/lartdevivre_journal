@@ -22,7 +22,24 @@
     106552
   ],
   "last_published_at": "2026-11-02T19:36:05.597043+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 463721,
+    "attempted_at": "2026-11-02T19:36:07.173470+00:00",
+    "post": {
+      "topic": "Double Column",
+      "caption": "🏛 Архитектура\n\nDouble Column\nFrench · 13th–14th century\n\nАрхитектура из музейной коллекции: сооружения, их фрагменты и проекты. Проследите за ритмом линий и пропорциями. Какая деталь задаёт характер всему пространству? Попробуйте мысленно изменить масштаб: что останется узнаваемым?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/md/web-large/16_32_10a_cdi_s3.jpg",
+        "https://images.metmuseum.org/CRDImages/md/original/16_32_10a_cdi_s1.jpg",
+        "https://images.metmuseum.org/CRDImages/md/original/16_32_10a_cdi_s2.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/463721",
+      "object_id": 463721,
+      "rubric": "architecture"
+    },
+    "batch_date": "2026-11-02",
+    "sha256": "3a62cb4680439de56d73c3809db27bafbbd90b550b36dd67da3136983163be78"
+  },
   "publications": [
     {
       "object_id": 436528,
