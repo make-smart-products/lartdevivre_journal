@@ -57,6 +57,34 @@ class PublishTests(unittest.TestCase):
                 publish.request("https://api.telegram.org/botSECRET/sendPhoto", {})
         self.assertNotIn("SECRET", str(error.exception))
 
+    def test_search_uses_current_api_and_reads_next_page(self):
+        calls = []
+        used = list(range(100)) + [436528, 436535]
+        def fetch(url):
+            calls.append(url)
+            if "/v1.1/search?" in url:
+                query = publish.urllib.parse.parse_qs(publish.urllib.parse.urlparse(url).query)
+                return {"total": 101, "objectIDs": list(range(100)) if query["offset"] == ["0"] else [123]}
+            if url.endswith("/objects/123"):
+                return self.obj()
+            self.fail("Unexpected API URL: " + url)
+        with patch.object(publish, "QUERIES", ["test"]):
+            card = publish.choose_post({"used_object_ids": used}, fetch)
+        self.assertEqual(123, card["object_id"])
+        self.assertTrue(any("offset=100" in url for url in calls))
+        self.assertFalse(any("/v1/search" in url for url in calls))
+
+    def test_failed_search_does_not_block_other_queries(self):
+        def fetch(url):
+            if "q=broken" in url:
+                raise publish.PublishError("Сервис вернул HTTP 410")
+            if "/search?" in url:
+                return {"total": 1, "objectIDs": [123]}
+            return self.obj()
+        with patch.object(publish, "QUERIES", ["broken", "working"]):
+            card = publish.choose_post({"used_object_ids": [436528, 436535]}, fetch)
+        self.assertEqual(123, card["object_id"])
+
 
 if __name__ == "__main__":
     unittest.main()

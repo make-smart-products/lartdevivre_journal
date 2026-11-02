@@ -19,6 +19,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MET = "https://collectionapi.metmuseum.org/public/collection/v1"
+MET_SEARCH = "https://collectionapi.metmuseum.org/public/collection/v1.1/search"
 REPO = "make-smart-products/lartdevivre_journal"
 CHANNEL = "@lartdevivre_journal"
 QUERIES = ["Mary Cassatt", "Katsushika Hokusai", "Vincent van Gogh", "dress", "Edgar Degas", "Paul Cezanne", "textile", "Edouard Manet", "Berthe Morisot", "vase", "Albrecht Durer", "landscape"]
@@ -106,14 +107,21 @@ def choose_post(state, fetch=request):
     start = len(used) % len(QUERIES)
     for offset in range(len(QUERIES)):
         query = QUERIES[(start + offset) % len(QUERIES)]
-        results = fetch(MET + "/search?" + urllib.parse.urlencode({"hasImages": "true", "q": query}))
-        ids = [x for x in results.get("objectIDs", []) or [] if int(x) not in used]
-        random.Random(len(used)).shuffle(ids)
-        for object_id in ids[:20]:
+        for offset_in_results in range(0, 300, 100):
             try:
-                return make_card(fetch(MET + "/objects/" + str(object_id)))
+                results = fetch(MET_SEARCH + "?" + urllib.parse.urlencode({
+                    "hasImages": "true", "q": query, "limit": 100, "offset": offset_in_results}))
             except PublishError:
-                continue
+                break
+            ids = [x for x in results.get("objectIDs", []) or [] if int(x) not in used]
+            random.Random(len(used)).shuffle(ids)
+            for object_id in ids[:20]:
+                try:
+                    return make_card(fetch(MET + "/objects/" + str(object_id)))
+                except PublishError:
+                    continue
+            if offset_in_results + 100 >= results.get("total", 0):
+                break
     raise PublishError("Не найден новый материал с открытыми официальными изображениями")
 
 

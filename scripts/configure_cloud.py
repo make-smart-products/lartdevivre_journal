@@ -17,7 +17,9 @@ BASE = 'https://api.github.com/repos/make-smart-products/lartdevivre_journal'
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('mode', choices=['secrets', 'dispatch', 'runs'])
+    parser.add_argument('mode', choices=['secrets', 'dispatch', 'runs', 'logs'])
+    parser.add_argument('--run-id', type=int)
+    parser.add_argument('--publish', action='store_true')
     args = parser.parse_args()
     env = dict(os.environ, GIT_TERMINAL_PROMPT='0', GCM_INTERACTIVE='never')
     result = subprocess.run(['git', 'credential', 'fill'], input='protocol=https\nhost=github.com\n\n',
@@ -57,8 +59,22 @@ def main():
         api('/actions/secrets/TELEGRAM_BOT_TOKEN', {'encrypted_value': encrypted, 'key_id': key['key_id']}, 'PUT')
         print('TELEGRAM_BOT_TOKEN stored as encrypted GitHub Actions secret.')
     elif args.mode == 'dispatch':
-        api('/actions/workflows/publish.yml/dispatches', {'ref': 'main', 'inputs': {'dry_run': 'true'}}, 'POST')
-        print('Cloud validation requested (no Telegram publication).')
+        api('/actions/workflows/publish.yml/dispatches', {'ref': 'main', 'inputs': {'dry_run': 'false' if args.publish else 'true'}}, 'POST')
+        print('Cloud publication requested.' if args.publish else 'Cloud validation requested (no Telegram publication).')
+    elif args.mode == 'logs':
+        import io
+        import zipfile
+        if not args.run_id:
+            raise RuntimeError('Missing run id')
+        req = urllib.request.Request(BASE + '/actions/runs/' + str(args.run_id) + '/logs', headers={
+            'Authorization': 'Bearer ' + credentials['password'], 'User-Agent': 'LArtDeVivreSetup'})
+        with urllib.request.urlopen(req, timeout=30) as response:
+            archive = zipfile.ZipFile(io.BytesIO(response.read()))
+        for name in archive.namelist():
+            for line in archive.read(name).decode('utf-8', errors='replace').splitlines():
+                if any(word in line.lower() for word in ('ошибка:', 'traceback', 'publisherror', 'error:', 'validated')):
+                    line = re.sub(r'bot[0-9]+:[A-Za-z0-9_-]+', 'bot[REDACTED]', line)
+                    print(line)
     else:
         runs = api('/actions/workflows/publish.yml/runs?per_page=3')
         for run in runs.get('workflow_runs', []):
