@@ -9,26 +9,11 @@
     436528,
     436535,
     337627,
-    83980
+    83980,
+    547802
   ],
-  "last_published_at": "2026-11-02T18:13:44.359960+00:00",
-  "pending": {
-    "object_id": 547802,
-    "attempted_at": "2026-11-02T19:32:29.807805+00:00",
-    "post": {
-      "object_id": 547802,
-      "rubric": "architecture",
-      "topic": "Храм Дендура — архитектура как образ мира",
-      "caption": "🏛 Архитектура · Храм как образ мира\n\nХрам Дендура, Египет, римский период.\n\nВ его архитектуре природа превращается в символ: колонны напоминают связки папируса, а у основания высечены папирусы и лотосы. Над входом — солнечный диск с распростёртыми крыльями.\n\nПосмотрите на здание как на маленькую вселенную: земля внизу, растения выше, небо над головой.\n\nИсточник и изображения: Метрополитен-музей, Public Domain.\n#Архитектура",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/eg/web-large/DP240337.jpg",
-        "https://images.metmuseum.org/CRDImages/eg/original/DT563.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/547802"
-    },
-    "batch_date": "2026-11-02",
-    "sha256": "d8f953c3623d71587567b5e15aae1e501bcc5e283698b4fd018fcf8e3f8a3877"
-  },
+  "last_published_at": "2026-11-02T19:32:32.593988+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -63,7 +48,24 @@
       "source_url": "https://www.metmuseum.org/art/collection/search/83980",
       "published_at": "2026-11-02T18:13:44.359960+00:00",
       "rubric": "fashion"
+    },
+    {
+      "object_id": 547802,
+      "message_ids": [
+        29,
+        30
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/547802",
+      "published_at": "2026-11-02T19:32:32.593988+00:00",
+      "rubric": "architecture",
+      "batch_date": "2026-11-02"
     }
   ],
-  "next_rubric_index": 1
+  "next_rubric_index": 2,
+  "daily_batches": {
+    "2026-11-02": {
+      "completed": 1,
+      "target": 15
+    }
+  }
 }
