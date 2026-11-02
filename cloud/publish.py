@@ -264,9 +264,9 @@ def execute(dry_run=False, now=None):
     day = local.date().isoformat()
     if dry_run:
         preview = execute_one(dry_run=True, batch_date=day)
-        return {"daily_target": 15, "time_moscow": "22:00", "preview": preview}
-    if local.hour < 22:
-        return {"status": "not_due", "time_moscow": "22:00"}
+        return {"daily_target": 15, "time_moscow": "22:30", "preview": preview}
+    if (local.hour, local.minute) < (22, 30):
+        return {"status": "not_due", "time_moscow": "22:30"}
     results = []
     for _ in range(15):
         result = execute_one(batch_date=day)

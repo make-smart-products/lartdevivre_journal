@@ -7,6 +7,6 @@
     }
   },
   "crons": [
-    {"path": "/api/publish", "schedule": "0 19 * * *"}
+    {"path": "/api/publish", "schedule": "30 19 * * *"}
   ]
 }

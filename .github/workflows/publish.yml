@@ -2,8 +2,8 @@ name: Publish 15 journal posts daily
 
 on:
   schedule:
-    # 19:00 UTC = 22:00 Moscow; one block of 15 editorial posts.
-    - cron: '0 19 * * *'
+    # 19:30 UTC = 22:30 Moscow; one block of 15 editorial posts.
+    - cron: '30 19 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

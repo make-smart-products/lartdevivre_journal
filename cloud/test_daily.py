@@ -26,7 +26,7 @@ class DailyBatchTests(unittest.TestCase):
 
     def test_full_block_has_fifteen_posts_and_three_per_rubric(self):
         state = {'next_rubric_index': 1}
-        result, calls = self.run_batch(state, dt.datetime(2026, 11, 3, 19, 0, tzinfo=dt.timezone.utc))
+        result, calls = self.run_batch(state, dt.datetime(2026, 11, 3, 19, 30, tzinfo=dt.timezone.utc))
         self.assertEqual(15, calls)
         self.assertEqual(15, result['published_this_run'])
         self.assertEqual({rubric: 3 for rubric in publish.RUBRIC_ORDER}, dict(Counter(x['rubric'] for x in state['publications'])))
@@ -43,11 +43,11 @@ class DailyBatchTests(unittest.TestCase):
         self.assertEqual(8, calls)
         self.assertEqual(15, state['daily_batches']['2026-11-03']['completed'])
 
-    def test_does_not_send_before_ten_pm_moscow(self):
-        result, calls = self.run_batch({}, dt.datetime(2026, 11, 3, 18, 59, tzinfo=dt.timezone.utc))
+    def test_does_not_send_before_ten_thirty_pm_moscow(self):
+        result, calls = self.run_batch({}, dt.datetime(2026, 11, 3, 19, 29, tzinfo=dt.timezone.utc))
         self.assertEqual('not_due', result['status'])
         self.assertEqual(0, calls)
 
     def test_pending_send_blocks_batch_without_new_messages(self):
         with self.assertRaises(publish.PublishError):
-            self.run_batch({'pending': {'object_id': 123}}, dt.datetime(2026, 11, 3, 19, 0, tzinfo=dt.timezone.utc))
+            self.run_batch({'pending': {'object_id': 123}}, dt.datetime(2026, 11, 3, 19, 30, tzinfo=dt.timezone.utc))
