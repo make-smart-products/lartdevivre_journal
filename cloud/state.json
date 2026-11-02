@@ -17,7 +17,22 @@
     159315
   ],
   "last_published_at": "2026-11-02T19:32:55.582807+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 262468,
+    "attempted_at": "2026-11-02T19:32:56.859393+00:00",
+    "post": {
+      "topic": "Notre-Dame (façade)",
+      "caption": "🏛 Архитектура\n\nNotre-Dame (façade)\nEdouard Baldus · 1860s\n\nАрхитектура из музейной коллекции: сооружения, их фрагменты и проекты. Проследите за ритмом линий и пропорциями. Какая деталь задаёт характер всему пространству? Попробуйте мысленно изменить масштаб: что останется узнаваемым?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ph/web-large/DP-43768-003.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/262468",
+      "object_id": 262468,
+      "rubric": "architecture"
+    },
+    "batch_date": "2026-11-02",
+    "sha256": "a18a3f170f37c0758642686083a1262438df4fa4f5ad513ded51c2fb9ee0de15"
+  },
   "publications": [
     {
       "object_id": 436528,
