@@ -15,27 +15,11 @@
     438009,
     48882,
     159315,
-    262468
+    262468,
+    653246
   ],
-  "last_published_at": "2026-11-02T19:32:59.751384+00:00",
-  "pending": {
-    "object_id": 653246,
-    "attempted_at": "2026-11-02T19:33:01.042867+00:00",
-    "post": {
-      "topic": "Amusements at Higashiyama in Kyoto",
-      "caption": "🧳 Культурные путешествия\n\nAmusements at Higashiyama in Kyoto\nStudio of Kano Sadanobu · early 1620s\n\nПутешествие через искусство: перед вами исторический образ места, название которого сохранено в музейном каталоге. Посмотрите, как художник выстраивает пространство. Какая деталь помогает почувствовать атмосферу? Это взгляд автора своего времени, а не современный путеводитель.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/as/web-large/DP344319.jpg",
-        "https://images.metmuseum.org/CRDImages/as/original/DP344328.jpg",
-        "https://images.metmuseum.org/CRDImages/as/original/DP340788.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/653246",
-      "object_id": 653246,
-      "rubric": "travel"
-    },
-    "batch_date": "2026-11-02",
-    "sha256": "7a84f67c4eb08a1235e1dfc8e52b2563b5e84e82e3a95a0ac8e04004559cb9ee"
-  },
+  "last_published_at": "2026-11-02T19:33:06.669602+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -133,12 +117,24 @@
       "published_at": "2026-11-02T19:32:59.751384+00:00",
       "rubric": "architecture",
       "batch_date": "2026-11-02"
+    },
+    {
+      "object_id": 653246,
+      "message_ids": [
+        38,
+        39,
+        40
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/653246",
+      "published_at": "2026-11-02T19:33:06.669602+00:00",
+      "rubric": "travel",
+      "batch_date": "2026-11-02"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
-      "completed": 6,
+      "completed": 7,
       "target": 15
     }
   }
