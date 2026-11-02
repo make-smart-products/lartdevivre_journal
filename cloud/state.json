@@ -7,23 +7,11 @@
     435882,
     436965,
     436528,
-    436535
+    436535,
+    337627
   ],
-  "last_published_at": "2026-11-01T21:44:21.876843+00:00",
-  "pending": {
-    "object_id": 337627,
-    "attempted_at": "2026-11-02T17:16:29.211568+00:00",
-    "post": {
-      "topic": "Berthe Morisot (in Silhouette)",
-      "caption": "🏛 Музейная находка\n\nBerthe Morisot (in Silhouette)\nЭдуард Мане · 1872–74, published 1884\n\nПеред вами произведение из открытой коллекции Метрополитен-музея. Название и датировка приведены по музейному каталогу. Уделите изображению минуту: что первым привлекает ваше внимание — цвет, линия или фактура? Выберите одну деталь и попробуйте описать её тремя словами.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИскусствоЖить",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP815336.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/337627",
-      "object_id": 337627
-    },
-    "sha256": "8e63bcb878ffdc01d1ba59f96b2511a0e70f9120c52deeb629881cdb932297d1"
-  },
+  "last_published_at": "2026-11-02T17:16:34.444407+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -40,6 +28,14 @@
       ],
       "source_url": "https://www.metmuseum.org/art/collection/search/436535",
       "published_at": "2026-11-01T21:44:21.876843+00:00"
+    },
+    {
+      "object_id": 337627,
+      "message_ids": [
+        26
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/337627",
+      "published_at": "2026-11-02T17:16:34.444407+00:00"
     }
   ]
 }
