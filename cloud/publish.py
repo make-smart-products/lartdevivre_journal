@@ -22,7 +22,8 @@ MET = "https://collectionapi.metmuseum.org/public/collection/v1"
 MET_SEARCH = "https://collectionapi.metmuseum.org/public/collection/v1.1/search"
 REPO = "make-smart-products/lartdevivre_journal"
 CHANNEL = "@lartdevivre_journal"
-QUERIES = ["Mary Cassatt", "Katsushika Hokusai", "Vincent van Gogh", "dress", "Edgar Degas", "Paul Cezanne", "textile", "Edouard Manet", "Berthe Morisot", "vase", "Albrecht Durer", "landscape"]
+QUERIES = ["Vincent van Gogh", "Edgar Degas", "Paul Cezanne", "Edouard Manet", "Berthe Morisot", "Rembrandt", "landscape"]
+RESERVE_OBJECT_IDS = {"painting": [436531, 436533, 437423, 437430]}
 RUBRIC_ORDER = ["fashion", "architecture", "travel", "women", "painting"]
 RUBRICS = {
     "fashion": {"label": "👗 История моды", "tag": "#ИсторияМоды", "queries": ["evening dress", "robe", "coat", "hat", "House of Worth"]},
@@ -138,14 +139,27 @@ def choose_post(state, fetch=request, rubric=None):
             post["rubric"] = rubric
             validate_post(post)
             return post
+    # Known catalogue IDs provide a small reserve when broad search is noisy.
+    # Every candidate still needs live metadata, public-domain rights and a new ID.
+    for object_id in RESERVE_OBJECT_IDS.get(rubric, []):
+        if object_id in used:
+            continue
+        try:
+            obj = fetch(MET + "/objects/" + str(object_id))
+            if matches_rubric(obj, rubric):
+                return make_card(obj, rubric)
+        except PublishError:
+            continue
     queries = RUBRICS[rubric].get("queries", QUERIES)
     start = len(used) % len(queries)
     for offset in range(len(queries)):
         query = queries[(start + offset) % len(queries)]
         for offset_in_results in range(0, 300, 100):
             try:
-                results = fetch(MET_SEARCH + "?" + urllib.parse.urlencode({
-                    "hasImages": "true", "q": query, "limit": 100, "offset": offset_in_results}))
+                params = {"hasImages": "true", "q": query, "limit": 100, "offset": offset_in_results}
+                if rubric == "painting":
+                    params["departmentId"] = 11  # European Paintings; exclude costume and object matches.
+                results = fetch(MET_SEARCH + "?" + urllib.parse.urlencode(params))
             except PublishError:
                 break
             ids = [x for x in results.get("objectIDs", []) or [] if int(x) not in used]

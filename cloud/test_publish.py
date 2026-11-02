@@ -68,7 +68,7 @@ class PublishTests(unittest.TestCase):
             if url.endswith("/objects/123"):
                 return self.obj()
             self.fail("Unexpected API URL: " + url)
-        with patch.object(publish, "QUERIES", ["test"]):
+        with patch.object(publish, "QUERIES", ["test"]), patch.object(publish, "RESERVE_OBJECT_IDS", {}):
             card = publish.choose_post({"used_object_ids": used}, fetch, rubric="painting")
         self.assertEqual(123, card["object_id"])
         self.assertTrue(any("offset=100" in url for url in calls))
@@ -81,9 +81,21 @@ class PublishTests(unittest.TestCase):
             if "/search?" in url:
                 return {"total": 1, "objectIDs": [123]}
             return self.obj()
-        with patch.object(publish, "QUERIES", ["broken", "working"]):
+        with patch.object(publish, "QUERIES", ["broken", "working"]), patch.object(publish, "RESERVE_OBJECT_IDS", {}):
             card = publish.choose_post({"used_object_ids": [436528, 436535]}, fetch, rubric="painting")
         self.assertEqual(123, card["object_id"])
+
+    def test_painting_reserve_skips_used_work_and_checks_live_rights(self):
+        calls = []
+        def fetch(url):
+            calls.append(url)
+            obj = self.obj()
+            obj['objectID'] = 123
+            return obj
+        with patch.object(publish, 'RESERVE_OBJECT_IDS', {'painting': [122, 123]}):
+            card = publish.choose_post({'used_object_ids': [436528, 436535, 122]}, fetch, rubric='painting')
+        self.assertEqual(123, card['object_id'])
+        self.assertEqual([publish.MET + '/objects/123'], calls)
 
     def test_womens_rubric_rejects_portrait_of_woman_by_man(self):
         obj = self.obj()
