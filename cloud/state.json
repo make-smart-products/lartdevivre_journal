@@ -16,7 +16,24 @@
     48882
   ],
   "last_published_at": "2026-11-02T19:32:46.047697+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 159315,
+    "attempted_at": "2026-11-02T19:32:47.739042+00:00",
+    "post": {
+      "topic": "Afternoon jacket",
+      "caption": "👗 История моды\n\nAfternoon jacket\nHouse of Worth · 1895\n\nИсторический костюм из коллекции Института костюма. Присмотритесь к силуэту, линии плеч и отделке: какая деталь кажется вам самой выразительной? Представьте, как меняется впечатление от наряда при движении и другом освещении.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ci/web-large/31.40_front_CP4.jpg",
+        "https://images.metmuseum.org/CRDImages/ci/original/31.40_back_CP4.jpg",
+        "https://images.metmuseum.org/CRDImages/ci/original/31.40.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/159315",
+      "object_id": 159315,
+      "rubric": "fashion"
+    },
+    "batch_date": "2026-11-02",
+    "sha256": "96750476f9d1dabea64d25b33b6dd11bcf1708a896da26343be9a7f195110384"
+  },
   "publications": [
     {
       "object_id": 436528,
