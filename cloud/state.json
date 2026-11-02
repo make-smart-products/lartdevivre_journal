@@ -23,27 +23,11 @@
     463721,
     416885,
     343303,
-    436533
+    436533,
+    81605
   ],
-  "last_published_at": "2026-11-02T19:36:29.562526+00:00",
-  "pending": {
-    "object_id": 81605,
-    "attempted_at": "2026-11-02T19:36:30.779459+00:00",
-    "post": {
-      "topic": "Dinner dress",
-      "caption": "👗 История моды\n\nDinner dress\nHouse of Worth · ca. 1877\n\nИсторический костюм из коллекции Института костюма. Присмотритесь к силуэту, линии плеч и отделке: какая деталь кажется вам самой выразительной? Представьте, как меняется впечатление от наряда при движении и другом освещении.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/C.I.69.33.3ab_F.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/C.I.69.33.3ab_S.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/C.I.69.33.3ab_TQL.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/81605",
-      "object_id": 81605,
-      "rubric": "fashion"
-    },
-    "batch_date": "2026-11-02",
-    "sha256": "fda711b6257dcdf24d4aec41dbe07a4ae2057c6487132e64324958b4d69afeda"
-  },
+  "last_published_at": "2026-11-02T19:36:36.961028+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -229,12 +213,24 @@
       "published_at": "2026-11-02T19:36:29.562526+00:00",
       "rubric": "painting",
       "batch_date": "2026-11-02"
+    },
+    {
+      "object_id": 81605,
+      "message_ids": [
+        54,
+        55,
+        56
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/81605",
+      "published_at": "2026-11-02T19:36:36.961028+00:00",
+      "rubric": "fashion",
+      "batch_date": "2026-11-02"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
-      "completed": 14,
+      "completed": 15,
       "target": 15
     }
   }
