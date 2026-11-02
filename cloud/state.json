@@ -19,7 +19,23 @@
     653246
   ],
   "last_published_at": "2026-11-02T19:33:06.669602+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 334494,
+    "attempted_at": "2026-11-02T19:33:07.967257+00:00",
+    "post": {
+      "topic": "Sheet of Studies for \"The Horse Fair\"",
+      "caption": "🎨 Женщины в искусстве\n\nSheet of Studies for \"The Horse Fair\"\nRosa Bonheur · 1840–99\n\nАвтор этой работы — художница, указанная в музейном каталоге. Уделите изображению минуту: как она направляет ваше внимание? Начните с самого заметного элемента, затем найдите тихую деталь, которую легко пропустить при первом взгляде.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP805215.jpg",
+        "https://images.metmuseum.org/CRDImages/dp/original/1991.463.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/334494",
+      "object_id": 334494,
+      "rubric": "women"
+    },
+    "batch_date": "2026-11-02",
+    "sha256": "4242a9f7aba8e7940ddc08aecf06e9d764579a3cbea9e7a4ed27a214bb75392d"
+  },
   "publications": [
     {
       "object_id": 436528,
