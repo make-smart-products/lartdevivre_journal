@@ -11,25 +11,11 @@
     337627,
     83980,
     547802,
-    12460
+    12460,
+    438009
   ],
-  "last_published_at": "2026-11-02T19:32:38.179215+00:00",
-  "pending": {
-    "object_id": 438009,
-    "attempted_at": "2026-11-02T19:32:39.882672+00:00",
-    "post": {
-      "object_id": 438009,
-      "rubric": "women",
-      "topic": "Берта Моризо — Розовое платье",
-      "caption": "🎨 Женщины в искусстве · Берта Моризо\n\n«Розовое платье», около 1870 года.\n\nЭто одна из немногих сохранившихся ранних работ художницы. По воспоминаниям очевидца, Моризо возвращалась к портрету несколько сеансов и переписывала уже сделанное.\n\nЗа ощущением лёгкости — настойчивая работа. Посмотрите, как светлое платье и свободная живопись объединяют фигуру с окружающим пространством.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ep/web-large/DT1927.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/438009"
-    },
-    "batch_date": "2026-11-02",
-    "sha256": "39bd0ca7fa19fd2c97598057f5bfb73a17589564856da0d8c9ceba562da1e682"
-  },
+  "last_published_at": "2026-11-02T19:32:41.812874+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -85,12 +71,22 @@
       "published_at": "2026-11-02T19:32:38.179215+00:00",
       "rubric": "travel",
       "batch_date": "2026-11-02"
+    },
+    {
+      "object_id": 438009,
+      "message_ids": [
+        32
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/438009",
+      "published_at": "2026-11-02T19:32:41.812874+00:00",
+      "rubric": "women",
+      "batch_date": "2026-11-02"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 4,
   "daily_batches": {
     "2026-11-02": {
-      "completed": 2,
+      "completed": 3,
       "target": 15
     }
   }
