@@ -21,26 +21,11 @@
     436531,
     106552,
     463721,
-    416885
+    416885,
+    343303
   ],
-  "last_published_at": "2026-11-02T19:36:20.689236+00:00",
-  "pending": {
-    "object_id": 343303,
-    "attempted_at": "2026-11-02T19:36:21.965533+00:00",
-    "post": {
-      "topic": "Illustrated letter to M. Roland",
-      "caption": "🎨 Женщины в искусстве\n\nIllustrated letter to M. Roland\nRosa Bonheur · 1840–99\n\nАвтор этой работы — художница, указанная в музейном каталоге. Уделите изображению минуту: как она направляет ваше внимание? Начните с самого заметного элемента, затем найдите тихую деталь, которую легко пропустить при первом взгляде.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP805219.jpg",
-        "https://images.metmuseum.org/CRDImages/dp/original/DP805220.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/343303",
-      "object_id": 343303,
-      "rubric": "women"
-    },
-    "batch_date": "2026-11-02",
-    "sha256": "54d67dd46ad31d1adefcc7d46d4c03d485a763b38899d445eb6ebc0502445bf0"
-  },
+  "last_published_at": "2026-11-02T19:36:26.285536+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -205,12 +190,23 @@
       "published_at": "2026-11-02T19:36:20.689236+00:00",
       "rubric": "travel",
       "batch_date": "2026-11-02"
+    },
+    {
+      "object_id": 343303,
+      "message_ids": [
+        51,
+        52
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/343303",
+      "published_at": "2026-11-02T19:36:26.285536+00:00",
+      "rubric": "women",
+      "batch_date": "2026-11-02"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 4,
   "daily_batches": {
     "2026-11-02": {
-      "completed": 12,
+      "completed": 13,
       "target": 15
     }
   }
