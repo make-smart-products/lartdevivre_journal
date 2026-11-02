@@ -25,7 +25,22 @@
     343303
   ],
   "last_published_at": "2026-11-02T19:36:26.285536+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 436533,
+    "attempted_at": "2026-11-02T19:36:27.629613+00:00",
+    "post": {
+      "topic": "Shoes",
+      "caption": "🖼 Картина дня\n\nShoes\nВинсент ван Гог · 1888\n\nПроизведение из открытой музейной коллекции. Уделите изображению минуту: что первым привлекает ваше внимание — цвет, линия или фактура? Выберите одну деталь и попробуйте описать её тремя словами. Затем посмотрите на картину целиком ещё раз.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ep/web-large/DT1947.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/436533",
+      "object_id": 436533,
+      "rubric": "painting"
+    },
+    "batch_date": "2026-11-02",
+    "sha256": "95e8b1a5ecec6bfdf93aba405c75e99e18aab3ef497411c9b3eccd6434037ab6"
+  },
   "publications": [
     {
       "object_id": 436528,
