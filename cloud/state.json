@@ -20,7 +20,22 @@
     334494
   ],
   "last_published_at": "2026-11-02T19:33:10.846868+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 436531,
+    "attempted_at": "2026-11-02T19:35:57.924250+00:00",
+    "post": {
+      "topic": "Peasant Woman Cooking by a Fireplace",
+      "caption": "🖼 Картина дня\n\nPeasant Woman Cooking by a Fireplace\nВинсент ван Гог · 1885\n\nПроизведение из открытой музейной коллекции. Уделите изображению минуту: что первым привлекает ваше внимание — цвет, линия или фактура? Выберите одну деталь и попробуйте описать её тремя словами. Затем посмотрите на картину целиком ещё раз.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ep/web-large/DT2163.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/436531",
+      "object_id": 436531,
+      "rubric": "painting"
+    },
+    "batch_date": "2026-11-02",
+    "sha256": "f0db67cc7aa75c8c378b8039561d9472421f269b0459964925e7ad7033cb145e"
+  },
   "publications": [
     {
       "object_id": 436528,
