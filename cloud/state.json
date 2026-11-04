@@ -1152,7 +1152,10 @@
           "kind": "article",
           "message_id": 148,
           "date": 1793779644,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Food_Market_in_Bizerte_03.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-093",
