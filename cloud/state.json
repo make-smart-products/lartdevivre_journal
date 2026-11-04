@@ -43,31 +43,11 @@
     291551,
     156529,
     291530,
-    201411
+    201411,
+    291595
   ],
-  "last_published_at": "2026-11-04T16:17:59.182060+00:00",
-  "pending": {
-    "batch": "reserve-2026-11-04-approved-86",
-    "object_id": 291595,
-    "post": {
-      "object_id": 291595,
-      "rubric": "women",
-      "topic": "Callithamnion Hookeri, var.",
-      "caption": "🎨 Женщины в искусстве · Цвет\n\nCallithamnion Hookeri, var.\nAnna Atkins · ca. 1853\n\nСравните первое впечатление и то, что появляется при внимательном рассмотрении. Что оказалось неожиданным? Познакомиться с авторским взглядом можно через небольшую деталь, не пытаясь сразу дать произведению окончательное объяснение.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-102.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/291595",
-      "prepared_batch": "reserve-2026-11-04",
-      "prepared_day": 1,
-      "audience": "девушки и женщины; культура, стиль и искусство",
-      "source_verified_at": "2026-11-04T14:54:43.001715+00:00",
-      "photo_verified_at": "2026-11-04T14:54:43.000653+00:00",
-      "licence": "Public Domain / Met Open Access"
-    },
-    "sha256": "068c32d1191f31159c9f235b63efa034d1b7c00b230dd0e964e14d25f3c5c257",
-    "attempted_at": "2026-11-04T16:18:01.702938+00:00"
-  },
+  "last_published_at": "2026-11-04T16:18:04.004402+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -393,6 +373,16 @@
       ],
       "source_url": "https://www.metmuseum.org/art/collection/search/201411",
       "published_at": "2026-11-04T16:17:59.182060+00:00",
+      "rubric": "women",
+      "batch": "reserve-2026-11-04-approved-86"
+    },
+    {
+      "object_id": 291595,
+      "message_ids": [
+        206
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/291595",
+      "published_at": "2026-11-04T16:18:04.004402+00:00",
       "rubric": "women",
       "batch": "reserve-2026-11-04-approved-86"
     }
@@ -1798,6 +1788,15 @@
           "illustrated": true,
           "sha256": "98a116711bd1f661e1620dd591665052f694c9e0c221bad8229ede89af8768dc",
           "published_at": "2026-11-04T16:17:59.182060+00:00"
+        },
+        {
+          "batch": "reserve-2026-11-04-approved-86",
+          "object_id": 291595,
+          "message_id": 206,
+          "date": 1793809084,
+          "illustrated": true,
+          "sha256": "068c32d1191f31159c9f235b63efa034d1b7c00b230dd0e964e14d25f3c5c257",
+          "published_at": "2026-11-04T16:18:04.004402+00:00"
         }
       ]
     }
