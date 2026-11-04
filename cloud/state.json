@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-044",
-    "sha256": "4ef2dc025d6697ee8d34d8d789f2b72d5ba371b6b11d5584047687749ae4ce42",
-    "attempted_at": "2026-11-04T08:03:41.875311+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -589,6 +584,14 @@
           "message_id": 99,
           "date": 1793779419,
           "illustrated": false
+        },
+        {
+          "id": "LDV-044",
+          "title": "Как читать модный показ",
+          "kind": "article",
+          "message_id": 100,
+          "date": 1793779423,
+          "illustrated": true
         }
       ]
     }
