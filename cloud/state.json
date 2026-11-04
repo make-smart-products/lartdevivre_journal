@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-031",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 87,
-    "attempted_at": "2026-11-04T13:42:55.665555+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -544,9 +538,14 @@
           "id": "LDV-031",
           "title": "Какая школа дизайна объединяла искусство, ремесло и архитектуру?",
           "kind": "quiz",
-          "message_id": 87,
+          "message_id": 161,
           "date": 1793779363,
-          "illustrated": false
+          "illustrated": true,
+          "old_message_id": 87,
+          "photo_replaced_poll": true,
+          "old_poll_deleted": false,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Au%C3%9Fenansichten_des_Bauhaus-Geb%C3%A4udes_in_Dessau_07.jpg",
+          "poll_id": "5431856327641011901"
         },
         {
           "id": "LDV-032",
