@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-040",
-    "sha256": "8cfae1097f97811a721880007b7d72fda4dfb5e71d239e138266dbe798989ac1",
-    "attempted_at": "2026-11-04T08:03:25.289184+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -557,6 +552,14 @@
           "message_id": 95,
           "date": 1793779403,
           "illustrated": true
+        },
+        {
+          "id": "LDV-040",
+          "title": "Лиссабон: город фактур",
+          "kind": "article",
+          "message_id": 96,
+          "date": 1793779407,
+          "illustrated": false
         }
       ]
     }
