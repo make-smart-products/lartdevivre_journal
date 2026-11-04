@@ -734,7 +734,9 @@
           "kind": "article",
           "message_id": 110,
           "date": 1793779473,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:20110421_Tbilisi_Georgia_Panoramic.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-055",
