@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-071",
-    "sha256": "68d0311cb42e6018ef81b6cb000f45a0f255194a435caac489f66a3e3d4c1738",
-    "attempted_at": "2026-11-04T08:05:47.216233+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -804,6 +799,14 @@
           "kind": "article",
           "message_id": 126,
           "date": 1793779545,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-071",
+          "title": "Кино как искусство костюма",
+          "kind": "article",
+          "message_id": 127,
+          "date": 1793779549,
           "illustrated": false
         }
       ]
