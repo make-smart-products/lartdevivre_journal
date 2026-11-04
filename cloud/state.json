@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-046",
-    "sha256": "4bd06060b32a60e0aca1f15fe7e81c96ae9fc5f599a6c274d1ad31365e8d1974",
-    "attempted_at": "2026-11-04T08:03:50.020681+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -604,6 +599,14 @@
           "kind": "article",
           "message_id": 101,
           "date": 1793779427,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-046",
+          "title": "Предмет с историей",
+          "kind": "article",
+          "message_id": 102,
+          "date": 1793779434,
           "illustrated": false
         }
       ]
