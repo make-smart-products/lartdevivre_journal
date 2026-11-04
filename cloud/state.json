@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-041",
-    "sha256": "de630bfa13d94aa197b6249fc9b3ee2e2b3fd9d81a80cdc45cc8ef1f931e6dbf",
-    "attempted_at": "2026-11-04T08:03:29.527701+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -565,6 +560,14 @@
           "message_id": 96,
           "date": 1793779407,
           "illustrated": false
+        },
+        {
+          "id": "LDV-041",
+          "title": "Украшения на каждый день",
+          "kind": "article",
+          "message_id": 97,
+          "date": 1793779411,
+          "illustrated": true
         }
       ]
     }
