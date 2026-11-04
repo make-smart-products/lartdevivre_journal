@@ -1008,7 +1008,10 @@
           "kind": "article",
           "message_id": 133,
           "date": 1793779576,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Street_fashion_2019_.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-078",
