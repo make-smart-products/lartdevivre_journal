@@ -510,7 +510,9 @@
           "kind": "article",
           "message_id": 86,
           "date": 1793779359,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Sonia_Delaunay_portrait_photograph.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-031",
