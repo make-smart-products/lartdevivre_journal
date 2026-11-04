@@ -25,15 +25,11 @@
     343303,
     436533,
     81605,
-    437881
+    437881,
+    336388
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-009",
-    "sha256": "12819e66e688f5421c98fe8314cab9873956fe0573be8b59f69a32f4117d008b",
-    "attempted_at": "2026-11-04T07:57:58.234455+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -306,6 +302,14 @@
           "kind": "article",
           "message_id": 64,
           "date": 1793779076,
+          "illustrated": true
+        },
+        {
+          "id": "LDV-009",
+          "title": "Берта Моризо и повседневность",
+          "kind": "article",
+          "message_id": 65,
+          "date": 1793779080,
           "illustrated": true
         }
       ]
