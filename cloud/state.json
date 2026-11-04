@@ -47,7 +47,28 @@
     291595
   ],
   "last_published_at": "2026-11-04T16:18:04.004402+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 461205,
+    "post": {
+      "object_id": 461205,
+      "rubric": "women",
+      "topic": "Mirror; Minerva Visits the Muses on Mount Helicon",
+      "caption": "🎨 Женщины в искусстве · Цвет\n\nMirror; Minerva Visits the Muses on Mount Helicon\nSuzanne de Court · early 17th century\n\nВыберите элемент, о котором хотелось бы поговорить с подругой: композицию, поверхность или ощущение движения. Чем точнее наблюдение, тем интереснее становится разговор о работе и творческом решении её авторки.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/rl/web-large/SLP1237-1.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/461205",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 1,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:43.106954+00:00",
+      "photo_verified_at": "2026-11-04T14:54:43.106438+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "aa5ea36e3e16f0e21af291af35f9bac48b9f50dfba9f89e53bdf99b2491aa557",
+    "attempted_at": "2026-11-04T16:18:06.342078+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
