@@ -902,7 +902,10 @@
           "kind": "article",
           "message_id": 122,
           "date": 1793779528,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:20130918Yayoi_Kusama1_(cropped).jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-067",
