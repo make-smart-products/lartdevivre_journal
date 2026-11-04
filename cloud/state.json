@@ -380,7 +380,7 @@
           "illustrated": true,
           "old_message_id": 158,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Bemberg_Fondation_Toulouse_-_Femme_au_jardin_(Villa_Arnulphi_%C3%A0_Nice)_-_Berthe_Morisot_1882_Inv.2113_56x33.jpg",
           "poll_id": "5431856327641011938",
           "retired_message_ids": [
