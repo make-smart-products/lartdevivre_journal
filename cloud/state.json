@@ -61,7 +61,28 @@
     557961
   ],
   "last_published_at": "2026-11-04T16:19:21.520161+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 13605,
+    "post": {
+      "object_id": 13605,
+      "rubric": "women",
+      "topic": "Enbroidered bed curtain",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nEnbroidered bed curtain\nSarah Noyes Chester · ca. 1745\n\nКакой вопрос о творческом процессе возник у вас при взгляде на работу? Сформулируйте его без предположений о личной жизни автора. Интерес к произведению может начинаться с материала, формы и способа работы.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/ADA3374.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/13605",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:46.764342+00:00",
+      "photo_verified_at": "2026-11-04T14:54:46.762585+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "8efb3a6e80b660ee03f36e854d9c68e5c0dd567e13713e8f81dabece284e9b8a",
+    "attempted_at": "2026-11-04T16:19:23.918948+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
