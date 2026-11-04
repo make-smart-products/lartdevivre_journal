@@ -31,12 +31,7 @@
     260387
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-078",
-    "sha256": "6cbf5e09f907331c7e5bc911cf5a1e266f4dc178778d957914ccc9b99f58ae3f",
-    "attempted_at": "2026-11-04T08:06:18.060465+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -861,6 +856,14 @@
           "kind": "article",
           "message_id": 133,
           "date": 1793779576,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-078",
+          "title": "Современный офисный гардероб",
+          "kind": "article",
+          "message_id": 134,
+          "date": 1793779581,
           "illustrated": false
         }
       ]
