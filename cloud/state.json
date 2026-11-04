@@ -28,12 +28,7 @@
     437881
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-005",
-    "sha256": "333854ac525dc599a078d5a2e7aeae549ca349afc59bca59fae71a25e0e3ae87",
-    "attempted_at": "2026-11-04T07:57:40.914032+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -274,6 +269,14 @@
           "kind": "article",
           "message_id": 60,
           "date": 1793779058,
+          "illustrated": true
+        },
+        {
+          "id": "LDV-005",
+          "title": "Пропорции в одежде",
+          "kind": "article",
+          "message_id": 61,
+          "date": 1793779063,
           "illustrated": true
         }
       ]
