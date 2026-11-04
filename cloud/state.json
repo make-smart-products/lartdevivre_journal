@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-052",
-    "sha256": "9e206f84dac7050c48d34076779c5577ea1e74eea2f826736795e29142192882",
-    "attempted_at": "2026-11-04T08:04:23.096601+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -652,6 +647,14 @@
           "kind": "article",
           "message_id": 107,
           "date": 1793779461,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-052",
+          "title": "Тамара де Лемпицка и ар-деко",
+          "kind": "article",
+          "message_id": 108,
+          "date": 1793779465,
           "illustrated": false
         }
       ]
