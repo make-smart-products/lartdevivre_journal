@@ -81,7 +81,30 @@
     -1000014561
   ],
   "last_published_at": "2026-11-04T16:20:32.604053+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "editorial-refresh-2026-11-04",
+    "key": "refresh-quiz-engraving",
+    "post": {
+      "key": "refresh-quiz-engraving",
+      "kind": "quiz",
+      "question": "На фото «Качели» Николя Делоне, 1792. В какой технике выполнен этот музейный лист?",
+      "options": [
+        "Акварель",
+        "Гравюра",
+        "Мозаика",
+        "Пастель"
+      ],
+      "correct_option_ids": [
+        1
+      ],
+      "explanation": "В каталоге Чикагского института искусств: engraving — гравюра, чёрная краска на бумаге.",
+      "image": "https://www.artic.edu/iiif/2/543af571-f693-929d-86ee-6300482b9e13/full/843,/0/default.jpg",
+      "photo_credit": "Николя Делоне · Чикагский институт искусств · CC0",
+      "source_url": "https://www.artic.edu/artworks/15092",
+      "object_id": -1000015092
+    },
+    "attempted_at": "2026-11-04T16:28:25.969178+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
