@@ -78,33 +78,11 @@
     -1000055845,
     -1000144969,
     -1000039934,
-    -1000014561
+    -1000014561,
+    -1000015092
   ],
   "last_published_at": "2026-11-04T16:20:32.604053+00:00",
-  "pending": {
-    "batch": "editorial-refresh-2026-11-04",
-    "key": "refresh-quiz-engraving",
-    "post": {
-      "key": "refresh-quiz-engraving",
-      "kind": "quiz",
-      "question": "На фото «Качели» Николя Делоне, 1792. В какой технике выполнен этот музейный лист?",
-      "options": [
-        "Акварель",
-        "Гравюра",
-        "Мозаика",
-        "Пастель"
-      ],
-      "correct_option_ids": [
-        1
-      ],
-      "explanation": "В каталоге Чикагского института искусств: engraving — гравюра, чёрная краска на бумаге.",
-      "image": "https://www.artic.edu/iiif/2/543af571-f693-929d-86ee-6300482b9e13/full/843,/0/default.jpg",
-      "photo_credit": "Николя Делоне · Чикагский институт искусств · CC0",
-      "source_url": "https://www.artic.edu/artworks/15092",
-      "object_id": -1000015092
-    },
-    "attempted_at": "2026-11-04T16:28:25.969178+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -713,6 +691,15 @@
       "published_at": "2026-11-04T16:20:32.604053+00:00",
       "rubric": "women",
       "batch": "reserve-2026-11-04-approved-86"
+    },
+    {
+      "object_id": -1000015092,
+      "message_ids": [
+        233
+      ],
+      "source_url": "https://www.artic.edu/artworks/15092",
+      "rubric": "quiz",
+      "published_at": "2026-11-04T16:28:28.519629+00:00"
     }
   ],
   "next_rubric_index": 1,
@@ -2405,6 +2392,22 @@
       ],
       "status": "stopped_for_editorial_review",
       "stopped_after_confirmed": 40
+    }
+  },
+  "editorial_refreshes": {
+    "2026-11-04": {
+      "quizzes": [
+        {
+          "key": "refresh-quiz-engraving",
+          "message_id": 233,
+          "object_id": -1000015092,
+          "photo_confirmed": true,
+          "poll_id": "5431856327641012000",
+          "correct_option_ids": [
+            1
+          ]
+        }
+      ]
     }
   }
 }
