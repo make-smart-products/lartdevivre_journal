@@ -584,7 +584,9 @@
           "kind": "article",
           "message_id": 94,
           "date": 1793779399,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Georgia-O%27Keeffe.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-039",
