@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-066",
-    "sha256": "573c924bc4fe326bb69e9bc270cbd25bea6055f9e287c5744d9d51073fc32cbd",
-    "attempted_at": "2026-11-04T08:05:25.878017+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -764,6 +759,14 @@
           "kind": "article",
           "message_id": 121,
           "date": 1793779523,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-066",
+          "title": "Яёи Кусама: бесконечность точки",
+          "kind": "article",
+          "message_id": 122,
+          "date": 1793779528,
           "illustrated": false
         }
       ]
