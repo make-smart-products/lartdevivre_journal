@@ -1193,7 +1193,10 @@
           "kind": "article",
           "message_id": 152,
           "date": 1793779664,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Agnes-Martin.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-097",
