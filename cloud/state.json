@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-020",
-    "sha256": "c01942d5d79c4cf6b03d889483cb6f1c1dd9347310dda40ca5faa0347fd436a7",
-    "attempted_at": "2026-11-04T08:01:52.612807+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -396,6 +391,14 @@
           "kind": "quiz",
           "message_id": 75,
           "date": 1793779310,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-020",
+          "title": "Деним нового гардероба",
+          "kind": "article",
+          "message_id": 76,
+          "date": 1793779314,
           "illustrated": false
         }
       ]
