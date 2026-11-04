@@ -617,7 +617,8 @@
       "source_url": "https://www.metmuseum.org/art/collection/search/286896",
       "published_at": "2026-11-04T16:19:46.069707+00:00",
       "rubric": "women",
-      "batch": "reserve-2026-11-04-approved-86"
+      "batch": "reserve-2026-11-04-approved-86",
+      "deleted_for_visual_repetition": true
     },
     {
       "object_id": 268691,
@@ -2309,7 +2310,8 @@
           "date": 1793809187,
           "illustrated": true,
           "sha256": "7c5356bfcedf479d4a7c0eeb3a5e8a0a7ece133ce4a4092801850345e21212a1",
-          "published_at": "2026-11-04T16:19:46.069707+00:00"
+          "published_at": "2026-11-04T16:19:46.069707+00:00",
+          "deleted_for_visual_repetition": true
         },
         {
           "batch": "reserve-2026-11-04-approved-86",
