@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-024",
-    "sha256": "acdded6f0e1f8033fce4c3d0c3ee910c27d63bc3ccfbcbfd0c3b2a7d3246d741",
-    "attempted_at": "2026-11-04T08:02:08.464170+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -429,6 +424,14 @@
           "message_id": 79,
           "date": 1793779326,
           "illustrated": false
+        },
+        {
+          "id": "LDV-024",
+          "title": "Свет как материал",
+          "kind": "article",
+          "message_id": 80,
+          "date": 1793779330,
+          "illustrated": true
         }
       ]
     }
