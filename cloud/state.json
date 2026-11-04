@@ -2427,7 +2427,12 @@
             2
           ]
         }
-      ]
+      ],
+      "status": "complete",
+      "photo_replacements": 8,
+      "caption_updates": 7,
+      "removed_repetitions": 3,
+      "new_quizzes": 2
     }
   }
 }
