@@ -414,7 +414,9 @@
           "kind": "article",
           "message_id": 76,
           "date": 1793779314,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Jeans_mexicanos.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-021",
