@@ -795,7 +795,8 @@
           "date": 1793779473,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:20110421_Tbilisi_Georgia_Panoramic.jpg",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-055",
