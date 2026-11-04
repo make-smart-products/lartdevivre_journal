@@ -29,12 +29,7 @@
     336388
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-011",
-    "sha256": "812dc16b810ee137edc59041af40c57f9d5cade4798e00d37b6a89ae7c346693",
-    "attempted_at": "2026-11-04T07:58:07.432226+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -323,6 +318,14 @@
           "kind": "article",
           "message_id": 66,
           "date": 1793779085,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-011",
+          "title": "Флоренция глазами художника",
+          "kind": "article",
+          "message_id": 67,
+          "date": 1793779090,
           "illustrated": false
         }
       ]
