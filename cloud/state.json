@@ -387,7 +387,8 @@
           "date": 1793779294,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Waistcoat,_woman%27s_(AM_590061-5).jpg",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-016",
