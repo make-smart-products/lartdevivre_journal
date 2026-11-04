@@ -28,12 +28,7 @@
     437881
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-006",
-    "sha256": "e889fa8bca24002deadca445a360f4a7486a5585043f65854c84440f148c84ba",
-    "attempted_at": "2026-11-04T07:57:45.273335+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -283,6 +278,14 @@
           "message_id": 61,
           "date": 1793779063,
           "illustrated": true
+        },
+        {
+          "id": "LDV-006",
+          "title": "Вирджиния Вулф и право на пространство",
+          "kind": "article",
+          "message_id": 62,
+          "date": 1793779067,
+          "illustrated": false
         }
       ]
     }
