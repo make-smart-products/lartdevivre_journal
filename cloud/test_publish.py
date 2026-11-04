@@ -117,6 +117,11 @@ class PublishTests(unittest.TestCase):
         self.assertFalse(publish.matches_rubric(obj, "travel"))
         obj.update(title="Venice")
         self.assertTrue(publish.matches_rubric(obj, "travel"))
+        for title in ('[Florence Anne Claxton]', 'Portrait of Miss Florence Smith', 'A Parisian Woman'):
+            obj.update(title=title)
+            self.assertFalse(publish.matches_rubric(obj, "travel"))
+        obj.update(title='View of Florence from the Arno')
+        self.assertTrue(publish.matches_rubric(obj, "travel"))
 
     def test_architecture_accepts_actual_temple(self):
         obj = self.obj()

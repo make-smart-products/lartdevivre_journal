@@ -96,7 +96,15 @@ def matches_rubric(obj, rubric):
     if rubric == "architecture":
         return bool(re.search(r"\b(chair|table|cabinet|sofa|furniture|interior)\b", kind)) or any(word in kind + " " + title for word in ("temple", "capital", "column", "architectural", "floor plan", "facade", "façade", "elevation", "portal", "church", "cathedral", "palace"))
     if rubric == "travel":
-        return any(word in kind for word in ("painting", "watercolor", "print", "drawing", "photograph")) and any(place.lower() in title for place in RUBRICS["travel"]["queries"])
+        visual = any(word in kind for word in ("painting", "watercolor", "print", "drawing", "photograph"))
+        places = [place.casefold() for place in RUBRICS["travel"]["queries"]]
+        has_place = any(re.search(r"\b" + re.escape(place) + r"\b", title) for place in places)
+        # Florence can be a person's given name. A place word alone is not evidence
+        # that a portrait is a city view; require an explicit topographical context.
+        context = re.search(r"\b(view|landscape|cityscape|canal|river|bridge|street|square|piazza|palace|cathedral|temple|church|harbou?r|port|coast|bay|island|gardens?|panorama|giudecca|lagoon|quay|boulevard|tower|rooftops?|seine|arno|gion)\b", title)
+        exact_place = title.strip(' []().') in places
+        portrait = re.search(r"\b(portrait|madame|mademoiselle|mrs|miss|self-portrait)\b", title)
+        return bool(visual and has_place and (context or exact_place) and not portrait)
     if rubric == "books":
         return any(word in title + " " + kind for word in ("shakespeare", "tennyson", "hamlet", "king lear", "illustrated book", "theater", "theatre", "cinema"))
     if rubric == "quiz":
