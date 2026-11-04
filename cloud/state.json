@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-025",
-    "sha256": "0fcc2a2d896548c1e5bb1cc3bd17bc9f09e67dac596d5618ca51fcbb69813a2b",
-    "attempted_at": "2026-11-04T08:02:12.369143+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -437,6 +432,14 @@
           "message_id": 80,
           "date": 1793779330,
           "illustrated": true
+        },
+        {
+          "id": "LDV-025",
+          "title": "Какая художница известна крупными изображениями цветов?",
+          "kind": "quiz",
+          "message_id": 81,
+          "date": 1793779334,
+          "illustrated": false
         }
       ]
     }
