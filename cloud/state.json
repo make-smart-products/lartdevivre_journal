@@ -32,12 +32,7 @@
     436453
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-092",
-    "sha256": "28a5e1fb27fd5e5ebe3f5c481e1299db756a464091e401250bf4db88280799f4",
-    "attempted_at": "2026-11-04T08:07:22.248275+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -974,6 +969,14 @@
           "kind": "quiz",
           "message_id": 147,
           "date": 1793779640,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-092",
+          "title": "Локальный рынок как маршрут",
+          "kind": "article",
+          "message_id": 148,
+          "date": 1793779644,
           "illustrated": false
         }
       ]
