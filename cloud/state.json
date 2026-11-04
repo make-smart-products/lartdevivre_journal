@@ -27,12 +27,7 @@
     81605
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-001",
-    "sha256": "b19fb59e21aa46c19cc6bb94b76245a8265c0a46e021fa89e223b26ff11fcf1c",
-    "attempted_at": "2026-11-04T07:57:21.735796+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -242,7 +237,16 @@
   "editorial_batches": {
     "ldv-original-100-v1": {
       "target": 100,
-      "published": []
+      "published": [
+        {
+          "id": "LDV-001",
+          "title": "Капсульный гардероб без скуки",
+          "kind": "article",
+          "message_id": 57,
+          "date": 1793779045,
+          "illustrated": true
+        }
+      ]
     }
   }
 }
