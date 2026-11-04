@@ -548,7 +548,9 @@
           "kind": "article",
           "message_id": 90,
           "date": 1793779382,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Handbag_at_Nordstrom_Rack_-_Santa_Rosa_-_December_2022_-_Sarah_Stierch.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-035",
