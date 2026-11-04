@@ -580,7 +580,9 @@
           "kind": "article",
           "message_id": 96,
           "date": 1793779407,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Lisbon_cityscape_(22341918126).jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-041",
