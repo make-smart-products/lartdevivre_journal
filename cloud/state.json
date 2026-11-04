@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-048",
-    "sha256": "74c8f80c65e2cd61f22c2c4734583aaca5d11352b63d32a69cfc978883c4b3fb",
-    "attempted_at": "2026-11-04T08:04:03.428082+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -620,6 +615,14 @@
           "kind": "article",
           "message_id": 103,
           "date": 1793779441,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-048",
+          "title": "Осознанный шопинг",
+          "kind": "article",
+          "message_id": 104,
+          "date": 1793779447,
           "illustrated": false
         }
       ]
