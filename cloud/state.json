@@ -37,7 +37,28 @@
     291589
   ],
   "last_published_at": "2026-11-04T16:17:05.951485+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 306204,
+    "post": {
+      "object_id": 306204,
+      "rubric": "women",
+      "topic": "King Lear Alotting His Kingdom to His Three Daughters",
+      "caption": "🎨 Женщины в искусстве · Цвет\n\nKing Lear Alotting His Kingdom to His Three Daughters\nJulia Margaret Cameron · 1872\n\nВыберите элемент, о котором хотелось бы поговорить с подругой: композицию, поверхность или ощущение движения. Чем точнее наблюдение, тем интереснее становится разговор о работе и творческом решении её авторки.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ph/web-large/DP295205.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/306204",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 1,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:40.389774+00:00",
+      "photo_verified_at": "2026-11-04T14:54:40.388149+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "5f2ce5a572d6dbb1cd9eef38e48bd1df0fb57e7c860f54c9576f767373b73bd8",
+    "attempted_at": "2026-11-04T16:17:13.789771+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
