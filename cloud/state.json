@@ -1057,7 +1057,10 @@
           "kind": "article",
           "message_id": 138,
           "date": 1793779598,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Hideout_Theater_and_Coffeehouse_interior,_Austin,_Texas,_2009.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-083",
