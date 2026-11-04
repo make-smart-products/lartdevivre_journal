@@ -62,7 +62,28 @@
     13605
   ],
   "last_published_at": "2026-11-04T16:19:26.306316+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 282122,
+    "post": {
+      "object_id": 282122,
+      "rubric": "women",
+      "topic": "Elaine the Lily - Maid of Astolat",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nElaine the Lily - Maid of Astolat\nJulia Margaret Cameron · 1874\n\nВернитесь к изображению после короткой паузы. Замечаете ли вы что-то новое? Медленный взгляд даёт возможность увидеть больше оттенков в работе и точнее сформулировать собственное отношение к ней.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ph/web-large/DP158293.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/282122",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:47.205810+00:00",
+      "photo_verified_at": "2026-11-04T14:54:47.204725+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "b7df58a3e76b528d38f85202b06038304efee48d7a39d120260e559448d96d1a",
+    "attempted_at": "2026-11-04T16:19:29.007619+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
