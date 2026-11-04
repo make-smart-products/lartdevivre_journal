@@ -38,7 +38,28 @@
     306204
   ],
   "last_published_at": "2026-11-04T16:17:16.878501+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 557787,
+    "post": {
+      "object_id": 557787,
+      "rubric": "women",
+      "topic": "Neferhotep and Wife Offering, Tomb of Neferhotep",
+      "caption": "🎨 Женщины в искусстве · Цвет\n\nNeferhotep and Wife Offering, Tomb of Neferhotep\nNina de Garis Davies · ca. 1318–1314 BCE\n\nПосмотрите на работу как на последовательность решений. Где взгляд задерживается, а куда движется дальше? Ответ может быть личным — важно связать впечатление с тем, что вы действительно замечаете в изображении.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/eg/web-large/LC-31_6_39_EGDP036617.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/557787",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 1,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:40.547477+00:00",
+      "photo_verified_at": "2026-11-04T14:54:40.546401+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "f3a9ec4f439251e9ab42b974861544b7a36cfa98d788784f345d22947e40c9d1",
+    "attempted_at": "2026-11-04T16:17:19.412292+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
