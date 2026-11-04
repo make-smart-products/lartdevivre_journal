@@ -51,7 +51,28 @@
     490210
   ],
   "last_published_at": "2026-11-04T16:18:24.336890+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 19427,
+    "post": {
+      "object_id": 19427,
+      "rubric": "women",
+      "topic": "William Middleton",
+      "caption": "🎨 Женщины в искусстве · Цвет\n\nWilliam Middleton\nMary Roberts · ca. 1752–58\n\nКакой вопрос о творческом процессе возник у вас при взгляде на работу? Сформулируйте его без предположений о личной жизни автора. Интерес к произведению может начинаться с материала, формы и способа работы.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/DP145441.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/19427",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 1,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:44.247510+00:00",
+      "photo_verified_at": "2026-11-04T14:54:44.239855+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "77708c62138370a338eb4804c9615fa0af93ca754ccfac5a6b553250b35c0e0d",
+    "attempted_at": "2026-11-04T16:18:26.909346+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
