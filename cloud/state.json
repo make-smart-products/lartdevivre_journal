@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-068",
-    "sha256": "15c386b7c450c5f44a2f4ca22a2125ed10a099d2013789c6630a7059b8922b86",
-    "attempted_at": "2026-11-04T08:05:34.263878+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -780,6 +775,14 @@
           "kind": "quiz",
           "message_id": 123,
           "date": 1793779532,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-068",
+          "title": "Скандинавский интерьер без клише",
+          "kind": "article",
+          "message_id": 124,
+          "date": 1793779536,
           "illustrated": false
         }
       ]
