@@ -76,7 +76,8 @@
     -1000025317,
     -1000065937,
     -1000055845,
-    -1000144969
+    -1000144969,
+    -1000039934
   ],
   "last_published_at": "2026-11-04T16:20:32.604053+00:00",
   "pending": null,
@@ -415,14 +416,15 @@
       "batch": "reserve-2026-11-04-approved-86"
     },
     {
-      "object_id": 291595,
+      "object_id": -1000039934,
       "message_ids": [
         206
       ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/291595",
+      "source_url": "https://www.artic.edu/artworks/39934",
       "published_at": "2026-11-04T16:18:04.004402+00:00",
-      "rubric": "women",
-      "batch": "reserve-2026-11-04-approved-86"
+      "rubric": "travel",
+      "batch": "reserve-2026-11-04-approved-86",
+      "editorial_refreshed": true
     },
     {
       "object_id": 461205,
@@ -2113,12 +2115,16 @@
         },
         {
           "batch": "reserve-2026-11-04-approved-86",
-          "object_id": 291595,
+          "object_id": -1000039934,
           "message_id": 206,
           "date": 1793809084,
           "illustrated": true,
           "sha256": "068c32d1191f31159c9f235b63efa034d1b7c00b230dd0e964e14d25f3c5c257",
-          "published_at": "2026-11-04T16:18:04.004402+00:00"
+          "published_at": "2026-11-04T16:18:04.004402+00:00",
+          "original_object_id": 291595,
+          "rubric": "travel",
+          "editorial_refreshed": true,
+          "source_url": "https://www.artic.edu/artworks/39934"
         },
         {
           "batch": "reserve-2026-11-04-approved-86",
