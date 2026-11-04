@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-067",
-    "sha256": "e4da80d64e1a557b88b94996f2e2ef97368e0d704731468e304d7c1e116144b7",
-    "attempted_at": "2026-11-04T08:05:30.159383+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -772,6 +767,14 @@
           "kind": "article",
           "message_id": 122,
           "date": 1793779528,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-067",
+          "title": "Кто снял фильм «Клео от 5 до 7»?",
+          "kind": "quiz",
+          "message_id": 123,
+          "date": 1793779532,
           "illustrated": false
         }
       ]
