@@ -29,15 +29,11 @@
     336388,
     439343,
     260387,
-    436453
+    436453,
+    437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-099",
-    "sha256": "a7440574e70c54e83edc7e27c56b17e71bcc84fe7b06b6aa3552a910aeae18b8",
-    "attempted_at": "2026-11-04T08:07:55.612339+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1031,6 +1027,14 @@
           "message_id": 154,
           "date": 1793779673,
           "illustrated": false
+        },
+        {
+          "id": "LDV-099",
+          "title": "Элизабет Виже-Лебрен и портрет",
+          "kind": "article",
+          "message_id": 155,
+          "date": 1793779678,
+          "illustrated": true
         }
       ]
     }
