@@ -480,7 +480,7 @@
           "illustrated": true,
           "old_message_id": 81,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Georgia_O%27Keeffe_MET_DP230868.jpg",
           "poll_id": "5431856327641011900"
         },
