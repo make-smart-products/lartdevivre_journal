@@ -31,12 +31,7 @@
     260387
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-081",
-    "sha256": "ac1e914a4b8e25ca749b1f6f933c453eee52d67693f0b4f978ee1f8ef92fd43b",
-    "attempted_at": "2026-11-04T08:06:32.261445+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -886,6 +881,14 @@
           "message_id": 136,
           "date": 1793779590,
           "illustrated": false
+        },
+        {
+          "id": "LDV-081",
+          "title": "Текстиль меняет пространство",
+          "kind": "article",
+          "message_id": 137,
+          "date": 1793779594,
+          "illustrated": true
         }
       ]
     }
