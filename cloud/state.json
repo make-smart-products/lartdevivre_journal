@@ -26,15 +26,11 @@
     436533,
     81605,
     437881,
-    336388
+    336388,
+    439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-018",
-    "sha256": "bf46502e55b4882ee2ec6723b26f7bcb8db8ef3ee0177716eabbf995d0c3752f",
-    "attempted_at": "2026-11-04T08:01:44.600307+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -379,6 +375,14 @@
           "kind": "article",
           "message_id": 73,
           "date": 1793779302,
+          "illustrated": true
+        },
+        {
+          "id": "LDV-018",
+          "title": "Копенгаген и культура повседневности",
+          "kind": "article",
+          "message_id": 74,
+          "date": 1793779306,
           "illustrated": true
         }
       ]
