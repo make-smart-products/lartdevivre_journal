@@ -1038,7 +1038,10 @@
           "kind": "article",
           "message_id": 136,
           "date": 1793779590,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:War_correspondents-Lee-Miller.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-081",
