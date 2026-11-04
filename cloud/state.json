@@ -29,12 +29,7 @@
     336388
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-012",
-    "sha256": "29493a5670aca787e1e7c3d0b808c0db07621e92eb3e76e02112b244dacafca1",
-    "attempted_at": "2026-11-04T07:58:12.386143+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -332,6 +327,14 @@
           "message_id": 67,
           "date": 1793779090,
           "illustrated": false
+        },
+        {
+          "id": "LDV-012",
+          "title": "Цвет вместо привычного чёрного",
+          "kind": "article",
+          "message_id": 68,
+          "date": 1793779094,
+          "illustrated": true
         }
       ]
     }
