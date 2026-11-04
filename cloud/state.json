@@ -1981,7 +1981,8 @@
           "date": 1793809009,
           "illustrated": true,
           "sha256": "9681332f436722455f74a51f05681eb782d6252ae351e9257ef39557592e2101",
-          "published_at": "2026-11-04T16:16:48.140548+00:00"
+          "published_at": "2026-11-04T16:16:48.140548+00:00",
+          "caption_refreshed": true
         },
         {
           "batch": "reserve-2026-11-04-approved-86",
