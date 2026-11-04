@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-061",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 167,
-    "attempted_at": "2026-11-04T14:38:24.458710+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1008,14 +1002,29 @@
           "id": "LDV-061",
           "title": "Какая архитектор известна динамичными криволинейными формами?",
           "kind": "quiz",
-          "message_id": 167,
+          "message_id": 182,
           "date": 1793779502,
           "illustrated": true,
-          "old_message_id": 117,
+          "old_message_id": 167,
           "photo_replaced_poll": true,
-          "old_poll_deleted": true,
+          "old_poll_deleted": false,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Riverside_Museum_-_Glasgow,_Scotland_-_Designed_by_Zaha_Hadid.jpg",
-          "poll_id": "5431856327641011921"
+          "poll_id": "5431856327641011946",
+          "retired_message_ids": [
+            117,
+            167
+          ],
+          "quiz_layout_version": "balanced-v1",
+          "correct_option_ids": [
+            1
+          ],
+          "options": [
+            "Лина Бо Барди",
+            "Заха Хадид",
+            "Дениз Скотт Браун",
+            "Эйлин Грей"
+          ],
+          "shuffle_options": true
         },
         {
           "id": "LDV-062",
