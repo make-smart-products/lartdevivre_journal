@@ -29,12 +29,7 @@
     336388
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-014",
-    "sha256": "a12969dc0d1c7eb8675e30960e39761801e60a10a322796ff1abdbb61394a240",
-    "attempted_at": "2026-11-04T07:58:20.493030+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -347,6 +342,14 @@
           "kind": "quiz",
           "message_id": 69,
           "date": 1793779098,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-014",
+          "title": "Джейн Остин без стереотипов",
+          "kind": "article",
+          "message_id": 70,
+          "date": 1793779102,
           "illustrated": false
         }
       ]
