@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-057",
-    "sha256": "a8db352440eefd60578968e7bf5680f71e1e682b5cda627eb73ee1368009ebbf",
-    "attempted_at": "2026-11-04T08:04:43.777501+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -692,6 +687,14 @@
           "kind": "article",
           "message_id": 112,
           "date": 1793779481,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-057",
+          "title": "Маргарет Этвуд и миры-предупреждения",
+          "kind": "article",
+          "message_id": 113,
+          "date": 1793779485,
           "illustrated": false
         }
       ]
