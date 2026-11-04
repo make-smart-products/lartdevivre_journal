@@ -5,3 +5,4 @@
 __pycache__/
 .cloud-preview.json
 .vercel/
+materials/imported/
