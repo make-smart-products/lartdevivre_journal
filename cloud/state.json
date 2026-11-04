@@ -997,7 +997,10 @@
           "kind": "article",
           "message_id": 132,
           "date": 1793779570,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Coffee,_breakfast,_croissant.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-077",
