@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-037",
-    "sha256": "1f48becfa26a13cc9967c73223cf3f7e7b24bf92342e4f507cf3ef023ad821c4",
-    "attempted_at": "2026-11-04T08:03:13.069671+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -533,6 +528,14 @@
           "message_id": 92,
           "date": 1793779391,
           "illustrated": true
+        },
+        {
+          "id": "LDV-037",
+          "title": "Как называется декоративный стиль с геометрией и роскошными материалами, популярный в межвоенный период?",
+          "kind": "quiz",
+          "message_id": 93,
+          "date": 1793779395,
+          "illustrated": false
         }
       ]
     }
