@@ -632,7 +632,9 @@
           "kind": "article",
           "message_id": 102,
           "date": 1793779434,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Antique_Sardonyx_Vase_Met_DP886897.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-047",
