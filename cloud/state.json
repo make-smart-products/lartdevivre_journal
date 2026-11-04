@@ -694,7 +694,9 @@
           "kind": "article",
           "message_id": 106,
           "date": 1793779457,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Greta_Gerwig.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-051",
