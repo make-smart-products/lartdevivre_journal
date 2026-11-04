@@ -20,19 +20,19 @@ class DailyBatchTests(unittest.TestCase):
             obj = {'objectID': 1000 + len(value.get('used_object_ids', [])), 'title': 'Test work', 'objectDate': '1900', 'isPublicDomain': True, 'primaryImageSmall': 'https://images.metmuseum.org/test.jpg'}
             rubric = publish.RUBRIC_ORDER[value.get('next_rubric_index', 0)]
             return publish.make_card(obj, rubric)
-        with patch.dict(os.environ, {'GITHUB_TOKEN': 'fake', 'TELEGRAM_BOT_TOKEN': 'fake'}), patch.object(publish, 'StateStore', return_value=store), patch.object(publish, 'choose_post', side_effect=choose), patch.object(publish, 'publish', return_value=[42]) as send:
+        with patch.dict(os.environ, {'GITHUB_TOKEN': 'fake', 'TELEGRAM_BOT_TOKEN': 'fake'}), patch.object(publish, 'StateStore', return_value=store), patch.object(publish, 'choose_post', side_effect=choose), patch.object(publish.time,'sleep'), patch.object(publish, 'publish', return_value=[42]) as send:
             result = publish.execute(now=now)
             return result, send.call_count
 
-    def test_full_block_has_fifteen_posts_and_three_per_rubric(self):
+    def test_full_block_has_one_hundred_posts_and_twenty_per_rubric(self):
         state = {'next_rubric_index': 1}
         result, calls = self.run_batch(state, dt.datetime(2026, 11, 3, 19, 30, tzinfo=dt.timezone.utc))
-        self.assertEqual(15, calls)
-        self.assertEqual(15, result['published_this_run'])
-        self.assertEqual({rubric: 3 for rubric in publish.RUBRIC_ORDER}, dict(Counter(x['rubric'] for x in state['publications'])))
+        self.assertEqual(100, calls)
+        self.assertEqual(100, result['published_this_run'])
+        self.assertEqual({rubric: 20 for rubric in publish.RUBRIC_ORDER}, dict(Counter(x['rubric'] for x in state['publications'])))
 
     def test_second_invocation_does_not_repeat_completed_block(self):
-        state = {'daily_batches': {'2026-11-03': {'completed': 15}}}
+        state = {'daily_batches': {'2026-11-03': {'completed': 100}}}
         result, calls = self.run_batch(state, dt.datetime(2026, 11, 3, 20, 0, tzinfo=dt.timezone.utc))
         self.assertEqual(0, calls)
         self.assertEqual('batch_complete', result['status'])
@@ -40,13 +40,19 @@ class DailyBatchTests(unittest.TestCase):
     def test_resumes_only_remaining_items(self):
         state = {'daily_batches': {'2026-11-03': {'completed': 7}}, 'used_object_ids': list(range(7)), 'next_rubric_index': 2}
         result, calls = self.run_batch(state, dt.datetime(2026, 11, 3, 19, 30, tzinfo=dt.timezone.utc))
-        self.assertEqual(8, calls)
-        self.assertEqual(15, state['daily_batches']['2026-11-03']['completed'])
+        self.assertEqual(93, calls)
+        self.assertEqual(100, state['daily_batches']['2026-11-03']['completed'])
 
     def test_does_not_send_before_ten_thirty_pm_moscow(self):
         result, calls = self.run_batch({}, dt.datetime(2026, 11, 3, 19, 29, tzinfo=dt.timezone.utc))
         self.assertEqual('not_due', result['status'])
         self.assertEqual(0, calls)
+
+    def test_previous_fifteen_item_target_is_extended_without_repeating_items(self):
+        state={'daily_batches':{'2026-11-03':{'completed':15,'target':15}},'used_object_ids':list(range(15))}
+        result,calls=self.run_batch(state,dt.datetime(2026,11,3,19,30,tzinfo=dt.timezone.utc))
+        self.assertEqual(85,calls)
+        self.assertEqual({'completed':100,'target':100},state['daily_batches']['2026-11-03'])
 
     def test_pending_send_blocks_batch_without_new_messages(self):
         with self.assertRaises(publish.PublishError):

@@ -1,8 +1,8 @@
-name: Publish 15 journal posts daily
+name: Publish 100 journal posts daily
 
 on:
   schedule:
-    # 19:30 UTC = 22:30 Moscow; one block of 15 editorial posts.
+    # 19:30 UTC = 22:30 Moscow; one block of 100 editorial posts.
     - cron: '30 19 * * *'
   workflow_dispatch:
     inputs:
@@ -21,7 +21,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - name: Install server dependencies

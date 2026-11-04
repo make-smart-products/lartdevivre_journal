@@ -12,6 +12,7 @@ import os
 import random
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -22,6 +23,7 @@ MET = "https://collectionapi.metmuseum.org/public/collection/v1"
 MET_SEARCH = "https://collectionapi.metmuseum.org/public/collection/v1.1/search"
 REPO = "make-smart-products/lartdevivre_journal"
 CHANNEL = "@lartdevivre_journal"
+DAILY_TARGET = 100
 QUERIES = ["Vincent van Gogh", "Edgar Degas", "Paul Cezanne", "Edouard Manet", "Berthe Morisot", "Rembrandt", "landscape"]
 RESERVE_OBJECT_IDS = {"painting": [436531, 436533, 437423, 437430]}
 RUBRIC_ORDER = ["fashion", "architecture", "travel", "women", "painting"]
@@ -208,12 +210,12 @@ def publish(post, token, fetch=request):
     validate_post(post)
     if len(post["images"]) == 1:
         method = "sendPhoto"
-        payload = {"chat_id": CHANNEL, "photo": post["images"][0], "caption": post["caption"]}
+        payload = {"chat_id": CHANNEL, "photo": post["images"][0], "caption": post["caption"], "disable_notification": True}
     else:
         method = "sendMediaGroup"
         media = [{"type": "photo", "media": image} for image in post["images"]]
         media[0]["caption"] = post["caption"]
-        payload = {"chat_id": CHANNEL, "media": media}
+        payload = {"chat_id": CHANNEL, "media": media, "disable_notification": True}
     reply = fetch("https://api.telegram.org/bot" + token + "/" + method, payload)
     if not reply.get("ok"):
         raise PublishError("Нет подтверждения Telegram")
@@ -231,7 +233,7 @@ def execute_one(dry_run=False, batch_date=None):
     if batch_date:
         if state.get("pending"):
             raise PublishError("Есть неподтверждённая отправка: требуется проверка канала")
-        if state.get("daily_batches", {}).get(batch_date, {}).get("completed", 0) >= 15:
+        if state.get("daily_batches", {}).get(batch_date, {}).get("completed", 0) >= DAILY_TARGET:
             return {"status": "batch_complete"}
     elif not ensure_ready(state, now) and not dry_run:
         return {"status": "already_published"}
@@ -264,7 +266,8 @@ def execute_one(dry_run=False, batch_date=None):
     state["next_rubric_index"] = (state.get("next_rubric_index", 0) + 1) % len(RUBRIC_ORDER)
     state["publications"][-1]["rubric"] = post["rubric"]
     if batch_date:
-        batch = state.setdefault("daily_batches", {}).setdefault(batch_date, {"completed": 0, "target": 15})
+        batch = state.setdefault("daily_batches", {}).setdefault(batch_date, {"completed": 0, "target": DAILY_TARGET})
+        batch["target"] = DAILY_TARGET
         batch["completed"] += 1
         state["publications"][-1]["batch_date"] = batch_date
     state["pending"] = None
@@ -278,15 +281,17 @@ def execute(dry_run=False, now=None):
     day = local.date().isoformat()
     if dry_run:
         preview = execute_one(dry_run=True, batch_date=day)
-        return {"daily_target": 15, "time_moscow": "22:30", "preview": preview}
+        return {"daily_target": DAILY_TARGET, "time_moscow": "22:30", "preview": preview}
     if (local.hour, local.minute) < (22, 30):
         return {"status": "not_due", "time_moscow": "22:30"}
     results = []
-    for _ in range(15):
+    for _ in range(DAILY_TARGET):
         result = execute_one(batch_date=day)
         if result.get("status") != "published":
             return {"status": result["status"], "published_this_run": len(results), "date_moscow": day}
         results.append(result)
+        if len(results) < DAILY_TARGET:
+            time.sleep(1.1)
     return {"status": "batch_complete", "published_this_run": len(results), "date_moscow": day, "posts": results}
 
 
