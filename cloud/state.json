@@ -54,7 +54,28 @@
     14139
   ],
   "last_published_at": "2026-11-04T16:18:40.118161+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 640565,
+    "post": {
+      "object_id": 640565,
+      "rubric": "women",
+      "topic": "Amos Binney",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nAmos Binney\nPamela Hill · ca. 1840\n\nУделите этой работе минуту без готовой интерпретации. Какие отношения между формами, линиями и материалом кажутся важными? Разговор о женщинах в искусстве интересен через конкретные произведения и собственное наблюдение.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/DP701352.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/640565",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:44.748324+00:00",
+      "photo_verified_at": "2026-11-04T14:54:44.639226+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "d7a475199a4da5fa5d92c4690c1c9f981fb2f691dbe37dfad1f0b201669c39f6",
+    "attempted_at": "2026-11-04T16:18:42.746790+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
