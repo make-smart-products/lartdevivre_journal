@@ -82,7 +82,30 @@
     -1000015092
   ],
   "last_published_at": "2026-11-04T16:20:32.604053+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "editorial-refresh-2026-11-04",
+    "key": "refresh-quiz-morisot",
+    "post": {
+      "key": "refresh-quiz-morisot",
+      "kind": "quiz",
+      "question": "Кто автор этой гравюры «Гусь» (1889) из коллекции Метрополитен-музея?",
+      "options": [
+        "Роза Бонёр",
+        "Мэри Кассат",
+        "Берта Моризо",
+        "Джорджия О’Кифф"
+      ],
+      "correct_option_ids": [
+        2
+      ],
+      "explanation": "Автор — Берта Моризо. В музейном каталоге работа называется Goose, датировка — 1889 год.",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP884478.jpg",
+      "photo_credit": "Метрополитен-музей · Public Domain",
+      "source_url": "https://www.metmuseum.org/art/collection/search/336386",
+      "object_id": 336386
+    },
+    "attempted_at": "2026-11-04T16:28:31.013169+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
