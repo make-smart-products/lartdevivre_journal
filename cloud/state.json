@@ -1182,7 +1182,10 @@
           "kind": "article",
           "message_id": 151,
           "date": 1793779659,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Terras_in_Halle_2023.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-096",
