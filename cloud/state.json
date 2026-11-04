@@ -32,12 +32,7 @@
     436453
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-093",
-    "sha256": "45b3ad4d58a87be94b55e56ba586ae67cdd01d80b865f3672d8687800dee95c9",
-    "attempted_at": "2026-11-04T08:07:26.434736+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -983,6 +978,14 @@
           "message_id": 148,
           "date": 1793779644,
           "illustrated": false
+        },
+        {
+          "id": "LDV-093",
+          "title": "Камилла Клодель: пластика движения",
+          "kind": "article",
+          "message_id": 149,
+          "date": 1793779648,
+          "illustrated": true
         }
       ]
     }
