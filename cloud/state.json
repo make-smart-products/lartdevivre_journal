@@ -1234,7 +1234,10 @@
           "kind": "article",
           "message_id": 156,
           "date": 1793779682,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Solomon_R._Guggenheim_Museum_skylight.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         }
       ]
     }
