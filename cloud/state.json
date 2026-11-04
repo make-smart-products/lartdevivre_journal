@@ -29,12 +29,7 @@
     336388
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-016",
-    "sha256": "d9146013d81ae7dc0a494d58106193105ff9f62cd5295cba2a41e81021b2fff3",
-    "attempted_at": "2026-11-04T08:01:36.434746+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -364,6 +359,14 @@
           "message_id": 71,
           "date": 1793779294,
           "illustrated": false
+        },
+        {
+          "id": "LDV-016",
+          "title": "Мэри Кэссет и взгляд на близость",
+          "kind": "article",
+          "message_id": 72,
+          "date": 1793779298,
+          "illustrated": true
         }
       ]
     }
