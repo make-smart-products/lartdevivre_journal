@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-055",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 165,
-    "attempted_at": "2026-11-04T14:38:18.689653+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -928,14 +922,29 @@
           "id": "LDV-055",
           "title": "Как называется тип изображения характерного образа, к которому относят «Девушку с жемчужной серёжкой»?",
           "kind": "quiz",
-          "message_id": 165,
+          "message_id": 181,
           "date": 1793779477,
           "illustrated": true,
-          "old_message_id": 111,
+          "old_message_id": 165,
           "photo_replaced_poll": true,
-          "old_poll_deleted": true,
+          "old_poll_deleted": false,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
-          "poll_id": "5431856327641011905"
+          "poll_id": "5431856327641011945",
+          "retired_message_ids": [
+            111,
+            165
+          ],
+          "quiz_layout_version": "balanced-v1",
+          "correct_option_ids": [
+            0
+          ],
+          "options": [
+            "Трони",
+            "Диптих",
+            "Фреска",
+            "Триптих"
+          ],
+          "shuffle_options": true
         },
         {
           "id": "LDV-056",
