@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-043",
-    "sha256": "fa28a0cdb15a901e7901031ff01990f2515764811b901143fa429d2ec0fdddc1",
-    "attempted_at": "2026-11-04T08:03:37.744690+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -580,6 +575,14 @@
           "kind": "article",
           "message_id": 98,
           "date": 1793779415,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-043",
+          "title": "Кто написал эссе «Своя комната»?",
+          "kind": "quiz",
+          "message_id": 99,
+          "date": 1793779419,
           "illustrated": false
         }
       ]
