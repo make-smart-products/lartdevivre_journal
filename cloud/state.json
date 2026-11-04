@@ -41,7 +41,28 @@
     687677
   ],
   "last_published_at": "2026-11-04T16:17:32.328907+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 197122,
+    "post": {
+      "object_id": 197122,
+      "rubric": "women",
+      "topic": "Orpheus Attacked by the Maenads",
+      "caption": "🎨 Женщины в искусстве · Цвет\n\nOrpheus Attacked by the Maenads\nSuzanne de Court · first quarter 17th century\n\nКакой вопрос о творческом процессе возник у вас при взгляде на работу? Сформулируйте его без предположений о личной жизни автора. Интерес к произведению может начинаться с материала, формы и способа работы.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/es/web-large/ES10063.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/197122",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 1,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:41.699661+00:00",
+      "photo_verified_at": "2026-11-04T14:54:41.698107+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "564d3e7ec81ea68d7be690abe64af7202ec2c3a7349d4749a2292940d0db7622",
+    "attempted_at": "2026-11-04T16:17:35.566858+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
