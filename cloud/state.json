@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-065",
-    "sha256": "712c61bda090a1c94a2c667a60bb5b27cbbea7ca58f16306dcaef970af4752f6",
-    "attempted_at": "2026-11-04T08:05:18.850814+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -756,6 +751,14 @@
           "kind": "article",
           "message_id": 120,
           "date": 1793779516,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-065",
+          "title": "Юбка миди по-новому",
+          "kind": "article",
+          "message_id": 121,
+          "date": 1793779523,
           "illustrated": false
         }
       ]
