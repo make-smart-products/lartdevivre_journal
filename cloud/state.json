@@ -921,7 +921,10 @@
           "kind": "article",
           "message_id": 124,
           "date": 1793779536,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Scandinavian_interior_-_Double_bed.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-069",
