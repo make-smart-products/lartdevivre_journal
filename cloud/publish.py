@@ -26,13 +26,17 @@ CHANNEL = "@lartdevivre_journal"
 DAILY_TARGET = 100
 QUERIES = ["Vincent van Gogh", "Edgar Degas", "Paul Cezanne", "Edouard Manet", "Berthe Morisot", "Rembrandt", "landscape"]
 RESERVE_OBJECT_IDS = {"painting": [436531, 436533, 437423, 437430]}
-RUBRIC_ORDER = ["fashion", "architecture", "travel", "women", "painting"]
+BASE_RUBRIC_ORDER = ["fashion", "architecture", "travel", "women", "painting"]
+# A twenty-slot cycle: 15 per core topic, 10 books/cinema and 15 quizzes per 100.
+RUBRIC_ORDER = (BASE_RUBRIC_ORDER + ["books", "quiz"]) * 2 + BASE_RUBRIC_ORDER + ["quiz"]
 RUBRICS = {
     "fashion": {"label": "👗 История моды", "tag": "#ИсторияМоды", "queries": ["evening dress", "robe", "coat", "hat", "House of Worth"]},
-    "architecture": {"label": "🏛 Архитектура", "tag": "#Архитектура", "queries": ["temple", "architectural", "column", "facade", "floor plan", "cathedral"]},
+    "architecture": {"label": "🏛 Архитектура и интерьер", "tag": "#Архитектура", "queries": ["temple", "architectural", "column", "facade", "floor plan", "cathedral", "interior", "chair", "cabinet"]},
     "travel": {"label": "🧳 Культурные путешествия", "tag": "#КультурныеПутешествия", "queries": ["Venice", "Rome", "Paris", "Florence", "Kyoto", "Istanbul"]},
-    "women": {"label": "🎨 Женщины в искусстве", "tag": "#ЖенщиныВИскусстве", "queries": ["Berthe Morisot", "Mary Cassatt", "Rosa Bonheur", "Judith Leyster", "Elisabeth Louise Vigee Le Brun"]},
+    "women": {"label": "🎨 Женщины в искусстве", "tag": "#ЖенщиныВИскусстве", "queries": ["Berthe Morisot", "Mary Cassatt", "Rosa Bonheur", "Judith Leyster", "Elisabeth Louise Vigee Le Brun", "Artemisia Gentileschi", "Adelaide Labille-Guiard", "Rachel Ruysch", "Clara Peeters", "Eva Gonzales", "Marie Bracquemond", "Fidelia Bridges", "Edmonia Lewis", "Harriet Hosmer", "Camille Claudel", "Paula Modersohn-Becker", "Lilla Cabot Perry", "Elizabeth Nourse", "Cecilia Beaux", "Margaret Sarah Carpenter"]},
     "painting": {"label": "🖼 Картина дня", "tag": "#КартинаДня"},
+    "books": {"label": "📚 Книги, кино и визуальные истории", "tag": "#КнигиИКино", "queries": ["Shakespeare", "Tennyson", "Hamlet", "King Lear", "illustrated book", "theater"]},
+    "quiz": {"label": "❓ Визуальная викторина", "tag": "#Викторина", "queries": ["painting", "photograph", "engraving", "sculpture"]},
 }
 ARTISTS = {"Vincent van Gogh": "Винсент ван Гог", "Katsushika Hokusai": "Кацусика Хокусай", "Edgar Degas": "Эдгар Дега", "Paul Cézanne": "Поль Сезанн", "Edouard Manet": "Эдуард Мане", "Mary Cassatt": "Мэри Кассат", "Berthe Morisot": "Берта Моризо", "Albrecht Dürer": "Альбрехт Дюрер"}
 
@@ -72,6 +76,13 @@ def validate_post(post):
             raise PublishError("Изображение должно происходить из официальной коллекции")
     if not post.get("source_url", "").startswith("https://www.metmuseum.org/art/collection/search/"):
         raise PublishError("Отсутствует официальный первоисточник")
+    if post.get("kind") == "quiz":
+        options = post.get("options", [])
+        correct = post.get("correct_option_ids", [])
+        if not 2 <= len(options) <= 10 or len(set(options)) != len(options) or len(correct) != 1 or not isinstance(correct[0], int) or not 0 <= correct[0] < len(options):
+            raise PublishError("Неверные варианты или ответ викторины")
+        if len(photos) != 1 or not post.get("question") or len(post["question"]) > 300 or len(post.get("explanation", "")) > 200:
+            raise PublishError("Неверный формат викторины с фото")
 
 
 def matches_rubric(obj, rubric):
@@ -83,10 +94,53 @@ def matches_rubric(obj, rubric):
     if rubric == "fashion":
         return obj.get("department") == "Costume Institute" and any(word in kind for word in ("dress", "robe", "coat", "gown", "hat", "shoe", "jacket", "ensemble", "suit"))
     if rubric == "architecture":
-        return any(word in kind + " " + title for word in ("temple", "capital", "column", "architectural", "floor plan", "facade", "façade", "elevation", "portal", "church", "cathedral", "palace"))
+        return bool(re.search(r"\b(chair|table|cabinet|sofa|furniture|interior)\b", kind)) or any(word in kind + " " + title for word in ("temple", "capital", "column", "architectural", "floor plan", "facade", "façade", "elevation", "portal", "church", "cathedral", "palace"))
     if rubric == "travel":
         return any(word in kind for word in ("painting", "watercolor", "print", "drawing", "photograph")) and any(place.lower() in title for place in RUBRICS["travel"]["queries"])
+    if rubric == "books":
+        return any(word in title + " " + kind for word in ("shakespeare", "tennyson", "hamlet", "king lear", "illustrated book", "theater", "theatre", "cinema"))
+    if rubric == "quiz":
+        return bool(quiz_medium(obj))
     return any(word in kind for word in ("painting", "watercolor"))
+
+
+def content_signature(obj):
+    creator = re.sub(r"\s+", " ", obj.get("artistDisplayName", "").strip().casefold())
+    medium = (obj.get("medium", "") + " " + obj.get("objectName", "")).casefold()
+    if "cyanotype" in medium:
+        family = "cyanotype"
+    elif "photograph" in obj.get("classification", "").casefold() and any(word in obj.get("title", "").casefold() for word in ("portrait", "study", "mrs", "miss")):
+        family = "photographic-portrait"
+    else:
+        family = ""
+    return {"creator": creator, "visual_family": family, "image": obj.get("primaryImageSmall", ""),
+            "work_key": creator + "|" + obj.get("title", "").strip().casefold()}
+
+
+def diverse_enough(post, state):
+    recent = state.get("recent_content", [])[-100:]
+    if any(post.get("images", [None])[0] == item.get("image") for item in recent):
+        return False
+    if post.get("work_key") and any(post["work_key"] == item.get("work_key") for item in recent):
+        return False
+    if post.get("visual_family") == "cyanotype" and any(item.get("visual_family") == "cyanotype" for item in recent):
+        return False
+    creator = post.get("creator")
+    if creator and sum(item.get("creator") == creator for item in recent) >= 2:
+        return False
+    if creator and recent and recent[-1].get("creator") == creator:
+        return False
+    return True
+
+
+def quiz_medium(obj):
+    kind = (obj.get("objectName", "") + " " + obj.get("classification", "")).casefold()
+    for words, answer in [(("photograph",), "Фотография"), (("painting",), "Живопись"),
+                          (("print", "engraving", "etching"), "Печатная графика"),
+                          (("sculpture", "bust"), "Скульптура")]:
+        if any(word in kind for word in words):
+            return answer
+    return None
 
 
 def make_card(obj, rubric="painting"):
@@ -101,22 +155,37 @@ def make_card(obj, rubric="painting"):
     # Preserve original catalogue titles instead of inventing translations or facts.
     config = RUBRICS[rubric]
     prompts = {
-        "fashion": "Исторический костюм из коллекции Института костюма. Присмотритесь к силуэту, линии плеч и отделке: какая деталь кажется вам самой выразительной? Представьте, как меняется впечатление от наряда при движении и другом освещении.",
-        "architecture": "Архитектура из музейной коллекции: сооружения, их фрагменты и проекты. Проследите за ритмом линий и пропорциями. Какая деталь задаёт характер всему пространству? Попробуйте мысленно изменить масштаб: что останется узнаваемым?",
-        "travel": "Путешествие через искусство: перед вами исторический образ места, название которого сохранено в музейном каталоге. Посмотрите, как художник выстраивает пространство. Какая деталь помогает почувствовать атмосферу? Это взгляд автора своего времени, а не современный путеводитель.",
-        "women": "Автор этой работы — художница, указанная в музейном каталоге. Уделите изображению минуту: как она направляет ваше внимание? Начните с самого заметного элемента, затем найдите тихую деталь, которую легко пропустить при первом взгляде.",
-        "painting": "Произведение из открытой музейной коллекции. Уделите изображению минуту: что первым привлекает ваше внимание — цвет, линия или фактура? Выберите одну деталь и попробуйте описать её тремя словами. Затем посмотрите на картину целиком ещё раз.",
+        "fashion": ["Идея для своего гардероба: выбрать одну деталь исторической вещи, которую можно переосмыслить сегодня.", "Силуэт или отделка? Что вам хотелось бы позаимствовать у этого предмета, сохранив собственный стиль?", "Сохраните как вдохновение для сочетания фактур — без необходимости повторять исторический наряд."],
+        "architecture": ["Идея для следующей прогулки: искать ритм окон, колонн и свободных промежутков.", "Поменяйте масштаб взгляда: сначала общая форма, затем одна конструктивная деталь.", "Что можно взять для своего пространства: ритм, пропорции или сочетание материалов?"],
+        "travel": ["Исторический образ места, не современная туристическая рекомендация. Повод узнать город через взгляд художника.", "Вдохновение для неспешной прогулки: один вид вместо длинного списка достопримечательностей. Перед вами историческое изображение.", "Сравните с образом города, который хранится в вашей памяти. Это историческая работа, а не фотография сегодняшнего маршрута."],
+        "women": ["Работа художницы — повод познакомиться с её собственным визуальным языком.", "В личную коллекцию вдохновения: работа женщины, чьё авторство указано в музейном каталоге.", "Начнём знакомство с художницей с одной работы, без готового списка обязательных впечатлений."],
+        "painting": ["Идея для личного мудборда: взять из картины два оттенка и одну небольшую деталь.", "Можно сохранить ради палитры, необычного ракурса или просто настроения — свой выбор не нужно оправдывать.", "Небольшая творческая пауза: выберите фрагмент, который хотелось бы зарисовать или описать."],
+        "books": ["Книжная история получает визуальный образ. Что вы представляли иначе, когда читали?", "Идея для книжного клуба: сопоставить текст и изображение, не выбирая единственное правильное прочтение.", "От текста к кадру: какие решения художника меняют ваше представление о знакомой истории?"],
+        "quiz": ["Проверьте наблюдательность: ответ подтверждён музейным каталогом."],
     }
+    prompt = prompts[rubric][int(obj["objectID"]) % len(prompts[rubric])]
     caption = (config["label"] + "\n\n" + title + "\n" + artist + " · " + date +
-               "\n\n" + prompts[rubric] + "\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n" + config["tag"])
+               "\n\n" + prompt + "\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n" + config["tag"])
     post = {"topic": title, "caption": caption, "images": [obj["primaryImageSmall"]],
             "source_url": "https://www.metmuseum.org/art/collection/search/" + str(obj["objectID"]),
             "object_id": obj["objectID"], "rubric": rubric}
+    post.update(content_signature(obj))
+    if rubric == "quiz":
+        answer = quiz_medium(obj)
+        if not answer:
+            raise PublishError("Нет проверяемого ответа для викторины")
+        options = ["Фотография", "Живопись", "Печатная графика", "Скульптура"]
+        random.Random(str(obj["objectID"])).shuffle(options)
+        post.update(kind="quiz", question="К какому виду искусства относится показанная работа?",
+                    options=options, correct_option_ids=[options.index(answer)],
+                    explanation=("Музейный каталог: " + title + ". Вид искусства — " + answer.lower() + ".")[:200])
     for image in obj.get("additionalImages", []):
         if image not in post["images"] and urllib.parse.urlparse(image).hostname == "images.metmuseum.org":
             post["images"].append(image)
         if len(post["images"]) == 3:
             break
+    if rubric == "quiz":
+        post["images"] = post["images"][:1]
     validate_post(post)
     return post
 
@@ -139,8 +208,10 @@ def choose_post(state, fetch=request, rubric=None):
             selected = [image for image in post.get("images", []) if image in approved]
             post["images"] = selected[:3] or [obj["primaryImageSmall"]]
             post["rubric"] = rubric
+            post.update(content_signature(obj))
             validate_post(post)
-            return post
+            if diverse_enough(post, state):
+                return post
     # Known catalogue IDs provide a small reserve when broad search is noisy.
     # Every candidate still needs live metadata, public-domain rights and a new ID.
     for object_id in RESERVE_OBJECT_IDS.get(rubric, []):
@@ -149,7 +220,9 @@ def choose_post(state, fetch=request, rubric=None):
         try:
             obj = fetch(MET + "/objects/" + str(object_id))
             if matches_rubric(obj, rubric):
-                return make_card(obj, rubric)
+                card = make_card(obj, rubric)
+                if diverse_enough(card, state):
+                    return card
         except PublishError:
             continue
     queries = RUBRICS[rubric].get("queries", QUERIES)
@@ -170,7 +243,9 @@ def choose_post(state, fetch=request, rubric=None):
                 try:
                     obj = fetch(MET + "/objects/" + str(object_id))
                     if matches_rubric(obj, rubric):
-                        return make_card(obj, rubric)
+                        card = make_card(obj, rubric)
+                        if diverse_enough(card, state):
+                            return card
                 except PublishError:
                     continue
             if offset_in_results + 100 >= results.get("total", 0):
@@ -208,7 +283,15 @@ class StateStore:
 
 def publish(post, token, fetch=request):
     validate_post(post)
-    if len(post["images"]) == 1:
+    if post.get("kind") == "quiz":
+        method = "sendPoll"
+        payload = {"chat_id": CHANNEL, "question": post["question"],
+                   "options": [{"text": option} for option in post["options"]],
+                   "type": "quiz", "correct_option_ids": post["correct_option_ids"],
+                   "explanation": post["explanation"], "shuffle_options": True,
+                   "media": {"type": "photo", "media": post["images"][0]},
+                   "description": "Изображение: Метрополитен-музей · Public Domain.", "disable_notification": True}
+    elif len(post["images"]) == 1:
         method = "sendPhoto"
         payload = {"chat_id": CHANNEL, "photo": post["images"][0], "caption": post["caption"], "disable_notification": True}
     else:
@@ -219,6 +302,11 @@ def publish(post, token, fetch=request):
     reply = fetch("https://api.telegram.org/bot" + token + "/" + method, payload)
     if not reply.get("ok"):
         raise PublishError("Нет подтверждения Telegram")
+    if method == "sendPoll":
+        message = reply.get("result", {})
+        if not message.get("message_id") or message.get("poll", {}).get("type") != "quiz" or not message.get("poll", {}).get("media", {}).get("photo"):
+            raise PublishError("Telegram не подтвердил викторину с фото")
+        return [message["message_id"]]
     results = reply["result"] if isinstance(reply["result"], list) else [reply["result"]]
     if len(results) != len(post["images"]) or any(not x.get("photo") or not x.get("message_id") for x in results):
         raise PublishError("Неполное подтверждение Telegram")
@@ -265,6 +353,8 @@ def execute_one(dry_run=False, batch_date=None):
                                                "source_url": post["source_url"], "published_at": state["last_published_at"]})
     state["next_rubric_index"] = (state.get("next_rubric_index", 0) + 1) % len(RUBRIC_ORDER)
     state["publications"][-1]["rubric"] = post["rubric"]
+    state.setdefault("recent_content", []).append({key: post.get(key, "") for key in ("creator", "visual_family", "image", "work_key")})
+    state["recent_content"] = state["recent_content"][-100:]
     if batch_date:
         batch = state.setdefault("daily_batches", {}).setdefault(batch_date, {"completed": 0, "target": DAILY_TARGET})
         batch["target"] = DAILY_TARGET
@@ -281,7 +371,13 @@ def execute(dry_run=False, now=None):
     day = local.date().isoformat()
     if dry_run:
         preview = execute_one(dry_run=True, batch_date=day)
-        return {"daily_target": DAILY_TARGET, "time_moscow": "22:30", "preview": preview}
+        token = os.environ.get("JOURNAL_GITHUB_TOKEN") or os.environ.get("GITHUB_TOKEN")
+        state = StateStore(token).load() if token else json.loads((ROOT / "cloud" / "state.json").read_text(encoding="utf-8-sig"))
+        audit = {}
+        for rubric in RUBRICS:
+            card = choose_post(state, rubric=rubric)
+            audit[rubric] = {"validated": True, "topic": card["topic"], "images": len(card["images"]), "kind": card.get("kind", "article")}
+        return {"daily_target": DAILY_TARGET, "time_moscow": "22:30", "preview": preview, "rubrics": audit}
     if (local.hour, local.minute) < (22, 30):
         return {"status": "not_due", "time_moscow": "22:30"}
     results = []

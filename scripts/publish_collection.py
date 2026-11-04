@@ -13,6 +13,7 @@ import json
 import os
 from pathlib import Path
 import re
+import random
 import subprocess
 import sys
 import time
@@ -317,7 +318,17 @@ def credentials():
 def payload_for(post):
     base={'chat_id':CHANNEL,'disable_notification':True}
     if post['kind']=='quiz':
-        base.update(question=post['question'],options=[{'text':o} for o in post['options']],type='quiz',is_anonymous=True,correct_option_ids=post['correct_option_ids'],explanation=post['explanation'])
+        options=list(post['options'])
+        correct=list(post['correct_option_ids'])
+        if re.fullmatch(r'LDV-\d{3}',post.get('id','')) and len(correct)==1:
+            answer=options[correct[0]]
+            wrong=[option for index,option in enumerate(options) if index!=correct[0]]
+            random.Random(post['id']+post['question']).shuffle(wrong)
+            position=((int(post['id'][4:])-7)//6)%len(options)
+            wrong.insert(position,answer)
+            options=wrong
+            correct=[position]
+        base.update(question=post['question'],options=[{'text':o} for o in options],type='quiz',is_anonymous=True,correct_option_ids=correct,explanation=post['explanation'],shuffle_options=True)
         if post.get('image'):
             base['media']={'type':'photo','media':post['image']}
             if post.get('photo_credit'):

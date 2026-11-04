@@ -137,7 +137,7 @@ class PublishTests(unittest.TestCase):
             return [42]
         with patch.dict(publish.os.environ, {"GITHUB_TOKEN": "fake", "TELEGRAM_BOT_TOKEN": "fake"}), patch.object(publish.sys, "argv", ["publish"]), patch.object(publish, "StateStore", return_value=store), patch.object(publish, "choose_post", return_value=card), patch.object(publish, "publish", side_effect=send):
             publish.execute_one()
-        self.assertEqual(0, state["next_rubric_index"])
+        self.assertEqual(5 % len(publish.RUBRIC_ORDER), state["next_rubric_index"])
         self.assertIsNone(snapshots[-1]["pending"])
         self.assertEqual("painting", state["publications"][-1]["rubric"])
 

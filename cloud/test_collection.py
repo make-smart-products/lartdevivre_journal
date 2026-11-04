@@ -4,6 +4,7 @@ import unittest
 import copy
 import json
 import tempfile
+from collections import Counter
 from unittest.mock import patch
 import scripts.publish_collection as collection
 
@@ -12,6 +13,19 @@ from scripts.publish_collection import load_posts, payload_for, validate_manifes
 
 
 class CollectionTests(unittest.TestCase):
+    def test_quiz_answer_positions_are_balanced_and_answer_text_is_preserved(self):
+        counts=Counter()
+        for n in range(15):
+            post={'id':'LDV-'+str(7+6*n).zfill(3),'kind':'quiz','question':'Who?','options':['Right','Wrong 1','Wrong 2','Wrong 3'],'correct_option_ids':[0],'explanation':'Explanation'}
+            method,payload=payload_for(post)
+            index=payload['correct_option_ids'][0]
+            counts[index]+=1
+            self.assertEqual('Right',payload['options'][index]['text'])
+            self.assertEqual(set(post['options']),{x['text'] for x in payload['options']})
+            self.assertTrue(payload['shuffle_options'])
+            self.assertEqual([0],post['correct_option_ids'])
+        self.assertEqual({0:4,1:4,2:4,3:3},dict(counts))
+
     def test_artist_matching_rejects_namesakes(self):
         self.assertFalse(same_artist('Kara Walker','Walker Evans'))
         self.assertFalse(same_artist('Agnes Martin','Martin Schongauer'))

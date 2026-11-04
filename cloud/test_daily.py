@@ -17,19 +17,21 @@ class DailyBatchTests(unittest.TestCase):
             state.update(copy.deepcopy(value))
         store.save.side_effect = save
         def choose(value):
-            obj = {'objectID': 1000 + len(value.get('used_object_ids', [])), 'title': 'Test work', 'objectDate': '1900', 'isPublicDomain': True, 'primaryImageSmall': 'https://images.metmuseum.org/test.jpg'}
+            obj = {'objectID': 1000 + len(value.get('used_object_ids', [])), 'title': 'Test work', 'objectDate': '1900', 'objectName': 'Painting', 'isPublicDomain': True, 'primaryImageSmall': 'https://images.metmuseum.org/test.jpg'}
             rubric = publish.RUBRIC_ORDER[value.get('next_rubric_index', 0)]
             return publish.make_card(obj, rubric)
         with patch.dict(os.environ, {'GITHUB_TOKEN': 'fake', 'TELEGRAM_BOT_TOKEN': 'fake'}), patch.object(publish, 'StateStore', return_value=store), patch.object(publish, 'choose_post', side_effect=choose), patch.object(publish.time,'sleep'), patch.object(publish, 'publish', return_value=[42]) as send:
             result = publish.execute(now=now)
             return result, send.call_count
 
-    def test_full_block_has_one_hundred_posts_and_twenty_per_rubric(self):
+    def test_full_block_has_one_hundred_posts_and_all_seven_rubrics(self):
         state = {'next_rubric_index': 1}
         result, calls = self.run_batch(state, dt.datetime(2026, 11, 3, 19, 30, tzinfo=dt.timezone.utc))
         self.assertEqual(100, calls)
         self.assertEqual(100, result['published_this_run'])
-        self.assertEqual({rubric: 20 for rubric in publish.RUBRIC_ORDER}, dict(Counter(x['rubric'] for x in state['publications'])))
+        expected={rubric:15 for rubric in publish.BASE_RUBRIC_ORDER}
+        expected.update(books=10,quiz=15)
+        self.assertEqual(expected, dict(Counter(x['rubric'] for x in state['publications'])))
 
     def test_second_invocation_does_not_repeat_completed_block(self):
         state = {'daily_batches': {'2026-11-03': {'completed': 100}}}

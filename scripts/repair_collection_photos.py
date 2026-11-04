@@ -129,6 +129,8 @@ def prepare():
 def run_articles():
     plans=json.loads((LOCAL/'photo-repair-plan.json').read_text(encoding='utf-8'))
     selections=json.loads((LOCAL/'photo-selections.json').read_text(encoding='utf-8'))
+    refresh_path=LOCAL/'photo-refresh.json'
+    refresh=set(json.loads(refresh_path.read_text(encoding='utf-8'))) if refresh_path.exists() else set()
     bot,github=credentials()
     store=StateStore(github)
     state=store.load()
@@ -151,33 +153,59 @@ def run_articles():
     for plan in plans:
         pid=plan['id']
         receipt=by_id[pid]
-        if plan['kind']!='article' or receipt.get('illustrated') or pid not in selections:
+        if plan['kind']!='article' or receipt.get('illustrated') and pid not in refresh or pid not in selections:
             continue
         asset=plan['candidates'][selections[pid]]
-        caption=plan['body']+'\n\nФото: '+asset['artist']+' · '+asset['license']+'.'
+        caption=plan['body']+('\n\n'+asset['label'] if asset.get('label') else '')+'\n\nФото: '+asset['artist']+' · '+asset['license']+'.'
         if len(caption)>1024:
             raise ValueError('Photo caption too long '+pid)
         payload={'chat_id':CHANNEL,'message_id':receipt['message_id'],'media':{'type':'photo','media':asset['image'],'caption':caption,'caption_entities':credit_entities(caption,asset)}}
+        confirmation='returned_photo'
         try:
             result=api('https://api.telegram.org/bot'+bot+'/editMessageMedia',payload,timeout=40)
         except RequestFailure as error:
-            if error.status==400:
+            if error.status==400 and 'message is not modified' in error.detail.lower():
+                # Repeating this exact edit is safe after a lost response.
+                result=None
+                confirmation='already_current'
+            elif error.status==400:
                 print(json.dumps({'failed_photo':pid,'error':str(error)}),flush=True)
                 continue
-            raise
-        message=result.get('result',{})
-        if not result.get('ok') or not message.get('photo') or message.get('message_id')!=receipt['message_id']:
+            else:
+                raise
+        message=result.get('result',{}) if result else {}
+        if result and (not result.get('ok') or not message.get('photo') or message.get('message_id')!=receipt['message_id']):
             raise ValueError('No confirmed photo edit '+pid)
-        proof={'id':pid,'message_id':receipt['message_id'],'photo':True,'source_url':asset['source_url'],'image':asset['image'],'license':asset['license'],'artist':asset['artist'],'file_id':message['photo'][-1]['file_id']}
+        proof={'id':pid,'message_id':receipt['message_id'],'photo':True,'confirmation':confirmation,'source_url':asset['source_url'],'image':asset['image'],'license':asset['license'],'artist':asset['artist'],'file_id':message.get('photo',[{}])[-1].get('file_id')}
         with journal.open('a',encoding='utf-8') as handle:
             handle.write(json.dumps(proof,ensure_ascii=False)+'\n')
             handle.flush()
             os.fsync(handle.fileno())
-        receipt.update(illustrated=True,photo_source_url=asset['source_url'],photo_repaired=True)
+        receipt.update(illustrated=True,photo_source_url=asset['source_url'],photo_repaired=True,photo_credit_links=True)
         store.save(state,'Add verified photo to '+pid)
         (LOCAL/'mass-receipts.json').write_text(json.dumps(ledger,ensure_ascii=False,indent=2),encoding='utf-8')
+        if pid in refresh:
+            refresh.remove(pid)
+            refresh_path.write_text(json.dumps(sorted(refresh)),encoding='utf-8')
         print(json.dumps({'photo_added':pid,'message_id':receipt['message_id'],'articles_with_photo':sum(r['kind']=='article' and r.get('illustrated',False) for r in by_id.values())}),flush=True)
         time.sleep(1.1)
+    bodies={p['id']:p.get('caption','') for p in load_posts(LOCAL/'review.md')}
+    for proof in proofs:
+        receipt=by_id[proof['id']]
+        if not proof.get('license','').startswith('CC BY') or receipt.get('photo_credit_links'):
+            continue
+        caption=bodies[proof['id']]+'\n\nФото: '+proof['artist']+' · '+proof['license']+'.'
+        try:
+            result=api('https://api.telegram.org/bot'+bot+'/editMessageCaption',{'chat_id':CHANNEL,'message_id':receipt['message_id'],'caption':caption,'caption_entities':credit_entities(caption,proof)})
+        except RequestFailure as error:
+            if error.status==400 and 'message is not modified' in error.detail.lower():
+                result=None
+            else:
+                raise
+        if result and (not result.get('ok') or not result.get('result',{}).get('photo')):
+            raise ValueError('Credit update not confirmed '+proof['id'])
+        receipt['photo_credit_links']=True
+        store.save(state,'Complete photograph licence attribution '+proof['id'])
     (LOCAL/'mass-receipts.json').write_text(json.dumps(ledger,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'articles_with_photo':sum(r['kind']=='article' and r.get('illustrated',False) for r in by_id.values()),'target_articles':85}),flush=True)
 
@@ -198,8 +226,11 @@ def run_quizzes():
         if plan['kind']!='quiz' or pid not in selections:
             continue
         asset=plan['candidates'][selections[pid]]
-        if not receipt.get('photo_replaced_poll'):
-            post={**posts[pid],'image':asset['image'],'photo_credit':'Фото: '+asset['artist']+' · '+asset['license']+'.'}
+        if not receipt.get('photo_replaced_poll') or receipt.get('quiz_layout_version')!='balanced-v1':
+            credit='Фото: '+asset['artist']+' · '+asset['license']+'.'
+            if pid in ('LDV-007','LDV-055'):
+                credit='Изображение: Mauritshuis · Public Domain.'
+            post={**posts[pid],'image':asset['image'],'photo_credit':credit}
             method,payload=payload_for(post)
             payload['description_entities']=credit_entities(payload['description'],asset)
             state['pending']={'batch':BATCH,'editorial_id':pid,'action':'replace_quiz_with_photo','old_message_id':receipt['message_id'],'attempted_at':dt.datetime.now(dt.timezone.utc).isoformat()}
@@ -217,10 +248,13 @@ def run_quizzes():
             poll=message.get('poll',{})
             if not result.get('ok') or not message.get('message_id') or poll.get('type')!='quiz' or not poll.get('media',{}).get('photo'):
                 raise ValueError('No confirmed quiz with photograph '+pid)
-            proof={'id':pid,'old_message_id':receipt['message_id'],'message_id':message['message_id'],'photo':True,'poll_id':poll['id'],'source_url':asset['source_url'],'image':asset['image'],'license':asset['license'],'artist':asset['artist']}
+            proof={'id':pid,'old_message_id':receipt['message_id'],'message_id':message['message_id'],'photo':True,'poll_id':poll['id'],'source_url':asset['source_url'],'image':asset['image'],'license':asset['license'],'artist':asset['artist'],'quiz_layout_version':'balanced-v1','correct_option_ids':payload['correct_option_ids'],'options':[o['text'] for o in payload['options']],'shuffle_options':True}
             with (LOCAL/'photo-quiz-journal.jsonl').open('a',encoding='utf-8') as handle:
                 handle.write(json.dumps(proof,ensure_ascii=False)+'\n');handle.flush();os.fsync(handle.fileno())
-            receipt.update(message_id=message['message_id'],old_message_id=receipt['message_id'],illustrated=True,photo_replaced_poll=True,old_poll_deleted=False,photo_source_url=asset['source_url'],poll_id=poll['id'])
+            retired=receipt.get('retired_message_ids',[])
+            for old_id in (receipt.get('old_message_id'),receipt['message_id']):
+                if old_id and old_id not in retired:retired.append(old_id)
+            receipt.update(message_id=message['message_id'],old_message_id=receipt['message_id'],retired_message_ids=retired,illustrated=True,photo_replaced_poll=True,old_poll_deleted=False,photo_source_url=asset['source_url'],poll_id=poll['id'],quiz_layout_version='balanced-v1',correct_option_ids=payload['correct_option_ids'],options=[o['text'] for o in payload['options']],shuffle_options=True)
             state['pending']=None
             store.save(state,'Confirm photo quiz replacement '+pid)
             (LOCAL/'mass-receipts.json').write_text(json.dumps(ledger,ensure_ascii=False,indent=2),encoding='utf-8')
