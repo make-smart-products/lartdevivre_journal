@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-032",
-    "sha256": "71642997f1269376fcad45de8bd2669cffbf65a39cafe328c1e322906445df67",
-    "attempted_at": "2026-11-04T08:02:45.990091+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -492,6 +487,14 @@
           "kind": "quiz",
           "message_id": 87,
           "date": 1793779363,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-032",
+          "title": "Маленькая квартира — большой ритм",
+          "kind": "article",
+          "message_id": 88,
+          "date": 1793779370,
           "illustrated": false
         }
       ]
