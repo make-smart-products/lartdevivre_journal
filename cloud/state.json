@@ -663,7 +663,7 @@
           "illustrated": true,
           "old_message_id": 99,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg",
           "poll_id": "5431856327641011903"
         },
