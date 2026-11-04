@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-031",
-    "sha256": "19e495b179c51556c1c4ef91c38b731a6d824b70c4b9711adbecbfe0c46b54eb",
-    "attempted_at": "2026-11-04T08:02:41.823758+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -484,6 +479,14 @@
           "kind": "article",
           "message_id": 86,
           "date": 1793779359,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-031",
+          "title": "Какая школа дизайна объединяла искусство, ремесло и архитектуру?",
+          "kind": "quiz",
+          "message_id": 87,
+          "date": 1793779363,
           "illustrated": false
         }
       ]
