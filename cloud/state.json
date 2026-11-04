@@ -334,7 +334,8 @@
           "date": 1793779085,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Art_Deco_facade_on_the_Holland_%26_Barrett_building.jpg",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-011",
