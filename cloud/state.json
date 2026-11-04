@@ -1019,7 +1019,10 @@
           "kind": "article",
           "message_id": 134,
           "date": 1793779581,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Kimono_and_Trouser_suit,_Victoria_and_Albert_Museum,_Dundee.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-079",
