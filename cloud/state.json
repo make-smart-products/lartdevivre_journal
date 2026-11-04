@@ -362,7 +362,9 @@
           "kind": "article",
           "message_id": 70,
           "date": 1793779102,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-015",
