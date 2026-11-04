@@ -1170,7 +1170,7 @@
           "illustrated": true,
           "old_message_id": 169,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Linen_Coptic_fabric_REM.JPG",
           "poll_id": "5431856327641011948",
           "retired_message_ids": [
