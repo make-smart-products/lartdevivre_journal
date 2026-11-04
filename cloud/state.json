@@ -828,7 +828,10 @@
           "kind": "article",
           "message_id": 115,
           "date": 1793779493,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Louise_Bourgeois,_c._2000.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-060",
