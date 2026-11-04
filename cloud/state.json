@@ -1007,7 +1007,7 @@
           "illustrated": true,
           "old_message_id": 167,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Riverside_Museum_-_Glasgow,_Scotland_-_Designed_by_Zaha_Hadid.jpg",
           "poll_id": "5431856327641011946",
           "retired_message_ids": [
