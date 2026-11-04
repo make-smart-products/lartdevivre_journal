@@ -67,31 +67,11 @@
     268691,
     291499,
     230970,
-    433929
+    433929,
+    19430
   ],
-  "last_published_at": "2026-11-04T16:20:11.033708+00:00",
-  "pending": {
-    "batch": "reserve-2026-11-04-approved-86",
-    "object_id": 19430,
-    "post": {
-      "object_id": 19430,
-      "rubric": "women",
-      "topic": "Henrietta Middleton",
-      "caption": "🎨 Женщины в искусстве · Форма\n\nHenrietta Middleton\nMary Roberts · ca. 1752–58\n\nНайдите деталь, которую захотелось бы рассмотреть крупнее. Почему она удерживает внимание? Авторство и дата дают отправную точку, а собственные вопросы помогают превратить музейную карточку в живое знакомство.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ad/web-large/DP145444.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/19430",
-      "prepared_batch": "reserve-2026-11-04",
-      "prepared_day": 2,
-      "audience": "девушки и женщины; культура, стиль и искусство",
-      "source_verified_at": "2026-11-04T14:54:49.565371+00:00",
-      "photo_verified_at": "2026-11-04T14:54:49.564269+00:00",
-      "licence": "Public Domain / Met Open Access"
-    },
-    "sha256": "829f6b80e5d42f62f4e31e756c4c56be39812fe36eb715e354aa46d2df82e2a6",
-    "attempted_at": "2026-11-04T16:20:14.217102+00:00"
-  },
+  "last_published_at": "2026-11-04T16:20:16.848857+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -657,6 +637,16 @@
       ],
       "source_url": "https://www.metmuseum.org/art/collection/search/433929",
       "published_at": "2026-11-04T16:20:11.033708+00:00",
+      "rubric": "women",
+      "batch": "reserve-2026-11-04-approved-86"
+    },
+    {
+      "object_id": 19430,
+      "message_ids": [
+        230
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/19430",
+      "published_at": "2026-11-04T16:20:16.848857+00:00",
       "rubric": "women",
       "batch": "reserve-2026-11-04-approved-86"
     }
@@ -2278,6 +2268,15 @@
           "illustrated": true,
           "sha256": "505d70902e4baa8a8000fbd7231febe8be13bd3a012a5ce26d13207465c3d6e2",
           "published_at": "2026-11-04T16:20:11.033708+00:00"
+        },
+        {
+          "batch": "reserve-2026-11-04-approved-86",
+          "object_id": 19430,
+          "message_id": 230,
+          "date": 1793809217,
+          "illustrated": true,
+          "sha256": "829f6b80e5d42f62f4e31e756c4c56be39812fe36eb715e354aa46d2df82e2a6",
+          "published_at": "2026-11-04T16:20:16.848857+00:00"
         }
       ]
     }
