@@ -940,7 +940,7 @@
           "illustrated": true,
           "old_message_id": 123,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:MJK_37447_Agn%C3%A8s_Varda_(Berlinale_2019)_(cropped).jpg",
           "poll_id": "5431856327641011922"
         },
