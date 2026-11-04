@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-019",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 159,
-    "attempted_at": "2026-11-04T14:37:39.112692+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -454,14 +448,29 @@
           "id": "LDV-019",
           "title": "Какой термин обозначает сочетание вещей в ограниченной, хорошо комбинируемой подборке?",
           "kind": "quiz",
-          "message_id": 159,
+          "message_id": 175,
           "date": 1793779310,
           "illustrated": true,
-          "old_message_id": 75,
+          "old_message_id": 159,
           "photo_replaced_poll": true,
-          "old_poll_deleted": true,
+          "old_poll_deleted": false,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Looking_NNE_at_wardrobe_in_parents_bedroom_-_second_floor_-_Tinsley_Living_Farm_-_Museum_of_the_Rockies_-_2013-07-08.jpg",
-          "poll_id": "5431856327641011898"
+          "poll_id": "5431856327641011939",
+          "retired_message_ids": [
+            75,
+            159
+          ],
+          "quiz_layout_version": "balanced-v1",
+          "correct_option_ids": [
+            2
+          ],
+          "options": [
+            "Драпировка",
+            "Кринолин",
+            "Капсульный гардероб",
+            "Пэчворк"
+          ],
+          "shuffle_options": true
         },
         {
           "id": "LDV-020",
