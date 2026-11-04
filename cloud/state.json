@@ -891,7 +891,10 @@
           "kind": "article",
           "message_id": 121,
           "date": 1793779523,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Peasant_skirt_1435043608.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-066",
