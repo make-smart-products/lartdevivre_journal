@@ -69,7 +69,28 @@
     230970
   ],
   "last_published_at": "2026-11-04T16:20:00.871712+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 433929,
+    "post": {
+      "object_id": 433929,
+      "rubric": "women",
+      "topic": "The Crypt, Mont St. Michel, Brittany, France",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nThe Crypt, Mont St. Michel, Brittany, France\nEliza Pratt Greatorex · 1887\n\nПопробуйте на минуту отложить привычные сравнения с другими авторами. Что характеризует именно эту работу? Знакомство с женским творческим наследием складывается из множества таких самостоятельных встреч.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP-40113-001.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/433929",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:49.471192+00:00",
+      "photo_verified_at": "2026-11-04T14:54:49.470662+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "505d70902e4baa8a8000fbd7231febe8be13bd3a012a5ce26d13207465c3d6e2",
+    "attempted_at": "2026-11-04T16:20:03.300107+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
