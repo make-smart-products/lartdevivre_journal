@@ -75,7 +75,8 @@
     -1000186047,
     -1000025317,
     -1000065937,
-    -1000055845
+    -1000055845,
+    -1000144969
   ],
   "last_published_at": "2026-11-04T16:20:32.604053+00:00",
   "pending": null,
@@ -393,14 +394,15 @@
       "batch": "reserve-2026-11-04-approved-86"
     },
     {
-      "object_id": 291530,
+      "object_id": -1000144969,
       "message_ids": [
         204
       ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/291530",
+      "source_url": "https://www.artic.edu/artworks/144969",
       "published_at": "2026-11-04T16:17:53.743888+00:00",
-      "rubric": "women",
-      "batch": "reserve-2026-11-04-approved-86"
+      "rubric": "architecture",
+      "batch": "reserve-2026-11-04-approved-86",
+      "editorial_refreshed": true
     },
     {
       "object_id": 201411,
@@ -2089,12 +2091,16 @@
         },
         {
           "batch": "reserve-2026-11-04-approved-86",
-          "object_id": 291530,
+          "object_id": -1000144969,
           "message_id": 204,
           "date": 1793809074,
           "illustrated": true,
           "sha256": "54c22ba8ea263f57362b468a554c6864e74f30da2c66cb99ba43139e70903a98",
-          "published_at": "2026-11-04T16:17:53.743888+00:00"
+          "published_at": "2026-11-04T16:17:53.743888+00:00",
+          "original_object_id": 291530,
+          "rubric": "architecture",
+          "editorial_refreshed": true,
+          "source_url": "https://www.artic.edu/artworks/144969"
         },
         {
           "batch": "reserve-2026-11-04-approved-86",
