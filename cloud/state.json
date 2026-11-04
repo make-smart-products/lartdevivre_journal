@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-031",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 161,
-    "attempted_at": "2026-11-04T14:37:52.719031+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -613,14 +607,29 @@
           "id": "LDV-031",
           "title": "Какая школа дизайна объединяла искусство, ремесло и архитектуру?",
           "kind": "quiz",
-          "message_id": 161,
+          "message_id": 177,
           "date": 1793779363,
           "illustrated": true,
-          "old_message_id": 87,
+          "old_message_id": 161,
           "photo_replaced_poll": true,
-          "old_poll_deleted": true,
+          "old_poll_deleted": false,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Au%C3%9Fenansichten_des_Bauhaus-Geb%C3%A4udes_in_Dessau_07.jpg",
-          "poll_id": "5431856327641011901"
+          "poll_id": "5431856327641011941",
+          "retired_message_ids": [
+            87,
+            161
+          ],
+          "quiz_layout_version": "balanced-v1",
+          "correct_option_ids": [
+            0
+          ],
+          "options": [
+            "Баухаус",
+            "Академия Святого Луки",
+            "Передвижники",
+            "Барбизонская школа"
+          ],
+          "shuffle_options": true
         },
         {
           "id": "LDV-032",
