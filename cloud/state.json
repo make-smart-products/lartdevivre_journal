@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-069",
-    "sha256": "6367070f1646cf1497df3e23e13701611e7cb8343edc37ef3ce4aeacafb48099",
-    "attempted_at": "2026-11-04T08:05:38.624323+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -788,6 +783,14 @@
           "kind": "article",
           "message_id": 124,
           "date": 1793779536,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-069",
+          "title": "Путешествие налегке",
+          "kind": "article",
+          "message_id": 125,
+          "date": 1793779540,
           "illustrated": false
         }
       ]
