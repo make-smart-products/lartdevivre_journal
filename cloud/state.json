@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-060",
-    "sha256": "065a5783fda65f9b7c972eaba35ccb6d89b827f1e5c0a6bc54eb69613a911d5b",
-    "attempted_at": "2026-11-04T08:04:55.778836+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -716,6 +711,14 @@
           "kind": "article",
           "message_id": 115,
           "date": 1793779493,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-060",
+          "title": "Эйлин Грей: дизайнер без ярлыков",
+          "kind": "article",
+          "message_id": 116,
+          "date": 1793779498,
           "illustrated": false
         }
       ]
