@@ -501,8 +501,9 @@
           "message_id": 83,
           "date": 1793779346,
           "illustrated": true,
-          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Trouser_suit.jpg",
-          "photo_repaired": true
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:1971_Vera_Maxwell_pantsuit,_blue_silk_jacquard_and_black_velvet_01.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-028",
