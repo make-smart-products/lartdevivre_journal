@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-023",
-    "sha256": "06f6d8cf9b2e58d89612b79e201efc9caf4ae90725fd9dea7a8b29465f709619",
-    "attempted_at": "2026-11-04T08:02:04.490760+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -420,6 +415,14 @@
           "kind": "article",
           "message_id": 78,
           "date": 1793779322,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-023",
+          "title": "Фрида Кало: автопортрет как язык",
+          "kind": "article",
+          "message_id": 79,
+          "date": 1793779326,
           "illustrated": false
         }
       ]
