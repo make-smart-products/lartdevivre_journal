@@ -42,31 +42,11 @@
     197122,
     291551,
     156529,
-    291530
+    291530,
+    201411
   ],
-  "last_published_at": "2026-11-04T16:17:53.743888+00:00",
-  "pending": {
-    "batch": "reserve-2026-11-04-approved-86",
-    "object_id": 201411,
-    "post": {
-      "object_id": 201411,
-      "rubric": "women",
-      "topic": "Walking Bull",
-      "caption": "🎨 Женщины в искусстве · Цвет\n\nWalking Bull\nRosa Bonheur · modeled 1846\n\nПопробуйте описать работу тремя точными словами. Затем найдите деталь, подтверждающую каждое из них. Такой взгляд помогает видеть в авторе самостоятельную творческую личность, а не только имя в историческом перечне.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/es/web-large/154142.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/201411",
-      "prepared_batch": "reserve-2026-11-04",
-      "prepared_day": 1,
-      "audience": "девушки и женщины; культура, стиль и искусство",
-      "source_verified_at": "2026-11-04T14:54:42.883177+00:00",
-      "photo_verified_at": "2026-11-04T14:54:42.882111+00:00",
-      "licence": "Public Domain / Met Open Access"
-    },
-    "sha256": "98a116711bd1f661e1620dd591665052f694c9e0c221bad8229ede89af8768dc",
-    "attempted_at": "2026-11-04T16:17:56.271872+00:00"
-  },
+  "last_published_at": "2026-11-04T16:17:59.182060+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -382,6 +362,16 @@
       ],
       "source_url": "https://www.metmuseum.org/art/collection/search/291530",
       "published_at": "2026-11-04T16:17:53.743888+00:00",
+      "rubric": "women",
+      "batch": "reserve-2026-11-04-approved-86"
+    },
+    {
+      "object_id": 201411,
+      "message_ids": [
+        205
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/201411",
+      "published_at": "2026-11-04T16:17:59.182060+00:00",
       "rubric": "women",
       "batch": "reserve-2026-11-04-approved-86"
     }
@@ -1778,6 +1768,15 @@
           "illustrated": true,
           "sha256": "54c22ba8ea263f57362b468a554c6864e74f30da2c66cb99ba43139e70903a98",
           "published_at": "2026-11-04T16:17:53.743888+00:00"
+        },
+        {
+          "batch": "reserve-2026-11-04-approved-86",
+          "object_id": 201411,
+          "message_id": 205,
+          "date": 1793809080,
+          "illustrated": true,
+          "sha256": "98a116711bd1f661e1620dd591665052f694c9e0c221bad8229ede89af8768dc",
+          "published_at": "2026-11-04T16:17:59.182060+00:00"
         }
       ]
     }
