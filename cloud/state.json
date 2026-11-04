@@ -33,7 +33,7 @@
   "pending": {
     "batch": "ldv-original-100-v1",
     "editorial_id": "LDV-027",
-    "sha256": "d0827496c81298a0323055855789fba14b95c8b4da326217077266e9f0bb2cb8",
+    "sha256": "5ca0c3d551d1cc40ce0ab485ce78fe6d73ef7cac258756093e213cdc23e885ae",
     "attempted_at": "2026-11-04T08:02:22.458064+00:00"
   },
   "publications": [
