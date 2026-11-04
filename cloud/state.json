@@ -28,12 +28,7 @@
     437881
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-003",
-    "sha256": "82b2504a7dd618c62c0247facef0502be096a47c8546e57f5dd1ff69c4e88ebe",
-    "attempted_at": "2026-11-04T07:57:31.766518+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -259,6 +254,14 @@
           "message_id": 58,
           "date": 1793779049,
           "illustrated": true
+        },
+        {
+          "id": "LDV-003",
+          "title": "Баухаус и ясность формы",
+          "kind": "article",
+          "message_id": 59,
+          "date": 1793779053,
+          "illustrated": false
         }
       ]
     }
