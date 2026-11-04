@@ -714,7 +714,9 @@
           "kind": "article",
           "message_id": 108,
           "date": 1793779465,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Tamara_%C5%81empicka_ssj_20060914_-_cropped.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-053",
