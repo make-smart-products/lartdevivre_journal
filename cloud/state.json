@@ -29,12 +29,7 @@
     336388
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-017",
-    "sha256": "65f3c8e5a8a056e235eb3a3272a33bb559c1d8ab00365de6e33bfb0e7208d4fb",
-    "attempted_at": "2026-11-04T08:01:40.570575+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -371,6 +366,14 @@
           "kind": "article",
           "message_id": 72,
           "date": 1793779298,
+          "illustrated": true
+        },
+        {
+          "id": "LDV-017",
+          "title": "Японский принцип ма",
+          "kind": "article",
+          "message_id": 73,
+          "date": 1793779302,
           "illustrated": true
         }
       ]
