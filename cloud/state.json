@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-059",
-    "sha256": "4326cebe4efda1bed45cfaccd9f1a5b938e9cfbd2bc823272caf5b70eca457ae",
-    "attempted_at": "2026-11-04T08:04:51.788725+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -709,6 +704,14 @@
           "message_id": 114,
           "date": 1793779489,
           "illustrated": true
+        },
+        {
+          "id": "LDV-059",
+          "title": "Луиза Буржуа и память",
+          "kind": "article",
+          "message_id": 115,
+          "date": 1793779493,
+          "illustrated": false
         }
       ]
     }
