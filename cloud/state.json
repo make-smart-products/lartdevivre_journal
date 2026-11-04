@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-045",
-    "sha256": "0a197bc4ed0421b2994e944a3eee7b2309cf6af58a2005a140ca3c2b529a0f7d",
-    "attempted_at": "2026-11-04T08:03:45.833035+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -597,6 +592,14 @@
           "message_id": 100,
           "date": 1793779423,
           "illustrated": true
+        },
+        {
+          "id": "LDV-045",
+          "title": "Хильма аф Клинт: скрытая история абстракции",
+          "kind": "article",
+          "message_id": 101,
+          "date": 1793779427,
+          "illustrated": false
         }
       ]
     }
