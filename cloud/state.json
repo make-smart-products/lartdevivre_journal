@@ -72,7 +72,28 @@
     544567
   ],
   "last_published_at": "2026-11-04T16:20:26.781748+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 15305,
+    "post": {
+      "object_id": 15305,
+      "rubric": "women",
+      "topic": "Portrait of a Lady",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nPortrait of a Lady\nAnna Claypoole Peale · 1822\n\nВернитесь к изображению после короткой паузы. Замечаете ли вы что-то новое? Медленный взгляд даёт возможность увидеть больше оттенков в работе и точнее сформулировать собственное отношение к ней.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/APS6625.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/15305",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:49.850539+00:00",
+      "photo_verified_at": "2026-11-04T14:54:49.849414+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "342d50d2e0812150b982643b298e3df3d1cee88e8c90ab398f22e795c2783641",
+    "attempted_at": "2026-11-04T16:20:29.436942+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
