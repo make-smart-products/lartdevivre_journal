@@ -67,7 +67,28 @@
     268691
   ],
   "last_published_at": "2026-11-04T16:19:50.933077+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 291499,
+    "post": {
+      "object_id": 291499,
+      "rubric": "women",
+      "topic": "Appendix",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nAppendix\nAnna Atkins · ca. 1853\n\nВыберите элемент, о котором хотелось бы поговорить с подругой: композицию, поверхность или ощущение движения. Чем точнее наблюдение, тем интереснее становится разговор о работе и творческом решении её авторки.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-005.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/291499",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:48.244378+00:00",
+      "photo_verified_at": "2026-11-04T14:54:48.243222+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "3425426437ad83e0423412919e4b1ef22955fda4b3a1af266db70aa32be07139",
+    "attempted_at": "2026-11-04T16:19:53.470535+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
