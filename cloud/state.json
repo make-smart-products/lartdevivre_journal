@@ -56,7 +56,28 @@
     19429
   ],
   "last_published_at": "2026-11-04T16:18:50.182928+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 15203,
+    "post": {
+      "object_id": 15203,
+      "rubric": "women",
+      "topic": "Mrs. Teakes",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nMrs. Teakes\nAnne Teakes · 1812, 1827\n\nСравните первое впечатление и то, что появляется при внимательном рассмотрении. Что оказалось неожиданным? Познакомиться с авторским взглядом можно через небольшую деталь, не пытаясь сразу дать произведению окончательное объяснение.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/APS6726.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/15203",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:45.272872+00:00",
+      "photo_verified_at": "2026-11-04T14:54:45.271292+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "2749817e451f1e072b269cda983e3a8b2dc71d329a2cd7a415e571537eaf430c",
+    "attempted_at": "2026-11-04T16:18:53.062795+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
