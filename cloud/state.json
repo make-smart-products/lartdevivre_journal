@@ -763,7 +763,8 @@
           "date": 1793779461,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Knitted_Sweater.jpg",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-052",
