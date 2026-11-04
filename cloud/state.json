@@ -1215,7 +1215,10 @@
           "kind": "article",
           "message_id": 154,
           "date": 1793779673,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Casa_das_Hist%C3%B3rias_Paula_Rego_-_Cascais_-_Portugal_(52519701393).jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-099",
