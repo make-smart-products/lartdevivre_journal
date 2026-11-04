@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-022",
-    "sha256": "53b86f19f55c64fefe7c407dba6a2f9f3b2c7394341aa75caa2e2f23e08b90b3",
-    "attempted_at": "2026-11-04T08:02:00.425698+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -412,6 +407,14 @@
           "kind": "article",
           "message_id": 77,
           "date": 1793779318,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-022",
+          "title": "Сила белой рубашки",
+          "kind": "article",
+          "message_id": 78,
+          "date": 1793779322,
           "illustrated": false
         }
       ]
