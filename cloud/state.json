@@ -724,7 +724,9 @@
           "kind": "article",
           "message_id": 109,
           "date": 1793779469,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Riverside_Museum_-_Glasgow,_Scotland_-_Designed_by_Zaha_Hadid.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-054",
