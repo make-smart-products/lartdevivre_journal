@@ -31,12 +31,7 @@
     260387
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-085",
-    "sha256": "8b2898aeeea2b84015714c66fa5f76199ce095d860dbc03c30d48427354653f3",
-    "attempted_at": "2026-11-04T08:06:50.901773+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -918,6 +913,14 @@
           "message_id": 140,
           "date": 1793779609,
           "illustrated": true
+        },
+        {
+          "id": "LDV-085",
+          "title": "Как называется техника декора из маленьких кусочков материала, составляющих изображение?",
+          "kind": "quiz",
+          "message_id": 141,
+          "date": 1793779613,
+          "illustrated": false
         }
       ]
     }
