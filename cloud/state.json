@@ -869,7 +869,10 @@
           "kind": "article",
           "message_id": 119,
           "date": 1793779512,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:2008-07-27_Sunglasses.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-064",
