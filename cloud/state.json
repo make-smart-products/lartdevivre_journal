@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-025",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 160,
-    "attempted_at": "2026-11-04T14:37:45.892291+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -532,14 +526,29 @@
           "id": "LDV-025",
           "title": "Какая художница известна крупными изображениями цветов?",
           "kind": "quiz",
-          "message_id": 160,
+          "message_id": 176,
           "date": 1793779334,
           "illustrated": true,
-          "old_message_id": 81,
+          "old_message_id": 160,
           "photo_replaced_poll": true,
-          "old_poll_deleted": true,
+          "old_poll_deleted": false,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Georgia_O%27Keeffe_MET_DP230868.jpg",
-          "poll_id": "5431856327641011900"
+          "poll_id": "5431856327641011940",
+          "retired_message_ids": [
+            81,
+            160
+          ],
+          "quiz_layout_version": "balanced-v1",
+          "correct_option_ids": [
+            3
+          ],
+          "options": [
+            "Мэри Кэссет",
+            "Соня Делоне",
+            "Тамара де Лемпицка",
+            "Джорджия О’Киф"
+          ],
+          "shuffle_options": true
         },
         {
           "id": "LDV-026",
