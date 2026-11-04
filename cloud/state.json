@@ -28,12 +28,7 @@
     437881
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-004",
-    "sha256": "2cd2c5ea0bef543012cacd7331ed739e7925f9f63e29a304d437ee5b2b4ef2e0",
-    "attempted_at": "2026-11-04T07:57:36.451744+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -267,6 +262,14 @@
           "message_id": 59,
           "date": 1793779053,
           "illustrated": false
+        },
+        {
+          "id": "LDV-004",
+          "title": "Париж вне обязательной программы",
+          "kind": "article",
+          "message_id": 60,
+          "date": 1793779058,
+          "illustrated": true
         }
       ]
     }
