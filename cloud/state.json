@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-037",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 93,
-    "attempted_at": "2026-11-04T13:43:01.578217+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -605,9 +599,14 @@
           "id": "LDV-037",
           "title": "Как называется декоративный стиль с геометрией и роскошными материалами, популярный в межвоенный период?",
           "kind": "quiz",
-          "message_id": 93,
+          "message_id": 162,
           "date": 1793779395,
-          "illustrated": false
+          "illustrated": true,
+          "old_message_id": 93,
+          "photo_replaced_poll": true,
+          "old_poll_deleted": false,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Spiral_stairs_(Art_Deco,_Neboti%C4%8Dnik,_Ljubljana).jpg",
+          "poll_id": "5431856327641011902"
         },
         {
           "id": "LDV-038",
