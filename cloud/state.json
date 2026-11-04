@@ -642,7 +642,9 @@
           "kind": "article",
           "message_id": 103,
           "date": 1793779441,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Mexico_City_Skyline_(5604867225).jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-048",
