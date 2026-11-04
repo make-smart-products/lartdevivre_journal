@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-085",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 171,
-    "attempted_at": "2026-11-04T14:38:48.391077+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1325,14 +1319,29 @@
           "id": "LDV-085",
           "title": "Как называется техника декора из маленьких кусочков материала, составляющих изображение?",
           "kind": "quiz",
-          "message_id": 171,
+          "message_id": 186,
           "date": 1793779613,
           "illustrated": true,
-          "old_message_id": 141,
+          "old_message_id": 171,
           "photo_replaced_poll": true,
-          "old_poll_deleted": true,
+          "old_poll_deleted": false,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Baptistry_of_Neon_ceiling_mosaic_(Ravenna).jpg",
-          "poll_id": "5431856327641011925"
+          "poll_id": "5431856327641011950",
+          "retired_message_ids": [
+            141,
+            171
+          ],
+          "quiz_layout_version": "balanced-v1",
+          "correct_option_ids": [
+            1
+          ],
+          "options": [
+            "Акварель",
+            "Мозаика",
+            "Линогравюра",
+            "Офорт"
+          ],
+          "shuffle_options": true
         },
         {
           "id": "LDV-086",
