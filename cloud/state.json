@@ -32,12 +32,7 @@
     436453
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-098",
-    "sha256": "f2f68029674b741d8b1f853b467fc497dd4194613eae7ada1267bf0b4ff9a2ce",
-    "attempted_at": "2026-11-04T08:07:51.387140+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1022,6 +1017,14 @@
           "kind": "article",
           "message_id": 153,
           "date": 1793779668,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-098",
+          "title": "Паула Рего: сказка без утешения",
+          "kind": "article",
+          "message_id": 154,
+          "date": 1793779673,
           "illustrated": false
         }
       ]
