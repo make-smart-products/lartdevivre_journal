@@ -480,7 +480,9 @@
           "kind": "article",
           "message_id": 83,
           "date": 1793779346,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Trouser_suit.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-028",
