@@ -1324,7 +1324,7 @@
           "illustrated": true,
           "old_message_id": 171,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Baptistry_of_Neon_ceiling_mosaic_(Ravenna).jpg",
           "poll_id": "5431856327641011950",
           "retired_message_ids": [
