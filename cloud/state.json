@@ -612,7 +612,7 @@
           "illustrated": true,
           "old_message_id": 161,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Au%C3%9Fenansichten_des_Bauhaus-Geb%C3%A4udes_in_Dessau_07.jpg",
           "poll_id": "5431856327641011941",
           "retired_message_ids": [
