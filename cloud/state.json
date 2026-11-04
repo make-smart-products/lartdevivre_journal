@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-027",
-    "sha256": "5ca0c3d551d1cc40ce0ab485ce78fe6d73ef7cac258756093e213cdc23e885ae",
-    "attempted_at": "2026-11-04T08:02:22.458064+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -452,6 +447,14 @@
           "kind": "article",
           "message_id": 82,
           "date": 1793779340,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-027",
+          "title": "Современный костюм",
+          "kind": "article",
+          "message_id": 83,
+          "date": 1793779346,
           "illustrated": false
         }
       ]
