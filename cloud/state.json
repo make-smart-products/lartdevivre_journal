@@ -2361,7 +2361,8 @@
           "date": 1793809227,
           "illustrated": true,
           "sha256": "3fa0e9e3a87f12a22c88716442a5f10279eedb2ae9dc3276b2ffaaa876b18eba",
-          "published_at": "2026-11-04T16:20:26.781748+00:00"
+          "published_at": "2026-11-04T16:20:26.781748+00:00",
+          "caption_refreshed": true
         },
         {
           "batch": "reserve-2026-11-04-approved-86",
