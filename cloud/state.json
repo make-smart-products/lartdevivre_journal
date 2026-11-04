@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-072",
-    "sha256": "9c68de294592e335532e484fa43f911e0696dfbc61c1b18cebdaaebed00d4a7b",
-    "attempted_at": "2026-11-04T08:05:51.135519+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -813,6 +808,14 @@
           "message_id": 127,
           "date": 1793779549,
           "illustrated": false
+        },
+        {
+          "id": "LDV-072",
+          "title": "Секонд-хенд как поиск характера",
+          "kind": "article",
+          "message_id": 128,
+          "date": 1793779553,
+          "illustrated": true
         }
       ]
     }
