@@ -880,7 +880,10 @@
           "kind": "article",
           "message_id": 120,
           "date": 1793779516,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:2025-06-16_Chimamanda_Ngozi_Adichie_no_Fronteiras_do_Pensamento_2025_em_S%C3%A3o_Paulo,_013_(cropped).jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-065",
