@@ -32,12 +32,7 @@
     436453
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-090",
-    "sha256": "86f66a13b606532f5ea10c07b999a90f10d91ff124fb4149462ba00e77417b34",
-    "attempted_at": "2026-11-04T08:07:11.928923+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -959,6 +954,14 @@
           "message_id": 145,
           "date": 1793779630,
           "illustrated": true
+        },
+        {
+          "id": "LDV-090",
+          "title": "Библиотека как часть интерьера",
+          "kind": "article",
+          "message_id": 146,
+          "date": 1793779636,
+          "illustrated": false
         }
       ]
     }
