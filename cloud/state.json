@@ -28,12 +28,7 @@
     437881
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-008",
-    "sha256": "9ea6cac07a68190f48abd664423c1fb33d319ab7e0b734232d1ead283ae9ef4d",
-    "attempted_at": "2026-11-04T07:57:53.969913+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -299,6 +294,14 @@
           "message_id": 63,
           "date": 1793779072,
           "illustrated": false
+        },
+        {
+          "id": "LDV-008",
+          "title": "Тихая роскошь и личный стиль",
+          "kind": "article",
+          "message_id": 64,
+          "date": 1793779076,
+          "illustrated": true
         }
       ]
     }
