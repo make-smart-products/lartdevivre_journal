@@ -2318,7 +2318,9 @@
           "sha256": "342d50d2e0812150b982643b298e3df3d1cee88e8c90ab398f22e795c2783641",
           "published_at": "2026-11-04T16:20:32.604053+00:00"
         }
-      ]
+      ],
+      "status": "stopped_for_editorial_review",
+      "stopped_after_confirmed": 40
     }
   }
 }
