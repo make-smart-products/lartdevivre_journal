@@ -622,7 +622,9 @@
           "kind": "article",
           "message_id": 101,
           "date": 1793779427,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Hilma-af-Klint-uncropped.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-046",
