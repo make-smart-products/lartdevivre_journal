@@ -596,7 +596,8 @@
           "date": 1793779386,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir2.png",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-036",
