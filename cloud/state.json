@@ -31,12 +31,7 @@
     260387
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-076",
-    "sha256": "e4f0f8dd8007eb8dd971366153485cc81d389c56b3b1979f388e2ae2cddc8bcb",
-    "attempted_at": "2026-11-04T08:06:07.939377+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -846,6 +841,14 @@
           "message_id": 131,
           "date": 1793779565,
           "illustrated": true
+        },
+        {
+          "id": "LDV-076",
+          "title": "Искусство завтрака",
+          "kind": "article",
+          "message_id": 132,
+          "date": 1793779570,
+          "illustrated": false
         }
       ]
     }
