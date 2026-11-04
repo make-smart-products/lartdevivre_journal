@@ -35,7 +35,28 @@
     291564
   ],
   "last_published_at": "2026-11-04T16:16:54.079195+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 291642,
+    "post": {
+      "object_id": 291642,
+      "rubric": "women",
+      "topic": "Bangia laminaræ",
+      "caption": "🎨 Женщины в искусстве · Цвет\n\nBangia laminaræ\nAnna Atkins · ca. 1853\n\nПопробуйте описать работу тремя точными словами. Затем найдите деталь, подтверждающую каждое из них. Такой взгляд помогает видеть в авторе самостоятельную творческую личность, а не только имя в историческом перечне.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-149.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/291642",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 1,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:40.282571+00:00",
+      "photo_verified_at": "2026-11-04T14:54:40.281525+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "a38bbfbcf89f167e098213cfb53f7ed6bddf38b6bd1e7ad4cd293dff2572a4f9",
+    "attempted_at": "2026-11-04T16:16:57.342463+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
