@@ -691,7 +691,7 @@
           "illustrated": true,
           "old_message_id": 162,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Spiral_stairs_(Art_Deco,_Neboti%C4%8Dnik,_Ljubljana).jpg",
           "poll_id": "5431856327641011942",
           "retired_message_ids": [
