@@ -29,12 +29,7 @@
     336388
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-010",
-    "sha256": "8c8feb59219a035c2440f9e8c14aeca9d4322f2708489bed3f298e65a9857903",
-    "attempted_at": "2026-11-04T07:58:02.986329+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -316,6 +311,14 @@
           "message_id": 65,
           "date": 1793779080,
           "illustrated": true
+        },
+        {
+          "id": "LDV-010",
+          "title": "Ар-деко: геометрия праздника",
+          "kind": "article",
+          "message_id": 66,
+          "date": 1793779085,
+          "illustrated": false
         }
       ]
     }
