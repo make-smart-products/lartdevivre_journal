@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-055",
-    "sha256": "989036ac9f1824a43bd4502c3cab259fa84ed05e1fa10242507e780e66ba76d1",
-    "attempted_at": "2026-11-04T08:04:35.221824+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -676,6 +671,14 @@
           "kind": "article",
           "message_id": 110,
           "date": 1793779473,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-055",
+          "title": "Как называется тип изображения характерного образа, к которому относят «Девушку с жемчужной серёжкой»?",
+          "kind": "quiz",
+          "message_id": 111,
+          "date": 1793779477,
           "illustrated": false
         }
       ]
