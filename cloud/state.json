@@ -1247,7 +1247,7 @@
           "illustrated": true,
           "old_message_id": 170,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Sonia_Delaunay_portrait_photograph.jpg",
           "poll_id": "5431856327641011949",
           "retired_message_ids": [
