@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-061",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 117,
-    "attempted_at": "2026-11-04T14:14:30.081076+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -873,9 +867,14 @@
           "id": "LDV-061",
           "title": "Какая архитектор известна динамичными криволинейными формами?",
           "kind": "quiz",
-          "message_id": 117,
+          "message_id": 167,
           "date": 1793779502,
-          "illustrated": false
+          "illustrated": true,
+          "old_message_id": 117,
+          "photo_replaced_poll": true,
+          "old_poll_deleted": false,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Riverside_Museum_-_Glasgow,_Scotland_-_Designed_by_Zaha_Hadid.jpg",
+          "poll_id": "5431856327641011921"
         },
         {
           "id": "LDV-062",
