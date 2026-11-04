@@ -143,6 +143,36 @@ def quiz_medium(obj):
     return None
 
 
+def make_quiz_question(obj):
+    answer = quiz_medium(obj)
+    if not answer:
+        raise PublishError("Нет проверяемого ответа для викторины")
+    question = "К какому виду искусства относится показанная работа?"
+    options = ["Фотография", "Живопись", "Печатная графика", "Скульптура"]
+    explanation = "Вид искусства в музейном каталоге — " + answer.lower() + "."
+    variant = int(obj["objectID"]) % 3
+    creator = (obj.get("artistDisplayName") or "").strip()
+    if variant == 1 and 2 <= len(creator) <= 100 and not re.search(r"unknown|anonymous|unidentified|attributed|workshop|school of|after ", creator, re.I):
+        answer = creator
+        wrong = [name for name in ("Claude Monet", "Berthe Morisot", "Katsushika Hokusai", "Mary Cassatt", "Edgar Degas", "Albrecht Dürer") if name.casefold() != creator.casefold()]
+        random.Random(str(obj["objectID"])).shuffle(wrong)
+        options = [answer] + wrong[:3]
+        question = "Кто автор показанной работы? Имена — по музейному каталогу."
+        explanation = "Автор — " + creator + ". Работа: " + obj.get("title", "") + "."
+    elif variant == 2:
+        begin, end = obj.get("objectBeginDate"), obj.get("objectEndDate")
+        if isinstance(begin, int) and isinstance(end, int) and 0 < begin <= end and (begin - 1) // 100 == (end - 1) // 100:
+            century = (begin - 1) // 100 + 1
+            start = max(1, century - 1)
+            answer = str(century) + "-й век"
+            options = [str(value) + "-й век" for value in range(start, start + 4)]
+            question = "В каком веке создана показанная работа?"
+            explanation = "Музейная датировка: " + obj.get("objectDate", "") + ". Это " + answer + "."
+    random.Random(str(obj["objectID"])).shuffle(options)
+    return {"kind": "quiz", "question": question, "options": options,
+            "correct_option_ids": [options.index(answer)], "explanation": explanation[:200]}
+
+
 def make_card(obj, rubric="painting"):
     if not obj.get("isPublicDomain") or not obj.get("primaryImageSmall"):
         raise PublishError("Нет открытого музейного изображения")
@@ -152,6 +182,11 @@ def make_card(obj, rubric="painting"):
     date = obj.get("objectDate", "").strip()
     if not title or not date:
         raise PublishError("Недостаточно подтверждённых сведений")
+    try:
+        if int(obj.get("artistBeginDate") or 0) > 1500 and int(obj.get("objectEndDate") or 9999) < 1500:
+            raise PublishError("Датировку оригинала и современной копии должен проверить редактор")
+    except (ValueError, TypeError):
+        pass
     # Preserve original catalogue titles instead of inventing translations or facts.
     config = RUBRICS[rubric]
     prompts = {
@@ -171,14 +206,7 @@ def make_card(obj, rubric="painting"):
             "object_id": obj["objectID"], "rubric": rubric}
     post.update(content_signature(obj))
     if rubric == "quiz":
-        answer = quiz_medium(obj)
-        if not answer:
-            raise PublishError("Нет проверяемого ответа для викторины")
-        options = ["Фотография", "Живопись", "Печатная графика", "Скульптура"]
-        random.Random(str(obj["objectID"])).shuffle(options)
-        post.update(kind="quiz", question="К какому виду искусства относится показанная работа?",
-                    options=options, correct_option_ids=[options.index(answer)],
-                    explanation=("Музейный каталог: " + title + ". Вид искусства — " + answer.lower() + ".")[:200])
+        post.update(make_quiz_question(obj))
     for image in obj.get("additionalImages", []):
         if image not in post["images"] and urllib.parse.urlparse(image).hostname == "images.metmuseum.org":
             post["images"].append(image)
@@ -190,6 +218,32 @@ def make_card(obj, rubric="painting"):
     return post
 
 
+def snapshot_object(post, now=None):
+    """Use a recently checked official catalogue response stored with a reviewed card."""
+    obj = post.get("verified_object")
+    if post.get("editorial_reviewed") is not True or not isinstance(obj, dict):
+        return None
+    try:
+        checked = dt.datetime.fromisoformat(post["source_verified_at"])
+        photo_checked = dt.datetime.fromisoformat(post["photo_verified_at"])
+        current = now or dt.datetime.now(dt.timezone.utc)
+        for stamp in (checked, photo_checked):
+            if stamp.tzinfo is None or not dt.timedelta(0) <= current - stamp <= dt.timedelta(days=7):
+                return None
+        if obj.get("objectID") != post.get("object_id") or obj.get("isPublicDomain") is not True:
+            return None
+        if post.get("source_url") != "https://www.metmuseum.org/art/collection/search/" + str(obj["objectID"]):
+            return None
+        approved = [obj.get("primaryImageSmall")] + obj.get("additionalImages", [])
+        if not post.get("images") or any(image not in approved for image in post["images"]):
+            return None
+        if hashlib.sha256(json.dumps(obj, sort_keys=True).encode()).hexdigest() != post.get("catalogue_sha256"):
+            return None
+        return obj
+    except (KeyError, TypeError, ValueError):
+        return None
+
+
 def choose_post(state, fetch=request, rubric=None):
     rubric = rubric or RUBRIC_ORDER[state.get("next_rubric_index", 0) % len(RUBRIC_ORDER)]
     used = {int(x) for x in state.get("used_object_ids", [])}
@@ -199,7 +253,7 @@ def choose_post(state, fetch=request, rubric=None):
         post = json.loads(path.read_text(encoding="utf-8-sig"))
         if post.get("rubric", "painting") == rubric and int(post["object_id"]) not in used:
             try:
-                obj = fetch(MET + "/objects/" + str(post["object_id"]))
+                obj = snapshot_object(post) or fetch(MET + "/objects/" + str(post["object_id"]))
             except PublishError:
                 continue
             if not obj.get("isPublicDomain") or not obj.get("primaryImageSmall") or not matches_rubric(obj, rubric):

@@ -1,4 +1,7 @@
 import unittest
+import datetime as dt
+import hashlib
+import json
 import publish
 
 
@@ -49,3 +52,33 @@ class EditorialDiversityTests(unittest.TestCase):
         with self.assertRaises(publish.PublishError):publish.make_card(obj,'quiz')
         card=publish.make_card(self.obj(),'quiz');card['correct_option_ids']=[9]
         with self.assertRaises(publish.PublishError):publish.validate_post(card)
+
+    def test_century_quiz_uses_catalogue_range_and_skips_cross_century_dates(self):
+        obj=self.obj();obj.update(objectID=125,objectBeginDate=1880,objectEndDate=1890,objectDate='1880–1890')
+        quiz=publish.make_quiz_question(obj)
+        self.assertEqual('19-й век',quiz['options'][quiz['correct_option_ids'][0]])
+        obj.update(objectBeginDate=1890,objectEndDate=1910)
+        self.assertNotIn('веке',publish.make_quiz_question(obj)['question'])
+
+    def test_artist_quiz_preserves_author_and_does_not_duplicate_correct_option(self):
+        obj=self.obj();obj.update(objectID=124,artistDisplayName='Mary Cassatt')
+        quiz=publish.make_quiz_question(obj)
+        self.assertEqual('Mary Cassatt',quiz['options'][quiz['correct_option_ids'][0]])
+        self.assertEqual(4,len(set(quiz['options'])))
+
+    def test_modern_copy_cannot_be_presented_as_artist_work_from_antiquity(self):
+        obj=self.obj();obj.update(artistBeginDate='1881',objectEndDate=-1300)
+        with self.assertRaises(publish.PublishError):publish.make_card(obj,'women')
+
+    def test_cached_catalogue_requires_recent_verification_exact_object_photo_and_rights(self):
+        obj=self.obj();card=publish.make_card(obj)
+        now=dt.datetime(2026,11,4,tzinfo=dt.timezone.utc)
+        card.update(editorial_reviewed=True,verified_object=obj,source_verified_at=now.isoformat(),photo_verified_at=now.isoformat(),
+                    catalogue_sha256=hashlib.sha256(json.dumps(obj,sort_keys=True).encode()).hexdigest())
+        self.assertEqual(obj,publish.snapshot_object(card,now))
+        self.assertIsNone(publish.snapshot_object(card,now+dt.timedelta(days=8)))
+        for change in ({'object_id':124},{'images':['https://images.metmuseum.org/wrong.jpg']},
+                       {'editorial_reviewed':False},{'source_verified_at':'invalid'}):
+            self.assertIsNone(publish.snapshot_object(dict(card,**change),now))
+        bad=dict(obj,isPublicDomain=False)
+        self.assertIsNone(publish.snapshot_object(dict(card,verified_object=bad,catalogue_sha256=hashlib.sha256(json.dumps(bad,sort_keys=True).encode()).hexdigest()),now))

@@ -1,0 +1,34 @@
+{
+  "object_id": 912191,
+  "rubric": "women",
+  "topic": "Искусство обычного обеда",
+  "caption": "🎨 Искусство обычного обеда\n\nМари Бракмон, «Обед в сельской местности», 1881 год. Графит, уголь и красный мел — три материала для одного сюжета. Можно начать свой визуальный дневник с такого же простого события: чашки, стола, разговора. Повседневности не нужен особый повод, чтобы стать темой рисунка.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/dp/web-large/DP-39286-001.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/912191",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-04T14:54:59.297165+00:00",
+  "photo_verified_at": "2026-11-04T14:54:59.297165+00:00",
+  "verified_object": {
+    "objectID": 912191,
+    "title": "Lunch in the Countryside",
+    "artistDisplayName": "Marie Bracquemond",
+    "artistGender": "Female",
+    "objectDate": "1881",
+    "objectBeginDate": 1881,
+    "objectEndDate": 1881,
+    "artistBeginDate": "1841",
+    "objectName": "Drawing",
+    "classification": "Drawings",
+    "medium": "Graphite, charcoal, and red chalk",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-39286-001.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "c4795de4997c141d4176e9915c1ed423aa1b8d1ce5f96a36fedbcdb36bd58e2c",
+  "creator": "marie bracquemond",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-39286-001.jpg",
+  "work_key": "marie bracquemond|lunch in the countryside"
+}

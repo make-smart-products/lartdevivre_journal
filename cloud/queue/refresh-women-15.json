@@ -1,0 +1,36 @@
+{
+  "object_id": 17242,
+  "rubric": "women",
+  "topic": "Вышивка как время для себя",
+  "caption": "🎨 Вышивка как время для себя\n\nЛидия Пирсон, вышивальный образец 1802 года: шёлковая нить по льну. У такого небольшого предмета есть и дата, и авторское имя. Если хочется попробовать ручную работу, начните с одного мотива и короткого сеанса — без обязательства сразу закончить большой проект.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/ad/web-large/DP101963.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/17242",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-04T14:54:52.608038+00:00",
+  "photo_verified_at": "2026-11-04T14:54:52.608038+00:00",
+  "verified_object": {
+    "objectID": 17242,
+    "title": "Sampler",
+    "artistDisplayName": "Lydia Pearson",
+    "artistGender": "Female",
+    "objectDate": "1802",
+    "objectBeginDate": 1802,
+    "objectEndDate": 1802,
+    "artistBeginDate": "1791",
+    "objectName": "Sampler",
+    "classification": "",
+    "medium": "Silk embroidery on linen",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP101963.jpg",
+    "additionalImages": [
+      "https://images.metmuseum.org/CRDImages/ad/original/ADA3392.jpg"
+    ]
+  },
+  "catalogue_sha256": "c1c56fd8d2585fe68bde99cf12e09accbbb6946f76e47cd40984254db144fd72",
+  "creator": "lydia pearson",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP101963.jpg",
+  "work_key": "lydia pearson|sampler"
+}

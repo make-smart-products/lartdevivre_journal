@@ -1,0 +1,34 @@
+{
+  "object_id": 438132,
+  "rubric": "women",
+  "topic": "Взгляд в зеркало — в живописи",
+  "caption": "🎨 Взгляд в зеркало — в живописи\n\nЭлизабет Луиза Виже-Лебрен, «Жюли Лебрен, смотрящая в зеркало», 1787 год. Знакомый повседневный жест становится сюжетом картины. Идея для собственного кадра: попробовать показать момент и внимание человека, а не только заранее выбранную позу.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26883-001.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/438132",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-04T14:54:59.521381+00:00",
+  "photo_verified_at": "2026-11-04T14:54:59.521381+00:00",
+  "verified_object": {
+    "objectID": 438132,
+    "title": "Julie Le Brun (1780–1819) Looking in a Mirror",
+    "artistDisplayName": "Elisabeth Louise Vigée Le Brun",
+    "artistGender": "Female",
+    "objectDate": "1787",
+    "objectBeginDate": 1787,
+    "objectEndDate": 1787,
+    "artistBeginDate": "1755",
+    "objectName": "Painting",
+    "classification": "Paintings",
+    "medium": "Oil on canvas",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26883-001.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "74962916f5eedd77da8a81e493439894e80c2fc1e1d11cecb965436bbe10c792",
+  "creator": "elisabeth louise vigée le brun",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26883-001.jpg",
+  "work_key": "elisabeth louise vigée le brun|julie le brun (1780–1819) looking in a mirror"
+}

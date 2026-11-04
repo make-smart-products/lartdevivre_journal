@@ -1,0 +1,34 @@
+{
+  "object_id": 853417,
+  "rubric": "women",
+  "topic": "Интерьер как портрет вкуса",
+  "caption": "🎨 Интерьер как портрет вкуса\n\nЛеди Сара Кэролайн Ситуэлл, «Интерьер с картинами и предметами искусства», 1800–1860 годы, акварель. Комната может рассказывать о человеке через выбранные вещи. Идея для дома: собрать рядом несколько предметов, с которыми связаны ваши воспоминания, вместо случайного набора декора.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/dp/web-large/DP-35096-001.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/853417",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-04T14:54:58.895109+00:00",
+  "photo_verified_at": "2026-11-04T14:54:58.895109+00:00",
+  "verified_object": {
+    "objectID": 853417,
+    "title": "Interior with Paintings and Objets d'Arts",
+    "artistDisplayName": "Lady Sarah Caroline Sitwell",
+    "artistGender": "Female",
+    "objectDate": "1800–1860",
+    "objectBeginDate": 1800,
+    "objectEndDate": 1860,
+    "artistBeginDate": "1779",
+    "objectName": "Drawing",
+    "classification": "Drawings",
+    "medium": "Watercolor",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-35096-001.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "09e8249ba5d532dfb4340b39c96b98e48cf4ea3ca97fd27c909f9d9609da3a52",
+  "creator": "lady sarah caroline sitwell",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-35096-001.jpg",
+  "work_key": "lady sarah caroline sitwell|interior with paintings and objets d'arts"
+}

@@ -1,0 +1,34 @@
+{
+  "object_id": 386036,
+  "rubric": "women",
+  "topic": "Не только героиня портретов",
+  "caption": "🎨 Не только героиня портретов\n\n«Аврора», 1752 год. В музейном каталоге автором офорта указана маркиза де Помпадур. Интересно увидеть знакомое историческое имя на месте создательницы изображения. В своей культурной подборке можно искать не только портреты женщин, но и произведения, которые они сделали сами.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/dp/web-large/17.3.1074.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/386036",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-04T14:54:56.825232+00:00",
+  "photo_verified_at": "2026-11-04T14:54:56.825232+00:00",
+  "verified_object": {
+    "objectID": 386036,
+    "title": "Aurora",
+    "artistDisplayName": "Madame la Marquise de Pompadour",
+    "artistGender": "Female",
+    "objectDate": "1752",
+    "objectBeginDate": 1752,
+    "objectEndDate": 1752,
+    "artistBeginDate": "1721",
+    "objectName": "Print",
+    "classification": "Prints",
+    "medium": "Etching",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/17.3.1074.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "eb991959df7ff6e27978a3a4e78a2b6fdb06d5fdb09e816ad0ffd984222e0b59",
+  "creator": "madame la marquise de pompadour",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/dp/web-large/17.3.1074.jpg",
+  "work_key": "madame la marquise de pompadour|aurora"
+}

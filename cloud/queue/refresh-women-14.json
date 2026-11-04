@@ -1,0 +1,34 @@
+{
+  "object_id": 953179,
+  "rubric": "women",
+  "topic": "Другая сторона знакомого имени",
+  "caption": "🎨 Другая сторона знакомого имени\n\nЭлизабет Луиза Виже-Лебрен, «Горный поток», около 1807–1808 годов, пастель. Художницу стоит открывать не только через портреты. В личной коллекции вдохновения полезно оставлять место работам, которые меняют привычное представление об авторе.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/dp/web-large/DP-46700-001.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/953179",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-04T15:02:36.471758+00:00",
+  "photo_verified_at": "2026-11-04T15:02:36.471758+00:00",
+  "verified_object": {
+    "objectID": 953179,
+    "title": "Mountain Torrent",
+    "artistDisplayName": "Elisabeth Louise Vigée Le Brun",
+    "artistGender": "Female",
+    "objectDate": "ca. 1807–8",
+    "objectBeginDate": 1807,
+    "objectEndDate": 1808,
+    "artistBeginDate": "1755",
+    "objectName": "Drawing",
+    "classification": "Drawings",
+    "medium": "Pastel",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-46700-001.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "a4c9a0f3b479ddb15e3a0628a94f80499a91589377ba4e1acee9918470211e6a",
+  "creator": "elisabeth louise vigée le brun",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-46700-001.jpg",
+  "work_key": "elisabeth louise vigée le brun|mountain torrent"
+}

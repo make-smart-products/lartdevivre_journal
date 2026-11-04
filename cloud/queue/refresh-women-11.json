@@ -1,0 +1,34 @@
+{
+  "object_id": 842832,
+  "rubric": "women",
+  "topic": "Небольшая остановка у природы",
+  "caption": "🎨 Небольшая остановка у природы\n\nФиделия Бриджес, «Синица и чертополох», 1875 год. В работе соединены акварель и гуашь. Для следующей прогулки можно взять маленькую задачу: заметить одну птицу и одно растение, не превращая отдых в соревнование за идеальный кадр.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/ad/web-large/DP-24075-001.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/842832",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-04T14:54:56.572938+00:00",
+  "photo_verified_at": "2026-11-04T14:54:56.572938+00:00",
+  "verified_object": {
+    "objectID": 842832,
+    "title": "Chickadee and Thistle",
+    "artistDisplayName": "Fidelia Bridges",
+    "artistGender": "Female",
+    "objectDate": "1875",
+    "objectBeginDate": 1875,
+    "objectEndDate": 1875,
+    "artistBeginDate": "1834",
+    "objectName": "Watercolor",
+    "classification": "",
+    "medium": "Watercolor and gouache on paper",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-24075-001.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "d19a14dab32f658e5908adaa5dc672c177e5be5e65d23ac70086ad2279d4038a",
+  "creator": "fidelia bridges",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-24075-001.jpg",
+  "work_key": "fidelia bridges|chickadee and thistle"
+}

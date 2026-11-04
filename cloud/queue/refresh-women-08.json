@@ -1,0 +1,34 @@
+{
+  "object_id": 439405,
+  "rubric": "women",
+  "topic": "Портрет на семи листах",
+  "caption": "🎨 Портрет на семи листах\n\nАделаида Лабиль-Гиар, портрет мадам Елизаветы, около 1787 года. Основа пастели составлена из семи соединённых листов голубой бумаги, закреплённых на холсте. Необычная деталь напоминает: за цельным музейным образом часто стоят вполне материальные, сложные решения художницы.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/ep/web-large/DP161657.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/439405",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-04T14:54:54.170699+00:00",
+  "photo_verified_at": "2026-11-04T14:54:54.170699+00:00",
+  "verified_object": {
+    "objectID": 439405,
+    "title": "Madame Elisabeth de France (1764–1794)",
+    "artistDisplayName": "Adélaïde Labille-Guiard",
+    "artistGender": "Female",
+    "objectDate": "ca. 1787",
+    "objectBeginDate": 1782,
+    "objectEndDate": 1792,
+    "artistBeginDate": "1749",
+    "objectName": "Painting, drawing",
+    "classification": "Pastels & Oil Sketches on Paper",
+    "medium": "Pastel on blue paper, seven sheets joined, laid down on canvas",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161657.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "deb250c396bf789a90fcdeb3c7b63e1ebdfd573285105a1f275a3faaa8bdb54b",
+  "creator": "adélaïde labille-guiard",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161657.jpg",
+  "work_key": "adélaïde labille-guiard|madame elisabeth de france (1764–1794)"
+}
