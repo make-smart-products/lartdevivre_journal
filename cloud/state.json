@@ -64,7 +64,28 @@
     14066
   ],
   "last_published_at": "2026-11-04T16:19:36.176182+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 10957,
+    "post": {
+      "object_id": 10957,
+      "rubric": "women",
+      "topic": "Alice Goudry",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nAlice Goudry\nEliza Goodridge · ca. 1830–35\n\nУделите этой работе минуту без готовой интерпретации. Какие отношения между формами, линиями и материалом кажутся важными? Разговор о женщинах в искусстве интересен через конкретные произведения и собственное наблюдение.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/ap29.74.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/10957",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:47.761202+00:00",
+      "photo_verified_at": "2026-11-04T14:54:47.760108+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "54e7203315eb443d44152307b0a299458bc37fe1b47f064ad0f3fa9163973340",
+    "attempted_at": "2026-11-04T16:19:38.764881+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
