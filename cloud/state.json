@@ -36,7 +36,28 @@
     291642
   ],
   "last_published_at": "2026-11-04T16:17:00.476352+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 291589,
+    "post": {
+      "object_id": 291589,
+      "rubric": "women",
+      "topic": "Polysiphonia fibrata",
+      "caption": "🎨 Женщины в искусстве · Цвет\n\nPolysiphonia fibrata\nAnna Atkins · ca. 1853\n\nСравните первое впечатление и то, что появляется при внимательном рассмотрении. Что оказалось неожиданным? Познакомиться с авторским взглядом можно через небольшую деталь, не пытаясь сразу дать произведению окончательное объяснение.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-096.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/291589",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 1,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:40.283638+00:00",
+      "photo_verified_at": "2026-11-04T14:54:40.171111+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "926d27d864b84cb709d0ec3cd68cc4c8f024b80f3fa73bb55b9c7629587a4609",
+    "attempted_at": "2026-11-04T16:17:03.487870+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
