@@ -32,12 +32,7 @@
     436453
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-096",
-    "sha256": "452a3f6bcaa1213907dcfc16ac42e0acb8a7a2b1a6e6acc3e6865a33908f1f7a",
-    "attempted_at": "2026-11-04T08:07:42.149121+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1006,6 +1001,14 @@
           "kind": "article",
           "message_id": 151,
           "date": 1793779659,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-096",
+          "title": "Агнес Мартин и тишина",
+          "kind": "article",
+          "message_id": 152,
+          "date": 1793779664,
           "illustrated": false
         }
       ]
