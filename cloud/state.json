@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-091",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 147,
-    "attempted_at": "2026-11-04T14:15:04.311995+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1192,9 +1186,14 @@
           "id": "LDV-091",
           "title": "Кто написал роман «Гордость и предубеждение»?",
           "kind": "quiz",
-          "message_id": 147,
+          "message_id": 172,
           "date": 1793779640,
-          "illustrated": false
+          "illustrated": true,
+          "old_message_id": 147,
+          "photo_replaced_poll": true,
+          "old_poll_deleted": false,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg",
+          "poll_id": "5431856327641011926"
         },
         {
           "id": "LDV-092",
