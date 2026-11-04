@@ -53,7 +53,28 @@
     557634
   ],
   "last_published_at": "2026-11-04T16:18:34.455720+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 14139,
+    "post": {
+      "object_id": 14139,
+      "rubric": "women",
+      "topic": "Tablecover",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nTablecover\nJane Simonton Chapman · ca. 1820\n\nАвторство женщины подтверждено музейным каталогом. Начните знакомство с самой работой: что направляет ваше внимание? Найдите одну заметную и одну тихую деталь, прежде чем обращаться к биографии создательницы.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/52024.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/14139",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:44.747267+00:00",
+      "photo_verified_at": "2026-11-04T14:54:44.746048+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "1915c8f7411bd88644b09efe03fcddb5d45f6b7cb062701369c5e12d575393d5",
+    "attempted_at": "2026-11-04T16:18:36.937084+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
