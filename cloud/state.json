@@ -306,7 +306,7 @@
           "illustrated": true,
           "old_message_id": 157,
           "photo_replaced_poll": true,
-          "old_poll_deleted": false,
+          "old_poll_deleted": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
           "poll_id": "5431856327641011937",
           "retired_message_ids": [
