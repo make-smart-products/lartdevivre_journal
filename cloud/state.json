@@ -432,7 +432,9 @@
           "kind": "article",
           "message_id": 78,
           "date": 1793779322,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Man_in_black_suit_and_white_shirt,_looking_extremely_badass_cool.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-023",
