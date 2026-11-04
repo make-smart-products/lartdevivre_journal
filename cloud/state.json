@@ -538,7 +538,9 @@
           "kind": "article",
           "message_id": 89,
           "date": 1793779376,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_(Hokan-ji_Temple),_Kyoto,_Japan.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-034",
