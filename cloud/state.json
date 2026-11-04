@@ -728,7 +728,8 @@
           "date": 1793779447,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Blue_and_white_clothes_shop_Guadeloupe_2010-03-27.JPG",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-049",
