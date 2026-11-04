@@ -33,12 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-100",
-    "sha256": "304a6ac3f3848bb6e845ba514cd8aefa4a3a598b8a23318a2337088f8722efaf",
-    "attempted_at": "2026-11-04T08:08:00.149252+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1040,6 +1035,14 @@
           "message_id": 155,
           "date": 1793779678,
           "illustrated": true
+        },
+        {
+          "id": "LDV-100",
+          "title": "Современный музей: как смотреть",
+          "kind": "article",
+          "message_id": 156,
+          "date": 1793779682,
+          "illustrated": false
         }
       ]
     }
