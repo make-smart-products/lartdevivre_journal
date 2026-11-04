@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-056",
-    "sha256": "c0e187c120589097dffc2d1767c238976877335e11b07bb9fa6a7f28121165c9",
-    "attempted_at": "2026-11-04T08:04:39.307113+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -684,6 +679,14 @@
           "kind": "quiz",
           "message_id": 111,
           "date": 1793779477,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-056",
+          "title": "Монохром с глубиной",
+          "kind": "article",
+          "message_id": 112,
+          "date": 1793779481,
           "illustrated": false
         }
       ]
