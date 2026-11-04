@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-054",
-    "sha256": "93071ec206caa6ae78a29435343ded21cad97659f82821fbac00d7496be68c32",
-    "attempted_at": "2026-11-04T08:04:31.028861+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -668,6 +663,14 @@
           "kind": "article",
           "message_id": 109,
           "date": 1793779469,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-054",
+          "title": "Тбилиси и культура гостеприимства",
+          "kind": "article",
+          "message_id": 110,
+          "date": 1793779473,
           "illustrated": false
         }
       ]
