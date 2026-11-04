@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-061",
-    "sha256": "d8e908859ed72888e4c80bde4fae8d299db0731497c23c6662060f7136acf063",
-    "attempted_at": "2026-11-04T08:05:00.112791+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -724,6 +719,14 @@
           "kind": "article",
           "message_id": 116,
           "date": 1793779498,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-061",
+          "title": "Какая архитектор известна динамичными криволинейными формами?",
+          "kind": "quiz",
+          "message_id": 117,
+          "date": 1793779502,
           "illustrated": false
         }
       ]
