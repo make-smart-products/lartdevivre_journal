@@ -30,7 +30,12 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "ldv-original-100-v1",
+    "editorial_id": "LDV-064",
+    "sha256": "e9ef8e64c3f92a4e44f90b8e7f4ff30cca9365b7b5a896f343645c81f1c60f04",
+    "attempted_at": "2026-11-04T08:05:14.535953+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
