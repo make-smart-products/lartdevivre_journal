@@ -66,7 +66,28 @@
     286896
   ],
   "last_published_at": "2026-11-04T16:19:46.069707+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 268691,
+    "post": {
+      "object_id": 268691,
+      "rubric": "women",
+      "topic": "A Study",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nA Study\nJulia Margaret Cameron · 1864\n\nСравните первое впечатление и то, что появляется при внимательном рассмотрении. Что оказалось неожиданным? Познакомиться с авторским взглядом можно через небольшую деталь, не пытаясь сразу дать произведению окончательное объяснение.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ph/web-large/DP295222.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/268691",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:48.128774+00:00",
+      "photo_verified_at": "2026-11-04T14:54:48.127706+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "6bbc5b0b4d8ea26f6207892e8d1e324b4df67e9cb35987b33a43222b7623c5cb",
+    "attempted_at": "2026-11-04T16:19:48.581869+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
