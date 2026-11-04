@@ -1171,7 +1171,10 @@
           "kind": "article",
           "message_id": 150,
           "date": 1793779654,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:06_Restoration_of_gilded_mirror_in_Muzeum_Gornoslaskie,_Bytom,_Poland_-_furniture_restorer_working.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-095",
