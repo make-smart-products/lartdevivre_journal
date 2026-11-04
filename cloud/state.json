@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-036",
-    "sha256": "46bac8bd5ac504b58cd8c48a6c437c2c0fc66a34b73a7a6e8397a4e3a9a10e9f",
-    "attempted_at": "2026-11-04T08:03:08.773393+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -525,6 +520,14 @@
           "message_id": 91,
           "date": 1793779386,
           "illustrated": false
+        },
+        {
+          "id": "LDV-036",
+          "title": "Многослойность без тяжести",
+          "kind": "article",
+          "message_id": 92,
+          "date": 1793779391,
+          "illustrated": true
         }
       ]
     }
