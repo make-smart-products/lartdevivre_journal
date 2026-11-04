@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-030",
-    "sha256": "ffd2f1ec6a43ca6b17cb9bd32a7804815936ea798253ae11a515388038733022",
-    "attempted_at": "2026-11-04T08:02:37.248519+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -476,6 +471,14 @@
           "kind": "article",
           "message_id": 85,
           "date": 1793779354,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-030",
+          "title": "Соня Делоне: цвет в движении",
+          "kind": "article",
+          "message_id": 86,
+          "date": 1793779359,
           "illustrated": false
         }
       ]
