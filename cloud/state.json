@@ -345,7 +345,8 @@
           "date": 1793779090,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_of_Florence_from_Piazzale_Michelangelo.jpg",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-012",
