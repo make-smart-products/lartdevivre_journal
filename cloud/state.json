@@ -528,7 +528,9 @@
           "kind": "article",
           "message_id": 88,
           "date": 1793779370,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Living_room_in_apartment_of_Condom%C3%ADnio_do_Edif%C3%ADcio_Zaher,_Le_Blond,_Rio_de_Janeiro,_Brazil.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-033",
