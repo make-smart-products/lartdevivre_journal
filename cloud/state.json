@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-034",
-    "sha256": "ec45c3cef2c34ac79980eae5c240c3d74464ac8b62d014d760e3c14a2f492f4b",
-    "attempted_at": "2026-11-04T08:02:58.310737+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -508,6 +503,14 @@
           "kind": "article",
           "message_id": 89,
           "date": 1793779376,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-034",
+          "title": "Сумка как композиционный центр",
+          "kind": "article",
+          "message_id": 90,
+          "date": 1793779382,
           "illustrated": false
         }
       ]
