@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-042",
-    "sha256": "ee9509b4eabbd979fe0a287e73ec92d451715d6d533882d6afff17f0ae7e18cb",
-    "attempted_at": "2026-11-04T08:03:33.803004+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -573,6 +568,14 @@
           "message_id": 97,
           "date": 1793779411,
           "illustrated": true
+        },
+        {
+          "id": "LDV-042",
+          "title": "Майя Энджелоу: слово и достоинство",
+          "kind": "article",
+          "message_id": 98,
+          "date": 1793779415,
+          "illustrated": false
         }
       ]
     }
