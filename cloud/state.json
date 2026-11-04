@@ -56,31 +56,11 @@
     19429,
     15203,
     188044,
-    268719
+    268719,
+    291532
   ],
-  "last_published_at": "2026-11-04T16:19:11.983206+00:00",
-  "pending": {
-    "batch": "reserve-2026-11-04-approved-86",
-    "object_id": 291532,
-    "post": {
-      "object_id": 291532,
-      "rubric": "women",
-      "topic": "Griffithsia corallina",
-      "caption": "🎨 Женщины в искусстве · Форма\n\nGriffithsia corallina\nAnna Atkins · ca. 1853\n\nПопробуйте на минуту отложить привычные сравнения с другими авторами. Что характеризует именно эту работу? Знакомство с женским творческим наследием складывается из множества таких самостоятельных встреч.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-038.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/291532",
-      "prepared_batch": "reserve-2026-11-04",
-      "prepared_day": 2,
-      "audience": "девушки и женщины; культура, стиль и искусство",
-      "source_verified_at": "2026-11-04T14:54:46.241678+00:00",
-      "photo_verified_at": "2026-11-04T14:54:46.241157+00:00",
-      "licence": "Public Domain / Met Open Access"
-    },
-    "sha256": "d57b4d47ec38ae159068ee14de3cba73c53486786e033d7dab39ba82adf6950a",
-    "attempted_at": "2026-11-04T16:19:14.421642+00:00"
-  },
+  "last_published_at": "2026-11-04T16:19:16.951802+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -536,6 +516,16 @@
       ],
       "source_url": "https://www.metmuseum.org/art/collection/search/268719",
       "published_at": "2026-11-04T16:19:11.983206+00:00",
+      "rubric": "women",
+      "batch": "reserve-2026-11-04-approved-86"
+    },
+    {
+      "object_id": 291532,
+      "message_ids": [
+        219
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/291532",
+      "published_at": "2026-11-04T16:19:16.951802+00:00",
       "rubric": "women",
       "batch": "reserve-2026-11-04-approved-86"
     }
@@ -2058,6 +2048,15 @@
           "illustrated": true,
           "sha256": "61334c78e22d1ad92dcfc41570a66baf992c84c294d1f9c0a046d050fc64404d",
           "published_at": "2026-11-04T16:19:11.983206+00:00"
+        },
+        {
+          "batch": "reserve-2026-11-04-approved-86",
+          "object_id": 291532,
+          "message_id": 219,
+          "date": 1793809157,
+          "illustrated": true,
+          "sha256": "d57b4d47ec38ae159068ee14de3cba73c53486786e033d7dab39ba82adf6950a",
+          "published_at": "2026-11-04T16:19:16.951802+00:00"
         }
       ]
     }
