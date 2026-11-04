@@ -470,7 +470,9 @@
           "kind": "article",
           "message_id": 82,
           "date": 1793779340,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Istanbul_skyline_02.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-027",
