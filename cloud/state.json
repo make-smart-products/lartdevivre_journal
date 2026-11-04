@@ -839,7 +839,10 @@
           "kind": "article",
           "message_id": 116,
           "date": 1793779498,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Eileen_Gray.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-061",
