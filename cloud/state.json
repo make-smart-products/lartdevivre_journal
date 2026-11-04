@@ -50,7 +50,28 @@
     282120
   ],
   "last_published_at": "2026-11-04T16:18:19.500301+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 490210,
+    "post": {
+      "object_id": 490210,
+      "rubric": "women",
+      "topic": "Seven Trees",
+      "caption": "🎨 Женщины в искусстве · Цвет\n\nSeven Trees\nPaula Modersohn-Becker · ca. 1900–1902\n\nНайдите деталь, которую захотелось бы рассмотреть крупнее. Почему она удерживает внимание? Авторство и дата дают отправную точку, а собственные вопросы помогают превратить музейную карточку в живое знакомство.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ma/web-large/DP135180.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/490210",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 1,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:43.628984+00:00",
+      "photo_verified_at": "2026-11-04T14:54:43.627925+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "e9197820a2184ed58313d84a27bf7af30d3dca5333f56959b75be20401aeed3d",
+    "attempted_at": "2026-11-04T16:18:21.920977+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
