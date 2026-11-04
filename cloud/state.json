@@ -704,7 +704,9 @@
           "kind": "article",
           "message_id": 107,
           "date": 1793779461,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Knitted_Sweater.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-052",
