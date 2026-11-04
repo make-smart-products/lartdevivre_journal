@@ -1114,7 +1114,10 @@
           "kind": "article",
           "message_id": 144,
           "date": 1793779626,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Postcards_(receiving_from_travelers).jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-089",
