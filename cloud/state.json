@@ -490,7 +490,9 @@
           "kind": "article",
           "message_id": 84,
           "date": 1793779350,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Toni_Morrison.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-029",
