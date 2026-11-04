@@ -1068,7 +1068,10 @@
           "kind": "article",
           "message_id": 139,
           "date": 1793779604,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:1912_evening_dress.jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-084",
