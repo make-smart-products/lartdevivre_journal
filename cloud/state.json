@@ -455,7 +455,8 @@
           "date": 1793779322,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Man_in_black_suit_and_white_shirt,_looking_extremely_badass_cool.jpg",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-023",
