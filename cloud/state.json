@@ -498,7 +498,8 @@
           "date": 1793779340,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Istanbul_skyline_02.jpg",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-027",
