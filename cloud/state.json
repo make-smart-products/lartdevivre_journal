@@ -2040,7 +2040,8 @@
           "date": 1793809043,
           "illustrated": true,
           "sha256": "f3a9ec4f439251e9ab42b974861544b7a36cfa98d788784f345d22947e40c9d1",
-          "published_at": "2026-11-04T16:17:22.310880+00:00"
+          "published_at": "2026-11-04T16:17:22.310880+00:00",
+          "caption_refreshed": true
         },
         {
           "batch": "reserve-2026-11-04-approved-86",
