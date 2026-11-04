@@ -640,7 +640,8 @@
           "date": 1793779407,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Lisbon_cityscape_(22341918126).jpg",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-041",
