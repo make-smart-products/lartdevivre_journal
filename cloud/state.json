@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-019",
-    "sha256": "aae81e502afa725744bcddbf5a8125eae0542b9c0e9db818f1297ce5e67c6785",
-    "attempted_at": "2026-11-04T08:01:48.628355+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -389,6 +384,14 @@
           "message_id": 74,
           "date": 1793779306,
           "illustrated": true
+        },
+        {
+          "id": "LDV-019",
+          "title": "Какой термин обозначает сочетание вещей в ограниченной, хорошо комбинируемой подборке?",
+          "kind": "quiz",
+          "message_id": 75,
+          "date": 1793779310,
+          "illustrated": false
         }
       ]
     }
