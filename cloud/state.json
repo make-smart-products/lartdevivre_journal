@@ -558,7 +558,9 @@
           "kind": "article",
           "message_id": 91,
           "date": 1793779386,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir2.png",
+          "photo_repaired": true
         },
         {
           "id": "LDV-036",
