@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-073",
-    "sha256": "ff7875843ab243bf67ad1509537d33c39b5fea09a71736bdfc9b5a4317f02c6e",
-    "attempted_at": "2026-11-04T08:05:55.197693+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -821,6 +816,14 @@
           "message_id": 128,
           "date": 1793779553,
           "illustrated": true
+        },
+        {
+          "id": "LDV-073",
+          "title": "Какой материал получают из волокон льна?",
+          "kind": "quiz",
+          "message_id": 129,
+          "date": 1793779557,
+          "illustrated": false
         }
       ]
     }
