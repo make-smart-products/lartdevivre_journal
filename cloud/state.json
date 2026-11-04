@@ -33,13 +33,7 @@
     437898
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-079",
-    "action": "replace_quiz_with_photo",
-    "old_message_id": 170,
-    "attempted_at": "2026-11-04T14:38:42.490801+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1248,14 +1242,29 @@
           "id": "LDV-079",
           "title": "Какая художница создавала костюмы и ткани на основе абстрактных цветовых композиций?",
           "kind": "quiz",
-          "message_id": 170,
+          "message_id": 185,
           "date": 1793779586,
           "illustrated": true,
-          "old_message_id": 135,
+          "old_message_id": 170,
           "photo_replaced_poll": true,
-          "old_poll_deleted": true,
+          "old_poll_deleted": false,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Sonia_Delaunay_portrait_photograph.jpg",
-          "poll_id": "5431856327641011924"
+          "poll_id": "5431856327641011949",
+          "retired_message_ids": [
+            135,
+            170
+          ],
+          "quiz_layout_version": "balanced-v1",
+          "correct_option_ids": [
+            0
+          ],
+          "options": [
+            "Соня Делоне",
+            "Фрида Кало",
+            "Синди Шерман",
+            "Берта Моризо"
+          ],
+          "shuffle_options": true
         },
         {
           "id": "LDV-080",
