@@ -665,7 +665,8 @@
           "date": 1793779415,
           "illustrated": true,
           "photo_source_url": "https://commons.wikimedia.org/wiki/File:Maya_Angelou_visits_YCP_Feb_2013_(cropped).jpg",
-          "photo_repaired": true
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-043",
