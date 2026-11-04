@@ -58,7 +58,28 @@
     188044
   ],
   "last_published_at": "2026-11-04T16:19:06.248652+00:00",
-  "pending": null,
+  "pending": {
+    "batch": "reserve-2026-11-04-approved-86",
+    "object_id": 268719,
+    "post": {
+      "object_id": 268719,
+      "rubric": "women",
+      "topic": "Charles Hay Cameron, Esq., in His Garden at Freshwater",
+      "caption": "🎨 Женщины в искусстве · Форма\n\nCharles Hay Cameron, Esq., in His Garden at Freshwater\nJulia Margaret Cameron · 1865–67\n\nПосмотрите на работу как на последовательность решений. Где взгляд задерживается, а куда движется дальше? Ответ может быть личным — важно связать впечатление с тем, что вы действительно замечаете в изображении.\n\nИсточник и изображение: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ph/web-large/DP295213.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/268719",
+      "prepared_batch": "reserve-2026-11-04",
+      "prepared_day": 2,
+      "audience": "девушки и женщины; культура, стиль и искусство",
+      "source_verified_at": "2026-11-04T14:54:46.136686+00:00",
+      "photo_verified_at": "2026-11-04T14:54:46.135062+00:00",
+      "licence": "Public Domain / Met Open Access"
+    },
+    "sha256": "61334c78e22d1ad92dcfc41570a66baf992c84c294d1f9c0a046d050fc64404d",
+    "attempted_at": "2026-11-04T16:19:09.400083+00:00"
+  },
   "publications": [
     {
       "object_id": 436528,
