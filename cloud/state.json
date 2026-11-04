@@ -292,7 +292,9 @@
           "kind": "article",
           "message_id": 62,
           "date": 1793779067,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg",
+          "photo_repaired": true
         },
         {
           "id": "LDV-007",
