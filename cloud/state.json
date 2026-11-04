@@ -954,7 +954,10 @@
           "kind": "article",
           "message_id": 127,
           "date": 1793779549,
-          "illustrated": false
+          "illustrated": true,
+          "photo_source_url": "https://commons.wikimedia.org/wiki/File:FIDM_Museum_-_Film_costumes_-_Maleficent_(16289469900).jpg",
+          "photo_repaired": true,
+          "photo_credit_links": true
         },
         {
           "id": "LDV-072",
