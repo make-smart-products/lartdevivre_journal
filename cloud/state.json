@@ -712,7 +712,7 @@
       "published_at": "2026-11-04T16:28:33.140511+00:00"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2434,5 +2434,242 @@
       "removed_repetitions": 3,
       "new_quizzes": 2
     }
-  }
+  },
+  "recent_content": [
+    {
+      "creator": "anna atkins",
+      "visual_family": "cyanotype",
+      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-118.jpg",
+      "work_key": "anna atkins|zygnema nitidum"
+    },
+    {
+      "creator": "eastern india",
+      "visual_family": "",
+      "image": "https://www.artic.edu/iiif/2/0500bc2e-18ff-adb1-4b8f-8663050c47d3/full/843,/0/default.jpg",
+      "work_key": "eastern india|👗 один аксессуар — два цвета"
+    },
+    {
+      "creator": "designed by edward william godwin (english, 1833-1886)\nmade by william watt (english, 1834-1885)\nlondon",
+      "visual_family": "",
+      "image": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/843,/0/default.jpg",
+      "work_key": "designed by edward william godwin (english, 1833-1886)\nmade by william watt (english, 1834-1885)\nlondon|🏠 воздух между вещами"
+    },
+    {
+      "creator": "utagawa hiroshige 歌川 広重\njapanese, 1797–1858",
+      "visual_family": "",
+      "image": "https://www.artic.edu/iiif/2/fe8f2ca1-954d-4399-96a1-21a08b438818/full/843,/0/default.jpg",
+      "work_key": "utagawa hiroshige 歌川 広重\njapanese, 1797–1858|🧳 киото без спешки"
+    },
+    {
+      "creator": "julia margaret cameron",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP295205.jpg",
+      "work_key": "julia margaret cameron|king lear alotting his kingdom to his three daughters"
+    },
+    {
+      "creator": "nina de garis davies",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/eg/web-large/LC-31_6_39_EGDP036617.jpg",
+      "work_key": "nina de garis davies|neferhotep and wife offering, tomb of neferhotep"
+    },
+    {
+      "creator": "marsden hartley (american, 1877–1943)",
+      "visual_family": "",
+      "image": "https://www.artic.edu/iiif/2/9b6f838e-5424-d030-2d2f-c9380830d631/full/843,/0/default.jpg",
+      "work_key": "marsden hartley (american, 1877–1943)|🎨 палитра для пасмурного дня"
+    },
+    {
+      "creator": "edmonia lewis",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP371841.jpg",
+      "work_key": "edmonia lewis|minnehaha"
+    },
+    {
+      "creator": "suzanne de court",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/es/web-large/ES10063.jpg",
+      "work_key": "suzanne de court|orpheus attacked by the maenads"
+    },
+    {
+      "creator": "manchu, china",
+      "visual_family": "",
+      "image": "https://www.artic.edu/iiif/2/ed5d6e93-b36e-032e-1ade-a29a597d1b4f/full/843,/0/default.jpg",
+      "work_key": "manchu, china|👗 как работает выразительная отделка"
+    },
+    {
+      "creator": "mlle. louise",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/43.118.49_CP3.jpg",
+      "work_key": "mlle. louise|hat"
+    },
+    {
+      "creator": "carl blechen (german, 1798–1840)",
+      "visual_family": "",
+      "image": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/843,/0/default.jpg",
+      "work_key": "carl blechen (german, 1798–1840)|🌿 зелень как часть интерьера"
+    },
+    {
+      "creator": "rosa bonheur",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/es/web-large/154142.jpg",
+      "work_key": "rosa bonheur|walking bull"
+    },
+    {
+      "creator": "constant bourgeois (french, 1767-1841)\nprinted by comte de charles philibert lasteyrie du saliant (french, 1759-1849)",
+      "visual_family": "",
+      "image": "https://www.artic.edu/iiif/2/2ce51c0d-4574-62f9-e174-6c8c5b31a3db/full/843,/0/default.jpg",
+      "work_key": "constant bourgeois (french, 1767-1841)\nprinted by comte de charles philibert lasteyrie du saliant (french, 1759-1849)|🧳 неаполь: место для одного вида"
+    },
+    {
+      "creator": "suzanne de court",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/rl/web-large/SLP1237-1.jpg",
+      "work_key": "suzanne de court|mirror; minerva visits the muses on mount helicon"
+    },
+    {
+      "creator": "paul cezanne (french, 1839–1906)",
+      "visual_family": "",
+      "image": "https://www.artic.edu/iiif/2/96f23681-9701-a668-5c3f-6ffa951f7ecc/full/843,/0/default.jpg",
+      "work_key": "paul cezanne (french, 1839–1906)|💐 букет без идеальной симметрии"
+    },
+    {
+      "creator": "julia margaret cameron",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP158290.jpg",
+      "work_key": "julia margaret cameron|and enid sang"
+    },
+    {
+      "creator": "paula modersohn-becker",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ma/web-large/DP135180.jpg",
+      "work_key": "paula modersohn-becker|seven trees"
+    },
+    {
+      "creator": "mary roberts",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP145441.jpg",
+      "work_key": "mary roberts|william middleton"
+    },
+    {
+      "creator": "nina de garis davies",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/eg/web-large/LC-30_4_43_EGDP036138.jpg",
+      "work_key": "nina de garis davies|detail from an offering procession, tomb of amenemweskhet"
+    },
+    {
+      "creator": "jane simonton chapman",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/52024.jpg",
+      "work_key": "jane simonton chapman|tablecover"
+    },
+    {
+      "creator": "pamela hill",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP701352.jpg",
+      "work_key": "pamela hill|amos binney"
+    },
+    {
+      "creator": "mary roberts",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP145443.jpg",
+      "work_key": "mary roberts|hester middleton"
+    },
+    {
+      "creator": "anne teakes",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/APS6726.jpg",
+      "work_key": "anne teakes|mrs. teakes"
+    },
+    {
+      "creator": "hester bateman",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/es/web-large/17730.jpg",
+      "work_key": "hester bateman|tablespoon"
+    },
+    {
+      "creator": "julia margaret cameron",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP295213.jpg",
+      "work_key": "julia margaret cameron|charles hay cameron, esq., in his garden at freshwater"
+    },
+    {
+      "creator": "nina de garis davies",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/eg/web-large/DP370264.jpg",
+      "work_key": "nina de garis davies|man confronting a hyena, tomb of amenemhab"
+    },
+    {
+      "creator": "sarah noyes chester",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/ADA3374.jpg",
+      "work_key": "sarah noyes chester|enbroidered bed curtain"
+    },
+    {
+      "creator": "julia margaret cameron",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP158293.jpg",
+      "work_key": "julia margaret cameron|elaine the lily - maid of astolat"
+    },
+    {
+      "creator": "harriet f. burr",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/164823.jpg",
+      "work_key": "harriet f. burr|embroidered sampler"
+    },
+    {
+      "creator": "eliza goodridge",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/ap29.74.jpg",
+      "work_key": "eliza goodridge|alice goudry"
+    },
+    {
+      "creator": "julia margaret cameron",
+      "visual_family": "photographic-portrait",
+      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP295222.jpg",
+      "work_key": "julia margaret cameron|a study"
+    },
+    {
+      "creator": "maria elisa pistrucci",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/es/web-large/DP150939.jpg",
+      "work_key": "maria elisa pistrucci|portrait of benedetto pistrucci"
+    },
+    {
+      "creator": "eliza pratt greatorex",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-40113-001.jpg",
+      "work_key": "eliza pratt greatorex|the crypt, mont st. michel, brittany, france"
+    },
+    {
+      "creator": "mary roberts",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP145444.jpg",
+      "work_key": "mary roberts|henrietta middleton"
+    },
+    {
+      "creator": "nina de garis davies",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/eg/web-large/30.4.51_EGDP013047.jpg",
+      "work_key": "nina de garis davies|ibex, tomb of amenhotep"
+    },
+    {
+      "creator": "anna claypoole peale",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/APS6625.jpg",
+      "work_key": "anna claypoole peale|portrait of a lady"
+    },
+    {
+      "creator": "nicolas delaunay",
+      "visual_family": "",
+      "image": "https://www.artic.edu/iiif/2/543af571-f693-929d-86ee-6300482b9e13/full/843,/0/default.jpg",
+      "work_key": "nicolas delaunay|the happy accident of the swing"
+    },
+    {
+      "creator": "berthe morisot",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP884478.jpg",
+      "work_key": "berthe morisot|goose"
+    }
+  ],
+  "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
 }
