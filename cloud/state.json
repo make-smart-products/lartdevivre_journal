@@ -30,12 +30,7 @@
     439343
   ],
   "last_published_at": "2026-11-02T19:36:36.961028+00:00",
-  "pending": {
-    "batch": "ldv-original-100-v1",
-    "editorial_id": "LDV-063",
-    "sha256": "1c6a83687f78485bc224d2e7d7edc154fc7109920eb02f2be335d0b61c9da404",
-    "attempted_at": "2026-11-04T08:05:08.212771+00:00"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -740,6 +735,14 @@
           "kind": "article",
           "message_id": 118,
           "date": 1793779506,
+          "illustrated": false
+        },
+        {
+          "id": "LDV-063",
+          "title": "Очки и индивидуальность",
+          "kind": "article",
+          "message_id": 119,
+          "date": 1793779512,
           "illustrated": false
         }
       ]
