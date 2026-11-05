@@ -78,7 +78,7 @@ def main():
             archive = zipfile.ZipFile(io.BytesIO(response.read()))
         for name in archive.namelist():
             for line in archive.read(name).decode('utf-8', errors='replace').splitlines():
-                if any(word in line.lower() for word in ('ошибка:', 'traceback', 'publisherror', 'error:', 'validated')):
+                if any(word in line.lower() for word in ('ошибка:', 'traceback', 'publisherror', 'error:', 'validated', 'not_due', 'batch_complete')):
                     line = re.sub(r'bot[0-9]+:[A-Za-z0-9_-]+', 'bot[REDACTED]', line)
                     print(line)
     else:

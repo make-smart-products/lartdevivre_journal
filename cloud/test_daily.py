@@ -9,7 +9,7 @@ import publish
 
 
 class DailyBatchTests(unittest.TestCase):
-    def run_batch(self, state, now):
+    def run_batch(self, state, now, scheduled=False):
         store = Mock()
         store.load.side_effect = lambda: copy.deepcopy(state)
         def save(value, message):
@@ -21,7 +21,7 @@ class DailyBatchTests(unittest.TestCase):
             rubric = publish.RUBRIC_ORDER[value.get('next_rubric_index', 0)]
             return publish.make_card(obj, rubric)
         with patch.dict(os.environ, {'GITHUB_TOKEN': 'fake', 'TELEGRAM_BOT_TOKEN': 'fake'}), patch.object(publish, 'StateStore', return_value=store), patch.object(publish, 'choose_post', side_effect=choose), patch.object(publish.time,'sleep'), patch.object(publish, 'publish', return_value=[42]) as send:
-            result = publish.execute(now=now)
+            result = publish.execute(now=now, scheduled=scheduled)
             return result, send.call_count
 
     def test_full_block_has_one_hundred_posts_and_all_seven_rubrics(self):
@@ -38,6 +38,14 @@ class DailyBatchTests(unittest.TestCase):
         result, calls = self.run_batch(state, dt.datetime(2026, 11, 3, 20, 0, tzinfo=dt.timezone.utc))
         self.assertEqual(0, calls)
         self.assertEqual('batch_complete', result['status'])
+
+    def test_scheduled_run_delayed_past_midnight_resumes_previous_moscow_date(self):
+        state = {'daily_batches': {'2026-11-04': {'completed': 99}}}
+        result, calls = self.run_batch(state, dt.datetime(2026, 11, 5, 0, 29, tzinfo=dt.timezone.utc), scheduled=True)
+        self.assertEqual(1, calls)
+        self.assertEqual('2026-11-04', result['date_moscow'])
+        self.assertEqual(100, state['daily_batches']['2026-11-04']['completed'])
+        self.assertEqual(0, self.run_batch(state, dt.datetime(2026, 11, 5, 0, 30, tzinfo=dt.timezone.utc), scheduled=True)[1])
 
     def test_resumes_only_remaining_items(self):
         state = {'daily_batches': {'2026-11-03': {'completed': 7}}, 'used_object_ids': list(range(7)), 'next_rubric_index': 2}

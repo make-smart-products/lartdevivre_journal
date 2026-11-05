@@ -33,9 +33,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           if [ "$DRY_RUN" = "true" ]; then
             python3 cloud/publish.py --dry-run
+          elif [ "$EVENT_NAME" = "schedule" ]; then
+            python3 cloud/publish.py --scheduled
           else
             python3 cloud/publish.py
           fi

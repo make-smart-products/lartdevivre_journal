@@ -66,6 +66,15 @@ class EditorialDiversityTests(unittest.TestCase):
         self.assertEqual('Mary Cassatt',quiz['options'][quiz['correct_option_ids'][0]])
         self.assertEqual(4,len(set(quiz['options'])))
 
+    def test_quiz_switches_to_less_used_verified_technique(self):
+        obj = dict(self.obj(), medium='Etching')
+        quiz = publish.make_quiz_question(obj, [{'quiz_format': 'medium'}, {'quiz_format': 'artist'}])
+        self.assertEqual('technique', quiz['quiz_format'])
+        self.assertEqual('Офорт', quiz['options'][quiz['correct_option_ids'][0]])
+        obj['medium'] = 'Etching and engraving'
+        quiz = publish.make_quiz_question(obj, [{'quiz_format': 'medium'}, {'quiz_format': 'artist'}])
+        self.assertNotEqual('technique', quiz['quiz_format'])
+
     def test_modern_copy_cannot_be_presented_as_artist_work_from_antiquity(self):
         obj=self.obj();obj.update(artistBeginDate='1881',objectEndDate=-1300)
         with self.assertRaises(publish.PublishError):publish.make_card(obj,'women')

@@ -24,7 +24,7 @@ MET_SEARCH = "https://collectionapi.metmuseum.org/public/collection/v1.1/search"
 REPO = "make-smart-products/lartdevivre_journal"
 CHANNEL = "@lartdevivre_journal"
 DAILY_TARGET = 100
-QUERIES = ["Vincent van Gogh", "Edgar Degas", "Paul Cezanne", "Edouard Manet", "Berthe Morisot", "Rembrandt", "landscape"]
+QUERIES = ["Vincent van Gogh", "Edgar Degas", "Paul Cezanne", "Edouard Manet", "Berthe Morisot", "Rembrandt", "landscape", "still life", "garden", "seascape", "interior", "flowers"]
 RESERVE_OBJECT_IDS = {"painting": [436531, 436533, 437423, 437430]}
 BASE_RUBRIC_ORDER = ["fashion", "architecture", "travel", "women", "painting"]
 # A twenty-slot cycle: 15 per core topic, 10 books/cinema and 15 quizzes per 100.
@@ -32,13 +32,34 @@ RUBRIC_ORDER = (BASE_RUBRIC_ORDER + ["books", "quiz"]) * 2 + BASE_RUBRIC_ORDER +
 RUBRICS = {
     "fashion": {"label": "👗 История моды", "tag": "#ИсторияМоды", "queries": ["evening dress", "robe", "coat", "hat", "House of Worth"]},
     "architecture": {"label": "🏛 Архитектура и интерьер", "tag": "#Архитектура", "queries": ["temple", "architectural", "column", "facade", "floor plan", "cathedral", "interior", "chair", "cabinet"]},
-    "travel": {"label": "🧳 Культурные путешествия", "tag": "#КультурныеПутешествия", "queries": ["Venice", "Rome", "Paris", "Florence", "Kyoto", "Istanbul"]},
+    "travel": {"label": "🧳 Культурные путешествия", "tag": "#КультурныеПутешествия", "queries": ["Venice", "Rome", "Paris", "Florence", "Kyoto", "Istanbul", "Amsterdam", "London", "Naples", "New York"]},
     "women": {"label": "🎨 Женщины в искусстве", "tag": "#ЖенщиныВИскусстве", "queries": ["Berthe Morisot", "Mary Cassatt", "Rosa Bonheur", "Judith Leyster", "Elisabeth Louise Vigee Le Brun", "Artemisia Gentileschi", "Adelaide Labille-Guiard", "Rachel Ruysch", "Clara Peeters", "Eva Gonzales", "Marie Bracquemond", "Fidelia Bridges", "Edmonia Lewis", "Harriet Hosmer", "Camille Claudel", "Paula Modersohn-Becker", "Lilla Cabot Perry", "Elizabeth Nourse", "Cecilia Beaux", "Margaret Sarah Carpenter"]},
     "painting": {"label": "🖼 Картина дня", "tag": "#КартинаДня"},
     "books": {"label": "📚 Книги, кино и визуальные истории", "tag": "#КнигиИКино", "queries": ["Shakespeare", "Tennyson", "Hamlet", "King Lear", "illustrated book", "theater"]},
     "quiz": {"label": "❓ Визуальная викторина", "tag": "#Викторина", "queries": ["painting", "photograph", "engraving", "sculpture"]},
 }
 ARTISTS = {"Vincent van Gogh": "Винсент ван Гог", "Katsushika Hokusai": "Кацусика Хокусай", "Edgar Degas": "Эдгар Дега", "Paul Cézanne": "Поль Сезанн", "Edouard Manet": "Эдуард Мане", "Mary Cassatt": "Мэри Кассат", "Berthe Morisot": "Берта Моризо", "Albrecht Dürer": "Альбрехт Дюрер"}
+MEDIUM_LABELS = {
+    "oil on canvas": "Масло на холсте", "oil on wood": "Масло на дереве",
+    "etching": "Офорт", "engraving": "Гравюра резцом", "lithograph": "Литография",
+    "woodcut": "Ксилография", "cyanotype": "Цианотипия",
+    "silk": "Шёлк", "cotton": "Хлопок", "wool": "Шерсть", "linen": "Лён",
+    "bronze": "Бронза", "marble": "Мрамор", "watercolor": "Акварель",
+}
+EXTRA_ANGLES = {
+    "fashion": ["Рассмотрите застёжки и швы. По ним можно понять, как устроена вещь и где она держит форму.",
+                "Идея для примерки: повторить пропорции силуэта с вещами, которые уже есть дома."],
+    "architecture": ["Посмотрите, как проёмы и пустые участки меняют ощущение масштаба.",
+                     "Представьте этот предмет или фрагмент в обычной комнате. Что изменится, если перенести его в другой угол?"],
+    "travel": ["Выберите на изображении одну точку, откуда вы бы начали прогулку по этому историческому виду.",
+               "На старом изображении города интересно сравнить масштаб зданий и пространство между ними."],
+    "women": ["Присмотритесь к материалу и следам работы. С них можно начать разговор о выборе художницы.",
+              "Поставьте рядом другую работу этой художницы. Что меняется от одного сюжета к другому?"],
+    "painting": ["На минуту прикройте самый яркий участок. Что теперь первым притягивает взгляд?",
+                 "Выберите два участка, между которыми взгляд движется сам. Из них можно собрать небольшую зарисовку."],
+    "books": ["Для книжного клуба: придумайте к этому изображению подпись из одной строки и сравните версии.",
+              "Вообразите изображение первым кадром фильма. Какой звук подошёл бы сцене?"],
+}
 
 
 class PublishError(Exception):
@@ -151,37 +172,62 @@ def quiz_medium(obj):
     return None
 
 
-def make_quiz_question(obj):
+def least_recent_variant(choices, recent, field, seed):
+    counts = {choice: 0 for choice in choices}
+    last = None
+    for item in recent:
+        value = item.get(field)
+        if value in counts:
+            counts[value] += 1
+            last = value
+    order = choices[seed % len(choices):] + choices[:seed % len(choices)]
+    return min(order, key=lambda choice: (counts[choice], choice == last))
+
+
+def make_quiz_question(obj, recent=()):
     answer = quiz_medium(obj)
     if not answer:
         raise PublishError("Нет проверяемого ответа для викторины")
-    question = "К какому виду искусства относится показанная работа?"
-    options = ["Фотография", "Живопись", "Печатная графика", "Скульптура"]
-    explanation = "Вид искусства в музейном каталоге — " + answer.lower() + "."
-    variant = int(obj["objectID"]) % 3
+    variants = {
+        "medium": ("К какому виду искусства относится показанная работа?",
+                   ["Фотография", "Живопись", "Печатная графика", "Скульптура"],
+                   answer, "Вид искусства в музейном каталоге — " + answer.lower() + "."),
+    }
     creator = (obj.get("artistDisplayName") or "").strip()
-    if variant == 1 and 2 <= len(creator) <= 100 and not re.search(r"unknown|anonymous|unidentified|attributed|workshop|school of|after ", creator, re.I):
-        answer = creator
+    if 2 <= len(creator) <= 100 and not re.search(r"unknown|anonymous|unidentified|attributed|workshop|school of|after ", creator, re.I):
         wrong = [name for name in ("Claude Monet", "Berthe Morisot", "Katsushika Hokusai", "Mary Cassatt", "Edgar Degas", "Albrecht Dürer") if name.casefold() != creator.casefold()]
         random.Random(str(obj["objectID"])).shuffle(wrong)
-        options = [answer] + wrong[:3]
-        question = "Кто автор показанной работы? Имена — по музейному каталогу."
-        explanation = "Автор — " + creator + ". Работа: " + obj.get("title", "") + "."
-    elif variant == 2:
-        begin, end = obj.get("objectBeginDate"), obj.get("objectEndDate")
-        if isinstance(begin, int) and isinstance(end, int) and 0 < begin <= end and (begin - 1) // 100 == (end - 1) // 100:
-            century = (begin - 1) // 100 + 1
-            start = max(1, century - 1)
-            answer = str(century) + "-й век"
-            options = [str(value) + "-й век" for value in range(start, start + 4)]
-            question = "В каком веке создана показанная работа?"
-            explanation = "Музейная датировка: " + obj.get("objectDate", "") + ". Это " + answer + "."
+        variants["artist"] = ("Кто автор показанной работы?", [creator] + wrong[:3], creator,
+                              "Автор — " + creator + ".")
+    begin, end = obj.get("objectBeginDate"), obj.get("objectEndDate")
+    if isinstance(begin, int) and isinstance(end, int) and 0 < begin <= end and (begin - 1) // 100 == (end - 1) // 100:
+        century = (begin - 1) // 100 + 1
+        start = max(1, century - 1)
+        answer = str(century) + "-й век"
+        variants["century"] = ("В каком веке создана показанная работа?",
+                               [str(value) + "-й век" for value in range(start, start + 4)], answer,
+                               "Музейная датировка — " + obj.get("objectDate", "") + ". Это " + answer + ".")
+    techniques = {"etching": "Офорт", "engraving": "Гравюра резцом", "lithograph": "Литография",
+                  "woodcut": "Ксилография"}
+    technique = techniques.get((obj.get("medium") or "").strip().casefold())
+    if technique:
+        variants["technique"] = ("Какой техникой выполнен этот оттиск?",
+                                 list(techniques.values()), technique,
+                                 "В музейном каталоге указана техника «" + technique.lower() + "».")
+    choices = list(variants)
+    preferred = ("medium", "artist", "century")[int(obj["objectID"]) % 3]
+    seed = choices.index(preferred) if preferred in choices else 0
+    quiz_format = least_recent_variant(choices, [item for item in recent if item.get("quiz_format")][-12:], "quiz_format", seed)
+    question, options, answer, explanation = variants[quiz_format]
+    title = obj.get("title", "").strip()
+    if title and len(explanation) + len(title) + 3 <= 200 and quiz_format != "artist":
+        explanation += " «" + title + "»."
     random.Random(str(obj["objectID"])).shuffle(options)
-    return {"kind": "quiz", "question": question, "options": options,
+    return {"kind": "quiz", "quiz_format": quiz_format, "question": question, "options": options,
             "correct_option_ids": [options.index(answer)], "explanation": explanation[:200]}
 
 
-def make_card(obj, rubric="painting"):
+def make_card(obj, rubric="painting", recent=()):
     if not obj.get("isPublicDomain") or not obj.get("primaryImageSmall"):
         raise PublishError("Нет открытого музейного изображения")
     artist = obj.get("artistDisplayName") or obj.get("culture") or "Автор не указан в каталоге"
@@ -206,15 +252,22 @@ def make_card(obj, rubric="painting"):
         "books": ["Книжная история получает визуальный образ. Что вы представляли иначе, когда читали?", "Идея для книжного клуба: сопоставить текст и изображение, не выбирая единственное правильное прочтение.", "От текста к кадру: какие решения художника меняют ваше представление о знакомой истории?"],
         "quiz": ["Проверьте наблюдательность: ответ подтверждён музейным каталогом."],
     }
-    prompt = prompts[rubric][int(obj["objectID"]) % len(prompts[rubric])]
-    caption = (config["label"] + "\n\n" + title + "\n" + artist + " · " + date +
+    angles = prompts[rubric] + EXTRA_ANGLES.get(rubric, [])
+    recent_in_rubric = [item for item in recent if item.get("rubric") == rubric][-8:]
+    angle = least_recent_variant(list(range(len(angles))), recent_in_rubric, "angle", int(obj["objectID"]))
+    prompt = angles[angle]
+    medium = MEDIUM_LABELS.get((obj.get("medium") or "").strip().casefold())
+    catalogue_line = artist + " · " + date
+    if medium:
+        catalogue_line += " · " + medium
+    caption = (config["label"] + "\n\n" + title + "\n" + catalogue_line +
                "\n\n" + prompt + "\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n" + config["tag"])
     post = {"topic": title, "caption": caption, "images": [obj["primaryImageSmall"]],
             "source_url": "https://www.metmuseum.org/art/collection/search/" + str(obj["objectID"]),
-            "object_id": obj["objectID"], "rubric": rubric}
+            "object_id": obj["objectID"], "rubric": rubric, "angle": angle}
     post.update(content_signature(obj))
     if rubric == "quiz":
-        post.update(make_quiz_question(obj))
+        post.update(make_quiz_question(obj, recent))
     for image in obj.get("additionalImages", []):
         if image not in post["images"] and urllib.parse.urlparse(image).hostname == "images.metmuseum.org":
             post["images"].append(image)
@@ -255,6 +308,7 @@ def snapshot_object(post, now=None):
 def choose_post(state, fetch=request, rubric=None):
     rubric = rubric or RUBRIC_ORDER[state.get("next_rubric_index", 0) % len(RUBRIC_ORDER)]
     used = {int(x) for x in state.get("used_object_ids", [])}
+    recent = state.get("recent_content", [])
     # Prepared cards have individual editorial captions. Automatic discovery keeps
     # the channel supplied after this queue is consumed, without API subscriptions.
     for path in sorted((ROOT / "cloud" / "queue").glob("*.json")):
@@ -282,13 +336,14 @@ def choose_post(state, fetch=request, rubric=None):
         try:
             obj = fetch(MET + "/objects/" + str(object_id))
             if matches_rubric(obj, rubric):
-                card = make_card(obj, rubric)
+                card = make_card(obj, rubric, recent)
                 if diverse_enough(card, state):
                     return card
         except PublishError:
             continue
     queries = RUBRICS[rubric].get("queries", QUERIES)
-    start = len(used) % len(queries)
+    week = dt.datetime.now(dt.timezone.utc).date().toordinal() // 7
+    start = (len(used) + week) % len(queries)
     for offset in range(len(queries)):
         query = queries[(start + offset) % len(queries)]
         for offset_in_results in range(0, 300, 100):
@@ -305,7 +360,7 @@ def choose_post(state, fetch=request, rubric=None):
                 try:
                     obj = fetch(MET + "/objects/" + str(object_id))
                     if matches_rubric(obj, rubric):
-                        card = make_card(obj, rubric)
+                        card = make_card(obj, rubric, recent)
                         if diverse_enough(card, state):
                             return card
                 except PublishError:
@@ -415,7 +470,8 @@ def execute_one(dry_run=False, batch_date=None):
                                                "source_url": post["source_url"], "published_at": state["last_published_at"]})
     state["next_rubric_index"] = (state.get("next_rubric_index", 0) + 1) % len(RUBRIC_ORDER)
     state["publications"][-1]["rubric"] = post["rubric"]
-    state.setdefault("recent_content", []).append({key: post.get(key, "") for key in ("creator", "visual_family", "image", "work_key")})
+    state.setdefault("recent_content", []).append({key: post[key] for key in
+        ("creator", "visual_family", "image", "work_key", "rubric", "angle", "quiz_format") if key in post})
     state["recent_content"] = state["recent_content"][-100:]
     if batch_date:
         batch = state.setdefault("daily_batches", {}).setdefault(batch_date, {"completed": 0, "target": DAILY_TARGET})
@@ -427,7 +483,7 @@ def execute_one(dry_run=False, batch_date=None):
     return {"status": "published", "message_ids": message_ids, "url": "https://t.me/lartdevivre_journal/" + str(message_ids[0])}
 
 
-def execute(dry_run=False, now=None):
+def execute(dry_run=False, now=None, scheduled=False):
     """One daily block; confirmed items survive interruptions and retries."""
     local = (now or dt.datetime.now(dt.timezone.utc)).astimezone(dt.timezone(dt.timedelta(hours=3)))
     day = local.date().isoformat()
@@ -441,7 +497,9 @@ def execute(dry_run=False, now=None):
             audit[rubric] = {"validated": True, "topic": card["topic"], "images": len(card["images"]), "kind": card.get("kind", "article")}
         return {"daily_target": DAILY_TARGET, "time_moscow": "22:30", "preview": preview, "rubrics": audit}
     if (local.hour, local.minute) < (22, 30):
-        return {"status": "not_due", "time_moscow": "22:30"}
+        if not scheduled:
+            return {"status": "not_due", "time_moscow": "22:30"}
+        day = (local.date() - dt.timedelta(days=1)).isoformat()
     results = []
     for _ in range(DAILY_TARGET):
         result = execute_one(batch_date=day)
@@ -456,8 +514,9 @@ def execute(dry_run=False, now=None):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--scheduled", action="store_true")
     args = parser.parse_args()
-    print(json.dumps(execute(dry_run=args.dry_run), ensure_ascii=False))
+    print(json.dumps(execute(dry_run=args.dry_run, scheduled=args.scheduled), ensure_ascii=False))
 
 
 if __name__ == "__main__":
