@@ -141,7 +141,28 @@
     739503
   ],
   "last_published_at": "2026-11-06T23:51:47.262417+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 11737,
+    "attempted_at": "2026-11-06T23:51:50.023409+00:00",
+    "post": {
+      "topic": "Still Life with Cake",
+      "caption": "🖼 Картина дня\n\nStill Life with Cake\nRaphaelle Peale · 1818 · Масло на дереве\n\nВыберите два участка, между которыми взгляд движется сам. Из них можно собрать небольшую зарисовку.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/DT64.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/11737",
+      "object_id": 11737,
+      "rubric": "painting",
+      "angle": 4,
+      "subject": "still life",
+      "creator": "raphaelle peale",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT64.jpg",
+      "work_key": "raphaelle peale|still life with cake"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "623f9a022e536a65e85fb2349d1a1c9241af5d2ab6769949af37c984bf667cb7"
+  },
   "publications": [
     {
       "object_id": 436528,
