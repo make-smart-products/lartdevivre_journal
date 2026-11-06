@@ -85,7 +85,27 @@
     197169
   ],
   "last_published_at": "2026-11-06T00:30:36.538548+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 413353,
+    "attempted_at": "2026-11-06T00:30:38.855872+00:00",
+    "post": {
+      "topic": "Another view of Amsterdam (Autre vue d'Amsterdam), from \"Views of seaports\" (Vues de ports de mar)",
+      "caption": "🧳 Культурные путешествия\n\nAnother view of Amsterdam (Autre vue d'Amsterdam), from \"Views of seaports\" (Vues de ports de mar)\nStefano della Bella · 1647\n\nВыберите на изображении одну точку, откуда вы бы начали прогулку по этому историческому виду.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP828055.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/413353",
+      "object_id": 413353,
+      "rubric": "travel",
+      "angle": 3,
+      "creator": "stefano della bella",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP828055.jpg",
+      "work_key": "stefano della bella|another view of amsterdam (autre vue d'amsterdam), from \"views of seaports\" (vues de ports de mar)"
+    },
+    "batch_date": "2026-11-05",
+    "sha256": "a85fc238ea83b8bab199b65d32f921cab371675509f69a6b9a98af133c1e3c24"
+  },
   "publications": [
     {
       "object_id": 436528,
