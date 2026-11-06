@@ -143,7 +143,30 @@
     417602
   ],
   "last_published_at": "2026-11-06T23:51:57.180305+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 84367,
+    "attempted_at": "2026-11-06T23:51:59.889815+00:00",
+    "post": {
+      "topic": "Dress",
+      "caption": "👗 История моды\n\nDress\nAmerican · 1857–59 · Шёлк\n\nРассмотрите застёжки и швы. По ним можно понять, как устроена вещь и где она держит форму.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ci/web-large/CI41.21.5ab_F.jpg",
+        "https://images.metmuseum.org/CRDImages/ci/original/CI41.21.5ab_TQL.jpg",
+        "https://images.metmuseum.org/CRDImages/ci/original/CI41.21.5ab_d.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/84367",
+      "object_id": 84367,
+      "rubric": "fashion",
+      "angle": 3,
+      "subject": "dress",
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI41.21.5ab_F.jpg",
+      "work_key": "|dress"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "2f39197597c809d00ab1b6f74e98d51a36850d668bae8cb2daa5d404c61aa62b"
+  },
   "publications": [
     {
       "object_id": 436528,
