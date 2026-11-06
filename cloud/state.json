@@ -105,7 +105,28 @@
     242347
   ],
   "last_published_at": "2026-11-06T23:48:19.016190+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 415503,
+    "attempted_at": "2026-11-06T23:48:21.867828+00:00",
+    "post": {
+      "topic": "Innocent VII, from Scelta d'Alcuni Miracoli e Grazie della Santissima Nunziata di Firenze (Selection of Some Miracles and Graces that Occurred in the Church of the Annunziata in Florence)",
+      "caption": "🧳 Культурные путешествия\n\nInnocent VII, from Scelta d'Alcuni Miracoli e Grazie della Santissima Nunziata di Firenze (Selection of Some Miracles and Graces that Occurred in the Church of the Annunziata in Florence)\nJacques Callot · 1611–19\n\nВдохновение для неспешной прогулки: один вид вместо длинного списка достопримечательностей. Перед вами историческое изображение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP888173.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/415503",
+      "object_id": 415503,
+      "rubric": "travel",
+      "angle": 1,
+      "subject": "Florence",
+      "creator": "jacques callot",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP888173.jpg",
+      "work_key": "jacques callot|innocent vii, from scelta d'alcuni miracoli e grazie della santissima nunziata di firenze (selection of some miracles and graces that occurred in the church of the annunziata in florence)"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "142860e39c6947234093b9e8364df0f4ab9582a715263dff91cecbc64a9e7167"
+  },
   "publications": [
     {
       "object_id": 436528,
