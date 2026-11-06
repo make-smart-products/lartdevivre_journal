@@ -127,33 +127,11 @@
     438132,
     15237,
     642944,
-    11789
+    11789,
+    91888
   ],
-  "last_published_at": "2026-11-06T23:50:44.128144+00:00",
-  "pending": {
-    "object_id": 91888,
-    "attempted_at": "2026-11-06T23:50:47.081786+00:00",
-    "post": {
-      "topic": "Court presentation suit",
-      "caption": "👗 История моды\n\nCourt presentation suit\nBritish · 1877 · Шёлк\n\nИдея для примерки: повторить пропорции силуэта с вещами, которые уже есть дома.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/CI69.33.16a-d.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/C.I.69.33.16a–c_F.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/C.I.69.33.16a–c_B.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/91888",
-      "object_id": 91888,
-      "rubric": "fashion",
-      "angle": 4,
-      "subject": "ensemble",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI69.33.16a-d.jpg",
-      "work_key": "|court presentation suit"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "11c6db60e529df76263e1bf7399be6ee54fdd4430bdeb8dc5dcff8e9e07f21ab"
-  },
+  "last_published_at": "2026-11-06T23:50:51.847898+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1314,9 +1292,22 @@
       "subject": "Скульптура",
       "quiz_format": "medium",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 91888,
+      "message_ids": [
+        302,
+        303,
+        304
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/91888",
+      "published_at": "2026-11-06T23:50:51.847898+00:00",
+      "rubric": "fashion",
+      "subject": "ensemble",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 7,
+  "next_rubric_index": 8,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1327,7 +1318,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 38,
+      "completed": 39,
       "target": 100
     }
   },
@@ -3695,6 +3686,15 @@
       "subject": "Скульптура",
       "angle": 0,
       "quiz_format": "medium"
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI69.33.16a-d.jpg",
+      "work_key": "|court presentation suit",
+      "rubric": "fashion",
+      "subject": "ensemble",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
