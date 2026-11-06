@@ -150,50 +150,11 @@
     440393,
     86433,
     348609,
-    383421
+    383421,
+    842832
   ],
-  "last_published_at": "2026-11-06T23:52:52.898644+00:00",
-  "pending": {
-    "object_id": 842832,
-    "attempted_at": "2026-11-06T23:52:55.749450+00:00",
-    "post": {
-      "object_id": 842832,
-      "rubric": "women",
-      "topic": "Небольшая остановка у природы",
-      "caption": "🎨 Небольшая остановка у природы\n\nФиделия Бриджес, «Синица и чертополох», 1875 год. В работе соединены акварель и гуашь. Для следующей прогулки можно взять маленькую задачу: заметить одну птицу и одно растение, не превращая отдых в соревнование за идеальный кадр.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ad/web-large/DP-24075-001.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/842832",
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-04T14:54:56.572938+00:00",
-      "photo_verified_at": "2026-11-04T14:54:56.572938+00:00",
-      "verified_object": {
-        "objectID": 842832,
-        "title": "Chickadee and Thistle",
-        "artistDisplayName": "Fidelia Bridges",
-        "artistGender": "Female",
-        "objectDate": "1875",
-        "objectBeginDate": 1875,
-        "objectEndDate": 1875,
-        "artistBeginDate": "1834",
-        "objectName": "Watercolor",
-        "classification": "",
-        "medium": "Watercolor and gouache on paper",
-        "isPublicDomain": true,
-        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-24075-001.jpg",
-        "additionalImages": []
-      },
-      "catalogue_sha256": "d19a14dab32f658e5908adaa5dc672c177e5be5e65d23ac70086ad2279d4038a",
-      "creator": "fidelia bridges",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-24075-001.jpg",
-      "work_key": "fidelia bridges|chickadee and thistle",
-      "subject": "painting"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "d6a20fc98946f18a73affa1e2ef1d95dbafd44f104043c4a740fc24eb79f2f84"
-  },
+  "last_published_at": "2026-11-06T23:52:57.974462+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1618,9 +1579,20 @@
       "rubric": "travel",
       "subject": "New York",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 842832,
+      "message_ids": [
+        333
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/842832",
+      "published_at": "2026-11-06T23:52:57.974462+00:00",
+      "rubric": "women",
+      "subject": "painting",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 10,
+  "next_rubric_index": 11,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1631,7 +1603,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 61,
+      "completed": 62,
       "target": 100
     }
   },
@@ -3353,12 +3325,6 @@
   },
   "recent_content": [
     {
-      "creator": "manchu, china",
-      "visual_family": "",
-      "image": "https://www.artic.edu/iiif/2/ed5d6e93-b36e-032e-1ade-a29a597d1b4f/full/843,/0/default.jpg",
-      "work_key": "manchu, china|👗 как работает выразительная отделка"
-    },
-    {
       "creator": "mlle. louise",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ci/web-large/43.118.49_CP3.jpg",
@@ -4152,6 +4118,14 @@
       "rubric": "travel",
       "subject": "New York",
       "angle": 3
+    },
+    {
+      "creator": "fidelia bridges",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-24075-001.jpg",
+      "work_key": "fidelia bridges|chickadee and thistle",
+      "rubric": "women",
+      "subject": "painting"
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
