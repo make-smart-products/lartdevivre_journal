@@ -117,50 +117,11 @@
     340506,
     91667,
     358951,
-    370211
+    370211,
+    386036
   ],
-  "last_published_at": "2026-11-06T23:49:44.990722+00:00",
-  "pending": {
-    "object_id": 386036,
-    "attempted_at": "2026-11-06T23:49:47.646060+00:00",
-    "post": {
-      "object_id": 386036,
-      "rubric": "women",
-      "topic": "Не только героиня портретов",
-      "caption": "🎨 Не только героиня портретов\n\n«Аврора», 1752 год. В музейном каталоге автором офорта указана маркиза де Помпадур. Интересно увидеть знакомое историческое имя на месте создательницы изображения. В своей культурной подборке можно искать не только портреты женщин, но и произведения, которые они сделали сами.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/17.3.1074.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/386036",
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-04T14:54:56.825232+00:00",
-      "photo_verified_at": "2026-11-04T14:54:56.825232+00:00",
-      "verified_object": {
-        "objectID": 386036,
-        "title": "Aurora",
-        "artistDisplayName": "Madame la Marquise de Pompadour",
-        "artistGender": "Female",
-        "objectDate": "1752",
-        "objectBeginDate": 1752,
-        "objectEndDate": 1752,
-        "artistBeginDate": "1721",
-        "objectName": "Print",
-        "classification": "Prints",
-        "medium": "Etching",
-        "isPublicDomain": true,
-        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/17.3.1074.jpg",
-        "additionalImages": []
-      },
-      "catalogue_sha256": "eb991959df7ff6e27978a3a4e78a2b6fdb06d5fdb09e816ad0ffd984222e0b59",
-      "creator": "madame la marquise de pompadour",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/17.3.1074.jpg",
-      "work_key": "madame la marquise de pompadour|aurora",
-      "subject": "print"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "dcfa87a1a93f0b2dc747a4e5c6b4f0a50693aba6086762e38b061cad7c525a68"
-  },
+  "last_published_at": "2026-11-06T23:49:51.028102+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1206,9 +1167,20 @@
       "rubric": "travel",
       "subject": "London",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 386036,
+      "message_ids": [
+        289
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/386036",
+      "published_at": "2026-11-06T23:49:51.028102+00:00",
+      "rubric": "women",
+      "subject": "print",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 17,
+  "next_rubric_index": 18,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1219,7 +1191,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 28,
+      "completed": 29,
       "target": 100
     }
   },
@@ -3497,6 +3469,14 @@
       "rubric": "travel",
       "subject": "London",
       "angle": 1
+    },
+    {
+      "creator": "madame la marquise de pompadour",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/17.3.1074.jpg",
+      "work_key": "madame la marquise de pompadour|aurora",
+      "rubric": "women",
+      "subject": "print"
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
