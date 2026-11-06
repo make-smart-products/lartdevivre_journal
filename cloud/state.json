@@ -104,7 +104,28 @@
     124897
   ],
   "last_published_at": "2026-11-06T23:48:13.294478+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 242347,
+    "attempted_at": "2026-11-06T23:48:16.537708+00:00",
+    "post": {
+      "topic": "Limestone votive Ionic capital",
+      "caption": "🏛 Архитектура и интерьер\n\nLimestone votive Ionic capital\nCypriot · ca. 3rd–1st century BCE\n\nИдея для следующей прогулки: искать ритм окон, колонн и свободных промежутков.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/gr/web-large/DP211208.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/242347",
+      "object_id": 242347,
+      "rubric": "architecture",
+      "angle": 0,
+      "subject": "capital",
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/gr/web-large/DP211208.jpg",
+      "work_key": "|limestone votive ionic capital"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "a1526eaccb66ce93988e14726cf4a530d7f2616ba782d089c361ada755fca541"
+  },
   "publications": [
     {
       "object_id": 436528,
