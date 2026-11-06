@@ -135,31 +135,11 @@
     435877,
     431239,
     646073,
-    84553
+    84553,
+    417971
   ],
-  "last_published_at": "2026-11-06T23:51:31.689550+00:00",
-  "pending": {
-    "object_id": 417971,
-    "attempted_at": "2026-11-06T23:51:34.721112+00:00",
-    "post": {
-      "topic": "Capital and Base of a Column",
-      "caption": "🏛 Архитектура и интерьер\n\nCapital and Base of a Column\nSebald Beham · 1545 · Гравюра резцом\n\nПоменяйте масштаб взгляда: сначала общая форма, затем одна конструктивная деталь.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP837081.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/417971",
-      "object_id": 417971,
-      "rubric": "architecture",
-      "angle": 1,
-      "subject": "capital",
-      "creator": "sebald beham",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP837081.jpg",
-      "work_key": "sebald beham|capital and base of a column"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "3050036c41ccbefa3408de687b8745015e3f7fdd1979e390916576b4d2d02655"
-  },
+  "last_published_at": "2026-11-06T23:51:37.074153+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1414,9 +1394,20 @@
       "rubric": "fashion",
       "subject": "coat",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 417971,
+      "message_ids": [
+        315
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/417971",
+      "published_at": "2026-11-06T23:51:37.074153+00:00",
+      "rubric": "architecture",
+      "subject": "capital",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 15,
+  "next_rubric_index": 16,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1427,7 +1418,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 46,
+      "completed": 47,
       "target": 100
     }
   },
@@ -3867,6 +3858,15 @@
       "rubric": "fashion",
       "subject": "coat",
       "angle": 0
+    },
+    {
+      "creator": "sebald beham",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP837081.jpg",
+      "work_key": "sebald beham|capital and base of a column",
+      "rubric": "architecture",
+      "subject": "capital",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
