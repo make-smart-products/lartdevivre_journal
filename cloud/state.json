@@ -103,7 +103,28 @@
     10158
   ],
   "last_published_at": "2026-11-06T23:48:08.041071+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 124897,
+    "attempted_at": "2026-11-06T23:48:10.982971+00:00",
+    "post": {
+      "topic": "Shoe buckles",
+      "caption": "👗 История моды\n\nShoe buckles\nBritish · late 18th century\n\nИдея для своего гардероба: выбрать одну деталь исторической вещи, которую можно переосмыслить сегодня.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ci/web-large/83.1.111.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/124897",
+      "object_id": 124897,
+      "rubric": "fashion",
+      "angle": 0,
+      "subject": "shoe",
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/83.1.111.jpg",
+      "work_key": "|shoe buckles"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "a200de99a82d65456712edee3655b89d62f134a48d719ac49b5ba95a73448b3b"
+  },
   "publications": [
     {
       "object_id": 436528,
