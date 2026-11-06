@@ -142,7 +142,41 @@
     11737
   ],
   "last_published_at": "2026-11-06T23:51:52.042129+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 417602,
+    "attempted_at": "2026-11-06T23:51:54.999898+00:00",
+    "post": {
+      "topic": "Daisy Murdoch, from the Actors and Actresses series (N45, Type 8) for Virginia Brights Cigarettes",
+      "caption": "❓ Визуальная викторина\n\nDaisy Murdoch, from the Actors and Actresses series (N45, Type 8) for Virginia Brights Cigarettes\nAllen & Ginter · ca. 1888\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP831577.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/417602",
+      "object_id": 417602,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Фотография",
+      "creator": "allen & ginter",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP831577.jpg",
+      "work_key": "allen & ginter|daisy murdoch, from the actors and actresses series (n45, type 8) for virginia brights cigarettes",
+      "kind": "quiz",
+      "quiz_format": "artist",
+      "question": "Кто автор показанной работы?",
+      "options": [
+        "Albrecht Dürer",
+        "Allen & Ginter",
+        "Mary Cassatt",
+        "Edgar Degas"
+      ],
+      "correct_option_ids": [
+        1
+      ],
+      "explanation": "Автор — Allen & Ginter."
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "a3e6fb647da61d8e9555bca30607bb72e0dc2cd3283749a500fcdca9374f2ab8"
+  },
   "publications": [
     {
       "object_id": 436528,
