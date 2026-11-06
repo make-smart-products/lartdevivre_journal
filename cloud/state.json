@@ -133,44 +133,11 @@
     400192,
     439405,
     435877,
-    431239
+    431239,
+    646073
   ],
-  "last_published_at": "2026-11-06T23:51:19.128941+00:00",
-  "pending": {
-    "object_id": 646073,
-    "attempted_at": "2026-11-06T23:51:21.977318+00:00",
-    "post": {
-      "topic": "The Death Warrant Read to Mary, Queen of Scots in the Hall Wherein She was Beheaded",
-      "caption": "❓ Визуальная викторина\n\nThe Death Warrant Read to Mary, Queen of Scots in the Hall Wherein She was Beheaded\nJames Taylor · ca. 1770 · Офорт\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP890152.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/646073",
-      "object_id": 646073,
-      "rubric": "quiz",
-      "angle": 0,
-      "subject": "Печатная графика",
-      "creator": "james taylor",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP890152.jpg",
-      "work_key": "james taylor|the death warrant read to mary, queen of scots in the hall wherein she was beheaded",
-      "kind": "quiz",
-      "quiz_format": "technique",
-      "question": "Какой техникой выполнен этот оттиск?",
-      "options": [
-        "Гравюра резцом",
-        "Ксилография",
-        "Литография",
-        "Офорт"
-      ],
-      "correct_option_ids": [
-        3
-      ],
-      "explanation": "В музейном каталоге указана техника «офорт». «The Death Warrant Read to Mary, Queen of Scots in the Hall Wherein She was Beheaded»."
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "befc0f903fe3bd113e967cdb10865fd0287b236a53d4a4c21e048ded502be087"
-  },
+  "last_published_at": "2026-11-06T23:51:24.590291+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1400,9 +1367,21 @@
       "rubric": "books",
       "subject": "shakespeare",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 646073,
+      "message_ids": [
+        311
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/646073",
+      "published_at": "2026-11-06T23:51:24.590291+00:00",
+      "rubric": "quiz",
+      "subject": "Печатная графика",
+      "quiz_format": "technique",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 13,
+  "next_rubric_index": 14,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1413,7 +1392,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 44,
+      "completed": 45,
       "target": 100
     }
   },
@@ -3834,6 +3813,16 @@
       "rubric": "books",
       "subject": "shakespeare",
       "angle": 0
+    },
+    {
+      "creator": "james taylor",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP890152.jpg",
+      "work_key": "james taylor|the death warrant read to mary, queen of scots in the hall wherein she was beheaded",
+      "rubric": "quiz",
+      "subject": "Печатная графика",
+      "angle": 0,
+      "quiz_format": "technique"
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
