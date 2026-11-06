@@ -109,7 +109,41 @@
     788396
   ],
   "last_published_at": "2026-11-06T23:48:39.906691+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 309909,
+    "attempted_at": "2026-11-06T23:48:42.778962+00:00",
+    "post": {
+      "topic": "Ngya (commemorative post)",
+      "caption": "❓ Визуальная викторина\n\nNgya (commemorative post)\nBongo artist · late 19th century\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ao/web-large/DP208351.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/309909",
+      "object_id": 309909,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Скульптура",
+      "creator": "bongo artist",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ao/web-large/DP208351.jpg",
+      "work_key": "bongo artist|ngya (commemorative post)",
+      "kind": "quiz",
+      "quiz_format": "artist",
+      "question": "Кто автор показанной работы?",
+      "options": [
+        "Albrecht Dürer",
+        "Bongo artist",
+        "Mary Cassatt",
+        "Katsushika Hokusai"
+      ],
+      "correct_option_ids": [
+        1
+      ],
+      "explanation": "Автор — Bongo artist."
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "25e49913fe84c293c1625f5053acaa17a1690d5a56c743e24743156548a7b5b9"
+  },
   "publications": [
     {
       "object_id": 436528,
