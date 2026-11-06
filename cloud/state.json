@@ -124,7 +124,29 @@
     174742
   ],
   "last_published_at": "2026-11-06T23:50:08.111693+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 343958,
+    "attempted_at": "2026-11-06T23:50:11.300360+00:00",
+    "post": {
+      "topic": "Design for a Stage Set: Design in Section of a Two-Storied Entrance Hall (recto); Elevation Design for a Monumental Entrance with Columns and Rounded Pediment (verso)",
+      "caption": "🏛 Архитектура и интерьер\n\nDesign for a Stage Set: Design in Section of a Two-Storied Entrance Hall (recto); Elevation Design for a Monumental Entrance with Columns and Rounded Pediment (verso)\nGiovanni Battista Galliani · 1794\n\nПосмотрите, как проёмы и пустые участки меняют ощущение масштаба.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP801341.jpg",
+        "https://images.metmuseum.org/CRDImages/dp/original/DP801342.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/343958",
+      "object_id": 343958,
+      "rubric": "architecture",
+      "angle": 3,
+      "subject": "plan",
+      "creator": "giovanni battista galliani",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP801341.jpg",
+      "work_key": "giovanni battista galliani|design for a stage set: design in section of a two-storied entrance hall (recto); elevation design for a monumental entrance with columns and rounded pediment (verso)"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "30d06eef57526f29f59443c57bf11731424910cc23a0f2dddb94e50654ffc6e9"
+  },
   "publications": [
     {
       "object_id": 436528,
