@@ -90,7 +90,28 @@
     923804
   ],
   "last_published_at": "2026-11-06T00:31:00.850187+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 103692,
+    "attempted_at": "2026-11-06T00:31:03.470901+00:00",
+    "post": {
+      "topic": "Robe",
+      "caption": "👗 История моды\n\nRobe\nAmerican · ca. 1805 · Лён\n\nСохраните как вдохновение для сочетания фактур — без необходимости повторять исторический наряд.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ci/web-large/CI37.45.68_F.jpg",
+        "https://images.metmuseum.org/CRDImages/ci/original/CI37.45.68_B.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/103692",
+      "object_id": 103692,
+      "rubric": "fashion",
+      "angle": 2,
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI37.45.68_F.jpg",
+      "work_key": "|robe"
+    },
+    "batch_date": "2026-11-05",
+    "sha256": "c9a8ca8b955fe59c8083d12326c553c81ddc01fc712602584404351d1466fe96"
+  },
   "publications": [
     {
       "object_id": 436528,
