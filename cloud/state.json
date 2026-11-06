@@ -100,31 +100,11 @@
     381068,
     158731,
     14399,
-    10158
+    10158,
+    124897
   ],
-  "last_published_at": "2026-11-06T23:48:08.041071+00:00",
-  "pending": {
-    "object_id": 124897,
-    "attempted_at": "2026-11-06T23:48:10.982971+00:00",
-    "post": {
-      "topic": "Shoe buckles",
-      "caption": "👗 История моды\n\nShoe buckles\nBritish · late 18th century\n\nИдея для своего гардероба: выбрать одну деталь исторической вещи, которую можно переосмыслить сегодня.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/83.1.111.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/124897",
-      "object_id": 124897,
-      "rubric": "fashion",
-      "angle": 0,
-      "subject": "shoe",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/83.1.111.jpg",
-      "work_key": "|shoe buckles"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "a200de99a82d65456712edee3655b89d62f134a48d719ac49b5ba95a73448b3b"
-  },
+  "last_published_at": "2026-11-06T23:48:13.294478+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -973,9 +953,20 @@
       "subject": "Живопись",
       "quiz_format": "medium",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 124897,
+      "message_ids": [
+        264
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/124897",
+      "published_at": "2026-11-06T23:48:13.294478+00:00",
+      "rubric": "fashion",
+      "subject": "shoe",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -986,7 +977,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 11,
+      "completed": 12,
       "target": 100
     }
   },
@@ -3111,6 +3102,15 @@
       "subject": "Живопись",
       "angle": 0,
       "quiz_format": "medium"
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/83.1.111.jpg",
+      "work_key": "|shoe buckles",
+      "rubric": "fashion",
+      "subject": "shoe",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
