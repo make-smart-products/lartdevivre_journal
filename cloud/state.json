@@ -118,31 +118,11 @@
     91667,
     358951,
     370211,
-    386036
+    386036,
+    912940
   ],
-  "last_published_at": "2026-11-06T23:49:51.028102+00:00",
-  "pending": {
-    "object_id": 912940,
-    "attempted_at": "2026-11-06T23:49:53.840860+00:00",
-    "post": {
-      "topic": "Interior of the Sint-Bavokerk, Haarlem",
-      "caption": "🖼 Картина дня\n\nInterior of the Sint-Bavokerk, Haarlem\nJob Adriaensz Berckheyde · ca. 1676\n\nИдея для личного мудборда: взять из картины два оттенка и одну небольшую деталь.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42761-001.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/912940",
-      "object_id": 912940,
-      "rubric": "painting",
-      "angle": 0,
-      "subject": "interior",
-      "creator": "job adriaensz berckheyde",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42761-001.jpg",
-      "work_key": "job adriaensz berckheyde|interior of the sint-bavokerk, haarlem"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "2f92a265a0d8df2b90cd03a7c6359e9c8c7015b42ea0f86057c220e8d50eec05"
-  },
+  "last_published_at": "2026-11-06T23:49:56.679581+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1199,9 +1179,20 @@
       "rubric": "women",
       "subject": "print",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 912940,
+      "message_ids": [
+        290
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/912940",
+      "published_at": "2026-11-06T23:49:56.679581+00:00",
+      "rubric": "painting",
+      "subject": "interior",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 18,
+  "next_rubric_index": 19,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1212,7 +1203,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 29,
+      "completed": 30,
       "target": 100
     }
   },
@@ -3498,6 +3489,15 @@
       "work_key": "madame la marquise de pompadour|aurora",
       "rubric": "women",
       "subject": "print"
+    },
+    {
+      "creator": "job adriaensz berckheyde",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42761-001.jpg",
+      "work_key": "job adriaensz berckheyde|interior of the sint-bavokerk, haarlem",
+      "rubric": "painting",
+      "subject": "interior",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
