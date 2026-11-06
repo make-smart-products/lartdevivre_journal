@@ -117,7 +117,30 @@
     340506
   ],
   "last_published_at": "2026-11-06T23:49:27.591538+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 91667,
+    "attempted_at": "2026-11-06T23:49:30.332294+00:00",
+    "post": {
+      "topic": "Coat",
+      "caption": "👗 История моды\n\nCoat\nAmerican or European · 1780–90 · Шёлк\n\nСохраните как вдохновение для сочетания фактур — без необходимости повторять исторический наряд.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ci/web-large/C.I.39.13.39_F.jpg",
+        "https://images.metmuseum.org/CRDImages/ci/original/C.I.39.13.39_B.jpg",
+        "https://images.metmuseum.org/CRDImages/ci/original/C.I.39.13.39_d.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/91667",
+      "object_id": 91667,
+      "rubric": "fashion",
+      "angle": 2,
+      "subject": "coat",
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/C.I.39.13.39_F.jpg",
+      "work_key": "|coat"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "19eb0a90b80f788d7a1c1f6b95b380658ad235a9b8a8834165d0237f5468f292"
+  },
   "publications": [
     {
       "object_id": 436528,
