@@ -142,31 +142,11 @@
     11737,
     417602,
     84367,
-    396285
+    396285,
+    813060
   ],
-  "last_published_at": "2026-11-06T23:52:08.856578+00:00",
-  "pending": {
-    "object_id": 813060,
-    "attempted_at": "2026-11-06T23:52:11.756894+00:00",
-    "post": {
-      "topic": "A View of the Nieuwe Korenbeurs on the Damrak, Amsterdam, the Tower of the Oude Kerk Beyond",
-      "caption": "🧳 Культурные путешествия\n\nA View of the Nieuwe Korenbeurs on the Damrak, Amsterdam, the Tower of the Oude Kerk Beyond\nHermanus Petrus Schouten · ca. 1770\n\nНа старом изображении города интересно сравнить масштаб зданий и пространство между ними.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP882511.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/813060",
-      "object_id": 813060,
-      "rubric": "travel",
-      "angle": 4,
-      "subject": "Amsterdam",
-      "creator": "hermanus petrus schouten",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP882511.jpg",
-      "work_key": "hermanus petrus schouten|a view of the nieuwe korenbeurs on the damrak, amsterdam, the tower of the oude kerk beyond"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "dd3df90f9861bac899b933b1ef1b9479b7764a7c292397154dcf33c5de03937b"
-  },
+  "last_published_at": "2026-11-06T23:52:14.005711+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1501,9 +1481,20 @@
       "rubric": "architecture",
       "subject": "temple",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 813060,
+      "message_ids": [
+        324
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/813060",
+      "published_at": "2026-11-06T23:52:14.005711+00:00",
+      "rubric": "travel",
+      "subject": "Amsterdam",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1514,7 +1505,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 53,
+      "completed": 54,
       "target": 100
     }
   },
@@ -3236,12 +3227,6 @@
   },
   "recent_content": [
     {
-      "creator": "eastern india",
-      "visual_family": "",
-      "image": "https://www.artic.edu/iiif/2/0500bc2e-18ff-adb1-4b8f-8663050c47d3/full/843,/0/default.jpg",
-      "work_key": "eastern india|👗 один аксессуар — два цвета"
-    },
-    {
       "creator": "designed by edward william godwin (english, 1833-1886)\nmade by william watt (english, 1834-1885)\nlondon",
       "visual_family": "",
       "image": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/843,/0/default.jpg",
@@ -4011,6 +3996,15 @@
       "rubric": "architecture",
       "subject": "temple",
       "angle": 0
+    },
+    {
+      "creator": "hermanus petrus schouten",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP882511.jpg",
+      "work_key": "hermanus petrus schouten|a view of the nieuwe korenbeurs on the damrak, amsterdam, the tower of the oude kerk beyond",
+      "rubric": "travel",
+      "subject": "Amsterdam",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
