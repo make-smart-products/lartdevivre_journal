@@ -147,7 +147,28 @@
     816522
   ],
   "last_published_at": "2026-11-06T23:52:18.514492+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 436221,
+    "attempted_at": "2026-11-06T23:52:21.404155+00:00",
+    "post": {
+      "topic": "A Couple in an Interior with a Fortune-Teller",
+      "caption": "🖼 Картина дня\n\nA Couple in an Interior with a Fortune-Teller\nJacob Duck · ca. 1632–33 · Масло на дереве\n\nМожно сохранить ради палитры, необычного ракурса или просто настроения — свой выбор не нужно оправдывать.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ep/web-large/DP146500.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/436221",
+      "object_id": 436221,
+      "rubric": "painting",
+      "angle": 1,
+      "subject": "interior",
+      "creator": "jacob duck",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146500.jpg",
+      "work_key": "jacob duck|a couple in an interior with a fortune-teller"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "a7e33ae504bfc7f69d21cd8054fb0f2e5089adb5ec7a63766e79e307dc704798"
+  },
   "publications": [
     {
       "object_id": 436528,
