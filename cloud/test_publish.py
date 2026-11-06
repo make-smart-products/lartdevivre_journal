@@ -8,6 +8,7 @@ import publish
 class PublishTests(unittest.TestCase):
     def setUp(self):
         self.enterContext(patch.object(publish.Path, "glob", return_value=[]))
+        self.enterContext(patch.object(publish.Path, "exists", return_value=False))
 
     def obj(self):
         return {"objectID": 123, "title": "A painting", "artistDisplayName": "An artist", "objectDate": "1874",

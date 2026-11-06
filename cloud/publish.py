@@ -153,6 +153,8 @@ def editorial_subject(obj, rubric):
     if rubric == "travel":
         return next((place for place in RUBRICS[rubric]["queries"]
                      if re.search(r"\b" + re.escape(place.casefold()) + r"\b", title)), "")
+    if rubric == "quiz":
+        return quiz_medium(obj) or ""
     groups = {
         "fashion": ("dress|gown|robe", "coat|jacket", "hat", "shoe|boot", "ensemble|suit"),
         "architecture": ("chair|table|cabinet|sofa|furniture", "interior", "capital|column|portal", "temple|church|cathedral|palace", "plan|elevation|design"),
@@ -220,7 +222,8 @@ def make_quiz_question(obj, recent=()):
                    answer, "Вид искусства в музейном каталоге — " + answer.lower() + "."),
     }
     creator = (obj.get("artistDisplayName") or "").strip()
-    if 2 <= len(creator) <= 100 and not re.search(r"unknown|anonymous|unidentified|attributed|workshop|school of|after ", creator, re.I):
+    attribution = creator + " " + (obj.get("artistRole") or "")
+    if 2 <= len(creator) <= 100 and not re.search(r"unknown|anonymous|unidentified|attributed|workshop|school of|\bafter\b", attribution, re.I):
         wrong = [name for name in ("Claude Monet", "Berthe Morisot", "Katsushika Hokusai", "Mary Cassatt", "Edgar Degas", "Albrecht Dürer") if name.casefold() != creator.casefold()]
         random.Random(str(obj["objectID"])).shuffle(wrong)
         variants["artist"] = ("Кто автор показанной работы?", [creator] + wrong[:3], creator,
@@ -235,11 +238,16 @@ def make_quiz_question(obj, recent=()):
                                "Музейная датировка — " + obj.get("objectDate", "") + ". Это " + answer + ".")
     techniques = {"etching": "Офорт", "engraving": "Гравюра резцом", "lithograph": "Литография",
                   "woodcut": "Ксилография"}
-    technique = techniques.get((obj.get("medium") or "").strip().casefold())
+    medium = (obj.get("medium") or "").strip().casefold()
+    technique = techniques.get(medium)
     if technique:
         variants["technique"] = ("Какой техникой выполнен этот оттиск?",
                                  list(techniques.values()), technique,
                                  "В музейном каталоге указана техника «" + technique.lower() + "».")
+    if medium in ("albumen silver print from glass negative", "gelatin silver print from glass negative"):
+        variants["process"] = ("На какой основе был сделан негатив для этого отпечатка?",
+                               ["На стекле", "На бумаге", "На фотоплёнке", "На металлической пластине"],
+                               "На стекле", "Музей указывает стеклянный негатив. Негатив и готовый отпечаток — разные этапы работы.")
     choices = list(variants)
     preferred = ("medium", "artist", "century")[int(obj["objectID"]) % 3]
     seed = choices.index(preferred) if preferred in choices else 0
@@ -366,9 +374,9 @@ def choose_post(state, fetch=request, rubric=None):
     # Every candidate still needs live metadata, public-domain rights and a new ID.
     catalogue_ids = list(RESERVE_OBJECT_IDS.get(rubric, []))
     index = ROOT / "cloud" / "catalogue_candidates.json"
-    if rubric in ("travel", "women") and index.exists():
+    if index.exists():
         groups = json.loads(index.read_text(encoding="utf-8"))["rubrics"].get(rubric, {})
-        for subject in sorted(groups, key=lambda name: (subjects[name], name == previous_subject)):
+        for subject in sorted(groups, key=lambda name: (name == "other", subjects[name], name == previous_subject)):
             available = [object_id for object_id in groups[subject] if object_id not in used]
             random.Random(len(used)).shuffle(available)
             catalogue_ids.extend(available[:6])
