@@ -136,7 +136,41 @@
     431239
   ],
   "last_published_at": "2026-11-06T23:51:19.128941+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 646073,
+    "attempted_at": "2026-11-06T23:51:21.977318+00:00",
+    "post": {
+      "topic": "The Death Warrant Read to Mary, Queen of Scots in the Hall Wherein She was Beheaded",
+      "caption": "❓ Визуальная викторина\n\nThe Death Warrant Read to Mary, Queen of Scots in the Hall Wherein She was Beheaded\nJames Taylor · ca. 1770 · Офорт\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP890152.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/646073",
+      "object_id": 646073,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Печатная графика",
+      "creator": "james taylor",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP890152.jpg",
+      "work_key": "james taylor|the death warrant read to mary, queen of scots in the hall wherein she was beheaded",
+      "kind": "quiz",
+      "quiz_format": "technique",
+      "question": "Какой техникой выполнен этот оттиск?",
+      "options": [
+        "Гравюра резцом",
+        "Ксилография",
+        "Литография",
+        "Офорт"
+      ],
+      "correct_option_ids": [
+        3
+      ],
+      "explanation": "В музейном каталоге указана техника «офорт». «The Death Warrant Read to Mary, Queen of Scots in the Hall Wherein She was Beheaded»."
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "befc0f903fe3bd113e967cdb10865fd0287b236a53d4a4c21e048ded502be087"
+  },
   "publications": [
     {
       "object_id": 436528,
