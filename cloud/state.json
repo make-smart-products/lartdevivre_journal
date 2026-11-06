@@ -145,7 +145,28 @@
     396285
   ],
   "last_published_at": "2026-11-06T23:52:08.856578+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 813060,
+    "attempted_at": "2026-11-06T23:52:11.756894+00:00",
+    "post": {
+      "topic": "A View of the Nieuwe Korenbeurs on the Damrak, Amsterdam, the Tower of the Oude Kerk Beyond",
+      "caption": "🧳 Культурные путешествия\n\nA View of the Nieuwe Korenbeurs on the Damrak, Amsterdam, the Tower of the Oude Kerk Beyond\nHermanus Petrus Schouten · ca. 1770\n\nНа старом изображении города интересно сравнить масштаб зданий и пространство между ними.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP882511.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/813060",
+      "object_id": 813060,
+      "rubric": "travel",
+      "angle": 4,
+      "subject": "Amsterdam",
+      "creator": "hermanus petrus schouten",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP882511.jpg",
+      "work_key": "hermanus petrus schouten|a view of the nieuwe korenbeurs on the damrak, amsterdam, the tower of the oude kerk beyond"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "dd3df90f9861bac899b933b1ef1b9479b7764a7c292397154dcf33c5de03937b"
+  },
   "publications": [
     {
       "object_id": 436528,
