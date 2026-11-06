@@ -121,7 +121,28 @@
     386036
   ],
   "last_published_at": "2026-11-06T23:49:51.028102+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 912940,
+    "attempted_at": "2026-11-06T23:49:53.840860+00:00",
+    "post": {
+      "topic": "Interior of the Sint-Bavokerk, Haarlem",
+      "caption": "🖼 Картина дня\n\nInterior of the Sint-Bavokerk, Haarlem\nJob Adriaensz Berckheyde · ca. 1676\n\nИдея для личного мудборда: взять из картины два оттенка и одну небольшую деталь.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42761-001.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/912940",
+      "object_id": 912940,
+      "rubric": "painting",
+      "angle": 0,
+      "subject": "interior",
+      "creator": "job adriaensz berckheyde",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42761-001.jpg",
+      "work_key": "job adriaensz berckheyde|interior of the sint-bavokerk, haarlem"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "2f92a265a0d8df2b90cd03a7c6359e9c8c7015b42ea0f86057c220e8d50eec05"
+  },
   "publications": [
     {
       "object_id": 436528,
