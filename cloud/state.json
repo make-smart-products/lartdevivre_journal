@@ -141,31 +141,11 @@
     739503,
     11737,
     417602,
-    84367
+    84367,
+    396285
   ],
-  "last_published_at": "2026-11-06T23:52:03.764291+00:00",
-  "pending": {
-    "object_id": 396285,
-    "attempted_at": "2026-11-06T23:52:06.497994+00:00",
-    "post": {
-      "topic": "The New Metamorphosis, Plate 2: Fantasio at Church",
-      "caption": "🏛 Архитектура и интерьер\n\nThe New Metamorphosis, Plate 2: Fantasio at Church\nWilliam Hogarth · 1724\n\nИдея для следующей прогулки: искать ритм окон, колонн и свободных промежутков.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP824573.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/396285",
-      "object_id": 396285,
-      "rubric": "architecture",
-      "angle": 0,
-      "subject": "temple",
-      "creator": "william hogarth",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP824573.jpg",
-      "work_key": "william hogarth|the new metamorphosis, plate 2: fantasio at church"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "abd786efb7550f692831971f2ca8de03dd5dfbd77df424f76ac5c27ec6c0713b"
-  },
+  "last_published_at": "2026-11-06T23:52:08.856578+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1489,9 +1469,20 @@
       "rubric": "fashion",
       "subject": "dress",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 396285,
+      "message_ids": [
+        323
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/396285",
+      "published_at": "2026-11-06T23:52:08.856578+00:00",
+      "rubric": "architecture",
+      "subject": "temple",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1502,7 +1493,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 52,
+      "completed": 53,
       "target": 100
     }
   },
@@ -3224,12 +3215,6 @@
   },
   "recent_content": [
     {
-      "creator": "anna atkins",
-      "visual_family": "cyanotype",
-      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-118.jpg",
-      "work_key": "anna atkins|zygnema nitidum"
-    },
-    {
       "creator": "eastern india",
       "visual_family": "",
       "image": "https://www.artic.edu/iiif/2/0500bc2e-18ff-adb1-4b8f-8663050c47d3/full/843,/0/default.jpg",
@@ -3996,6 +3981,15 @@
       "rubric": "fashion",
       "subject": "dress",
       "angle": 3
+    },
+    {
+      "creator": "william hogarth",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP824573.jpg",
+      "work_key": "william hogarth|the new metamorphosis, plate 2: fantasio at church",
+      "rubric": "architecture",
+      "subject": "temple",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
