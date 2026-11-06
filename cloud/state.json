@@ -149,31 +149,11 @@
     368548,
     440393,
     86433,
-    348609
+    348609,
+    383421
   ],
-  "last_published_at": "2026-11-06T23:52:47.458834+00:00",
-  "pending": {
-    "object_id": 383421,
-    "attempted_at": "2026-11-06T23:52:50.392148+00:00",
-    "post": {
-      "topic": "Inner Bay, Staten Island, New York",
-      "caption": "🧳 Культурные путешествия\n\nInner Bay, Staten Island, New York\nAugustus Kollner · ca. 1872 · Акварель\n\nВыберите на изображении одну точку, откуда вы бы начали прогулку по этому историческому виду.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP264242.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/383421",
-      "object_id": 383421,
-      "rubric": "travel",
-      "angle": 3,
-      "subject": "New York",
-      "creator": "augustus kollner",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP264242.jpg",
-      "work_key": "augustus kollner|inner bay, staten island, new york"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "2cf4ca00a8c8487f04771a41da40aca5ef4f4963afc1a8191da40c0253e2bb38"
-  },
+  "last_published_at": "2026-11-06T23:52:52.898644+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1587,9 +1567,20 @@
       "rubric": "architecture",
       "subject": "interior",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 383421,
+      "message_ids": [
+        332
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/383421",
+      "published_at": "2026-11-06T23:52:52.898644+00:00",
+      "rubric": "travel",
+      "subject": "New York",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 9,
+  "next_rubric_index": 10,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1600,7 +1591,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 60,
+      "completed": 61,
       "target": 100
     }
   },
@@ -3322,12 +3313,6 @@
   },
   "recent_content": [
     {
-      "creator": "suzanne de court",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/es/web-large/ES10063.jpg",
-      "work_key": "suzanne de court|orpheus attacked by the maenads"
-    },
-    {
       "creator": "manchu, china",
       "visual_family": "",
       "image": "https://www.artic.edu/iiif/2/ed5d6e93-b36e-032e-1ade-a29a597d1b4f/full/843,/0/default.jpg",
@@ -4118,6 +4103,15 @@
       "rubric": "architecture",
       "subject": "interior",
       "angle": 4
+    },
+    {
+      "creator": "augustus kollner",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP264242.jpg",
+      "work_key": "augustus kollner|inner bay, staten island, new york",
+      "rubric": "travel",
+      "subject": "New York",
+      "angle": 3
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
