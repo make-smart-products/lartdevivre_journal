@@ -106,7 +106,47 @@
     415503
   ],
   "last_published_at": "2026-11-06T23:48:24.334217+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 189716,
+    "attempted_at": "2026-11-06T23:48:27.355662+00:00",
+    "post": {
+      "object_id": 189716,
+      "rubric": "women",
+      "topic": "Зима глазами художницы",
+      "caption": "🎨 Зима глазами художницы\n\nАнн Валлайе-Костер, «Зима», XVIII век, масло на холсте. Название предлагает готовую ассоциацию, но можно начать с собственного впечатления. Какое настроение вы сохранили бы из этой работы для зимнего вечера — и какую музыку поставили бы рядом?\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/es/web-large/DP278048.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/189716",
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-04T14:54:52.435952+00:00",
+      "photo_verified_at": "2026-11-04T14:54:52.435952+00:00",
+      "verified_object": {
+        "objectID": 189716,
+        "title": "Winter",
+        "artistDisplayName": "Anne Vallayer-Coster",
+        "artistGender": "Female",
+        "objectDate": "18th century",
+        "objectBeginDate": 1700,
+        "objectEndDate": 1799,
+        "artistBeginDate": "1744",
+        "objectName": "Overdoor",
+        "classification": "Paintings-Decorative",
+        "medium": "Oil on canvas",
+        "isPublicDomain": true,
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP278048.jpg",
+        "additionalImages": []
+      },
+      "catalogue_sha256": "7ae142be4ee3daa74d56d90be1c9e8cb6214ace26fa15a6c583a6ed26304432a",
+      "creator": "anne vallayer-coster",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/es/web-large/DP278048.jpg",
+      "work_key": "anne vallayer-coster|winter",
+      "subject": ""
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "8682266ecad662740a5980b8ea5ac76e6bee304acd2a8570fd16e074de0d7399"
+  },
   "publications": [
     {
       "object_id": 436528,
