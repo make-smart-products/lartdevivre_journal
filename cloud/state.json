@@ -125,31 +125,11 @@
     343958,
     700295,
     438132,
-    15237
+    15237,
+    642944
   ],
-  "last_published_at": "2026-11-06T23:50:33.003246+00:00",
-  "pending": {
-    "object_id": 642944,
-    "attempted_at": "2026-11-06T23:50:35.875127+00:00",
-    "post": {
-      "topic": "Mariana in the South (Illustration for \"The Palace of Art\" in Tennyson's Poems, New York, 1903)",
-      "caption": "📚 Книги, кино и визуальные истории\n\nMariana in the South (Illustration for \"The Palace of Art\" in Tennyson's Poems, New York, 1903)\nDante Gabriel Rossetti · 1857–1903\n\nВообразите изображение первым кадром фильма. Какой звук подошёл бы сцене?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP835731.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/642944",
-      "object_id": 642944,
-      "rubric": "books",
-      "angle": 4,
-      "subject": "tennyson",
-      "creator": "dante gabriel rossetti",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP835731.jpg",
-      "work_key": "dante gabriel rossetti|mariana in the south (illustration for \"the palace of art\" in tennyson's poems, new york, 1903)"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "a33affc6ec9a662db21a54415cac8fa4ee532312e749807e689f57bc81d54ac7"
-  },
+  "last_published_at": "2026-11-06T23:50:38.873169+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1287,9 +1267,20 @@
       "rubric": "painting",
       "subject": "portrait",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 642944,
+      "message_ids": [
+        300
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/642944",
+      "published_at": "2026-11-06T23:50:38.873169+00:00",
+      "rubric": "books",
+      "subject": "tennyson",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 5,
+  "next_rubric_index": 6,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1300,7 +1291,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 36,
+      "completed": 37,
       "target": 100
     }
   },
@@ -3649,6 +3640,15 @@
       "rubric": "painting",
       "subject": "portrait",
       "angle": 2
+    },
+    {
+      "creator": "dante gabriel rossetti",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP835731.jpg",
+      "work_key": "dante gabriel rossetti|mariana in the south (illustration for \"the palace of art\" in tennyson's poems, new york, 1903)",
+      "rubric": "books",
+      "subject": "tennyson",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
