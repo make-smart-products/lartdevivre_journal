@@ -116,8 +116,11 @@ def matches_rubric(obj, rubric):
     if rubric == "fashion":
         return obj.get("department") == "Costume Institute" and any(word in kind for word in ("dress", "robe", "coat", "gown", "hat", "shoe", "jacket", "ensemble", "suit"))
     if rubric == "architecture":
+        if re.search(r"\bfrom [\"“]?the passion\b|\bshakespeare\b|\bact \d+\b", title):
+            return False
         return bool(re.search(r"\b(chair|table|cabinet|sofa|furniture|interior)\b", kind)) or any(word in kind + " " + title for word in ("temple", "capital", "column", "architectural", "floor plan", "facade", "façade", "elevation", "portal", "church", "cathedral", "palace"))
     if rubric == "travel":
+        title = title.split("(recto)", 1)[0]
         visual = any(word in kind for word in ("painting", "watercolor", "print", "drawing", "photograph"))
         places = [place.casefold() for place in RUBRICS["travel"]["queries"]]
         has_place = any(re.search(r"\b" + re.escape(place) + r"\b", title) for place in places)

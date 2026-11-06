@@ -79,6 +79,10 @@ class EditorialDiversityTests(unittest.TestCase):
         self.assertFalse(publish.matches_rubric(obj, 'travel'))
         self.assertTrue(publish.matches_rubric(obj, 'books'))
 
+    def test_city_only_on_reverse_does_not_qualify_the_front_as_travel(self):
+        obj = dict(self.obj(), title='A River God (recto); Sketches for the Vestibule, Florence (verso)')
+        self.assertFalse(publish.matches_rubric(obj, 'travel'))
+
     def test_century_quiz_uses_catalogue_range_and_skips_cross_century_dates(self):
         obj=self.obj();obj.update(objectID=125,objectBeginDate=1880,objectEndDate=1890,objectDate='1880–1890')
         quiz=publish.make_quiz_question(obj)
