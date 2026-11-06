@@ -101,31 +101,11 @@
     158731,
     14399,
     10158,
-    124897
+    124897,
+    242347
   ],
-  "last_published_at": "2026-11-06T23:48:13.294478+00:00",
-  "pending": {
-    "object_id": 242347,
-    "attempted_at": "2026-11-06T23:48:16.537708+00:00",
-    "post": {
-      "topic": "Limestone votive Ionic capital",
-      "caption": "🏛 Архитектура и интерьер\n\nLimestone votive Ionic capital\nCypriot · ca. 3rd–1st century BCE\n\nИдея для следующей прогулки: искать ритм окон, колонн и свободных промежутков.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/gr/web-large/DP211208.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/242347",
-      "object_id": 242347,
-      "rubric": "architecture",
-      "angle": 0,
-      "subject": "capital",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/gr/web-large/DP211208.jpg",
-      "work_key": "|limestone votive ionic capital"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "a1526eaccb66ce93988e14726cf4a530d7f2616ba782d089c361ada755fca541"
-  },
+  "last_published_at": "2026-11-06T23:48:19.016190+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -985,9 +965,20 @@
       "rubric": "fashion",
       "subject": "shoe",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 242347,
+      "message_ids": [
+        265
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/242347",
+      "published_at": "2026-11-06T23:48:19.016190+00:00",
+      "rubric": "architecture",
+      "subject": "capital",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -998,7 +989,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 12,
+      "completed": 13,
       "target": 100
     }
   },
@@ -3131,6 +3122,15 @@
       "work_key": "|shoe buckles",
       "rubric": "fashion",
       "subject": "shoe",
+      "angle": 0
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/gr/web-large/DP211208.jpg",
+      "work_key": "|limestone votive ionic capital",
+      "rubric": "architecture",
+      "subject": "capital",
       "angle": 0
     }
   ],
