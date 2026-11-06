@@ -124,31 +124,11 @@
     174742,
     343958,
     700295,
-    438132
+    438132,
+    15237
   ],
-  "last_published_at": "2026-11-06T23:50:27.803318+00:00",
-  "pending": {
-    "object_id": 15237,
-    "attempted_at": "2026-11-06T23:50:30.844541+00:00",
-    "post": {
-      "topic": "Portrait of a Gentleman",
-      "caption": "🖼 Картина дня\n\nPortrait of a Gentleman\nJames Whitehorne · ca. 1835\n\nНебольшая творческая пауза: выберите фрагмент, который хотелось бы зарисовать или описать.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ad/web-large/APS6879.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/15237",
-      "object_id": 15237,
-      "rubric": "painting",
-      "angle": 2,
-      "subject": "portrait",
-      "creator": "james whitehorne",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/APS6879.jpg",
-      "work_key": "james whitehorne|portrait of a gentleman"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "bfc056c6265e9fb96cf8bad0fe95470a1de8277185fafb534783e55f0b05eac6"
-  },
+  "last_published_at": "2026-11-06T23:50:33.003246+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1275,9 +1255,20 @@
       "rubric": "women",
       "subject": "painting",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 15237,
+      "message_ids": [
+        299
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/15237",
+      "published_at": "2026-11-06T23:50:33.003246+00:00",
+      "rubric": "painting",
+      "subject": "portrait",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 4,
+  "next_rubric_index": 5,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1288,7 +1279,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 35,
+      "completed": 36,
       "target": 100
     }
   },
@@ -3628,6 +3619,15 @@
       "work_key": "elisabeth louise vigée le brun|julie le brun (1780–1819) looking in a mirror",
       "rubric": "women",
       "subject": "painting"
+    },
+    {
+      "creator": "james whitehorne",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/APS6879.jpg",
+      "work_key": "james whitehorne|portrait of a gentleman",
+      "rubric": "painting",
+      "subject": "portrait",
+      "angle": 2
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
