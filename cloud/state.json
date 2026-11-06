@@ -132,7 +132,28 @@
     35129
   ],
   "last_published_at": "2026-11-06T23:50:57.910682+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 400192,
+    "attempted_at": "2026-11-06T23:51:00.814000+00:00",
+    "post": {
+      "topic": "View of Nero's aqueduct, Rome",
+      "caption": "🧳 Культурные путешествия\n\nView of Nero's aqueduct, Rome\nLuigi Rossini · 1823 · Офорт\n\nСравните с образом города, который хранится в вашей памяти. Это историческая работа, а не фотография сегодняшнего маршрута.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP837543.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/400192",
+      "object_id": 400192,
+      "rubric": "travel",
+      "angle": 2,
+      "subject": "Rome",
+      "creator": "luigi rossini",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP837543.jpg",
+      "work_key": "luigi rossini|view of nero's aqueduct, rome"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "f4d8d66e72ff28704cebc89a515adb0092b14e963764799d39280ec23296f98d"
+  },
   "publications": [
     {
       "object_id": 436528,
