@@ -107,32 +107,11 @@
     189716,
     40987,
     788396,
-    309909
+    309909,
+    173749
   ],
-  "last_published_at": "2026-11-06T23:48:45.300708+00:00",
-  "pending": {
-    "object_id": 173749,
-    "attempted_at": "2026-11-06T23:48:48.165706+00:00",
-    "post": {
-      "topic": "Evening suit",
-      "caption": "👗 История моды\n\nEvening suit\nAmerican · ca. 1860 · Шерсть\n\nСилуэт или отделка? Что вам хотелось бы позаимствовать у этого предмета, сохранив собственный стиль?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/53.108.3a-c_CP2.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/53.108.3b-c_CP2.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/173749",
-      "object_id": 173749,
-      "rubric": "fashion",
-      "angle": 1,
-      "subject": "ensemble",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/53.108.3a-c_CP2.jpg",
-      "work_key": "|evening suit"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "e767a5b9360e9efa07bad6e7fb0f710c0db5159b75c8ce2cb145124391577dab"
-  },
+  "last_published_at": "2026-11-06T23:48:50.982885+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1061,9 +1040,21 @@
       "subject": "Скульптура",
       "quiz_format": "artist",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 173749,
+      "message_ids": [
+        273,
+        274
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/173749",
+      "published_at": "2026-11-06T23:48:50.982885+00:00",
+      "rubric": "fashion",
+      "subject": "ensemble",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 7,
+  "next_rubric_index": 8,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1074,7 +1065,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 18,
+      "completed": 19,
       "target": 100
     }
   },
@@ -3262,6 +3253,15 @@
       "subject": "Скульптура",
       "angle": 0,
       "quiz_format": "artist"
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/53.108.3a-c_CP2.jpg",
+      "work_key": "|evening suit",
+      "rubric": "fashion",
+      "subject": "ensemble",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
