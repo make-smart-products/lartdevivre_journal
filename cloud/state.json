@@ -150,7 +150,29 @@
     440393
   ],
   "last_published_at": "2026-11-06T23:52:34.245791+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 86433,
+    "attempted_at": "2026-11-06T23:52:37.038581+00:00",
+    "post": {
+      "topic": "Bathing suit",
+      "caption": "👗 История моды\n\nBathing suit\nAmerican · 1876–80\n\nСилуэт или отделка? Что вам хотелось бы позаимствовать у этого предмета, сохранив собственный стиль?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ci/web-large/CI50.77.2a–c_F.jpg",
+        "https://images.metmuseum.org/CRDImages/ci/original/CI50.77.2c_F.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/86433",
+      "object_id": 86433,
+      "rubric": "fashion",
+      "angle": 1,
+      "subject": "ensemble",
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI50.77.2a–c_F.jpg",
+      "work_key": "|bathing suit"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "10996f7ca17c263f505ec7267c206673ca9ea95fbb61053d3745039646480d8b"
+  },
   "publications": [
     {
       "object_id": 436528,
