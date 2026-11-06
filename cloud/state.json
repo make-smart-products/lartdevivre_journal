@@ -144,31 +144,11 @@
     84367,
     396285,
     813060,
-    816522
+    816522,
+    436221
   ],
-  "last_published_at": "2026-11-06T23:52:18.514492+00:00",
-  "pending": {
-    "object_id": 436221,
-    "attempted_at": "2026-11-06T23:52:21.404155+00:00",
-    "post": {
-      "topic": "A Couple in an Interior with a Fortune-Teller",
-      "caption": "🖼 Картина дня\n\nA Couple in an Interior with a Fortune-Teller\nJacob Duck · ca. 1632–33 · Масло на дереве\n\nМожно сохранить ради палитры, необычного ракурса или просто настроения — свой выбор не нужно оправдывать.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ep/web-large/DP146500.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/436221",
-      "object_id": 436221,
-      "rubric": "painting",
-      "angle": 1,
-      "subject": "interior",
-      "creator": "jacob duck",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146500.jpg",
-      "work_key": "jacob duck|a couple in an interior with a fortune-teller"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "a7e33ae504bfc7f69d21cd8054fb0f2e5089adb5ec7a63766e79e307dc704798"
-  },
+  "last_published_at": "2026-11-06T23:52:23.581852+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1525,9 +1505,20 @@
       "rubric": "women",
       "subject": "painting",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 436221,
+      "message_ids": [
+        326
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/436221",
+      "published_at": "2026-11-06T23:52:23.581852+00:00",
+      "rubric": "painting",
+      "subject": "interior",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 4,
+  "next_rubric_index": 5,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1538,7 +1529,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 55,
+      "completed": 56,
       "target": 100
     }
   },
@@ -3260,12 +3251,6 @@
   },
   "recent_content": [
     {
-      "creator": "utagawa hiroshige 歌川 広重\njapanese, 1797–1858",
-      "visual_family": "",
-      "image": "https://www.artic.edu/iiif/2/fe8f2ca1-954d-4399-96a1-21a08b438818/full/843,/0/default.jpg",
-      "work_key": "utagawa hiroshige 歌川 広重\njapanese, 1797–1858|🧳 киото без спешки"
-    },
-    {
       "creator": "julia margaret cameron",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP295205.jpg",
@@ -4040,6 +4025,15 @@
       "work_key": "orsola maddalena caccia|flowers in a grotesque vase",
       "rubric": "women",
       "subject": "painting"
+    },
+    {
+      "creator": "jacob duck",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146500.jpg",
+      "work_key": "jacob duck|a couple in an interior with a fortune-teller",
+      "rubric": "painting",
+      "subject": "interior",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
