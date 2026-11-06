@@ -109,31 +109,11 @@
     788396,
     309909,
     173749,
-    652977
+    652977,
+    36976
   ],
-  "last_published_at": "2026-11-06T23:48:56.216895+00:00",
-  "pending": {
-    "object_id": 36976,
-    "attempted_at": "2026-11-06T23:48:59.419452+00:00",
-    "post": {
-      "topic": "Kyoto: The Great Bridge at Sanjō (Taibi, Keishi, Sanjō Ōhashi), from the series Fifty-Three Stations of the Tōkaidō (Tōkaidō gojūsan tsugi)",
-      "caption": "🧳 Культурные путешествия\n\nKyoto: The Great Bridge at Sanjō (Taibi, Keishi, Sanjō Ōhashi), from the series Fifty-Three Stations of the Tōkaidō (Tōkaidō gojūsan tsugi)\nUtagawa Hiroshige · ca. 1833–34\n\nСравните с образом города, который хранится в вашей памяти. Это историческая работа, а не фотография сегодняшнего маршрута.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/as/web-large/DP122235.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/36976",
-      "object_id": 36976,
-      "rubric": "travel",
-      "angle": 2,
-      "subject": "Kyoto",
-      "creator": "utagawa hiroshige",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP122235.jpg",
-      "work_key": "utagawa hiroshige|kyoto: the great bridge at sanjō (taibi, keishi, sanjō ōhashi), from the series fifty-three stations of the tōkaidō (tōkaidō gojūsan tsugi)"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "891ba893b6df28b52bbbe372da1ce32bd32943ce36f6df812f18cae44a0b0be4"
-  },
+  "last_published_at": "2026-11-06T23:49:01.577700+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1085,9 +1065,20 @@
       "rubric": "architecture",
       "subject": "temple",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 36976,
+      "message_ids": [
+        276
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/36976",
+      "published_at": "2026-11-06T23:49:01.577700+00:00",
+      "rubric": "travel",
+      "subject": "Kyoto",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 9,
+  "next_rubric_index": 10,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1098,7 +1089,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 20,
+      "completed": 21,
       "target": 100
     }
   },
@@ -3304,6 +3295,15 @@
       "rubric": "architecture",
       "subject": "temple",
       "angle": 1
+    },
+    {
+      "creator": "utagawa hiroshige",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP122235.jpg",
+      "work_key": "utagawa hiroshige|kyoto: the great bridge at sanjō (taibi, keishi, sanjō ōhashi), from the series fifty-three stations of the tōkaidō (tōkaidō gojūsan tsugi)",
+      "rubric": "travel",
+      "subject": "Kyoto",
+      "angle": 2
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
