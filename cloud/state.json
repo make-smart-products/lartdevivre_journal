@@ -115,7 +115,30 @@
     436485
   ],
   "last_published_at": "2026-11-06T23:49:12.054344+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 78760,
+    "attempted_at": "2026-11-06T23:49:15.047217+00:00",
+    "post": {
+      "topic": "Handbook of Fashionable Cuisine for the Epicures of Edo (Edo ryūkō ryōri tsū taizen) 江戸流行料理通大全; 料理通初編&二編",
+      "caption": "📚 Книги, кино и визуальные истории\n\nHandbook of Fashionable Cuisine for the Epicures of Edo (Edo ryūkō ryōri tsū taizen) 江戸流行料理通大全; 料理通初編&二編\nKuwagata Keisai 鍬形蕙斎 · ca. 1822–34\n\nОт текста к кадру: какие решения художника меняют ваше представление о знакомой истории?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/as/web-large/2013_870_47_crd.jpg",
+        "https://images.metmuseum.org/CRDImages/as/original/2013_870_01.jpg",
+        "https://images.metmuseum.org/CRDImages/as/original/2013_870_02.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/78760",
+      "object_id": 78760,
+      "rubric": "books",
+      "angle": 2,
+      "subject": "illustrated book",
+      "creator": "kuwagata keisai 鍬形蕙斎",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_870_47_crd.jpg",
+      "work_key": "kuwagata keisai 鍬形蕙斎|handbook of fashionable cuisine for the epicures of edo (edo ryūkō ryōri tsū taizen) 江戸流行料理通大全; 料理通初編&二編"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "af55a4d88057f55293eb65c110f694f04ebcfb7752ac430f2ae7f49d532efdd6"
+  },
   "publications": [
     {
       "object_id": 436528,
