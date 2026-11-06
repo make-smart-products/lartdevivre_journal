@@ -113,44 +113,11 @@
     36976,
     341798,
     436485,
-    78760
+    78760,
+    340506
   ],
-  "last_published_at": "2026-11-06T23:49:22.635131+00:00",
-  "pending": {
-    "object_id": 340506,
-    "attempted_at": "2026-11-06T23:49:25.415367+00:00",
-    "post": {
-      "topic": "The Flight into Egypt",
-      "caption": "❓ Визуальная викторина\n\nThe Flight into Egypt\nFrancesco Polanzani · 1720–(?) · Гравюра резцом\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP808380.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/340506",
-      "object_id": 340506,
-      "rubric": "quiz",
-      "angle": 0,
-      "subject": "Печатная графика",
-      "creator": "francesco polanzani",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP808380.jpg",
-      "work_key": "francesco polanzani|the flight into egypt",
-      "kind": "quiz",
-      "quiz_format": "technique",
-      "question": "Какой техникой выполнен этот оттиск?",
-      "options": [
-        "Гравюра резцом",
-        "Офорт",
-        "Ксилография",
-        "Литография"
-      ],
-      "correct_option_ids": [
-        0
-      ],
-      "explanation": "В музейном каталоге указана техника «гравюра резцом». «The Flight into Egypt»."
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "1082dcb6828f9e678033be3f08de2f035d2932fd7eb568fba1369e5b289764e9"
-  },
+  "last_published_at": "2026-11-06T23:49:27.591538+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1148,9 +1115,21 @@
       "rubric": "books",
       "subject": "illustrated book",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 340506,
+      "message_ids": [
+        282
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/340506",
+      "published_at": "2026-11-06T23:49:27.591538+00:00",
+      "rubric": "quiz",
+      "subject": "Печатная графика",
+      "quiz_format": "technique",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 13,
+  "next_rubric_index": 14,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1161,7 +1140,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 24,
+      "completed": 25,
       "target": 100
     }
   },
@@ -3402,6 +3381,16 @@
       "rubric": "books",
       "subject": "illustrated book",
       "angle": 2
+    },
+    {
+      "creator": "francesco polanzani",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP808380.jpg",
+      "work_key": "francesco polanzani|the flight into egypt",
+      "rubric": "quiz",
+      "subject": "Печатная графика",
+      "angle": 0,
+      "quiz_format": "technique"
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
