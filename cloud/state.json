@@ -88,7 +88,27 @@
     437423
   ],
   "last_published_at": "2026-11-06T00:30:52.106453+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 408100,
+    "attempted_at": "2026-11-06T00:30:54.435764+00:00",
+    "post": {
+      "topic": "Edgar, from \"Twelve Characters from Shakespeare\"",
+      "caption": "📚 Книги, кино и визуальные истории\n\nEdgar, from \"Twelve Characters from Shakespeare\"\nJohn Hamilton Mortimer · May 20, 1775 · Офорт\n\nКнижная история получает визуальный образ. Что вы представляли иначе, когда читали?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP828599.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/408100",
+      "object_id": 408100,
+      "rubric": "books",
+      "angle": 0,
+      "creator": "john hamilton mortimer",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP828599.jpg",
+      "work_key": "john hamilton mortimer|edgar, from \"twelve characters from shakespeare\""
+    },
+    "batch_date": "2026-11-05",
+    "sha256": "c98f062f44ab6af091b88796f257a52c965353513503709bbf86b872c47aed18"
+  },
   "publications": [
     {
       "object_id": 436528,
