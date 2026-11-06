@@ -96,52 +96,11 @@
     365588,
     301976,
     79632,
-    1083
+    1083,
+    381068
   ],
-  "last_published_at": "2026-11-06T23:47:42.271274+00:00",
-  "pending": {
-    "object_id": 381068,
-    "attempted_at": "2026-11-06T23:47:45.370088+00:00",
-    "post": {
-      "topic": "Бродвей длиной в один квартал",
-      "caption": "🧳 Культурные путешествия\n\nБродвей длиной в один квартал\n\nНа литографии около 1855 года показан Бродвей между Уоррен-стрит и Рид-стрит. Попробуйте посмотреть на город как на один квартал: сравните нижние этажи и верхние линии зданий. Из такого наблюдения легко придумать тему для собственной прогулки и серии фотографий.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/49MM_599R2.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/381068",
-      "object_id": 381068,
-      "rubric": "travel",
-      "angle": 4,
-      "subject": "New York",
-      "creator": "dumcke and keil",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/49MM_599R2.jpg",
-      "work_key": "dumcke and keil|broadway, new york from warren to reade street",
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-06T15:18:12.479528+00:00",
-      "photo_verified_at": "2026-11-06T15:18:12.479528+00:00",
-      "verified_object": {
-        "objectID": 381068,
-        "title": "Broadway, New York from Warren to Reade Street",
-        "artistDisplayName": "Dumcke and Keil",
-        "artistGender": "",
-        "artistBeginDate": "",
-        "objectDate": "ca. 1855",
-        "objectBeginDate": 1850,
-        "objectEndDate": 1860,
-        "objectName": "Print",
-        "classification": "Prints",
-        "department": "Drawings and Prints",
-        "medium": "Lithograph with tint stones and watercolor",
-        "isPublicDomain": true,
-        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/49MM_599R2.jpg",
-        "additionalImages": []
-      },
-      "catalogue_sha256": "1280c6d042c4bec5597981b776604bf4b328174fa7ca7f25f4a04a525470aecb"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "0a2b1976e1fa2b649729ecd27efacd5b67db146ad52e55f2d7efa8b9784367fa"
-  },
+  "last_published_at": "2026-11-06T23:47:47.574593+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -943,9 +902,20 @@
       "rubric": "architecture",
       "subject": "chair",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 381068,
+      "message_ids": [
+        258
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/381068",
+      "published_at": "2026-11-06T23:47:47.574593+00:00",
+      "rubric": "travel",
+      "subject": "New York",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 16,
+  "next_rubric_index": 17,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -956,7 +926,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 7,
+      "completed": 8,
       "target": 100
     }
   },
@@ -3045,6 +3015,15 @@
       "rubric": "architecture",
       "subject": "chair",
       "angle": 3
+    },
+    {
+      "creator": "dumcke and keil",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/49MM_599R2.jpg",
+      "work_key": "dumcke and keil|broadway, new york from warren to reade street",
+      "rubric": "travel",
+      "subject": "New York",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
