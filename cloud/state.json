@@ -145,31 +145,11 @@
     396285,
     813060,
     816522,
-    436221
+    436221,
+    368548
   ],
-  "last_published_at": "2026-11-06T23:52:23.581852+00:00",
-  "pending": {
-    "object_id": 368548,
-    "attempted_at": "2026-11-06T23:52:26.451916+00:00",
-    "post": {
-      "topic": "An Italian City with a Crowd Watching Actors in an Outdoor Theater",
-      "caption": "📚 Книги, кино и визуальные истории\n\nAn Italian City with a Crowd Watching Actors in an Outdoor Theater\nHendrick Verschuring · 1642–90\n\nДля книжного клуба: придумайте к этому изображению подпись из одной строки и сравните версии.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP801041.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/368548",
-      "object_id": 368548,
-      "rubric": "books",
-      "angle": 3,
-      "subject": "theater",
-      "creator": "hendrick verschuring",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP801041.jpg",
-      "work_key": "hendrick verschuring|an italian city with a crowd watching actors in an outdoor theater"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "51920a4ec8a9770e8054d319d454c4639ebb70eaec4871204adfbb6f9d9a81fc"
-  },
+  "last_published_at": "2026-11-06T23:52:28.794963+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1537,9 +1517,20 @@
       "rubric": "painting",
       "subject": "interior",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 368548,
+      "message_ids": [
+        327
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/368548",
+      "published_at": "2026-11-06T23:52:28.794963+00:00",
+      "rubric": "books",
+      "subject": "theater",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 5,
+  "next_rubric_index": 6,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1550,7 +1541,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 56,
+      "completed": 57,
       "target": 100
     }
   },
@@ -3272,12 +3263,6 @@
   },
   "recent_content": [
     {
-      "creator": "julia margaret cameron",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP295205.jpg",
-      "work_key": "julia margaret cameron|king lear alotting his kingdom to his three daughters"
-    },
-    {
       "creator": "nina de garis davies",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/eg/web-large/LC-31_6_39_EGDP036617.jpg",
@@ -4055,6 +4040,15 @@
       "rubric": "painting",
       "subject": "interior",
       "angle": 1
+    },
+    {
+      "creator": "hendrick verschuring",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP801041.jpg",
+      "work_key": "hendrick verschuring|an italian city with a crowd watching actors in an outdoor theater",
+      "rubric": "books",
+      "subject": "theater",
+      "angle": 3
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
