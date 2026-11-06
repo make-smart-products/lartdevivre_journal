@@ -136,31 +136,11 @@
     431239,
     646073,
     84553,
-    417971
+    417971,
+    767838
   ],
-  "last_published_at": "2026-11-06T23:51:37.074153+00:00",
-  "pending": {
-    "object_id": 767838,
-    "attempted_at": "2026-11-06T23:51:39.916275+00:00",
-    "post": {
-      "topic": "Reali Lotti, No. 16, Strada Toledo, Naples: people and carriages on the street walking through the rain",
-      "caption": "🧳 Культурные путешествия\n\nReali Lotti, No. 16, Strada Toledo, Naples: people and carriages on the street walking through the rain\nKarl Johan Lindström · 1833\n\nВыберите на изображении одну точку, откуда вы бы начали прогулку по этому историческому виду.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP878278.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/767838",
-      "object_id": 767838,
-      "rubric": "travel",
-      "angle": 3,
-      "subject": "Naples",
-      "creator": "karl johan lindström",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP878278.jpg",
-      "work_key": "karl johan lindström|reali lotti, no. 16, strada toledo, naples: people and carriages on the street walking through the rain"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "eed1ec7da9c71b3a144fa0f03731ec0d28b272422a8d527783e59107f056722a"
-  },
+  "last_published_at": "2026-11-06T23:51:42.358238+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1426,9 +1406,20 @@
       "rubric": "architecture",
       "subject": "capital",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 767838,
+      "message_ids": [
+        316
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/767838",
+      "published_at": "2026-11-06T23:51:42.358238+00:00",
+      "rubric": "travel",
+      "subject": "Naples",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 16,
+  "next_rubric_index": 17,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1439,7 +1430,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 47,
+      "completed": 48,
       "target": 100
     }
   },
@@ -3888,6 +3879,15 @@
       "rubric": "architecture",
       "subject": "capital",
       "angle": 1
+    },
+    {
+      "creator": "karl johan lindström",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP878278.jpg",
+      "work_key": "karl johan lindström|reali lotti, no. 16, strada toledo, naples: people and carriages on the street walking through the rain",
+      "rubric": "travel",
+      "subject": "Naples",
+      "angle": 3
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
