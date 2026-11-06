@@ -96,7 +96,64 @@
     365588
   ],
   "last_published_at": "2026-11-06T23:47:26.551162+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 301976,
+    "attempted_at": "2026-11-06T23:47:29.487222+00:00",
+    "post": {
+      "topic": "Что было до отпечатка",
+      "caption": "❓ Визуальная викторина\n\nЧто было до отпечатка\n\nВизуальная викторина о том, как создавали фотографический отпечаток в 1865 году.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ph/web-large/DP265081.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/301976",
+      "object_id": 301976,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Фотография",
+      "creator": "hall & company's photograph gallery",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP265081.jpg",
+      "work_key": "hall & company's photograph gallery|alonzo h. sterrett, late adjutant, fortieth u.s. infantry",
+      "kind": "quiz",
+      "quiz_format": "process",
+      "question": "На фото — портрет 1865 года. На какой основе был сделан негатив для этого отпечатка?",
+      "options": [
+        "На фотоплёнке",
+        "На стекле",
+        "На бумаге",
+        "На металлической пластине"
+      ],
+      "correct_option_ids": [
+        1
+      ],
+      "explanation": "На стекле. Каталог описывает работу как альбуминовый отпечаток со стеклянного негатива. Сам негатив и готовый отпечаток — два разных этапа.",
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-06T15:18:13.868697+00:00",
+      "photo_verified_at": "2026-11-06T15:18:13.868697+00:00",
+      "verified_object": {
+        "objectID": 301976,
+        "title": "Alonzo H. Sterrett, Late Adjutant, Fortieth U.S. Infantry",
+        "artistDisplayName": "Hall & Company's Photograph Gallery",
+        "artistGender": "",
+        "artistBeginDate": "",
+        "objectDate": "July 27, 1865",
+        "objectBeginDate": 1865,
+        "objectEndDate": 1865,
+        "objectName": "Photograph",
+        "classification": "Photographs",
+        "department": "Photographs",
+        "medium": "Albumen silver print from glass negative",
+        "isPublicDomain": true,
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP265081.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ph/original/DP265027.jpg"
+        ]
+      },
+      "catalogue_sha256": "1424aa4b2b8e8f6ad9174b394602bb2d44fbf75e0377fd6a1b0e2b7cbef5c6bb"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "9fb48f926fb9980e3e96ef84264bd08f261f1ea8df1baee5cc9b982b760430e9"
+  },
   "publications": [
     {
       "object_id": 436528,
