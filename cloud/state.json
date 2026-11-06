@@ -80,31 +80,11 @@
     -1000039934,
     -1000014561,
     -1000015092,
-    336386
+    336386,
+    157913
   ],
-  "last_published_at": "2026-11-04T16:20:32.604053+00:00",
-  "pending": {
-    "object_id": 157913,
-    "attempted_at": "2026-11-06T00:30:28.578665+00:00",
-    "post": {
-      "topic": "Evening dress",
-      "caption": "👗 История моды\n\nEvening dress\nHouse of Worth · ca. 1880 · Шёлк\n\nРассмотрите застёжки и швы. По ним можно понять, как устроена вещь и где она держит форму.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/41.319a.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/41.319_side bw.JPG"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/157913",
-      "object_id": 157913,
-      "rubric": "fashion",
-      "angle": 3,
-      "creator": "house of worth",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/41.319a.jpg",
-      "work_key": "house of worth|evening dress"
-    },
-    "batch_date": "2026-11-05",
-    "sha256": "0716d6a52b777d8fe597f487b2ba298c90afba5915f059eab5522b526ad00fc3"
-  },
+  "last_published_at": "2026-11-06T00:30:31.714188+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -731,13 +711,28 @@
       "source_url": "https://www.metmuseum.org/art/collection/search/336386",
       "rubric": "quiz",
       "published_at": "2026-11-04T16:28:33.140511+00:00"
+    },
+    {
+      "object_id": 157913,
+      "message_ids": [
+        235,
+        236
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/157913",
+      "published_at": "2026-11-06T00:30:31.714188+00:00",
+      "rubric": "fashion",
+      "batch_date": "2026-11-05"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
       "target": 15
+    },
+    "2026-11-05": {
+      "completed": 1,
+      "target": 100
     }
   },
   "editorial_batches": {
@@ -2690,6 +2685,14 @@
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP884478.jpg",
       "work_key": "berthe morisot|goose"
+    },
+    {
+      "creator": "house of worth",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/41.319a.jpg",
+      "work_key": "house of worth|evening dress",
+      "rubric": "fashion",
+      "angle": 3
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
