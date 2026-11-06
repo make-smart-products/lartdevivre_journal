@@ -132,31 +132,11 @@
     35129,
     400192,
     439405,
-    435877
+    435877,
+    431239
   ],
-  "last_published_at": "2026-11-06T23:51:13.825544+00:00",
-  "pending": {
-    "object_id": 431239,
-    "attempted_at": "2026-11-06T23:51:16.704753+00:00",
-    "post": {
-      "topic": "Miranda (Shakespeare, The Tempest, Act 1, Scene 1)",
-      "caption": "📚 Книги, кино и визуальные истории\n\nMiranda (Shakespeare, The Tempest, Act 1, Scene 1)\nCaroline Watson · April 14, 1809\n\nКнижная история получает визуальный образ. Что вы представляли иначе, когда читали?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP858692.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/431239",
-      "object_id": 431239,
-      "rubric": "books",
-      "angle": 0,
-      "subject": "shakespeare",
-      "creator": "caroline watson",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP858692.jpg",
-      "work_key": "caroline watson|miranda (shakespeare, the tempest, act 1, scene 1)"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "913738bd1f972b1269908ca877fd7a5d3b682f2175018a0b338ea9566d236b05"
-  },
+  "last_published_at": "2026-11-06T23:51:19.128941+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1375,9 +1355,20 @@
       "rubric": "painting",
       "subject": "landscape",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 431239,
+      "message_ids": [
+        310
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/431239",
+      "published_at": "2026-11-06T23:51:19.128941+00:00",
+      "rubric": "books",
+      "subject": "shakespeare",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 12,
+  "next_rubric_index": 13,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1388,7 +1379,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 43,
+      "completed": 44,
       "target": 100
     }
   },
@@ -3800,6 +3791,15 @@
       "rubric": "painting",
       "subject": "landscape",
       "angle": 3
+    },
+    {
+      "creator": "caroline watson",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP858692.jpg",
+      "work_key": "caroline watson|miranda (shakespeare, the tempest, act 1, scene 1)",
+      "rubric": "books",
+      "subject": "shakespeare",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
