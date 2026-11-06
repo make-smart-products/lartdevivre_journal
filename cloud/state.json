@@ -116,31 +116,11 @@
     78760,
     340506,
     91667,
-    358951
+    358951,
+    370211
   ],
-  "last_published_at": "2026-11-06T23:49:39.240621+00:00",
-  "pending": {
-    "object_id": 370211,
-    "attempted_at": "2026-11-06T23:49:42.276183+00:00",
-    "post": {
-      "topic": "Treasury House, 10 Downing Street, London: Plan of the First-floor Parlor (Northeast Corner Room)",
-      "caption": "🧳 Культурные путешествия\n\nTreasury House, 10 Downing Street, London: Plan of the First-floor Parlor (Northeast Corner Room)\nIsaac Ware · 1732–35\n\nВдохновение для неспешной прогулки: один вид вместо длинного списка достопримечательностей. Перед вами историческое изображение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP829098.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/370211",
-      "object_id": 370211,
-      "rubric": "travel",
-      "angle": 1,
-      "subject": "London",
-      "creator": "isaac ware",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP829098.jpg",
-      "work_key": "isaac ware|treasury house, 10 downing street, london: plan of the first-floor parlor (northeast corner room)"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "9722580d4f044689fbb5ce0f21b0b83aede0c12cbee466ffb3cfe70052af3f85"
-  },
+  "last_published_at": "2026-11-06T23:49:44.990722+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1175,9 +1155,20 @@
       "rubric": "architecture",
       "subject": "interior",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 370211,
+      "message_ids": [
+        288
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/370211",
+      "published_at": "2026-11-06T23:49:44.990722+00:00",
+      "rubric": "travel",
+      "subject": "London",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 16,
+  "next_rubric_index": 17,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1188,7 +1179,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 27,
+      "completed": 28,
       "target": 100
     }
   },
@@ -3457,6 +3448,15 @@
       "rubric": "architecture",
       "subject": "interior",
       "angle": 2
+    },
+    {
+      "creator": "isaac ware",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP829098.jpg",
+      "work_key": "isaac ware|treasury house, 10 downing street, london: plan of the first-floor parlor (northeast corner room)",
+      "rubric": "travel",
+      "subject": "London",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
