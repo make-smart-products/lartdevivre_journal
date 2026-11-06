@@ -134,7 +134,28 @@
     439405
   ],
   "last_published_at": "2026-11-06T23:51:08.770504+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 435877,
+    "attempted_at": "2026-11-06T23:51:11.747191+00:00",
+    "post": {
+      "topic": "Mont Sainte-Victoire and the Viaduct of the Arc River Valley",
+      "caption": "🖼 Картина дня\n\nMont Sainte-Victoire and the Viaduct of the Arc River Valley\nПоль Сезанн · 1882–85 · Масло на холсте\n\nНа минуту прикройте самый яркий участок. Что теперь первым притягивает взгляд?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20099-001.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/435877",
+      "object_id": 435877,
+      "rubric": "painting",
+      "angle": 3,
+      "subject": "landscape",
+      "creator": "paul cézanne",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20099-001.jpg",
+      "work_key": "paul cézanne|mont sainte-victoire and the viaduct of the arc river valley"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "9a8c39851cb46926281c9e4118a26df78aa234bbe104647eb286ccd845f5a7af"
+  },
   "publications": [
     {
       "object_id": 436528,
