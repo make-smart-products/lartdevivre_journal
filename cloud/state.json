@@ -122,31 +122,11 @@
     912940,
     435895,
     174742,
-    343958
+    343958,
+    700295
   ],
-  "last_published_at": "2026-11-06T23:50:17.370222+00:00",
-  "pending": {
-    "object_id": 700295,
-    "attempted_at": "2026-11-06T23:50:20.130989+00:00",
-    "post": {
-      "topic": "Fireworks celebrating the erection of the Temple of Glory and equestrian statue of Louis le Grand, Paris 1699",
-      "caption": "🧳 Культурные путешествия\n\nFireworks celebrating the erection of the Temple of Glory and equestrian statue of Louis le Grand, Paris 1699\nAnonymous, French, 17th century · 1699 · Офорт\n\nИсторический образ места, не современная туристическая рекомендация. Повод узнать город через взгляд художника.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP855553.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/700295",
-      "object_id": 700295,
-      "rubric": "travel",
-      "angle": 0,
-      "subject": "Paris",
-      "creator": "anonymous, french, 17th century",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP855553.jpg",
-      "work_key": "anonymous, french, 17th century|fireworks celebrating the erection of the temple of glory and equestrian statue of louis le grand, paris 1699"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "69f09af027cc0217ce70957e7715a57c84ca13b155a585dd33845afb9957d341"
-  },
+  "last_published_at": "2026-11-06T23:50:22.281875+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1251,9 +1231,20 @@
       "rubric": "architecture",
       "subject": "plan",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 700295,
+      "message_ids": [
+        297
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/700295",
+      "published_at": "2026-11-06T23:50:22.281875+00:00",
+      "rubric": "travel",
+      "subject": "Paris",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1264,7 +1255,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 33,
+      "completed": 34,
       "target": 100
     }
   },
@@ -3587,6 +3578,15 @@
       "rubric": "architecture",
       "subject": "plan",
       "angle": 3
+    },
+    {
+      "creator": "anonymous, french, 17th century",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP855553.jpg",
+      "work_key": "anonymous, french, 17th century|fireworks celebrating the erection of the temple of glory and equestrian statue of louis le grand, paris 1699",
+      "rubric": "travel",
+      "subject": "Paris",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
