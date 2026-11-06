@@ -149,7 +149,41 @@
     368548
   ],
   "last_published_at": "2026-11-06T23:52:28.794963+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 440393,
+    "attempted_at": "2026-11-06T23:52:31.777911+00:00",
+    "post": {
+      "topic": "The Baptism of Christ",
+      "caption": "❓ Визуальная викторина\n\nThe Baptism of Christ\nJacopo Bassano (Jacopo da Ponte) · ca. 1590 · Масло на холсте\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ep/web-large/DP276931.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/440393",
+      "object_id": 440393,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Живопись",
+      "creator": "jacopo bassano (jacopo da ponte)",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP276931.jpg",
+      "work_key": "jacopo bassano (jacopo da ponte)|the baptism of christ",
+      "kind": "quiz",
+      "quiz_format": "century",
+      "question": "К какому веку музей относит показанную работу?",
+      "options": [
+        "18-й век",
+        "15-й век",
+        "17-й век",
+        "16-й век"
+      ],
+      "correct_option_ids": [
+        3
+      ],
+      "explanation": "Музейная датировка — ca. 1590. Это 16-й век. «The Baptism of Christ»."
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "9a32bebecc2897f635d73202070059051d5511d51132b2936fd0368020214d85"
+  },
   "publications": [
     {
       "object_id": 436528,
