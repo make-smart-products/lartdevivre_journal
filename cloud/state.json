@@ -93,7 +93,47 @@
     338190
   ],
   "last_published_at": "2026-11-06T23:47:10.869695+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 156594,
+    "attempted_at": "2026-11-06T23:47:14.077300+00:00",
+    "post": {
+      "object_id": 156594,
+      "rubric": "women",
+      "topic": "Маленькая вещь, большое внимание",
+      "caption": "🎨 Маленькая вещь, большое внимание\n\nКошелёк Деборы Хилл, последняя четверть XVIII века: шерсть, лён и шёлк. История дизайна складывается и из вещей, которые помещаются в ладони. Такой предмет можно сохранить как вдохновение для собственного небольшого проекта — вышивки, рисунка или текстильного коллажа.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ci/web-large/50.145.3_CP4.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/156594",
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-04T14:54:54.458189+00:00",
+      "photo_verified_at": "2026-11-04T14:54:54.458189+00:00",
+      "verified_object": {
+        "objectID": 156594,
+        "title": "Purse",
+        "artistDisplayName": "Deborah Hill",
+        "artistGender": "Female",
+        "objectDate": "fourth quarter 18th century",
+        "objectBeginDate": 1776,
+        "objectEndDate": 1799,
+        "artistBeginDate": "",
+        "objectName": "Purse",
+        "classification": "",
+        "medium": "wool, linen, silk",
+        "isPublicDomain": true,
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ci/web-large/50.145.3_CP4.jpg",
+        "additionalImages": []
+      },
+      "catalogue_sha256": "e2adce894b1ceecb2a7c408f85dfb777c66de6d8bb75f83fad519a9167d32452",
+      "creator": "deborah hill",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/50.145.3_CP4.jpg",
+      "work_key": "deborah hill|purse",
+      "subject": ""
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "6f4ec3fc710c2d0d9eac6f1082965d05d3a88286cf75cc533098b55bbb3d50bd"
+  },
   "publications": [
     {
       "object_id": 436528,
