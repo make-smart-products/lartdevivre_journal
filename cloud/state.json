@@ -107,7 +107,30 @@
     189716
   ],
   "last_published_at": "2026-11-06T23:48:29.109543+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 40987,
+    "attempted_at": "2026-11-06T23:48:31.991846+00:00",
+    "post": {
+      "topic": "Snowy landscape with rustic riverside retreat",
+      "caption": "🖼 Картина дня\n\nSnowy landscape with rustic riverside retreat\nLiu Songnian · ca. late 12th century\n\nНебольшая творческая пауза: выберите фрагмент, который хотелось бы зарисовать или описать.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/as/web-large/DP152434_CRD.jpg",
+        "https://images.metmuseum.org/CRDImages/as/original/DP152434.jpg",
+        "https://images.metmuseum.org/CRDImages/as/original/DP152435.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/40987",
+      "object_id": 40987,
+      "rubric": "painting",
+      "angle": 2,
+      "subject": "landscape",
+      "creator": "liu songnian",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP152434_CRD.jpg",
+      "work_key": "liu songnian|snowy landscape with rustic riverside retreat"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "880e51693a624576cffbca20b0b73c3aee1f89345e2a0001d86f416daa4ad0aa"
+  },
   "publications": [
     {
       "object_id": 436528,
