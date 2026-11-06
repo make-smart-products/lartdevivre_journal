@@ -99,44 +99,11 @@
     1083,
     381068,
     158731,
-    14399
+    14399,
+    10158
   ],
-  "last_published_at": "2026-11-06T23:48:03.042288+00:00",
-  "pending": {
-    "object_id": 10158,
-    "attempted_at": "2026-11-06T23:48:06.081245+00:00",
-    "post": {
-      "topic": "Sunrise on the Matterhorn",
-      "caption": "❓ Визуальная викторина\n\nSunrise on the Matterhorn\nAlbert Bierstadt · after 1875 · Масло на холсте\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ad/web-large/DT218107.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/10158",
-      "object_id": 10158,
-      "rubric": "quiz",
-      "angle": 0,
-      "subject": "Живопись",
-      "creator": "albert bierstadt",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT218107.jpg",
-      "work_key": "albert bierstadt|sunrise on the matterhorn",
-      "kind": "quiz",
-      "quiz_format": "medium",
-      "question": "К какому виду искусства относится показанная работа?",
-      "options": [
-        "Живопись",
-        "Печатная графика",
-        "Скульптура",
-        "Фотография"
-      ],
-      "correct_option_ids": [
-        0
-      ],
-      "explanation": "Вид искусства в музейном каталоге — живопись. «Sunrise on the Matterhorn»."
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "f44b7c0483ec7552ddc1d8b64dc89009e838507d57922ad3d103b24aea83e57f"
-  },
+  "last_published_at": "2026-11-06T23:48:08.041071+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -973,9 +940,21 @@
       "rubric": "painting",
       "subject": "portrait",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 10158,
+      "message_ids": [
+        263
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/10158",
+      "published_at": "2026-11-06T23:48:08.041071+00:00",
+      "rubric": "quiz",
+      "subject": "Живопись",
+      "quiz_format": "medium",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 19,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -986,7 +965,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 10,
+      "completed": 11,
       "target": 100
     }
   },
@@ -3101,6 +3080,16 @@
       "rubric": "painting",
       "subject": "portrait",
       "angle": 4
+    },
+    {
+      "creator": "albert bierstadt",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT218107.jpg",
+      "work_key": "albert bierstadt|sunrise on the matterhorn",
+      "rubric": "quiz",
+      "subject": "Живопись",
+      "angle": 0,
+      "quiz_format": "medium"
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
