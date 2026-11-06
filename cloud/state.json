@@ -98,7 +98,49 @@
     79632
   ],
   "last_published_at": "2026-11-06T23:47:36.636162+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 1083,
+    "attempted_at": "2026-11-06T23:47:40.159858+00:00",
+    "post": {
+      "topic": "Шкаф почти до потолка",
+      "caption": "🏛 Архитектура и интерьер\n\nШкаф почти до потолка\n\nШкаф Дэниела Пабста, около 1873–1876 годов, высотой почти 2,44 метра. В работе соединены орех, клён, сосна и стекло. Идея для дома — измерить вертикаль, прежде чем выбирать мебель. Даже один высокий предмет может задать пропорции всему углу комнаты.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#Архитектура",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/DT180.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/1083",
+      "object_id": 1083,
+      "rubric": "architecture",
+      "angle": 3,
+      "subject": "chair",
+      "creator": "daniel pabst",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT180.jpg",
+      "work_key": "daniel pabst|cabinet",
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-06T15:18:12.117841+00:00",
+      "photo_verified_at": "2026-11-06T15:18:12.117841+00:00",
+      "verified_object": {
+        "objectID": 1083,
+        "title": "Cabinet",
+        "artistDisplayName": "Daniel Pabst",
+        "artistGender": "",
+        "artistBeginDate": "1826",
+        "objectDate": "ca. 1873–76",
+        "objectBeginDate": 1868,
+        "objectEndDate": 1881,
+        "objectName": "Cabinet",
+        "classification": "",
+        "department": "The American Wing",
+        "medium": "Walnut, maple, white pine, glass",
+        "isPublicDomain": true,
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT180.jpg",
+        "additionalImages": []
+      },
+      "catalogue_sha256": "0773da79fdd1856c9564d1198f8efb016b96a39582137666b136077a44a87277"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "2b07b6e08a9dd48f835e5d559af07a1362b40279f6c120e266f77398733f48fc"
+  },
   "publications": [
     {
       "object_id": 436528,
