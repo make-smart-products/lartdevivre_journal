@@ -152,7 +152,28 @@
     348609
   ],
   "last_published_at": "2026-11-06T23:52:47.458834+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 383421,
+    "attempted_at": "2026-11-06T23:52:50.392148+00:00",
+    "post": {
+      "topic": "Inner Bay, Staten Island, New York",
+      "caption": "🧳 Культурные путешествия\n\nInner Bay, Staten Island, New York\nAugustus Kollner · ca. 1872 · Акварель\n\nВыберите на изображении одну точку, откуда вы бы начали прогулку по этому историческому виду.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP264242.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/383421",
+      "object_id": 383421,
+      "rubric": "travel",
+      "angle": 3,
+      "subject": "New York",
+      "creator": "augustus kollner",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP264242.jpg",
+      "work_key": "augustus kollner|inner bay, staten island, new york"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "2cf4ca00a8c8487f04771a41da40aca5ef4f4963afc1a8191da40c0253e2bb38"
+  },
   "publications": [
     {
       "object_id": 436528,
