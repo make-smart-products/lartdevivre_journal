@@ -131,7 +131,29 @@
     91888
   ],
   "last_published_at": "2026-11-06T23:50:51.847898+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 35129,
+    "attempted_at": "2026-11-06T23:50:54.826882+00:00",
+    "post": {
+      "topic": "Sword Guard (Tsuba)",
+      "caption": "🏛 Архитектура и интерьер\n\nSword Guard (Tsuba)\nJapanese · ca. 3rd century–710\n\nПредставьте этот предмет или фрагмент в обычной комнате. Что изменится, если перенести его в другой угол?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/aa/web-large/17.229.17_001may2014.jpg",
+        "https://images.metmuseum.org/CRDImages/aa/original/17.229.17_002may2014.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/35129",
+      "object_id": 35129,
+      "rubric": "architecture",
+      "angle": 4,
+      "subject": "chair",
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/aa/web-large/17.229.17_001may2014.jpg",
+      "work_key": "|sword guard (tsuba)"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "b1651b8c874f80969cb6215656881900fd6c71800e4c1ca4928c518fbae8f3fc"
+  },
   "publications": [
     {
       "object_id": 436528,
