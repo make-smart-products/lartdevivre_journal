@@ -118,7 +118,29 @@
     91667
   ],
   "last_published_at": "2026-11-06T23:49:32.959043+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 358951,
+    "attempted_at": "2026-11-06T23:49:35.745025+00:00",
+    "post": {
+      "topic": "Design for a Stage Set at the Opéra, Paris: Church Interior",
+      "caption": "🏛 Архитектура и интерьер\n\nDesign for a Stage Set at the Opéra, Paris: Church Interior\nEugène Cicéri · 1830–90\n\nЧто можно взять для своего пространства: ритм, пропорции или сочетание материалов?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP810183.jpg",
+        "https://images.metmuseum.org/CRDImages/dp/original/53.529.42.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/358951",
+      "object_id": 358951,
+      "rubric": "architecture",
+      "angle": 2,
+      "subject": "interior",
+      "creator": "eugène cicéri",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP810183.jpg",
+      "work_key": "eugène cicéri|design for a stage set at the opéra, paris: church interior"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "118de48d5508dd1db9d42159b404c9eea301551ad84eef18db2b499c15acb893"
+  },
   "publications": [
     {
       "object_id": 436528,
