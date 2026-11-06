@@ -122,7 +122,41 @@
     912940
   ],
   "last_published_at": "2026-11-06T23:49:56.679581+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 435895,
+    "attempted_at": "2026-11-06T23:49:59.706191+00:00",
+    "post": {
+      "topic": "Self-Portrait",
+      "caption": "❓ Визуальная викторина\n\nSelf-Portrait\nGeorge Chinnery · 1825–28 · Масло на холсте\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ep/web-large/DP213130.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/435895",
+      "object_id": 435895,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Живопись",
+      "creator": "george chinnery",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP213130.jpg",
+      "work_key": "george chinnery|self-portrait",
+      "kind": "quiz",
+      "quiz_format": "century",
+      "question": "К какому веку музей относит показанную работу?",
+      "options": [
+        "20-й век",
+        "19-й век",
+        "21-й век",
+        "18-й век"
+      ],
+      "correct_option_ids": [
+        1
+      ],
+      "explanation": "Музейная датировка — 1825–28. Это 19-й век. «Self-Portrait»."
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "852dade809de861498e5aa0f465efc842600464b21133b2db23868b4f18305db"
+  },
   "publications": [
     {
       "object_id": 436528,
