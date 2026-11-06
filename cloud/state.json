@@ -86,43 +86,11 @@
     413353,
     11156,
     437423,
-    408100
+    408100,
+    923804
   ],
-  "last_published_at": "2026-11-06T00:30:56.569941+00:00",
-  "pending": {
-    "object_id": 923804,
-    "attempted_at": "2026-11-06T00:30:58.851396+00:00",
-    "post": {
-      "topic": "Engraving of Firearms Ornament from the Pattern Book <i>Plusieurs pieces de l'arquebuzerie / recueillies et inventeés par Francois Marcou</i>",
-      "caption": "❓ Визуальная викторина\n\nEngraving of Firearms Ornament from the Pattern Book <i>Plusieurs pieces de l'arquebuzerie / recueillies et inventeés par Francois Marcou</i>\nC. Jacquinet · 17th century\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/aa/web-large/LC-2025_221-001.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/923804",
-      "object_id": 923804,
-      "rubric": "quiz",
-      "angle": 0,
-      "creator": "c. jacquinet",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/aa/web-large/LC-2025_221-001.jpg",
-      "work_key": "c. jacquinet|engraving of firearms ornament from the pattern book <i>plusieurs pieces de l'arquebuzerie / recueillies et inventeés par francois marcou</i>",
-      "kind": "quiz",
-      "quiz_format": "century",
-      "question": "В каком веке создана показанная работа?",
-      "options": [
-        "17-й век",
-        "19-й век",
-        "18-й век",
-        "16-й век"
-      ],
-      "correct_option_ids": [
-        0
-      ],
-      "explanation": "Музейная датировка — 17th century. Это 17-й век. «Engraving of Firearms Ornament from the Pattern Book <i>Plusieurs pieces de l'arquebuzerie / recueillies et inventeés par Francois Marcou</i>»."
-    },
-    "batch_date": "2026-11-05",
-    "sha256": "31dd06cc9da363fbdec35615c48828103010819a774dbf5848098e76fd3b01f5"
-  },
+  "last_published_at": "2026-11-06T00:31:00.850187+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -813,16 +781,26 @@
       "published_at": "2026-11-06T00:30:56.569941+00:00",
       "rubric": "books",
       "batch_date": "2026-11-05"
+    },
+    {
+      "object_id": 923804,
+      "message_ids": [
+        245
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/923804",
+      "published_at": "2026-11-06T00:31:00.850187+00:00",
+      "rubric": "quiz",
+      "batch_date": "2026-11-05"
     }
   ],
-  "next_rubric_index": 6,
+  "next_rubric_index": 7,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
       "target": 15
     },
     "2026-11-05": {
-      "completed": 6,
+      "completed": 7,
       "target": 100
     }
   },
@@ -2823,6 +2801,15 @@
       "work_key": "john hamilton mortimer|edgar, from \"twelve characters from shakespeare\"",
       "rubric": "books",
       "angle": 0
+    },
+    {
+      "creator": "c. jacquinet",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/aa/web-large/LC-2025_221-001.jpg",
+      "work_key": "c. jacquinet|engraving of firearms ornament from the pattern book <i>plusieurs pieces de l'arquebuzerie / recueillies et inventeés par francois marcou</i>",
+      "rubric": "quiz",
+      "angle": 0,
+      "quiz_format": "century"
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
