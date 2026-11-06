@@ -138,31 +138,11 @@
     84553,
     417971,
     767838,
-    739503
+    739503,
+    11737
   ],
-  "last_published_at": "2026-11-06T23:51:47.262417+00:00",
-  "pending": {
-    "object_id": 11737,
-    "attempted_at": "2026-11-06T23:51:50.023409+00:00",
-    "post": {
-      "topic": "Still Life with Cake",
-      "caption": "🖼 Картина дня\n\nStill Life with Cake\nRaphaelle Peale · 1818 · Масло на дереве\n\nВыберите два участка, между которыми взгляд движется сам. Из них можно собрать небольшую зарисовку.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ad/web-large/DT64.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/11737",
-      "object_id": 11737,
-      "rubric": "painting",
-      "angle": 4,
-      "subject": "still life",
-      "creator": "raphaelle peale",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT64.jpg",
-      "work_key": "raphaelle peale|still life with cake"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "623f9a022e536a65e85fb2349d1a1c9241af5d2ab6769949af37c984bf667cb7"
-  },
+  "last_published_at": "2026-11-06T23:51:52.042129+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1450,9 +1430,20 @@
       "rubric": "women",
       "subject": "",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 11737,
+      "message_ids": [
+        318
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/11737",
+      "published_at": "2026-11-06T23:51:52.042129+00:00",
+      "rubric": "painting",
+      "subject": "still life",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 18,
+  "next_rubric_index": 19,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1463,7 +1454,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 49,
+      "completed": 50,
       "target": 100
     }
   },
@@ -3929,6 +3920,15 @@
       "work_key": "martha a. page|burgoyne surrenders or burgoyne surrounded quilt",
       "rubric": "women",
       "subject": ""
+    },
+    {
+      "creator": "raphaelle peale",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT64.jpg",
+      "work_key": "raphaelle peale|still life with cake",
+      "rubric": "painting",
+      "subject": "still life",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
