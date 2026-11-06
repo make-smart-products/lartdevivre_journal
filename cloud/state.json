@@ -88,32 +88,11 @@
     437423,
     408100,
     923804,
-    103692
+    103692,
+    335592
   ],
-  "last_published_at": "2026-11-06T00:31:06.479795+00:00",
-  "pending": {
-    "object_id": 335592,
-    "attempted_at": "2026-11-06T00:31:08.932709+00:00",
-    "post": {
-      "topic": "Interior of Strasbourg Cathedral",
-      "caption": "🏛 Архитектура и интерьер\n\nInterior of Strasbourg Cathedral\nJacob van der Heyden · ca. 1625–30\n\nЧто можно взять для своего пространства: ритм, пропорции или сочетание материалов?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP801208.jpg",
-        "https://images.metmuseum.org/CRDImages/dp/original/ep50.209.bw.R.jpg",
-        "https://images.metmuseum.org/CRDImages/dp/original/DP801209.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/335592",
-      "object_id": 335592,
-      "rubric": "architecture",
-      "angle": 2,
-      "creator": "jacob van der heyden",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP801208.jpg",
-      "work_key": "jacob van der heyden|interior of strasbourg cathedral"
-    },
-    "batch_date": "2026-11-05",
-    "sha256": "324ff1d7bbff1c8785cc9e859aff25f190f032ad63909d6a651e4a323f8bcfcf"
-  },
+  "last_published_at": "2026-11-06T00:31:14.963018+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -825,16 +804,28 @@
       "published_at": "2026-11-06T00:31:06.479795+00:00",
       "rubric": "fashion",
       "batch_date": "2026-11-05"
+    },
+    {
+      "object_id": 335592,
+      "message_ids": [
+        248,
+        249,
+        250
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/335592",
+      "published_at": "2026-11-06T00:31:14.963018+00:00",
+      "rubric": "architecture",
+      "batch_date": "2026-11-05"
     }
   ],
-  "next_rubric_index": 8,
+  "next_rubric_index": 9,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
       "target": 15
     },
     "2026-11-05": {
-      "completed": 8,
+      "completed": 9,
       "target": 100
     }
   },
@@ -2851,6 +2842,14 @@
       "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI37.45.68_F.jpg",
       "work_key": "|robe",
       "rubric": "fashion",
+      "angle": 2
+    },
+    {
+      "creator": "jacob van der heyden",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP801208.jpg",
+      "work_key": "jacob van der heyden|interior of strasbourg cathedral",
+      "rubric": "architecture",
       "angle": 2
     }
   ],
