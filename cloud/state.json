@@ -111,7 +111,28 @@
     173749
   ],
   "last_published_at": "2026-11-06T23:48:50.982885+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 652977,
+    "attempted_at": "2026-11-06T23:48:54.041363+00:00",
+    "post": {
+      "topic": "Plate 6: Zephyr carrying Psyche to an enchanted palace, from \"The Story of Cupid and Psyche as told by Apuleius\"",
+      "caption": "🏛 Архитектура и интерьер\n\nPlate 6: Zephyr carrying Psyche to an enchanted palace, from \"The Story of Cupid and Psyche as told by Apuleius\"\nMaster of the Die · 1530–60 · Гравюра резцом\n\nПоменяйте масштаб взгляда: сначала общая форма, затем одна конструктивная деталь.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP862812.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/652977",
+      "object_id": 652977,
+      "rubric": "architecture",
+      "angle": 1,
+      "subject": "temple",
+      "creator": "master of the die",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP862812.jpg",
+      "work_key": "master of the die|plate 6: zephyr carrying psyche to an enchanted palace, from \"the story of cupid and psyche as told by apuleius\""
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "956f858de669ed0586180958b30842a6f936ab8b222275817fb6604393b298ef"
+  },
   "publications": [
     {
       "object_id": 436528,
