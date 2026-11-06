@@ -81,31 +81,11 @@
     -1000014561,
     -1000015092,
     336386,
-    157913
+    157913,
+    197169
   ],
-  "last_published_at": "2026-11-06T00:30:31.714188+00:00",
-  "pending": {
-    "object_id": 197169,
-    "attempted_at": "2026-11-06T00:30:34.070528+00:00",
-    "post": {
-      "topic": "Cabinet",
-      "caption": "🏛 Архитектура и интерьер\n\nCabinet\nАвтор не указан в каталоге · first half 17th century\n\nПредставьте этот предмет или фрагмент в обычной комнате. Что изменится, если перенести его в другой угол?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/es/web-large/88726.jpg",
-        "https://images.metmuseum.org/CRDImages/es/original/113066.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/197169",
-      "object_id": 197169,
-      "rubric": "architecture",
-      "angle": 4,
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/es/web-large/88726.jpg",
-      "work_key": "|cabinet"
-    },
-    "batch_date": "2026-11-05",
-    "sha256": "ea9b08f43b2ed04c1ff3e675a2c027b883d1bf9434cd3bd86b67c22f51ab3649"
-  },
+  "last_published_at": "2026-11-06T00:30:36.538548+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -743,16 +723,27 @@
       "published_at": "2026-11-06T00:30:31.714188+00:00",
       "rubric": "fashion",
       "batch_date": "2026-11-05"
+    },
+    {
+      "object_id": 197169,
+      "message_ids": [
+        237,
+        238
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/197169",
+      "published_at": "2026-11-06T00:30:36.538548+00:00",
+      "rubric": "architecture",
+      "batch_date": "2026-11-05"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
       "target": 15
     },
     "2026-11-05": {
-      "completed": 1,
+      "completed": 2,
       "target": 100
     }
   },
@@ -2714,6 +2705,14 @@
       "work_key": "house of worth|evening dress",
       "rubric": "fashion",
       "angle": 3
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/es/web-large/88726.jpg",
+      "work_key": "|cabinet",
+      "rubric": "architecture",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
