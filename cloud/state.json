@@ -134,33 +134,11 @@
     439405,
     435877,
     431239,
-    646073
+    646073,
+    84553
   ],
-  "last_published_at": "2026-11-06T23:51:24.590291+00:00",
-  "pending": {
-    "object_id": 84553,
-    "attempted_at": "2026-11-06T23:51:27.370694+00:00",
-    "post": {
-      "topic": "Coat",
-      "caption": "👗 История моды\n\nCoat\nHouse of Worth · 1898 · Шёлк\n\nИдея для своего гардероба: выбрать одну деталь исторической вещи, которую можно переосмыслить сегодня.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/CI45.95.12_F.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/CI45.95.12_d1.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/CI45.95.12_S.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/84553",
-      "object_id": 84553,
-      "rubric": "fashion",
-      "angle": 0,
-      "subject": "coat",
-      "creator": "house of worth",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI45.95.12_F.jpg",
-      "work_key": "house of worth|coat"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "1077ad99e48aa9b02890bd4e34a7ccc90f0757daa3a5e88c0b381bc24a2e4a3a"
-  },
+  "last_published_at": "2026-11-06T23:51:31.689550+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1402,9 +1380,22 @@
       "subject": "Печатная графика",
       "quiz_format": "technique",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 84553,
+      "message_ids": [
+        312,
+        313,
+        314
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/84553",
+      "published_at": "2026-11-06T23:51:31.689550+00:00",
+      "rubric": "fashion",
+      "subject": "coat",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 14,
+  "next_rubric_index": 15,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1415,7 +1406,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 45,
+      "completed": 46,
       "target": 100
     }
   },
@@ -3846,6 +3837,15 @@
       "subject": "Печатная графика",
       "angle": 0,
       "quiz_format": "technique"
+    },
+    {
+      "creator": "house of worth",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI45.95.12_F.jpg",
+      "work_key": "house of worth|coat",
+      "rubric": "fashion",
+      "subject": "coat",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
