@@ -148,31 +148,11 @@
     436221,
     368548,
     440393,
-    86433
+    86433,
+    348609
   ],
-  "last_published_at": "2026-11-06T23:52:42.055617+00:00",
-  "pending": {
-    "object_id": 348609,
-    "attempted_at": "2026-11-06T23:52:44.834691+00:00",
-    "post": {
-      "topic": "Perspective Sketch for a Palace Interior",
-      "caption": "🏛 Архитектура и интерьер\n\nPerspective Sketch for a Palace Interior\nGiuseppe Galli Bibiena · 18th century\n\nПредставьте этот предмет или фрагмент в обычной комнате. Что изменится, если перенести его в другой угол?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP808021.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/348609",
-      "object_id": 348609,
-      "rubric": "architecture",
-      "angle": 4,
-      "subject": "interior",
-      "creator": "giuseppe galli bibiena",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP808021.jpg",
-      "work_key": "giuseppe galli bibiena|perspective sketch for a palace interior"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "1a8805b7c57f255d8598594ea965d2d847c175acdac74803cf7dc85cb0388d5b"
-  },
+  "last_published_at": "2026-11-06T23:52:47.458834+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1575,9 +1555,20 @@
       "rubric": "fashion",
       "subject": "ensemble",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 348609,
+      "message_ids": [
+        331
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/348609",
+      "published_at": "2026-11-06T23:52:47.458834+00:00",
+      "rubric": "architecture",
+      "subject": "interior",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 8,
+  "next_rubric_index": 9,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1588,7 +1579,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 59,
+      "completed": 60,
       "target": 100
     }
   },
@@ -3310,12 +3301,6 @@
   },
   "recent_content": [
     {
-      "creator": "edmonia lewis",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP371841.jpg",
-      "work_key": "edmonia lewis|minnehaha"
-    },
-    {
       "creator": "suzanne de court",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/es/web-large/ES10063.jpg",
@@ -4103,6 +4088,15 @@
       "rubric": "fashion",
       "subject": "ensemble",
       "angle": 1
+    },
+    {
+      "creator": "giuseppe galli bibiena",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP808021.jpg",
+      "work_key": "giuseppe galli bibiena|perspective sketch for a palace interior",
+      "rubric": "architecture",
+      "subject": "interior",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
