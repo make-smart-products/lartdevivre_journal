@@ -120,33 +120,11 @@
     370211,
     386036,
     912940,
-    435895
+    435895,
+    174742
   ],
-  "last_published_at": "2026-11-06T23:50:01.846542+00:00",
-  "pending": {
-    "object_id": 174742,
-    "attempted_at": "2026-11-06T23:50:04.664348+00:00",
-    "post": {
-      "topic": "Mourning dress",
-      "caption": "👗 История моды\n\nMourning dress\nAmerican · ca. 1845 · Шёлк\n\nРассмотрите застёжки и швы. По ним можно понять, как устроена вещь и где она держит форму.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/DP334110.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/DP334111.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/2009.300.7703_F.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/174742",
-      "object_id": 174742,
-      "rubric": "fashion",
-      "angle": 3,
-      "subject": "dress",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/DP334110.jpg",
-      "work_key": "|mourning dress"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "5493688a2f3c2132c0edf49a05431a8cd7653755f4687ed5e5adef92974da93f"
-  },
+  "last_published_at": "2026-11-06T23:50:08.111693+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1226,9 +1204,22 @@
       "subject": "Живопись",
       "quiz_format": "century",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 174742,
+      "message_ids": [
+        292,
+        293,
+        294
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/174742",
+      "published_at": "2026-11-06T23:50:08.111693+00:00",
+      "rubric": "fashion",
+      "subject": "dress",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1239,7 +1230,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 31,
+      "completed": 32,
       "target": 100
     }
   },
@@ -3544,6 +3535,15 @@
       "subject": "Живопись",
       "angle": 0,
       "quiz_format": "century"
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/DP334110.jpg",
+      "work_key": "|mourning dress",
+      "rubric": "fashion",
+      "subject": "dress",
+      "angle": 3
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
