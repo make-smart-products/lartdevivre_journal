@@ -127,7 +127,28 @@
     438132
   ],
   "last_published_at": "2026-11-06T23:50:27.803318+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 15237,
+    "attempted_at": "2026-11-06T23:50:30.844541+00:00",
+    "post": {
+      "topic": "Portrait of a Gentleman",
+      "caption": "🖼 Картина дня\n\nPortrait of a Gentleman\nJames Whitehorne · ca. 1835\n\nНебольшая творческая пауза: выберите фрагмент, который хотелось бы зарисовать или описать.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/APS6879.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/15237",
+      "object_id": 15237,
+      "rubric": "painting",
+      "angle": 2,
+      "subject": "portrait",
+      "creator": "james whitehorne",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/APS6879.jpg",
+      "work_key": "james whitehorne|portrait of a gentleman"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "bfc056c6265e9fb96cf8bad0fe95470a1de8277185fafb534783e55f0b05eac6"
+  },
   "publications": [
     {
       "object_id": 436528,
