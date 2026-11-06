@@ -101,7 +101,30 @@
     158731
   ],
   "last_published_at": "2026-11-06T23:47:52.892352+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 14399,
+    "attempted_at": "2026-11-06T23:47:56.030922+00:00",
+    "post": {
+      "topic": "Portrait of a Gentleman",
+      "caption": "🖼 Картина дня\n\nPortrait of a Gentleman\nAlfred Thomas Agate · ca. 1835\n\nВыберите два участка, между которыми взгляд движется сам. Из них можно собрать небольшую зарисовку.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/DP168874.jpg",
+        "https://images.metmuseum.org/CRDImages/ad/original/DP168874b.jpg",
+        "https://images.metmuseum.org/CRDImages/ad/original/DP168873.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/14399",
+      "object_id": 14399,
+      "rubric": "painting",
+      "angle": 4,
+      "subject": "portrait",
+      "creator": "alfred thomas agate",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP168874.jpg",
+      "work_key": "alfred thomas agate|portrait of a gentleman"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "149340829f33cdc5d637c31ea0c44d4c86e3e2ed9aa387ff86d0343e100c2d76"
+  },
   "publications": [
     {
       "object_id": 436528,
