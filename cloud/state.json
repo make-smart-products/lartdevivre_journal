@@ -140,7 +140,60 @@
     767838
   ],
   "last_published_at": "2026-11-06T23:51:42.358238+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 739503,
+    "attempted_at": "2026-11-06T23:51:45.160821+00:00",
+    "post": {
+      "object_id": 739503,
+      "rubric": "women",
+      "topic": "Текстиль как личный архив",
+      "caption": "🎨 Текстиль как личный архив\n\nМарта А. Пейдж, лоскутное покрывало «Burgoyne Surrenders», 1852 год, хлопок. Домашняя вещь тоже может хранить историю и авторское имя. Идея для небольшого творческого проекта: собрать несколько важных для вас тканей или бумажных фрагментов в одну композицию.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/DP-13935-013.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/739503",
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-04T14:54:57.055575+00:00",
+      "photo_verified_at": "2026-11-04T14:54:57.055575+00:00",
+      "verified_object": {
+        "objectID": 739503,
+        "title": "Burgoyne Surrenders or Burgoyne Surrounded Quilt",
+        "artistDisplayName": "Martha A. Page",
+        "artistGender": "Female",
+        "objectDate": "1852",
+        "objectBeginDate": 1852,
+        "objectEndDate": 1852,
+        "artistBeginDate": "",
+        "objectName": "Quilt",
+        "classification": "",
+        "medium": "Cotton",
+        "isPublicDomain": true,
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-13935-013.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-001.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-002.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-003.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-004.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-005.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-006.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-007.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-008.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-009.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-010.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-011.jpg",
+          "https://images.metmuseum.org/CRDImages/ad/original/DP-13935-012.jpg"
+        ]
+      },
+      "catalogue_sha256": "edbfbe1f8734a7bf900c5e4f6b226b3f8d26bbc146d02a1776ccdfb1ec1c654d",
+      "creator": "martha a. page",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-13935-013.jpg",
+      "work_key": "martha a. page|burgoyne surrenders or burgoyne surrounded quilt",
+      "subject": ""
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "6d0575bd0311eee2c1b30d0af5343361c434a816c1a2407edf84360230284bce"
+  },
   "publications": [
     {
       "object_id": 436528,
