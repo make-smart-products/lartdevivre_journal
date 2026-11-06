@@ -140,33 +140,11 @@
     767838,
     739503,
     11737,
-    417602
+    417602,
+    84367
   ],
-  "last_published_at": "2026-11-06T23:51:57.180305+00:00",
-  "pending": {
-    "object_id": 84367,
-    "attempted_at": "2026-11-06T23:51:59.889815+00:00",
-    "post": {
-      "topic": "Dress",
-      "caption": "👗 История моды\n\nDress\nAmerican · 1857–59 · Шёлк\n\nРассмотрите застёжки и швы. По ним можно понять, как устроена вещь и где она держит форму.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/CI41.21.5ab_F.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/CI41.21.5ab_TQL.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/CI41.21.5ab_d.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/84367",
-      "object_id": 84367,
-      "rubric": "fashion",
-      "angle": 3,
-      "subject": "dress",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI41.21.5ab_F.jpg",
-      "work_key": "|dress"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "2f39197597c809d00ab1b6f74e98d51a36850d668bae8cb2daa5d404c61aa62b"
-  },
+  "last_published_at": "2026-11-06T23:52:03.764291+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1477,9 +1455,22 @@
       "subject": "Фотография",
       "quiz_format": "artist",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 84367,
+      "message_ids": [
+        320,
+        321,
+        322
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/84367",
+      "published_at": "2026-11-06T23:52:03.764291+00:00",
+      "rubric": "fashion",
+      "subject": "dress",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1490,7 +1481,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 51,
+      "completed": 52,
       "target": 100
     }
   },
@@ -3975,6 +3966,15 @@
       "subject": "Фотография",
       "angle": 0,
       "quiz_format": "artist"
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI41.21.5ab_F.jpg",
+      "work_key": "|dress",
+      "rubric": "fashion",
+      "subject": "dress",
+      "angle": 3
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
