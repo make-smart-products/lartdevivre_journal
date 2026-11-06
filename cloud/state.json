@@ -112,33 +112,11 @@
     652977,
     36976,
     341798,
-    436485
+    436485,
+    78760
   ],
-  "last_published_at": "2026-11-06T23:49:12.054344+00:00",
-  "pending": {
-    "object_id": 78760,
-    "attempted_at": "2026-11-06T23:49:15.047217+00:00",
-    "post": {
-      "topic": "Handbook of Fashionable Cuisine for the Epicures of Edo (Edo ryūkō ryōri tsū taizen) 江戸流行料理通大全; 料理通初編&二編",
-      "caption": "📚 Книги, кино и визуальные истории\n\nHandbook of Fashionable Cuisine for the Epicures of Edo (Edo ryūkō ryōri tsū taizen) 江戸流行料理通大全; 料理通初編&二編\nKuwagata Keisai 鍬形蕙斎 · ca. 1822–34\n\nОт текста к кадру: какие решения художника меняют ваше представление о знакомой истории?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/as/web-large/2013_870_47_crd.jpg",
-        "https://images.metmuseum.org/CRDImages/as/original/2013_870_01.jpg",
-        "https://images.metmuseum.org/CRDImages/as/original/2013_870_02.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/78760",
-      "object_id": 78760,
-      "rubric": "books",
-      "angle": 2,
-      "subject": "illustrated book",
-      "creator": "kuwagata keisai 鍬形蕙斎",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_870_47_crd.jpg",
-      "work_key": "kuwagata keisai 鍬形蕙斎|handbook of fashionable cuisine for the epicures of edo (edo ryūkō ryōri tsū taizen) 江戸流行料理通大全; 料理通初編&二編"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "af55a4d88057f55293eb65c110f694f04ebcfb7752ac430f2ae7f49d532efdd6"
-  },
+  "last_published_at": "2026-11-06T23:49:22.635131+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1123,9 +1101,22 @@
       "rubric": "painting",
       "subject": "still life",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 78760,
+      "message_ids": [
+        279,
+        280,
+        281
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/78760",
+      "published_at": "2026-11-06T23:49:22.635131+00:00",
+      "rubric": "books",
+      "subject": "illustrated book",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 12,
+  "next_rubric_index": 13,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1136,7 +1127,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 23,
+      "completed": 24,
       "target": 100
     }
   },
@@ -3368,6 +3359,15 @@
       "rubric": "painting",
       "subject": "still life",
       "angle": 1
+    },
+    {
+      "creator": "kuwagata keisai 鍬形蕙斎",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_870_47_crd.jpg",
+      "work_key": "kuwagata keisai 鍬形蕙斎|handbook of fashionable cuisine for the epicures of edo (edo ryūkō ryōri tsū taizen) 江戸流行料理通大全; 料理通初編&二編",
+      "rubric": "books",
+      "subject": "illustrated book",
+      "angle": 2
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
