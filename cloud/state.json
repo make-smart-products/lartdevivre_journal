@@ -94,52 +94,11 @@
     156594,
     437430,
     365588,
-    301976
+    301976,
+    79632
   ],
-  "last_published_at": "2026-11-06T23:47:31.601387+00:00",
-  "pending": {
-    "object_id": 79632,
-    "attempted_at": "2026-11-06T23:47:34.390950+00:00",
-    "post": {
-      "topic": "Стиль из четырёх материалов",
-      "caption": "👗 История моды\n\nСтиль из четырёх материалов\n\nШляпа около 1760–1770 годов. В её составе музей перечисляет бумагу, солому, шёлк и лён. Такой набор предлагает занятную идею для современного образа: сочетать фактуры, даже если вся палитра состоит из двух спокойных оттенков.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/DT1705.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/79632",
-      "object_id": 79632,
-      "rubric": "fashion",
-      "angle": 4,
-      "subject": "hat",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/DT1705.jpg",
-      "work_key": "|hat",
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-06T15:18:11.743869+00:00",
-      "photo_verified_at": "2026-11-06T15:18:11.743869+00:00",
-      "verified_object": {
-        "objectID": 79632,
-        "title": "Hat",
-        "artistDisplayName": "",
-        "artistGender": "",
-        "artistBeginDate": "",
-        "objectDate": "ca. 1760–70",
-        "objectBeginDate": 1755,
-        "objectEndDate": 1775,
-        "objectName": "Hat",
-        "classification": "",
-        "department": "Costume Institute",
-        "medium": "paper, straw, silk, linen",
-        "isPublicDomain": true,
-        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ci/web-large/DT1705.jpg",
-        "additionalImages": []
-      },
-      "catalogue_sha256": "5ffd8473068977406dff58e3d6e4acda4e8545478daaba5a82b65967f05af66c"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "c4d2fc12ebe29c6b5234597aea17885fd4e6bd8e7971d39f2e0d37b61cd38235"
-  },
+  "last_published_at": "2026-11-06T23:47:36.636162+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -919,9 +878,20 @@
       "subject": "Фотография",
       "quiz_format": "process",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 79632,
+      "message_ids": [
+        256
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/79632",
+      "published_at": "2026-11-06T23:47:36.636162+00:00",
+      "rubric": "fashion",
+      "subject": "hat",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 14,
+  "next_rubric_index": 15,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -932,7 +902,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 5,
+      "completed": 6,
       "target": 100
     }
   },
@@ -3003,6 +2973,15 @@
       "subject": "Фотография",
       "angle": 0,
       "quiz_format": "process"
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/DT1705.jpg",
+      "work_key": "|hat",
+      "rubric": "fashion",
+      "subject": "hat",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
