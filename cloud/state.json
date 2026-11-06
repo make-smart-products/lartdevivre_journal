@@ -83,7 +83,28 @@
     336386
   ],
   "last_published_at": "2026-11-04T16:20:32.604053+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 157913,
+    "attempted_at": "2026-11-06T00:30:28.578665+00:00",
+    "post": {
+      "topic": "Evening dress",
+      "caption": "👗 История моды\n\nEvening dress\nHouse of Worth · ca. 1880 · Шёлк\n\nРассмотрите застёжки и швы. По ним можно понять, как устроена вещь и где она держит форму.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ci/web-large/41.319a.jpg",
+        "https://images.metmuseum.org/CRDImages/ci/original/41.319_side bw.JPG"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/157913",
+      "object_id": 157913,
+      "rubric": "fashion",
+      "angle": 3,
+      "creator": "house of worth",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/41.319a.jpg",
+      "work_key": "house of worth|evening dress"
+    },
+    "batch_date": "2026-11-05",
+    "sha256": "0716d6a52b777d8fe597f487b2ba298c90afba5915f059eab5522b526ad00fc3"
+  },
   "publications": [
     {
       "object_id": 436528,
