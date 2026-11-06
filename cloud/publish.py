@@ -5,6 +5,7 @@ automatically. Only trusted, public-domain museum images are eligible.
 """
 import argparse
 import base64
+from collections import Counter
 import datetime as dt
 import hashlib
 import json
@@ -124,8 +125,8 @@ def matches_rubric(obj, rubric):
         # that a portrait is a city view; require an explicit topographical context.
         context = re.search(r"\b(view|landscape|cityscape|canal|river|bridge|street|square|piazza|palace|cathedral|temple|church|harbou?r|port|coast|bay|island|gardens?|panorama|giudecca|lagoon|quay|boulevard|tower|rooftops?|seine|arno|gion)\b", title)
         exact_place = title.strip(' []().') in places
-        portrait = re.search(r"\b(portrait|madame|mademoiselle|mrs|miss|self-portrait)\b", title)
-        return bool(visual and has_place and (context or exact_place) and not portrait)
+        unrelated = re.search(r"\b(portrait|madame|mademoiselle|mrs|miss|self-portrait|shakespeare|act \d+|scene \d+)\b", title)
+        return bool(visual and has_place and (context or exact_place) and not unrelated)
     if rubric == "books":
         return any(word in title + " " + kind for word in ("shakespeare", "tennyson", "hamlet", "king lear", "illustrated book", "theater", "theatre", "cinema"))
     if rubric == "quiz":
@@ -146,6 +147,30 @@ def content_signature(obj):
             "work_key": creator + "|" + obj.get("title", "").strip().casefold()}
 
 
+def editorial_subject(obj, rubric):
+    title = (obj.get("title") or "").casefold()
+    kind = " ".join((obj.get("objectName") or "", obj.get("classification") or "")).casefold()
+    if rubric == "travel":
+        return next((place for place in RUBRICS[rubric]["queries"]
+                     if re.search(r"\b" + re.escape(place.casefold()) + r"\b", title)), "")
+    groups = {
+        "fashion": ("dress|gown|robe", "coat|jacket", "hat", "shoe|boot", "ensemble|suit"),
+        "architecture": ("chair|table|cabinet|sofa|furniture", "interior", "capital|column|portal", "temple|church|cathedral|palace", "plan|elevation|design"),
+        "women": ("painting|watercolor", "print|drawing", "photograph", "sculpture|bust", "dress|ensemble|textile|embroidery"),
+        "painting": ("still life", "portrait", "landscape|view|river|garden", "interior"),
+        "books": ("shakespeare|hamlet|king lear", "tennyson", "theater|theatre", "cinema", "illustrated book"),
+    }
+    return next((group.split("|")[0] for group in groups.get(rubric, ())
+                 if re.search(r"\b(?:" + group + r")\b", title + " " + kind)), "")
+
+
+def record_editorial_history(state, post):
+    history = state.setdefault("recent_content", [])
+    keys = ("creator", "visual_family", "image", "work_key", "rubric", "subject", "angle", "quiz_format")
+    history.append({key: post[key] for key in keys if key in post})
+    del history[:-100]
+
+
 def diverse_enough(post, state):
     recent = state.get("recent_content", [])[-100:]
     if any(post.get("images", [None])[0] == item.get("image") for item in recent):
@@ -164,12 +189,13 @@ def diverse_enough(post, state):
 
 def quiz_medium(obj):
     kind = (obj.get("objectName", "") + " " + obj.get("classification", "")).casefold()
-    for words, answer in [(("photograph",), "Фотография"), (("painting",), "Живопись"),
-                          (("print", "engraving", "etching"), "Печатная графика"),
-                          (("sculpture", "bust"), "Скульптура")]:
-        if any(word in kind for word in words):
-            return answer
-    return None
+    if re.search(r"\bor\b|\?", kind) or re.search(r"\bpossibly\b", obj.get("title", "").casefold()):
+        return None
+    groups = [(("photograph",), "Фотография"), (("painting",), "Живопись"),
+              (("print", "engraving", "etching"), "Печатная графика"),
+              (("sculpture", "bust"), "Скульптура")]
+    answers = [answer for words, answer in groups if any(word in kind for word in words)]
+    return answers[0] if len(answers) == 1 else None
 
 
 def least_recent_variant(choices, recent, field, seed):
@@ -204,7 +230,7 @@ def make_quiz_question(obj, recent=()):
         century = (begin - 1) // 100 + 1
         start = max(1, century - 1)
         answer = str(century) + "-й век"
-        variants["century"] = ("В каком веке создана показанная работа?",
+        variants["century"] = ("К какому веку музей относит показанную работу?",
                                [str(value) + "-й век" for value in range(start, start + 4)], answer,
                                "Музейная датировка — " + obj.get("objectDate", "") + ". Это " + answer + ".")
     techniques = {"etching": "Офорт", "engraving": "Гравюра резцом", "lithograph": "Литография",
@@ -264,7 +290,8 @@ def make_card(obj, rubric="painting", recent=()):
                "\n\n" + prompt + "\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n" + config["tag"])
     post = {"topic": title, "caption": caption, "images": [obj["primaryImageSmall"]],
             "source_url": "https://www.metmuseum.org/art/collection/search/" + str(obj["objectID"]),
-            "object_id": obj["objectID"], "rubric": rubric, "angle": angle}
+            "object_id": obj["objectID"], "rubric": rubric, "angle": angle,
+            "subject": editorial_subject(obj, rubric)}
     post.update(content_signature(obj))
     if rubric == "quiz":
         post.update(make_quiz_question(obj, recent))
@@ -309,6 +336,9 @@ def choose_post(state, fetch=request, rubric=None):
     rubric = rubric or RUBRIC_ORDER[state.get("next_rubric_index", 0) % len(RUBRIC_ORDER)]
     used = {int(x) for x in state.get("used_object_ids", [])}
     recent = state.get("recent_content", [])
+    recent_in_rubric = [item for item in recent if item.get("rubric") == rubric][-10:]
+    subjects = Counter(item.get("subject") for item in recent_in_rubric)
+    previous_subject = recent_in_rubric[-1].get("subject") if recent_in_rubric else None
     # Prepared cards have individual editorial captions. Automatic discovery keeps
     # the channel supplied after this queue is consumed, without API subscriptions.
     for path in sorted((ROOT / "cloud" / "queue").glob("*.json")):
@@ -324,15 +354,29 @@ def choose_post(state, fetch=request, rubric=None):
             selected = [image for image in post.get("images", []) if image in approved]
             post["images"] = selected[:3] or [obj["primaryImageSmall"]]
             post["rubric"] = rubric
+            post["subject"] = editorial_subject(obj, rubric)
             post.update(content_signature(obj))
+            if rubric == "quiz" and post.get("kind") != "quiz":
+                post.update(make_quiz_question(obj, recent))
+                post["images"] = post["images"][:1]
             validate_post(post)
             if diverse_enough(post, state):
                 return post
     # Known catalogue IDs provide a small reserve when broad search is noisy.
     # Every candidate still needs live metadata, public-domain rights and a new ID.
-    for object_id in RESERVE_OBJECT_IDS.get(rubric, []):
+    catalogue_ids = list(RESERVE_OBJECT_IDS.get(rubric, []))
+    index = ROOT / "cloud" / "catalogue_candidates.json"
+    if rubric in ("travel", "women") and index.exists():
+        groups = json.loads(index.read_text(encoding="utf-8"))["rubrics"].get(rubric, {})
+        for subject in sorted(groups, key=lambda name: (subjects[name], name == previous_subject)):
+            available = [object_id for object_id in groups[subject] if object_id not in used]
+            random.Random(len(used)).shuffle(available)
+            catalogue_ids.extend(available[:6])
+    examined = set()
+    for object_id in catalogue_ids:
         if object_id in used:
             continue
+        examined.add(object_id)
         try:
             obj = fetch(MET + "/objects/" + str(object_id))
             if matches_rubric(obj, rubric):
@@ -344,8 +388,13 @@ def choose_post(state, fetch=request, rubric=None):
     queries = RUBRICS[rubric].get("queries", QUERIES)
     week = dt.datetime.now(dt.timezone.utc).date().toordinal() // 7
     start = (len(used) + week) % len(queries)
-    for offset in range(len(queries)):
-        query = queries[(start + offset) % len(queries)]
+    ordered_queries = queries[start:] + queries[:start]
+    def query_priority(query):
+        subject = editorial_subject({"title": query}, rubric) or query
+        return subjects[subject], subject == previous_subject
+
+    ordered_queries.sort(key=query_priority)
+    for query in ordered_queries:
         for offset_in_results in range(0, 300, 100):
             try:
                 params = {"hasImages": "true", "q": query, "limit": 100, "offset": offset_in_results}
@@ -354,9 +403,10 @@ def choose_post(state, fetch=request, rubric=None):
                 results = fetch(MET_SEARCH + "?" + urllib.parse.urlencode(params))
             except PublishError:
                 break
-            ids = [x for x in results.get("objectIDs", []) or [] if int(x) not in used]
+            ids = [x for x in results.get("objectIDs", []) or [] if int(x) not in used and int(x) not in examined]
             random.Random(len(used)).shuffle(ids)
             for object_id in ids[:20]:
+                examined.add(int(object_id))
                 try:
                     obj = fetch(MET + "/objects/" + str(object_id))
                     if matches_rubric(obj, rubric):
@@ -469,10 +519,8 @@ def execute_one(dry_run=False, batch_date=None):
     state.setdefault("publications", []).append({"object_id": post["object_id"], "message_ids": message_ids,
                                                "source_url": post["source_url"], "published_at": state["last_published_at"]})
     state["next_rubric_index"] = (state.get("next_rubric_index", 0) + 1) % len(RUBRIC_ORDER)
-    state["publications"][-1]["rubric"] = post["rubric"]
-    state.setdefault("recent_content", []).append({key: post[key] for key in
-        ("creator", "visual_family", "image", "work_key", "rubric", "angle", "quiz_format") if key in post})
-    state["recent_content"] = state["recent_content"][-100:]
+    state["publications"][-1].update({key: post[key] for key in ("rubric", "subject", "quiz_format") if key in post})
+    record_editorial_history(state, post)
     if batch_date:
         batch = state.setdefault("daily_batches", {}).setdefault(batch_date, {"completed": 0, "target": DAILY_TARGET})
         batch["target"] = DAILY_TARGET
@@ -492,9 +540,14 @@ def execute(dry_run=False, now=None, scheduled=False):
         token = os.environ.get("JOURNAL_GITHUB_TOKEN") or os.environ.get("GITHUB_TOKEN")
         state = StateStore(token).load() if token else json.loads((ROOT / "cloud" / "state.json").read_text(encoding="utf-8-sig"))
         audit = {}
-        for rubric in RUBRICS:
-            card = choose_post(state, rubric=rubric)
-            audit[rubric] = {"validated": True, "topic": card["topic"], "images": len(card["images"]), "kind": card.get("kind", "article")}
+        for _ in range(3):
+            for rubric in RUBRICS:
+                card = choose_post(state, rubric=rubric)
+                audit.setdefault(rubric, []).append({"validated": True, "topic": card["topic"],
+                    "images": len(card["images"]), "kind": card.get("kind", "article"),
+                    "subject": card.get("subject"), "quiz_format": card.get("quiz_format")})
+                state.setdefault("used_object_ids", []).append(card["object_id"])
+                record_editorial_history(state, card)
         return {"daily_target": DAILY_TARGET, "time_moscow": "22:30", "preview": preview, "rubrics": audit}
     if (local.hour, local.minute) < (22, 30):
         if not scheduled:

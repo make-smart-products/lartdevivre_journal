@@ -6,6 +6,9 @@ import publish
 
 
 class PublishTests(unittest.TestCase):
+    def setUp(self):
+        self.enterContext(patch.object(publish.Path, "glob", return_value=[]))
+
     def obj(self):
         return {"objectID": 123, "title": "A painting", "artistDisplayName": "An artist", "objectDate": "1874",
                 "isPublicDomain": True, "primaryImageSmall": "https://images.metmuseum.org/example.jpg", "objectName": "Painting"}

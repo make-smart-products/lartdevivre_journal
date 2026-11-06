@@ -1,0 +1,37 @@
+{
+  "topic": "Венеция с воды",
+  "caption": "🧳 Культурные путешествия\n\nВенеция с воды\n\nБернардо Беллотто нарисовал Сан-Симеоне-Пикколо со стороны Гранд-канала. Музей указывает перо и коричневые чернила поверх предварительного построения. Попробуйте сохранить этот ракурс как идею для прогулки: обойти здание и посмотреть, с какой стороны лучше читается его форма.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#КультурныеПутешествия",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/dp/web-large/DP160896.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/338190",
+  "object_id": 338190,
+  "rubric": "travel",
+  "angle": 0,
+  "subject": "Venice",
+  "creator": "bernardo bellotto",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP160896.jpg",
+  "work_key": "bernardo bellotto|san simeone piccolo, venice, seen from the grand canal",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-06T15:18:12.895489+00:00",
+  "photo_verified_at": "2026-11-06T15:18:12.895489+00:00",
+  "verified_object": {
+    "objectID": 338190,
+    "title": "San Simeone Piccolo, Venice, Seen from the Grand Canal",
+    "artistDisplayName": "Bernardo Bellotto",
+    "artistGender": "",
+    "artistBeginDate": "1722",
+    "objectDate": "1721–80",
+    "objectBeginDate": 1721,
+    "objectEndDate": 1780,
+    "objectName": "Drawing",
+    "classification": "Drawings",
+    "department": "Drawings and Prints",
+    "medium": "Pen and brown ink, over constructed outline drawing in graphite or lead and black chalk",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP160896.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "7c744606444e2c86f2048ab6454c7243b786de5003552cadb8f4569835c2535a"
+}

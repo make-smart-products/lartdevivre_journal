@@ -1,0 +1,37 @@
+{
+  "topic": "Стиль из четырёх материалов",
+  "caption": "👗 История моды\n\nСтиль из четырёх материалов\n\nШляпа около 1760–1770 годов. В её составе музей перечисляет бумагу, солому, шёлк и лён. Такой набор предлагает занятную идею для современного образа: сочетать фактуры, даже если вся палитра состоит из двух спокойных оттенков.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ИсторияМоды",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/ci/web-large/DT1705.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/79632",
+  "object_id": 79632,
+  "rubric": "fashion",
+  "angle": 4,
+  "subject": "hat",
+  "creator": "",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/ci/web-large/DT1705.jpg",
+  "work_key": "|hat",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-06T15:18:11.743869+00:00",
+  "photo_verified_at": "2026-11-06T15:18:11.743869+00:00",
+  "verified_object": {
+    "objectID": 79632,
+    "title": "Hat",
+    "artistDisplayName": "",
+    "artistGender": "",
+    "artistBeginDate": "",
+    "objectDate": "ca. 1760–70",
+    "objectBeginDate": 1755,
+    "objectEndDate": 1775,
+    "objectName": "Hat",
+    "classification": "",
+    "department": "Costume Institute",
+    "medium": "paper, straw, silk, linen",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ci/web-large/DT1705.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "5ffd8473068977406dff58e3d6e4acda4e8545478daaba5a82b65967f05af66c"
+}

@@ -2,6 +2,7 @@ import unittest
 import datetime as dt
 import hashlib
 import json
+from unittest.mock import patch
 import publish
 
 
@@ -52,6 +53,31 @@ class EditorialDiversityTests(unittest.TestCase):
         with self.assertRaises(publish.PublishError):publish.make_card(obj,'quiz')
         card=publish.make_card(self.obj(),'quiz');card['correct_option_ids']=[9]
         with self.assertRaises(publish.PublishError):publish.validate_post(card)
+
+    def test_uncertain_museum_classification_is_not_a_quiz_answer(self):
+        obj = dict(self.obj(), objectName='Sculpture or whistle', classification='Ceramics',
+                   title='Possibly a Sculpture or Whistle')
+        self.assertFalse(publish.matches_rubric(obj, 'quiz'))
+
+    def test_travel_reserve_prefers_a_less_featured_city(self):
+        catalogue = json.dumps({'rubrics': {'travel': {'Florence': [122], 'Venice': [123]}}})
+        obj = dict(self.obj(), title='View of Venice from the Grand Canal')
+        state = {'recent_content': [{'rubric': 'travel', 'subject': 'Florence'}]}
+
+        def fetch(url):
+            self.assertTrue(url.endswith('/objects/123'))
+            return obj
+
+        with patch.object(publish.Path, 'glob', return_value=[]), \
+             patch.object(publish.Path, 'exists', return_value=True), \
+             patch.object(publish.Path, 'read_text', return_value=catalogue):
+            card = publish.choose_post(state, fetch, rubric='travel')
+        self.assertEqual('Venice', card['subject'])
+
+    def test_fictional_scene_in_rome_is_not_a_travel_view(self):
+        obj = dict(self.obj(), title="Rome, Titus's Garden (Shakespeare, Act 4, Scene 1)")
+        self.assertFalse(publish.matches_rubric(obj, 'travel'))
+        self.assertTrue(publish.matches_rubric(obj, 'books'))
 
     def test_century_quiz_uses_catalogue_range_and_skips_cross_century_dates(self):
         obj=self.obj();obj.update(objectID=125,objectBeginDate=1880,objectEndDate=1890,objectDate='1880–1890')

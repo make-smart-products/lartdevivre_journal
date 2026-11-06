@@ -1,0 +1,39 @@
+{
+  "topic": "Шекспир в одном кадре",
+  "caption": "📚 Книги, кино и визуальные истории\n\nШекспир в одном кадре\n\nТомас Керк выбрал для гравюры сцену с Лавинией и Луцием из «Тита Андроника». Лист впервые издали в 1793 году и переиздали в 1852-м. Для книжного клуба: если бы эта иллюстрация стала стоп-кадром фильма, какую реплику или паузу вы поставили бы сразу после неё?\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#КнигиИКино",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/dp/web-large/DP109511.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/365588",
+  "object_id": 365588,
+  "rubric": "books",
+  "angle": 3,
+  "subject": "shakespeare",
+  "creator": "thomas kirk",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP109511.jpg",
+  "work_key": "thomas kirk|rome, titus's garden–lucius pursued by lavinia (shakespeare, titus andronicus, act 4, scene 1)",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-06T15:18:13.538171+00:00",
+  "photo_verified_at": "2026-11-06T15:18:13.538171+00:00",
+  "verified_object": {
+    "objectID": 365588,
+    "title": "Rome, Titus's Garden–Lucius Pursued by Lavinia (Shakespeare, Titus Andronicus, Act 4, Scene 1)",
+    "artistDisplayName": "Thomas Kirk",
+    "artistGender": "",
+    "artistBeginDate": "1760",
+    "objectDate": "first published 1793; reissued 1852",
+    "objectBeginDate": 1793,
+    "objectEndDate": 1852,
+    "objectName": "Print",
+    "classification": "Prints",
+    "department": "Drawings and Prints",
+    "medium": "Stipple engraving",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP109511.jpg",
+    "additionalImages": [
+      "https://images.metmuseum.org/CRDImages/dp/original/DP859577.jpg"
+    ]
+  },
+  "catalogue_sha256": "29d8c30d48c2c0dcf7886d8250be4e0868be0c6c40d161ff9a753f575f009f7a"
+}

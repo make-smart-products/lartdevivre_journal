@@ -1,0 +1,37 @@
+{
+  "topic": "Бродвей длиной в один квартал",
+  "caption": "🧳 Культурные путешествия\n\nБродвей длиной в один квартал\n\nНа литографии около 1855 года показан Бродвей между Уоррен-стрит и Рид-стрит. Попробуйте посмотреть на город как на один квартал: сравните нижние этажи и верхние линии зданий. Из такого наблюдения легко придумать тему для собственной прогулки и серии фотографий.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#КультурныеПутешествия",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/dp/web-large/49MM_599R2.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/381068",
+  "object_id": 381068,
+  "rubric": "travel",
+  "angle": 4,
+  "subject": "New York",
+  "creator": "dumcke and keil",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/dp/web-large/49MM_599R2.jpg",
+  "work_key": "dumcke and keil|broadway, new york from warren to reade street",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-06T15:18:12.479528+00:00",
+  "photo_verified_at": "2026-11-06T15:18:12.479528+00:00",
+  "verified_object": {
+    "objectID": 381068,
+    "title": "Broadway, New York from Warren to Reade Street",
+    "artistDisplayName": "Dumcke and Keil",
+    "artistGender": "",
+    "artistBeginDate": "",
+    "objectDate": "ca. 1855",
+    "objectBeginDate": 1850,
+    "objectEndDate": 1860,
+    "objectName": "Print",
+    "classification": "Prints",
+    "department": "Drawings and Prints",
+    "medium": "Lithograph with tint stones and watercolor",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/49MM_599R2.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "1280c6d042c4bec5597981b776604bf4b328174fa7ca7f25f4a04a525470aecb"
+}

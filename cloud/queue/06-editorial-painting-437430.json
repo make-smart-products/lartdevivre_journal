@@ -1,0 +1,37 @@
+{
+  "topic": "Море, написанное в мастерской",
+  "caption": "🖼 Картина дня\n\nМоре, написанное в мастерской\n\nОгюст Ренуар, «У моря», 1883 год. По версии Метрополитен-музея, художник мог посадить модель в плетёное кресло в мастерской, а берег написать по нормандским этюдам. Сравните мягкий фон и тщательно выписанное лицо. На таком контрасте можно построить и собственный портрет.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#КартинаДня",
+  "images": [
+    "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-039.jpg"
+  ],
+  "source_url": "https://www.metmuseum.org/art/collection/search/437430",
+  "object_id": 437430,
+  "rubric": "painting",
+  "angle": 0,
+  "subject": "",
+  "creator": "auguste renoir",
+  "visual_family": "",
+  "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-039.jpg",
+  "work_key": "auguste renoir|by the seashore",
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-06T15:18:13.198028+00:00",
+  "photo_verified_at": "2026-11-06T15:18:13.198028+00:00",
+  "verified_object": {
+    "objectID": 437430,
+    "title": "By the Seashore",
+    "artistDisplayName": "Auguste Renoir",
+    "artistGender": "",
+    "artistBeginDate": "1841",
+    "objectDate": "1883",
+    "objectBeginDate": 1883,
+    "objectEndDate": 1883,
+    "objectName": "Painting",
+    "classification": "Paintings",
+    "department": "European Paintings",
+    "medium": "Oil on canvas",
+    "isPublicDomain": true,
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-039.jpg",
+    "additionalImages": []
+  },
+  "catalogue_sha256": "0675a71483f97cdb2bd112994bf61a60652e26fd0596d064e0f3b75a724163b6"
+}
