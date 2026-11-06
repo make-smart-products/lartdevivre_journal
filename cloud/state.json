@@ -130,50 +130,11 @@
     11789,
     91888,
     35129,
-    400192
+    400192,
+    439405
   ],
-  "last_published_at": "2026-11-06T23:51:03.906143+00:00",
-  "pending": {
-    "object_id": 439405,
-    "attempted_at": "2026-11-06T23:51:06.981433+00:00",
-    "post": {
-      "object_id": 439405,
-      "rubric": "women",
-      "topic": "Портрет на семи листах",
-      "caption": "🎨 Портрет на семи листах\n\nАделаида Лабиль-Гиар, портрет мадам Елизаветы, около 1787 года. Основа пастели составлена из семи соединённых листов голубой бумаги, закреплённых на холсте. Необычная деталь напоминает: за цельным музейным образом часто стоят вполне материальные, сложные решения художницы.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ep/web-large/DP161657.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/439405",
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-04T14:54:54.170699+00:00",
-      "photo_verified_at": "2026-11-04T14:54:54.170699+00:00",
-      "verified_object": {
-        "objectID": 439405,
-        "title": "Madame Elisabeth de France (1764–1794)",
-        "artistDisplayName": "Adélaïde Labille-Guiard",
-        "artistGender": "Female",
-        "objectDate": "ca. 1787",
-        "objectBeginDate": 1782,
-        "objectEndDate": 1792,
-        "artistBeginDate": "1749",
-        "objectName": "Painting, drawing",
-        "classification": "Pastels & Oil Sketches on Paper",
-        "medium": "Pastel on blue paper, seven sheets joined, laid down on canvas",
-        "isPublicDomain": true,
-        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161657.jpg",
-        "additionalImages": []
-      },
-      "catalogue_sha256": "deb250c396bf789a90fcdeb3c7b63e1ebdfd573285105a1f275a3faaa8bdb54b",
-      "creator": "adélaïde labille-guiard",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161657.jpg",
-      "work_key": "adélaïde labille-guiard|madame elisabeth de france (1764–1794)",
-      "subject": "painting"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "4e06a5905d9bb41e34289257a5b0142f29aa550ff4268035e500f62fbd950aa2"
-  },
+  "last_published_at": "2026-11-06T23:51:08.770504+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1370,9 +1331,20 @@
       "rubric": "travel",
       "subject": "Rome",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 439405,
+      "message_ids": [
+        308
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/439405",
+      "published_at": "2026-11-06T23:51:08.770504+00:00",
+      "rubric": "women",
+      "subject": "painting",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 10,
+  "next_rubric_index": 11,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1383,7 +1355,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 41,
+      "completed": 42,
       "target": 100
     }
   },
@@ -3778,6 +3750,14 @@
       "rubric": "travel",
       "subject": "Rome",
       "angle": 2
+    },
+    {
+      "creator": "adélaïde labille-guiard",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161657.jpg",
+      "work_key": "adélaïde labille-guiard|madame elisabeth de france (1764–1794)",
+      "rubric": "women",
+      "subject": "painting"
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
