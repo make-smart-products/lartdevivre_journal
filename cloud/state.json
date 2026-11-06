@@ -87,31 +87,11 @@
     11156,
     437423,
     408100,
-    923804
+    923804,
+    103692
   ],
-  "last_published_at": "2026-11-06T00:31:00.850187+00:00",
-  "pending": {
-    "object_id": 103692,
-    "attempted_at": "2026-11-06T00:31:03.470901+00:00",
-    "post": {
-      "topic": "Robe",
-      "caption": "👗 История моды\n\nRobe\nAmerican · ca. 1805 · Лён\n\nСохраните как вдохновение для сочетания фактур — без необходимости повторять исторический наряд.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/CI37.45.68_F.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/CI37.45.68_B.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/103692",
-      "object_id": 103692,
-      "rubric": "fashion",
-      "angle": 2,
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI37.45.68_F.jpg",
-      "work_key": "|robe"
-    },
-    "batch_date": "2026-11-05",
-    "sha256": "c9a8ca8b955fe59c8083d12326c553c81ddc01fc712602584404351d1466fe96"
-  },
+  "last_published_at": "2026-11-06T00:31:06.479795+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -812,16 +792,27 @@
       "published_at": "2026-11-06T00:31:00.850187+00:00",
       "rubric": "quiz",
       "batch_date": "2026-11-05"
+    },
+    {
+      "object_id": 103692,
+      "message_ids": [
+        246,
+        247
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/103692",
+      "published_at": "2026-11-06T00:31:06.479795+00:00",
+      "rubric": "fashion",
+      "batch_date": "2026-11-05"
     }
   ],
-  "next_rubric_index": 7,
+  "next_rubric_index": 8,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
       "target": 15
     },
     "2026-11-05": {
-      "completed": 7,
+      "completed": 8,
       "target": 100
     }
   },
@@ -2831,6 +2822,14 @@
       "rubric": "quiz",
       "angle": 0,
       "quiz_format": "century"
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI37.45.68_F.jpg",
+      "work_key": "|robe",
+      "rubric": "fashion",
+      "angle": 2
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
