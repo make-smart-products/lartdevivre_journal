@@ -100,7 +100,49 @@
     381068
   ],
   "last_published_at": "2026-11-06T23:47:47.574593+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 158731,
+    "attempted_at": "2026-11-06T23:47:50.331802+00:00",
+    "post": {
+      "object_id": 158731,
+      "rubric": "women",
+      "topic": "Женщины, создававшие одежду",
+      "caption": "🎨 Женщины, создававшие одежду\n\nКэтрин Донован, ансамбль 1900–1903 годов из шёлка и льна. Смотрим на костюм через имя его создательницы: за одеждой стоит работа с материалом и формой. Идея для личного гардероба — оценивать не только эффектный образ, но и то, как устроена сама вещь.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ci/web-large/65.184.6a-b_CP4.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/158731",
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-04T15:02:36.583327+00:00",
+      "photo_verified_at": "2026-11-04T15:02:36.583327+00:00",
+      "verified_object": {
+        "objectID": 158731,
+        "title": "Ensemble",
+        "artistDisplayName": "Catherine Donovan",
+        "artistGender": "Female",
+        "objectDate": "1900–1903",
+        "objectBeginDate": 1900,
+        "objectEndDate": 1903,
+        "artistBeginDate": "1826",
+        "objectName": "Ensemble",
+        "classification": "",
+        "medium": "silk, linen",
+        "isPublicDomain": true,
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ci/web-large/65.184.6a-b_CP4.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ci/original/65.184.6a,c_CP4.jpg"
+        ]
+      },
+      "catalogue_sha256": "4fa6ce8f09b29895d87a2d10e609e0f16f187d32bf56d7693b125958121cebb1",
+      "creator": "catherine donovan",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/65.184.6a-b_CP4.jpg",
+      "work_key": "catherine donovan|ensemble",
+      "subject": "dress"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "5a7719d165822dc7a46a22779f331084a062669ed7f44412eb6b22c0d2ec2832"
+  },
   "publications": [
     {
       "object_id": 436528,
