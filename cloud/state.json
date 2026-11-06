@@ -139,44 +139,11 @@
     417971,
     767838,
     739503,
-    11737
+    11737,
+    417602
   ],
-  "last_published_at": "2026-11-06T23:51:52.042129+00:00",
-  "pending": {
-    "object_id": 417602,
-    "attempted_at": "2026-11-06T23:51:54.999898+00:00",
-    "post": {
-      "topic": "Daisy Murdoch, from the Actors and Actresses series (N45, Type 8) for Virginia Brights Cigarettes",
-      "caption": "❓ Визуальная викторина\n\nDaisy Murdoch, from the Actors and Actresses series (N45, Type 8) for Virginia Brights Cigarettes\nAllen & Ginter · ca. 1888\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP831577.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/417602",
-      "object_id": 417602,
-      "rubric": "quiz",
-      "angle": 0,
-      "subject": "Фотография",
-      "creator": "allen & ginter",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP831577.jpg",
-      "work_key": "allen & ginter|daisy murdoch, from the actors and actresses series (n45, type 8) for virginia brights cigarettes",
-      "kind": "quiz",
-      "quiz_format": "artist",
-      "question": "Кто автор показанной работы?",
-      "options": [
-        "Albrecht Dürer",
-        "Allen & Ginter",
-        "Mary Cassatt",
-        "Edgar Degas"
-      ],
-      "correct_option_ids": [
-        1
-      ],
-      "explanation": "Автор — Allen & Ginter."
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "a3e6fb647da61d8e9555bca30607bb72e0dc2cd3283749a500fcdca9374f2ab8"
-  },
+  "last_published_at": "2026-11-06T23:51:57.180305+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1475,9 +1442,21 @@
       "rubric": "painting",
       "subject": "still life",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 417602,
+      "message_ids": [
+        319
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/417602",
+      "published_at": "2026-11-06T23:51:57.180305+00:00",
+      "rubric": "quiz",
+      "subject": "Фотография",
+      "quiz_format": "artist",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 19,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1488,7 +1467,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 50,
+      "completed": 51,
       "target": 100
     }
   },
@@ -3963,6 +3942,16 @@
       "rubric": "painting",
       "subject": "still life",
       "angle": 4
+    },
+    {
+      "creator": "allen & ginter",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP831577.jpg",
+      "work_key": "allen & ginter|daisy murdoch, from the actors and actresses series (n45, type 8) for virginia brights cigarettes",
+      "rubric": "quiz",
+      "subject": "Фотография",
+      "angle": 0,
+      "quiz_format": "artist"
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
