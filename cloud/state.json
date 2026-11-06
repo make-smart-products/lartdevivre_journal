@@ -144,7 +144,28 @@
     84367
   ],
   "last_published_at": "2026-11-06T23:52:03.764291+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 396285,
+    "attempted_at": "2026-11-06T23:52:06.497994+00:00",
+    "post": {
+      "topic": "The New Metamorphosis, Plate 2: Fantasio at Church",
+      "caption": "🏛 Архитектура и интерьер\n\nThe New Metamorphosis, Plate 2: Fantasio at Church\nWilliam Hogarth · 1724\n\nИдея для следующей прогулки: искать ритм окон, колонн и свободных промежутков.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP824573.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/396285",
+      "object_id": 396285,
+      "rubric": "architecture",
+      "angle": 0,
+      "subject": "temple",
+      "creator": "william hogarth",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP824573.jpg",
+      "work_key": "william hogarth|the new metamorphosis, plate 2: fantasio at church"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "abd786efb7550f692831971f2ca8de03dd5dfbd77df424f76ac5c27ec6c0713b"
+  },
   "publications": [
     {
       "object_id": 436528,
