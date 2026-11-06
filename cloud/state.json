@@ -87,7 +87,29 @@
     11156
   ],
   "last_published_at": "2026-11-06T00:30:45.728260+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 437423,
+    "attempted_at": "2026-11-06T00:30:48.117208+00:00",
+    "post": {
+      "topic": "The Immaculate Conception",
+      "caption": "🖼 Картина дня\n\nThe Immaculate Conception\nGuido Reni · 1627 · Масло на холсте\n\nНа минуту прикройте самый яркий участок. Что теперь первым притягивает взгляд?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ep/web-large/DT1138.jpg",
+        "https://images.metmuseum.org/CRDImages/ep/original/LC-59_32-2.jpg",
+        "https://images.metmuseum.org/CRDImages/ep/original/LC-59_32-3.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/437423",
+      "object_id": 437423,
+      "rubric": "painting",
+      "angle": 3,
+      "creator": "guido reni",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1138.jpg",
+      "work_key": "guido reni|the immaculate conception"
+    },
+    "batch_date": "2026-11-05",
+    "sha256": "a38de46bf3b1a45931ea13b42a3f8116f40b99daf1053675d6bf7f728fc8e8e4"
+  },
   "publications": [
     {
       "object_id": 436528,
