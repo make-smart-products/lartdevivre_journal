@@ -83,49 +83,11 @@
     336386,
     157913,
     197169,
-    413353
+    413353,
+    11156
   ],
-  "last_published_at": "2026-11-06T00:30:41.826747+00:00",
-  "pending": {
-    "object_id": 11156,
-    "attempted_at": "2026-11-06T00:30:44.147511+00:00",
-    "post": {
-      "object_id": 11156,
-      "rubric": "women",
-      "topic": "Руки писателей — работа скульпторки",
-      "caption": "🎨 Руки писателей — работа скульпторки\n\nГарриет Гудхью Хосмер, соединённые руки Роберта и Элизабет Барретт Браунинг. Модель — 1853 год, бронзовый отлив выполнен позднее. Вместо парадного портрета — жест и прикосновение. Интересный повод для книжной встречи: как рассказать о двух людях через одну деталь?\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ad/web-large/DT8282.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/11156",
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-04T15:02:36.057440+00:00",
-      "photo_verified_at": "2026-11-04T15:02:36.057440+00:00",
-      "verified_object": {
-        "objectID": 11156,
-        "title": "Clasped Hands of Robert and Elizabeth Barrett Browning",
-        "artistDisplayName": "Harriet Goodhue Hosmer",
-        "artistGender": "Female",
-        "objectDate": "1853, cast after 1853",
-        "objectBeginDate": 1853,
-        "objectEndDate": 1853,
-        "artistBeginDate": "1830",
-        "objectName": "Sculpture",
-        "classification": "",
-        "medium": "Bronze",
-        "isPublicDomain": true,
-        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT8282.jpg",
-        "additionalImages": []
-      },
-      "catalogue_sha256": "e0e725e655cf38b2a0860a3561ab406d3b0909f1872230a5ee27d12e22c35974",
-      "creator": "harriet goodhue hosmer",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT8282.jpg",
-      "work_key": "harriet goodhue hosmer|clasped hands of robert and elizabeth barrett browning"
-    },
-    "batch_date": "2026-11-05",
-    "sha256": "863aaf2a1a72697107200719b186461c98dfdbc1a668a34a4d198eb2e715ff3c"
-  },
+  "last_published_at": "2026-11-06T00:30:45.728260+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -784,16 +746,26 @@
       "published_at": "2026-11-06T00:30:41.826747+00:00",
       "rubric": "travel",
       "batch_date": "2026-11-05"
+    },
+    {
+      "object_id": 11156,
+      "message_ids": [
+        240
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/11156",
+      "published_at": "2026-11-06T00:30:45.728260+00:00",
+      "rubric": "women",
+      "batch_date": "2026-11-05"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 4,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
       "target": 15
     },
     "2026-11-05": {
-      "completed": 3,
+      "completed": 4,
       "target": 100
     }
   },
@@ -2771,6 +2743,13 @@
       "work_key": "stefano della bella|another view of amsterdam (autre vue d'amsterdam), from \"views of seaports\" (vues de ports de mar)",
       "rubric": "travel",
       "angle": 3
+    },
+    {
+      "creator": "harriet goodhue hosmer",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT8282.jpg",
+      "work_key": "harriet goodhue hosmer|clasped hands of robert and elizabeth barrett browning",
+      "rubric": "women"
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
