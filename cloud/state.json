@@ -151,7 +151,28 @@
     86433
   ],
   "last_published_at": "2026-11-06T23:52:42.055617+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 348609,
+    "attempted_at": "2026-11-06T23:52:44.834691+00:00",
+    "post": {
+      "topic": "Perspective Sketch for a Palace Interior",
+      "caption": "🏛 Архитектура и интерьер\n\nPerspective Sketch for a Palace Interior\nGiuseppe Galli Bibiena · 18th century\n\nПредставьте этот предмет или фрагмент в обычной комнате. Что изменится, если перенести его в другой угол?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Архитектура",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP808021.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/348609",
+      "object_id": 348609,
+      "rubric": "architecture",
+      "angle": 4,
+      "subject": "interior",
+      "creator": "giuseppe galli bibiena",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP808021.jpg",
+      "work_key": "giuseppe galli bibiena|perspective sketch for a palace interior"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "1a8805b7c57f255d8598594ea965d2d847c175acdac74803cf7dc85cb0388d5b"
+  },
   "publications": [
     {
       "object_id": 436528,
