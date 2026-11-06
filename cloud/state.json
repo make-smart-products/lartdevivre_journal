@@ -111,31 +111,11 @@
     173749,
     652977,
     36976,
-    341798
+    341798,
+    436485
   ],
-  "last_published_at": "2026-11-06T23:49:06.518760+00:00",
-  "pending": {
-    "object_id": 436485,
-    "attempted_at": "2026-11-06T23:49:10.007148+00:00",
-    "post": {
-      "topic": "Vanitas Still Life",
-      "caption": "🖼 Картина дня\n\nVanitas Still Life\nJacques de Gheyn II · 1603 · Масло на дереве\n\nМожно сохранить ради палитры, необычного ракурса или просто настроения — свой выбор не нужно оправдывать.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ep/web-large/DP143209.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/436485",
-      "object_id": 436485,
-      "rubric": "painting",
-      "angle": 1,
-      "subject": "still life",
-      "creator": "jacques de gheyn ii",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143209.jpg",
-      "work_key": "jacques de gheyn ii|vanitas still life"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "ddf422611af66b63ba93b4832111d182a59712dd7818b6cfb3b760579a57ee2b"
-  },
+  "last_published_at": "2026-11-06T23:49:12.054344+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1109,9 +1089,20 @@
       "rubric": "women",
       "subject": "print",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 436485,
+      "message_ids": [
+        278
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/436485",
+      "published_at": "2026-11-06T23:49:12.054344+00:00",
+      "rubric": "painting",
+      "subject": "still life",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 11,
+  "next_rubric_index": 12,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1122,7 +1113,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 22,
+      "completed": 23,
       "target": 100
     }
   },
@@ -3345,6 +3336,15 @@
       "work_key": "kate greenaway|woman and child",
       "rubric": "women",
       "subject": "print"
+    },
+    {
+      "creator": "jacques de gheyn ii",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143209.jpg",
+      "work_key": "jacques de gheyn ii|vanitas still life",
+      "rubric": "painting",
+      "subject": "still life",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
