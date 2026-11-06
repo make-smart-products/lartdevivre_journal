@@ -147,32 +147,11 @@
     816522,
     436221,
     368548,
-    440393
+    440393,
+    86433
   ],
-  "last_published_at": "2026-11-06T23:52:34.245791+00:00",
-  "pending": {
-    "object_id": 86433,
-    "attempted_at": "2026-11-06T23:52:37.038581+00:00",
-    "post": {
-      "topic": "Bathing suit",
-      "caption": "👗 История моды\n\nBathing suit\nAmerican · 1876–80\n\nСилуэт или отделка? Что вам хотелось бы позаимствовать у этого предмета, сохранив собственный стиль?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#ИсторияМоды",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ci/web-large/CI50.77.2a–c_F.jpg",
-        "https://images.metmuseum.org/CRDImages/ci/original/CI50.77.2c_F.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/86433",
-      "object_id": 86433,
-      "rubric": "fashion",
-      "angle": 1,
-      "subject": "ensemble",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI50.77.2a–c_F.jpg",
-      "work_key": "|bathing suit"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "10996f7ca17c263f505ec7267c206673ca9ea95fbb61053d3745039646480d8b"
-  },
+  "last_published_at": "2026-11-06T23:52:42.055617+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1563,9 +1542,21 @@
       "subject": "Живопись",
       "quiz_format": "century",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 86433,
+      "message_ids": [
+        329,
+        330
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/86433",
+      "published_at": "2026-11-06T23:52:42.055617+00:00",
+      "rubric": "fashion",
+      "subject": "ensemble",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 7,
+  "next_rubric_index": 8,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1576,7 +1567,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 58,
+      "completed": 59,
       "target": 100
     }
   },
@@ -3298,12 +3289,6 @@
   },
   "recent_content": [
     {
-      "creator": "marsden hartley (american, 1877–1943)",
-      "visual_family": "",
-      "image": "https://www.artic.edu/iiif/2/9b6f838e-5424-d030-2d2f-c9380830d631/full/843,/0/default.jpg",
-      "work_key": "marsden hartley (american, 1877–1943)|🎨 палитра для пасмурного дня"
-    },
-    {
       "creator": "edmonia lewis",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP371841.jpg",
@@ -4088,6 +4073,15 @@
       "subject": "Живопись",
       "angle": 0,
       "quiz_format": "century"
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI50.77.2a–c_F.jpg",
+      "work_key": "|bathing suit",
+      "rubric": "fashion",
+      "subject": "ensemble",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
