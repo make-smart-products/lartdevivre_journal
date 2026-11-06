@@ -108,7 +108,28 @@
     40987
   ],
   "last_published_at": "2026-11-06T23:48:34.805707+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 788396,
+    "attempted_at": "2026-11-06T23:48:37.655707+00:00",
+    "post": {
+      "topic": "Scene in a New Pantomime to be Performed at the Theatre Royal Paris",
+      "caption": "📚 Книги, кино и визуальные истории\n\nScene in a New Pantomime to be Performed at the Theatre Royal Paris\nThomas Rowlandson · April 12, 1815\n\nИдея для книжного клуба: сопоставить текст и изображение, не выбирая единственное правильное прочтение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP884216.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/788396",
+      "object_id": 788396,
+      "rubric": "books",
+      "angle": 1,
+      "subject": "theater",
+      "creator": "thomas rowlandson",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP884216.jpg",
+      "work_key": "thomas rowlandson|scene in a new pantomime to be performed at the theatre royal paris"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "18267d3ac449a4d0a41f790a575075544494d83e8b3835734d730ca049f407f3"
+  },
   "publications": [
     {
       "object_id": 436528,
