@@ -146,7 +146,49 @@
     813060
   ],
   "last_published_at": "2026-11-06T23:52:14.005711+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 816522,
+    "attempted_at": "2026-11-06T23:52:16.824345+00:00",
+    "post": {
+      "object_id": 816522,
+      "rubric": "women",
+      "topic": "Цветы с авторской подписью",
+      "caption": "🎨 Цветы с авторской подписью\n\nОрсола Маддалена Качча, «Цветы в гротескной вазе», около 1635 года, масло на холсте. Встреча с художницей XVII века может начаться с обычного интереса к букетам. Сохраните работу как отдельную страницу в своей коллекции цветочных образов — рядом с собственными фотографиями и рисунками.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19714-001.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/816522",
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-04T14:55:00.390267+00:00",
+      "photo_verified_at": "2026-11-04T14:55:00.390267+00:00",
+      "verified_object": {
+        "objectID": 816522,
+        "title": "Flowers in a Grotesque Vase",
+        "artistDisplayName": "Orsola Maddalena Caccia",
+        "artistGender": "Female",
+        "objectDate": "ca. 1635",
+        "objectBeginDate": 1630,
+        "objectEndDate": 1640,
+        "artistBeginDate": "1596",
+        "objectName": "Painting",
+        "classification": "Paintings",
+        "medium": "Oil on canvas",
+        "isPublicDomain": true,
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19714-001.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ep/original/DP-19714-002.jpg"
+        ]
+      },
+      "catalogue_sha256": "77bea694eb37fc473640782a4c2ed473d46c24e8a0b2ca19ec303e932c7d5a60",
+      "creator": "orsola maddalena caccia",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19714-001.jpg",
+      "work_key": "orsola maddalena caccia|flowers in a grotesque vase",
+      "subject": "painting"
+    },
+    "batch_date": "2026-11-06",
+    "sha256": "daaa7b85226953bb5b04a70c9e79d72372e0e3a48dd2ccac66019fe73fb66a40"
+  },
   "publications": [
     {
       "object_id": 436528,
