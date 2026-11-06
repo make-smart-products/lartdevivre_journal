@@ -110,50 +110,11 @@
     309909,
     173749,
     652977,
-    36976
+    36976,
+    341798
   ],
-  "last_published_at": "2026-11-06T23:49:01.577700+00:00",
-  "pending": {
-    "object_id": 341798,
-    "attempted_at": "2026-11-06T23:49:04.343266+00:00",
-    "post": {
-      "object_id": 341798,
-      "rubric": "women",
-      "topic": "Когда рисунку достаточно малого",
-      "caption": "🎨 Когда рисунку достаточно малого\n\nКейт Гринуэй, «Женщина и ребёнок», 1883 год: графит с небольшими акварельными акцентами. Не всякая идея требует большого полотна или дорогих материалов. Попробуйте оставить на странице один рисунок и один цветовой акцент — как короткую заметку о своём дне.\n\nИсточник и фото: Метрополитен-музей · Public Domain.\n#ЖенщиныВИскусстве",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP804415.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/341798",
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-04T14:54:54.031916+00:00",
-      "photo_verified_at": "2026-11-04T14:54:54.031916+00:00",
-      "verified_object": {
-        "objectID": 341798,
-        "title": "Woman and Child",
-        "artistDisplayName": "Kate Greenaway",
-        "artistGender": "Female",
-        "objectDate": "1883",
-        "objectBeginDate": 1883,
-        "objectEndDate": 1883,
-        "artistBeginDate": "1846",
-        "objectName": "Drawing",
-        "classification": "Drawings",
-        "medium": "Graphite with touches of watercolor",
-        "isPublicDomain": true,
-        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP804415.jpg",
-        "additionalImages": []
-      },
-      "catalogue_sha256": "db92a68fc42dbf8569fae1c21e6b9b043ba093e58a42e26e06299737967ef83c",
-      "creator": "kate greenaway",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP804415.jpg",
-      "work_key": "kate greenaway|woman and child",
-      "subject": "print"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "4068e9e93ce7f0d467d367c1fb853390794afc32ad185f13cfe27ce80099d61e"
-  },
+  "last_published_at": "2026-11-06T23:49:06.518760+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1116,9 +1077,20 @@
       "rubric": "travel",
       "subject": "Kyoto",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": 341798,
+      "message_ids": [
+        277
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/341798",
+      "published_at": "2026-11-06T23:49:06.518760+00:00",
+      "rubric": "women",
+      "subject": "print",
+      "batch_date": "2026-11-06"
     }
   ],
-  "next_rubric_index": 10,
+  "next_rubric_index": 11,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1129,7 +1101,7 @@
       "target": 100
     },
     "2026-11-06": {
-      "completed": 21,
+      "completed": 22,
       "target": 100
     }
   },
@@ -3344,6 +3316,14 @@
       "rubric": "travel",
       "subject": "Kyoto",
       "angle": 2
+    },
+    {
+      "creator": "kate greenaway",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP804415.jpg",
+      "work_key": "kate greenaway|woman and child",
+      "rubric": "women",
+      "subject": "print"
     }
   ],
   "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
