@@ -238,68 +238,11 @@
     -2000000013,
     -2000000026,
     410779,
-    -2000000058
+    -2000000058,
+    -2000000056
   ],
-  "last_published_at": "2026-11-07T17:10:07.675265+00:00",
-  "pending": {
-    "object_id": -2000000056,
-    "attempted_at": "2026-11-07T17:10:10.067411+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000056,
-      "rubric": "painting",
-      "topic": "NUM-100, 2025: направление цвета",
-      "caption": "🖼 Современная живопись\nДамьен Беррар · NUM-100, 2025: направление цвета\n\nКороткие цветные линии расходятся от центра по тёмной поверхности. Здесь можно наблюдать, как неподвижная живопись создаёт ощущение скорости и глубины. Попробуйте перевести взгляд с середины на край: меняются ли плотность и ритм мазков?\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Damienberrard · CC BY-SA 4.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/NUM-100_Damien-Berrard.jpg/1280px-NUM-100_Damien-Berrard.jpg"
-      ],
-      "source_url": "https://commons.wikimedia.org/wiki/File:NUM-100_Damien-Berrard.jpg",
-      "source_name": "Авторская публикация / Wikimedia Commons",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "NUM-100 Damien-Berrard.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/NUM-100_Damien-Berrard.jpg/1280px-NUM-100_Damien-Berrard.jpg",
-          "artist": "Damienberrard",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:NUM-100_Damien-Berrard.jpg",
-          "description": "NUM‑100 — Pictorial Unit of Spectralisme® (2025), Damien Berrard.",
-          "selection_key": "painting-new-damien",
-          "credit": "Own work",
-          "permission": "",
-          "date": "2025-12-01",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 376,
-          "length": 13,
-          "url": "https://commons.wikimedia.org/wiki/File:NUM-100_Damien-Berrard.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 392,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "creator": "дамьен беррар",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/NUM-100_Damien-Berrard.jpg/1280px-NUM-100_Damien-Berrard.jpg",
-      "work_key": "дамьен беррар|num-100, 2025: направление цвета",
-      "subject": "NUM-100, 2025: направление цвета",
-      "visual_family": "contemporary-painting",
-      "artwork_rights_verified": true,
-      "source_kind": "artist-original"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "65408a8d5d249d08855e436d5e2715a33a7200b11a316f53df0a124b81f76848"
-  },
+  "last_published_at": "2026-11-07T17:10:14.360109+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2716,9 +2659,20 @@
       "rubric": "women",
       "subject": "«To the Angel», 2023: танграм в живописи",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000056,
+      "message_ids": [
+        432
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:NUM-100_Damien-Berrard.jpg",
+      "published_at": "2026-11-07T17:10:14.360109+00:00",
+      "rubric": "painting",
+      "subject": "NUM-100, 2025: направление цвета",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 18,
+  "next_rubric_index": 19,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2733,7 +2687,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 87,
+      "completed": 88,
       "target": 100
     }
   },
@@ -4455,15 +4409,6 @@
   },
   "recent_content": [
     {
-      "creator": "raphaelle peale",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT64.jpg",
-      "work_key": "raphaelle peale|still life with cake",
-      "rubric": "painting",
-      "subject": "still life",
-      "angle": 4
-    },
-    {
       "creator": "allen & ginter",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP831577.jpg",
@@ -5314,6 +5259,14 @@
       "work_key": "ленка гусарикова|«to the angel», 2023: танграм в живописи",
       "rubric": "women",
       "subject": "«To the Angel», 2023: танграм в живописи"
+    },
+    {
+      "creator": "дамьен беррар",
+      "visual_family": "contemporary-painting",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/NUM-100_Damien-Berrard.jpg/1280px-NUM-100_Damien-Berrard.jpg",
+      "work_key": "дамьен беррар|num-100, 2025: направление цвета",
+      "rubric": "painting",
+      "subject": "NUM-100, 2025: направление цвета"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
