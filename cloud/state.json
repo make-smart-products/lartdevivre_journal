@@ -176,31 +176,11 @@
     400327,
     41451,
     -2000000004,
-    -2000000017
+    -2000000017,
+    811667
   ],
-  "last_published_at": "2026-11-07T17:04:20.007643+00:00",
-  "pending": {
-    "object_id": 811667,
-    "attempted_at": "2026-11-07T17:04:23.021844+00:00",
-    "post": {
-      "topic": "Second View of the Gulf of Venice",
-      "caption": "🧳 Культурные путешествия\n\nSecond View of the Gulf of Venice\nJoseph Vernet · ca. 1770–1800\n\nВдохновение для неспешной прогулки: один вид вместо длинного списка достопримечательностей. Перед вами историческое изображение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP881947.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/811667",
-      "object_id": 811667,
-      "rubric": "travel",
-      "angle": 1,
-      "subject": "Venice",
-      "creator": "joseph vernet",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP881947.jpg",
-      "work_key": "joseph vernet|second view of the gulf of venice"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "db152037984f1e8ba4870630c1e585084076a8bb9716790f340bd1f514fdb9bb"
-  },
+  "last_published_at": "2026-11-07T17:04:25.574889+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1917,9 +1897,20 @@
       "rubric": "architecture",
       "subject": "Галерея, которая одновременно мост",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 811667,
+      "message_ids": [
+        361
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/811667",
+      "published_at": "2026-11-07T17:04:25.574889+00:00",
+      "rubric": "travel",
+      "subject": "Venice",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 16,
+  "next_rubric_index": 17,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1934,7 +1925,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 25,
+      "completed": 26,
       "target": 100
     }
   },
@@ -3656,12 +3647,6 @@
   },
   "recent_content": [
     {
-      "creator": "nina de garis davies",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/eg/web-large/30.4.51_EGDP013047.jpg",
-      "work_key": "nina de garis davies|ibex, tomb of amenhotep"
-    },
-    {
       "creator": "anna claypoole peale",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ad/web-large/APS6625.jpg",
@@ -4521,6 +4506,15 @@
       "work_key": "big|галерея, которая одновременно мост",
       "rubric": "architecture",
       "subject": "Галерея, которая одновременно мост"
+    },
+    {
+      "creator": "joseph vernet",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP881947.jpg",
+      "work_key": "joseph vernet|second view of the gulf of venice",
+      "rubric": "travel",
+      "subject": "Venice",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
