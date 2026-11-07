@@ -236,31 +236,11 @@
     642941,
     419052,
     -2000000013,
-    -2000000026
+    -2000000026,
+    410779
   ],
-  "last_published_at": "2026-11-07T17:09:57.033563+00:00",
-  "pending": {
-    "object_id": 410779,
-    "attempted_at": "2026-11-07T17:09:59.434429+00:00",
-    "post": {
-      "topic": "Interior of the church of San Lorenzo in Florence, five pillars, each with a large figure of death on a pedestal, ten hooded figures with staffs in foreground, two altars in the background, cartouches containing female figures above, from \"Ceremonies for the Funeral of Emperor Ferdinand II\" (Funérailles de l'empereur Ferdinand II)",
-      "caption": "🧳 Культурные путешествия\n\nInterior of the church of San Lorenzo in Florence, five pillars, each with a large figure of death on a pedestal, ten hooded figures with staffs in foreground, two altars in the background, cartouches containing female figures above, from \"Ceremonies for the Funeral of Emperor Ferdinand II\" (Funérailles de l'empereur Ferdinand II)\nStefano della Bella · 1637\n\nВдохновение для неспешной прогулки: один вид вместо длинного списка достопримечательностей. Перед вами историческое изображение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP833264.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/410779",
-      "object_id": 410779,
-      "rubric": "travel",
-      "angle": 1,
-      "subject": "Florence",
-      "creator": "stefano della bella",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP833264.jpg",
-      "work_key": "stefano della bella|interior of the church of san lorenzo in florence, five pillars, each with a large figure of death on a pedestal, ten hooded figures with staffs in foreground, two altars in the background, cartouches containing female figures above, from \"ceremonies for the funeral of emperor ferdinand ii\" (funérailles de l'empereur ferdinand ii)"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "df9d8ad94e935bc90293d43eecda4fc4df524d0bee3349a05840ce8db015d53c"
-  },
+  "last_published_at": "2026-11-07T17:10:02.358423+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2655,9 +2635,20 @@
       "rubric": "architecture",
       "subject": "Музей как городской экран",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 410779,
+      "message_ids": [
+        430
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/410779",
+      "published_at": "2026-11-07T17:10:02.358423+00:00",
+      "rubric": "travel",
+      "subject": "Florence",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 16,
+  "next_rubric_index": 17,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2672,7 +2663,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 85,
+      "completed": 86,
       "target": 100
     }
   },
@@ -4394,15 +4385,6 @@
   },
   "recent_content": [
     {
-      "creator": "karl johan lindström",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP878278.jpg",
-      "work_key": "karl johan lindström|reali lotti, no. 16, strada toledo, naples: people and carriages on the street walking through the rain",
-      "rubric": "travel",
-      "subject": "Naples",
-      "angle": 3
-    },
-    {
       "creator": "martha a. page",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-13935-013.jpg",
@@ -5253,6 +5235,15 @@
       "work_key": "herzog & de meuron|музей как городской экран",
       "rubric": "architecture",
       "subject": "Музей как городской экран"
+    },
+    {
+      "creator": "stefano della bella",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP833264.jpg",
+      "work_key": "stefano della bella|interior of the church of san lorenzo in florence, five pillars, each with a large figure of death on a pedestal, ten hooded figures with staffs in foreground, two altars in the background, cartouches containing female figures above, from \"ceremonies for the funeral of emperor ferdinand ii\" (funérailles de l'empereur ferdinand ii)",
+      "rubric": "travel",
+      "subject": "Florence",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
