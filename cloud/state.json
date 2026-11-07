@@ -160,63 +160,11 @@
     381534,
     -2000000040,
     -2000000028,
-    348910
+    348910,
+    -2000000002
   ],
-  "last_published_at": "2026-11-07T17:02:57.707198+00:00",
-  "pending": {
-    "object_id": -2000000002,
-    "attempted_at": "2026-11-07T17:03:00.101193+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000002,
-      "rubric": "fashion",
-      "topic": "Слой, который меняет весь образ",
-      "caption": "👗 Современная мода\nPrada · Слой, который меняет весь образ\n\nТема Prada осень–зима 2026 — многослойность и изменение одежды в течение дня. Попробуйте оставить один выразительный слой: фактурный топ под спокойным жакетом или тонкую рубашку под трикотажем. Разная длина краёв делает даже нейтральный комплект интереснее.\n\nНа фото — Rabanne весна–лето 2025; пример многослойности, не показ Prada.\n\nИсточник: Prada\nФото: Rabanne · CC BY 3.0",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gigi_Hadid_RABANNE_Spring-Summer_25_show.jpg"
-      ],
-      "source_url": "https://www.pradagroup.com/content/dam/pradagroup/documents/2026/Febbraio/Inglese/Prada-Fall-Winter-2026-Womenswears-show-PR.pdf",
-      "source_name": "Prada",
-      "modern_year": 2026,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Gigi Hadid RABANNE Spring-Summer 25 show.jpg",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gigi_Hadid_RABANNE_Spring-Summer_25_show.jpg",
-          "artist": "Rabanne",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Gigi_Hadid_RABANNE_Spring-Summer_25_show.jpg",
-          "description": "Gigi Hadid at the RABANNE Spring-Summer 2025 Fashion show in Paris (0:24)",
-          "selection_key": "f5-1",
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 417,
-          "length": 7,
-          "url": "https://commons.wikimedia.org/wiki/File:Gigi_Hadid_RABANNE_Spring-Summer_25_show.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 427,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "creator": "prada",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gigi_Hadid_RABANNE_Spring-Summer_25_show.jpg",
-      "work_key": "prada|слой, который меняет весь образ",
-      "subject": "Слой, который меняет весь образ",
-      "visual_family": "contemporary-fashion"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "ba246b7e5191ac7e06cc7f6786d5a6ff9da91e4002e519f786c2c4d5aacd0e86"
-  },
+  "last_published_at": "2026-11-07T17:03:02.366774+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1755,9 +1703,20 @@
       "subject": "Печатная графика",
       "quiz_format": "artist",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000002,
+      "message_ids": [
+        345
+      ],
+      "source_url": "https://www.pradagroup.com/content/dam/pradagroup/documents/2026/Febbraio/Inglese/Prada-Fall-Winter-2026-Womenswears-show-PR.pdf",
+      "published_at": "2026-11-07T17:03:02.366774+00:00",
+      "rubric": "fashion",
+      "subject": "Слой, который меняет весь образ",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1772,7 +1731,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 9,
+      "completed": 10,
       "target": 100
     }
   },
@@ -3494,12 +3453,6 @@
   },
   "recent_content": [
     {
-      "creator": "nina de garis davies",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/eg/web-large/LC-30_4_43_EGDP036138.jpg",
-      "work_key": "nina de garis davies|detail from an offering procession, tomb of amenemweskhet"
-    },
-    {
       "creator": "jane simonton chapman",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ad/web-large/52024.jpg",
@@ -4319,6 +4272,14 @@
       "subject": "Печатная графика",
       "angle": 0,
       "quiz_format": "artist"
+    },
+    {
+      "creator": "prada",
+      "visual_family": "contemporary-fashion",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gigi_Hadid_RABANNE_Spring-Summer_25_show.jpg",
+      "work_key": "prada|слой, который меняет весь образ",
+      "rubric": "fashion",
+      "subject": "Слой, который меняет весь образ"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
