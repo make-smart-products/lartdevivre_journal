@@ -219,7 +219,28 @@
     -2000000023
   ],
   "last_published_at": "2026-11-07T17:08:11.199279+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 653171,
+    "attempted_at": "2026-11-07T17:08:13.819100+00:00",
+    "post": {
+      "topic": "A View of Amsterdam from the north Bank of the IJ",
+      "caption": "🧳 Культурные путешествия\n\nA View of Amsterdam from the north Bank of the IJ\nClaes Jansz. Visscher · 1611\n\nВыберите на изображении одну точку, откуда вы бы начали прогулку по этому историческому виду.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP-13372-085.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/653171",
+      "object_id": 653171,
+      "rubric": "travel",
+      "angle": 3,
+      "subject": "Amsterdam",
+      "creator": "claes jansz. visscher",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-13372-085.jpg",
+      "work_key": "claes jansz. visscher|a view of amsterdam from the north bank of the ij"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "5771c46f8e49a39cf7e968334df7ff5a9a9e1dc7458948f2ae5778f38ac2eae5"
+  },
   "publications": [
     {
       "object_id": 436528,
