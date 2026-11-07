@@ -162,7 +162,41 @@
     -2000000028
   ],
   "last_published_at": "2026-11-07T17:02:52.478471+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 348910,
+    "attempted_at": "2026-11-07T17:02:55.249032+00:00",
+    "post": {
+      "topic": "Henri de Guénégaud",
+      "caption": "❓ Визуальная викторина\n\nHenri de Guénégaud\nRobert Nanteuil · ca. 1654\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP832416.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/348910",
+      "object_id": 348910,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Печатная графика",
+      "creator": "robert nanteuil",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP832416.jpg",
+      "work_key": "robert nanteuil|henri de guénégaud",
+      "kind": "quiz",
+      "quiz_format": "artist",
+      "question": "Кто автор показанной работы?",
+      "options": [
+        "Mary Cassatt",
+        "Albrecht Dürer",
+        "Robert Nanteuil",
+        "Edgar Degas"
+      ],
+      "correct_option_ids": [
+        2
+      ],
+      "explanation": "Автор — Robert Nanteuil."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "efef3ba18d027e20499796e5d99478203e9759b4dba3edc6e538cb9f3aa03832"
+  },
   "publications": [
     {
       "object_id": 436528,
