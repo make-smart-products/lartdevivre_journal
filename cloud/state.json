@@ -151,70 +151,11 @@
     86433,
     348609,
     383421,
-    842832
+    842832,
+    -2000000027
   ],
-  "last_published_at": "2026-11-06T23:52:57.974462+00:00",
-  "pending": {
-    "object_id": -2000000027,
-    "attempted_at": "2026-11-07T17:02:09.997687+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000027,
-      "rubric": "painting",
-      "topic": "«Гермес»: свет внутри тёмной сцены",
-      "caption": "🖼 Современная живопись\nХуан Карлос Хурадо · «Гермес»: свет внутри тёмной сцены\n\nВ работе 2024 года фигуры собраны вокруг яркого центра. Сине-зелёный свет разделяет пространство на планы и задаёт движение взгляда. Попробуйте сначала рассмотреть только силуэты, затем вернуться к освещённой фигуре: композиция читается по-разному.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: ElQuitense · CC BY 4.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg/1280px-Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg"
-      ],
-      "source_url": "https://commons.wikimedia.org/wiki/File:Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg",
-      "source_name": "Авторская публикация / Wikimedia Commons",
-      "modern_year": 2024,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Hermes Juan Carlos Jurado 2024 oil on canvas.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg/1280px-Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg",
-          "artist": "ElQuitense",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg",
-          "description": "Hermes, 2024. Óleo sobre lienzo, 200 × 260 cm. Pintura del artista ecuatoriano Juan Carlos Jurado.",
-          "selection_key": "painting-2024-6",
-          "rubric": "painting",
-          "modern_year": 2024,
-          "credit": "Own work",
-          "permission": "",
-          "date": "2024",
-          "license_url": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 395,
-          "length": 10,
-          "url": "https://commons.wikimedia.org/wiki/File:Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 408,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "creator": "хуан карлос хурадо",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg/1280px-Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg",
-      "work_key": "хуан карлос хурадо|«гермес»: свет внутри тёмной сцены",
-      "subject": "«Гермес»: свет внутри тёмной сцены",
-      "visual_family": "contemporary-painting",
-      "artwork_rights_verified": true,
-      "source_kind": "artist-original"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "0bf8b1d76342d9f5b1d27f1388dda2b98d33f7018f2779cd5d66536ab10be442"
-  },
+  "last_published_at": "2026-11-07T17:02:12.186795+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1650,9 +1591,20 @@
       "rubric": "women",
       "subject": "painting",
       "batch_date": "2026-11-06"
+    },
+    {
+      "object_id": -2000000027,
+      "message_ids": [
+        334
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg",
+      "published_at": "2026-11-07T17:02:12.186795+00:00",
+      "rubric": "painting",
+      "subject": "«Гермес»: свет внутри тёмной сцены",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 11,
+  "next_rubric_index": 12,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1664,6 +1616,10 @@
     },
     "2026-11-06": {
       "completed": 62,
+      "target": 100
+    },
+    "2026-11-07": {
+      "completed": 1,
       "target": 100
     }
   },
@@ -3385,12 +3341,6 @@
   },
   "recent_content": [
     {
-      "creator": "mlle. louise",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/43.118.49_CP3.jpg",
-      "work_key": "mlle. louise|hat"
-    },
-    {
       "creator": "carl blechen (german, 1798–1840)",
       "visual_family": "",
       "image": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/843,/0/default.jpg",
@@ -4186,6 +4136,14 @@
       "work_key": "fidelia bridges|chickadee and thistle",
       "rubric": "women",
       "subject": "painting"
+    },
+    {
+      "creator": "хуан карлос хурадо",
+      "visual_family": "contemporary-painting",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg/1280px-Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg",
+      "work_key": "хуан карлос хурадо|«гермес»: свет внутри тёмной сцены",
+      "rubric": "painting",
+      "subject": "«Гермес»: свет внутри тёмной сцены"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
