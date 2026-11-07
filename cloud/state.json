@@ -193,44 +193,11 @@
     386462,
     -2000000045,
     -2000000033,
-    53815
+    53815,
+    45208
   ],
-  "last_published_at": "2026-11-07T17:06:02.946315+00:00",
-  "pending": {
-    "object_id": 45208,
-    "attempted_at": "2026-11-07T17:06:05.677561+00:00",
-    "post": {
-      "topic": "Shaka (Shakyamuni), The Historical Buddha, Descending from the Mountains",
-      "caption": "❓ Визуальная викторина\n\nShaka (Shakyamuni), The Historical Buddha, Descending from the Mountains\nJapan · 15th century\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/as/web-large/LC-18_124_11_001.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/45208",
-      "object_id": 45208,
-      "rubric": "quiz",
-      "angle": 0,
-      "subject": "Живопись",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/LC-18_124_11_001.jpg",
-      "work_key": "|shaka (shakyamuni), the historical buddha, descending from the mountains",
-      "kind": "quiz",
-      "quiz_format": "medium",
-      "question": "К какому виду искусства относится показанная работа?",
-      "options": [
-        "Живопись",
-        "Фотография",
-        "Скульптура",
-        "Печатная графика"
-      ],
-      "correct_option_ids": [
-        0
-      ],
-      "explanation": "Вид искусства в музейном каталоге — живопись. «Shaka (Shakyamuni), The Historical Buddha, Descending from the Mountains»."
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "f01123198e7069cb677610e0236a9c6bc6544d11d6b8efa993a5e4105ff3206d"
-  },
+  "last_published_at": "2026-11-07T17:06:08.324402+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2141,9 +2108,21 @@
       "rubric": "books",
       "subject": "illustrated book",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 45208,
+      "message_ids": [
+        383
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/45208",
+      "published_at": "2026-11-07T17:06:08.324402+00:00",
+      "rubric": "quiz",
+      "subject": "Живопись",
+      "quiz_format": "medium",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 13,
+  "next_rubric_index": 14,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2158,7 +2137,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 42,
+      "completed": 43,
       "target": 100
     }
   },
@@ -3880,16 +3859,6 @@
   },
   "recent_content": [
     {
-      "creator": "hall & company's photograph gallery",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP265081.jpg",
-      "work_key": "hall & company's photograph gallery|alonzo h. sterrett, late adjutant, fortieth u.s. infantry",
-      "rubric": "quiz",
-      "subject": "Фотография",
-      "angle": 0,
-      "quiz_format": "process"
-    },
-    {
       "creator": "",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ci/web-large/DT1705.jpg",
@@ -4759,6 +4728,16 @@
       "rubric": "books",
       "subject": "illustrated book",
       "angle": 1
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/LC-18_124_11_001.jpg",
+      "work_key": "|shaka (shakyamuni), the historical buddha, descending from the mountains",
+      "rubric": "quiz",
+      "subject": "Живопись",
+      "angle": 0,
+      "quiz_format": "medium"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
