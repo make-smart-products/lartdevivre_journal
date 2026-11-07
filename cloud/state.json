@@ -209,7 +209,41 @@
     707781
   ],
   "last_published_at": "2026-11-07T17:07:12.102674+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 755699,
+    "attempted_at": "2026-11-07T17:07:14.435656+00:00",
+    "post": {
+      "topic": "Stop!!!, from 'News of the day,' published in Le Charivari, June 4, 1867",
+      "caption": "❓ Визуальная викторина\n\nStop!!!, from 'News of the day,' published in Le Charivari, June 4, 1867\nHonoré Daumier · June 4, 1867\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP877687.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/755699",
+      "object_id": 755699,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Печатная графика",
+      "creator": "honoré daumier",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP877687.jpg",
+      "work_key": "honoré daumier|stop!!!, from 'news of the day,' published in le charivari, june 4, 1867",
+      "kind": "quiz",
+      "quiz_format": "century",
+      "question": "К какому веку музей относит показанную работу?",
+      "options": [
+        "20-й век",
+        "18-й век",
+        "19-й век",
+        "21-й век"
+      ],
+      "correct_option_ids": [
+        2
+      ],
+      "explanation": "Музейная датировка — June 4, 1867. Это 19-й век. «Stop!!!, from 'News of the day,' published in Le Charivari, June 4, 1867»."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "0851af82d6e686e3e378e05c5792d51475b1b73e59da3d9b7c4cb89d7466d900"
+  },
   "publications": [
     {
       "object_id": 436528,
