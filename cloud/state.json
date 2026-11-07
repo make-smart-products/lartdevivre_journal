@@ -205,31 +205,11 @@
     -2000000021,
     365393,
     -2000000047,
-    -2000000035
+    -2000000035,
+    707781
   ],
-  "last_published_at": "2026-11-07T17:07:06.902390+00:00",
-  "pending": {
-    "object_id": 707781,
-    "attempted_at": "2026-11-07T17:07:09.665657+00:00",
-    "post": {
-      "topic": "Queen Catherine, Cardinal Wolsey and Cardinal Campeius (Shakespeare, King Henry VIII, Act 3, Scene 1)",
-      "caption": "📚 Книги, кино и визуальные истории\n\nQueen Catherine, Cardinal Wolsey and Cardinal Campeius (Shakespeare, King Henry VIII, Act 3, Scene 1)\nRobert Thew · first published 1796; reissued 1852\n\nОт текста к кадру: какие решения художника меняют ваше представление о знакомой истории?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP859568.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/707781",
-      "object_id": 707781,
-      "rubric": "books",
-      "angle": 2,
-      "subject": "shakespeare",
-      "creator": "robert thew",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP859568.jpg",
-      "work_key": "robert thew|queen catherine, cardinal wolsey and cardinal campeius (shakespeare, king henry viii, act 3, scene 1)"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "0d8199058a60856e4160ab908057554aa094aa21ce56afcd572b732ee4a0e420"
-  },
+  "last_published_at": "2026-11-07T17:07:12.102674+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2274,9 +2254,20 @@
       "rubric": "painting",
       "subject": "«On the Prowl», 2021",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 707781,
+      "message_ids": [
+        395
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/707781",
+      "published_at": "2026-11-07T17:07:12.102674+00:00",
+      "rubric": "books",
+      "subject": "shakespeare",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 5,
+  "next_rubric_index": 6,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2291,7 +2282,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 54,
+      "completed": 55,
       "target": 100
     }
   },
@@ -4013,15 +4004,6 @@
   },
   "recent_content": [
     {
-      "creator": "thomas rowlandson",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP884216.jpg",
-      "work_key": "thomas rowlandson|scene in a new pantomime to be performed at the theatre royal paris",
-      "rubric": "books",
-      "subject": "theater",
-      "angle": 1
-    },
-    {
       "creator": "bongo artist",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ao/web-large/DP208351.jpg",
@@ -4886,6 +4868,15 @@
       "work_key": "блейн уайт|«on the prowl», 2021",
       "rubric": "painting",
       "subject": "«On the Prowl», 2021"
+    },
+    {
+      "creator": "robert thew",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP859568.jpg",
+      "work_key": "robert thew|queen catherine, cardinal wolsey and cardinal campeius (shakespeare, king henry viii, act 3, scene 1)",
+      "rubric": "books",
+      "subject": "shakespeare",
+      "angle": 2
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
