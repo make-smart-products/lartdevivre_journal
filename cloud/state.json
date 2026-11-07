@@ -198,7 +198,47 @@
     -2000000007
   ],
   "last_published_at": "2026-11-07T17:06:14.555786+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000020,
+    "attempted_at": "2026-11-07T17:06:17.248205+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000020,
+      "rubric": "architecture",
+      "topic": "Библиотека для разных занятий",
+      "caption": "🏛 Архитектура XXI века\nALA Architects · Библиотека для разных занятий\n\nOodi в Хельсинки открылась в 2018 году по проекту ALA Architects. Здесь чтение соседствует с мастерскими и пространствами для совместной работы. Такая библиотека помогает по-новому представить общественное место: прийти можно и за книгой, и за возможностью что-то сделать.\n\nИсточник: Официальный сайт проекта\nФото: Leonhard Lenz · CC0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Helsingin_keskustakirjasto_Oodi_2022-09-16_08.jpg/1280px-Helsingin_keskustakirjasto_Oodi_2022-09-16_08.jpg"
+      ],
+      "source_url": "https://ala.fi/work/helsinki-central-library/",
+      "source_name": "Официальный сайт проекта",
+      "modern_year": 2018,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "Helsingin keskustakirjasto Oodi 2022-09-16 08.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Helsingin_keskustakirjasto_Oodi_2022-09-16_08.jpg/1280px-Helsingin_keskustakirjasto_Oodi_2022-09-16_08.jpg",
+          "artist": "Leonhard Lenz",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Helsingin_keskustakirjasto_Oodi_2022-09-16_08.jpg",
+          "description": "Helsinki Central Library Oodi.",
+          "project": "Helsinki Central Library Oodi",
+          "selection_key": "arch-7"
+        }
+      ],
+      "caption_entities": [],
+      "creator": "ala architects",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Helsingin_keskustakirjasto_Oodi_2022-09-16_08.jpg/1280px-Helsingin_keskustakirjasto_Oodi_2022-09-16_08.jpg",
+      "work_key": "ala architects|библиотека для разных занятий",
+      "subject": "Библиотека для разных занятий",
+      "visual_family": "contemporary-architecture"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "293607b5efbb46b76aff97a7c673a1bde9253b7d5b4e79951938e7f4edea8307"
+  },
   "publications": [
     {
       "object_id": 436528,
