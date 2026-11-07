@@ -244,7 +244,63 @@
     -2000000052
   ],
   "last_published_at": "2026-11-07T17:10:24.281492+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000054,
+    "attempted_at": "2026-11-07T17:10:26.952710+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000054,
+      "rubric": "architecture",
+      "topic": "Harpa: архитектура в повседневной детали",
+      "caption": "🏛 Архитектура XXI века\nHenning Larsen · Harpa: архитектура в повседневной детали\n\nКонцертный зал Harpa в Рейкьявике открылся в 2011 году. Проект Henning Larsen известен стеклянной оболочкой, но современный интерьер можно рассматривать и в малом масштабе. На снимке — гардеробные крючки на бетонной стене: повторение, поверхность и тень создают простой выразительный ритм.\n\nИсточник: Официальный сайт проекта\nФото: Jonathan Platteau · CC BY-SA 4.0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Harpa_20.jpg/1280px-Harpa_20.jpg"
+      ],
+      "source_url": "https://www.henninglarsen.com/projects/harpa",
+      "source_name": "Официальный сайт проекта",
+      "modern_year": 2011,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "Harpa 20.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Harpa_20.jpg/1280px-Harpa_20.jpg",
+          "artist": "Jonathan Platteau",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Harpa_20.jpg",
+          "description": "Porte manteaux",
+          "selection_key": "arch-new-harpa",
+          "credit": "Own work",
+          "permission": "",
+          "date": "2023-07-31 15:22:02",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 415,
+          "length": 17,
+          "url": "https://commons.wikimedia.org/wiki/File:Harpa_20.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 435,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "creator": "henning larsen",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Harpa_20.jpg/1280px-Harpa_20.jpg",
+      "work_key": "henning larsen|harpa: архитектура в повседневной детали",
+      "subject": "Harpa: архитектура в повседневной детали",
+      "visual_family": "contemporary-architecture"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "cc0856f17dece8b97e8fd1a001b6d962ed2878d2d0ef1defbcbed50c837c7130"
+  },
   "publications": [
     {
       "object_id": 436528,
