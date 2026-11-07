@@ -212,32 +212,11 @@
     -2000000022,
     362183,
     -2000000048,
-    -2000000036
+    -2000000036,
+    357223
   ],
-  "last_published_at": "2026-11-07T17:07:47.499942+00:00",
-  "pending": {
-    "object_id": 357223,
-    "attempted_at": "2026-11-07T17:07:50.206494+00:00",
-    "post": {
-      "topic": "Design for a Court Theatre",
-      "caption": "📚 Книги, кино и визуальные истории\n\nDesign for a Court Theatre\nAnonymous, French, 18th century · 18th century\n\nДля книжного клуба: придумайте к этому изображению подпись из одной строки и сравните версии.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP808983.jpg",
-        "https://images.metmuseum.org/CRDImages/dp/original/35.73.30.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/357223",
-      "object_id": 357223,
-      "rubric": "books",
-      "angle": 3,
-      "subject": "theater",
-      "creator": "anonymous, french, 18th century",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP808983.jpg",
-      "work_key": "anonymous, french, 18th century|design for a court theatre"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "cfa3c57235ede3391a7493ac839adcac16040f8195630589760a34cd23373c85"
-  },
+  "last_published_at": "2026-11-07T17:07:54.981163+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2361,9 +2340,21 @@
       "rubric": "painting",
       "subject": "«A Passion Undivided», 2020",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 357223,
+      "message_ids": [
+        403,
+        404
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/357223",
+      "published_at": "2026-11-07T17:07:54.981163+00:00",
+      "rubric": "books",
+      "subject": "theater",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 12,
+  "next_rubric_index": 13,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2378,7 +2369,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 61,
+      "completed": 62,
       "target": 100
     }
   },
@@ -4100,15 +4091,6 @@
   },
   "recent_content": [
     {
-      "creator": "kuwagata keisai 鍬形蕙斎",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_870_47_crd.jpg",
-      "work_key": "kuwagata keisai 鍬形蕙斎|handbook of fashionable cuisine for the epicures of edo (edo ryūkō ryōri tsū taizen) 江戸流行料理通大全; 料理通初編&二編",
-      "rubric": "books",
-      "subject": "illustrated book",
-      "angle": 2
-    },
-    {
       "creator": "francesco polanzani",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP808380.jpg",
@@ -4970,6 +4952,15 @@
       "work_key": "блейн уайт|«a passion undivided», 2020",
       "rubric": "painting",
       "subject": "«A Passion Undivided», 2020"
+    },
+    {
+      "creator": "anonymous, french, 18th century",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP808983.jpg",
+      "work_key": "anonymous, french, 18th century|design for a court theatre",
+      "rubric": "books",
+      "subject": "theater",
+      "angle": 3
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
