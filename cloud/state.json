@@ -192,7 +192,29 @@
     -2000000019
   ],
   "last_published_at": "2026-11-07T17:05:32.774454+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 386462,
+    "attempted_at": "2026-11-07T17:05:35.517407+00:00",
+    "post": {
+      "topic": "A Plan of the Gallery Floor over Offices, and Two Side Walls, Queens Square, Camden, London",
+      "caption": "🧳 Культурные путешествия\n\nA Plan of the Gallery Floor over Offices, and Two Side Walls, Queens Square, Camden, London\nAnonymous, British, late 18th–early 19th century · ca. 1800\n\nСравните с образом города, который хранится в вашей памяти. Это историческая работа, а не фотография сегодняшнего маршрута.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP806363.jpg",
+        "https://images.metmuseum.org/CRDImages/dp/original/DP806364.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/386462",
+      "object_id": 386462,
+      "rubric": "travel",
+      "angle": 2,
+      "subject": "London",
+      "creator": "anonymous, british, late 18th–early 19th century",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP806363.jpg",
+      "work_key": "anonymous, british, late 18th–early 19th century|a plan of the gallery floor over offices, and two side walls, queens square, camden, london"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "d4c2d9ecdf56bb55b8314aba2d13cc201f89a45221e13d9b9cb223356eec39c5"
+  },
   "publications": [
     {
       "object_id": 436528,
