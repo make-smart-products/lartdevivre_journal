@@ -230,69 +230,11 @@
     473805,
     -2000000012,
     -2000000025,
-    361843
+    361843,
+    -2000000051
   ],
-  "last_published_at": "2026-11-07T17:09:26.919386+00:00",
-  "pending": {
-    "object_id": -2000000051,
-    "attempted_at": "2026-11-07T17:09:29.395983+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000051,
-      "rubric": "women",
-      "topic": "Художница, которую стоит знать: Симона Ли",
-      "caption": "🎨 Художницы сегодня\nСимона Ли · Художница, которую стоит знать: Симона Ли\n\nВ 2022 году Симона Ли представляла США на Венецианской биеннале с проектом «Sovereignty». Её практика расширяет разговор о том, чьи истории и образы занимают музейное пространство. Знакомство с современным искусством можно начать с одного автора и постепенно проследить разные этапы её работы.\n\nНа фото — портрет художницы.\n\nИсточник: ICA Boston\nФото: Tiffany I. Smith · CC BY-SA 4.0",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/c/c7/Simone_Leigh_2_%28cropped%29.jpg"
-      ],
-      "source_url": "https://www.icaboston.org/articles/us-pavilion-opens-simone-leigh-sovereignty/",
-      "source_name": "ICA Boston",
-      "modern_year": 2026,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Simone Leigh 2 (cropped).jpg",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Simone_Leigh_2_%28cropped%29.jpg",
-          "artist": "Tiffany I. Smith",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Simone_Leigh_2_(cropped).jpg",
-          "description": "Portrait of artist Simone Leigh by Tiffany Smith",
-          "selection_key": "profile-Simone-Leigh",
-          "rubric": "women",
-          "modern_year": 2026,
-          "profile_name": "Simone Leigh",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "image_role": "portrait"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 428,
-          "length": 16,
-          "url": "https://commons.wikimedia.org/wiki/File:Simone_Leigh_2_(cropped).jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 447,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "creator": "симона ли",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Simone_Leigh_2_%28cropped%29.jpg",
-      "work_key": "симона ли|художница, которую стоит знать: симона ли",
-      "subject": "Художница, которую стоит знать: Симона Ли",
-      "visual_family": "contemporary-women",
-      "content_kind": "artist-profile",
-      "creator_gender_verified": true
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "e0261a92a4d8ec601df8178c4652fb209d5d158e6a35347ae332a3e3f5e1c37e"
-  },
+  "last_published_at": "2026-11-07T17:09:31.623101+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2620,9 +2562,20 @@
       "rubric": "travel",
       "subject": "Venice",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000051,
+      "message_ids": [
+        424
+      ],
+      "source_url": "https://www.icaboston.org/articles/us-pavilion-opens-simone-leigh-sovereignty/",
+      "published_at": "2026-11-07T17:09:31.623101+00:00",
+      "rubric": "women",
+      "subject": "Художница, которую стоит знать: Симона Ли",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 10,
+  "next_rubric_index": 11,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2637,7 +2590,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 79,
+      "completed": 80,
       "target": 100
     }
   },
@@ -4359,14 +4312,6 @@
   },
   "recent_content": [
     {
-      "creator": "adélaïde labille-guiard",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161657.jpg",
-      "work_key": "adélaïde labille-guiard|madame elisabeth de france (1764–1794)",
-      "rubric": "women",
-      "subject": "painting"
-    },
-    {
       "creator": "paul cézanne",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20099-001.jpg",
@@ -5221,6 +5166,14 @@
       "rubric": "travel",
       "subject": "Venice",
       "angle": 0
+    },
+    {
+      "creator": "симона ли",
+      "visual_family": "contemporary-women",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Simone_Leigh_2_%28cropped%29.jpg",
+      "work_key": "симона ли|художница, которую стоит знать: симона ли",
+      "rubric": "women",
+      "subject": "Художница, которую стоит знать: Симона Ли"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
