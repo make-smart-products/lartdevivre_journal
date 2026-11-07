@@ -202,7 +202,41 @@
     -2000000034
   ],
   "last_published_at": "2026-11-07T17:06:36.451314+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 322914,
+    "attempted_at": "2026-11-07T17:06:39.143529+00:00",
+    "post": {
+      "topic": "Nude female figure",
+      "caption": "❓ Визуальная викторина\n\nNude female figure\nАвтор не указан в каталоге · ca. early 2nd millennium BCE\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/an/web-large/DP-34800-001.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/322914",
+      "object_id": 322914,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Скульптура",
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/an/web-large/DP-34800-001.jpg",
+      "work_key": "|nude female figure",
+      "kind": "quiz",
+      "quiz_format": "medium",
+      "question": "К какому виду искусства относится показанная работа?",
+      "options": [
+        "Печатная графика",
+        "Живопись",
+        "Фотография",
+        "Скульптура"
+      ],
+      "correct_option_ids": [
+        3
+      ],
+      "explanation": "Вид искусства в музейном каталоге — скульптура. «Nude female figure»."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "e684cbe37efb468ad7a0ff341602c38ec86584ee2c4cc693ba9679f4abb7e57f"
+  },
   "publications": [
     {
       "object_id": 436528,
