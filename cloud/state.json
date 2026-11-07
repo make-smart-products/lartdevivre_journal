@@ -211,7 +211,61 @@
     -2000000009
   ],
   "last_published_at": "2026-11-07T17:07:23.155876+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000022,
+    "attempted_at": "2026-11-07T17:07:25.719807+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000022,
+      "rubric": "architecture",
+      "topic": "Узор, который держит крышу",
+      "caption": "🏛 Архитектура XXI века\nShigeru Ban / Jean de Gastines · Узор, который держит крышу\n\nCentre Pompidou-Metz открылся в 2010 году. Сигэру Бан и Жан де Гастин сделали плетёную деревянную конструкцию одной из главных деталей музея. На снимке — её фрагмент изнутри. Попробуйте проследить, как отдельные линии собираются в общий рисунок.\n\nИсточник: Официальный сайт проекта\nФото: Immanuel Giel · CC BY-SA 4.0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Centre_Pompidou-Metz_10.jpg/1280px-Centre_Pompidou-Metz_10.jpg"
+      ],
+      "source_url": "https://www.centrepompidou-metz.fr/en/centre-pompidou-metz/architecture",
+      "source_name": "Официальный сайт проекта",
+      "modern_year": 2010,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "Centre Pompidou-Metz 10.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Centre_Pompidou-Metz_10.jpg/1280px-Centre_Pompidou-Metz_10.jpg",
+          "artist": "Immanuel Giel",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Centre_Pompidou-Metz_10.jpg",
+          "description": "The Centre Pompidou-Metz is a museum of modern and contemporary arts located in Metz, capital of Lorraine, France. It is a branch of Pompidou arts centre of Paris.",
+          "project": "Centre Pompidou Metz",
+          "selection_key": "arch-9",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 373,
+          "length": 13,
+          "url": "https://commons.wikimedia.org/wiki/File:Centre_Pompidou-Metz_10.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 389,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "creator": "shigeru ban / jean de gastines",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Centre_Pompidou-Metz_10.jpg/1280px-Centre_Pompidou-Metz_10.jpg",
+      "work_key": "shigeru ban / jean de gastines|узор, который держит крышу",
+      "subject": "Узор, который держит крышу",
+      "visual_family": "contemporary-architecture"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "b4c7d2df3f9775a5b08df92acaf9e121158ab575dbad1829914d687118bc4a07"
+  },
   "publications": [
     {
       "object_id": 436528,
