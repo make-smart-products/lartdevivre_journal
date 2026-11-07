@@ -234,63 +234,11 @@
     -2000000051,
     -2000000039,
     642941,
-    419052
+    419052,
+    -2000000013
   ],
-  "last_published_at": "2026-11-07T17:09:47.317131+00:00",
-  "pending": {
-    "object_id": -2000000013,
-    "attempted_at": "2026-11-07T17:09:49.733141+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000013,
-      "rubric": "fashion",
-      "topic": "Как работает один тёмный тон",
-      "caption": "👗 Современная мода\nHermes · Как работает один тёмный тон\n\nВ Hermès осень–зима 2026 тема света и тени связана с тем, как воспринимаются материалы. В однотонном образе это особенно заметно: гладкая ткань, матовые перчатки и линия плеч создают различия без нескольких цветов. Хороший повод рассмотреть фактуры поближе.\n\nНа фото — платье Wolford; иллюстрация монохромного образа, не коллекция Hermès.\n\nИсточник: Hermes\nФото: Tobias ToMar Maier · CC BY-SA 3.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Wolford_Fatal_dress_in_black_with_long_evening_gloves.jpg/1280px-Wolford_Fatal_dress_in_black_with_long_evening_gloves.jpg"
-      ],
-      "source_url": "https://www.hermes.com/uk/en/content/346141-homepagemar2026fsaftershowuken/",
-      "source_name": "Hermes",
-      "modern_year": 2026,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Wolford Fatal dress in black with long evening gloves.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Wolford_Fatal_dress_in_black_with_long_evening_gloves.jpg/1280px-Wolford_Fatal_dress_in_black_with_long_evening_gloves.jpg",
-          "artist": "Tobias ToMar Maier",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Wolford_Fatal_dress_in_black_with_long_evening_gloves.jpg",
-          "description": "Wolford Fatal dress in black with long evening gloves.",
-          "selection_key": "f-wolford",
-          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 422,
-          "length": 18,
-          "url": "https://commons.wikimedia.org/wiki/File:Wolford_Fatal_dress_in_black_with_long_evening_gloves.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 443,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/3.0/"
-        }
-      ],
-      "creator": "hermes",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Wolford_Fatal_dress_in_black_with_long_evening_gloves.jpg/1280px-Wolford_Fatal_dress_in_black_with_long_evening_gloves.jpg",
-      "work_key": "hermes|как работает один тёмный тон",
-      "subject": "Как работает один тёмный тон",
-      "visual_family": "contemporary-fashion"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "098cdb103f676599f63df94c48861b914da672626cfd180be80603b49173c8ae"
-  },
+  "last_published_at": "2026-11-07T17:09:52.483162+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2663,9 +2611,20 @@
       "subject": "Печатная графика",
       "quiz_format": "technique",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000013,
+      "message_ids": [
+        428
+      ],
+      "source_url": "https://www.hermes.com/uk/en/content/346141-homepagemar2026fsaftershowuken/",
+      "published_at": "2026-11-07T17:09:52.483162+00:00",
+      "rubric": "fashion",
+      "subject": "Как работает один тёмный тон",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 14,
+  "next_rubric_index": 15,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2680,7 +2639,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 83,
+      "completed": 84,
       "target": 100
     }
   },
@@ -4402,15 +4361,6 @@
   },
   "recent_content": [
     {
-      "creator": "house of worth",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/CI45.95.12_F.jpg",
-      "work_key": "house of worth|coat",
-      "rubric": "fashion",
-      "subject": "coat",
-      "angle": 0
-    },
-    {
       "creator": "sebald beham",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP837081.jpg",
@@ -5263,6 +5213,14 @@
       "subject": "Печатная графика",
       "angle": 0,
       "quiz_format": "technique"
+    },
+    {
+      "creator": "hermes",
+      "visual_family": "contemporary-fashion",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Wolford_Fatal_dress_in_black_with_long_evening_gloves.jpg/1280px-Wolford_Fatal_dress_in_black_with_long_evening_gloves.jpg",
+      "work_key": "hermes|как работает один тёмный тон",
+      "rubric": "fashion",
+      "subject": "Как работает один тёмный тон"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
