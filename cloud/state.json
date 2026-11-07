@@ -190,71 +190,11 @@
     403671,
     -2000000006,
     -2000000019,
-    386462
+    386462,
+    -2000000045
   ],
-  "last_published_at": "2026-11-07T17:05:41.360513+00:00",
-  "pending": {
-    "object_id": -2000000045,
-    "attempted_at": "2026-11-07T17:05:44.118200+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000045,
-      "rubric": "women",
-      "topic": "«Vom Garten», 2021: близкий пейзаж",
-      "caption": "🎨 Художницы сегодня\nКристина Сейдлова · «Vom Garten», 2021: близкий пейзаж\n\nНебольшой сад становится самостоятельным сюжетом: ступени, зелень и разноцветный забор задают движение взгляда. Для знакомства с современным рисунком необязательно начинать с громких тем. Иногда достаточно внимательно посмотреть на обычное место и заметить его собственный ритм.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: KristySeidlova · CC BY-SA 4.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg/1280px-Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg"
-      ],
-      "source_url": "https://commons.wikimedia.org/wiki/File:Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg",
-      "source_name": "Авторская публикация / Wikimedia Commons",
-      "modern_year": 2021,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Kristýna Seidlová - vom Garten.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg/1280px-Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg",
-          "artist": "KristySeidlova",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg",
-          "description": "Vom Garten.",
-          "selection_key": "women-2021-12",
-          "rubric": "women",
-          "modern_year": 2021,
-          "credit": "Own work",
-          "permission": "",
-          "date": "2021-09-08",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 421,
-          "length": 14,
-          "url": "https://commons.wikimedia.org/wiki/File:Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 438,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "creator": "кристина сейдлова",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg/1280px-Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg",
-      "work_key": "кристина сейдлова|«vom garten», 2021: близкий пейзаж",
-      "subject": "«Vom Garten», 2021: близкий пейзаж",
-      "visual_family": "contemporary-women",
-      "artwork_rights_verified": true,
-      "source_kind": "artist-original",
-      "creator_gender_verified": true
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "bb45a2539753aa370f4cfb37bf9782f573e767bf5ce75a7577d078aa846d3830"
-  },
+  "last_published_at": "2026-11-07T17:05:46.741189+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2130,9 +2070,20 @@
       "rubric": "travel",
       "subject": "London",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000045,
+      "message_ids": [
+        378
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg",
+      "published_at": "2026-11-07T17:05:46.741189+00:00",
+      "rubric": "women",
+      "subject": "«Vom Garten», 2021: близкий пейзаж",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 10,
+  "next_rubric_index": 11,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2147,7 +2098,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 39,
+      "completed": 40,
       "target": 100
     }
   },
@@ -3869,14 +3820,6 @@
   },
   "recent_content": [
     {
-      "creator": "deborah hill",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/50.145.3_CP4.jpg",
-      "work_key": "deborah hill|purse",
-      "rubric": "women",
-      "subject": ""
-    },
-    {
       "creator": "auguste renoir",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-039.jpg",
@@ -4749,6 +4692,14 @@
       "rubric": "travel",
       "subject": "London",
       "angle": 2
+    },
+    {
+      "creator": "кристина сейдлова",
+      "visual_family": "contemporary-women",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg/1280px-Krist%C3%BDna_Seidlov%C3%A1_-_vom_Garten.jpg",
+      "work_key": "кристина сейдлова|«vom garten», 2021: близкий пейзаж",
+      "rubric": "women",
+      "subject": "«Vom Garten», 2021: близкий пейзаж"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
