@@ -225,33 +225,11 @@
     -2000000024,
     392156,
     -2000000050,
-    -2000000038
+    -2000000038,
+    78676
   ],
-  "last_published_at": "2026-11-07T17:08:59.858594+00:00",
-  "pending": {
-    "object_id": 78676,
-    "attempted_at": "2026-11-07T17:09:02.354567+00:00",
-    "post": {
-      "topic": "How to Draw Landscapes Simply (Sansui ryakugashiki) 山水略画式",
-      "caption": "📚 Книги, кино и визуальные истории\n\nHow to Draw Landscapes Simply (Sansui ryakugashiki) 山水略画式\nKuwagata Keisai 鍬形蕙斎 · 1800, early spring (Kansei 12)\n\nВообразите изображение первым кадром фильма. Какой звук подошёл бы сцене?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/as/web-large/2013_774_08_crd.jpg",
-        "https://images.metmuseum.org/CRDImages/as/original/2013_774_01.jpg",
-        "https://images.metmuseum.org/CRDImages/as/original/2013_774_02.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/78676",
-      "object_id": 78676,
-      "rubric": "books",
-      "angle": 4,
-      "subject": "illustrated book",
-      "creator": "kuwagata keisai 鍬形蕙斎",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_774_08_crd.jpg",
-      "work_key": "kuwagata keisai 鍬形蕙斎|how to draw landscapes simply (sansui ryakugashiki) 山水略画式"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "8f60f08df2605952802f28fa541f6ef271c50775ccf0c36362d85a6b96a55611"
-  },
+  "last_published_at": "2026-11-07T17:09:05.166546+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2521,9 +2499,22 @@
       "rubric": "painting",
       "subject": "«Orange Hymne», 2023",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 78676,
+      "message_ids": [
+        417,
+        418,
+        419
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/78676",
+      "published_at": "2026-11-07T17:09:05.166546+00:00",
+      "rubric": "books",
+      "subject": "illustrated book",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 5,
+  "next_rubric_index": 6,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2538,7 +2529,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 74,
+      "completed": 75,
       "target": 100
     }
   },
@@ -4260,15 +4251,6 @@
   },
   "recent_content": [
     {
-      "creator": "dante gabriel rossetti",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP835731.jpg",
-      "work_key": "dante gabriel rossetti|mariana in the south (illustration for \"the palace of art\" in tennyson's poems, new york, 1903)",
-      "rubric": "books",
-      "subject": "tennyson",
-      "angle": 4
-    },
-    {
       "creator": "hiram powers",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ad/web-large/94.14.jpg",
@@ -5124,6 +5106,15 @@
       "work_key": "армин андреас пангерль|«orange hymne», 2023",
       "rubric": "painting",
       "subject": "«Orange Hymne», 2023"
+    },
+    {
+      "creator": "kuwagata keisai 鍬形蕙斎",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_774_08_crd.jpg",
+      "work_key": "kuwagata keisai 鍬形蕙斎|how to draw landscapes simply (sansui ryakugashiki) 山水略画式",
+      "rubric": "books",
+      "subject": "illustrated book",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
