@@ -229,31 +229,11 @@
     78676,
     473805,
     -2000000012,
-    -2000000025
+    -2000000025,
+    361843
   ],
-  "last_published_at": "2026-11-07T17:09:21.251972+00:00",
-  "pending": {
-    "object_id": 361843,
-    "attempted_at": "2026-11-07T17:09:23.931482+00:00",
-    "post": {
-      "topic": "Grand Canal, Venice",
-      "caption": "🧳 Культурные путешествия\n\nGrand Canal, Venice\nAnonymous, 19th century · second half 19th century\n\nИсторический образ места, не современная туристическая рекомендация. Повод узнать город через взгляд художника.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP805107.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/361843",
-      "object_id": 361843,
-      "rubric": "travel",
-      "angle": 0,
-      "subject": "Venice",
-      "creator": "anonymous, 19th century",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP805107.jpg",
-      "work_key": "anonymous, 19th century|grand canal, venice"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "005dd6dac9dbc68f8b5ec914fbcf96aee8b3bbf20cc4e5f5e1873d49809d5b60"
-  },
+  "last_published_at": "2026-11-07T17:09:26.919386+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2570,9 +2550,20 @@
       "rubric": "architecture",
       "subject": "Музей по образу розы пустыни",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 361843,
+      "message_ids": [
+        423
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/361843",
+      "published_at": "2026-11-07T17:09:26.919386+00:00",
+      "rubric": "travel",
+      "subject": "Venice",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 9,
+  "next_rubric_index": 10,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2587,7 +2578,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 78,
+      "completed": 79,
       "target": 100
     }
   },
@@ -4309,15 +4300,6 @@
   },
   "recent_content": [
     {
-      "creator": "luigi rossini",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP837543.jpg",
-      "work_key": "luigi rossini|view of nero's aqueduct, rome",
-      "rubric": "travel",
-      "subject": "Rome",
-      "angle": 2
-    },
-    {
       "creator": "adélaïde labille-guiard",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161657.jpg",
@@ -5171,6 +5153,15 @@
       "work_key": "jean nouvel|музей по образу розы пустыни",
       "rubric": "architecture",
       "subject": "Музей по образу розы пустыни"
+    },
+    {
+      "creator": "anonymous, 19th century",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP805107.jpg",
+      "work_key": "anonymous, 19th century|grand canal, venice",
+      "rubric": "travel",
+      "subject": "Venice",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
