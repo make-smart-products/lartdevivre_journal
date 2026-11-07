@@ -168,7 +168,28 @@
     -2000000029
   ],
   "last_published_at": "2026-11-07T17:03:22.930272+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 642975,
+    "attempted_at": "2026-11-07T17:03:25.466399+00:00",
+    "post": {
+      "topic": "The Lady of Shalott (from Tennyson's Poems, New York, 1903)",
+      "caption": "📚 Книги, кино и визуальные истории\n\nThe Lady of Shalott (from Tennyson's Poems, New York, 1903)\nDante Gabriel Rossetti · 1857–1903\n\nИдея для книжного клуба: сопоставить текст и изображение, не выбирая единственное правильное прочтение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP835738.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/642975",
+      "object_id": 642975,
+      "rubric": "books",
+      "angle": 1,
+      "subject": "tennyson",
+      "creator": "dante gabriel rossetti",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP835738.jpg",
+      "work_key": "dante gabriel rossetti|the lady of shalott (from tennyson's poems, new york, 1903)"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "a5078bafb4273cfb2bef3864bf2a94b7422167e8ca26127d694e99809fb48799"
+  },
   "publications": [
     {
       "object_id": 436528,
