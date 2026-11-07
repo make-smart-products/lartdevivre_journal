@@ -250,7 +250,63 @@
     437649
   ],
   "last_published_at": "2026-11-07T17:10:55.034411+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000053,
+    "attempted_at": "2026-11-07T17:10:57.675575+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000053,
+      "rubric": "fashion",
+      "topic": "Когда фактура заменяет узор",
+      "caption": "👗 Современная мода\nBottega Veneta · Когда фактура заменяет узор\n\nВ Bottega Veneta зима 2026 Луиз Троттер переосмысляет привычные формы повседневной одежды. Идея для внимательного выбора вещей — рассмотреть поверхность материала: перфорацию, переплетение, плотность. Иногда одной выразительной фактуры достаточно, чтобы простой силуэт стал интереснее.\n\nАрхивное фото Vietnam International Fashion Week, 2017; иллюстрация перфорированной ткани, не коллекция Bottega Veneta.\n\nИсточник: Bottega Veneta\nФото: Vietnam International Fashion Week · CC BY 3.0",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/42/NM_Thuy_Hanh.png"
+      ],
+      "source_url": "https://www.bottegaveneta.com/en-us/winter-2026.html",
+      "source_name": "Bottega Veneta",
+      "modern_year": 2026,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "NM Thuy Hanh.png",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/NM_Thuy_Hanh.png",
+          "artist": "Vietnam International Fashion Week",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:NM_Thuy_Hanh.png",
+          "description": "MINH HẰNG XUẤT HIỆN RẠNG RỠ GIỮA DÀN SAO HẠNG A TẠI THẢM ĐỎ VIFW SS17 SAU SCANDAL CHÈN ÉP Thuý Hạnh, ảnh chụp màn hình từ video của Vietnam International Fashion Week (screen captured from video of Vietnam International Fashion Week)",
+          "selection_key": "f-new-vietnam",
+          "credit": "Cắt xén tại (cropped from): ĐÂY (HERE)",
+          "permission": "",
+          "date": "25 tháng 04 năm 2017 (25 Apr 2017)",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 505,
+          "length": 34,
+          "url": "https://commons.wikimedia.org/wiki/File:NM_Thuy_Hanh.png"
+        },
+        {
+          "type": "text_link",
+          "offset": 542,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "creator": "bottega veneta",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/NM_Thuy_Hanh.png",
+      "work_key": "bottega veneta|когда фактура заменяет узор",
+      "subject": "Когда фактура заменяет узор",
+      "visual_family": "contemporary-fashion"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "213ef7f1d983895d7076d6f748a2274eb7d323087f5217d3a94359cbed424263"
+  },
   "publications": [
     {
       "object_id": 436528,
