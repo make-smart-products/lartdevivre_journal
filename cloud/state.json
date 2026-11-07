@@ -156,31 +156,11 @@
     78658,
     456157,
     -2000000001,
-    -2000000014
+    -2000000014,
+    381534
   ],
-  "last_published_at": "2026-11-07T17:02:36.462215+00:00",
-  "pending": {
-    "object_id": 381534,
-    "attempted_at": "2026-11-07T17:02:39.213795+00:00",
-    "post": {
-      "topic": "View of the South side of the church of Santi Giovanni e Paolo in Venice, with Verrocchio's statue of Bartolomeo Colleoni",
-      "caption": "🧳 Культурные путешествия\n\nView of the South side of the church of Santi Giovanni e Paolo in Venice, with Verrocchio's statue of Bartolomeo Colleoni\nFriedrich Nerly · 1807–78\n\nНа старом изображении города интересно сравнить масштаб зданий и пространство между ними.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP811476.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/381534",
-      "object_id": 381534,
-      "rubric": "travel",
-      "angle": 4,
-      "subject": "Venice",
-      "creator": "friedrich nerly",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP811476.jpg",
-      "work_key": "friedrich nerly|view of the south side of the church of santi giovanni e paolo in venice, with verrocchio's statue of bartolomeo colleoni"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "a5a509422b9322acd3ac151aa06d3542bb648f4b3e525dd7fced8e972aaa7690"
-  },
+  "last_published_at": "2026-11-07T17:02:42.011744+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1674,9 +1654,20 @@
       "rubric": "architecture",
       "subject": "Стеклянные паруса в парижском парке",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 381534,
+      "message_ids": [
+        341
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/381534",
+      "published_at": "2026-11-07T17:02:42.011744+00:00",
+      "rubric": "travel",
+      "subject": "Venice",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 16,
+  "next_rubric_index": 17,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1691,7 +1682,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 5,
+      "completed": 6,
       "target": 100
     }
   },
@@ -3413,12 +3404,6 @@
   },
   "recent_content": [
     {
-      "creator": "paul cezanne (french, 1839–1906)",
-      "visual_family": "",
-      "image": "https://www.artic.edu/iiif/2/96f23681-9701-a668-5c3f-6ffa951f7ecc/full/843,/0/default.jpg",
-      "work_key": "paul cezanne (french, 1839–1906)|💐 букет без идеальной симметрии"
-    },
-    {
       "creator": "julia margaret cameron",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP158290.jpg",
@@ -4227,6 +4212,15 @@
       "work_key": "frank gehry|стеклянные паруса в парижском парке",
       "rubric": "architecture",
       "subject": "Стеклянные паруса в парижском парке"
+    },
+    {
+      "creator": "friedrich nerly",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP811476.jpg",
+      "work_key": "friedrich nerly|view of the south side of the church of santi giovanni e paolo in venice, with verrocchio's statue of bartolomeo colleoni",
+      "rubric": "travel",
+      "subject": "Venice",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
