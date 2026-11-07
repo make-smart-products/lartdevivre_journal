@@ -179,7 +179,28 @@
     -2000000017
   ],
   "last_published_at": "2026-11-07T17:04:20.007643+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 811667,
+    "attempted_at": "2026-11-07T17:04:23.021844+00:00",
+    "post": {
+      "topic": "Second View of the Gulf of Venice",
+      "caption": "🧳 Культурные путешествия\n\nSecond View of the Gulf of Venice\nJoseph Vernet · ca. 1770–1800\n\nВдохновение для неспешной прогулки: один вид вместо длинного списка достопримечательностей. Перед вами историческое изображение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP881947.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/811667",
+      "object_id": 811667,
+      "rubric": "travel",
+      "angle": 1,
+      "subject": "Venice",
+      "creator": "joseph vernet",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP881947.jpg",
+      "work_key": "joseph vernet|second view of the gulf of venice"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "db152037984f1e8ba4870630c1e585084076a8bb9716790f340bd1f514fdb9bb"
+  },
   "publications": [
     {
       "object_id": 436528,
