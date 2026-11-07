@@ -197,7 +197,60 @@
     45208
   ],
   "last_published_at": "2026-11-07T17:06:08.324402+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000007,
+    "attempted_at": "2026-11-07T17:06:11.428956+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000007,
+      "rubric": "fashion",
+      "topic": "База, которую хочется повторять",
+      "caption": "👗 Современная мода\nUniqlo · База, которую хочется повторять\n\nВ женском LifeWear осень–зима 2026 можно искать идеи для повседневных сочетаний. Начните со своей базы: хорошо сидящие джинсы, однотонный верх, удобная обувь. Удачный комплект стоит сфотографировать — утром это сэкономит время на сборы.\n\nФото витрины из архива street style; иллюстрация базы, не коллекция Uniqlo.\n\nИсточник: Uniqlo\nФото: Giuseppe Milo from Lisbon, Portugal · CC BY 2.0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Street_fashion_%2814029430420%29.jpg/1280px-Street_fashion_%2814029430420%29.jpg"
+      ],
+      "source_url": "https://www.uniqlo.com/es/en/special-feature/lifewear-collection/women",
+      "source_name": "Uniqlo",
+      "modern_year": 2026,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "Street fashion (14029430420).jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Street_fashion_%2814029430420%29.jpg/1280px-Street_fashion_%2814029430420%29.jpg",
+          "artist": "Giuseppe Milo from Lisbon, Portugal",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Street_fashion_(14029430420).jpg",
+          "description": "This is a free picture released under Creative Commons Attribution 2.0 Generic. Feel free to use and share this picture but please give me credit linking my website or my Flickr account. More info about me on <a href=\" http://www.pixael.com \" rel=\"nofollow\">www.pixael.com</a>. If you like my pictures please like my Facebook page (<a href=\" https://www.facebook.com/giuseppemilophoto \" rel=\"nofollow\">www.facebook.com/giuseppemilophoto</a>) or follow me on Twitter (<a href=\" https://twitter.com/pixael_com \" rel=\"nofollow\">twitter.com/pixael_com</a>) and Instagram (<a href=\" http://instagram.com/pixael \" rel=\"nofollow\">instagram.com/pixael</a>). Thanks!",
+          "selection_key": "f7-5",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 400,
+          "length": 35,
+          "url": "https://commons.wikimedia.org/wiki/File:Street_fashion_(14029430420).jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 438,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ],
+      "creator": "uniqlo",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Street_fashion_%2814029430420%29.jpg/1280px-Street_fashion_%2814029430420%29.jpg",
+      "work_key": "uniqlo|база, которую хочется повторять",
+      "subject": "База, которую хочется повторять",
+      "visual_family": "contemporary-fashion"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "500d5ce325a2ffe1b8756c831b1a78c2184b5cdba01af18e2e8b4e2f2314324f"
+  },
   "publications": [
     {
       "object_id": 436528,
