@@ -169,31 +169,11 @@
     642975,
     418828,
     -2000000003,
-    -2000000016
+    -2000000016,
+    10492
   ],
-  "last_published_at": "2026-11-07T17:03:43.397582+00:00",
-  "pending": {
-    "object_id": 10492,
-    "attempted_at": "2026-11-07T17:03:46.001927+00:00",
-    "post": {
-      "topic": "Bay and Harbor of New York from Bedlow's Island",
-      "caption": "🧳 Культурные путешествия\n\nBay and Harbor of New York from Bedlow's Island\nEdmund C. Coates · 1864 or 1866 · Масло на холсте\n\nСравните с образом города, который хранится в вашей памяти. Это историческая работа, а не фотография сегодняшнего маршрута.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ad/web-large/ap54.90.165.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/10492",
-      "object_id": 10492,
-      "rubric": "travel",
-      "angle": 2,
-      "subject": "New York",
-      "creator": "edmund c. coates",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/ap54.90.165.jpg",
-      "work_key": "edmund c. coates|bay and harbor of new york from bedlow's island"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "373d78a6214429ee7f78b5e317ce329bfdb458cdd093e139f94a66a9cf03d98f"
-  },
+  "last_published_at": "2026-11-07T17:03:48.539388+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1832,9 +1812,20 @@
       "rubric": "architecture",
       "subject": "Новое здание поверх старого склада",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 10492,
+      "message_ids": [
+        354
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/10492",
+      "published_at": "2026-11-07T17:03:48.539388+00:00",
+      "rubric": "travel",
+      "subject": "New York",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 9,
+  "next_rubric_index": 10,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1849,7 +1840,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 18,
+      "completed": 19,
       "target": 100
     }
   },
@@ -3571,12 +3562,6 @@
   },
   "recent_content": [
     {
-      "creator": "julia margaret cameron",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP158293.jpg",
-      "work_key": "julia margaret cameron|elaine the lily - maid of astolat"
-    },
-    {
       "creator": "harriet f. burr",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ad/web-large/164823.jpg",
@@ -4418,6 +4403,15 @@
       "work_key": "herzog & de meuron|новое здание поверх старого склада",
       "rubric": "architecture",
       "subject": "Новое здание поверх старого склада"
+    },
+    {
+      "creator": "edmund c. coates",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/ap54.90.165.jpg",
+      "work_key": "edmund c. coates|bay and harbor of new york from bedlow's island",
+      "rubric": "travel",
+      "subject": "New York",
+      "angle": 2
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
