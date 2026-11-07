@@ -164,7 +164,61 @@
     -2000000002
   ],
   "last_published_at": "2026-11-07T17:03:02.366774+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000015,
+    "attempted_at": "2026-11-07T17:03:04.893278+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000015,
+      "rubric": "architecture",
+      "topic": "Музей, где свет рисует узор",
+      "caption": "🏛 Архитектура XXI века\nJean Nouvel · Музей, где свет рисует узор\n\nЛувр Абу-Даби Жана Нувеля открылся в 2017 году. Сложная структура купола пропускает свет множеством небольших пятен. Посмотрите, как рисунок продолжается на стенах и полу: здесь пространство создают не только стены, но и меняющееся освещение.\n\nИсточник: Официальный сайт проекта\nФото: Boubloub · CC BY-SA 4.0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/LouvreAD_tree.jpg/1280px-LouvreAD_tree.jpg"
+      ],
+      "source_url": "https://www.louvreabudhabi.ae/en/about-us/architecture",
+      "source_name": "Официальный сайт проекта",
+      "modern_year": 2017,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "LouvreAD tree.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/LouvreAD_tree.jpg/1280px-LouvreAD_tree.jpg",
+          "artist": "Boubloub",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:LouvreAD_tree.jpg",
+          "description": "Inside of Louvre Abu Dhabi, with art by Giuseppe Penone",
+          "project": "Louvre Abu Dhabi",
+          "selection_key": "arch-1",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 352,
+          "length": 8,
+          "url": "https://commons.wikimedia.org/wiki/File:LouvreAD_tree.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 363,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "creator": "jean nouvel",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/LouvreAD_tree.jpg/1280px-LouvreAD_tree.jpg",
+      "work_key": "jean nouvel|музей, где свет рисует узор",
+      "subject": "Музей, где свет рисует узор",
+      "visual_family": "contemporary-architecture"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "78a5ec5c2e25d46d5cde7c3a6de9e2030ab5a750acf9b3c3c8c0e7017b4ea68f"
+  },
   "publications": [
     {
       "object_id": 436528,
