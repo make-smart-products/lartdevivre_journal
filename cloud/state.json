@@ -206,44 +206,11 @@
     365393,
     -2000000047,
     -2000000035,
-    707781
+    707781,
+    755699
   ],
-  "last_published_at": "2026-11-07T17:07:12.102674+00:00",
-  "pending": {
-    "object_id": 755699,
-    "attempted_at": "2026-11-07T17:07:14.435656+00:00",
-    "post": {
-      "topic": "Stop!!!, from 'News of the day,' published in Le Charivari, June 4, 1867",
-      "caption": "❓ Визуальная викторина\n\nStop!!!, from 'News of the day,' published in Le Charivari, June 4, 1867\nHonoré Daumier · June 4, 1867\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP877687.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/755699",
-      "object_id": 755699,
-      "rubric": "quiz",
-      "angle": 0,
-      "subject": "Печатная графика",
-      "creator": "honoré daumier",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP877687.jpg",
-      "work_key": "honoré daumier|stop!!!, from 'news of the day,' published in le charivari, june 4, 1867",
-      "kind": "quiz",
-      "quiz_format": "century",
-      "question": "К какому веку музей относит показанную работу?",
-      "options": [
-        "20-й век",
-        "18-й век",
-        "19-й век",
-        "21-й век"
-      ],
-      "correct_option_ids": [
-        2
-      ],
-      "explanation": "Музейная датировка — June 4, 1867. Это 19-й век. «Stop!!!, from 'News of the day,' published in Le Charivari, June 4, 1867»."
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "0851af82d6e686e3e378e05c5792d51475b1b73e59da3d9b7c4cb89d7466d900"
-  },
+  "last_published_at": "2026-11-07T17:07:17.962283+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2299,9 +2266,21 @@
       "rubric": "books",
       "subject": "shakespeare",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 755699,
+      "message_ids": [
+        396
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/755699",
+      "published_at": "2026-11-07T17:07:17.962283+00:00",
+      "rubric": "quiz",
+      "subject": "Печатная графика",
+      "quiz_format": "century",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 6,
+  "next_rubric_index": 7,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2316,7 +2295,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 55,
+      "completed": 56,
       "target": 100
     }
   },
@@ -4038,16 +4017,6 @@
   },
   "recent_content": [
     {
-      "creator": "bongo artist",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ao/web-large/DP208351.jpg",
-      "work_key": "bongo artist|ngya (commemorative post)",
-      "rubric": "quiz",
-      "subject": "Скульптура",
-      "angle": 0,
-      "quiz_format": "artist"
-    },
-    {
       "creator": "",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ci/web-large/53.108.3a-c_CP2.jpg",
@@ -4911,6 +4880,16 @@
       "rubric": "books",
       "subject": "shakespeare",
       "angle": 2
+    },
+    {
+      "creator": "honoré daumier",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP877687.jpg",
+      "work_key": "honoré daumier|stop!!!, from 'news of the day,' published in le charivari, june 4, 1867",
+      "rubric": "quiz",
+      "subject": "Печатная графика",
+      "angle": 0,
+      "quiz_format": "century"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
