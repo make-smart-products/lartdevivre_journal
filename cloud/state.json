@@ -235,64 +235,11 @@
     -2000000039,
     642941,
     419052,
-    -2000000013
+    -2000000013,
+    -2000000026
   ],
-  "last_published_at": "2026-11-07T17:09:52.483162+00:00",
-  "pending": {
-    "object_id": -2000000026,
-    "attempted_at": "2026-11-07T17:09:54.811491+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000026,
-      "rubric": "architecture",
-      "topic": "Музей как городской экран",
-      "caption": "🏛 Архитектура XXI века\nHerzog & de Meuron · Музей как городской экран\n\nM+ в Гонконге открылся в 2021 году. Проект Herzog & de Meuron с партнёрами соединяет горизонтальный выставочный объём и вертикальную пластину. Медиафасад добавляет зданию ещё одну роль: изображение выходит из музейных залов в городское пространство.\n\nИсточник: Официальный сайт проекта\nФото: Mk2010 · CC BY 4.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/M%2B%2C_West_Kowloon_%28Hong_Kong%29.jpg/1280px-M%2B%2C_West_Kowloon_%28Hong_Kong%29.jpg"
-      ],
-      "source_url": "https://www.mplus.org.hk/en/the-building/design/",
-      "source_name": "Официальный сайт проекта",
-      "modern_year": 2021,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "M+, West Kowloon (Hong Kong).jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/M%2B%2C_West_Kowloon_%28Hong_Kong%29.jpg/1280px-M%2B%2C_West_Kowloon_%28Hong_Kong%29.jpg",
-          "artist": "Mk2010",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:M%2B,_West_Kowloon_(Hong_Kong).jpg",
-          "description": "M+, West Kowloon Cultural District, Hong Kong.",
-          "project": "M+ museum",
-          "selection_key": "arch-13",
-          "license_url": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 364,
-          "length": 6,
-          "url": "https://commons.wikimedia.org/wiki/File:M%2B,_West_Kowloon_(Hong_Kong).jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 373,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "creator": "herzog & de meuron",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/M%2B%2C_West_Kowloon_%28Hong_Kong%29.jpg/1280px-M%2B%2C_West_Kowloon_%28Hong_Kong%29.jpg",
-      "work_key": "herzog & de meuron|музей как городской экран",
-      "subject": "Музей как городской экран",
-      "visual_family": "contemporary-architecture"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "7d43ce5b0b1ebc8ba1995e278d7e7f806666213dab16e635a79497b4d6ba28ee"
-  },
+  "last_published_at": "2026-11-07T17:09:57.033563+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2676,9 +2623,20 @@
       "rubric": "fashion",
       "subject": "Как работает один тёмный тон",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000026,
+      "message_ids": [
+        429
+      ],
+      "source_url": "https://www.mplus.org.hk/en/the-building/design/",
+      "published_at": "2026-11-07T17:09:57.033563+00:00",
+      "rubric": "architecture",
+      "subject": "Музей как городской экран",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 15,
+  "next_rubric_index": 16,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2693,7 +2651,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 84,
+      "completed": 85,
       "target": 100
     }
   },
@@ -4415,15 +4373,6 @@
   },
   "recent_content": [
     {
-      "creator": "sebald beham",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP837081.jpg",
-      "work_key": "sebald beham|capital and base of a column",
-      "rubric": "architecture",
-      "subject": "capital",
-      "angle": 1
-    },
-    {
       "creator": "karl johan lindström",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP878278.jpg",
@@ -5275,6 +5224,14 @@
       "work_key": "hermes|как работает один тёмный тон",
       "rubric": "fashion",
       "subject": "Как работает один тёмный тон"
+    },
+    {
+      "creator": "herzog & de meuron",
+      "visual_family": "contemporary-architecture",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/M%2B%2C_West_Kowloon_%28Hong_Kong%29.jpg/1280px-M%2B%2C_West_Kowloon_%28Hong_Kong%29.jpg",
+      "work_key": "herzog & de meuron|музей как городской экран",
+      "rubric": "architecture",
+      "subject": "Музей как городской экран"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
