@@ -236,7 +236,41 @@
     642941
   ],
   "last_published_at": "2026-11-07T17:09:41.763446+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 419052,
+    "attempted_at": "2026-11-07T17:09:44.155862+00:00",
+    "post": {
+      "topic": "La Dame a la Grande Collerette et a la Coiffe Retombant en Arrière (The Lady with the Large Collar and a Headdress that Falls to the Back), from \"La Noblesse\" (The Nobility)",
+      "caption": "❓ Визуальная викторина\n\nLa Dame a la Grande Collerette et a la Coiffe Retombant en Arrière (The Lady with the Large Collar and a Headdress that Falls to the Back), from \"La Noblesse\" (The Nobility)\nJacques Callot · ca. 1623 · Офорт\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP890654.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/419052",
+      "object_id": 419052,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Печатная графика",
+      "creator": "jacques callot",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP890654.jpg",
+      "work_key": "jacques callot|la dame a la grande collerette et a la coiffe retombant en arrière (the lady with the large collar and a headdress that falls to the back), from \"la noblesse\" (the nobility)",
+      "kind": "quiz",
+      "quiz_format": "technique",
+      "question": "Какой техникой выполнен этот оттиск?",
+      "options": [
+        "Офорт",
+        "Гравюра резцом",
+        "Ксилография",
+        "Литография"
+      ],
+      "correct_option_ids": [
+        0
+      ],
+      "explanation": "В музейном каталоге указана техника «офорт»."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "96ff8ae7dca3ece208bfb0c3a70f4861f7bbd4f1ad20288d8b4d717f28fbb252"
+  },
   "publications": [
     {
       "object_id": 436528,
