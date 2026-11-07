@@ -175,7 +175,28 @@
     -2000000030
   ],
   "last_published_at": "2026-11-07T17:03:59.934306+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 400327,
+    "attempted_at": "2026-11-07T17:04:02.658306+00:00",
+    "post": {
+      "topic": "Shylock, from \"Twelve Characters from Shakespeare\"",
+      "caption": "📚 Книги, кино и визуальные истории\n\nShylock, from \"Twelve Characters from Shakespeare\"\nJohn Hamilton Mortimer · March 15, 1776 · Офорт\n\nОт текста к кадру: какие решения художника меняют ваше представление о знакомой истории?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP828470.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/400327",
+      "object_id": 400327,
+      "rubric": "books",
+      "angle": 2,
+      "subject": "shakespeare",
+      "creator": "john hamilton mortimer",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP828470.jpg",
+      "work_key": "john hamilton mortimer|shylock, from \"twelve characters from shakespeare\""
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "c7b45e03454a12d8b33a8d347e880ca3edb4ce6059b085efb53d541700a95f6b"
+  },
   "publications": [
     {
       "object_id": 436528,
