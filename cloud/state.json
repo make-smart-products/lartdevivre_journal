@@ -212,7 +212,29 @@
     -2000000022
   ],
   "last_published_at": "2026-11-07T17:07:29.062759+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 362183,
+    "attempted_at": "2026-11-07T17:07:31.422588+00:00",
+    "post": {
+      "topic": "View of Naples: Teatro San Carlos",
+      "caption": "🧳 Культурные путешествия\n\nView of Naples: Teatro San Carlos\nAnonymous, French, 19th century · 19th century\n\nНа старом изображении города интересно сравнить масштаб зданий и пространство между ними.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP809091.jpg",
+        "https://images.metmuseum.org/CRDImages/dp/original/35.37.3.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/362183",
+      "object_id": 362183,
+      "rubric": "travel",
+      "angle": 4,
+      "subject": "Naples",
+      "creator": "anonymous, french, 19th century",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP809091.jpg",
+      "work_key": "anonymous, french, 19th century|view of naples: teatro san carlos"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "38041944054e5a7ad13a26f3d17f6b74335c2a18a63b7862d3ae2e9b61be8c05"
+  },
   "publications": [
     {
       "object_id": 436528,
