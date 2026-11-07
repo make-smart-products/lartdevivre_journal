@@ -192,33 +192,11 @@
     -2000000019,
     386462,
     -2000000045,
-    -2000000033
+    -2000000033,
+    53815
   ],
-  "last_published_at": "2026-11-07T17:05:53.570896+00:00",
-  "pending": {
-    "object_id": 53815,
-    "attempted_at": "2026-11-07T17:05:56.126366+00:00",
-    "post": {
-      "topic": "Picture Book: Mount Asaka (Ehon Asakayama) 絵本浅香山",
-      "caption": "📚 Книги, кино и визуальные истории\n\nPicture Book: Mount Asaka (Ehon Asakayama) 絵本浅香山\nNishikawa Sukenobu 西川祐信 · January 1739\n\nИдея для книжного клуба: сопоставить текст и изображение, не выбирая единственное правильное прочтение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/as/web-large/JIB35_003_crd.jpg",
-        "https://images.metmuseum.org/CRDImages/as/original/JIB35_001.jpg",
-        "https://images.metmuseum.org/CRDImages/as/original/JIB35_002.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/53815",
-      "object_id": 53815,
-      "rubric": "books",
-      "angle": 1,
-      "subject": "illustrated book",
-      "creator": "nishikawa sukenobu 西川祐信",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/JIB35_003_crd.jpg",
-      "work_key": "nishikawa sukenobu 西川祐信|picture book: mount asaka (ehon asakayama) 絵本浅香山"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "5d2042970693b41d49333b1ba697b76ea731ed6174b90649d73cfe7665d64812"
-  },
+  "last_published_at": "2026-11-07T17:06:02.946315+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2116,9 +2094,22 @@
       "rubric": "painting",
       "subject": "«Eismeer», 2022: море и геометрия",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 53815,
+      "message_ids": [
+        380,
+        381,
+        382
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/53815",
+      "published_at": "2026-11-07T17:06:02.946315+00:00",
+      "rubric": "books",
+      "subject": "illustrated book",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 12,
+  "next_rubric_index": 13,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2133,7 +2124,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 41,
+      "completed": 42,
       "target": 100
     }
   },
@@ -3855,15 +3846,6 @@
   },
   "recent_content": [
     {
-      "creator": "thomas kirk",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP109511.jpg",
-      "work_key": "thomas kirk|rome, titus's garden–lucius pursued by lavinia (shakespeare, titus andronicus, act 4, scene 1)",
-      "rubric": "books",
-      "subject": "shakespeare",
-      "angle": 3
-    },
-    {
       "creator": "hall & company's photograph gallery",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP265081.jpg",
@@ -4734,6 +4716,15 @@
       "work_key": "виланд пайер|«eismeer», 2022: море и геометрия",
       "rubric": "painting",
       "subject": "«Eismeer», 2022: море и геометрия"
+    },
+    {
+      "creator": "nishikawa sukenobu 西川祐信",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/JIB35_003_crd.jpg",
+      "work_key": "nishikawa sukenobu 西川祐信|picture book: mount asaka (ehon asakayama) 絵本浅香山",
+      "rubric": "books",
+      "subject": "illustrated book",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
