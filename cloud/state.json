@@ -222,31 +222,11 @@
     -2000000037,
     10077,
     -2000000011,
-    -2000000024
+    -2000000024,
+    392156
   ],
-  "last_published_at": "2026-11-07T17:08:44.097348+00:00",
-  "pending": {
-    "object_id": 392156,
-    "attempted_at": "2026-11-07T17:08:46.932436+00:00",
-    "post": {
-      "topic": "The Chinese in New York – Scene in a Baxter Street Club-House (from \"Harper's Weekly,\" Vol. XVIII)",
-      "caption": "🧳 Культурные путешествия\n\nThe Chinese in New York – Scene in a Baxter Street Club-House (from \"Harper's Weekly,\" Vol. XVIII)\nWinslow Homer · March 7, 1874\n\nНа старом изображении города интересно сравнить масштаб зданий и пространство между ними.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP875357.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/392156",
-      "object_id": 392156,
-      "rubric": "travel",
-      "angle": 4,
-      "subject": "New York",
-      "creator": "winslow homer",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP875357.jpg",
-      "work_key": "winslow homer|the chinese in new york – scene in a baxter street club-house (from \"harper's weekly,\" vol. xviii)"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "89f81fd7f5565eefa6d9de4e02e862827016548854f48f258fb6ee4b5fe0364f"
-  },
+  "last_published_at": "2026-11-07T17:08:49.104944+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2483,9 +2463,20 @@
       "rubric": "architecture",
       "subject": "Промышленное прошлое и современное искусство",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 392156,
+      "message_ids": [
+        414
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/392156",
+      "published_at": "2026-11-07T17:08:49.104944+00:00",
+      "rubric": "travel",
+      "subject": "New York",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2500,7 +2491,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 71,
+      "completed": 72,
       "target": 100
     }
   },
@@ -4222,15 +4213,6 @@
   },
   "recent_content": [
     {
-      "creator": "anonymous, french, 17th century",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP855553.jpg",
-      "work_key": "anonymous, french, 17th century|fireworks celebrating the erection of the temple of glory and equestrian statue of louis le grand, paris 1699",
-      "rubric": "travel",
-      "subject": "Paris",
-      "angle": 0
-    },
-    {
       "creator": "elisabeth louise vigée le brun",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26883-001.jpg",
@@ -5087,6 +5069,15 @@
       "work_key": "oma|промышленное прошлое и современное искусство",
       "rubric": "architecture",
       "subject": "Промышленное прошлое и современное искусство"
+    },
+    {
+      "creator": "winslow homer",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP875357.jpg",
+      "work_key": "winslow homer|the chinese in new york – scene in a baxter street club-house (from \"harper's weekly,\" vol. xviii)",
+      "rubric": "travel",
+      "subject": "New York",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
