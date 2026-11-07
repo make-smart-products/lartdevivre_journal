@@ -223,7 +223,60 @@
     10077
   ],
   "last_published_at": "2026-11-07T17:08:33.064389+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000011,
+    "attempted_at": "2026-11-07T17:08:35.792697+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000011,
+      "rubric": "fashion",
+      "topic": "Фактура как главный акцент",
+      "caption": "👗 Современная мода\nLoewe · Фактура как главный акцент\n\nLOEWE осень–зима 2026 соединяет ремесленность, цвет и динамичные объёмы. Идея для своего образа — один предмет с заметной фактурой и спокойное окружение. Если деталь расположена у лица, посмотрите, как она выглядит при дневном свете.\n\nНа фото — Зендея в Париже, 2025; иллюстрация фактуры, не кампания LOEWE.\n\nИсточник: Loewe\nФото: Itumeleng Kingsley · CC BY 4.0",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/53/Zendaya_Paris_2025.jpg"
+      ],
+      "source_url": "https://www.loewe.com/int/en/pd/stories-collection/fw26-collection-campaign.html",
+      "source_name": "Loewe",
+      "modern_year": 2026,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "Zendaya Paris 2025.jpg",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Zendaya_Paris_2025.jpg",
+          "artist": "Itumeleng Kingsley",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Zendaya_Paris_2025.jpg",
+          "description": "Zendaya attending the Paris Fashion Week 2025 Spring",
+          "selection_key": "f9-11",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 387,
+          "length": 18,
+          "url": "https://commons.wikimedia.org/wiki/File:Zendaya_Paris_2025.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 408,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "creator": "loewe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Zendaya_Paris_2025.jpg",
+      "work_key": "loewe|фактура как главный акцент",
+      "subject": "Фактура как главный акцент",
+      "visual_family": "contemporary-fashion"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "a509681d7dfab8a33f35f8e2e4d707b4155ce51914001facc7862538c1910581"
+  },
   "publications": [
     {
       "object_id": 436528,
