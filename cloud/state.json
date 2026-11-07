@@ -189,7 +189,41 @@
     58290
   ],
   "last_published_at": "2026-11-07T17:05:15.493463+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 403671,
+    "attempted_at": "2026-11-07T17:05:18.758548+00:00",
+    "post": {
+      "topic": "Castello Sant' Angelo, from \"Speculum Romanae Magnificentiae\"",
+      "caption": "❓ Визуальная викторина\n\nCastello Sant' Angelo, from \"Speculum Romanae Magnificentiae\"\nAnonymous · 16th century · Гравюра резцом\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP870761.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/403671",
+      "object_id": 403671,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Печатная графика",
+      "creator": "anonymous",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP870761.jpg",
+      "work_key": "anonymous|castello sant' angelo, from \"speculum romanae magnificentiae\"",
+      "kind": "quiz",
+      "quiz_format": "technique",
+      "question": "Какой техникой выполнен этот оттиск?",
+      "options": [
+        "Ксилография",
+        "Офорт",
+        "Литография",
+        "Гравюра резцом"
+      ],
+      "correct_option_ids": [
+        3
+      ],
+      "explanation": "В музейном каталоге указана техника «гравюра резцом». «Castello Sant' Angelo, from \"Speculum Romanae Magnificentiae\"»."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "5be84af418df701fa83088af9161f32fde719c3e6a8a13464b6789498f51814c"
+  },
   "publications": [
     {
       "object_id": 436528,
