@@ -200,63 +200,11 @@
     830080,
     -2000000046,
     -2000000034,
-    322914
+    322914,
+    -2000000008
   ],
-  "last_published_at": "2026-11-07T17:06:41.870646+00:00",
-  "pending": {
-    "object_id": -2000000008,
-    "attempted_at": "2026-11-07T17:06:44.650537+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000008,
-      "rubric": "fashion",
-      "topic": "Один цветовой акцент",
-      "caption": "👗 Современная мода\nUniqlo · Один цветовой акцент\n\nЖенский LifeWear осень–зима 2026 — повод пересмотреть привычные повседневные комплекты. Попробуйте собрать спокойную основу и добавить один предмет другого цвета. На снимке эту роль играет сумка: небольшой акцент легко менять, сохраняя остальной гардероб.\n\nФото из архива street style; иллюстрация приёма, не коллекция Uniqlo.\n\nИсточник: Uniqlo\nФото: Anastasia Pavlenko from Saint Petersburg, Russia · CC BY 2.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Street_fashion_%2841455836144%29.jpg/1280px-Street_fashion_%2841455836144%29.jpg"
-      ],
-      "source_url": "https://www.uniqlo.com/es/en/special-feature/lifewear-collection/women",
-      "source_name": "Uniqlo",
-      "modern_year": 2026,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Street fashion (41455836144).jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Street_fashion_%2841455836144%29.jpg/1280px-Street_fashion_%2841455836144%29.jpg",
-          "artist": "Anastasia Pavlenko from Saint Petersburg, Russia",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Street_fashion_(41455836144).jpg",
-          "description": "fashion is my profession",
-          "selection_key": "f7-7",
-          "license_url": "https://creativecommons.org/licenses/by/2.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 402,
-          "length": 48,
-          "url": "https://commons.wikimedia.org/wiki/File:Street_fashion_(41455836144).jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 453,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/2.0/"
-        }
-      ],
-      "creator": "uniqlo",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Street_fashion_%2841455836144%29.jpg/1280px-Street_fashion_%2841455836144%29.jpg",
-      "work_key": "uniqlo|один цветовой акцент",
-      "subject": "Один цветовой акцент",
-      "visual_family": "contemporary-fashion"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "7e245f2ecf9c7ed8824d45bfc6391207de8e722edc75ff9cf24fa6356338699e"
-  },
+  "last_published_at": "2026-11-07T17:06:47.786881+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2246,9 +2194,20 @@
       "subject": "Скульптура",
       "quiz_format": "medium",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000008,
+      "message_ids": [
+        390
+      ],
+      "source_url": "https://www.uniqlo.com/es/en/special-feature/lifewear-collection/women",
+      "published_at": "2026-11-07T17:06:47.786881+00:00",
+      "rubric": "fashion",
+      "subject": "Один цветовой акцент",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2263,7 +2222,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 49,
+      "completed": 50,
       "target": 100
     }
   },
@@ -3987,15 +3946,6 @@
     {
       "creator": "",
       "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/83.1.111.jpg",
-      "work_key": "|shoe buckles",
-      "rubric": "fashion",
-      "subject": "shoe",
-      "angle": 0
-    },
-    {
-      "creator": "",
-      "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/gr/web-large/DP211208.jpg",
       "work_key": "|limestone votive ionic capital",
       "rubric": "architecture",
@@ -4861,6 +4811,14 @@
       "subject": "Скульптура",
       "angle": 0,
       "quiz_format": "medium"
+    },
+    {
+      "creator": "uniqlo",
+      "visual_family": "contemporary-fashion",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Street_fashion_%2841455836144%29.jpg/1280px-Street_fashion_%2841455836144%29.jpg",
+      "work_key": "uniqlo|один цветовой акцент",
+      "rubric": "fashion",
+      "subject": "Один цветовой акцент"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
