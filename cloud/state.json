@@ -170,7 +170,60 @@
     418828
   ],
   "last_published_at": "2026-11-07T17:03:33.717839+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000003,
+    "attempted_at": "2026-11-07T17:03:36.102450+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000003,
+      "rubric": "fashion",
+      "topic": "Лёгкость за счёт фактур",
+      "caption": "👗 Современная мода\nMiu Miu · Лёгкость за счёт фактур\n\nВ Miu Miu осень–зима 2026 встречаются поплин, лён, кашемир и вышитый тюль. Практическая идея — сочетать гладкую основу с одним фактурным слоем. Перед покупкой нового проверьте, не получится ли такая пара из вещей, которые уже есть дома.\n\nНа фото — Rabanne весна–лето 2025; иллюстрация сочетания фактур.\n\nИсточник: Miu Miu\nФото: Rabanne · CC BY 3.0",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c2/RABANNE_Spring-Summer_25_show.jpg"
+      ],
+      "source_url": "https://www.miumiu.com/us/en/miumiu-club/fashion-shows/fw26-fashion-show.html",
+      "source_name": "Miu Miu",
+      "modern_year": 2026,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "RABANNE Spring-Summer 25 show.jpg",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/RABANNE_Spring-Summer_25_show.jpg",
+          "artist": "Rabanne",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:RABANNE_Spring-Summer_25_show.jpg",
+          "description": "RABANNE Spring-Summer 2025 Fashion show in Paris (6:20)",
+          "selection_key": "f5-2",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 383,
+          "length": 7,
+          "url": "https://commons.wikimedia.org/wiki/File:RABANNE_Spring-Summer_25_show.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 393,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "creator": "miu miu",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/RABANNE_Spring-Summer_25_show.jpg",
+      "work_key": "miu miu|лёгкость за счёт фактур",
+      "subject": "Лёгкость за счёт фактур",
+      "visual_family": "contemporary-fashion"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "0e683f608723c14149c602b982180926f2d5ad6045fe2587666bc2164e019463"
+  },
   "publications": [
     {
       "object_id": 436528,
