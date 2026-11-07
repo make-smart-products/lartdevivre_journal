@@ -243,69 +243,11 @@
     715357,
     -2000000052,
     -2000000054,
-    381082
+    381082,
+    -2000000059
   ],
-  "last_published_at": "2026-11-07T17:10:34.543737+00:00",
-  "pending": {
-    "object_id": -2000000059,
-    "attempted_at": "2026-11-07T17:10:37.175095+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000059,
-      "rubric": "women",
-      "topic": "«Waiting», 2020: история из простых форм",
-      "caption": "🎨 Художницы сегодня\nЛенка Гусарикова · «Waiting», 2020: история из простых форм\n\nАкрил на холсте, 60 × 80 см. Художница называет эту работу первой, в которой использовала мотив танграма. Несколько геометрических фигур складываются в персонажей под ночным небом. Какие отношения между ними вы видите, если смотреть только на расположение и повороты?\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Lenkahusarikova · CC BY-SA 4.0",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/9/93/Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg"
-      ],
-      "source_url": "https://commons.wikimedia.org/wiki/File:Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg",
-      "source_name": "Авторская публикация / Wikimedia Commons",
-      "modern_year": 2020,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Lenka Husáriková Waiting acrylic 2020.jpg",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg",
-          "artist": "Lenkahusarikova",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg",
-          "description": "\"Waiting\", acrylic on canvas, 60 × 80 cm, 2020. First painting by Lenka Husáriková featuring the tangram motif. Photo by the artist. License: CC BY-SA 4.0.",
-          "selection_key": "women-new-lenka2",
-          "credit": "Own work",
-          "permission": "",
-          "date": "2025-04-22",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 415,
-          "length": 15,
-          "url": "https://commons.wikimedia.org/wiki/File:Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 433,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "creator": "ленка гусарикова",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg",
-      "work_key": "ленка гусарикова|«waiting», 2020: история из простых форм",
-      "subject": "«Waiting», 2020: история из простых форм",
-      "visual_family": "contemporary-women",
-      "artwork_rights_verified": true,
-      "source_kind": "artist-original",
-      "creator_gender_verified": true
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "4f41cac49351d73576bca61cd73923548abaa7d4007c53d7d803b58258f5495c"
-  },
+  "last_published_at": "2026-11-07T17:10:39.715216+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2778,9 +2720,20 @@
       "rubric": "travel",
       "subject": "New York",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000059,
+      "message_ids": [
+        437
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg",
+      "published_at": "2026-11-07T17:10:39.715216+00:00",
+      "rubric": "women",
+      "subject": "«Waiting», 2020: история из простых форм",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 4,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2795,7 +2748,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 92,
+      "completed": 93,
       "target": 100
     }
   },
@@ -4517,14 +4470,6 @@
   },
   "recent_content": [
     {
-      "creator": "orsola maddalena caccia",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19714-001.jpg",
-      "work_key": "orsola maddalena caccia|flowers in a grotesque vase",
-      "rubric": "women",
-      "subject": "painting"
-    },
-    {
       "creator": "jacob duck",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146500.jpg",
@@ -5373,6 +5318,14 @@
       "rubric": "travel",
       "subject": "New York",
       "angle": 2
+    },
+    {
+      "creator": "ленка гусарикова",
+      "visual_family": "contemporary-women",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg",
+      "work_key": "ленка гусарикова|«waiting», 2020: история из простых форм",
+      "rubric": "women",
+      "subject": "«Waiting», 2020: история из простых форм"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
