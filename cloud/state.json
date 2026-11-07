@@ -206,7 +206,68 @@
     365393
   ],
   "last_published_at": "2026-11-07T17:06:57.111720+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000047,
+    "attempted_at": "2026-11-07T17:06:59.812236+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000047,
+      "rubric": "women",
+      "topic": "«Nackt im Sein», 2025",
+      "caption": "🎨 Художницы сегодня\nЕва Цукер · «Nackt im Sein», 2025\n\nХудожница строит изображение акриловыми лессировками — тонкими слоями, через которые просвечивает предыдущая краска. Две фигуры постепенно возникают из цветовой среды. На этом примере хорошо видно, как техника помогает говорить о присутствии и уязвимости без подробного повествования.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Eva Zucker · CC BY-SA 4.0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Nackt_im_Sein_%282025%29.jpg/1280px-Nackt_im_Sein_%282025%29.jpg"
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nackt_im_Sein_(2025).jpg",
+      "source_name": "Авторская публикация / Wikimedia Commons",
+      "modern_year": 2025,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "Nackt im Sein (2025).jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Nackt_im_Sein_%282025%29.jpg/1280px-Nackt_im_Sein_%282025%29.jpg",
+          "artist": "Eva Zucker",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Nackt_im_Sein_(2025).jpg",
+          "description": "“Nackt im Sein” (“Naked in Being”) is a hand-painted figurative artwork by German artist Eva Zucker. The painting portrays two human figures in a moment of profound emotional vulnerability. The work combines symbolism, physicality and psychological depth, exploring themes of humanity, shame, compassion and quiet internal struggle. Painted in multiple layers using acrylic paint and glazing techniques on canvas (2025).",
+          "selection_key": "women-2025-12",
+          "rubric": "women",
+          "modern_year": 2025,
+          "credit": "Own work",
+          "permission": "",
+          "date": "2025",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 406,
+          "length": 10,
+          "url": "https://commons.wikimedia.org/wiki/File:Nackt_im_Sein_(2025).jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 419,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "creator": "ева цукер",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Nackt_im_Sein_%282025%29.jpg/1280px-Nackt_im_Sein_%282025%29.jpg",
+      "work_key": "ева цукер|«nackt im sein», 2025",
+      "subject": "«Nackt im Sein», 2025",
+      "visual_family": "contemporary-women",
+      "artwork_rights_verified": true,
+      "source_kind": "artist-original",
+      "creator_gender_verified": true
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "d4b942f17fc954fc68f824ba33a2b5366d5e430210613053439a8998693d25e8"
+  },
   "publications": [
     {
       "object_id": 436528,
