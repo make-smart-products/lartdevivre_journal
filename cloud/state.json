@@ -222,7 +222,41 @@
     -2000000037
   ],
   "last_published_at": "2026-11-07T17:08:27.287770+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 10077,
+    "attempted_at": "2026-11-07T17:08:30.147402+00:00",
+    "post": {
+      "topic": "The Children of Nathan Starr",
+      "caption": "❓ Визуальная викторина\n\nThe Children of Nathan Starr\nAmbrose Andrews · 1835 · Масло на холсте\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/DT5812.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/10077",
+      "object_id": 10077,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Живопись",
+      "creator": "ambrose andrews",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5812.jpg",
+      "work_key": "ambrose andrews|the children of nathan starr",
+      "kind": "quiz",
+      "quiz_format": "artist",
+      "question": "Кто автор показанной работы?",
+      "options": [
+        "Edgar Degas",
+        "Ambrose Andrews",
+        "Mary Cassatt",
+        "Claude Monet"
+      ],
+      "correct_option_ids": [
+        1
+      ],
+      "explanation": "Автор — Ambrose Andrews."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "1223cad5481bc205ee6953d5402c8295b99a225ce2012fdc1c2e90251222ab4c"
+  },
   "publications": [
     {
       "object_id": 436528,
