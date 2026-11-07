@@ -152,33 +152,11 @@
     348609,
     383421,
     842832,
-    -2000000027
+    -2000000027,
+    78658
   ],
-  "last_published_at": "2026-11-07T17:02:12.186795+00:00",
-  "pending": {
-    "object_id": 78658,
-    "attempted_at": "2026-11-07T17:02:14.878196+00:00",
-    "post": {
-      "topic": "Kihō Picture Album (Kihō gafu) 埼鳳画譜",
-      "caption": "📚 Книги, кино и визуальные истории\n\nKihō Picture Album (Kihō gafu) 埼鳳画譜\nKawamura Kihō 河村琦鳳 · 1827, early Autumn (Bunsei 10)\n\nВообразите изображение первым кадром фильма. Какой звук подошёл бы сцене?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/as/web-large/2013_756_33_crd.jpg",
-        "https://images.metmuseum.org/CRDImages/as/original/2013_756_01.jpg",
-        "https://images.metmuseum.org/CRDImages/as/original/2013_756_02.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/78658",
-      "object_id": 78658,
-      "rubric": "books",
-      "angle": 4,
-      "subject": "illustrated book",
-      "creator": "kawamura kihō 河村琦鳳",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_756_33_crd.jpg",
-      "work_key": "kawamura kihō 河村琦鳳|kihō picture album (kihō gafu) 埼鳳画譜"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "f546bfcbad8596e0f5ed08ced43a587695b3ade0dd211559b40a47dd82502f3a"
-  },
+  "last_published_at": "2026-11-07T17:02:21.640385+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1625,9 +1603,22 @@
       "rubric": "painting",
       "subject": "«Гермес»: свет внутри тёмной сцены",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 78658,
+      "message_ids": [
+        335,
+        336,
+        337
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/78658",
+      "published_at": "2026-11-07T17:02:21.640385+00:00",
+      "rubric": "books",
+      "subject": "illustrated book",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 12,
+  "next_rubric_index": 13,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1642,7 +1633,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 1,
+      "completed": 2,
       "target": 100
     }
   },
@@ -3364,12 +3355,6 @@
   },
   "recent_content": [
     {
-      "creator": "carl blechen (german, 1798–1840)",
-      "visual_family": "",
-      "image": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/843,/0/default.jpg",
-      "work_key": "carl blechen (german, 1798–1840)|🌿 зелень как часть интерьера"
-    },
-    {
       "creator": "rosa bonheur",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/es/web-large/154142.jpg",
@@ -4167,6 +4152,15 @@
       "work_key": "хуан карлос хурадо|«гермес»: свет внутри тёмной сцены",
       "rubric": "painting",
       "subject": "«Гермес»: свет внутри тёмной сцены"
+    },
+    {
+      "creator": "kawamura kihō 河村琦鳳",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_756_33_crd.jpg",
+      "work_key": "kawamura kihō 河村琦鳳|kihō picture album (kihō gafu) 埼鳳画譜",
+      "rubric": "books",
+      "subject": "illustrated book",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
