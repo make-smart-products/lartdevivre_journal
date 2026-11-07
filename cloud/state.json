@@ -199,44 +199,11 @@
     -2000000020,
     830080,
     -2000000046,
-    -2000000034
+    -2000000034,
+    322914
   ],
-  "last_published_at": "2026-11-07T17:06:36.451314+00:00",
-  "pending": {
-    "object_id": 322914,
-    "attempted_at": "2026-11-07T17:06:39.143529+00:00",
-    "post": {
-      "topic": "Nude female figure",
-      "caption": "❓ Визуальная викторина\n\nNude female figure\nАвтор не указан в каталоге · ca. early 2nd millennium BCE\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/an/web-large/DP-34800-001.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/322914",
-      "object_id": 322914,
-      "rubric": "quiz",
-      "angle": 0,
-      "subject": "Скульптура",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/an/web-large/DP-34800-001.jpg",
-      "work_key": "|nude female figure",
-      "kind": "quiz",
-      "quiz_format": "medium",
-      "question": "К какому виду искусства относится показанная работа?",
-      "options": [
-        "Печатная графика",
-        "Живопись",
-        "Фотография",
-        "Скульптура"
-      ],
-      "correct_option_ids": [
-        3
-      ],
-      "explanation": "Вид искусства в музейном каталоге — скульптура. «Nude female figure»."
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "e684cbe37efb468ad7a0ff341602c38ec86584ee2c4cc693ba9679f4abb7e57f"
-  },
+  "last_published_at": "2026-11-07T17:06:41.870646+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2214,9 +2181,21 @@
       "rubric": "painting",
       "subject": "«Gumby», 2025: живопись как поток образов",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 322914,
+      "message_ids": [
+        389
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/322914",
+      "published_at": "2026-11-07T17:06:41.870646+00:00",
+      "rubric": "quiz",
+      "subject": "Скульптура",
+      "quiz_format": "medium",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 19,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2231,7 +2210,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 48,
+      "completed": 49,
       "target": 100
     }
   },
@@ -3953,16 +3932,6 @@
   },
   "recent_content": [
     {
-      "creator": "albert bierstadt",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT218107.jpg",
-      "work_key": "albert bierstadt|sunrise on the matterhorn",
-      "rubric": "quiz",
-      "subject": "Живопись",
-      "angle": 0,
-      "quiz_format": "medium"
-    },
-    {
       "creator": "",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ci/web-large/83.1.111.jpg",
@@ -4829,6 +4798,16 @@
       "work_key": "лоран импедулья|«gumby», 2025: живопись как поток образов",
       "rubric": "painting",
       "subject": "«Gumby», 2025: живопись как поток образов"
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/an/web-large/DP-34800-001.jpg",
+      "work_key": "|nude female figure",
+      "rubric": "quiz",
+      "subject": "Скульптура",
+      "angle": 0,
+      "quiz_format": "medium"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
