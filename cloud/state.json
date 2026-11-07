@@ -242,7 +242,41 @@
     -2000000056
   ],
   "last_published_at": "2026-11-07T17:10:14.360109+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 715357,
+    "attempted_at": "2026-11-07T17:10:16.888363+00:00",
+    "post": {
+      "topic": "Mlle. Myrtle, from the Actresses series (N203) issued by Wm. S. Kimball & Co.",
+      "caption": "❓ Визуальная викторина\n\nMlle. Myrtle, from the Actresses series (N203) issued by Wm. S. Kimball & Co.\nWilliam S. Kimball & Company · 1889\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DPB871459.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/715357",
+      "object_id": 715357,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Фотография",
+      "creator": "william s. kimball & company",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DPB871459.jpg",
+      "work_key": "william s. kimball & company|mlle. myrtle, from the actresses series (n203) issued by wm. s. kimball & co.",
+      "kind": "quiz",
+      "quiz_format": "artist",
+      "question": "Кто автор показанной работы?",
+      "options": [
+        "Edgar Degas",
+        "William S. Kimball & Company",
+        "Mary Cassatt",
+        "Berthe Morisot"
+      ],
+      "correct_option_ids": [
+        1
+      ],
+      "explanation": "Автор — William S. Kimball & Company."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "ba8a43892f1c65ebcf9392b31ac4af8088c81d879443eb9f64e8e63eef7f74ab"
+  },
   "publications": [
     {
       "object_id": 436528,
