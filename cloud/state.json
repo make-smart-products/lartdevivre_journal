@@ -180,7 +180,68 @@
     811667
   ],
   "last_published_at": "2026-11-07T17:04:25.574889+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000043,
+    "attempted_at": "2026-11-07T17:04:28.161267+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000043,
+      "rubric": "women",
+      "topic": "«Black Narcissus», 2022",
+      "caption": "🎨 Художницы сегодня\nЭвелина Паукштите · «Black Narcissus», 2022\n\nПредметы и маленькие фигуры размещены в пространстве, похожем на необычную сцену. Рядом оказываются цветок, автомобиль и надпись NFT. Интересно проследить, как разные масштабы меняют значимость вещей: небольшой предмет может стать главным героем изображения.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Evelina Paukstyte · CC BY-SA 4.0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/73A1756.jpg/1280px-73A1756.jpg"
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:73A1756.jpg",
+      "source_name": "Авторская публикация / Wikimedia Commons",
+      "modern_year": 2022,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "73A1756.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/73A1756.jpg/1280px-73A1756.jpg",
+          "artist": "Evelina Paukstyte",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:73A1756.jpg",
+          "description": "“Black Narcissus”. Acryl, 121 x 60 cm, 2022",
+          "selection_key": "women-2022-4",
+          "rubric": "women",
+          "modern_year": 2022,
+          "credit": "Own work",
+          "permission": "",
+          "date": "2022-06-24",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 390,
+          "length": 17,
+          "url": "https://commons.wikimedia.org/wiki/File:73A1756.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 410,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "creator": "эвелина паукштите",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/73A1756.jpg/1280px-73A1756.jpg",
+      "work_key": "эвелина паукштите|«black narcissus», 2022",
+      "subject": "«Black Narcissus», 2022",
+      "visual_family": "contemporary-women",
+      "artwork_rights_verified": true,
+      "source_kind": "artist-original",
+      "creator_gender_verified": true
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "f60353686e2ddd62175f2461c82fde416d08994d67f5dc35b4b043d100457251"
+  },
   "publications": [
     {
       "object_id": 436528,
