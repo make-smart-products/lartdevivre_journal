@@ -248,7 +248,28 @@
     -2000000057
   ],
   "last_published_at": "2026-11-07T17:10:44.906461+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 739720,
+    "attempted_at": "2026-11-07T17:10:47.536409+00:00",
+    "post": {
+      "topic": "Cleopatra, Eros, Antony, Charmian and Iras (Shakespeare, Antony and Cleopatra, Act 3, Scene 9)",
+      "caption": "📚 Книги, кино и визуальные истории\n\nCleopatra, Eros, Antony, Charmian and Iras (Shakespeare, Antony and Cleopatra, Act 3, Scene 9)\nCharles Rolls · 1825–40\n\nКнижная история получает визуальный образ. Что вы представляли иначе, когда читали?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP870108.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/739720",
+      "object_id": 739720,
+      "rubric": "books",
+      "angle": 0,
+      "subject": "shakespeare",
+      "creator": "charles rolls",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP870108.jpg",
+      "work_key": "charles rolls|cleopatra, eros, antony, charmian and iras (shakespeare, antony and cleopatra, act 3, scene 9)"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "109daacfa5961b7cde65b590211f47a26f06fbbe75b1216c8f1221a1a7b47391"
+  },
   "publications": [
     {
       "object_id": 436528,
