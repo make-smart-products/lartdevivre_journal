@@ -1,0 +1,56 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000049,
+  "rubric": "women",
+  "topic": "Минималистический портрет, 2023",
+  "caption": "🎨 Художницы сегодня\nДжессика Кихано Гусман · Минималистический портрет, 2023\n\nКрупные цветовые участки и чёткий контур удерживают лицо без подробной светотени. Немногочисленные формы делают особенно заметными серьги и линию глаз. Можно сравнить впечатление от всей композиции и от одного небольшого фрагмента: какой элемент оказался самым выразительным?\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Jessica Quijano Guzman · CC BY-SA 4.0",
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/b/bd/Pintura_minimalista.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pintura_minimalista.jpg",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2023,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Pintura minimalista.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Pintura_minimalista.jpg",
+      "artist": "Jessica Quijano Guzman",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pintura_minimalista.jpg",
+      "description": "Pintura de mujer minimalista - cubista mexicana",
+      "selection_key": "women-2023-26",
+      "rubric": "women",
+      "modern_year": 2023,
+      "credit": "Own work",
+      "permission": "",
+      "date": "2023-04-03",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 420,
+      "length": 22,
+      "url": "https://commons.wikimedia.org/wiki/File:Pintura_minimalista.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 445,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "джессика кихано гусман",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Pintura_minimalista.jpg",
+  "work_key": "джессика кихано гусман|минималистический портрет, 2023",
+  "subject": "Минималистический портрет, 2023",
+  "visual_family": "contemporary-women",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original",
+  "creator_gender_verified": true
+}

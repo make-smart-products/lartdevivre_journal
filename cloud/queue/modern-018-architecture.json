@@ -1,0 +1,49 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000018,
+  "rubric": "architecture",
+  "topic": "Бетон с ритмом прибрежных скал",
+  "caption": "🏛 Архитектура XXI века\nKengo Kuma · Бетон с ритмом прибрежных скал\n\nV&A Dundee Кэнго Кумы открылся в 2018 году. Горизонтальные бетонные панели отсылают к скалистым берегам Шотландии. Издалека они создают массивный силуэт, а вблизи — чередование света и тени. Архитектурную деталь хочется рассматривать с разных расстояний.\n\nИсточник: Официальный сайт проекта\nФото: Andrew Abbott · CC BY-SA 2.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg/1280px-Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg"
+  ],
+  "source_url": "https://www.vam.ac.uk/dundee/info/our-building",
+  "source_name": "Официальный сайт проекта",
+  "modern_year": 2018,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Discovery and the V^A - geograph.org.uk - 7342982.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg/1280px-Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg",
+      "artist": "Andrew Abbott",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg",
+      "description": "Discovery and the V&A",
+      "project": "V&A Dundee",
+      "selection_key": "arch-5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 366,
+      "length": 13,
+      "url": "https://commons.wikimedia.org/wiki/File:Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 382,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+    }
+  ],
+  "creator": "kengo kuma",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg/1280px-Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg",
+  "work_key": "kengo kuma|бетон с ритмом прибрежных скал",
+  "subject": "Бетон с ритмом прибрежных скал",
+  "visual_family": "contemporary-architecture"
+}

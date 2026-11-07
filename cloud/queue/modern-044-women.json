@@ -1,0 +1,56 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000044,
+  "rubric": "women",
+  "topic": "«The Stranger (L’Etranger)», 2020",
+  "caption": "🎨 Художницы сегодня\nКара Джослин · «The Stranger (L’Etranger)», 2020\n\nРабота выполнена акрилом и полимерной автомобильной краской. Серебристые формы напоминают одновременно фигуру, бумажную конструкцию и отражающий предмет. Попробуйте найти границу между телом и окружающим пространством: художница делает её намеренно неочевидной.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Kara Joslyn · CC BY-SA 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%22The_Stranger_%28L%27Etranger%29%2C%22_2020%2C_Kara_Joslyn%2C_acrylic_and_polymer_automotive_paint_on_canvas_panel%2C_72x60_inches.jpg/1280px-%22The_Stranger_%28L%27Etranger%29%2C%22_2020%2C_Kara_Joslyn%2C_acrylic_and_polymer_automotive_paint_on_canvas_panel%2C_72x60_inches.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:%22The_Stranger_(L%27Etranger),%22_2020,_Kara_Joslyn,_acrylic_and_polymer_automotive_paint_on_canvas_panel,_72x60_inches.jpg",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2020,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "\"The Stranger (L'Etranger),\" 2020, Kara Joslyn, acrylic and polymer automotive paint on canvas panel, 72x60 inches.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%22The_Stranger_%28L%27Etranger%29%2C%22_2020%2C_Kara_Joslyn%2C_acrylic_and_polymer_automotive_paint_on_canvas_panel%2C_72x60_inches.jpg/1280px-%22The_Stranger_%28L%27Etranger%29%2C%22_2020%2C_Kara_Joslyn%2C_acrylic_and_polymer_automotive_paint_on_canvas_panel%2C_72x60_inches.jpg",
+      "artist": "Kara Joslyn",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%22The_Stranger_(L%27Etranger),%22_2020,_Kara_Joslyn,_acrylic_and_polymer_automotive_paint_on_canvas_panel,_72x60_inches.jpg",
+      "description": "The Stranger (L'Etranger), 2020, Kara Joslyn, acrylic and polymer automotive paint on canvas panel, 72x60 inches",
+      "selection_key": "women-2020-0",
+      "rubric": "women",
+      "modern_year": 2020,
+      "credit": "Nobody no one nowhere",
+      "permission": "I, the copyright holder of this work, hereby publish it under the following license:",
+      "date": "2020",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 398,
+      "length": 11,
+      "url": "https://commons.wikimedia.org/wiki/File:%22The_Stranger_(L%27Etranger),%22_2020,_Kara_Joslyn,_acrylic_and_polymer_automotive_paint_on_canvas_panel,_72x60_inches.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 412,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "кара джослин",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%22The_Stranger_%28L%27Etranger%29%2C%22_2020%2C_Kara_Joslyn%2C_acrylic_and_polymer_automotive_paint_on_canvas_panel%2C_72x60_inches.jpg/1280px-%22The_Stranger_%28L%27Etranger%29%2C%22_2020%2C_Kara_Joslyn%2C_acrylic_and_polymer_automotive_paint_on_canvas_panel%2C_72x60_inches.jpg",
+  "work_key": "кара джослин|«the stranger (l’etranger)», 2020",
+  "subject": "«The Stranger (L’Etranger)», 2020",
+  "visual_family": "contemporary-women",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original",
+  "creator_gender_verified": true
+}

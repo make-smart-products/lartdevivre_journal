@@ -7,6 +7,8 @@ import publish
 
 class PublishTests(unittest.TestCase):
     def setUp(self):
+        # These tests exercise the legacy museum selector; modern routing has its own tests.
+        self.enterContext(patch.object(publish.modern, "RUBRICS", set()))
         self.enterContext(patch.object(publish.Path, "glob", return_value=[]))
         self.enterContext(patch.object(publish.Path, "exists", return_value=False))
 

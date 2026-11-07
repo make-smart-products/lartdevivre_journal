@@ -1,0 +1,51 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000055,
+  "rubric": "architecture",
+  "topic": "Лестница как продолжение пространства",
+  "caption": "🏛 Архитектура XXI века\nZaha Hadid Architects · Лестница как продолжение пространства\n\nЦентр Гейдара Алиева в Баку, 2012 год, — проект Zaha Hadid Architects. В интерьере плавные поверхности связывают лестницы, стены и перекрытия. Посмотрите, как меняется ощущение границы между отдельными элементами: пространство кажется непрерывным даже там, где проходит несколько уровней.\n\nИсточник: Официальный сайт проекта\nФото: Fanti Salms · CC BY-SA 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Heydar_Aliyev_International_Conference_Center_Baku_Azerbaijan.jpg/1280px-Heydar_Aliyev_International_Conference_Center_Baku_Azerbaijan.jpg"
+  ],
+  "source_url": "https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/",
+  "source_name": "Официальный сайт проекта",
+  "modern_year": 2012,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Heydar Aliyev International Conference Center Baku Azerbaijan.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Heydar_Aliyev_International_Conference_Center_Baku_Azerbaijan.jpg/1280px-Heydar_Aliyev_International_Conference_Center_Baku_Azerbaijan.jpg",
+      "artist": "Fanti Salms",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Heydar_Aliyev_International_Conference_Center_Baku_Azerbaijan.jpg",
+      "description": "Heydar Aliyev International Conference Center Baku Azerbaijan",
+      "selection_key": "arch-new-heydar",
+      "credit": "Own work",
+      "permission": "",
+      "date": "2017-08-15 11:58:13",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 418,
+      "length": 11,
+      "url": "https://commons.wikimedia.org/wiki/File:Heydar_Aliyev_International_Conference_Center_Baku_Azerbaijan.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 432,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "zaha hadid architects",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Heydar_Aliyev_International_Conference_Center_Baku_Azerbaijan.jpg/1280px-Heydar_Aliyev_International_Conference_Center_Baku_Azerbaijan.jpg",
+  "work_key": "zaha hadid architects|лестница как продолжение пространства",
+  "subject": "Лестница как продолжение пространства",
+  "visual_family": "contemporary-architecture"
+}

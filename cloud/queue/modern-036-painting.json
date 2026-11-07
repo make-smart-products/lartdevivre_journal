@@ -1,0 +1,55 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000036,
+  "rubric": "painting",
+  "topic": "«A Passion Undivided», 2020",
+  "caption": "🖼 Современная живопись\nБлейн Уайт · «A Passion Undivided», 2020\n\nФигуры соединены прикосновениями, а линии рук создают движение через всю картину. Мягкие цвета делают напряжённую сцену неоднозначной. Здесь можно обсуждать близость и личные границы, не сводя работу к единственному объяснению.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Blaine A. White · CC BY-SA 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/A_Passion_Undivided.jpg/1280px-A_Passion_Undivided.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:A_Passion_Undivided.jpg",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2020,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "A Passion Undivided.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/A_Passion_Undivided.jpg/1280px-A_Passion_Undivided.jpg",
+      "artist": "Blaine A. White",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Passion_Undivided.jpg",
+      "description": "This painting was inspired by a dance scene from German choreographer Pina Bausch. Fascinated by her imagery, especially after viewing a documentary on her work, Blaine sought to do a work influenced by her stage craft.",
+      "selection_key": "painting-2020-6",
+      "rubric": "painting",
+      "modern_year": 2020,
+      "credit": "Own work",
+      "permission": "",
+      "date": "2020",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 359,
+      "length": 15,
+      "url": "https://commons.wikimedia.org/wiki/File:A_Passion_Undivided.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 377,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "блейн уайт",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/A_Passion_Undivided.jpg/1280px-A_Passion_Undivided.jpg",
+  "work_key": "блейн уайт|«a passion undivided», 2020",
+  "subject": "«A Passion Undivided», 2020",
+  "visual_family": "contemporary-painting",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original"
+}

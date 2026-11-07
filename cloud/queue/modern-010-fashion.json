@@ -1,0 +1,48 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000010,
+  "rubric": "fashion",
+  "topic": "Цвет без сложной стилизации",
+  "caption": "👗 Современная мода\nLoewe · Цвет без сложной стилизации\n\nВ кампании LOEWE осень–зима 2026 важны насыщенные цвета и выразительные объёмы. Для повседневности достаточно уменьшить масштаб идеи: выбрать один цветной кардиган и повторить его оттенок в небольшом рисунке или аксессуаре. Остальные вещи могут остаться простыми.\n\nНа фото — гостья Seoul Fashion Week 2026; иллюстрация работы с цветом, не коллекция LOEWE.\n\nИсточник: Loewe\nФото: K-POPIT 케이팝잇 · CC BY 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/090526_Choi_Yujin_at_Seoul_Fashion_Week_03.jpg/1280px-090526_Choi_Yujin_at_Seoul_Fashion_Week_03.jpg"
+  ],
+  "source_url": "https://www.loewe.com/int/en/pd/stories-collection/fw26-collection-campaign.html",
+  "source_name": "Loewe",
+  "modern_year": 2026,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "090526 Choi Yujin at Seoul Fashion Week 03.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/090526_Choi_Yujin_at_Seoul_Fashion_Week_03.jpg/1280px-090526_Choi_Yujin_at_Seoul_Fashion_Week_03.jpg",
+      "artist": "K-POPIT 케이팝잇",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:090526_Choi_Yujin_at_Seoul_Fashion_Week_03.jpg",
+      "description": "Choi Yujin at Seoul Fashion Week on September 5, 2026",
+      "selection_key": "f9-8",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 436,
+      "length": 12,
+      "url": "https://commons.wikimedia.org/wiki/File:090526_Choi_Yujin_at_Seoul_Fashion_Week_03.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 451,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "creator": "loewe",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/090526_Choi_Yujin_at_Seoul_Fashion_Week_03.jpg/1280px-090526_Choi_Yujin_at_Seoul_Fashion_Week_03.jpg",
+  "work_key": "loewe|цвет без сложной стилизации",
+  "subject": "Цвет без сложной стилизации",
+  "visual_family": "contemporary-fashion"
+}

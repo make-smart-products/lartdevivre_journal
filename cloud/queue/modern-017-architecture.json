@@ -1,0 +1,49 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000017,
+  "rubric": "architecture",
+  "topic": "Галерея, которая одновременно мост",
+  "caption": "🏛 Архитектура XXI века\nBIG · Галерея, которая одновременно мост\n\nThe Twist в норвежском Kistefos — проект BIG, открытый в 2019 году. Здание пересекает реку и поворачивается вокруг своей оси. Его можно воспринимать сразу как переход, выставочное пространство и скульптуру. Какую из этих ролей вы заметили первой?\n\nИсточник: Официальный сайт проекта\nФото: Jan-Tore Egge · CC BY-SA 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/The_Twist_II.jpg/1280px-The_Twist_II.jpg"
+  ],
+  "source_url": "https://www.kistefosmuseum.com/art/the-twist-gallery",
+  "source_name": "Официальный сайт проекта",
+  "modern_year": 2019,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "The Twist II.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/The_Twist_II.jpg/1280px-The_Twist_II.jpg",
+      "artist": "Jan-Tore Egge",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Twist_II.jpg",
+      "description": "The Twist, Kistefos-Museet, sett fra sørøst.",
+      "project": "The Twist museum",
+      "selection_key": "arch-4",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 355,
+      "length": 13,
+      "url": "https://commons.wikimedia.org/wiki/File:The_Twist_II.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 371,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "big",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/The_Twist_II.jpg/1280px-The_Twist_II.jpg",
+  "work_key": "big|галерея, которая одновременно мост",
+  "subject": "Галерея, которая одновременно мост",
+  "visual_family": "contemporary-architecture"
+}

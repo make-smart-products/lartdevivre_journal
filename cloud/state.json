@@ -154,30 +154,7 @@
     842832
   ],
   "last_published_at": "2026-11-06T23:52:57.974462+00:00",
-  "pending": {
-    "object_id": 435802,
-    "attempted_at": "2026-11-06T23:53:00.809398+00:00",
-    "post": {
-      "topic": "Portrait of a Young Man",
-      "caption": "🖼 Картина дня\n\nPortrait of a Young Man\nBronzino (Agnolo di Cosimo di Mariano) · 1530s · Масло на дереве\n\nНа минуту прикройте самый яркий участок. Что теперь первым притягивает взгляд?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-011.jpg",
-        "https://images.metmuseum.org/CRDImages/ep/original/Bronzino overall.jpg",
-        "https://images.metmuseum.org/CRDImages/ep/original/Bronzino detail of face.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/435802",
-      "object_id": 435802,
-      "rubric": "painting",
-      "angle": 3,
-      "subject": "portrait",
-      "creator": "bronzino (agnolo di cosimo di mariano)",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-011.jpg",
-      "work_key": "bronzino (agnolo di cosimo di mariano)|portrait of a young man"
-    },
-    "batch_date": "2026-11-06",
-    "sha256": "d6def3808ab953af3b87226a03a84dc3fcf53f0cb2b2d3051ed9544d8bebbd83"
-  },
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -4151,5 +4128,40 @@
       "subject": "painting"
     }
   ],
-  "editorial_policy_version": "2026-11-04-diverse-seven-rubrics"
+  "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
+  "cancelled_attempts": [
+    {
+      "pending": {
+        "object_id": 435802,
+        "attempted_at": "2026-11-06T23:53:00.809398+00:00",
+        "post": {
+          "topic": "Portrait of a Young Man",
+          "caption": "🖼 Картина дня\n\nPortrait of a Young Man\nBronzino (Agnolo di Cosimo di Mariano) · 1530s · Масло на дереве\n\nНа минуту прикройте самый яркий участок. Что теперь первым притягивает взгляд?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КартинаДня",
+          "images": [
+            "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-011.jpg",
+            "https://images.metmuseum.org/CRDImages/ep/original/Bronzino overall.jpg",
+            "https://images.metmuseum.org/CRDImages/ep/original/Bronzino detail of face.jpg"
+          ],
+          "source_url": "https://www.metmuseum.org/art/collection/search/435802",
+          "object_id": 435802,
+          "rubric": "painting",
+          "angle": 3,
+          "subject": "portrait",
+          "creator": "bronzino (agnolo di cosimo di mariano)",
+          "visual_family": "",
+          "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-011.jpg",
+          "work_key": "bronzino (agnolo di cosimo di mariano)|portrait of a young man"
+        },
+        "batch_date": "2026-11-06",
+        "sha256": "d6def3808ab953af3b87226a03a84dc3fcf53f0cb2b2d3051ed9544d8bebbd83"
+      },
+      "resolved_at": "2026-11-07T15:41:13.138661+00:00",
+      "resolution": "Telegram HTTP 400; channel preview checked: latest message 333 matches last confirmed publication, attempted Bronzino album absent. Historical card cancelled under XXI-century policy; rubric pointer unchanged.",
+      "evidence": {
+        "run_id": 42314113072,
+        "channel_preview": "https://t.me/s/lartdevivre_journal",
+        "last_confirmed_message_id": 333
+      }
+    }
+  ]
 }

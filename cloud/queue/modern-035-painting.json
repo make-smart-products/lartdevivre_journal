@@ -1,0 +1,55 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000035,
+  "rubric": "painting",
+  "topic": "«On the Prowl», 2021",
+  "caption": "🖼 Современная живопись\nБлейн Уайт · «On the Prowl», 2021\n\nНесколько фигур похожи друг на друга, но их повороты и расстояния меняют ритм группы. Неестественный синий цвет кожи отводит внимание от бытовой сцены к самой композиции. Попробуйте рассмотреть пространство между персонажами — оно тоже участвует в изображении.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Blainewhite · CC BY-SA 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/On_The_Prowl.jpg/1280px-On_The_Prowl.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:On_The_Prowl.jpg",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2021,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "On The Prowl.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/On_The_Prowl.jpg/1280px-On_The_Prowl.jpg",
+      "artist": "Blainewhite",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:On_The_Prowl.jpg",
+      "description": "One of a series exploring a similar style.",
+      "selection_key": "painting-2021-21",
+      "rubric": "painting",
+      "modern_year": 2021,
+      "credit": "Own work",
+      "permission": "",
+      "date": "2021-07",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 385,
+      "length": 11,
+      "url": "https://commons.wikimedia.org/wiki/File:On_The_Prowl.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 399,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "блейн уайт",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/On_The_Prowl.jpg/1280px-On_The_Prowl.jpg",
+  "work_key": "блейн уайт|«on the prowl», 2021",
+  "subject": "«On the Prowl», 2021",
+  "visual_family": "contemporary-painting",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original"
+}

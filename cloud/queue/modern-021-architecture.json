@@ -1,0 +1,49 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000021,
+  "rubric": "architecture",
+  "topic": "Аэропорт как единая фигура",
+  "caption": "🏛 Архитектура XXI века\nZaha Hadid Architects · Аэропорт как единая фигура\n\nТерминал пекинского аэропорта Дасин открылся в 2019 году. Проект Zaha Hadid Architects организован вокруг центрального пространства, от которого расходятся рукава. На виде сверху особенно понятна его логика: сложное транспортное здание складывается в одну узнаваемую форму.\n\nИсточник: Официальный сайт проекта\nФото: Siyuwj · CC BY 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%85%B4%E6%9C%BA%E5%9C%BA%E8%88%AA%E7%AB%99%E6%A5%BC%2C_2023-02-20_%2820240113195424%29.jpg/1280px-%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%85%B4%E6%9C%BA%E5%9C%BA%E8%88%AA%E7%AB%99%E6%A5%BC%2C_2023-02-20_%2820240113195424%29.jpg"
+  ],
+  "source_url": "https://www.zaha-hadid.com/architecture/beijing-new-airport-terminal-building/",
+  "source_name": "Официальный сайт проекта",
+  "modern_year": 2019,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "北京大兴机场航站楼, 2023-02-20 (20240113195424).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%85%B4%E6%9C%BA%E5%9C%BA%E8%88%AA%E7%AB%99%E6%A5%BC%2C_2023-02-20_%2820240113195424%29.jpg/1280px-%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%85%B4%E6%9C%BA%E5%9C%BA%E8%88%AA%E7%AB%99%E6%A5%BC%2C_2023-02-20_%2820240113195424%29.jpg",
+      "artist": "Siyuwj",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%85%B4%E6%9C%BA%E5%9C%BA%E8%88%AA%E7%AB%99%E6%A5%BC,_2023-02-20_(20240113195424).jpg",
+      "description": "​北京大兴机场航站楼航拍",
+      "project": "Beijing Daxing International Airport",
+      "selection_key": "arch-8",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 392,
+      "length": 6,
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%85%B4%E6%9C%BA%E5%9C%BA%E8%88%AA%E7%AB%99%E6%A5%BC,_2023-02-20_(20240113195424).jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 401,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "creator": "zaha hadid architects",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%85%B4%E6%9C%BA%E5%9C%BA%E8%88%AA%E7%AB%99%E6%A5%BC%2C_2023-02-20_%2820240113195424%29.jpg/1280px-%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%85%B4%E6%9C%BA%E5%9C%BA%E8%88%AA%E7%AB%99%E6%A5%BC%2C_2023-02-20_%2820240113195424%29.jpg",
+  "work_key": "zaha hadid architects|аэропорт как единая фигура",
+  "subject": "Аэропорт как единая фигура",
+  "visual_family": "contemporary-architecture"
+}

@@ -1,0 +1,55 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000034,
+  "rubric": "painting",
+  "topic": "«Gumby», 2025: живопись как поток образов",
+  "caption": "🖼 Современная живопись\nЛоран Импедулья · «Gumby», 2025: живопись как поток образов\n\nМасло на холсте, 120 × 100 см. Мультяшные персонажи, вывески, птицы и деревья собраны в плотную композицию. Здесь интересно выбирать собственный маршрут: начать с яркого лица, перейти к дому, а затем заметить маленькую фигуру у края.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Laurent impeduglia · CC BY 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gumby_oil_on_canvas_120_x_100_cm_2025.jpg/1280px-Gumby_oil_on_canvas_120_x_100_cm_2025.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Gumby oil on canvas 120 x 100 cm 2025.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gumby_oil_on_canvas_120_x_100_cm_2025.jpg/1280px-Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
+      "artist": "Laurent impeduglia",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
+      "description": "Gumby",
+      "selection_key": "painting-2025-6",
+      "rubric": "painting",
+      "modern_year": 2025,
+      "credit": "Own work",
+      "permission": "",
+      "date": "2025-02-25 11:47:29",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 384,
+      "length": 18,
+      "url": "https://commons.wikimedia.org/wiki/File:Gumby_oil_on_canvas_120_x_100_cm_2025.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 405,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "creator": "лоран импедулья",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gumby_oil_on_canvas_120_x_100_cm_2025.jpg/1280px-Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
+  "work_key": "лоран импедулья|«gumby», 2025: живопись как поток образов",
+  "subject": "«Gumby», 2025: живопись как поток образов",
+  "visual_family": "contemporary-painting",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original"
+}

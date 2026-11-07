@@ -1,0 +1,48 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000004,
+  "rubric": "fashion",
+  "topic": "Мягкая линия вместо жёсткой формы",
+  "caption": "👗 Современная мода\nMiu Miu · Мягкая линия вместо жёсткой формы\n\nВ описании Miu Miu осень–зима 2026 важны близость одежды к телу и тактильность. Драпировка помогает увидеть этот принцип: ткань образует линию сама. Для вечернего образа можно выбрать одну такую деталь и оставить украшения небольшими.\n\nНа фото — гостья Paris Fashion Week 2024; иллюстрация драпировки, не коллекция Miu Miu.\n\nИсточник: Miu Miu\nФото: Kooyuh · CC BY-SA 4.0",
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/46/Paris_Fashion_Week.jpg"
+  ],
+  "source_url": "https://www.miumiu.com/us/en/miumiu-club/fashion-shows/fw26-fashion-show.html",
+  "source_name": "Miu Miu",
+  "modern_year": 2026,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Paris Fashion Week.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Paris_Fashion_Week.jpg",
+      "artist": "Kooyuh",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Fashion_Week.jpg",
+      "description": "Suzu Hirose at 2024 Paris Fashion Week.",
+      "selection_key": "f5-3",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 414,
+      "length": 6,
+      "url": "https://commons.wikimedia.org/wiki/File:Paris_Fashion_Week.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 423,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "miu miu",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Paris_Fashion_Week.jpg",
+  "work_key": "miu miu|мягкая линия вместо жёсткой формы",
+  "subject": "Мягкая линия вместо жёсткой формы",
+  "visual_family": "contemporary-fashion"
+}

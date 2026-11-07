@@ -1,0 +1,56 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000046,
+  "rubric": "women",
+  "topic": "Цвет, который заменяет подробный рассказ",
+  "caption": "🎨 Художницы сегодня\nПиа Кантос Флоридо · Цвет, который заменяет подробный рассказ\n\nРабота опубликована художницей в 2022 году. Фигура проступает сквозь тёплые цветовые слои, а границы тела остаются мягкими. Вместо поиска единственного сюжета можно обратить внимание на прозрачность краски и на то, как одно цветовое поле переходит в другое.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: PIA Cantos Florido · CC BY-SA 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/PIARTE.jpg/1280px-PIARTE.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:PIARTE.jpg",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2022,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "PIARTE.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/PIARTE.jpg/1280px-PIARTE.jpg",
+      "artist": "PIA Cantos Florido",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PIARTE.jpg",
+      "description": "MÉXICO es mi sueño, su sol nos abraza día a día, sus flores llenan de esperanza el camino, nuestra madre tierra nos cuida amorosamente, su gente canta desde lo profundo del universo. Cada cuadro de ser un sueño, se convierte en una realidad que a su vez me transforma ... MÉXICO es mi realidad.",
+      "selection_key": "women-2022-23",
+      "rubric": "women",
+      "modern_year": 2022,
+      "credit": "Own work",
+      "permission": "",
+      "date": "2021-10-16",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 407,
+      "length": 18,
+      "url": "https://commons.wikimedia.org/wiki/File:PIARTE.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 428,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "пиа кантос флоридо",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/PIARTE.jpg/1280px-PIARTE.jpg",
+  "work_key": "пиа кантос флоридо|цвет, который заменяет подробный рассказ",
+  "subject": "Цвет, который заменяет подробный рассказ",
+  "visual_family": "contemporary-women",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original",
+  "creator_gender_verified": true
+}

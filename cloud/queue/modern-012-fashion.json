@@ -1,0 +1,48 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000012,
+  "rubric": "fashion",
+  "topic": "Простая форма, выразительная деталь",
+  "caption": "👗 Современная мода\nChanel · Простая форма, выразительная деталь\n\nКоллекция CHANEL осень–зима 2026 создана Матьё Блази. Для повседневного вдохновения можно присмотреться к балансу простой формы и деталей: лаконичное платье, заметный пояс, небольшая сумка. Подберите пропорции под своё удобство и привычный ритм дня.\n\nНа фото — гостья показа CHANEL в Париже; архивный street style, не образ коллекции 2026.\n\nИсточник: Chanel\nФото: Manuela Muniz Feijó Scarpa · CC BY-SA 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Marina_Ruy_Barbosa_no_desfile_da_Chanel_na_Semana_de_Moda_de_Paris_2.jpg/1280px-Marina_Ruy_Barbosa_no_desfile_da_Chanel_na_Semana_de_Moda_de_Paris_2.jpg"
+  ],
+  "source_url": "https://www.chanel.com/fr/mode/collection/automne-hiver-2026/",
+  "source_name": "Chanel",
+  "modern_year": 2026,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Marina Ruy Barbosa no desfile da Chanel na Semana de Moda de Paris 2.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Marina_Ruy_Barbosa_no_desfile_da_Chanel_na_Semana_de_Moda_de_Paris_2.jpg/1280px-Marina_Ruy_Barbosa_no_desfile_da_Chanel_na_Semana_de_Moda_de_Paris_2.jpg",
+      "artist": "Manuela Muniz Feijó Scarpa",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Marina_Ruy_Barbosa_no_desfile_da_Chanel_na_Semana_de_Moda_de_Paris_2.jpg",
+      "description": "Marina Ruy Barbosa",
+      "selection_key": "f5-10",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 430,
+      "length": 26,
+      "url": "https://commons.wikimedia.org/wiki/File:Marina_Ruy_Barbosa_no_desfile_da_Chanel_na_Semana_de_Moda_de_Paris_2.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 459,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "chanel",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Marina_Ruy_Barbosa_no_desfile_da_Chanel_na_Semana_de_Moda_de_Paris_2.jpg/1280px-Marina_Ruy_Barbosa_no_desfile_da_Chanel_na_Semana_de_Moda_de_Paris_2.jpg",
+  "work_key": "chanel|простая форма, выразительная деталь",
+  "subject": "Простая форма, выразительная деталь",
+  "visual_family": "contemporary-fashion"
+}

@@ -1,0 +1,54 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000051,
+  "rubric": "women",
+  "topic": "Художница, которую стоит знать: Симона Ли",
+  "caption": "🎨 Художницы сегодня\nСимона Ли · Художница, которую стоит знать: Симона Ли\n\nВ 2022 году Симона Ли представляла США на Венецианской биеннале с проектом «Sovereignty». Её практика расширяет разговор о том, чьи истории и образы занимают музейное пространство. Знакомство с современным искусством можно начать с одного автора и постепенно проследить разные этапы её работы.\n\nНа фото — портрет художницы.\n\nИсточник: ICA Boston\nФото: Tiffany I. Smith · CC BY-SA 4.0",
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/c/c7/Simone_Leigh_2_%28cropped%29.jpg"
+  ],
+  "source_url": "https://www.icaboston.org/articles/us-pavilion-opens-simone-leigh-sovereignty/",
+  "source_name": "ICA Boston",
+  "modern_year": 2026,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Simone Leigh 2 (cropped).jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Simone_Leigh_2_%28cropped%29.jpg",
+      "artist": "Tiffany I. Smith",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Simone_Leigh_2_(cropped).jpg",
+      "description": "Portrait of artist Simone Leigh by Tiffany Smith",
+      "selection_key": "profile-Simone-Leigh",
+      "rubric": "women",
+      "modern_year": 2026,
+      "profile_name": "Simone Leigh",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_role": "portrait"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 428,
+      "length": 16,
+      "url": "https://commons.wikimedia.org/wiki/File:Simone_Leigh_2_(cropped).jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 447,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "симона ли",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Simone_Leigh_2_%28cropped%29.jpg",
+  "work_key": "симона ли|художница, которую стоит знать: симона ли",
+  "subject": "Художница, которую стоит знать: Симона Ли",
+  "visual_family": "contemporary-women",
+  "content_kind": "artist-profile",
+  "creator_gender_verified": true
+}

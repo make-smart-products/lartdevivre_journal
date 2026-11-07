@@ -1,0 +1,49 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000024,
+  "rubric": "architecture",
+  "topic": "Промышленное прошлое и современное искусство",
+  "caption": "🏛 Архитектура XXI века\nOMA · Промышленное прошлое и современное искусство\n\nМиланская площадка Fondazione Prada открылась в 2015 году. OMA объединили бывший промышленный комплекс с новыми объёмами. Обратите внимание на соседство материалов и поверхностей: различия между ними делают историю перестройки видимой, вместо того чтобы скрывать её.\n\nИсточник: Официальный сайт проекта\nФото: Jay Dixit · CC BY 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Fondazione_Prada%2C_Milan.jpg/1280px-Fondazione_Prada%2C_Milan.jpg"
+  ],
+  "source_url": "https://www.fondazioneprada.org/mission/",
+  "source_name": "Официальный сайт проекта",
+  "modern_year": 2015,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Fondazione Prada, Milan.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Fondazione_Prada%2C_Milan.jpg/1280px-Fondazione_Prada%2C_Milan.jpg",
+      "artist": "Jay Dixit",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fondazione_Prada,_Milan.jpg",
+      "description": "The Fondazione Prada in Milan",
+      "project": "Fondazione Prada",
+      "selection_key": "arch-11",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 385,
+      "length": 9,
+      "url": "https://commons.wikimedia.org/wiki/File:Fondazione_Prada,_Milan.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 397,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "creator": "oma",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Fondazione_Prada%2C_Milan.jpg/1280px-Fondazione_Prada%2C_Milan.jpg",
+  "work_key": "oma|промышленное прошлое и современное искусство",
+  "subject": "Промышленное прошлое и современное искусство",
+  "visual_family": "contemporary-architecture"
+}

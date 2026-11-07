@@ -1,0 +1,55 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000038,
+  "rubric": "painting",
+  "topic": "«Orange Hymne», 2023",
+  "caption": "🖼 Современная живопись\nАрмин Андреас Пангерль · «Orange Hymne», 2023\n\nОранжевые, розовые и светлые мазки складываются в абстрактную композицию. Здесь можно начать без поиска предмета: выбрать самый заметный участок, проследить направление линий и посмотреть, где цвет становится плотнее. Какое ощущение создаёт этот ритм?\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Armin Andreas Pangerl · CC BY-SA 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Orange_Hymne.jpg/1280px-Orange_Hymne.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:Orange_Hymne.jpg",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2023,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Orange Hymne.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Orange_Hymne.jpg/1280px-Orange_Hymne.jpg",
+      "artist": "Armin Andreas Pangerl",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Orange_Hymne.jpg",
+      "description": "",
+      "selection_key": "painting-2023-24",
+      "rubric": "painting",
+      "modern_year": 2023,
+      "credit": "Own work",
+      "permission": "",
+      "date": "16 December 2023",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 388,
+      "length": 21,
+      "url": "https://commons.wikimedia.org/wiki/File:Orange_Hymne.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 412,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "армин андреас пангерль",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Orange_Hymne.jpg/1280px-Orange_Hymne.jpg",
+  "work_key": "армин андреас пангерль|«orange hymne», 2023",
+  "subject": "«Orange Hymne», 2023",
+  "visual_family": "contemporary-painting",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original"
+}

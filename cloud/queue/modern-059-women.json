@@ -1,0 +1,54 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000059,
+  "rubric": "women",
+  "topic": "«Waiting», 2020: история из простых форм",
+  "caption": "🎨 Художницы сегодня\nЛенка Гусарикова · «Waiting», 2020: история из простых форм\n\nАкрил на холсте, 60 × 80 см. Художница называет эту работу первой, в которой использовала мотив танграма. Несколько геометрических фигур складываются в персонажей под ночным небом. Какие отношения между ними вы видите, если смотреть только на расположение и повороты?\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Lenkahusarikova · CC BY-SA 4.0",
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/9/93/Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2020,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Lenka Husáriková Waiting acrylic 2020.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg",
+      "artist": "Lenkahusarikova",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg",
+      "description": "\"Waiting\", acrylic on canvas, 60 × 80 cm, 2020. First painting by Lenka Husáriková featuring the tangram motif. Photo by the artist. License: CC BY-SA 4.0.",
+      "selection_key": "women-new-lenka2",
+      "credit": "Own work",
+      "permission": "",
+      "date": "2025-04-22",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 415,
+      "length": 15,
+      "url": "https://commons.wikimedia.org/wiki/File:Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 433,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "ленка гусарикова",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Lenka_Hus%C3%A1rikov%C3%A1_Waiting_acrylic_2020.jpg",
+  "work_key": "ленка гусарикова|«waiting», 2020: история из простых форм",
+  "subject": "«Waiting», 2020: история из простых форм",
+  "visual_family": "contemporary-women",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original",
+  "creator_gender_verified": true
+}

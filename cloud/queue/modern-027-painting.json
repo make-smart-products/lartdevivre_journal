@@ -1,0 +1,55 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000027,
+  "rubric": "painting",
+  "topic": "«Гермес»: свет внутри тёмной сцены",
+  "caption": "🖼 Современная живопись\nХуан Карлос Хурадо · «Гермес»: свет внутри тёмной сцены\n\nВ работе 2024 года фигуры собраны вокруг яркого центра. Сине-зелёный свет разделяет пространство на планы и задаёт движение взгляда. Попробуйте сначала рассмотреть только силуэты, затем вернуться к освещённой фигуре: композиция читается по-разному.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: ElQuitense · CC BY 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg/1280px-Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2024,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Hermes Juan Carlos Jurado 2024 oil on canvas.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg/1280px-Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg",
+      "artist": "ElQuitense",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg",
+      "description": "Hermes, 2024. Óleo sobre lienzo, 200 × 260 cm. Pintura del artista ecuatoriano Juan Carlos Jurado.",
+      "selection_key": "painting-2024-6",
+      "rubric": "painting",
+      "modern_year": 2024,
+      "credit": "Own work",
+      "permission": "",
+      "date": "2024",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 395,
+      "length": 10,
+      "url": "https://commons.wikimedia.org/wiki/File:Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 408,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "creator": "хуан карлос хурадо",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg/1280px-Hermes_Juan_Carlos_Jurado_2024_oil_on_canvas.jpg",
+  "work_key": "хуан карлос хурадо|«гермес»: свет внутри тёмной сцены",
+  "subject": "«Гермес»: свет внутри тёмной сцены",
+  "visual_family": "contemporary-painting",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original"
+}

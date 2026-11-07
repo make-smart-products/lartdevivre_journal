@@ -57,7 +57,7 @@ def credit_entities(text,asset):
 
 
 def commons(params):
-    return wiki_api('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode({'action':'query','format':'json','prop':'imageinfo','iiprop':'url|extmetadata|mime|size','iiurlwidth':1200,**params}))
+    return wiki_api('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode({'action':'query','format':'json','prop':'imageinfo','iiprop':'url|extmetadata|mime|size','iiurlwidth':1280,**params}))
 
 
 def extract(result):

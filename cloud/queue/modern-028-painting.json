@@ -1,0 +1,55 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000028,
+  "rubric": "painting",
+  "topic": "«Аполлон»: античный образ в живописи 2023 года",
+  "caption": "🖼 Современная живопись\nХуан Карлос Хурадо · «Аполлон»: античный образ в живописи 2023 года\n\nЗнакомая форма античной головы здесь встречается с красным полем и свободными потёками краски. Исторический мотив становится частью современной композиции. Посмотрите, где изображение остаётся узнаваемым, а где уступает место жесту и пятну.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: ElQuitense · CC BY 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Apolo%2C_Juan_Carlos_Jurado_2024_oil_on_paper.jpg/1280px-Apolo%2C_Juan_Carlos_Jurado_2024_oil_on_paper.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apolo,_Juan_Carlos_Jurado_2024_oil_on_paper.jpg",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2023,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Apolo, Juan Carlos Jurado 2024 oil on paper.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Apolo%2C_Juan_Carlos_Jurado_2024_oil_on_paper.jpg/1280px-Apolo%2C_Juan_Carlos_Jurado_2024_oil_on_paper.jpg",
+      "artist": "ElQuitense",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apolo,_Juan_Carlos_Jurado_2024_oil_on_paper.jpg",
+      "description": "Apolo, 2023. Técnica Mixta, 21 × 29,7 cm. Pintura del artista ecuatoriano Juan Carlos Jurado.",
+      "selection_key": "painting-2023-5",
+      "rubric": "painting",
+      "modern_year": 2023,
+      "credit": "Own work",
+      "permission": "",
+      "date": "2023",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 399,
+      "length": 10,
+      "url": "https://commons.wikimedia.org/wiki/File:Apolo,_Juan_Carlos_Jurado_2024_oil_on_paper.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 412,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "creator": "хуан карлос хурадо",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Apolo%2C_Juan_Carlos_Jurado_2024_oil_on_paper.jpg/1280px-Apolo%2C_Juan_Carlos_Jurado_2024_oil_on_paper.jpg",
+  "work_key": "хуан карлос хурадо|«аполлон»: античный образ в живописи 2023 года",
+  "subject": "«Аполлон»: античный образ в живописи 2023 года",
+  "visual_family": "contemporary-painting",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original"
+}

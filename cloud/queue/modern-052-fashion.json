@@ -1,0 +1,51 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000052,
+  "rubric": "fashion",
+  "topic": "Контраст плотного и лёгкого",
+  "caption": "👗 Современная мода\nStella McCartney · Контраст плотного и лёгкого\n\nВ Stella McCartney зима 2026 есть сатиновые топы и жакеты. В своём гардеробе можно попробовать похожий принцип: лёгкий внутренний слой и более плотный верх. Контраст прозрачности и фактуры делает даже чёрно-белый комплект выразительным.\n\nНа фото — гостья показа Chloé, 2024; иллюстрация контраста тканей, не коллекция Stella McCartney.\n\nИсточник: Stella McCartney\nФото: Manuela Muniz Feijó Scarpa · CC BY-SA 4.0",
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/3/3f/Marina_Ruy_Barbosa_no_desfile_da_Chlo%C3%A9_na_Semana_de_Moda_de_Paris.jpg"
+  ],
+  "source_url": "https://www.stellamccartney.com/us/en/women/winter-2026-collection",
+  "source_name": "Stella McCartney",
+  "modern_year": 2026,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Marina Ruy Barbosa no desfile da Chloé na Semana de Moda de Paris.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Marina_Ruy_Barbosa_no_desfile_da_Chlo%C3%A9_na_Semana_de_Moda_de_Paris.jpg",
+      "artist": "Manuela Muniz Feijó Scarpa",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Marina_Ruy_Barbosa_no_desfile_da_Chlo%C3%A9_na_Semana_de_Moda_de_Paris.jpg",
+      "description": "Marina Ruy Barbosa",
+      "selection_key": "f-new-chloe",
+      "credit": "Own work",
+      "permission": "",
+      "date": "2024-09-26",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 438,
+      "length": 26,
+      "url": "https://commons.wikimedia.org/wiki/File:Marina_Ruy_Barbosa_no_desfile_da_Chlo%C3%A9_na_Semana_de_Moda_de_Paris.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 467,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "stella mccartney",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Marina_Ruy_Barbosa_no_desfile_da_Chlo%C3%A9_na_Semana_de_Moda_de_Paris.jpg",
+  "work_key": "stella mccartney|контраст плотного и лёгкого",
+  "subject": "Контраст плотного и лёгкого",
+  "visual_family": "contemporary-fashion"
+}

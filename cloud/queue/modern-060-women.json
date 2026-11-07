@@ -1,0 +1,54 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000060,
+  "rubric": "women",
+  "topic": "Анимация: линия, которая становится движением",
+  "caption": "🎨 Художницы сегодня\nНина Пэйли · Анимация: линия, которая становится движением\n\nКадр из «Sita Sings the Blues», 2008. Нина Пэйли использует плоские формы и чёткий контур, чтобы строить выразительную сцену. В статичном изображении можно рассмотреть то, что быстро проходит на экране: направление линий, соотношение масштабов и ритм повторяющихся деталей.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Nina Paley · CC BY-SA 3.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/SitaCriesARiver.png/1280px-SitaCriesARiver.png"
+  ],
+  "source_url": "https://www.sitasingstheblues.com/",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2008,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "SitaCriesARiver.png",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/SitaCriesARiver.png/1280px-SitaCriesARiver.png",
+      "artist": "Nina Paley",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SitaCriesARiver.png",
+      "description": "Sita mourns her privation from her husband and his callous behaviour towards her.",
+      "selection_key": "women-new-nina",
+      "credit": "http://www.sitasingstheblues.com/press.html",
+      "permission": "CC-SA as is the rest of the press kit, indicated on http://www.sitasingstheblues.com/press.html",
+      "date": "",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 420,
+      "length": 10,
+      "url": "https://commons.wikimedia.org/wiki/File:SitaCriesARiver.png"
+    },
+    {
+      "type": "text_link",
+      "offset": 433,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  ],
+  "creator": "нина пэйли",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/SitaCriesARiver.png/1280px-SitaCriesARiver.png",
+  "work_key": "нина пэйли|анимация: линия, которая становится движением",
+  "subject": "Анимация: линия, которая становится движением",
+  "visual_family": "contemporary-women",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original",
+  "creator_gender_verified": true
+}

@@ -1,0 +1,49 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000023,
+  "rubric": "architecture",
+  "topic": "Музей как три волны в ландшафте",
+  "caption": "🏛 Архитектура XXI века\nRenzo Piano · Музей как три волны в ландшафте\n\nЦентр Пауля Клее в Берне открылся в 2005 году. Ренцо Пьяно придал зданию волнообразный профиль, связав его с окружающим ландшафтом. Из этой точки видно, как повторение одной формы создаёт ритм, а зелёные склоны смягчают масштаб музея.\n\nИсточник: Официальный сайт проекта\nФото: Jean-Pierre Dalbéra from Paris, France · CC BY 2.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Le_centre_Paul_Klee_%28Berne%2C_Suisse%29_%2828648115807%29.jpg/1280px-Le_centre_Paul_Klee_%28Berne%2C_Suisse%29_%2828648115807%29.jpg"
+  ],
+  "source_url": "https://www.zpk.org/de/ueber-uns/architektur",
+  "source_name": "Официальный сайт проекта",
+  "modern_year": 2005,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Le centre Paul Klee (Berne, Suisse) (28648115807).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Le_centre_Paul_Klee_%28Berne%2C_Suisse%29_%2828648115807%29.jpg/1280px-Le_centre_Paul_Klee_%28Berne%2C_Suisse%29_%2828648115807%29.jpg",
+      "artist": "Jean-Pierre Dalbéra from Paris, France",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Le_centre_Paul_Klee_(Berne,_Suisse)_(28648115807).jpg",
+      "description": "La façade du Zentrum Paul Klee à Berne (Suisse) La forme du bâtiment était préexistante dans le paysage. Nous avons donc commencé à \"labourer la terre\" comme des paysans plutôt que des architectes - jusqu'à ce que le paysage se transforme en bâtiment. (Renzo Piano) Le Zentrum Paul Klee a été conçu par l'agence de l'architecte Renzo Piano (RPBW : Renzo Piano Building Workshop) associée à divers collaborateurs et architectes suisses, pour le compte d'un important mécène : la fondation Maurice E. et Martha Müller (Maurice E. Müller a été le chirurgien qui a inventé la prothèse de hanche). Le centre Paul Klee a été ouvert en 2005, il dépend de la ville de Berne. <a href=\" http://www.rpbw.com/pro",
+      "project": "Zentrum Paul Klee",
+      "selection_key": "arch-10",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 348,
+      "length": 38,
+      "url": "https://commons.wikimedia.org/wiki/File:Le_centre_Paul_Klee_(Berne,_Suisse)_(28648115807).jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 389,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  ],
+  "creator": "renzo piano",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Le_centre_Paul_Klee_%28Berne%2C_Suisse%29_%2828648115807%29.jpg/1280px-Le_centre_Paul_Klee_%28Berne%2C_Suisse%29_%2828648115807%29.jpg",
+  "work_key": "renzo piano|музей как три волны в ландшафте",
+  "subject": "Музей как три волны в ландшафте",
+  "visual_family": "contemporary-architecture"
+}

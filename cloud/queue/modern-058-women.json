@@ -1,0 +1,54 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000058,
+  "rubric": "women",
+  "topic": "«To the Angel», 2023: танграм в живописи",
+  "caption": "🎨 Художницы сегодня\nЛенка Гусарикова · «To the Angel», 2023: танграм в живописи\n\nМасляная работа соединяет облачное пространство и чёткие голубые фигуры из геометрических элементов. Художница использует мотив танграма, чтобы поместить условных персонажей в почти воздушную среду. Интересно проследить, как острые грани меняют ощущение мягкого живописного фона.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Lenkahusarikova · CC BY-SA 4.0",
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/7/7f/Lenka-husarikova-to-the-angel-150-150-2023-oilpainting-big.png"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:Lenka-husarikova-to-the-angel-150-150-2023-oilpainting-big.png",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2023,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Lenka-husarikova-to-the-angel-150-150-2023-oilpainting-big.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Lenka-husarikova-to-the-angel-150-150-2023-oilpainting-big.png",
+      "artist": "Lenkahusarikova",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lenka-husarikova-to-the-angel-150-150-2023-oilpainting-big.png",
+      "description": "\"To the Angel\" by Czech visual artist Lenka Husáriková, oil painting, 150 × 150 cm, 2023. Tangram angels flying through abstract golden clouds. Photo by the artist. Licensed under CC BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/",
+      "selection_key": "women-new-lenka1",
+      "credit": "Own work",
+      "permission": "",
+      "date": "2024-05-29",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 427,
+      "length": 15,
+      "url": "https://commons.wikimedia.org/wiki/File:Lenka-husarikova-to-the-angel-150-150-2023-oilpainting-big.png"
+    },
+    {
+      "type": "text_link",
+      "offset": 445,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "ленка гусарикова",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Lenka-husarikova-to-the-angel-150-150-2023-oilpainting-big.png",
+  "work_key": "ленка гусарикова|«to the angel», 2023: танграм в живописи",
+  "subject": "«To the Angel», 2023: танграм в живописи",
+  "visual_family": "contemporary-women",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original",
+  "creator_gender_verified": true
+}

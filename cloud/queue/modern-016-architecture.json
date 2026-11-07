@@ -1,0 +1,49 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000016,
+  "rubric": "architecture",
+  "topic": "Новое здание поверх старого склада",
+  "caption": "🏛 Архитектура XXI века\nHerzog & de Meuron · Новое здание поверх старого склада\n\nЭльбская филармония в Гамбурге открылась в 2017 году. Herzog & de Meuron соединили кирпичный склад с новым стеклянным объёмом. На фасаде хорошо видно их границу: пример того, как современный проект может сохранить узнаваемую часть истории места.\n\nИсточник: Официальный сайт проекта\nФото: Burkhard Mücke · CC BY-SA 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2019-05-10_Elbphilharmonie_Hamburg.jpg/1280px-2019-05-10_Elbphilharmonie_Hamburg.jpg"
+  ],
+  "source_url": "https://www.elbphilharmonie.de/media/filer_public/c5/7d/c57d88e5-7cb3-4b1b-abf1-655826306d2b/170111_pr_elbphilharmonie_hamburg_opening_ceremonies_en.pdf",
+  "source_name": "Официальный сайт проекта",
+  "modern_year": 2017,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "2019-05-10 Elbphilharmonie Hamburg.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2019-05-10_Elbphilharmonie_Hamburg.jpg/1280px-2019-05-10_Elbphilharmonie_Hamburg.jpg",
+      "artist": "Burkhard Mücke",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2019-05-10_Elbphilharmonie_Hamburg.jpg",
+      "description": "Eindrücke der Hamburger Elbphilharmonie, innen und außen, und bei der Hafenrundfahrt, aufgenommen anlässlich der Vorbereitung zur Humboldtreise",
+      "project": "Elbphilharmonie",
+      "selection_key": "arch-3",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 369,
+      "length": 14,
+      "url": "https://commons.wikimedia.org/wiki/File:2019-05-10_Elbphilharmonie_Hamburg.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 386,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "herzog & de meuron",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2019-05-10_Elbphilharmonie_Hamburg.jpg/1280px-2019-05-10_Elbphilharmonie_Hamburg.jpg",
+  "work_key": "herzog & de meuron|новое здание поверх старого склада",
+  "subject": "Новое здание поверх старого склада",
+  "visual_family": "contemporary-architecture"
+}

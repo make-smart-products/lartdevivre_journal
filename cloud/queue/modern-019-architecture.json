@@ -1,0 +1,49 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000019,
+  "rubric": "architecture",
+  "topic": "Крыша как городская прогулка",
+  "caption": "🏛 Архитектура XXI века\nSnøhetta · Крыша как городская прогулка\n\nОперный театр Осло, построенный Snøhetta в 2008 году, предлагает необычную связь с городом: наклонная крыша становится местом прогулок. Даже без билета на спектакль можно познакомиться с архитектурой здания снаружи и увидеть фьорд с другой высоты.\n\nИсточник: Официальный сайт проекта\nФото: Rafał Konieczny · CC BY-SA 4.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Full_Opera_by_night.jpg/1280px-Full_Opera_by_night.jpg"
+  ],
+  "source_url": "https://old.snohetta.com/project/42-norwegian-national-opera-and-ballet",
+  "source_name": "Официальный сайт проекта",
+  "modern_year": 2008,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Full Opera by night.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Full_Opera_by_night.jpg/1280px-Full_Opera_by_night.jpg",
+      "artist": "Rafał Konieczny",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Full_Opera_by_night.jpg",
+      "description": "The new Opera House in Oslo.",
+      "project": "Oslo Opera House",
+      "selection_key": "arch-6",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 355,
+      "length": 15,
+      "url": "https://commons.wikimedia.org/wiki/File:Full_Opera_by_night.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 373,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "creator": "snøhetta",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Full_Opera_by_night.jpg/1280px-Full_Opera_by_night.jpg",
+  "work_key": "snøhetta|крыша как городская прогулка",
+  "subject": "Крыша как городская прогулка",
+  "visual_family": "contemporary-architecture"
+}

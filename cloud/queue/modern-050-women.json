@@ -1,0 +1,42 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000050,
+  "rubric": "women",
+  "topic": "Цифровая анимация как авторское искусство",
+  "caption": "🎨 Художницы сегодня\nНина Пэйли · Цифровая анимация как авторское искусство\n\n«Sita Sings the Blues», 2008 — анимационный фильм Нины Пэйли. В этом кадре плоские цветовые формы и орнамент собираются в насыщенную композицию. Пример того, как художница XXI века работает с традиционным сюжетом средствами цифровой анимации.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Nina Paley · CC0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/05.RamSitaGods.png/1280px-05.RamSitaGods.png"
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:05.RamSitaGods.png",
+  "source_name": "Авторская публикация / Wikimedia Commons",
+  "modern_year": 2008,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "05.RamSitaGods.png",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/05.RamSitaGods.png/1280px-05.RamSitaGods.png",
+      "artist": "Nina Paley",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:05.RamSitaGods.png",
+      "description": "Gods Brahma, Agni and Shiva attest to Sita's purity while Rama looks on in shock. Still from Sita Sings the Blues by Nina Paley.",
+      "selection_key": "women-nina-0",
+      "rubric": "women",
+      "modern_year": 2008,
+      "credit": "Own work",
+      "permission": "",
+      "date": "2008"
+    }
+  ],
+  "caption_entities": [],
+  "creator": "нина пэйли",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/05.RamSitaGods.png/1280px-05.RamSitaGods.png",
+  "work_key": "нина пэйли|цифровая анимация как авторское искусство",
+  "subject": "Цифровая анимация как авторское искусство",
+  "visual_family": "contemporary-women",
+  "artwork_rights_verified": true,
+  "source_kind": "artist-original",
+  "creator_gender_verified": true
+}

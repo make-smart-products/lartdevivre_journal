@@ -1,0 +1,49 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2000000014,
+  "rubric": "architecture",
+  "topic": "Стеклянные паруса в парижском парке",
+  "caption": "🏛 Архитектура XXI века\nFrank Gehry · Стеклянные паруса в парижском парке\n\nFondation Louis Vuitton Фрэнка Гери открылась в 2014 году. Стеклянные оболочки меняют силуэт здания в зависимости от точки обзора. На снимке оно видно из сада: можно заметить, как архитектура становится частью пейзажа ещё до входа в музей.\n\nИсточник: Официальный сайт проекта\nФото: Moktarama · CC BY 3.0",
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Fondation_Louis_Vuitton_5.jpg/1280px-Fondation_Louis_Vuitton_5.jpg"
+  ],
+  "source_url": "https://www.fondationlouisvuitton.fr/en/fondation/the-building",
+  "source_name": "Официальный сайт проекта",
+  "modern_year": 2014,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+  "licensed_images": [
+    {
+      "title": "Fondation Louis Vuitton 5.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Fondation_Louis_Vuitton_5.jpg/1280px-Fondation_Louis_Vuitton_5.jpg",
+      "artist": "Moktarama",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fondation_Louis_Vuitton_5.jpg",
+      "description": "Fondation Louis Vuitton vue du Jardin d'acclimatation - Paris",
+      "project": "Fondation Louis Vuitton",
+      "selection_key": "arch-0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 357,
+      "length": 9,
+      "url": "https://commons.wikimedia.org/wiki/File:Fondation_Louis_Vuitton_5.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 369,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "creator": "frank gehry",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Fondation_Louis_Vuitton_5.jpg/1280px-Fondation_Louis_Vuitton_5.jpg",
+  "work_key": "frank gehry|стеклянные паруса в парижском парке",
+  "subject": "Стеклянные паруса в парижском парке",
+  "visual_family": "contemporary-architecture"
+}

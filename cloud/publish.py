@@ -18,6 +18,10 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+try:
+    from . import modern
+except ImportError:
+    import modern
 
 ROOT = Path(__file__).resolve().parents[1]
 MET = "https://collectionapi.metmuseum.org/public/collection/v1"
@@ -31,11 +35,11 @@ BASE_RUBRIC_ORDER = ["fashion", "architecture", "travel", "women", "painting"]
 # A twenty-slot cycle: 15 per core topic, 10 books/cinema and 15 quizzes per 100.
 RUBRIC_ORDER = (BASE_RUBRIC_ORDER + ["books", "quiz"]) * 2 + BASE_RUBRIC_ORDER + ["quiz"]
 RUBRICS = {
-    "fashion": {"label": "👗 История моды", "tag": "#ИсторияМоды", "queries": ["evening dress", "robe", "coat", "hat", "House of Worth"]},
+    "fashion": {"label": "👗 Современная мода", "tag": "#СовременнаяМода", "queries": []},
     "architecture": {"label": "🏛 Архитектура и интерьер", "tag": "#Архитектура", "queries": ["temple", "architectural", "column", "facade", "floor plan", "cathedral", "interior", "chair", "cabinet"]},
     "travel": {"label": "🧳 Культурные путешествия", "tag": "#КультурныеПутешествия", "queries": ["Venice", "Rome", "Paris", "Florence", "Kyoto", "Istanbul", "Amsterdam", "London", "Naples", "New York"]},
-    "women": {"label": "🎨 Женщины в искусстве", "tag": "#ЖенщиныВИскусстве", "queries": ["Berthe Morisot", "Mary Cassatt", "Rosa Bonheur", "Judith Leyster", "Elisabeth Louise Vigee Le Brun", "Artemisia Gentileschi", "Adelaide Labille-Guiard", "Rachel Ruysch", "Clara Peeters", "Eva Gonzales", "Marie Bracquemond", "Fidelia Bridges", "Edmonia Lewis", "Harriet Hosmer", "Camille Claudel", "Paula Modersohn-Becker", "Lilla Cabot Perry", "Elizabeth Nourse", "Cecilia Beaux", "Margaret Sarah Carpenter"]},
-    "painting": {"label": "🖼 Картина дня", "tag": "#КартинаДня"},
+    "women": {"label": "🎨 Художницы сегодня", "tag": "#ХудожницыСегодня", "queries": []},
+    "painting": {"label": "🖼 Современная живопись", "tag": "#СовременнаяЖивопись"},
     "books": {"label": "📚 Книги, кино и визуальные истории", "tag": "#КнигиИКино", "queries": ["Shakespeare", "Tennyson", "Hamlet", "King Lear", "illustrated book", "theater"]},
     "quiz": {"label": "❓ Визуальная викторина", "tag": "#Викторина", "queries": ["painting", "photograph", "engraving", "sculpture"]},
 }
@@ -93,6 +97,12 @@ def validate_post(post):
     photos = post.get("images", [])
     if not 1 <= len(photos) <= 3:
         raise PublishError("Нужны 1–3 изображения")
+    if post.get("provider") == "modern-editorial":
+        try:
+            modern.validate(post)
+        except (ValueError, TypeError) as error:
+            raise PublishError(str(error)) from None
+        return
     for photo in photos:
         if urllib.parse.urlparse(photo).hostname != "images.metmuseum.org" or not photo.startswith("https://"):
             raise PublishError("Изображение должно происходить из официальной коллекции")
@@ -345,6 +355,13 @@ def snapshot_object(post, now=None):
 
 def choose_post(state, fetch=request, rubric=None):
     rubric = rubric or RUBRIC_ORDER[state.get("next_rubric_index", 0) % len(RUBRIC_ORDER)]
+    if rubric in modern.RUBRICS:
+        try:
+            post = modern.choose(ROOT, state, rubric, diverse_enough)
+            validate_post(post)
+            return post
+        except ValueError as error:
+            raise PublishError(str(error)) from None
     used = {int(x) for x in state.get("used_object_ids", [])}
     recent = state.get("recent_content", [])
     recent_in_rubric = [item for item in recent if item.get("rubric") == rubric][-10:]
@@ -472,10 +489,14 @@ def publish(post, token, fetch=request):
     elif len(post["images"]) == 1:
         method = "sendPhoto"
         payload = {"chat_id": CHANNEL, "photo": post["images"][0], "caption": post["caption"], "disable_notification": True}
+        if post.get("caption_entities"):
+            payload["caption_entities"] = post["caption_entities"]
     else:
         method = "sendMediaGroup"
         media = [{"type": "photo", "media": image} for image in post["images"]]
         media[0]["caption"] = post["caption"]
+        if post.get("caption_entities"):
+            media[0]["caption_entities"] = post["caption_entities"]
         payload = {"chat_id": CHANNEL, "media": media, "disable_notification": True}
     reply = fetch("https://api.telegram.org/bot" + token + "/" + method, payload)
     if not reply.get("ok"):
