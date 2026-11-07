@@ -155,64 +155,11 @@
     -2000000027,
     78658,
     456157,
-    -2000000001
+    -2000000001,
+    -2000000014
   ],
-  "last_published_at": "2026-11-07T17:02:32.041048+00:00",
-  "pending": {
-    "object_id": -2000000014,
-    "attempted_at": "2026-11-07T17:02:34.860315+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000014,
-      "rubric": "architecture",
-      "topic": "Стеклянные паруса в парижском парке",
-      "caption": "🏛 Архитектура XXI века\nFrank Gehry · Стеклянные паруса в парижском парке\n\nFondation Louis Vuitton Фрэнка Гери открылась в 2014 году. Стеклянные оболочки меняют силуэт здания в зависимости от точки обзора. На снимке оно видно из сада: можно заметить, как архитектура становится частью пейзажа ещё до входа в музей.\n\nИсточник: Официальный сайт проекта\nФото: Moktarama · CC BY 3.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Fondation_Louis_Vuitton_5.jpg/1280px-Fondation_Louis_Vuitton_5.jpg"
-      ],
-      "source_url": "https://www.fondationlouisvuitton.fr/en/fondation/the-building",
-      "source_name": "Официальный сайт проекта",
-      "modern_year": 2014,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Fondation Louis Vuitton 5.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Fondation_Louis_Vuitton_5.jpg/1280px-Fondation_Louis_Vuitton_5.jpg",
-          "artist": "Moktarama",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Fondation_Louis_Vuitton_5.jpg",
-          "description": "Fondation Louis Vuitton vue du Jardin d'acclimatation - Paris",
-          "project": "Fondation Louis Vuitton",
-          "selection_key": "arch-0",
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 357,
-          "length": 9,
-          "url": "https://commons.wikimedia.org/wiki/File:Fondation_Louis_Vuitton_5.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 369,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "creator": "frank gehry",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Fondation_Louis_Vuitton_5.jpg/1280px-Fondation_Louis_Vuitton_5.jpg",
-      "work_key": "frank gehry|стеклянные паруса в парижском парке",
-      "subject": "Стеклянные паруса в парижском парке",
-      "visual_family": "contemporary-architecture"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "9e10be185eee526d15b02e2183f6e1df5746c141ad0e0708d3374d18799062d4"
-  },
+  "last_published_at": "2026-11-07T17:02:36.462215+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1695,9 +1642,20 @@
       "rubric": "fashion",
       "subject": "Свободный силуэт и несколько слоёв",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000014,
+      "message_ids": [
+        340
+      ],
+      "source_url": "https://www.fondationlouisvuitton.fr/en/fondation/the-building",
+      "published_at": "2026-11-07T17:02:36.462215+00:00",
+      "rubric": "architecture",
+      "subject": "Стеклянные паруса в парижском парке",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 15,
+  "next_rubric_index": 16,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1712,7 +1670,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 4,
+      "completed": 5,
       "target": 100
     }
   },
@@ -3434,12 +3392,6 @@
   },
   "recent_content": [
     {
-      "creator": "suzanne de court",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/rl/web-large/SLP1237-1.jpg",
-      "work_key": "suzanne de court|mirror; minerva visits the muses on mount helicon"
-    },
-    {
       "creator": "paul cezanne (french, 1839–1906)",
       "visual_family": "",
       "image": "https://www.artic.edu/iiif/2/96f23681-9701-a668-5c3f-6ffa951f7ecc/full/843,/0/default.jpg",
@@ -4246,6 +4198,14 @@
       "work_key": "prada|свободный силуэт и несколько слоёв",
       "rubric": "fashion",
       "subject": "Свободный силуэт и несколько слоёв"
+    },
+    {
+      "creator": "frank gehry",
+      "visual_family": "contemporary-architecture",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Fondation_Louis_Vuitton_5.jpg/1280px-Fondation_Louis_Vuitton_5.jpg",
+      "work_key": "frank gehry|стеклянные паруса в парижском парке",
+      "rubric": "architecture",
+      "subject": "Стеклянные паруса в парижском парке"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
