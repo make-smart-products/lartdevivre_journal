@@ -180,63 +180,11 @@
     811667,
     -2000000043,
     -2000000031,
-    324119
+    324119,
+    -2000000005
   ],
-  "last_published_at": "2026-11-07T17:04:41.530396+00:00",
-  "pending": {
-    "object_id": -2000000005,
-    "attempted_at": "2026-11-07T17:04:44.289779+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000005,
-      "rubric": "fashion",
-      "topic": "Повседневный комплект с чёткой линией",
-      "caption": "👗 Современная мода\nCOS · Повседневный комплект с чёткой линией\n\nCOS в сезоне осень–зима 2026 обращается к современному городскому гардеробу и лаконичному крою. Полезный приём на каждый день: полоска, прямые брюки и короткая куртка. Ремень связывает верх и низ, а свободная посадка оставляет место для движения.\n\nФото из архива street style; иллюстрация сочетания, не показ COS 2026.\n\nИсточник: COS\nФото: Anastasia Pavlenko from Saint Petersburg, Russia · CC BY 2.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Street_fashion_%2827305297617%29.jpg/1280px-Street_fashion_%2827305297617%29.jpg"
-      ],
-      "source_url": "https://www.cos.com/en-gb/runway/autumn-winter-2026",
-      "source_name": "COS",
-      "modern_year": 2026,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Street fashion (27305297617).jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Street_fashion_%2827305297617%29.jpg/1280px-Street_fashion_%2827305297617%29.jpg",
-          "artist": "Anastasia Pavlenko from Saint Petersburg, Russia",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Street_fashion_(27305297617).jpg",
-          "description": "fashion is my profession",
-          "selection_key": "f7-6",
-          "license_url": "https://creativecommons.org/licenses/by/2.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 405,
-          "length": 48,
-          "url": "https://commons.wikimedia.org/wiki/File:Street_fashion_(27305297617).jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 456,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/2.0/"
-        }
-      ],
-      "creator": "cos",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Street_fashion_%2827305297617%29.jpg/1280px-Street_fashion_%2827305297617%29.jpg",
-      "work_key": "cos|повседневный комплект с чёткой линией",
-      "subject": "Повседневный комплект с чёткой линией",
-      "visual_family": "contemporary-fashion"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "52755442762e0a95db269288ddffab4f6f7cb1d840d5b98a08d7db2093abba50"
-  },
+  "last_published_at": "2026-11-07T17:04:47.025526+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1998,9 +1946,20 @@
       "subject": "Скульптура",
       "quiz_format": "medium",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000005,
+      "message_ids": [
+        365
+      ],
+      "source_url": "https://www.cos.com/en-gb/runway/autumn-winter-2026",
+      "published_at": "2026-11-07T17:04:47.025526+00:00",
+      "rubric": "fashion",
+      "subject": "Повседневный комплект с чёткой линией",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2015,7 +1974,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 29,
+      "completed": 30,
       "target": 100
     }
   },
@@ -3737,14 +3696,6 @@
   },
   "recent_content": [
     {
-      "creator": "house of worth",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/41.319a.jpg",
-      "work_key": "house of worth|evening dress",
-      "rubric": "fashion",
-      "angle": 3
-    },
-    {
       "creator": "",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/es/web-large/88726.jpg",
@@ -4613,6 +4564,14 @@
       "subject": "Скульптура",
       "angle": 0,
       "quiz_format": "medium"
+    },
+    {
+      "creator": "cos",
+      "visual_family": "contemporary-fashion",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Street_fashion_%2827305297617%29.jpg/1280px-Street_fashion_%2827305297617%29.jpg",
+      "work_key": "cos|повседневный комплект с чёткой линией",
+      "rubric": "fashion",
+      "subject": "Повседневный комплект с чёткой линией"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
