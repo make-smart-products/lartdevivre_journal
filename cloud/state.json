@@ -165,31 +165,11 @@
     -2000000015,
     415514,
     -2000000041,
-    -2000000029
+    -2000000029,
+    642975
   ],
-  "last_published_at": "2026-11-07T17:03:22.930272+00:00",
-  "pending": {
-    "object_id": 642975,
-    "attempted_at": "2026-11-07T17:03:25.466399+00:00",
-    "post": {
-      "topic": "The Lady of Shalott (from Tennyson's Poems, New York, 1903)",
-      "caption": "📚 Книги, кино и визуальные истории\n\nThe Lady of Shalott (from Tennyson's Poems, New York, 1903)\nDante Gabriel Rossetti · 1857–1903\n\nИдея для книжного клуба: сопоставить текст и изображение, не выбирая единственное правильное прочтение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP835738.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/642975",
-      "object_id": 642975,
-      "rubric": "books",
-      "angle": 1,
-      "subject": "tennyson",
-      "creator": "dante gabriel rossetti",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP835738.jpg",
-      "work_key": "dante gabriel rossetti|the lady of shalott (from tennyson's poems, new york, 1903)"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "a5078bafb4273cfb2bef3864bf2a94b7422167e8ca26127d694e99809fb48799"
-  },
+  "last_published_at": "2026-11-07T17:03:28.484651+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1783,9 +1763,20 @@
       "rubric": "painting",
       "subject": "«Дали-скрипка», 2022–2023",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 642975,
+      "message_ids": [
+        350
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/642975",
+      "published_at": "2026-11-07T17:03:28.484651+00:00",
+      "rubric": "books",
+      "subject": "tennyson",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 5,
+  "next_rubric_index": 6,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1800,7 +1791,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 14,
+      "completed": 15,
       "target": 100
     }
   },
@@ -3522,12 +3513,6 @@
   },
   "recent_content": [
     {
-      "creator": "hester bateman",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/es/web-large/17730.jpg",
-      "work_key": "hester bateman|tablespoon"
-    },
-    {
       "creator": "julia margaret cameron",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP295213.jpg",
@@ -4358,6 +4343,15 @@
       "work_key": "алексей акиндинов|«дали-скрипка», 2022–2023",
       "rubric": "painting",
       "subject": "«Дали-скрипка», 2022–2023"
+    },
+    {
+      "creator": "dante gabriel rossetti",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP835738.jpg",
+      "work_key": "dante gabriel rossetti|the lady of shalott (from tennyson's poems, new york, 1903)",
+      "rubric": "books",
+      "subject": "tennyson",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
