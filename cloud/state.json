@@ -162,31 +162,11 @@
     -2000000028,
     348910,
     -2000000002,
-    -2000000015
+    -2000000015,
+    415514
   ],
-  "last_published_at": "2026-11-07T17:03:06.625205+00:00",
-  "pending": {
-    "object_id": 415514,
-    "attempted_at": "2026-11-07T17:03:09.087815+00:00",
-    "post": {
-      "topic": "Gherardo, from Scelta d'Alcuni Miracoli e Grazie della Santissima Nunziata di Firenze (Selection of Some Miracles and Graces that Occurred in the Church of the Annunziata in Florence)",
-      "caption": "🧳 Культурные путешествия\n\nGherardo, from Scelta d'Alcuni Miracoli e Grazie della Santissima Nunziata di Firenze (Selection of Some Miracles and Graces that Occurred in the Church of the Annunziata in Florence)\nJacques Callot · 1611–19\n\nИсторический образ места, не современная туристическая рекомендация. Повод узнать город через взгляд художника.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP888159.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/415514",
-      "object_id": 415514,
-      "rubric": "travel",
-      "angle": 0,
-      "subject": "Florence",
-      "creator": "jacques callot",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP888159.jpg",
-      "work_key": "jacques callot|gherardo, from scelta d'alcuni miracoli e grazie della santissima nunziata di firenze (selection of some miracles and graces that occurred in the church of the annunziata in florence)"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "d88e8682a99be165141d65e28a9fbb9adc87941368d8e4300175abb5f211f4e1"
-  },
+  "last_published_at": "2026-11-07T17:03:11.512132+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1747,9 +1727,20 @@
       "rubric": "architecture",
       "subject": "Музей, где свет рисует узор",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 415514,
+      "message_ids": [
+        347
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/415514",
+      "published_at": "2026-11-07T17:03:11.512132+00:00",
+      "rubric": "travel",
+      "subject": "Florence",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1764,7 +1755,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 11,
+      "completed": 12,
       "target": 100
     }
   },
@@ -3486,12 +3477,6 @@
   },
   "recent_content": [
     {
-      "creator": "pamela hill",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP701352.jpg",
-      "work_key": "pamela hill|amos binney"
-    },
-    {
       "creator": "mary roberts",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP145443.jpg",
@@ -4315,6 +4300,15 @@
       "work_key": "jean nouvel|музей, где свет рисует узор",
       "rubric": "architecture",
       "subject": "Музей, где свет рисует узор"
+    },
+    {
+      "creator": "jacques callot",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP888159.jpg",
+      "work_key": "jacques callot|gherardo, from scelta d'alcuni miracoli e grazie della santissima nunziata di firenze (selection of some miracles and graces that occurred in the church of the annunziata in florence)",
+      "rubric": "travel",
+      "subject": "Florence",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
