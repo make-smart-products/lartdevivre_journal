@@ -204,70 +204,11 @@
     -2000000008,
     -2000000021,
     365393,
-    -2000000047
+    -2000000047,
+    -2000000035
   ],
-  "last_published_at": "2026-11-07T17:07:01.991697+00:00",
-  "pending": {
-    "object_id": -2000000035,
-    "attempted_at": "2026-11-07T17:07:04.391480+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000035,
-      "rubric": "painting",
-      "topic": "«On the Prowl», 2021",
-      "caption": "🖼 Современная живопись\nБлейн Уайт · «On the Prowl», 2021\n\nНесколько фигур похожи друг на друга, но их повороты и расстояния меняют ритм группы. Неестественный синий цвет кожи отводит внимание от бытовой сцены к самой композиции. Попробуйте рассмотреть пространство между персонажами — оно тоже участвует в изображении.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Blainewhite · CC BY-SA 4.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/On_The_Prowl.jpg/1280px-On_The_Prowl.jpg"
-      ],
-      "source_url": "https://commons.wikimedia.org/wiki/File:On_The_Prowl.jpg",
-      "source_name": "Авторская публикация / Wikimedia Commons",
-      "modern_year": 2021,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "On The Prowl.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/On_The_Prowl.jpg/1280px-On_The_Prowl.jpg",
-          "artist": "Blainewhite",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:On_The_Prowl.jpg",
-          "description": "One of a series exploring a similar style.",
-          "selection_key": "painting-2021-21",
-          "rubric": "painting",
-          "modern_year": 2021,
-          "credit": "Own work",
-          "permission": "",
-          "date": "2021-07",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 385,
-          "length": 11,
-          "url": "https://commons.wikimedia.org/wiki/File:On_The_Prowl.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 399,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "creator": "блейн уайт",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/On_The_Prowl.jpg/1280px-On_The_Prowl.jpg",
-      "work_key": "блейн уайт|«on the prowl», 2021",
-      "subject": "«On the Prowl», 2021",
-      "visual_family": "contemporary-painting",
-      "artwork_rights_verified": true,
-      "source_kind": "artist-original"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "37ed71990a16eb14ed1d3dc3c9469581e9870701ea99044f21708816e4534aa4"
-  },
+  "last_published_at": "2026-11-07T17:07:06.902390+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2301,9 +2242,20 @@
       "rubric": "women",
       "subject": "«Nackt im Sein», 2025",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000035,
+      "message_ids": [
+        394
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:On_The_Prowl.jpg",
+      "published_at": "2026-11-07T17:07:06.902390+00:00",
+      "rubric": "painting",
+      "subject": "«On the Prowl», 2021",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 4,
+  "next_rubric_index": 5,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2318,7 +2270,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 53,
+      "completed": 54,
       "target": 100
     }
   },
@@ -4040,15 +3992,6 @@
   },
   "recent_content": [
     {
-      "creator": "liu songnian",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP152434_CRD.jpg",
-      "work_key": "liu songnian|snowy landscape with rustic riverside retreat",
-      "rubric": "painting",
-      "subject": "landscape",
-      "angle": 2
-    },
-    {
       "creator": "thomas rowlandson",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP884216.jpg",
@@ -4914,6 +4857,14 @@
       "work_key": "ева цукер|«nackt im sein», 2025",
       "rubric": "women",
       "subject": "«Nackt im Sein», 2025"
+    },
+    {
+      "creator": "блейн уайт",
+      "visual_family": "contemporary-painting",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/On_The_Prowl.jpg/1280px-On_The_Prowl.jpg",
+      "work_key": "блейн уайт|«on the prowl», 2021",
+      "rubric": "painting",
+      "subject": "«On the Prowl», 2021"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
