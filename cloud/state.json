@@ -247,7 +247,67 @@
     -2000000059
   ],
   "last_published_at": "2026-11-07T17:10:39.715216+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000057,
+    "attempted_at": "2026-11-07T17:10:42.594250+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000057,
+      "rubric": "painting",
+      "topic": "«L’Abeille», 2024: цветы в четырёх частях",
+      "caption": "🖼 Современная живопись\nЛюк Морен · «L’Abeille», 2024: цветы в четырёх частях\n\nБелые лилии продолжаются через четыре отдельные части композиции. Разделение не разрушает целое, а добавляет картине ритм. Небольшая пчела у правого края становится деталью для второго взгляда. Что вы заметили сначала: цветы, цвет фона или границы частей?\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: LucPeintre2025 · CC BY-SA 4.0",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/28/L%27Abeille.jpg"
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:L%27Abeille.jpg",
+      "source_name": "Авторская публикация / Wikimedia Commons",
+      "modern_year": 2024,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "L'Abeille.jpg",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/L%27Abeille.jpg",
+          "artist": "LucPeintre2025",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:L%27Abeille.jpg",
+          "description": "Bouquet de lys et abeille, quadriptyque, 160 x 120 cm, huile sur toile",
+          "selection_key": "painting-2024-9",
+          "rubric": "painting",
+          "modern_year": 2024,
+          "credit": "Own work",
+          "permission": "",
+          "date": "2024",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 400,
+          "length": 14,
+          "url": "https://commons.wikimedia.org/wiki/File:L%27Abeille.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 417,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "creator": "люк морен",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/L%27Abeille.jpg",
+      "work_key": "люк морен|«l’abeille», 2024: цветы в четырёх частях",
+      "subject": "«L’Abeille», 2024: цветы в четырёх частях",
+      "visual_family": "contemporary-painting",
+      "artwork_rights_verified": true,
+      "source_kind": "artist-original"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "14776766aaf352d2a7e56c873b3323358e032b870998156c26190fa89ac9020d"
+  },
   "publications": [
     {
       "object_id": 436528,
