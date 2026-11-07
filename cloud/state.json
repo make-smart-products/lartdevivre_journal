@@ -198,70 +198,11 @@
     -2000000007,
     -2000000020,
     830080,
-    -2000000046
+    -2000000046,
+    -2000000034
   ],
-  "last_published_at": "2026-11-07T17:06:30.963038+00:00",
-  "pending": {
-    "object_id": -2000000034,
-    "attempted_at": "2026-11-07T17:06:33.923115+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000034,
-      "rubric": "painting",
-      "topic": "«Gumby», 2025: живопись как поток образов",
-      "caption": "🖼 Современная живопись\nЛоран Импедулья · «Gumby», 2025: живопись как поток образов\n\nМасло на холсте, 120 × 100 см. Мультяшные персонажи, вывески, птицы и деревья собраны в плотную композицию. Здесь интересно выбирать собственный маршрут: начать с яркого лица, перейти к дому, а затем заметить маленькую фигуру у края.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Laurent impeduglia · CC BY 4.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gumby_oil_on_canvas_120_x_100_cm_2025.jpg/1280px-Gumby_oil_on_canvas_120_x_100_cm_2025.jpg"
-      ],
-      "source_url": "https://commons.wikimedia.org/wiki/File:Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
-      "source_name": "Авторская публикация / Wikimedia Commons",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Gumby oil on canvas 120 x 100 cm 2025.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gumby_oil_on_canvas_120_x_100_cm_2025.jpg/1280px-Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
-          "artist": "Laurent impeduglia",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
-          "description": "Gumby",
-          "selection_key": "painting-2025-6",
-          "rubric": "painting",
-          "modern_year": 2025,
-          "credit": "Own work",
-          "permission": "",
-          "date": "2025-02-25 11:47:29",
-          "license_url": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 384,
-          "length": 18,
-          "url": "https://commons.wikimedia.org/wiki/File:Gumby_oil_on_canvas_120_x_100_cm_2025.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 405,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "creator": "лоран импедулья",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gumby_oil_on_canvas_120_x_100_cm_2025.jpg/1280px-Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
-      "work_key": "лоран импедулья|«gumby», 2025: живопись как поток образов",
-      "subject": "«Gumby», 2025: живопись как поток образов",
-      "visual_family": "contemporary-painting",
-      "artwork_rights_verified": true,
-      "source_kind": "artist-original"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "03ec5125c10ca3f5f2d2170b733b0b115fdc99882cc8ea46e6b25b14a8de0b69"
-  },
+  "last_published_at": "2026-11-07T17:06:36.451314+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2228,9 +2169,20 @@
       "rubric": "women",
       "subject": "Цвет, который заменяет подробный рассказ",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000034,
+      "message_ids": [
+        388
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
+      "published_at": "2026-11-07T17:06:36.451314+00:00",
+      "rubric": "painting",
+      "subject": "«Gumby», 2025: живопись как поток образов",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 18,
+  "next_rubric_index": 19,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2245,7 +2197,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 47,
+      "completed": 48,
       "target": 100
     }
   },
@@ -3967,15 +3919,6 @@
   },
   "recent_content": [
     {
-      "creator": "alfred thomas agate",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP168874.jpg",
-      "work_key": "alfred thomas agate|portrait of a gentleman",
-      "rubric": "painting",
-      "subject": "portrait",
-      "angle": 4
-    },
-    {
       "creator": "albert bierstadt",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT218107.jpg",
@@ -4844,6 +4787,14 @@
       "work_key": "пиа кантос флоридо|цвет, который заменяет подробный рассказ",
       "rubric": "women",
       "subject": "Цвет, который заменяет подробный рассказ"
+    },
+    {
+      "creator": "лоран импедулья",
+      "visual_family": "contemporary-painting",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gumby_oil_on_canvas_120_x_100_cm_2025.jpg/1280px-Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
+      "work_key": "лоран импедулья|«gumby», 2025: живопись как поток образов",
+      "rubric": "painting",
+      "subject": "«Gumby», 2025: живопись как поток образов"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
