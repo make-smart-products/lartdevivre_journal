@@ -231,7 +231,61 @@
     -2000000012
   ],
   "last_published_at": "2026-11-07T17:09:16.736290+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000025,
+    "attempted_at": "2026-11-07T17:09:19.479106+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000025,
+      "rubric": "architecture",
+      "topic": "Музей по образу розы пустыни",
+      "caption": "🏛 Архитектура XXI века\nJean Nouvel · Музей по образу розы пустыни\n\nНациональный музей Катара Жана Нувеля открылся в 2019 году. Его пересекающиеся диски вдохновлены минеральной розой пустыни. На снимке современная оболочка соседствует с историческим дворцом: в одном кадре встречаются разные масштабы и эпохи.\n\nИсточник: Официальный сайт проекта\nФото: Musab.hawamda · CC BY-SA 4.0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/View_of_the_National_Museum_of_Qatar_in_2021.jpg/1280px-View_of_the_National_Museum_of_Qatar_in_2021.jpg"
+      ],
+      "source_url": "https://qm.org.qa/en/stories/all-stories/jean-nouvel-national-museum-of-qatar/",
+      "source_name": "Официальный сайт проекта",
+      "modern_year": 2019,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "View of the National Museum of Qatar in 2021.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/View_of_the_National_Museum_of_Qatar_in_2021.jpg/1280px-View_of_the_National_Museum_of_Qatar_in_2021.jpg",
+          "artist": "Musab.hawamda",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:View_of_the_National_Museum_of_Qatar_in_2021.jpg",
+          "description": "The Picture Shows part of the Palace of Sheikh Abdulla bin Jassim Al-Thani, and also appears the National museum of Qatar next to it.",
+          "project": "National Museum of Qatar",
+          "selection_key": "arch-12",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 352,
+          "length": 13,
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_the_National_Museum_of_Qatar_in_2021.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 368,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "creator": "jean nouvel",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/View_of_the_National_Museum_of_Qatar_in_2021.jpg/1280px-View_of_the_National_Museum_of_Qatar_in_2021.jpg",
+      "work_key": "jean nouvel|музей по образу розы пустыни",
+      "subject": "Музей по образу розы пустыни",
+      "visual_family": "contemporary-architecture"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "ae9cae22c2a291d0e4d50d75847273cd8a22e21da911e45218e7227a21569ae5"
+  },
   "publications": [
     {
       "object_id": 436528,
