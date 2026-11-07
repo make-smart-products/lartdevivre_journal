@@ -249,32 +249,11 @@
     739720,
     437649,
     -2000000053,
-    -2000000055
+    -2000000055,
+    10265
   ],
-  "last_published_at": "2026-11-07T17:11:04.780961+00:00",
-  "pending": {
-    "object_id": 10265,
-    "attempted_at": "2026-11-07T17:11:07.562765+00:00",
-    "post": {
-      "topic": "Canal and Church of San Giuseppe, Venice",
-      "caption": "🧳 Культурные путешествия\n\nCanal and Church of San Giuseppe, Venice\nAndrew Fisher Bunner · 1885\n\nИсторический образ места, не современная туристическая рекомендация. Повод узнать город через взгляд художника.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/ad/web-large/ap99.38.2.jpg",
-        "https://images.metmuseum.org/CRDImages/ad/original/172817.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/10265",
-      "object_id": 10265,
-      "rubric": "travel",
-      "angle": 0,
-      "subject": "Venice",
-      "creator": "andrew fisher bunner",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/ap99.38.2.jpg",
-      "work_key": "andrew fisher bunner|canal and church of san giuseppe, venice"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "9d6f6ffeea8e620b6c482eb79dc10b61a62fb33ebb7a567f1bac2d0ce8108f4b"
-  },
+  "last_published_at": "2026-11-07T17:11:10.747687+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2814,9 +2793,21 @@
       "rubric": "architecture",
       "subject": "Лестница как продолжение пространства",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 10265,
+      "message_ids": [
+        443,
+        444
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/10265",
+      "published_at": "2026-11-07T17:11:10.747687+00:00",
+      "rubric": "travel",
+      "subject": "Venice",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 9,
+  "next_rubric_index": 10,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2831,7 +2822,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 98,
+      "completed": 99,
       "target": 100
     }
   },
@@ -4553,15 +4544,6 @@
   },
   "recent_content": [
     {
-      "creator": "augustus kollner",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP264242.jpg",
-      "work_key": "augustus kollner|inner bay, staten island, new york",
-      "rubric": "travel",
-      "subject": "New York",
-      "angle": 3
-    },
-    {
       "creator": "fidelia bridges",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-24075-001.jpg",
@@ -5406,6 +5388,15 @@
       "work_key": "zaha hadid architects|лестница как продолжение пространства",
       "rubric": "architecture",
       "subject": "Лестница как продолжение пространства"
+    },
+    {
+      "creator": "andrew fisher bunner",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/ap99.38.2.jpg",
+      "work_key": "andrew fisher bunner|canal and church of san giuseppe, venice",
+      "rubric": "travel",
+      "subject": "Venice",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
