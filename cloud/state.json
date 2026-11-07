@@ -245,7 +245,28 @@
     -2000000054
   ],
   "last_published_at": "2026-11-07T17:10:29.467146+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 381082,
+    "attempted_at": "2026-11-07T17:10:32.122421+00:00",
+    "post": {
+      "topic": "Bird's Eye View of New York and Brooklyn",
+      "caption": "🧳 Культурные путешествия\n\nBird's Eye View of New York and Brooklyn\nJohn Bachmann · 1851\n\nСравните с образом города, который хранится в вашей памяти. Это историческая работа, а не фотография сегодняшнего маршрута.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP327194.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/381082",
+      "object_id": 381082,
+      "rubric": "travel",
+      "angle": 2,
+      "subject": "New York",
+      "creator": "john bachmann",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP327194.jpg",
+      "work_key": "john bachmann|bird's eye view of new york and brooklyn"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "f3fcc4e40d74c4321413ffda3ee286335fd64d7c12825dec98279ef6501cae71"
+  },
   "publications": [
     {
       "object_id": 436528,
