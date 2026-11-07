@@ -235,7 +235,28 @@
     -2000000039
   ],
   "last_published_at": "2026-11-07T17:09:36.920218+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 642941,
+    "attempted_at": "2026-11-07T17:09:39.355609+00:00",
+    "post": {
+      "topic": "St. Cecily / Cecilia (Illustration for The Palace of Art in Tennyson's Poems, New York, 1903)",
+      "caption": "📚 Книги, кино и визуальные истории\n\nSt. Cecily / Cecilia (Illustration for The Palace of Art in Tennyson's Poems, New York, 1903)\nDante Gabriel Rossetti · 1857–1903\n\nДля книжного клуба: придумайте к этому изображению подпись из одной строки и сравните версии.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP835736.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/642941",
+      "object_id": 642941,
+      "rubric": "books",
+      "angle": 3,
+      "subject": "tennyson",
+      "creator": "dante gabriel rossetti",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP835736.jpg",
+      "work_key": "dante gabriel rossetti|st. cecily / cecilia (illustration for the palace of art in tennyson's poems, new york, 1903)"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "90b7b40815fcdf6b0e12c9f69f98c049b1cfb348148df7892403f7a6490843e7"
+  },
   "publications": [
     {
       "object_id": 436528,
