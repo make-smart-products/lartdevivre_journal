@@ -234,7 +234,67 @@
     -2000000051
   ],
   "last_published_at": "2026-11-07T17:09:31.623101+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000039,
+    "attempted_at": "2026-11-07T17:09:34.420710+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000039,
+      "rubric": "painting",
+      "topic": "«Велосипедо-гуляка», 2020",
+      "caption": "🖼 Современная живопись\nАлександр Глухов · «Велосипедо-гуляка», 2020\n\nВ триптихе велосипед и фигура превращаются в сеть цветных линий. Три части показывают мотив в разном масштабе и ритме. Посмотрите, как меняется впечатление при переходе от центрального фрагмента к боковым: движение создаёт сама организация цвета.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Aleksandr Glukhov · CC BY-SA 4.0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%93%D0%BB%D1%83%D1%85%D0%BE%D0%B2._%D0%A2%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D1%85_-_%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4%D0%BE-%D0%B3%D1%83%D0%BB%D1%8F%D0%BA%D0%B0._2020.png/1280px-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%93%D0%BB%D1%83%D1%85%D0%BE%D0%B2._%D0%A2%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D1%85_-_%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4%D0%BE-%D0%B3%D1%83%D0%BB%D1%8F%D0%BA%D0%B0._2020.png"
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%93%D0%BB%D1%83%D1%85%D0%BE%D0%B2._%D0%A2%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D1%85_-_%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4%D0%BE-%D0%B3%D1%83%D0%BB%D1%8F%D0%BA%D0%B0._2020.png",
+      "source_name": "Авторская публикация / Wikimedia Commons",
+      "modern_year": 2020,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "Александр Глухов. Триптих - велосипедо-гуляка. 2020.png",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%93%D0%BB%D1%83%D1%85%D0%BE%D0%B2._%D0%A2%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D1%85_-_%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4%D0%BE-%D0%B3%D1%83%D0%BB%D1%8F%D0%BA%D0%B0._2020.png/1280px-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%93%D0%BB%D1%83%D1%85%D0%BE%D0%B2._%D0%A2%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D1%85_-_%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4%D0%BE-%D0%B3%D1%83%D0%BB%D1%8F%D0%BA%D0%B0._2020.png",
+          "artist": "Aleksandr Glukhov",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%93%D0%BB%D1%83%D1%85%D0%BE%D0%B2._%D0%A2%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D1%85_-_%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4%D0%BE-%D0%B3%D1%83%D0%BB%D1%8F%D0%BA%D0%B0._2020.png",
+          "description": "Aleksandr Glukhov.A BICYCLE RIDER (TRIPTYCH). 2020.",
+          "selection_key": "painting-2020-35",
+          "rubric": "painting",
+          "modern_year": 2020,
+          "credit": "Own work",
+          "permission": "",
+          "date": "2022-05-05",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 382,
+          "length": 17,
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%93%D0%BB%D1%83%D1%85%D0%BE%D0%B2._%D0%A2%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D1%85_-_%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4%D0%BE-%D0%B3%D1%83%D0%BB%D1%8F%D0%BA%D0%B0._2020.png"
+        },
+        {
+          "type": "text_link",
+          "offset": 402,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "creator": "александр глухов",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%93%D0%BB%D1%83%D1%85%D0%BE%D0%B2._%D0%A2%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D1%85_-_%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4%D0%BE-%D0%B3%D1%83%D0%BB%D1%8F%D0%BA%D0%B0._2020.png/1280px-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%93%D0%BB%D1%83%D1%85%D0%BE%D0%B2._%D0%A2%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D1%85_-_%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4%D0%BE-%D0%B3%D1%83%D0%BB%D1%8F%D0%BA%D0%B0._2020.png",
+      "work_key": "александр глухов|«велосипедо-гуляка», 2020",
+      "subject": "«Велосипедо-гуляка», 2020",
+      "visual_family": "contemporary-painting",
+      "artwork_rights_verified": true,
+      "source_kind": "artist-original"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "467b82acd3330611035575f55f8f21266da59c92caa89c7b2a91f194c74d08fa"
+  },
   "publications": [
     {
       "object_id": 436528,
