@@ -155,7 +155,30 @@
     -2000000027
   ],
   "last_published_at": "2026-11-07T17:02:12.186795+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 78658,
+    "attempted_at": "2026-11-07T17:02:14.878196+00:00",
+    "post": {
+      "topic": "Kihō Picture Album (Kihō gafu) 埼鳳画譜",
+      "caption": "📚 Книги, кино и визуальные истории\n\nKihō Picture Album (Kihō gafu) 埼鳳画譜\nKawamura Kihō 河村琦鳳 · 1827, early Autumn (Bunsei 10)\n\nВообразите изображение первым кадром фильма. Какой звук подошёл бы сцене?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/as/web-large/2013_756_33_crd.jpg",
+        "https://images.metmuseum.org/CRDImages/as/original/2013_756_01.jpg",
+        "https://images.metmuseum.org/CRDImages/as/original/2013_756_02.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/78658",
+      "object_id": 78658,
+      "rubric": "books",
+      "angle": 4,
+      "subject": "illustrated book",
+      "creator": "kawamura kihō 河村琦鳳",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_756_33_crd.jpg",
+      "work_key": "kawamura kihō 河村琦鳳|kihō picture album (kihō gafu) 埼鳳画譜"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "f546bfcbad8596e0f5ed08ced43a587695b3ade0dd211559b40a47dd82502f3a"
+  },
   "publications": [
     {
       "object_id": 436528,
