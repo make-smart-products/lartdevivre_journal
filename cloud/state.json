@@ -225,7 +225,28 @@
     -2000000024
   ],
   "last_published_at": "2026-11-07T17:08:44.097348+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 392156,
+    "attempted_at": "2026-11-07T17:08:46.932436+00:00",
+    "post": {
+      "topic": "The Chinese in New York – Scene in a Baxter Street Club-House (from \"Harper's Weekly,\" Vol. XVIII)",
+      "caption": "🧳 Культурные путешествия\n\nThe Chinese in New York – Scene in a Baxter Street Club-House (from \"Harper's Weekly,\" Vol. XVIII)\nWinslow Homer · March 7, 1874\n\nНа старом изображении города интересно сравнить масштаб зданий и пространство между ними.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP875357.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/392156",
+      "object_id": 392156,
+      "rubric": "travel",
+      "angle": 4,
+      "subject": "New York",
+      "creator": "winslow homer",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP875357.jpg",
+      "work_key": "winslow homer|the chinese in new york – scene in a baxter street club-house (from \"harper's weekly,\" vol. xviii)"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "89f81fd7f5565eefa6d9de4e02e862827016548854f48f258fb6ee4b5fe0364f"
+  },
   "publications": [
     {
       "object_id": 436528,
