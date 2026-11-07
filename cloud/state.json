@@ -190,7 +190,60 @@
     403671
   ],
   "last_published_at": "2026-11-07T17:05:21.950714+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000006,
+    "attempted_at": "2026-11-07T17:05:24.523988+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000006,
+      "rubric": "fashion",
+      "topic": "Костюм можно носить расслабленно",
+      "caption": "👗 Современная мода\nCOS · Костюм можно носить расслабленно\n\nВ коллекции COS осень–зима 2026 строгий крой остаётся частью городского гардероба. Чтобы костюм работал вне офиса, попробуйте мягкий верх и свободную посадку. Длина рукава и брюк часто влияет на впечатление сильнее, чем количество аксессуаров.\n\nНа фото — самостоятельная иллюстрация брючного костюма, не коллекция COS.\n\nИсточник: COS\nФото: Magdalena Roeseler · CC BY 2.0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Woman_in_pantsuit_sitting_on_chair_%28Originally_untitled%29_43316436315.jpg/1280px-Woman_in_pantsuit_sitting_on_chair_%28Originally_untitled%29_43316436315.jpg"
+      ],
+      "source_url": "https://www.cos.com/en-gb/runway/autumn-winter-2026",
+      "source_name": "COS",
+      "modern_year": 2026,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "Woman in pantsuit sitting on chair (Originally untitled) 43316436315.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Woman_in_pantsuit_sitting_on_chair_%28Originally_untitled%29_43316436315.jpg/1280px-Woman_in_pantsuit_sitting_on_chair_%28Originally_untitled%29_43316436315.jpg",
+          "artist": "Magdalena Roeseler",
+          "license": "CC BY 2.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Woman_in_pantsuit_sitting_on_chair_(Originally_untitled)_43316436315.jpg",
+          "description": "Woman in pantsuit sitting on chair (No description at source)",
+          "selection_key": "f-extra-suit",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 400,
+          "length": 18,
+          "url": "https://commons.wikimedia.org/wiki/File:Woman_in_pantsuit_sitting_on_chair_(Originally_untitled)_43316436315.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 421,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ],
+      "creator": "cos",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Woman_in_pantsuit_sitting_on_chair_%28Originally_untitled%29_43316436315.jpg/1280px-Woman_in_pantsuit_sitting_on_chair_%28Originally_untitled%29_43316436315.jpg",
+      "work_key": "cos|костюм можно носить расслабленно",
+      "subject": "Костюм можно носить расслабленно",
+      "visual_family": "contemporary-fashion"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "30e0ebbee33434469ddfb7107509d13805257e77f497b7473ef33ee778a128a9"
+  },
   "publications": [
     {
       "object_id": 436528,
