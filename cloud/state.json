@@ -208,7 +208,28 @@
     -2000000035
   ],
   "last_published_at": "2026-11-07T17:07:06.902390+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 707781,
+    "attempted_at": "2026-11-07T17:07:09.665657+00:00",
+    "post": {
+      "topic": "Queen Catherine, Cardinal Wolsey and Cardinal Campeius (Shakespeare, King Henry VIII, Act 3, Scene 1)",
+      "caption": "📚 Книги, кино и визуальные истории\n\nQueen Catherine, Cardinal Wolsey and Cardinal Campeius (Shakespeare, King Henry VIII, Act 3, Scene 1)\nRobert Thew · first published 1796; reissued 1852\n\nОт текста к кадру: какие решения художника меняют ваше представление о знакомой истории?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP859568.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/707781",
+      "object_id": 707781,
+      "rubric": "books",
+      "angle": 2,
+      "subject": "shakespeare",
+      "creator": "robert thew",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP859568.jpg",
+      "work_key": "robert thew|queen catherine, cardinal wolsey and cardinal campeius (shakespeare, king henry viii, act 3, scene 1)"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "0d8199058a60856e4160ab908057554aa094aa21ce56afcd572b732ee4a0e420"
+  },
   "publications": [
     {
       "object_id": 436528,
