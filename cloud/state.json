@@ -153,44 +153,11 @@
     383421,
     842832,
     -2000000027,
-    78658
+    78658,
+    456157
   ],
-  "last_published_at": "2026-11-07T17:02:21.640385+00:00",
-  "pending": {
-    "object_id": 456157,
-    "attempted_at": "2026-11-07T17:02:24.573041+00:00",
-    "post": {
-      "topic": "Inscribed Stele",
-      "caption": "❓ Визуальная викторина\n\nInscribed Stele\nАвтор не указан в каталоге · 6th–7th century\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/is/web-large/10.175.60.JPG"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/456157",
-      "object_id": 456157,
-      "rubric": "quiz",
-      "angle": 0,
-      "subject": "Скульптура",
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/10.175.60.JPG",
-      "work_key": "|inscribed stele",
-      "kind": "quiz",
-      "quiz_format": "medium",
-      "question": "К какому виду искусства относится показанная работа?",
-      "options": [
-        "Печатная графика",
-        "Фотография",
-        "Живопись",
-        "Скульптура"
-      ],
-      "correct_option_ids": [
-        3
-      ],
-      "explanation": "Вид искусства в музейном каталоге — скульптура. «Inscribed Stele»."
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "f600c7d224bf53ba03c839d91aa7eb1bc0cd4ecd7961f995e9b75997a8342635"
-  },
+  "last_published_at": "2026-11-07T17:02:26.797167+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1650,9 +1617,21 @@
       "rubric": "books",
       "subject": "illustrated book",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 456157,
+      "message_ids": [
+        338
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/456157",
+      "published_at": "2026-11-07T17:02:26.797167+00:00",
+      "rubric": "quiz",
+      "subject": "Скульптура",
+      "quiz_format": "medium",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 13,
+  "next_rubric_index": 14,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1667,7 +1646,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 2,
+      "completed": 3,
       "target": 100
     }
   },
@@ -3389,12 +3368,6 @@
   },
   "recent_content": [
     {
-      "creator": "rosa bonheur",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/es/web-large/154142.jpg",
-      "work_key": "rosa bonheur|walking bull"
-    },
-    {
       "creator": "constant bourgeois (french, 1767-1841)\nprinted by comte de charles philibert lasteyrie du saliant (french, 1759-1849)",
       "visual_family": "",
       "image": "https://www.artic.edu/iiif/2/2ce51c0d-4574-62f9-e174-6c8c5b31a3db/full/843,/0/default.jpg",
@@ -4195,6 +4168,16 @@
       "rubric": "books",
       "subject": "illustrated book",
       "angle": 4
+    },
+    {
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/10.175.60.JPG",
+      "work_key": "|inscribed stele",
+      "rubric": "quiz",
+      "subject": "Скульптура",
+      "angle": 0,
+      "quiz_format": "medium"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
