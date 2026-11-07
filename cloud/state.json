@@ -154,63 +154,11 @@
     842832,
     -2000000027,
     78658,
-    456157
+    456157,
+    -2000000001
   ],
-  "last_published_at": "2026-11-07T17:02:26.797167+00:00",
-  "pending": {
-    "object_id": -2000000001,
-    "attempted_at": "2026-11-07T17:02:29.481398+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000001,
-      "rubric": "fashion",
-      "topic": "Свободный силуэт и несколько слоёв",
-      "caption": "👗 Современная мода\nPrada · Свободный силуэт и несколько слоёв\n\nВ Prada осень–зима 2026 одежда меняется вместе с ритмом дня: слои можно снимать и сочетать заново. Идея для своего гардероба — объёмные джинсы, короткий верх и лёгкая рубашка поверх. Проверьте, удобно ли двигаться и сидеть в выбранном сочетании.\n\nНа фото — уличная мода Тайбэя, 2025; иллюстрация приёма, не коллекция Prada.\n\nИсточник: Prada\nФото: Benlisquare · CC BY-SA 4.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Taiwanese_gen_Z_streetwear_in_2025.jpg/1280px-Taiwanese_gen_Z_streetwear_in_2025.jpg"
-      ],
-      "source_url": "https://www.pradagroup.com/content/dam/pradagroup/documents/2026/Febbraio/Inglese/Prada-Fall-Winter-2026-Womenswears-show-PR.pdf",
-      "source_name": "Prada",
-      "modern_year": 2026,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Taiwanese gen Z streetwear in 2025.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Taiwanese_gen_Z_streetwear_in_2025.jpg/1280px-Taiwanese_gen_Z_streetwear_in_2025.jpg",
-          "artist": "Benlisquare",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Taiwanese_gen_Z_streetwear_in_2025.jpg",
-          "description": "A pair of women in Ximending wearing 2020s style Gen Z street fashion.",
-          "selection_key": "f0-1",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 411,
-          "length": 11,
-          "url": "https://commons.wikimedia.org/wiki/File:Taiwanese_gen_Z_streetwear_in_2025.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 425,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "creator": "prada",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Taiwanese_gen_Z_streetwear_in_2025.jpg/1280px-Taiwanese_gen_Z_streetwear_in_2025.jpg",
-      "work_key": "prada|свободный силуэт и несколько слоёв",
-      "subject": "Свободный силуэт и несколько слоёв",
-      "visual_family": "contemporary-fashion"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "fb1e2121dd6ace54ec3bbc75b8d21f6611fa8cd7b870ee414dc968452d7955e0"
-  },
+  "last_published_at": "2026-11-07T17:02:32.041048+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1682,9 +1630,20 @@
       "subject": "Скульптура",
       "quiz_format": "medium",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000001,
+      "message_ids": [
+        339
+      ],
+      "source_url": "https://www.pradagroup.com/content/dam/pradagroup/documents/2026/Febbraio/Inglese/Prada-Fall-Winter-2026-Womenswears-show-PR.pdf",
+      "published_at": "2026-11-07T17:02:32.041048+00:00",
+      "rubric": "fashion",
+      "subject": "Свободный силуэт и несколько слоёв",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 14,
+  "next_rubric_index": 15,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1699,7 +1658,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 3,
+      "completed": 4,
       "target": 100
     }
   },
@@ -3421,12 +3380,6 @@
   },
   "recent_content": [
     {
-      "creator": "constant bourgeois (french, 1767-1841)\nprinted by comte de charles philibert lasteyrie du saliant (french, 1759-1849)",
-      "visual_family": "",
-      "image": "https://www.artic.edu/iiif/2/2ce51c0d-4574-62f9-e174-6c8c5b31a3db/full/843,/0/default.jpg",
-      "work_key": "constant bourgeois (french, 1767-1841)\nprinted by comte de charles philibert lasteyrie du saliant (french, 1759-1849)|🧳 неаполь: место для одного вида"
-    },
-    {
       "creator": "suzanne de court",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/rl/web-large/SLP1237-1.jpg",
@@ -4231,6 +4184,14 @@
       "subject": "Скульптура",
       "angle": 0,
       "quiz_format": "medium"
+    },
+    {
+      "creator": "prada",
+      "visual_family": "contemporary-fashion",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Taiwanese_gen_Z_streetwear_in_2025.jpg/1280px-Taiwanese_gen_Z_streetwear_in_2025.jpg",
+      "work_key": "prada|свободный силуэт и несколько слоёв",
+      "rubric": "fashion",
+      "subject": "Свободный силуэт и несколько слоёв"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
