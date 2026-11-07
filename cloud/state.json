@@ -252,7 +252,29 @@
     -2000000055
   ],
   "last_published_at": "2026-11-07T17:11:04.780961+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 10265,
+    "attempted_at": "2026-11-07T17:11:07.562765+00:00",
+    "post": {
+      "topic": "Canal and Church of San Giuseppe, Venice",
+      "caption": "🧳 Культурные путешествия\n\nCanal and Church of San Giuseppe, Venice\nAndrew Fisher Bunner · 1885\n\nИсторический образ места, не современная туристическая рекомендация. Повод узнать город через взгляд художника.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ad/web-large/ap99.38.2.jpg",
+        "https://images.metmuseum.org/CRDImages/ad/original/172817.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/10265",
+      "object_id": 10265,
+      "rubric": "travel",
+      "angle": 0,
+      "subject": "Venice",
+      "creator": "andrew fisher bunner",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/ap99.38.2.jpg",
+      "work_key": "andrew fisher bunner|canal and church of san giuseppe, venice"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "9d6f6ffeea8e620b6c482eb79dc10b61a62fb33ebb7a567f1bac2d0ce8108f4b"
+  },
   "publications": [
     {
       "object_id": 436528,
