@@ -209,32 +209,11 @@
     707781,
     755699,
     -2000000009,
-    -2000000022
+    -2000000022,
+    362183
   ],
-  "last_published_at": "2026-11-07T17:07:29.062759+00:00",
-  "pending": {
-    "object_id": 362183,
-    "attempted_at": "2026-11-07T17:07:31.422588+00:00",
-    "post": {
-      "topic": "View of Naples: Teatro San Carlos",
-      "caption": "🧳 Культурные путешествия\n\nView of Naples: Teatro San Carlos\nAnonymous, French, 19th century · 19th century\n\nНа старом изображении города интересно сравнить масштаб зданий и пространство между ними.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP809091.jpg",
-        "https://images.metmuseum.org/CRDImages/dp/original/35.37.3.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/362183",
-      "object_id": 362183,
-      "rubric": "travel",
-      "angle": 4,
-      "subject": "Naples",
-      "creator": "anonymous, french, 19th century",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP809091.jpg",
-      "work_key": "anonymous, french, 19th century|view of naples: teatro san carlos"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "38041944054e5a7ad13a26f3d17f6b74335c2a18a63b7862d3ae2e9b61be8c05"
-  },
+  "last_published_at": "2026-11-07T17:07:37.871700+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2324,9 +2303,21 @@
       "rubric": "architecture",
       "subject": "Узор, который держит крышу",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 362183,
+      "message_ids": [
+        399,
+        400
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/362183",
+      "published_at": "2026-11-07T17:07:37.871700+00:00",
+      "rubric": "travel",
+      "subject": "Naples",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 9,
+  "next_rubric_index": 10,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2341,7 +2332,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 58,
+      "completed": 59,
       "target": 100
     }
   },
@@ -4063,15 +4054,6 @@
   },
   "recent_content": [
     {
-      "creator": "utagawa hiroshige",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP122235.jpg",
-      "work_key": "utagawa hiroshige|kyoto: the great bridge at sanjō (taibi, keishi, sanjō ōhashi), from the series fifty-three stations of the tōkaidō (tōkaidō gojūsan tsugi)",
-      "rubric": "travel",
-      "subject": "Kyoto",
-      "angle": 2
-    },
-    {
       "creator": "kate greenaway",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP804415.jpg",
@@ -4934,6 +4916,15 @@
       "work_key": "shigeru ban / jean de gastines|узор, который держит крышу",
       "rubric": "architecture",
       "subject": "Узор, который держит крышу"
+    },
+    {
+      "creator": "anonymous, french, 19th century",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP809091.jpg",
+      "work_key": "anonymous, french, 19th century|view of naples: teatro san carlos",
+      "rubric": "travel",
+      "subject": "Naples",
+      "angle": 4
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
