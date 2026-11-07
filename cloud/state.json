@@ -185,33 +185,11 @@
     -2000000018,
     54944,
     -2000000044,
-    -2000000032
+    -2000000032,
+    58290
   ],
-  "last_published_at": "2026-11-07T17:05:08.385796+00:00",
-  "pending": {
-    "object_id": 58290,
-    "attempted_at": "2026-11-07T17:05:10.945173+00:00",
-    "post": {
-      "topic": "Small Box (Kobako) with Kyōgen Theater Scene at Mibu Temple in Kyoto",
-      "caption": "📚 Книги, кино и визуальные истории\n\nSmall Box (Kobako) with Kyōgen Theater Scene at Mibu Temple in Kyoto\nKōami Shinzaburō · ca. second half of the18th century\n\nКнижная история получает визуальный образ. Что вы представляли иначе, когда читали?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/as/web-large/29_100_723_Tp.JPG",
-        "https://images.metmuseum.org/CRDImages/as/original/29_100_723_Tp-Bm.JPG",
-        "https://images.metmuseum.org/CRDImages/as/original/29_100_723_O.JPG"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/58290",
-      "object_id": 58290,
-      "rubric": "books",
-      "angle": 0,
-      "subject": "theater",
-      "creator": "kōami shinzaburō",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/29_100_723_Tp.JPG",
-      "work_key": "kōami shinzaburō|small box (kobako) with kyōgen theater scene at mibu temple in kyoto"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "50b453267fe959cf9dd84a4fd63be4ed037e6ffff124213e8588dbefa9d79d6c"
-  },
+  "last_published_at": "2026-11-07T17:05:15.493463+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2028,9 +2006,22 @@
       "rubric": "painting",
       "subject": "«Seeker», 2023: пейзаж с несколькими слоями",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 58290,
+      "message_ids": [
+        370,
+        371,
+        372
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/58290",
+      "published_at": "2026-11-07T17:05:15.493463+00:00",
+      "rubric": "books",
+      "subject": "theater",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 5,
+  "next_rubric_index": 6,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2045,7 +2036,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 34,
+      "completed": 35,
       "target": 100
     }
   },
@@ -3767,14 +3758,6 @@
   },
   "recent_content": [
     {
-      "creator": "john hamilton mortimer",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP828599.jpg",
-      "work_key": "john hamilton mortimer|edgar, from \"twelve characters from shakespeare\"",
-      "rubric": "books",
-      "angle": 0
-    },
-    {
       "creator": "c. jacquinet",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/aa/web-large/LC-2025_221-001.jpg",
@@ -4645,6 +4628,15 @@
       "work_key": "виланд пайер|«seeker», 2023: пейзаж с несколькими слоями",
       "rubric": "painting",
       "subject": "«Seeker», 2023: пейзаж с несколькими слоями"
+    },
+    {
+      "creator": "kōami shinzaburō",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/29_100_723_Tp.JPG",
+      "work_key": "kōami shinzaburō|small box (kobako) with kyōgen theater scene at mibu temple in kyoto",
+      "rubric": "books",
+      "subject": "theater",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
