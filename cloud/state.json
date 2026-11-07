@@ -207,49 +207,11 @@
     -2000000047,
     -2000000035,
     707781,
-    755699
+    755699,
+    -2000000009
   ],
-  "last_published_at": "2026-11-07T17:07:17.962283+00:00",
-  "pending": {
-    "object_id": -2000000009,
-    "attempted_at": "2026-11-07T17:07:20.751054+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000009,
-      "rubric": "fashion",
-      "topic": "Жакет и свободные брюки",
-      "caption": "👗 Современная мода\nStella McCartney · Жакет и свободные брюки\n\nВ зимней коллекции Stella McCartney 2026 есть жакеты, сатиновые топы и широкие брюки. Такой набор легко адаптировать: начните с любимых брюк, добавьте мягкий верх и жакет. Яркий цвет можно оставить только одному предмету.\n\nНа фото — Madrid Fashion Week 2024; иллюстрация сочетания, не коллекция Stella McCartney.\n\nИсточник: Stella McCartney\nФото: PRESS HTR · CC0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg/1280px-MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg"
-      ],
-      "source_url": "https://www.stellamccartney.com/us/en/women/winter-2026-collection",
-      "source_name": "Stella McCartney",
-      "modern_year": 2026,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "MERCEDES-BENZ FASHION WEEK MADRID 2024- CLARA ZAMORA MECA.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg/1280px-MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg",
-          "artist": "PRESS HTR",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg",
-          "description": "MERCEDES-BENZ FASHION WEEK MADRID 2024- CLARA ZAMORA MECA",
-          "selection_key": "f9-6"
-        }
-      ],
-      "caption_entities": [],
-      "creator": "stella mccartney",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg/1280px-MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg",
-      "work_key": "stella mccartney|жакет и свободные брюки",
-      "subject": "Жакет и свободные брюки",
-      "visual_family": "contemporary-fashion"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "e38c67f81ecf989b6d437281d58fbc46536e9efb33d36998b3f8669325bf7312"
-  },
+  "last_published_at": "2026-11-07T17:07:23.155876+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2317,9 +2279,20 @@
       "subject": "Печатная графика",
       "quiz_format": "century",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000009,
+      "message_ids": [
+        397
+      ],
+      "source_url": "https://www.stellamccartney.com/us/en/women/winter-2026-collection",
+      "published_at": "2026-11-07T17:07:23.155876+00:00",
+      "rubric": "fashion",
+      "subject": "Жакет и свободные брюки",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 7,
+  "next_rubric_index": 8,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2334,7 +2307,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 56,
+      "completed": 57,
       "target": 100
     }
   },
@@ -4056,15 +4029,6 @@
   },
   "recent_content": [
     {
-      "creator": "",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ci/web-large/53.108.3a-c_CP2.jpg",
-      "work_key": "|evening suit",
-      "rubric": "fashion",
-      "subject": "ensemble",
-      "angle": 1
-    },
-    {
       "creator": "master of the die",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP862812.jpg",
@@ -4929,6 +4893,14 @@
       "subject": "Печатная графика",
       "angle": 0,
       "quiz_format": "century"
+    },
+    {
+      "creator": "stella mccartney",
+      "visual_family": "contemporary-fashion",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg/1280px-MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg",
+      "work_key": "stella mccartney|жакет и свободные брюки",
+      "rubric": "fashion",
+      "subject": "Жакет и свободные брюки"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
