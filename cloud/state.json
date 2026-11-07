@@ -160,7 +160,68 @@
     381534
   ],
   "last_published_at": "2026-11-07T17:02:42.011744+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2000000040,
+    "attempted_at": "2026-11-07T17:02:44.466159+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2000000040,
+      "rubric": "women",
+      "topic": "AQUA ZONE, 2024: море в графических слоях",
+      "caption": "🎨 Художницы сегодня\nРосвита Йозефине Папе · AQUA ZONE, 2024: море в графических слоях\n\nОтпечатки, сетчатый рисунок и крупный осьминог собираются на одной поверхности. Работа позволяет говорить об океане через сочетание образов и фактур. Попробуйте рассмотреть, какие части кажутся лёгкими и прозрачными, а какие удерживают взгляд плотным чёрным пятном.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Roswitha Josefine Pape · CC BY 4.0",
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/AQUA_ZONE.jpg/1280px-AQUA_ZONE.jpg"
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:AQUA_ZONE.jpg",
+      "source_name": "Авторская публикация / Wikimedia Commons",
+      "modern_year": 2024,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
+      "licensed_images": [
+        {
+          "title": "AQUA ZONE.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/AQUA_ZONE.jpg/1280px-AQUA_ZONE.jpg",
+          "artist": "Roswitha Josefine Pape",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:AQUA_ZONE.jpg",
+          "description": "AQUA ZONE (2024), woodcut, ink on canvas, 320 × 80 cm. The work addresses marine pollution caused by plastic waste, focusing on ghost nets as a lethal threat to marine life.",
+          "selection_key": "women-2024-1",
+          "rubric": "women",
+          "modern_year": 2024,
+          "credit": "Own work",
+          "permission": "",
+          "date": "2024",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 419,
+          "length": 22,
+          "url": "https://commons.wikimedia.org/wiki/File:AQUA_ZONE.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 444,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "creator": "росвита йозефине папе",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/AQUA_ZONE.jpg/1280px-AQUA_ZONE.jpg",
+      "work_key": "росвита йозефине папе|aqua zone, 2024: море в графических слоях",
+      "subject": "AQUA ZONE, 2024: море в графических слоях",
+      "visual_family": "contemporary-women",
+      "artwork_rights_verified": true,
+      "source_kind": "artist-original",
+      "creator_gender_verified": true
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "ad255104dfeeec62515c0b679f0b746589b899b1682537aa7b53a11850b3a626"
+  },
   "publications": [
     {
       "object_id": 436528,
