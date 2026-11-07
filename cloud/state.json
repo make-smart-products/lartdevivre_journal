@@ -245,31 +245,11 @@
     -2000000054,
     381082,
     -2000000059,
-    -2000000057
+    -2000000057,
+    739720
   ],
-  "last_published_at": "2026-11-07T17:10:44.906461+00:00",
-  "pending": {
-    "object_id": 739720,
-    "attempted_at": "2026-11-07T17:10:47.536409+00:00",
-    "post": {
-      "topic": "Cleopatra, Eros, Antony, Charmian and Iras (Shakespeare, Antony and Cleopatra, Act 3, Scene 9)",
-      "caption": "📚 Книги, кино и визуальные истории\n\nCleopatra, Eros, Antony, Charmian and Iras (Shakespeare, Antony and Cleopatra, Act 3, Scene 9)\nCharles Rolls · 1825–40\n\nКнижная история получает визуальный образ. Что вы представляли иначе, когда читали?\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP870108.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/739720",
-      "object_id": 739720,
-      "rubric": "books",
-      "angle": 0,
-      "subject": "shakespeare",
-      "creator": "charles rolls",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP870108.jpg",
-      "work_key": "charles rolls|cleopatra, eros, antony, charmian and iras (shakespeare, antony and cleopatra, act 3, scene 9)"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "109daacfa5961b7cde65b590211f47a26f06fbbe75b1216c8f1221a1a7b47391"
-  },
+  "last_published_at": "2026-11-07T17:10:50.169300+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2764,9 +2744,20 @@
       "rubric": "painting",
       "subject": "«L’Abeille», 2024: цветы в четырёх частях",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 739720,
+      "message_ids": [
+        439
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/739720",
+      "published_at": "2026-11-07T17:10:50.169300+00:00",
+      "rubric": "books",
+      "subject": "shakespeare",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 5,
+  "next_rubric_index": 6,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2781,7 +2772,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 94,
+      "completed": 95,
       "target": 100
     }
   },
@@ -4503,15 +4494,6 @@
   },
   "recent_content": [
     {
-      "creator": "hendrick verschuring",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP801041.jpg",
-      "work_key": "hendrick verschuring|an italian city with a crowd watching actors in an outdoor theater",
-      "rubric": "books",
-      "subject": "theater",
-      "angle": 3
-    },
-    {
       "creator": "jacopo bassano (jacopo da ponte)",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP276931.jpg",
@@ -5358,6 +5340,15 @@
       "work_key": "люк морен|«l’abeille», 2024: цветы в четырёх частях",
       "rubric": "painting",
       "subject": "«L’Abeille», 2024: цветы в четырёх частях"
+    },
+    {
+      "creator": "charles rolls",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP870108.jpg",
+      "work_key": "charles rolls|cleopatra, eros, antony, charmian and iras (shakespeare, antony and cleopatra, act 3, scene 9)",
+      "rubric": "books",
+      "subject": "shakespeare",
+      "angle": 0
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
