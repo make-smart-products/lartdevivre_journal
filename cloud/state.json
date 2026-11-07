@@ -196,31 +196,11 @@
     53815,
     45208,
     -2000000007,
-    -2000000020
+    -2000000020,
+    830080
   ],
-  "last_published_at": "2026-11-07T17:06:19.367705+00:00",
-  "pending": {
-    "object_id": 830080,
-    "attempted_at": "2026-11-07T17:06:22.110195+00:00",
-    "post": {
-      "topic": "Paris leaning on tree stump, back view, from \"Oeuvre de Canova: Recueil de Statues...\"",
-      "caption": "🧳 Культурные путешествия\n\nParis leaning on tree stump, back view, from \"Oeuvre de Canova: Recueil de Statues...\"\nAngelo Testa · 1817\n\nВдохновение для неспешной прогулки: один вид вместо длинного списка достопримечательностей. Перед вами историческое изображение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP887790.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/830080",
-      "object_id": 830080,
-      "rubric": "travel",
-      "angle": 1,
-      "subject": "Paris",
-      "creator": "angelo testa",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP887790.jpg",
-      "work_key": "angelo testa|paris leaning on tree stump, back view, from \"oeuvre de canova: recueil de statues...\""
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "9c5c10471ccbd587bd6b6736c9b7815b3e0804ce386b218de35fbff1be8c9242"
-  },
+  "last_published_at": "2026-11-07T17:06:24.815572+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2165,9 +2145,20 @@
       "rubric": "architecture",
       "subject": "Библиотека для разных занятий",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 830080,
+      "message_ids": [
+        386
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/830080",
+      "published_at": "2026-11-07T17:06:24.815572+00:00",
+      "rubric": "travel",
+      "subject": "Paris",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 16,
+  "next_rubric_index": 17,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2182,7 +2173,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 45,
+      "completed": 46,
       "target": 100
     }
   },
@@ -3904,15 +3895,6 @@
   },
   "recent_content": [
     {
-      "creator": "dumcke and keil",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/49MM_599R2.jpg",
-      "work_key": "dumcke and keil|broadway, new york from warren to reade street",
-      "rubric": "travel",
-      "subject": "New York",
-      "angle": 4
-    },
-    {
       "creator": "catherine donovan",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ci/web-large/65.184.6a-b_CP4.jpg",
@@ -4781,6 +4763,15 @@
       "work_key": "ala architects|библиотека для разных занятий",
       "rubric": "architecture",
       "subject": "Библиотека для разных занятий"
+    },
+    {
+      "creator": "angelo testa",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP887790.jpg",
+      "work_key": "angelo testa|paris leaning on tree stump, back view, from \"oeuvre de canova: recueil de statues...\"",
+      "rubric": "travel",
+      "subject": "Paris",
+      "angle": 1
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
