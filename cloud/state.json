@@ -169,7 +169,41 @@
     642975
   ],
   "last_published_at": "2026-11-07T17:03:28.484651+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 418828,
+    "attempted_at": "2026-11-07T17:03:30.820121+00:00",
+    "post": {
+      "topic": "Card 38, from the Girl Cyclists series (N49) for Virginia Brights Cigarettes",
+      "caption": "❓ Визуальная викторина\n\nCard 38, from the Girl Cyclists series (N49) for Virginia Brights Cigarettes\nAllen & Ginter · 1887\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP831758.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/418828",
+      "object_id": 418828,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Фотография",
+      "creator": "allen & ginter",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP831758.jpg",
+      "work_key": "allen & ginter|card 38, from the girl cyclists series (n49) for virginia brights cigarettes",
+      "kind": "quiz",
+      "quiz_format": "century",
+      "question": "К какому веку музей относит показанную работу?",
+      "options": [
+        "18-й век",
+        "20-й век",
+        "21-й век",
+        "19-й век"
+      ],
+      "correct_option_ids": [
+        3
+      ],
+      "explanation": "Музейная датировка — 1887. Это 19-й век. «Card 38, from the Girl Cyclists series (N49) for Virginia Brights Cigarettes»."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "85a9ffc64dc8a0b06ed03138b95ece434fb33deade8f0e8784c6d54496720062"
+  },
   "publications": [
     {
       "object_id": 436528,
