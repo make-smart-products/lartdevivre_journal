@@ -9,7 +9,7 @@ import publish
 
 
 class DailyBatchTests(unittest.TestCase):
-    def run_batch(self, state, now, scheduled=False):
+    def run_batch(self, state, now, scheduled=False, publish_now=False):
         store = Mock()
         store.load.side_effect = lambda: copy.deepcopy(state)
         def save(value, message):
@@ -21,7 +21,7 @@ class DailyBatchTests(unittest.TestCase):
             rubric = publish.RUBRIC_ORDER[value.get('next_rubric_index', 0)]
             return publish.make_card(obj, rubric)
         with patch.dict(os.environ, {'GITHUB_TOKEN': 'fake', 'TELEGRAM_BOT_TOKEN': 'fake'}), patch.object(publish, 'StateStore', return_value=store), patch.object(publish, 'choose_post', side_effect=choose), patch.object(publish.time,'sleep'), patch.object(publish, 'publish', return_value=[42]) as send:
-            result = publish.execute(now=now, scheduled=scheduled)
+            result = publish.execute(now=now, scheduled=scheduled, publish_now=publish_now)
             return result, send.call_count
 
     def test_full_block_has_one_hundred_posts_and_all_seven_rubrics(self):
@@ -57,6 +57,13 @@ class DailyBatchTests(unittest.TestCase):
         result, calls = self.run_batch({}, dt.datetime(2026, 11, 3, 19, 29, tzinfo=dt.timezone.utc))
         self.assertEqual('not_due', result['status'])
         self.assertEqual(0, calls)
+
+    def test_explicit_immediate_run_uses_today_and_evening_cannot_repeat_it(self):
+        state = {'daily_batches': {'2026-11-03': {'completed': 99}}}
+        result, calls = self.run_batch(state, dt.datetime(2026, 11, 3, 10, 0, tzinfo=dt.timezone.utc), publish_now=True)
+        self.assertEqual(1, calls)
+        self.assertEqual('2026-11-03', result['date_moscow'])
+        self.assertEqual(0, self.run_batch(state, dt.datetime(2026, 11, 3, 19, 30, tzinfo=dt.timezone.utc))[1])
 
     def test_previous_fifteen_item_target_is_extended_without_repeating_items(self):
         state={'daily_batches':{'2026-11-03':{'completed':15,'target':15}},'used_object_ids':list(range(15))}

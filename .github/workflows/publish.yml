@@ -10,6 +10,10 @@ on:
         description: 'Validate a new card without posting to Telegram'
         type: boolean
         default: true
+      publish_now:
+        description: 'Publish today’s block immediately, preserving its daily limit'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -34,9 +38,12 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           EVENT_NAME: ${{ github.event_name }}
+          PUBLISH_NOW: ${{ github.event.inputs.publish_now || 'false' }}
         run: |
           if [ "$DRY_RUN" = "true" ]; then
             python3 cloud/publish.py --dry-run
+          elif [ "$EVENT_NAME" = "workflow_dispatch" ] && [ "$PUBLISH_NOW" = "true" ]; then
+            python3 cloud/publish.py --publish-now
           elif [ "$EVENT_NAME" = "schedule" ]; then
             python3 cloud/publish.py --scheduled
           else

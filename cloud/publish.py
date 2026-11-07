@@ -563,7 +563,7 @@ def execute_one(dry_run=False, batch_date=None):
     return {"status": "published", "message_ids": message_ids, "url": "https://t.me/lartdevivre_journal/" + str(message_ids[0])}
 
 
-def execute(dry_run=False, now=None, scheduled=False):
+def execute(dry_run=False, now=None, scheduled=False, publish_now=False):
     """One daily block; confirmed items survive interruptions and retries."""
     local = (now or dt.datetime.now(dt.timezone.utc)).astimezone(dt.timezone(dt.timedelta(hours=3)))
     day = local.date().isoformat()
@@ -581,7 +581,7 @@ def execute(dry_run=False, now=None, scheduled=False):
                 state.setdefault("used_object_ids", []).append(card["object_id"])
                 record_editorial_history(state, card)
         return {"daily_target": DAILY_TARGET, "time_moscow": "22:30", "preview": preview, "rubrics": audit}
-    if (local.hour, local.minute) < (22, 30):
+    if not publish_now and (local.hour, local.minute) < (22, 30):
         if not scheduled:
             return {"status": "not_due", "time_moscow": "22:30"}
         day = (local.date() - dt.timedelta(days=1)).isoformat()
@@ -600,8 +600,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--scheduled", action="store_true")
+    parser.add_argument("--publish-now", action="store_true")
     args = parser.parse_args()
-    print(json.dumps(execute(dry_run=args.dry_run, scheduled=args.scheduled), ensure_ascii=False))
+    print(json.dumps(execute(dry_run=args.dry_run, scheduled=args.scheduled, publish_now=args.publish_now), ensure_ascii=False))
 
 
 if __name__ == "__main__":

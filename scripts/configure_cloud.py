@@ -20,6 +20,7 @@ def main():
     parser.add_argument('mode', choices=['secrets', 'dispatch', 'runs', 'logs', 'status'])
     parser.add_argument('--run-id', type=int)
     parser.add_argument('--publish', action='store_true')
+    parser.add_argument('--now', action='store_true')
     args = parser.parse_args()
     env = dict(os.environ, GIT_TERMINAL_PROMPT='0', GCM_INTERACTIVE='never')
     result = subprocess.run(['git', 'credential', 'fill'], input='protocol=https\nhost=github.com\n\n',
@@ -59,7 +60,7 @@ def main():
         api('/actions/secrets/TELEGRAM_BOT_TOKEN', {'encrypted_value': encrypted, 'key_id': key['key_id']}, 'PUT')
         print('TELEGRAM_BOT_TOKEN stored as encrypted GitHub Actions secret.')
     elif args.mode == 'dispatch':
-        api('/actions/workflows/publish.yml/dispatches', {'ref': 'main', 'inputs': {'dry_run': 'false' if args.publish else 'true'}}, 'POST')
+        api('/actions/workflows/publish.yml/dispatches', {'ref': 'main', 'inputs': {'dry_run': 'false' if args.publish else 'true', 'publish_now': 'true' if args.publish and args.now else 'false'}}, 'POST')
         print('Cloud publication requested.' if args.publish else 'Cloud validation requested (no Telegram publication).')
     elif args.mode == 'status':
         workflow = api('/actions/workflows/publish.yml')
