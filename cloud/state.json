@@ -229,7 +229,41 @@
     78676
   ],
   "last_published_at": "2026-11-07T17:09:05.166546+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 473805,
+    "attempted_at": "2026-11-07T17:09:08.135567+00:00",
+    "post": {
+      "topic": "Capital",
+      "caption": "❓ Визуальная викторина\n\nCapital\nSpanish · 15th century\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/cl/web-large/cdi08-164-10s1.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/473805",
+      "object_id": 473805,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Скульптура",
+      "creator": "",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/cl/web-large/cdi08-164-10s1.jpg",
+      "work_key": "|capital",
+      "kind": "quiz",
+      "quiz_format": "medium",
+      "question": "К какому виду искусства относится показанная работа?",
+      "options": [
+        "Печатная графика",
+        "Живопись",
+        "Скульптура",
+        "Фотография"
+      ],
+      "correct_option_ids": [
+        2
+      ],
+      "explanation": "Вид искусства в музейном каталоге — скульптура. «Capital»."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "e8a0e99b8fbb174fc8612d3b1c7f0451afa6a404fa0588261e3e495c087b22a1"
+  },
   "publications": [
     {
       "object_id": 436528,
