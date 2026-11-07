@@ -164,70 +164,11 @@
     -2000000002,
     -2000000015,
     415514,
-    -2000000041
+    -2000000041,
+    -2000000029
   ],
-  "last_published_at": "2026-11-07T17:03:16.522438+00:00",
-  "pending": {
-    "object_id": -2000000029,
-    "attempted_at": "2026-11-07T17:03:19.085376+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000029,
-      "rubric": "painting",
-      "topic": "«Дали-скрипка», 2022–2023",
-      "caption": "🖼 Современная живопись\nАлексей Акиндинов · «Дали-скрипка», 2022–2023\n\nОрнамент проходит через фигуру, предметы и фон, связывая их в общую поверхность. Такая живопись требует нескольких расстояний: издалека виден сюжет, вблизи — самостоятельная жизнь узоров. Какие детали удалось заметить только со второго взгляда?\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: Alexey Akindinov · CC BY-SA 4.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Alexey_Akindinov._Dali_Violin._2022-2023.jpg/1280px-Alexey_Akindinov._Dali_Violin._2022-2023.jpg"
-      ],
-      "source_url": "https://commons.wikimedia.org/wiki/File:Alexey_Akindinov._Dali_Violin._2022-2023.jpg",
-      "source_name": "Авторская публикация / Wikimedia Commons",
-      "modern_year": 2023,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Alexey Akindinov. Dali Violin. 2022-2023.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Alexey_Akindinov._Dali_Violin._2022-2023.jpg/1280px-Alexey_Akindinov._Dali_Violin._2022-2023.jpg",
-          "artist": "Alexey Akindinov",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Alexey_Akindinov._Dali_Violin._2022-2023.jpg",
-          "description": "Painting by Alexey Akindinov \"Dali's Violin\" (right part of the triptych \"Salvador Dali\"), 100x80 cm, oil on canvas, 2022-2023. High quality picture file (TIF format) on Yandex Disk: https://disk.yandex.ru/i/m3F6hOkmX0Tguw",
-          "selection_key": "painting-2023-2",
-          "rubric": "painting",
-          "modern_year": 2023,
-          "credit": "https://akindinov.com/images/phocagallery/gallery/Dali-violin/dali-violin-1.jpg (А.П. Акиндинов © Alexey Akindinov)",
-          "permission": ".mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important} This work is free and may be used by anyone for any purpose. If you wish to use this content , you do not need to request permission as long as you follow any licensing requirements mentioned on this page. The Wikimedia Foundation has received an e-mail confirming that the copyright holder has approved publication under the terms mentioned on this page. This correspondence has been reviewed by a Volunteer Response Team (VRT) member and stored in our permission archive . The correspondence is available to trusted volunteers as ticket #2023101610004056 . If you have questions about the archived correspondence, please use the VRT noticeboard . Ticket link: https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&TicketNumber=2023101610004056 Find other files from the same ticket: https://www.akindinov.com/oblpubl/364-licenziya-akindinov-alexey https://web.archive.org/web/20230701153709/https://www.akindinov.com/oblpubl/364-licenziya-akindinov-alexey",
-          "date": "between 2022 and 2023 date QS:P,+2022-00-00T00:00:00Z/8,P1319,+2022-00-00T00:00:00Z/9,P1326,+2023-00-00T00:00:00Z/9",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 381,
-          "length": 16,
-          "url": "https://commons.wikimedia.org/wiki/File:Alexey_Akindinov._Dali_Violin._2022-2023.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 400,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "creator": "алексей акиндинов",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Alexey_Akindinov._Dali_Violin._2022-2023.jpg/1280px-Alexey_Akindinov._Dali_Violin._2022-2023.jpg",
-      "work_key": "алексей акиндинов|«дали-скрипка», 2022–2023",
-      "subject": "«Дали-скрипка», 2022–2023",
-      "visual_family": "contemporary-painting",
-      "artwork_rights_verified": true,
-      "source_kind": "artist-original"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "c83cf4a1a0bed9b588aabce7dd29644a9ef0f61c16d2c249e77993a3be90ffde"
-  },
+  "last_published_at": "2026-11-07T17:03:22.930272+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1810,9 +1751,20 @@
       "rubric": "women",
       "subject": "«Bahnhofstrasse», 2024",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000029,
+      "message_ids": [
+        349
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alexey_Akindinov._Dali_Violin._2022-2023.jpg",
+      "published_at": "2026-11-07T17:03:22.930272+00:00",
+      "rubric": "painting",
+      "subject": "«Дали-скрипка», 2022–2023",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 4,
+  "next_rubric_index": 5,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1827,7 +1779,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 13,
+      "completed": 14,
       "target": 100
     }
   },
@@ -3549,12 +3501,6 @@
   },
   "recent_content": [
     {
-      "creator": "anne teakes",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/APS6726.jpg",
-      "work_key": "anne teakes|mrs. teakes"
-    },
-    {
       "creator": "hester bateman",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/es/web-large/17730.jpg",
@@ -4383,6 +4329,14 @@
       "work_key": "онис торрес|«bahnhofstrasse», 2024",
       "rubric": "women",
       "subject": "«Bahnhofstrasse», 2024"
+    },
+    {
+      "creator": "алексей акиндинов",
+      "visual_family": "contemporary-painting",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Alexey_Akindinov._Dali_Violin._2022-2023.jpg/1280px-Alexey_Akindinov._Dali_Violin._2022-2023.jpg",
+      "work_key": "алексей акиндинов|«дали-скрипка», 2022–2023",
+      "rubric": "painting",
+      "subject": "«Дали-скрипка», 2022–2023"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
