@@ -249,7 +249,41 @@
     739720
   ],
   "last_published_at": "2026-11-07T17:10:50.169300+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 437649,
+    "attempted_at": "2026-11-07T17:10:52.534401+00:00",
+    "post": {
+      "topic": "Christ Blessing",
+      "caption": "❓ Визуальная викторина\n\nChrist Blessing\nSegna di Buonaventura · ca. 1311\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ep/web-large/DP367962.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/437649",
+      "object_id": 437649,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Живопись",
+      "creator": "segna di buonaventura",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP367962.jpg",
+      "work_key": "segna di buonaventura|christ blessing",
+      "kind": "quiz",
+      "quiz_format": "artist",
+      "question": "Кто автор показанной работы?",
+      "options": [
+        "Berthe Morisot",
+        "Claude Monet",
+        "Segna di Buonaventura",
+        "Mary Cassatt"
+      ],
+      "correct_option_ids": [
+        2
+      ],
+      "explanation": "Автор — Segna di Buonaventura."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "3922df53c2aba757a5476bf1324b8b299f950c76975274a7d1965af1be583fd8"
+  },
   "publications": [
     {
       "object_id": 436528,
