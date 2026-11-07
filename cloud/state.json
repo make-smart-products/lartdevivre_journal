@@ -185,7 +185,28 @@
     -2000000018
   ],
   "last_published_at": "2026-11-07T17:04:52.256860+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 54944,
+    "attempted_at": "2026-11-07T17:04:54.935671+00:00",
+    "post": {
+      "topic": "Street in Kyoto",
+      "caption": "🧳 Культурные путешествия\n\nStreet in Kyoto\nUtagawa Hiroshige · ca. 1840\n\nИсторический образ места, не современная туристическая рекомендация. Повод узнать город через взгляд художника.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/as/web-large/DP123598.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/54944",
+      "object_id": 54944,
+      "rubric": "travel",
+      "angle": 0,
+      "subject": "Kyoto",
+      "creator": "utagawa hiroshige",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP123598.jpg",
+      "work_key": "utagawa hiroshige|street in kyoto"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "3307d8fe29ab38732fd859718fda3bcc895ce2d288ace8da54bfcf119332ccd2"
+  },
   "publications": [
     {
       "object_id": 436528,
