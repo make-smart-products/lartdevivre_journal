@@ -216,7 +216,41 @@
     357223
   ],
   "last_published_at": "2026-11-07T17:07:54.981163+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 301943,
+    "attempted_at": "2026-11-07T17:07:57.584559+00:00",
+    "post": {
+      "topic": "[Union Cavalry Officer Displaying Sword, Holding Hat, Seated in Studio]",
+      "caption": "❓ Визуальная викторина\n\n[Union Cavalry Officer Displaying Sword, Holding Hat, Seated in Studio]\nUnknown · 1861–65\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/ph/web-large/DP265324.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/301943",
+      "object_id": 301943,
+      "rubric": "quiz",
+      "angle": 0,
+      "subject": "Фотография",
+      "creator": "unknown",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP265324.jpg",
+      "work_key": "unknown|[union cavalry officer displaying sword, holding hat, seated in studio]",
+      "kind": "quiz",
+      "quiz_format": "century",
+      "question": "К какому веку музей относит показанную работу?",
+      "options": [
+        "21-й век",
+        "19-й век",
+        "20-й век",
+        "18-й век"
+      ],
+      "correct_option_ids": [
+        1
+      ],
+      "explanation": "Музейная датировка — 1861–65. Это 19-й век. «[Union Cavalry Officer Displaying Sword, Holding Hat, Seated in Studio]»."
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "8c6d048cfdba32899f78ba1d72000773254a3b2b59955706f9ff35ed2658aad7"
+  },
   "publications": [
     {
       "object_id": 436528,
