@@ -189,32 +189,11 @@
     58290,
     403671,
     -2000000006,
-    -2000000019
+    -2000000019,
+    386462
   ],
-  "last_published_at": "2026-11-07T17:05:32.774454+00:00",
-  "pending": {
-    "object_id": 386462,
-    "attempted_at": "2026-11-07T17:05:35.517407+00:00",
-    "post": {
-      "topic": "A Plan of the Gallery Floor over Offices, and Two Side Walls, Queens Square, Camden, London",
-      "caption": "🧳 Культурные путешествия\n\nA Plan of the Gallery Floor over Offices, and Two Side Walls, Queens Square, Camden, London\nAnonymous, British, late 18th–early 19th century · ca. 1800\n\nСравните с образом города, который хранится в вашей памяти. Это историческая работа, а не фотография сегодняшнего маршрута.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP806363.jpg",
-        "https://images.metmuseum.org/CRDImages/dp/original/DP806364.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/386462",
-      "object_id": 386462,
-      "rubric": "travel",
-      "angle": 2,
-      "subject": "London",
-      "creator": "anonymous, british, late 18th–early 19th century",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP806363.jpg",
-      "work_key": "anonymous, british, late 18th–early 19th century|a plan of the gallery floor over offices, and two side walls, queens square, camden, london"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "d4c2d9ecdf56bb55b8314aba2d13cc201f89a45221e13d9b9cb223356eec39c5"
-  },
+  "last_published_at": "2026-11-07T17:05:41.360513+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2078,9 +2057,21 @@
       "rubric": "architecture",
       "subject": "Крыша как городская прогулка",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 386462,
+      "message_ids": [
+        376,
+        377
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/386462",
+      "published_at": "2026-11-07T17:05:41.360513+00:00",
+      "rubric": "travel",
+      "subject": "London",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 9,
+  "next_rubric_index": 10,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2095,7 +2086,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 38,
+      "completed": 39,
       "target": 100
     }
   },
@@ -3817,15 +3808,6 @@
   },
   "recent_content": [
     {
-      "creator": "bernardo bellotto",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP160896.jpg",
-      "work_key": "bernardo bellotto|san simeone piccolo, venice, seen from the grand canal",
-      "rubric": "travel",
-      "subject": "Venice",
-      "angle": 0
-    },
-    {
       "creator": "deborah hill",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ci/web-large/50.145.3_CP4.jpg",
@@ -4697,6 +4679,15 @@
       "work_key": "snøhetta|крыша как городская прогулка",
       "rubric": "architecture",
       "subject": "Крыша как городская прогулка"
+    },
+    {
+      "creator": "anonymous, british, late 18th–early 19th century",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP806363.jpg",
+      "work_key": "anonymous, british, late 18th–early 19th century|a plan of the gallery floor over offices, and two side walls, queens square, camden, london",
+      "rubric": "travel",
+      "subject": "London",
+      "angle": 2
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
