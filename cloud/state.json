@@ -199,7 +199,28 @@
     -2000000020
   ],
   "last_published_at": "2026-11-07T17:06:19.367705+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 830080,
+    "attempted_at": "2026-11-07T17:06:22.110195+00:00",
+    "post": {
+      "topic": "Paris leaning on tree stump, back view, from \"Oeuvre de Canova: Recueil de Statues...\"",
+      "caption": "🧳 Культурные путешествия\n\nParis leaning on tree stump, back view, from \"Oeuvre de Canova: Recueil de Statues...\"\nAngelo Testa · 1817\n\nВдохновение для неспешной прогулки: один вид вместо длинного списка достопримечательностей. Перед вами историческое изображение.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP887790.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/830080",
+      "object_id": 830080,
+      "rubric": "travel",
+      "angle": 1,
+      "subject": "Paris",
+      "creator": "angelo testa",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP887790.jpg",
+      "work_key": "angelo testa|paris leaning on tree stump, back view, from \"oeuvre de canova: recueil de statues...\""
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "9c5c10471ccbd587bd6b6736c9b7815b3e0804ce386b218de35fbff1be8c9242"
+  },
   "publications": [
     {
       "object_id": 436528,
