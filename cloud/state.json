@@ -218,70 +218,11 @@
     -2000000010,
     -2000000023,
     653171,
-    -2000000049
+    -2000000049,
+    -2000000037
   ],
-  "last_published_at": "2026-11-07T17:08:22.094441+00:00",
-  "pending": {
-    "object_id": -2000000037,
-    "attempted_at": "2026-11-07T17:08:24.466001+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2000000037,
-      "rubric": "painting",
-      "topic": "«Cantos de Tlaxcala», 2023",
-      "caption": "🖼 Современная живопись\nDEANLÚ Arte · «Cantos de Tlaxcala», 2023\n\nГородские здания и горный горизонт соединяются с крупными растениями на переднем плане. Пейзаж предлагает медленный маршрут от деталей к общему виду. Обратите внимание, как центральный стебель связывает землю и небо и удерживает равновесие композиции.\n\nИсточник: Авторская публикация / Wikimedia Commons\nИзображение: DEANLÚ Arte · CC BY 4.0",
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Cantos_de_Tlaxcala.jpg/1280px-Cantos_de_Tlaxcala.jpg"
-      ],
-      "source_url": "https://commons.wikimedia.org/wiki/File:Cantos_de_Tlaxcala.jpg",
-      "source_name": "Авторская публикация / Wikimedia Commons",
-      "modern_year": 2023,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "photo_verified_at": "2026-11-07T15:38:40.073720+00:00",
-      "licensed_images": [
-        {
-          "title": "Cantos de Tlaxcala.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Cantos_de_Tlaxcala.jpg/1280px-Cantos_de_Tlaxcala.jpg",
-          "artist": "DEANLÚ Arte",
-          "license": "CC BY 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Cantos_de_Tlaxcala.jpg",
-          "description": "Tlaxcala, Ciudad retratada por Antonio Delmar",
-          "selection_key": "painting-2023-7",
-          "rubric": "painting",
-          "modern_year": 2023,
-          "credit": "Own work",
-          "permission": "",
-          "date": "2023-07-07 14:44:49",
-          "license_url": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 383,
-          "length": 11,
-          "url": "https://commons.wikimedia.org/wiki/File:Cantos_de_Tlaxcala.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 397,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "creator": "deanlú arte",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Cantos_de_Tlaxcala.jpg/1280px-Cantos_de_Tlaxcala.jpg",
-      "work_key": "deanlú arte|«cantos de tlaxcala», 2023",
-      "subject": "«Cantos de Tlaxcala», 2023",
-      "visual_family": "contemporary-painting",
-      "artwork_rights_verified": true,
-      "source_kind": "artist-original"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "8bdc1c290cc075d225635d74fb676d4ece04b8461570cf217d89a0259c366163"
-  },
+  "last_published_at": "2026-11-07T17:08:27.287770+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2473,9 +2414,20 @@
       "rubric": "women",
       "subject": "Минималистический портрет, 2023",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": -2000000037,
+      "message_ids": [
+        410
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cantos_de_Tlaxcala.jpg",
+      "published_at": "2026-11-07T17:08:27.287770+00:00",
+      "rubric": "painting",
+      "subject": "«Cantos de Tlaxcala», 2023",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 18,
+  "next_rubric_index": 19,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2490,7 +2442,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 67,
+      "completed": 68,
       "target": 100
     }
   },
@@ -4212,15 +4164,6 @@
   },
   "recent_content": [
     {
-      "creator": "job adriaensz berckheyde",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42761-001.jpg",
-      "work_key": "job adriaensz berckheyde|interior of the sint-bavokerk, haarlem",
-      "rubric": "painting",
-      "subject": "interior",
-      "angle": 0
-    },
-    {
       "creator": "george chinnery",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP213130.jpg",
@@ -5080,6 +5023,14 @@
       "work_key": "джессика кихано гусман|минималистический портрет, 2023",
       "rubric": "women",
       "subject": "Минималистический портрет, 2023"
+    },
+    {
+      "creator": "deanlú arte",
+      "visual_family": "contemporary-painting",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Cantos_de_Tlaxcala.jpg/1280px-Cantos_de_Tlaxcala.jpg",
+      "work_key": "deanlú arte|«cantos de tlaxcala», 2023",
+      "rubric": "painting",
+      "subject": "«Cantos de Tlaxcala», 2023"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
