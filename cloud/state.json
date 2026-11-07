@@ -166,44 +166,11 @@
     415514,
     -2000000041,
     -2000000029,
-    642975
+    642975,
+    418828
   ],
-  "last_published_at": "2026-11-07T17:03:28.484651+00:00",
-  "pending": {
-    "object_id": 418828,
-    "attempted_at": "2026-11-07T17:03:30.820121+00:00",
-    "post": {
-      "topic": "Card 38, from the Girl Cyclists series (N49) for Virginia Brights Cigarettes",
-      "caption": "❓ Визуальная викторина\n\nCard 38, from the Girl Cyclists series (N49) for Virginia Brights Cigarettes\nAllen & Ginter · 1887\n\nПроверьте наблюдательность: ответ подтверждён музейным каталогом.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#Викторина",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP831758.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/418828",
-      "object_id": 418828,
-      "rubric": "quiz",
-      "angle": 0,
-      "subject": "Фотография",
-      "creator": "allen & ginter",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP831758.jpg",
-      "work_key": "allen & ginter|card 38, from the girl cyclists series (n49) for virginia brights cigarettes",
-      "kind": "quiz",
-      "quiz_format": "century",
-      "question": "К какому веку музей относит показанную работу?",
-      "options": [
-        "18-й век",
-        "20-й век",
-        "21-й век",
-        "19-й век"
-      ],
-      "correct_option_ids": [
-        3
-      ],
-      "explanation": "Музейная датировка — 1887. Это 19-й век. «Card 38, from the Girl Cyclists series (N49) for Virginia Brights Cigarettes»."
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "85a9ffc64dc8a0b06ed03138b95ece434fb33deade8f0e8784c6d54496720062"
-  },
+  "last_published_at": "2026-11-07T17:03:33.717839+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -1808,9 +1775,21 @@
       "rubric": "books",
       "subject": "tennyson",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 418828,
+      "message_ids": [
+        351
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/418828",
+      "published_at": "2026-11-07T17:03:33.717839+00:00",
+      "rubric": "quiz",
+      "subject": "Фотография",
+      "quiz_format": "century",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 6,
+  "next_rubric_index": 7,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -1825,7 +1804,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 15,
+      "completed": 16,
       "target": 100
     }
   },
@@ -3547,12 +3526,6 @@
   },
   "recent_content": [
     {
-      "creator": "julia margaret cameron",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP295213.jpg",
-      "work_key": "julia margaret cameron|charles hay cameron, esq., in his garden at freshwater"
-    },
-    {
       "creator": "nina de garis davies",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/eg/web-large/DP370264.jpg",
@@ -4386,6 +4359,16 @@
       "rubric": "books",
       "subject": "tennyson",
       "angle": 1
+    },
+    {
+      "creator": "allen & ginter",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP831758.jpg",
+      "work_key": "allen & ginter|card 38, from the girl cyclists series (n49) for virginia brights cigarettes",
+      "rubric": "quiz",
+      "subject": "Фотография",
+      "angle": 0,
+      "quiz_format": "century"
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
