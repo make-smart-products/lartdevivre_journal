@@ -159,7 +159,28 @@
     -2000000014
   ],
   "last_published_at": "2026-11-07T17:02:36.462215+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 381534,
+    "attempted_at": "2026-11-07T17:02:39.213795+00:00",
+    "post": {
+      "topic": "View of the South side of the church of Santi Giovanni e Paolo in Venice, with Verrocchio's statue of Bartolomeo Colleoni",
+      "caption": "🧳 Культурные путешествия\n\nView of the South side of the church of Santi Giovanni e Paolo in Venice, with Verrocchio's statue of Bartolomeo Colleoni\nFriedrich Nerly · 1807–78\n\nНа старом изображении города интересно сравнить масштаб зданий и пространство между ними.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP811476.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/381534",
+      "object_id": 381534,
+      "rubric": "travel",
+      "angle": 4,
+      "subject": "Venice",
+      "creator": "friedrich nerly",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP811476.jpg",
+      "work_key": "friedrich nerly|view of the south side of the church of santi giovanni e paolo in venice, with verrocchio's statue of bartolomeo colleoni"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "a5a509422b9322acd3ac151aa06d3542bb648f4b3e525dd7fced8e972aaa7690"
+  },
   "publications": [
     {
       "object_id": 436528,
