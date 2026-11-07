@@ -202,31 +202,11 @@
     -2000000034,
     322914,
     -2000000008,
-    -2000000021
+    -2000000021,
+    365393
   ],
-  "last_published_at": "2026-11-07T17:06:52.146579+00:00",
-  "pending": {
-    "object_id": 365393,
-    "attempted_at": "2026-11-07T17:06:54.762813+00:00",
-    "post": {
-      "topic": "Plate 26: Temple of Clitumnus between Foligno and Spoleto... (Tempio di Clitumno tra Fuligno e Spoletti...), from \"Alcune Vedute di Archi Trionfali ed altri monumenti inalzati da Romani parte di quali se veggono in Roma e parte per l'Italia\" (Some Views of Triumphal Arches and other monuments erected by the Romans, some of which are in Rome and some elsewhere in Italy)",
-      "caption": "🧳 Культурные путешествия\n\nPlate 26: Temple of Clitumnus between Foligno and Spoleto... (Tempio di Clitumno tra Fuligno e Spoletti...), from \"Alcune Vedute di Archi Trionfali ed altri monumenti inalzati da Romani parte di quali se veggono in Roma e parte per l'Italia\" (Some Views of Triumphal Arches and other monuments erected by the Romans, some of which are in Rome and some elsewhere in Italy)\nGiovanni Battista Piranesi · ca. 1748 · Офорт\n\nВыберите на изображении одну точку, откуда вы бы начали прогулку по этому историческому виду.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP827958.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/365393",
-      "object_id": 365393,
-      "rubric": "travel",
-      "angle": 3,
-      "subject": "Rome",
-      "creator": "giovanni battista piranesi",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP827958.jpg",
-      "work_key": "giovanni battista piranesi|plate 26: temple of clitumnus between foligno and spoleto... (tempio di clitumno tra fuligno e spoletti...), from \"alcune vedute di archi trionfali ed altri monumenti inalzati da romani parte di quali se veggono in roma e parte per l'italia\" (some views of triumphal arches and other monuments erected by the romans, some of which are in rome and some elsewhere in italy)"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "495db8b4376a1968fd53c6f3ccb0547351b1efde582cde718cf50d5726dce028"
-  },
+  "last_published_at": "2026-11-07T17:06:57.111720+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2238,9 +2218,20 @@
       "rubric": "architecture",
       "subject": "Аэропорт как единая фигура",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 365393,
+      "message_ids": [
+        392
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/365393",
+      "published_at": "2026-11-07T17:06:57.111720+00:00",
+      "rubric": "travel",
+      "subject": "Rome",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2255,7 +2246,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 51,
+      "completed": 52,
       "target": 100
     }
   },
@@ -3977,15 +3968,6 @@
   },
   "recent_content": [
     {
-      "creator": "jacques callot",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP888173.jpg",
-      "work_key": "jacques callot|innocent vii, from scelta d'alcuni miracoli e grazie della santissima nunziata di firenze (selection of some miracles and graces that occurred in the church of the annunziata in florence)",
-      "rubric": "travel",
-      "subject": "Florence",
-      "angle": 1
-    },
-    {
       "creator": "anne vallayer-coster",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/es/web-large/DP278048.jpg",
@@ -4851,6 +4833,15 @@
       "work_key": "zaha hadid architects|аэропорт как единая фигура",
       "rubric": "architecture",
       "subject": "Аэропорт как единая фигура"
+    },
+    {
+      "creator": "giovanni battista piranesi",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP827958.jpg",
+      "work_key": "giovanni battista piranesi|plate 26: temple of clitumnus between foligno and spoleto... (tempio di clitumno tra fuligno e spoletti...), from \"alcune vedute di archi trionfali ed altri monumenti inalzati da romani parte di quali se veggono in roma e parte per l'italia\" (some views of triumphal arches and other monuments erected by the romans, some of which are in rome and some elsewhere in italy)",
+      "rubric": "travel",
+      "subject": "Rome",
+      "angle": 3
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
