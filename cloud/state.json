@@ -215,7 +215,29 @@
     -2000000036
   ],
   "last_published_at": "2026-11-07T17:07:47.499942+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": 357223,
+    "attempted_at": "2026-11-07T17:07:50.206494+00:00",
+    "post": {
+      "topic": "Design for a Court Theatre",
+      "caption": "📚 Книги, кино и визуальные истории\n\nDesign for a Court Theatre\nAnonymous, French, 18th century · 18th century\n\nДля книжного клуба: придумайте к этому изображению подпись из одной строки и сравните версии.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КнигиИКино",
+      "images": [
+        "https://images.metmuseum.org/CRDImages/dp/web-large/DP808983.jpg",
+        "https://images.metmuseum.org/CRDImages/dp/original/35.73.30.jpg"
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/357223",
+      "object_id": 357223,
+      "rubric": "books",
+      "angle": 3,
+      "subject": "theater",
+      "creator": "anonymous, french, 18th century",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP808983.jpg",
+      "work_key": "anonymous, french, 18th century|design for a court theatre"
+    },
+    "batch_date": "2026-11-07",
+    "sha256": "cfa3c57235ede3391a7493ac839adcac16040f8195630589760a34cd23373c85"
+  },
   "publications": [
     {
       "object_id": 436528,
