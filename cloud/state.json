@@ -216,31 +216,11 @@
     357223,
     301943,
     -2000000010,
-    -2000000023
+    -2000000023,
+    653171
   ],
-  "last_published_at": "2026-11-07T17:08:11.199279+00:00",
-  "pending": {
-    "object_id": 653171,
-    "attempted_at": "2026-11-07T17:08:13.819100+00:00",
-    "post": {
-      "topic": "A View of Amsterdam from the north Bank of the IJ",
-      "caption": "🧳 Культурные путешествия\n\nA View of Amsterdam from the north Bank of the IJ\nClaes Jansz. Visscher · 1611\n\nВыберите на изображении одну точку, откуда вы бы начали прогулку по этому историческому виду.\n\nИсточник и изображение: Метрополитен-музей, Public Domain.\n#КультурныеПутешествия",
-      "images": [
-        "https://images.metmuseum.org/CRDImages/dp/web-large/DP-13372-085.jpg"
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/653171",
-      "object_id": 653171,
-      "rubric": "travel",
-      "angle": 3,
-      "subject": "Amsterdam",
-      "creator": "claes jansz. visscher",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-13372-085.jpg",
-      "work_key": "claes jansz. visscher|a view of amsterdam from the north bank of the ij"
-    },
-    "batch_date": "2026-11-07",
-    "sha256": "5771c46f8e49a39cf7e968334df7ff5a9a9e1dc7458948f2ae5778f38ac2eae5"
-  },
+  "last_published_at": "2026-11-07T17:08:16.896373+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2410,9 +2390,20 @@
       "rubric": "architecture",
       "subject": "Музей как три волны в ландшафте",
       "batch_date": "2026-11-07"
+    },
+    {
+      "object_id": 653171,
+      "message_ids": [
+        408
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/653171",
+      "published_at": "2026-11-07T17:08:16.896373+00:00",
+      "rubric": "travel",
+      "subject": "Amsterdam",
+      "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 16,
+  "next_rubric_index": 17,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2427,7 +2418,7 @@
       "target": 100
     },
     "2026-11-07": {
-      "completed": 65,
+      "completed": 66,
       "target": 100
     }
   },
@@ -4149,15 +4140,6 @@
   },
   "recent_content": [
     {
-      "creator": "isaac ware",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP829098.jpg",
-      "work_key": "isaac ware|treasury house, 10 downing street, london: plan of the first-floor parlor (northeast corner room)",
-      "rubric": "travel",
-      "subject": "London",
-      "angle": 1
-    },
-    {
       "creator": "madame la marquise de pompadour",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/17.3.1074.jpg",
@@ -5017,6 +4999,15 @@
       "work_key": "renzo piano|музей как три волны в ландшафте",
       "rubric": "architecture",
       "subject": "Музей как три волны в ландшафте"
+    },
+    {
+      "creator": "claes jansz. visscher",
+      "visual_family": "",
+      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-13372-085.jpg",
+      "work_key": "claes jansz. visscher|a view of amsterdam from the north bank of the ij",
+      "rubric": "travel",
+      "subject": "Amsterdam",
+      "angle": 3
     }
   ],
   "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
