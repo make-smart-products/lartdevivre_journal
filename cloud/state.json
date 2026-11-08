@@ -256,7 +256,50 @@
     -2100000105
   ],
   "last_published_at": "2026-11-08T23:02:44.892353+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2100000109,
+    "attempted_at": "2026-11-08T23:02:47.419465+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2100000109,
+      "rubric": "painting",
+      "topic": "«Менины»: кто смотрит на кого",
+      "caption": "🖼 Известные картины\n«Менины»: кто смотрит на кого\n\nВеласкес написал «Менины» в 1656 году и поместил себя у большого холста. В глубине комнаты зеркало отражает ещё две фигуры. Благодаря этому зритель оказывается частью сложной игры взглядов. Начните с центральной инфанты, затем проследите, куда обращены остальные персонажи.\n\nИсточник: Музей Прадо\nРепродукция: Diego Velázquez · Public domain",
+      "caption_entities": [],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1280px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Las Meninas, by Diego Velázquez, from Prado in Google Earth.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1280px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+          "artist": "Diego Velázquez",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg",
+          "description": "",
+          "credit": "The Prado in Google Earth: Home page 7 th level of zoom, JPEG compression quality: Photoshop 8.",
+          "permission": "",
+          "date": "between 1656 and 1657 date QS:P571,+1656-00-00T00:00:00Z/8,P1319,+1656-00-00T00:00:00Z/9,P1326,+1657-00-00T00:00:00Z/9"
+        }
+      ],
+      "source_url": "https://www.museodelprado.es/en/the-collection/art-work/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f",
+      "source_name": "Музей Прадо",
+      "modern_year": 1656,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "creator": "диего веласкес",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1280px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+      "work_key": "диего веласкес|meninas",
+      "subject": "meninas",
+      "visual_family": "meninas",
+      "famous_work_verified": true,
+      "artwork_public_domain_verified": true
+    },
+    "batch_date": "2026-11-08",
+    "sha256": "05fa0e2dbe1a8c2697ef486c9c066b7b531af3580cf386d13d37ee4e30727730"
+  },
   "publications": [
     {
       "object_id": 436528,
