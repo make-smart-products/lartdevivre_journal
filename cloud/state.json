@@ -262,7 +262,62 @@
     -2100000114
   ],
   "last_published_at": "2026-11-08T23:03:11.403012+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2100000103,
+    "attempted_at": "2026-11-08T23:03:14.115384+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2100000103,
+      "rubric": "fashion",
+      "topic": "Асимметрия, которая заметна в движении",
+      "caption": "👗 Современная мода\nАсимметрия, которая заметна в движении\n\nSeoul Fashion Week, сентябрь 2026, сезон весна–лето 2027. На снимке спокойный серый цвет позволяет увидеть главное: неровный край, драпировку и свободную линию силуэта. Иногда выразительность создаёт именно крой. Перед зеркалом стоит оценивать такую вещь и в движении.\n\nИсточник: Правительство Сеула / фото показа\nФото: Republic of Korea · CC BY-SA 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 380,
+          "length": 17,
+          "url": "https://commons.wikimedia.org/wiki/File:Seoul_Fashion_Week_2027_SS_06.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 400,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Seoul_Fashion_Week_2027_SS_06.jpg/1280px-Seoul_Fashion_Week_2027_SS_06.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Seoul Fashion Week 2027 SS 06.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Seoul_Fashion_Week_2027_SS_06.jpg/1280px-Seoul_Fashion_Week_2027_SS_06.jpg",
+          "artist": "Republic of Korea",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Seoul_Fashion_Week_2027_SS_06.jpg",
+          "description": "Seoul Fashion Week 2027 S/S Sept, 1 2026 DDP(Dongdaemun Design Plaza), Seoul Ministry of culture, sports and Tourism Official Photographer : Park dae jin All photographs in the official Flickr account of the Republic of Korea are available only for publication by news organizations and/or for public purposes with proper attribution to the correct source (photographer and organizations mentioned above). Any distortion to the original meaning of a photograph for provision to a third party through posting and resale, partial reproduction, falsification or use of the photograph with other images is strictly prohibited without the express written permission of the government of the Republic of Ko",
+          "credit": "https://www.flickr.com/photos/koreanet/55501883690/",
+          "permission": "",
+          "date": "2026-09-01 11:26:03",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "source_url": "https://english.seoul.go.kr/seoul-fashion-week-to-connect-ddp-and-lotte-world-tower-turning-seoul-landmarks-into-runways/",
+      "source_name": "Правительство Сеула / фото показа",
+      "modern_year": 2027,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "creator": "seoul fashion week",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Seoul_Fashion_Week_2027_SS_06.jpg/1280px-Seoul_Fashion_Week_2027_SS_06.jpg",
+      "work_key": "seoul fashion week|fashion3",
+      "subject": "fashion3",
+      "visual_family": "fashion3"
+    },
+    "batch_date": "2026-11-08",
+    "sha256": "134a244fb44c4248164b3c9a44e5961a96002b56e0564d4729ca719098af2485"
+  },
   "publications": [
     {
       "object_id": 436528,
