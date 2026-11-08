@@ -254,7 +254,62 @@
     -2000000060
   ],
   "last_published_at": "2026-11-07T17:11:16.165835+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2100000101,
+    "attempted_at": "2026-11-08T23:02:38.131738+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2100000101,
+      "rubric": "fashion",
+      "topic": "Péro: фактура вместо лишних украшений",
+      "caption": "👗 Современная мода\nPéro: фактура вместо лишних украшений\n\nНа фото — Анит Падда на показе Péro осень–зима 2026 в Мумбаи. Плотная накидка, блестящая поверхность платья и крупные банты на обуви создают разные уровни фактуры. Для повседневности можно выбрать один из этих приёмов и оставить остальные вещи спокойными.\n\nИсточник: Péro / авторская фотография показа\nФото: Bollywood Hungama · CC BY 3.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 367,
+          "length": 17,
+          "url": "https://commons.wikimedia.org/wiki/File:Aneet_Padda_walking_for_P%C3%A9ro_by_Aneeth_Arora_at_Lakm%C3%A9_Fashion_Week,_March_2026.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 387,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/3e/Aneet_Padda_walking_for_P%C3%A9ro_by_Aneeth_Arora_at_Lakm%C3%A9_Fashion_Week%2C_March_2026.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Aneet Padda walking for Péro by Aneeth Arora at Lakmé Fashion Week, March 2026.jpg",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Aneet_Padda_walking_for_P%C3%A9ro_by_Aneeth_Arora_at_Lakm%C3%A9_Fashion_Week%2C_March_2026.jpg",
+          "artist": "Bollywood Hungama",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Aneet_Padda_walking_for_P%C3%A9ro_by_Aneeth_Arora_at_Lakm%C3%A9_Fashion_Week,_March_2026.jpg",
+          "description": "Aneet Padda walked for fashion designer, Aneeth Arora's label, Péro's Fall/Winter 2026 collection, 'Out of Office' at Lakmé Fashion Week's finale, 22 March 2026.",
+          "credit": "https://www.bollywoodhungama.com/news/parties-and-events/photos-aneet-padda-walks-lakme-fashion-week-2026/photos-aneet-padda-walks-for-lakme-fashion-week-2026-6/",
+          "permission": "",
+          "date": "2026-03-23",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "source_url": "https://pero.co.in/",
+      "source_name": "Péro / авторская фотография показа",
+      "modern_year": 2026,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "creator": "péro",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Aneet_Padda_walking_for_P%C3%A9ro_by_Aneeth_Arora_at_Lakm%C3%A9_Fashion_Week%2C_March_2026.jpg",
+      "work_key": "péro|fashion1",
+      "subject": "fashion1",
+      "visual_family": "fashion1"
+    },
+    "batch_date": "2026-11-08",
+    "sha256": "c1276843d8f42af70060f9c275e41601bedda81ef69b92d44c215b22deeb5481"
+  },
   "publications": [
     {
       "object_id": 436528,
@@ -2819,7 +2874,7 @@
       "batch_date": "2026-11-07"
     }
   ],
-  "next_rubric_index": 11,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -5411,7 +5466,7 @@
       "subject": "Анимация: линия, которая становится движением"
     }
   ],
-  "editorial_policy_version": "2026-11-07-contemporary-four-rubrics",
+  "editorial_policy_version": "2026-11-08-four-rubrics",
   "cancelled_attempts": [
     {
       "pending": {
