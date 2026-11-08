@@ -267,7 +267,62 @@
     -2100000104
   ],
   "last_published_at": "2026-11-08T23:03:34.780459+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2100000108,
+    "attempted_at": "2026-11-08T23:03:37.594810+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2100000108,
+      "rubric": "architecture",
+      "topic": "Little Island: парк над водой",
+      "caption": "🏛 Современная архитектура\nLittle Island: парк над водой\n\nLittle Island в Нью-Йорке открылся в 2021 году. Heatherwick Studio подняли зелёное общественное пространство на чашеобразные опоры над Гудзоном. С берега особенно заметно, как конструкция создаёт рельеф будущей прогулки. Инженерные элементы здесь одновременно формируют узнаваемый силуэт парка.\n\nИсточник: Heatherwick Studio\nФото: Praneeth Thalla · CC BY-SA 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 389,
+          "length": 15,
+          "url": "https://commons.wikimedia.org/wiki/File:Little_Island_at_Pier_55.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 407,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Little_Island_at_Pier_55.jpg/1280px-Little_Island_at_Pier_55.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Little Island at Pier 55.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Little_Island_at_Pier_55.jpg/1280px-Little_Island_at_Pier_55.jpg",
+          "artist": "Praneeth Thalla",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Little_Island_at_Pier_55.jpg",
+          "description": "Little Island at Pier 55 in Manhattan",
+          "credit": "Own work",
+          "permission": "",
+          "date": "2022-07-01 16:24:50",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "source_url": "https://heatherwick.com/projects/public-space/pier55/",
+      "source_name": "Heatherwick Studio",
+      "modern_year": 2021,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "creator": "heatherwick studio",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Little_Island_at_Pier_55.jpg/1280px-Little_Island_at_Pier_55.jpg",
+      "work_key": "heatherwick studio|island",
+      "subject": "island",
+      "visual_family": "island"
+    },
+    "batch_date": "2026-11-08",
+    "sha256": "9781fd3064339caacde36ab80ff7f05bba4c662edd03c2a1399bab0819ad7c1d"
+  },
   "publications": [
     {
       "object_id": 436528,
