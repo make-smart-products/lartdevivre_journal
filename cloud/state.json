@@ -265,53 +265,11 @@
     -2100000111,
     -2100000115,
     -2100000104,
-    -2100000108
+    -2100000108,
+    -2100000112
   ],
-  "last_published_at": "2026-11-08T23:03:39.234706+00:00",
-  "pending": {
-    "object_id": -2100000112,
-    "attempted_at": "2026-11-08T23:03:41.888881+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2100000112,
-      "rubric": "painting",
-      "topic": "«Поцелуй»: близость внутри орнамента",
-      "caption": "🖼 Известные картины\n«Поцелуй»: близость внутри орнамента\n\nКлимт впервые показал эту работу в 1908 году и завершил её в 1909-м. Золотистая поверхность почти скрывает объятие внутри узоров. Посмотрите, как отличаются прямоугольные элементы одной одежды и округлые мотивы другой: орнамент помогает удержать различие между фигурами.\n\nИсточник: Бельведер\nРепродукция: Gustav Klimt · Public domain",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1280px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "The Kiss - Gustav Klimt - Google Cultural Institute.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1280px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
-          "artist": "Gustav Klimt",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
-          "description": "lovers' embrace",
-          "credit": "Google Art Project",
-          "permission": "",
-          "date": "1907–1908"
-        }
-      ],
-      "source_url": "https://www.belvedere.at/sites/default/files/2025-11/PM_WienerModerne_EN.pdf",
-      "source_name": "Бельведер",
-      "modern_year": 1908,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
-      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
-      "creator": "густав климт",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1280px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
-      "work_key": "густав климт|kiss",
-      "subject": "kiss",
-      "visual_family": "kiss",
-      "famous_work_verified": true,
-      "artwork_public_domain_verified": true
-    },
-    "batch_date": "2026-11-08",
-    "sha256": "5cb30db21af82f987e67a399c130568bd675f8430a7a6dedaae790c358bcd2eb"
-  },
+  "last_published_at": "2026-11-08T23:03:43.457748+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3028,9 +2986,20 @@
       "rubric": "architecture",
       "subject": "island",
       "batch_date": "2026-11-08"
+    },
+    {
+      "object_id": -2100000112,
+      "message_ids": [
+        460
+      ],
+      "source_url": "https://www.belvedere.at/sites/default/files/2025-11/PM_WienerModerne_EN.pdf",
+      "published_at": "2026-11-08T23:03:43.457748+00:00",
+      "rubric": "painting",
+      "subject": "kiss",
+      "batch_date": "2026-11-08"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3049,7 +3018,7 @@
       "target": 100
     },
     "2026-11-08": {
-      "completed": 14,
+      "completed": 15,
       "target": 15
     }
   },
@@ -4771,15 +4740,6 @@
   },
   "recent_content": [
     {
-      "creator": "dante gabriel rossetti",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP835738.jpg",
-      "work_key": "dante gabriel rossetti|the lady of shalott (from tennyson's poems, new york, 1903)",
-      "rubric": "books",
-      "subject": "tennyson",
-      "angle": 1
-    },
-    {
       "creator": "allen & ginter",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP831758.jpg",
@@ -5617,6 +5577,14 @@
       "work_key": "heatherwick studio|island",
       "rubric": "architecture",
       "subject": "island"
+    },
+    {
+      "creator": "густав климт",
+      "visual_family": "kiss",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1280px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+      "work_key": "густав климт|kiss",
+      "rubric": "painting",
+      "subject": "kiss"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
