@@ -261,7 +261,64 @@
     -2100000110
   ],
   "last_published_at": "2026-11-08T23:03:07.166923+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2100000114,
+    "attempted_at": "2026-11-08T23:03:09.785315+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2100000114,
+      "rubric": "celebrities",
+      "topic": "Когда актриса становится лицом модного дома",
+      "caption": "✨ Модели, актрисы и знаменитости\nКогда актриса становится лицом модного дома\n\nLouis Vuitton представил Зендею как амбассадора в 2023 году. Такие сотрудничества соединяют экранный образ, работу стилиста и визуальный язык бренда. На снимке — встреча с прессой по поводу «Дюны: Часть вторая», 2024 год, рядом Тимоти Шаламе. Это отдельный публичный образ, а не кадр кампании.\n\nИсточник: Louis Vuitton / LVMH\nФото: Tomatazos · CC BY 3.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 410,
+          "length": 9,
+          "url": "https://commons.wikimedia.org/wiki/File:Zendaya_y_Timothe%C3%A9_Chalamet_en_2024_02.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 422,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/06/Zendaya_y_Timothe%C3%A9_Chalamet_en_2024_02.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Zendaya y Timotheé Chalamet en 2024 02.jpg",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Zendaya_y_Timothe%C3%A9_Chalamet_en_2024_02.jpg",
+          "artist": "Tomatazos",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Zendaya_y_Timothe%C3%A9_Chalamet_en_2024_02.jpg",
+          "description": "El actor #TimotheéChalamet nos cuenta qué podemos esperar de Paul en la esperada #DunePartTwo.",
+          "credit": "Duna 2: ¿El lado oscuro de Paul? Timothée Chalamet habla del desarrollo de su personaje.",
+          "permission": "",
+          "date": "2024-02-07",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "image_role": "portrait"
+        }
+      ],
+      "source_url": "https://www.youtube.com/watch?v=sE6Rk9TJcSk",
+      "source_name": "Louis Vuitton / LVMH",
+      "modern_year": 2023,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "creator": "зендея",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Zendaya_y_Timothe%C3%A9_Chalamet_en_2024_02.jpg",
+      "work_key": "зендея|zendaya",
+      "subject": "zendaya",
+      "visual_family": "zendaya",
+      "person_verified": true
+    },
+    "batch_date": "2026-11-08",
+    "sha256": "e976ddb2b9853ccb7082d1f53fb9bee936700024cdc0cfdfbfb25b70b3ba05bd"
+  },
   "publications": [
     {
       "object_id": 436528,
