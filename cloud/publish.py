@@ -5,6 +5,7 @@ automatically. Only trusted, public-domain museum images are eligible.
 """
 import argparse
 import base64
+import copy
 from collections import Counter
 import datetime as dt
 import hashlib
@@ -28,13 +29,13 @@ MET = "https://collectionapi.metmuseum.org/public/collection/v1"
 MET_SEARCH = "https://collectionapi.metmuseum.org/public/collection/v1.1/search"
 REPO = "make-smart-products/lartdevivre_journal"
 CHANNEL = "@lartdevivre_journal"
-DAILY_TARGET = 100
+DAILY_TARGET = 15
 QUERIES = ["Vincent van Gogh", "Edgar Degas", "Paul Cezanne", "Edouard Manet", "Berthe Morisot", "Rembrandt", "landscape", "still life", "garden", "seascape", "interior", "flowers"]
 RESERVE_OBJECT_IDS = {"painting": [436531, 436533, 437423, 437430]}
-BASE_RUBRIC_ORDER = ["fashion", "architecture", "travel", "women", "painting"]
-# A twenty-slot cycle: 15 per core topic, 10 books/cinema and 15 quizzes per 100.
-RUBRIC_ORDER = (BASE_RUBRIC_ORDER + ["books", "quiz"]) * 2 + BASE_RUBRIC_ORDER + ["quiz"]
-RUBRICS = {
+BASE_RUBRIC_ORDER = ["fashion", "architecture", "painting", "celebrities"]
+RUBRIC_ORDER = BASE_RUBRIC_ORDER.copy()
+# Historical helpers remain available for receipts and regression tests only.
+ARCHIVED_RUBRICS = {
     "fashion": {"label": "👗 Современная мода", "tag": "#СовременнаяМода", "queries": []},
     "architecture": {"label": "🏛 Архитектура и интерьер", "tag": "#Архитектура", "queries": ["temple", "architectural", "column", "facade", "floor plan", "cathedral", "interior", "chair", "cabinet"]},
     "travel": {"label": "🧳 Культурные путешествия", "tag": "#КультурныеПутешествия", "queries": ["Venice", "Rome", "Paris", "Florence", "Kyoto", "Istanbul", "Amsterdam", "London", "Naples", "New York"]},
@@ -42,6 +43,12 @@ RUBRICS = {
     "painting": {"label": "🖼 Современная живопись", "tag": "#СовременнаяЖивопись"},
     "books": {"label": "📚 Книги, кино и визуальные истории", "tag": "#КнигиИКино", "queries": ["Shakespeare", "Tennyson", "Hamlet", "King Lear", "illustrated book", "theater"]},
     "quiz": {"label": "❓ Визуальная викторина", "tag": "#Викторина", "queries": ["painting", "photograph", "engraving", "sculpture"]},
+}
+RUBRICS = {
+    "fashion": {"label": "👗 Современная мода", "tag": "#СовременнаяМода"},
+    "architecture": {"label": "🏛 Современная архитектура", "tag": "#СовременнаяАрхитектура"},
+    "painting": {"label": "🖼 Известные картины", "tag": "#ИзвестныеКартины"},
+    "celebrities": {"label": "✨ Модели, актрисы и знаменитости", "tag": "#Знаменитости"},
 }
 ARTISTS = {"Vincent van Gogh": "Винсент ван Гог", "Katsushika Hokusai": "Кацусика Хокусай", "Edgar Degas": "Эдгар Дега", "Paul Cézanne": "Поль Сезанн", "Edouard Manet": "Эдуард Мане", "Mary Cassatt": "Мэри Кассат", "Berthe Morisot": "Берта Моризо", "Albrecht Dürer": "Альбрехт Дюрер"}
 MEDIUM_LABELS = {
@@ -132,7 +139,7 @@ def matches_rubric(obj, rubric):
     if rubric == "travel":
         title = title.split("(recto)", 1)[0]
         visual = any(word in kind for word in ("painting", "watercolor", "print", "drawing", "photograph"))
-        places = [place.casefold() for place in RUBRICS["travel"]["queries"]]
+        places = [place.casefold() for place in ARCHIVED_RUBRICS["travel"]["queries"]]
         has_place = any(re.search(r"\b" + re.escape(place) + r"\b", title) for place in places)
         # Florence can be a person's given name. A place word alone is not evidence
         # that a portrait is a city view; require an explicit topographical context.
@@ -164,7 +171,7 @@ def editorial_subject(obj, rubric):
     title = (obj.get("title") or "").casefold()
     kind = " ".join((obj.get("objectName") or "", obj.get("classification") or "")).casefold()
     if rubric == "travel":
-        return next((place for place in RUBRICS[rubric]["queries"]
+        return next((place for place in ARCHIVED_RUBRICS[rubric]["queries"]
                      if re.search(r"\b" + re.escape(place.casefold()) + r"\b", title)), "")
     if rubric == "quiz":
         return quiz_medium(obj) or ""
@@ -289,7 +296,7 @@ def make_card(obj, rubric="painting", recent=()):
     except (ValueError, TypeError):
         pass
     # Preserve original catalogue titles instead of inventing translations or facts.
-    config = RUBRICS[rubric]
+    config = ARCHIVED_RUBRICS[rubric]
     prompts = {
         "fashion": ["Идея для своего гардероба: выбрать одну деталь исторической вещи, которую можно переосмыслить сегодня.", "Силуэт или отделка? Что вам хотелось бы позаимствовать у этого предмета, сохранив собственный стиль?", "Сохраните как вдохновение для сочетания фактур — без необходимости повторять исторический наряд."],
         "architecture": ["Идея для следующей прогулки: искать ритм окон, колонн и свободных промежутков.", "Поменяйте масштаб взгляда: сначала общая форма, затем одна конструктивная деталь.", "Что можно взять для своего пространства: ритм, пропорции или сочетание материалов?"],
@@ -355,6 +362,8 @@ def snapshot_object(post, now=None):
 
 def choose_post(state, fetch=request, rubric=None):
     rubric = rubric or RUBRIC_ORDER[state.get("next_rubric_index", 0) % len(RUBRIC_ORDER)]
+    if rubric not in RUBRICS:
+        raise PublishError("Рубрика отключена: " + rubric)
     if rubric in modern.RUBRICS:
         try:
             post = modern.choose(ROOT, state, rubric, diverse_enough)
@@ -362,6 +371,12 @@ def choose_post(state, fetch=request, rubric=None):
             return post
         except ValueError as error:
             raise PublishError(str(error)) from None
+    raise PublishError("Нужна проверенная редакционная карточка")
+
+
+def choose_legacy_post(state, fetch=request, rubric=None):
+    """Historical selector retained for audits; never called by the publisher."""
+    rubric = rubric or "painting"
     used = {int(x) for x in state.get("used_object_ids", [])}
     recent = state.get("recent_content", [])
     recent_in_rubric = [item for item in recent if item.get("rubric") == rubric][-10:]
@@ -413,7 +428,7 @@ def choose_post(state, fetch=request, rubric=None):
                     return card
         except PublishError:
             continue
-    queries = RUBRICS[rubric].get("queries", QUERIES)
+    queries = ARCHIVED_RUBRICS[rubric].get("queries", QUERIES)
     week = dt.datetime.now(dt.timezone.utc).date().toordinal() // 7
     start = (len(used) + week) % len(queries)
     ordered_queries = queries[start:] + queries[:start]
@@ -445,7 +460,7 @@ def choose_post(state, fetch=request, rubric=None):
                     continue
             if offset_in_results + 100 >= results.get("total", 0):
                 break
-    raise PublishError("Не найден новый материал рубрики " + RUBRICS[rubric]["label"] + " с открытыми официальными изображениями")
+    raise PublishError("Не найден новый материал рубрики " + ARCHIVED_RUBRICS[rubric]["label"] + " с открытыми официальными изображениями")
 
 
 def ensure_ready(state, now):
@@ -512,10 +527,32 @@ def publish(post, token, fetch=request):
     return [x["message_id"] for x in results]
 
 
+def normalize_policy(state):
+    if state.get("editorial_policy_version") != "2026-11-08-four-rubrics":
+        state["next_rubric_index"] = 0
+        state["editorial_policy_version"] = "2026-11-08-four-rubrics"
+
+
+def preflight_batch(state, remaining):
+    """Check the entire remaining block without posting or changing receipts."""
+    planned = copy.deepcopy(state)
+    normalize_policy(planned)
+    if planned.get("pending"):
+        raise PublishError("Есть неподтверждённая отправка: требуется проверка канала")
+    for _ in range(remaining):
+        post = choose_post(planned)
+        if post.get("kind", "article") != "article":
+            raise PublishError("Викторины и опросы отключены")
+        planned.setdefault("used_object_ids", []).append(post["object_id"])
+        record_editorial_history(planned, post)
+        planned["next_rubric_index"] = (planned.get("next_rubric_index", 0) + 1) % len(RUBRIC_ORDER)
+
+
 def execute_one(dry_run=False, batch_date=None):
     token = os.environ.get("JOURNAL_GITHUB_TOKEN") or os.environ.get("GITHUB_TOKEN")
     store = StateStore(token) if token else None
     state = store.load() if store else json.loads((ROOT / "cloud" / "state.json").read_text(encoding="utf-8-sig"))
+    normalize_policy(state)
     now = dt.datetime.now(dt.timezone.utc)
     if batch_date:
         if state.get("pending"):
@@ -571,6 +608,7 @@ def execute(dry_run=False, now=None, scheduled=False, publish_now=False):
         preview = execute_one(dry_run=True, batch_date=day)
         token = os.environ.get("JOURNAL_GITHUB_TOKEN") or os.environ.get("GITHUB_TOKEN")
         state = StateStore(token).load() if token else json.loads((ROOT / "cloud" / "state.json").read_text(encoding="utf-8-sig"))
+        normalize_policy(state)
         audit = {}
         for _ in range(3):
             for rubric in RUBRICS:
@@ -586,6 +624,10 @@ def execute(dry_run=False, now=None, scheduled=False, publish_now=False):
             return {"status": "not_due", "time_moscow": "22:30"}
         day = (local.date() - dt.timedelta(days=1)).isoformat()
     results = []
+    token = os.environ.get("JOURNAL_GITHUB_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    state = StateStore(token).load() if token else json.loads((ROOT / "cloud" / "state.json").read_text(encoding="utf-8-sig"))
+    completed = state.get("daily_batches", {}).get(day, {}).get("completed", 0)
+    preflight_batch(state, max(0, DAILY_TARGET - completed))
     for _ in range(DAILY_TARGET):
         result = execute_one(batch_date=day)
         if result.get("status") != "published":

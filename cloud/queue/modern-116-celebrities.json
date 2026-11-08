@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2100000116,
+  "rubric": "celebrities",
+  "topic": "Натали Портман: один выразительный акцент",
+  "caption": "✨ Модели, актрисы и знаменитости\nНатали Портман: один выразительный акцент\n\nНа снимке — Натали Портман на Каннском фестивале 2025 года. Зачёсанные волосы открывают лицо, а серьги становятся заметным акцентом. Этот приём легко рассмотреть отдельно от дорогого наряда: убрать лишние детали и выбрать одну. Архивная фотография не показывает новый выход актрисы.\n\nИсточник: Dior; авторская фотография Каннского фестиваля\nФото: Martin Kraft · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 423,
+      "length": 12,
+      "url": "https://commons.wikimedia.org/wiki/File:MKr380590_Natalie_Portman_(Arco,_Cannes_2025).jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 438,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/MKr380590_Natalie_Portman_%28Arco%2C_Cannes_2025%29.jpg/1280px-MKr380590_Natalie_Portman_%28Arco%2C_Cannes_2025%29.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "MKr380590 Natalie Portman (Arco, Cannes 2025).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/MKr380590_Natalie_Portman_%28Arco%2C_Cannes_2025%29.jpg/1280px-MKr380590_Natalie_Portman_%28Arco%2C_Cannes_2025%29.jpg",
+      "artist": "Martin Kraft",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MKr380590_Natalie_Portman_(Arco,_Cannes_2025).jpg",
+      "description": "Natalie Portman presenting the movie Arco at the 2025 Cannes Film Festival",
+      "credit": "Own work",
+      "permission": "Reusing this image Image: Martin Kraft (photo.martinkraft.com) License: CC BY-SA 4.0 via Wikimedia Commons This image was published by Martin Kraft under the free license CC BY-SA 4.0 , which also allows the usage outside of Wikipedia under the following conditions: You need to mark the image with the names of the author and license as well as the conform weblinks – like in the example on the right. Print publications additionally need to reproduce legalcode or its URL ( creativecommons.org/licenses/by-sa/4.0/legalcode ). If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Please send me a specimen copy or the URL of the website where the image is used. The Online Attribution Generator offers a good tool to generate an attribution sufficient for your use case. Feel free to contact me via eMail photo@martinkraft.com or visit my website photo.martinkraft.com for any questions or in case you need… a licenses to use the image without the requirements of the above terms and conditions a higher resolution or a different crop of the same subject or similar graphics and photographs Only the terms and conditions mentioned above authorize the free use of this image. Any infringement causes a copyright violation , that may result in a penalty fee of five times the fee suggested by the MFM , inter alia. Personality rights Personality rights Personality rights warning Although this work is freely licensed or in the public domain , the person(s) shown may have rights that legally restrict certain re-uses unless those depicted consent to such uses. In these cases, a model release or other evidence of consent could protect you from infringement claims. Though not obliged to do so, the uploader may be able to help you to obtain such evidence. See our general disclaimer for more information.",
+      "date": "2025-05-16",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_role": "portrait"
+    }
+  ],
+  "source_url": "https://www.dior.com/couture/var/dior/storage/original/application/a269bd975f2ba249b59726fa7960e70d.pdf",
+  "source_name": "Dior; авторская фотография Каннского фестиваля",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+  "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+  "creator": "натали портман",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/MKr380590_Natalie_Portman_%28Arco%2C_Cannes_2025%29.jpg/1280px-MKr380590_Natalie_Portman_%28Arco%2C_Cannes_2025%29.jpg",
+  "work_key": "натали портман|portman",
+  "subject": "portman",
+  "visual_family": "portman",
+  "person_verified": true
+}

@@ -9,6 +9,7 @@ class PublishTests(unittest.TestCase):
     def setUp(self):
         # These tests exercise the legacy museum selector; modern routing has its own tests.
         self.enterContext(patch.object(publish.modern, "RUBRICS", set()))
+        self.enterContext(patch.object(publish, "choose_post", publish.choose_legacy_post))
         self.enterContext(patch.object(publish.Path, "glob", return_value=[]))
         self.enterContext(patch.object(publish.Path, "exists", return_value=False))
 
@@ -136,14 +137,14 @@ class PublishTests(unittest.TestCase):
 
     def test_rotation_advances_only_after_confirmed_send(self):
         import copy
-        state = {"used_object_ids": [], "next_rubric_index": 4}
+        state = {"used_object_ids": [], "next_rubric_index": 0}
         snapshots = []
         card = publish.make_card(self.obj())
         store = unittest.mock.Mock()
         store.load.return_value = state
         store.save.side_effect = lambda value, message: snapshots.append(copy.deepcopy(value))
         def send(post, token):
-            self.assertEqual(4, state["next_rubric_index"])
+            self.assertEqual(0, state["next_rubric_index"])
             self.assertIsNotNone(snapshots[0]["pending"])
             return [42]
         with patch.dict(publish.os.environ, {"GITHUB_TOKEN": "fake", "TELEGRAM_BOT_TOKEN": "fake"}), patch.object(publish.sys, "argv", ["publish"]), patch.object(publish, "StateStore", return_value=store), patch.object(publish, "choose_post", return_value=card), patch.object(publish, "publish", side_effect=send):

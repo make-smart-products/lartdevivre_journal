@@ -1,0 +1,38 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2100000111,
+  "rubric": "painting",
+  "topic": "«Портрет четы Арнольфини»: зеркало в центре",
+  "caption": "🖼 Известные картины\n«Портрет четы Арнольфини»: зеркало в центре\n\nВ картине 1434 года небольшое выпуклое зеркало расширяет пространство комнаты и показывает две дополнительные фигуры. Над ним находится подпись художника. Национальная галерея подчёркивает, что прежнее объяснение сцены как свадебной церемонии больше не считается общепринятым. Детали здесь важнее готовой легенды.\n\nИсточник: Национальная галерея, Лондон\nРепродукция: Jan van Eyck · Public domain",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1280px-Van_Eyck_-_Arnolfini_Portrait.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Van Eyck - Arnolfini Portrait.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1280px-Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "artist": "Jan van Eyck",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "description": "",
+      "credit": "Web site of National Gallery, London",
+      "permission": "",
+      "date": "1434"
+    }
+  ],
+  "source_url": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+  "source_name": "Национальная галерея, Лондон",
+  "modern_year": 1434,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+  "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+  "creator": "ян ван эйк",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1280px-Van_Eyck_-_Arnolfini_Portrait.jpg",
+  "work_key": "ян ван эйк|arnolfini",
+  "subject": "arnolfini",
+  "visual_family": "arnolfini",
+  "famous_work_verified": true,
+  "artwork_public_domain_verified": true
+}

@@ -71,7 +71,7 @@ class EditorialDiversityTests(unittest.TestCase):
         with patch.object(publish.Path, 'glob', return_value=[]), \
              patch.object(publish.Path, 'exists', return_value=True), \
              patch.object(publish.Path, 'read_text', return_value=catalogue):
-            card = publish.choose_post(state, fetch, rubric='travel')
+            card = publish.choose_legacy_post(state, fetch, rubric='travel')
         self.assertEqual('Venice', card['subject'])
 
     def test_fictional_scene_in_rome_is_not_a_travel_view(self):

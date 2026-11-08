@@ -1,0 +1,50 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2100000104,
+  "rubric": "fashion",
+  "topic": "Клетка и мягкие слои",
+  "caption": "👗 Современная мода\nКлетка и мягкие слои\n\nВ описании Chloé зима 2026 одежда связана с памятью, эмоциями и ремеслом. Практическая идея — соединить жакет с заметной клеткой и мягкую светлую блузу. Разная плотность тканей делает образ сложнее без множества цветов. Фото — Эмма Лэрд в Vivienne Westwood, 2021; иллюстрация приёма, не коллекция Chloé.\n\nИсточник: Chloé; фото Vivienne Westwood\nФото: Vivienne Westwood · CC BY 3.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 393,
+      "length": 17,
+      "url": "https://commons.wikimedia.org/wiki/File:Emma_Laird_in_Vivienne_Westwood.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 413,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/2/2a/Emma_Laird_in_Vivienne_Westwood.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Emma Laird in Vivienne Westwood.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Emma_Laird_in_Vivienne_Westwood.jpg",
+      "artist": "Vivienne Westwood",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Emma_Laird_in_Vivienne_Westwood.jpg",
+      "description": "Vivienne Westwood Autumn-Winter 2021/22 The Vivienne Westwood Autumn-Winter 2021/22 collection started by looking at Daphnis and Chloe (1743) a painting by French Rococo painter François Boucher, which is housed in the Wallace Collection, London. It became the main print for the season - with the sky and pastoral scenes reflected through the colours and fabrics. ⁠⁠ Video Direction Harry Bowley Styling Ellie Grace Cumming",
+      "credit": "Vivienne Westwood Autumn-Winter 2021/22 at 0:02, cropped, brightened",
+      "permission": "",
+      "date": "2021-07-26",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "source_url": "https://www.chloe.com/en-ro/winter-2026-collection.html",
+  "source_name": "Chloé; фото Vivienne Westwood",
+  "modern_year": 2026,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+  "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+  "creator": "chloé",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Emma_Laird_in_Vivienne_Westwood.jpg",
+  "work_key": "chloé|fashion4",
+  "subject": "fashion4",
+  "visual_family": "fashion4"
+}

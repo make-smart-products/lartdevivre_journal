@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2100000113,
+  "rubric": "celebrities",
+  "topic": "Модель и автор собственного бренда",
+  "caption": "✨ Модели, актрисы и знаменитости\nМодель и автор собственного бренда\n\nДжиджи Хадид основала Guest in Residence в 2022 году и стала его креативным директором. В центре марки — кашемировые вещи. Интересный пример карьеры, в которой опыт работы перед камерой продолжается в создании собственного продукта. На фото — рекламный образ Rabanne 2024 года, не коллекция Guest in Residence.\n\nИсточник: Guest in Residence\nФото: Rabanne · CC BY 3.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 416,
+      "length": 7,
+      "url": "https://commons.wikimedia.org/wiki/File:Gigi_Hadid_for_Rabanne_-_04.png"
+    },
+    {
+      "type": "text_link",
+      "offset": 426,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/0/0c/Gigi_Hadid_for_Rabanne_-_04.png"
+  ],
+  "licensed_images": [
+    {
+      "title": "Gigi Hadid for Rabanne - 04.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Gigi_Hadid_for_Rabanne_-_04.png",
+      "artist": "Rabanne",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gigi_Hadid_for_Rabanne_-_04.png",
+      "description": "Million Gold For Her: Fierce icon. ‪@OfficialGigiHadid‬ parades down the golden catwalk owning the stage and feeling the beat.​​ Discover the brave new Million Gold For Her universe where mighty femininity rules and gold awakens glittering success.​",
+      "credit": "MILLION GOLD FOR HER | RABANNE",
+      "permission": "",
+      "date": "2024-08-27",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "image_role": "portrait"
+    }
+  ],
+  "source_url": "https://guestinresidence.com/en-gb/pages/discover-gir",
+  "source_name": "Guest in Residence",
+  "modern_year": 2022,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+  "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+  "creator": "джиджи хадид",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Gigi_Hadid_for_Rabanne_-_04.png",
+  "work_key": "джиджи хадид|gigi",
+  "subject": "gigi",
+  "visual_family": "gigi",
+  "person_verified": true
+}
