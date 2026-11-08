@@ -268,7 +268,50 @@
     -2100000108
   ],
   "last_published_at": "2026-11-08T23:03:39.234706+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2100000112,
+    "attempted_at": "2026-11-08T23:03:41.888881+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2100000112,
+      "rubric": "painting",
+      "topic": "«Поцелуй»: близость внутри орнамента",
+      "caption": "🖼 Известные картины\n«Поцелуй»: близость внутри орнамента\n\nКлимт впервые показал эту работу в 1908 году и завершил её в 1909-м. Золотистая поверхность почти скрывает объятие внутри узоров. Посмотрите, как отличаются прямоугольные элементы одной одежды и округлые мотивы другой: орнамент помогает удержать различие между фигурами.\n\nИсточник: Бельведер\nРепродукция: Gustav Klimt · Public domain",
+      "caption_entities": [],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1280px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "The Kiss - Gustav Klimt - Google Cultural Institute.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1280px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+          "artist": "Gustav Klimt",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+          "description": "lovers' embrace",
+          "credit": "Google Art Project",
+          "permission": "",
+          "date": "1907–1908"
+        }
+      ],
+      "source_url": "https://www.belvedere.at/sites/default/files/2025-11/PM_WienerModerne_EN.pdf",
+      "source_name": "Бельведер",
+      "modern_year": 1908,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "creator": "густав климт",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1280px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+      "work_key": "густав климт|kiss",
+      "subject": "kiss",
+      "visual_family": "kiss",
+      "famous_work_verified": true,
+      "artwork_public_domain_verified": true
+    },
+    "batch_date": "2026-11-08",
+    "sha256": "5cb30db21af82f987e67a399c130568bd675f8430a7a6dedaae790c358bcd2eb"
+  },
   "publications": [
     {
       "object_id": 436528,
