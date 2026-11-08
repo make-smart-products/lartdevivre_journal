@@ -257,53 +257,11 @@
     -2100000109,
     -2100000113,
     -2100000102,
-    -2100000106
+    -2100000106,
+    -2100000110
   ],
-  "last_published_at": "2026-11-08T23:03:02.994799+00:00",
-  "pending": {
-    "object_id": -2100000110,
-    "attempted_at": "2026-11-08T23:03:05.591703+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2100000110,
-      "rubric": "painting",
-      "topic": "«Рождение Венеры»: история прибытия",
-      "caption": "🖼 Известные картины\n«Рождение Венеры»: история прибытия\n\nОколо 1485 года. Как объясняет галерея Уффици, картина показывает прибытие Венеры к берегу, хотя название говорит о рождении. Ветер, волосы и край плаща связывают фигуры одним движением. Знакомую репродукцию интересно рассмотреть заново именно через эти повторяющиеся линии.\n\nИсточник: Галерея Уффици\nРепродукция: Sandro Botticelli · Public domain",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Birth_of_Venus_%28Botticelli%29_1.jpg/1280px-The_Birth_of_Venus_%28Botticelli%29_1.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "The Birth of Venus (Botticelli) 1.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Birth_of_Venus_%28Botticelli%29_1.jpg/1280px-The_Birth_of_Venus_%28Botticelli%29_1.jpg",
-          "artist": "Sandro Botticelli",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:The_Birth_of_Venus_(Botticelli)_1.jpg",
-          "description": "Depicts the goddess Venus, having emerged from the sea as a fully grown woman, arriving at the sea-shore. The seashell she stands on was a symbol in classical antiquity for a woman's vulva. Thought to be based in part on the Venus de' Medici , an ancient Greek marble sculpture of Aphrodite.",
-          "credit": "Own work",
-          "permission": "",
-          "date": "1485"
-        }
-      ],
-      "source_url": "https://www.uffizi.it/en/artworks/birth-of-venus",
-      "source_name": "Галерея Уффици",
-      "modern_year": 1485,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
-      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
-      "creator": "сандро боттичелли",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Birth_of_Venus_%28Botticelli%29_1.jpg/1280px-The_Birth_of_Venus_%28Botticelli%29_1.jpg",
-      "work_key": "сандро боттичелли|venus",
-      "subject": "venus",
-      "visual_family": "venus",
-      "famous_work_verified": true,
-      "artwork_public_domain_verified": true
-    },
-    "batch_date": "2026-11-08",
-    "sha256": "2dbf995f119b76317e7715f265a7cc743173e4d2209406b266f2a00d80790030"
-  },
+  "last_published_at": "2026-11-08T23:03:07.166923+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -2932,9 +2890,20 @@
       "rubric": "architecture",
       "subject": "sara",
       "batch_date": "2026-11-08"
+    },
+    {
+      "object_id": -2100000110,
+      "message_ids": [
+        452
+      ],
+      "source_url": "https://www.uffizi.it/en/artworks/birth-of-venus",
+      "published_at": "2026-11-08T23:03:07.166923+00:00",
+      "rubric": "painting",
+      "subject": "venus",
+      "batch_date": "2026-11-08"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -2953,7 +2922,7 @@
       "target": 100
     },
     "2026-11-08": {
-      "completed": 6,
+      "completed": 7,
       "target": 15
     }
   },
@@ -4675,14 +4644,6 @@
   },
   "recent_content": [
     {
-      "creator": "росвита йозефине папе",
-      "visual_family": "contemporary-women",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/AQUA_ZONE.jpg/1280px-AQUA_ZONE.jpg",
-      "work_key": "росвита йозефине папе|aqua zone, 2024: море в графических слоях",
-      "rubric": "women",
-      "subject": "AQUA ZONE, 2024: море в графических слоях"
-    },
-    {
       "creator": "хуан карлос хурадо",
       "visual_family": "contemporary-painting",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Apolo%2C_Juan_Carlos_Jurado_2024_oil_on_paper.jpg/1280px-Apolo%2C_Juan_Carlos_Jurado_2024_oil_on_paper.jpg",
@@ -5524,6 +5485,14 @@
       "work_key": "white arkitekter|sara",
       "rubric": "architecture",
       "subject": "sara"
+    },
+    {
+      "creator": "сандро боттичелли",
+      "visual_family": "venus",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Birth_of_Venus_%28Botticelli%29_1.jpg/1280px-The_Birth_of_Venus_%28Botticelli%29_1.jpg",
+      "work_key": "сандро боттичелли|venus",
+      "rubric": "painting",
+      "subject": "venus"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
