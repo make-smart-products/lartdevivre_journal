@@ -262,67 +262,11 @@
     -2100000114,
     -2100000103,
     -2100000107,
-    -2100000111
+    -2100000111,
+    -2100000115
   ],
-  "last_published_at": "2026-11-08T23:03:25.996484+00:00",
-  "pending": {
-    "object_id": -2100000115,
-    "attempted_at": "2026-11-08T23:03:28.946930+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2100000115,
-      "rubric": "celebrities",
-      "topic": "Марго Робби и язык рекламного образа",
-      "caption": "✨ Модели, актрисы и знаменитости\nМарго Робби и язык рекламного образа\n\nВ 2024 году Марго Робби стала новым лицом CHANEL N°5 — это отмечено в официальном отчёте дома. За знакомым лицом в кампании стоят свет, пластика и работа команды. На фото — премьера «Тони против всех» в Сиднее, 2018 год; архивный портрет актрисы, не рекламная съёмка.\n\nИсточник: CHANEL\nФото: Eva Rinaldi from Sydney Australia · CC BY-SA 2.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 363,
-          "length": 33,
-          "url": "https://commons.wikimedia.org/wiki/File:SYDNEY,_AUSTRALIA_-_JANUARY_23_Margot_Robbie_arrives_at_the_Australian_Premiere_of_%27I,_Tonya%27_on_January_23,_2018_in_Sydney,_Australia_(25980753838)_(cropped).jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 399,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/2.0/"
-        }
-      ],
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/87/SYDNEY%2C_AUSTRALIA_-_JANUARY_23_Margot_Robbie_arrives_at_the_Australian_Premiere_of_%27I%2C_Tonya%27_on_January_23%2C_2018_in_Sydney%2C_Australia_%2825980753838%29_%28cropped%29.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "SYDNEY, AUSTRALIA - JANUARY 23 Margot Robbie arrives at the Australian Premiere of 'I, Tonya' on January 23, 2018 in Sydney, Australia (25980753838) (cropped).jpg",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/SYDNEY%2C_AUSTRALIA_-_JANUARY_23_Margot_Robbie_arrives_at_the_Australian_Premiere_of_%27I%2C_Tonya%27_on_January_23%2C_2018_in_Sydney%2C_Australia_%2825980753838%29_%28cropped%29.jpg",
-          "artist": "Eva Rinaldi from Sydney Australia",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:SYDNEY,_AUSTRALIA_-_JANUARY_23_Margot_Robbie_arrives_at_the_Australian_Premiere_of_%27I,_Tonya%27_on_January_23,_2018_in_Sydney,_Australia_(25980753838)_(cropped).jpg",
-          "description": "SYDNEY, AUSTRALIA - JANUARY 23 Margot Robbie arrives at the Australian Premiere of 'I, Tonya' on January 23, 2018 in Sydney, Australia photo by Eva Rinaldi",
-          "credit": "SYDNEY, AUSTRALIA - JANUARY 23 Margot Robbie arrives at the Australian Premiere of 'I, Tonya' on January 23, 2018 in Sydney, Australia",
-          "permission": "",
-          "date": "2018-01-23 08:53",
-          "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
-          "image_role": "portrait"
-        }
-      ],
-      "source_url": "https://www.chanel.com/puls-img/1747810519727-20250520fy24resultspressreleasefinalwwpdf.pdf",
-      "source_name": "CHANEL",
-      "modern_year": 2024,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
-      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
-      "creator": "марго робби",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/SYDNEY%2C_AUSTRALIA_-_JANUARY_23_Margot_Robbie_arrives_at_the_Australian_Premiere_of_%27I%2C_Tonya%27_on_January_23%2C_2018_in_Sydney%2C_Australia_%2825980753838%29_%28cropped%29.jpg",
-      "work_key": "марго робби|robbie",
-      "subject": "robbie",
-      "visual_family": "robbie",
-      "person_verified": true
-    },
-    "batch_date": "2026-11-08",
-    "sha256": "34b3cdfae9ae9f297b5407a5b867d45031b769f834a3a0fe0f37a00502870101"
-  },
+  "last_published_at": "2026-11-08T23:03:30.547650+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3006,9 +2950,20 @@
       "rubric": "painting",
       "subject": "arnolfini",
       "batch_date": "2026-11-08"
+    },
+    {
+      "object_id": -2100000115,
+      "message_ids": [
+        457
+      ],
+      "source_url": "https://www.chanel.com/puls-img/1747810519727-20250520fy24resultspressreleasefinalwwpdf.pdf",
+      "published_at": "2026-11-08T23:03:30.547650+00:00",
+      "rubric": "celebrities",
+      "subject": "robbie",
+      "batch_date": "2026-11-08"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3027,7 +2982,7 @@
       "target": 100
     },
     "2026-11-08": {
-      "completed": 11,
+      "completed": 12,
       "target": 15
     }
   },
@@ -4749,15 +4704,6 @@
   },
   "recent_content": [
     {
-      "creator": "jacques callot",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP888159.jpg",
-      "work_key": "jacques callot|gherardo, from scelta d'alcuni miracoli e grazie della santissima nunziata di firenze (selection of some miracles and graces that occurred in the church of the annunziata in florence)",
-      "rubric": "travel",
-      "subject": "Florence",
-      "angle": 0
-    },
-    {
       "creator": "онис торрес",
       "visual_family": "contemporary-women",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bahnhofstrasse_%282024%29_%E2%80%93_Acrylic_on_Canvas_by_Honys_Torres.jpg/1280px-Bahnhofstrasse_%282024%29_%E2%80%93_Acrylic_on_Canvas_by_Honys_Torres.jpg",
@@ -5596,6 +5542,14 @@
       "work_key": "ян ван эйк|arnolfini",
       "rubric": "painting",
       "subject": "arnolfini"
+    },
+    {
+      "creator": "марго робби",
+      "visual_family": "robbie",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/SYDNEY%2C_AUSTRALIA_-_JANUARY_23_Margot_Robbie_arrives_at_the_Australian_Premiere_of_%27I%2C_Tonya%27_on_January_23%2C_2018_in_Sydney%2C_Australia_%2825980753838%29_%28cropped%29.jpg",
+      "work_key": "марго робби|robbie",
+      "rubric": "celebrities",
+      "subject": "robbie"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
