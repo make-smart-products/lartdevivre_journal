@@ -255,7 +255,62 @@
     -2100000101
   ],
   "last_published_at": "2026-11-08T23:02:40.332901+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2100000105,
+    "attempted_at": "2026-11-08T23:02:42.864265+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2100000105,
+      "rubric": "architecture",
+      "topic": "Музей, открытый городу",
+      "caption": "🏛 Современная архитектура\nМузей, открытый городу\n\nНовое здание Художественной галереи Нового Южного Уэльса открылось в декабре 2022 года. SANAA и Architectus связали музей с окружающим ландшафтом. На фотографии особенно заметны широкие ступени и прозрачный фасад: знакомство с пространством начинается ещё до входа в выставочные залы.\n\nИсточник: Infrastructure NSW\nФото: Chris Olszewski · CC BY-SA 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 372,
+          "length": 15,
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Sydney_Modern_Project,_2022,_06.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 390,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Exterior_of_Sydney_Modern_Project%2C_2022%2C_06.jpg/1280px-Exterior_of_Sydney_Modern_Project%2C_2022%2C_06.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Exterior of Sydney Modern Project, 2022, 06.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Exterior_of_Sydney_Modern_Project%2C_2022%2C_06.jpg/1280px-Exterior_of_Sydney_Modern_Project%2C_2022%2C_06.jpg",
+          "artist": "Chris Olszewski",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Sydney_Modern_Project,_2022,_06.jpg",
+          "description": "Exterior of Sydney Modern Project, 2022",
+          "credit": "Own work",
+          "permission": "",
+          "date": "2022-12-05 19:46:58",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "source_url": "https://www.infrastructure.nsw.gov.au/projects-nsw/completed/sydney-modern/about/",
+      "source_name": "Infrastructure NSW",
+      "modern_year": 2022,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "creator": "sanaa / architectus",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Exterior_of_Sydney_Modern_Project%2C_2022%2C_06.jpg/1280px-Exterior_of_Sydney_Modern_Project%2C_2022%2C_06.jpg",
+      "work_key": "sanaa / architectus|sydney",
+      "subject": "sydney",
+      "visual_family": "sydney"
+    },
+    "batch_date": "2026-11-08",
+    "sha256": "d39c039db9f022c12174117f3e3a7cb814198077f438541c8864225f84bd760b"
+  },
   "publications": [
     {
       "object_id": 436528,
