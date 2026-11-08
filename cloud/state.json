@@ -260,7 +260,50 @@
     -2100000106
   ],
   "last_published_at": "2026-11-08T23:03:02.994799+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2100000110,
+    "attempted_at": "2026-11-08T23:03:05.591703+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2100000110,
+      "rubric": "painting",
+      "topic": "«Рождение Венеры»: история прибытия",
+      "caption": "🖼 Известные картины\n«Рождение Венеры»: история прибытия\n\nОколо 1485 года. Как объясняет галерея Уффици, картина показывает прибытие Венеры к берегу, хотя название говорит о рождении. Ветер, волосы и край плаща связывают фигуры одним движением. Знакомую репродукцию интересно рассмотреть заново именно через эти повторяющиеся линии.\n\nИсточник: Галерея Уффици\nРепродукция: Sandro Botticelli · Public domain",
+      "caption_entities": [],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Birth_of_Venus_%28Botticelli%29_1.jpg/1280px-The_Birth_of_Venus_%28Botticelli%29_1.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "The Birth of Venus (Botticelli) 1.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Birth_of_Venus_%28Botticelli%29_1.jpg/1280px-The_Birth_of_Venus_%28Botticelli%29_1.jpg",
+          "artist": "Sandro Botticelli",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:The_Birth_of_Venus_(Botticelli)_1.jpg",
+          "description": "Depicts the goddess Venus, having emerged from the sea as a fully grown woman, arriving at the sea-shore. The seashell she stands on was a symbol in classical antiquity for a woman's vulva. Thought to be based in part on the Venus de' Medici , an ancient Greek marble sculpture of Aphrodite.",
+          "credit": "Own work",
+          "permission": "",
+          "date": "1485"
+        }
+      ],
+      "source_url": "https://www.uffizi.it/en/artworks/birth-of-venus",
+      "source_name": "Галерея Уффици",
+      "modern_year": 1485,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "creator": "сандро боттичелли",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/The_Birth_of_Venus_%28Botticelli%29_1.jpg/1280px-The_Birth_of_Venus_%28Botticelli%29_1.jpg",
+      "work_key": "сандро боттичелли|venus",
+      "subject": "venus",
+      "visual_family": "venus",
+      "famous_work_verified": true,
+      "artwork_public_domain_verified": true
+    },
+    "batch_date": "2026-11-08",
+    "sha256": "2dbf995f119b76317e7715f265a7cc743173e4d2209406b266f2a00d80790030"
+  },
   "publications": [
     {
       "object_id": 436528,
