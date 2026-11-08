@@ -259,7 +259,62 @@
     -2100000102
   ],
   "last_published_at": "2026-11-08T23:02:58.131007+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2100000106,
+    "attempted_at": "2026-11-08T23:03:00.647609+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2100000106,
+      "rubric": "architecture",
+      "topic": "Sara Kulturhus: дерево в масштабе города",
+      "caption": "🏛 Современная архитектура\nSara Kulturhus: дерево в масштабе города\n\nКультурный центр Sara в шведском Шеллефтео — проект White Arkitekter 2021 года. Деревянные поверхности нижнего объёма соседствуют с высокой стеклянной башней. Это повод рассмотреть, как один материал меняет впечатление от большого здания. На фото — завершение строительства, июль 2021 года.\n\nИсточник: White Arkitekter\nФото: Spisen · CC BY-SA 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 394,
+          "length": 6,
+          "url": "https://commons.wikimedia.org/wiki/File:Sara_Kulturhus_juli_2021.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 403,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sara_Kulturhus_juli_2021.jpg/1280px-Sara_Kulturhus_juli_2021.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Sara Kulturhus juli 2021.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sara_Kulturhus_juli_2021.jpg/1280px-Sara_Kulturhus_juli_2021.jpg",
+          "artist": "Spisen",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sara_Kulturhus_juli_2021.jpg",
+          "description": "Sara Kulturhus i juli 2021",
+          "credit": "Own work",
+          "permission": "",
+          "date": "2021-07-22 15:24:27",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "source_url": "https://whitearkitekter.com/news/sara-kulturhus-named-most-significant-building-of-2021-by-dezeen/",
+      "source_name": "White Arkitekter",
+      "modern_year": 2021,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "creator": "white arkitekter",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sara_Kulturhus_juli_2021.jpg/1280px-Sara_Kulturhus_juli_2021.jpg",
+      "work_key": "white arkitekter|sara",
+      "subject": "sara",
+      "visual_family": "sara"
+    },
+    "batch_date": "2026-11-08",
+    "sha256": "a864d1af2f25aaf29ac4dd33dcc0b84ee006a154a8ea6a24c32c9aa44311d7c3"
+  },
   "publications": [
     {
       "object_id": 436528,
