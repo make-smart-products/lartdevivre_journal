@@ -263,65 +263,11 @@
     -2100000103,
     -2100000107,
     -2100000111,
-    -2100000115
+    -2100000115,
+    -2100000104
   ],
-  "last_published_at": "2026-11-08T23:03:30.547650+00:00",
-  "pending": {
-    "object_id": -2100000104,
-    "attempted_at": "2026-11-08T23:03:33.166089+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2100000104,
-      "rubric": "fashion",
-      "topic": "Клетка и мягкие слои",
-      "caption": "👗 Современная мода\nКлетка и мягкие слои\n\nВ описании Chloé зима 2026 одежда связана с памятью, эмоциями и ремеслом. Практическая идея — соединить жакет с заметной клеткой и мягкую светлую блузу. Разная плотность тканей делает образ сложнее без множества цветов. Фото — Эмма Лэрд в Vivienne Westwood, 2021; иллюстрация приёма, не коллекция Chloé.\n\nИсточник: Chloé; фото Vivienne Westwood\nФото: Vivienne Westwood · CC BY 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 393,
-          "length": 17,
-          "url": "https://commons.wikimedia.org/wiki/File:Emma_Laird_in_Vivienne_Westwood.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 413,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/2/2a/Emma_Laird_in_Vivienne_Westwood.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Emma Laird in Vivienne Westwood.jpg",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Emma_Laird_in_Vivienne_Westwood.jpg",
-          "artist": "Vivienne Westwood",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Emma_Laird_in_Vivienne_Westwood.jpg",
-          "description": "Vivienne Westwood Autumn-Winter 2021/22 The Vivienne Westwood Autumn-Winter 2021/22 collection started by looking at Daphnis and Chloe (1743) a painting by French Rococo painter François Boucher, which is housed in the Wallace Collection, London. It became the main print for the season - with the sky and pastoral scenes reflected through the colours and fabrics. ⁠⁠ Video Direction Harry Bowley Styling Ellie Grace Cumming",
-          "credit": "Vivienne Westwood Autumn-Winter 2021/22 at 0:02, cropped, brightened",
-          "permission": "",
-          "date": "2021-07-26",
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "source_url": "https://www.chloe.com/en-ro/winter-2026-collection.html",
-      "source_name": "Chloé; фото Vivienne Westwood",
-      "modern_year": 2026,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
-      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
-      "creator": "chloé",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Emma_Laird_in_Vivienne_Westwood.jpg",
-      "work_key": "chloé|fashion4",
-      "subject": "fashion4",
-      "visual_family": "fashion4"
-    },
-    "batch_date": "2026-11-08",
-    "sha256": "b47aa061c427e327d65e0c640ad2b027ca0003a72c024bdb155a23d9b7b2d06a"
-  },
+  "last_published_at": "2026-11-08T23:03:34.780459+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3016,9 +2962,20 @@
       "rubric": "celebrities",
       "subject": "robbie",
       "batch_date": "2026-11-08"
+    },
+    {
+      "object_id": -2100000104,
+      "message_ids": [
+        458
+      ],
+      "source_url": "https://www.chloe.com/en-ro/winter-2026-collection.html",
+      "published_at": "2026-11-08T23:03:34.780459+00:00",
+      "rubric": "fashion",
+      "subject": "fashion4",
+      "batch_date": "2026-11-08"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3037,7 +2994,7 @@
       "target": 100
     },
     "2026-11-08": {
-      "completed": 12,
+      "completed": 13,
       "target": 15
     }
   },
@@ -4759,14 +4716,6 @@
   },
   "recent_content": [
     {
-      "creator": "онис торрес",
-      "visual_family": "contemporary-women",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bahnhofstrasse_%282024%29_%E2%80%93_Acrylic_on_Canvas_by_Honys_Torres.jpg/1280px-Bahnhofstrasse_%282024%29_%E2%80%93_Acrylic_on_Canvas_by_Honys_Torres.jpg",
-      "work_key": "онис торрес|«bahnhofstrasse», 2024",
-      "rubric": "women",
-      "subject": "«Bahnhofstrasse», 2024"
-    },
-    {
       "creator": "алексей акиндинов",
       "visual_family": "contemporary-painting",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Alexey_Akindinov._Dali_Violin._2022-2023.jpg/1280px-Alexey_Akindinov._Dali_Violin._2022-2023.jpg",
@@ -5605,6 +5554,14 @@
       "work_key": "марго робби|robbie",
       "rubric": "celebrities",
       "subject": "robbie"
+    },
+    {
+      "creator": "chloé",
+      "visual_family": "fashion4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Emma_Laird_in_Vivienne_Westwood.jpg",
+      "work_key": "chloé|fashion4",
+      "rubric": "fashion",
+      "subject": "fashion4"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
