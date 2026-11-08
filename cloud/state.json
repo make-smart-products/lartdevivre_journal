@@ -263,7 +263,62 @@
     -2100000103
   ],
   "last_published_at": "2026-11-08T23:03:16.436682+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2100000107,
+    "attempted_at": "2026-11-08T23:03:19.120802+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2100000107,
+      "rubric": "architecture",
+      "topic": "Музейное хранилище с отражающим фасадом",
+      "caption": "🏛 Современная архитектура\nМузейное хранилище с отражающим фасадом\n\nDepot Boijmans Van Beuningen в Роттердаме открылся для публики в 2021 году. MVRDV сделали хранилище частью городской жизни. На снимке — деталь зеркального фасада: двери почти растворяются в отражении мощения. Граница между зданием и его окружением становится менее очевидной.\n\nИсточник: MVRDV\nФото: DaHuzyBru · CC BY-SA 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 367,
+          "length": 9,
+          "url": "https://commons.wikimedia.org/wiki/File:Boijmans_Depot,_Rotterdam,_September_2024_05.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 379,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Boijmans_Depot%2C_Rotterdam%2C_September_2024_05.jpg/1280px-Boijmans_Depot%2C_Rotterdam%2C_September_2024_05.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Boijmans Depot, Rotterdam, September 2024 05.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Boijmans_Depot%2C_Rotterdam%2C_September_2024_05.jpg/1280px-Boijmans_Depot%2C_Rotterdam%2C_September_2024_05.jpg",
+          "artist": "DaHuzyBru",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Boijmans_Depot,_Rotterdam,_September_2024_05.jpg",
+          "description": "Depot Museum Boijmans Van Beuningen",
+          "credit": "Own work",
+          "permission": "",
+          "date": "2024-09-19 10:15:36",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "source_url": "https://www.mvrdv.com/projects/10/depot-",
+      "source_name": "MVRDV",
+      "modern_year": 2021,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "photo_verified_at": "2026-11-08T12:41:59.556383+00:00",
+      "creator": "mvrdv",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Boijmans_Depot%2C_Rotterdam%2C_September_2024_05.jpg/1280px-Boijmans_Depot%2C_Rotterdam%2C_September_2024_05.jpg",
+      "work_key": "mvrdv|depot",
+      "subject": "depot",
+      "visual_family": "depot"
+    },
+    "batch_date": "2026-11-08",
+    "sha256": "12dd0bacde659a736e76ca16d0fb1995bd7a71d62bed2dd1979bee0480465159"
+  },
   "publications": [
     {
       "object_id": 436528,
