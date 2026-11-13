@@ -273,53 +273,11 @@
     -2200000209,
     -2200000212,
     -2200000202,
-    -2200000206
+    -2200000206,
+    -2200000210
   ],
-  "last_published_at": "2026-11-13T21:33:13.803766+00:00",
-  "pending": {
-    "object_id": -2200000210,
-    "attempted_at": "2026-11-13T21:33:17.636182+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2200000210,
-      "rubric": "painting",
-      "topic": "Мать Уистлера: портрет как цветовая композиция",
-      "caption": "🖼 Известные картины\nМать Уистлера: портрет как цветовая композиция\n\nДжеймс Уистлер написал этот портрет в 1871 году. Его название — «Аранжировка в сером и чёрном № 1» — предлагает смотреть на сочетание оттенков и форм. Чёрное платье, серая стена, прямоугольная рама и узор занавеси держат композицию без ярких красок. Белый платок мягко выделяет руки.\n\nИсточник: Музей Орсе\nРепродукция: James McNeill Whistler · Public domain",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg/1280px-James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "James Abbott McNeill Whistler - Portrait of the Artist's Mother - Google Art Project.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg/1280px-James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg",
-          "artist": "James McNeill Whistler",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg",
-          "description": "",
-          "credit": "2QH4InLXWX6UMQ at Google Cultural Institute maximum zoom level",
-          "permission": "",
-          "date": "1871 date QS:P571,+1871-00-00T00:00:00Z/9"
-        }
-      ],
-      "source_url": "https://www.musee-orsay.fr/en/artworks/arrangement-en-gris-et-noir-ndeg1-974",
-      "source_name": "Музей Орсе",
-      "modern_year": 1871,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "creator": "джеймс уистлер",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg/1280px-James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg",
-      "work_key": "джеймс уистлер|whistler",
-      "subject": "whistler",
-      "visual_family": "whistler",
-      "famous_work_verified": true,
-      "artwork_public_domain_verified": true
-    },
-    "batch_date": "2026-11-14",
-    "sha256": "dfcdb4f7e6a22f54d1cbbef21884aaab407f5da1b2275b54433ddadb059d3bb7"
-  },
+  "last_published_at": "2026-11-13T21:33:20.454111+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3124,9 +3082,20 @@
       "rubric": "architecture",
       "subject": "graz",
       "batch_date": "2026-11-14"
+    },
+    {
+      "object_id": -2200000210,
+      "message_ids": [
+        468
+      ],
+      "source_url": "https://www.musee-orsay.fr/en/artworks/arrangement-en-gris-et-noir-ndeg1-974",
+      "published_at": "2026-11-13T21:33:20.454111+00:00",
+      "rubric": "painting",
+      "subject": "whistler",
+      "batch_date": "2026-11-14"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3149,7 +3118,7 @@
       "target": 15
     },
     "2026-11-14": {
-      "completed": 7,
+      "completed": 8,
       "target": 15
     }
   },
@@ -4871,16 +4840,6 @@
   },
   "recent_content": [
     {
-      "creator": "zhao yong",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP-35736-002.jpg",
-      "work_key": "zhao yong|mynah bird and bamboo",
-      "rubric": "quiz",
-      "subject": "Живопись",
-      "angle": 0,
-      "quiz_format": "medium"
-    },
-    {
       "creator": "miu miu",
       "visual_family": "contemporary-fashion",
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Paris_Fashion_Week.jpg",
@@ -5712,6 +5671,14 @@
       "work_key": "peter cook / colin fournier|graz",
       "rubric": "architecture",
       "subject": "graz"
+    },
+    {
+      "creator": "джеймс уистлер",
+      "visual_family": "whistler",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg/1280px-James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg",
+      "work_key": "джеймс уистлер|whistler",
+      "rubric": "painting",
+      "subject": "whistler"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
