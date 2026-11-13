@@ -275,62 +275,11 @@
     -2200000202,
     -2200000206,
     -2200000210,
-    -2200000213
+    -2200000213,
+    -2200000203
   ],
-  "last_published_at": "2026-11-13T21:33:27.116258+00:00",
-  "pending": {
-    "object_id": -2200000203,
-    "attempted_at": "2026-11-13T21:33:29.960583+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2200000203,
-      "rubric": "fashion",
-      "topic": "Золото на чёрном: украшения задают ритм",
-      "caption": "👗 Современная мода\nЗолото на чёрном: украшения задают ритм\n\nПашмина Рошан на финале Lakmé Fashion Week 2025. У длинного чёрного платья мягкая драпировка у выреза и высокий разрез. Широкие браслеты и цепочка небольшой сумки собирают отдельные золотистые точки. Хороший пример того, как аксессуары становятся частью композиции, даже когда основной цвет всего один.\n\nИсточник: FDCI / фотография мероприятия\nФото: Bollywood Hungama · CC BY 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 411,
-          "length": 17,
-          "url": "https://commons.wikimedia.org/wiki/File:Pashmina_Roshan_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 431,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/dd/Pashmina_Roshan_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Pashmina Roshan snapped at the grand finale of Lakme Fashion Week 2025.jpg",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Pashmina_Roshan_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
-          "artist": "Bollywood Hungama",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Pashmina_Roshan_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
-          "description": "Pashmina Roshan snapped at the grand finale of Lakme Fashion Week 2025",
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
-      "source_name": "FDCI / фотография мероприятия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "creator": "пашмина рошан",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Pashmina_Roshan_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
-      "work_key": "пашмина рошан|fashion-lakme3",
-      "subject": "fashion-lakme3",
-      "visual_family": "fashion-lakme3"
-    },
-    "batch_date": "2026-11-14",
-    "sha256": "2b07cf055212d2d91b97c2aa7ba602c91a981166d810c03a94a76cb274ea2a6c"
-  },
+  "last_published_at": "2026-11-13T21:33:32.188862+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3157,9 +3106,20 @@
       "rubric": "celebrities",
       "subject": "emma",
       "batch_date": "2026-11-14"
+    },
+    {
+      "object_id": -2200000203,
+      "message_ids": [
+        470
+      ],
+      "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
+      "published_at": "2026-11-13T21:33:32.188862+00:00",
+      "rubric": "fashion",
+      "subject": "fashion-lakme3",
+      "batch_date": "2026-11-14"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3182,7 +3142,7 @@
       "target": 15
     },
     "2026-11-14": {
-      "completed": 9,
+      "completed": 10,
       "target": 15
     }
   },
@@ -4904,14 +4864,6 @@
   },
   "recent_content": [
     {
-      "creator": "big",
-      "visual_family": "contemporary-architecture",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/The_Twist_II.jpg/1280px-The_Twist_II.jpg",
-      "work_key": "big|галерея, которая одновременно мост",
-      "rubric": "architecture",
-      "subject": "Галерея, которая одновременно мост"
-    },
-    {
       "creator": "joseph vernet",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP881947.jpg",
@@ -5743,6 +5695,14 @@
       "work_key": "эмма стоун|emma",
       "rubric": "celebrities",
       "subject": "emma"
+    },
+    {
+      "creator": "пашмина рошан",
+      "visual_family": "fashion-lakme3",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Pashmina_Roshan_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
+      "work_key": "пашмина рошан|fashion-lakme3",
+      "rubric": "fashion",
+      "subject": "fashion-lakme3"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
