@@ -268,65 +268,11 @@
     -2100000108,
     -2100000112,
     -2100000116,
-    -2200000201
+    -2200000201,
+    -2200000205
   ],
-  "last_published_at": "2026-11-13T21:32:47.562035+00:00",
-  "pending": {
-    "object_id": -2200000205,
-    "attempted_at": "2026-11-13T21:32:50.643938+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2200000205,
-      "rubric": "architecture",
-      "topic": "Дом, собранный как конструктор",
-      "caption": "🏛 Современная архитектура\nДом, собранный как конструктор\n\nLEGO House в датском Биллунне открылся в сентябре 2017 года. Бюро BIG составило здание из объёмов, напоминающих сложенные белые кирпичики. На фотографии видно, как крыши нижних частей превращаются в террасы и ступени. Игровая идея работает здесь одновременно как узнаваемый образ и способ организовать пространство.\n\nИсточник: LEGO\nФото: Quinntropy · CC BY-SA 4.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 397,
-          "length": 10,
-          "url": "https://commons.wikimedia.org/wiki/File:Lego_House_Billund_2024-08-02.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 410,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lego_House_Billund_2024-08-02.jpg/1280px-Lego_House_Billund_2024-08-02.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Lego House Billund 2024-08-02.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lego_House_Billund_2024-08-02.jpg/1280px-Lego_House_Billund_2024-08-02.jpg",
-          "artist": "Quinntropy",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Lego_House_Billund_2024-08-02.jpg",
-          "description": "Outside of the Lego House, Billund",
-          "credit": "Own work",
-          "permission": "",
-          "date": "2024-08-02 10:58:47",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "source_url": "https://www.lego.com/en-gb/aboutus/news/2019/october/lego-house-grand-opening",
-      "source_name": "LEGO",
-      "modern_year": 2017,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "creator": "big",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lego_House_Billund_2024-08-02.jpg/1280px-Lego_House_Billund_2024-08-02.jpg",
-      "work_key": "big|lego",
-      "subject": "lego",
-      "visual_family": "lego"
-    },
-    "batch_date": "2026-11-14",
-    "sha256": "aedbb6cfb0a14d01b9630885918328fcc618683c3a720d1bf7c952610e6a88cd"
-  },
+  "last_published_at": "2026-11-13T21:32:53.232173+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3076,9 +3022,20 @@
       "rubric": "fashion",
       "subject": "fashion-lakme1",
       "batch_date": "2026-11-14"
+    },
+    {
+      "object_id": -2200000205,
+      "message_ids": [
+        463
+      ],
+      "source_url": "https://www.lego.com/en-gb/aboutus/news/2019/october/lego-house-grand-opening",
+      "published_at": "2026-11-13T21:32:53.232173+00:00",
+      "rubric": "architecture",
+      "subject": "lego",
+      "batch_date": "2026-11-14"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3101,7 +3058,7 @@
       "target": 15
     },
     "2026-11-14": {
-      "completed": 2,
+      "completed": 3,
       "target": 15
     }
   },
@@ -4823,14 +4780,6 @@
   },
   "recent_content": [
     {
-      "creator": "herzog & de meuron",
-      "visual_family": "contemporary-architecture",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2019-05-10_Elbphilharmonie_Hamburg.jpg/1280px-2019-05-10_Elbphilharmonie_Hamburg.jpg",
-      "work_key": "herzog & de meuron|новое здание поверх старого склада",
-      "rubric": "architecture",
-      "subject": "Новое здание поверх старого склада"
-    },
-    {
       "creator": "edmund c. coates",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ad/web-large/ap54.90.165.jpg",
@@ -5666,6 +5615,14 @@
       "work_key": "эльнааз норузи|fashion-lakme1",
       "rubric": "fashion",
       "subject": "fashion-lakme1"
+    },
+    {
+      "creator": "big",
+      "visual_family": "lego",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lego_House_Billund_2024-08-02.jpg/1280px-Lego_House_Billund_2024-08-02.jpg",
+      "work_key": "big|lego",
+      "rubric": "architecture",
+      "subject": "lego"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
