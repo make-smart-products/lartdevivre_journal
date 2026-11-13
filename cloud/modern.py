@@ -22,6 +22,8 @@ SOURCE_HOSTS = {
     "mvrdv.com", "boijmans.nl", "heatherwick.com", "museodelprado.es",
     "uffizi.it", "nationalgallery.org.uk", "belvedere.at", "sammlung.belvedere.at",
     "pero.co.in", "seoulfashionweek.org", "english.seoul.go.kr", "guestinresidence.com",
+    "fdci.org", "heruniverse.com", "lego.com", "museum-joanneum.at", "apple.com",
+    "nasjonalmuseet.no", "musee-orsay.fr", "wallacecollection.org", "chopard.com", "oscars.org",
 }
 OFFICIAL_MEDIA = {"https://www.youtube.com/watch?v=sE6Rk9TJcSk"}  # Louis Vuitton's verified channel.
 

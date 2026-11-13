@@ -1,0 +1,38 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2200000210,
+  "rubric": "painting",
+  "topic": "Мать Уистлера: портрет как цветовая композиция",
+  "caption": "🖼 Известные картины\nМать Уистлера: портрет как цветовая композиция\n\nДжеймс Уистлер написал этот портрет в 1871 году. Его название — «Аранжировка в сером и чёрном № 1» — предлагает смотреть на сочетание оттенков и форм. Чёрное платье, серая стена, прямоугольная рама и узор занавеси держат композицию без ярких красок. Белый платок мягко выделяет руки.\n\nИсточник: Музей Орсе\nРепродукция: James McNeill Whistler · Public domain",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg/1280px-James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "James Abbott McNeill Whistler - Portrait of the Artist's Mother - Google Art Project.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg/1280px-James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg",
+      "artist": "James McNeill Whistler",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg",
+      "description": "",
+      "credit": "2QH4InLXWX6UMQ at Google Cultural Institute maximum zoom level",
+      "permission": "",
+      "date": "1871 date QS:P571,+1871-00-00T00:00:00Z/9"
+    }
+  ],
+  "source_url": "https://www.musee-orsay.fr/en/artworks/arrangement-en-gris-et-noir-ndeg1-974",
+  "source_name": "Музей Орсе",
+  "modern_year": 1871,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
+  "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
+  "creator": "джеймс уистлер",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg/1280px-James_Abbott_McNeill_Whistler_-_Portrait_of_the_Artist%27s_Mother_-_Google_Art_Project.jpg",
+  "work_key": "джеймс уистлер|whistler",
+  "subject": "whistler",
+  "visual_family": "whistler",
+  "famous_work_verified": true,
+  "artwork_public_domain_verified": true
+}

@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2200000212,
+  "rubric": "celebrities",
+  "topic": "Белла Хадид: лицо ювелирного образа",
+  "caption": "✨ Модели, актрисы и знаменитости\nБелла Хадид: лицо ювелирного образа\n\nВ официальной кампании Chopard Белла Хадид представлена как амбассадор дома; съёмку выполнил Аласдер Маклеллан. На этой фотографии — другой эпизод, Каннский фестиваль 2026 года. Гладкая причёска открывает лицо, а небольшие серьги оставляют внимание на кружеве. Портрет с красной дорожки не является кадром ювелирной кампании.\n\nИсточник: Chopard / фотография Каннского фестиваля\nФото: Gabriel Hutchinson · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 454,
+      "length": 18,
+      "url": "https://commons.wikimedia.org/wiki/File:Bella_Hadid_at_the_2026_Cannes_Film_Festival_01_(cropped).jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 475,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Bella_Hadid_at_the_2026_Cannes_Film_Festival_01_%28cropped%29.jpg/1280px-Bella_Hadid_at_the_2026_Cannes_Film_Festival_01_%28cropped%29.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Bella Hadid at the 2026 Cannes Film Festival 01 (cropped).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Bella_Hadid_at_the_2026_Cannes_Film_Festival_01_%28cropped%29.jpg/1280px-Bella_Hadid_at_the_2026_Cannes_Film_Festival_01_%28cropped%29.jpg",
+      "artist": "Gabriel Hutchinson",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bella_Hadid_at_the_2026_Cannes_Film_Festival_01_(cropped).jpg",
+      "description": "Bella Hadid on the red carpet for La Bataille de Gaull during the 2026 Cannes Film Festival",
+      "credit": "Own work",
+      "permission": "",
+      "date": "2026-05-20 17:43:52",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_role": "portrait"
+    }
+  ],
+  "source_url": "https://www.chopard.com/en-us/articles/la-maison/chopard-x-bella-hadid.html",
+  "source_name": "Chopard / фотография Каннского фестиваля",
+  "modern_year": 2026,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
+  "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
+  "creator": "белла хадид",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Bella_Hadid_at_the_2026_Cannes_Film_Festival_01_%28cropped%29.jpg/1280px-Bella_Hadid_at_the_2026_Cannes_Film_Festival_01_%28cropped%29.jpg",
+  "work_key": "белла хадид|bella",
+  "subject": "bella",
+  "visual_family": "bella",
+  "person_verified": true
+}

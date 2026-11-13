@@ -1,0 +1,47 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2200000208,
+  "rubric": "architecture",
+  "topic": "Стекло, камень и много воздуха",
+  "caption": "🏛 Современная архитектура\nСтекло, камень и много воздуха\n\nЦентр посетителей Apple Park в Купертино открылся в ноябре 2017 года. Каменные стены и полы из терраццо продолжают архитектурный язык основного кампуса — это подчёркивает Apple. На фотографии интерьера 2018 года стекло впускает в пространство отражения деревьев, а спокойные поверхности оставляют больше внимания свету и людям.\n\nИсточник: Apple\nФото: F ASTILY · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 410,
+      "length": 8,
+      "url": "https://commons.wikimedia.org/wiki/File:Apple_Park_Visitor_Center_1_2018-01-24.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 421,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Apple_Park_Visitor_Center_1_2018-01-24.jpg/1280px-Apple_Park_Visitor_Center_1_2018-01-24.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Apple Park Visitor Center 1 2018-01-24.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Apple_Park_Visitor_Center_1_2018-01-24.jpg/1280px-Apple_Park_Visitor_Center_1_2018-01-24.jpg",
+      "artist": "F ASTILY",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apple_Park_Visitor_Center_1_2018-01-24.jpg",
+      "description": "Apple Park Visitor Center",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "source_url": "https://www.apple.com/newsroom/2017/11/apple-park-visitor-center-opens-to-the-public/",
+  "source_name": "Apple",
+  "modern_year": 2017,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
+  "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
+  "creator": "foster + partners",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Apple_Park_Visitor_Center_1_2018-01-24.jpg/1280px-Apple_Park_Visitor_Center_1_2018-01-24.jpg",
+  "work_key": "foster + partners|apple",
+  "subject": "apple",
+  "visual_family": "apple"
+}

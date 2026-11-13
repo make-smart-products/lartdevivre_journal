@@ -1,0 +1,50 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2200000205,
+  "rubric": "architecture",
+  "topic": "Дом, собранный как конструктор",
+  "caption": "🏛 Современная архитектура\nДом, собранный как конструктор\n\nLEGO House в датском Биллунне открылся в сентябре 2017 года. Бюро BIG составило здание из объёмов, напоминающих сложенные белые кирпичики. На фотографии видно, как крыши нижних частей превращаются в террасы и ступени. Игровая идея работает здесь одновременно как узнаваемый образ и способ организовать пространство.\n\nИсточник: LEGO\nФото: Quinntropy · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 397,
+      "length": 10,
+      "url": "https://commons.wikimedia.org/wiki/File:Lego_House_Billund_2024-08-02.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 410,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lego_House_Billund_2024-08-02.jpg/1280px-Lego_House_Billund_2024-08-02.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Lego House Billund 2024-08-02.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lego_House_Billund_2024-08-02.jpg/1280px-Lego_House_Billund_2024-08-02.jpg",
+      "artist": "Quinntropy",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lego_House_Billund_2024-08-02.jpg",
+      "description": "Outside of the Lego House, Billund",
+      "credit": "Own work",
+      "permission": "",
+      "date": "2024-08-02 10:58:47",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "source_url": "https://www.lego.com/en-gb/aboutus/news/2019/october/lego-house-grand-opening",
+  "source_name": "LEGO",
+  "modern_year": 2017,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
+  "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
+  "creator": "big",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lego_House_Billund_2024-08-02.jpg/1280px-Lego_House_Billund_2024-08-02.jpg",
+  "work_key": "big|lego",
+  "subject": "lego",
+  "visual_family": "lego"
+}

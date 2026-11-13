@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2200000214,
+  "rubric": "celebrities",
+  "topic": "Сидни Суини: между экраном и модой",
+  "caption": "✨ Модели, актрисы и знаменитости\nСидни Суини: между экраном и модой\n\nСидни Суини стала лицом сумки Miu Wander в кампании Miu Miu, снятой Тайроном Лебоном. На фотографии — отдельный выход актрисы на фестивале в Торонто в 2024 году. Цветочные аппликации соединяют строгий воротник с нарядной фактурой. Это фестивальный портрет, а не рекламный снимок сумки.\n\nИсточник: Miu Miu\nФото: Jay Dixit · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 380,
+      "length": 9,
+      "url": "https://commons.wikimedia.org/wiki/File:Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 392,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg/1280px-Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Sydney Sweeney at the 2024 Toronto International Film Festival 02.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg/1280px-Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg",
+      "artist": "Jay Dixit",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg",
+      "description": "Sydney Sweeney, actor, at the 2024 Toronto International Film Festival (TIFF) for the movie Eden .",
+      "credit": "Own work",
+      "permission": "",
+      "date": "2024-09-07 16:32:16",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_role": "portrait"
+    }
+  ],
+  "source_url": "https://www.miumiu.com/mc/en/miumiu-club/campaigns/miu-wander.html",
+  "source_name": "Miu Miu",
+  "modern_year": 2022,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
+  "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
+  "creator": "сидни суини",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg/1280px-Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg",
+  "work_key": "сидни суини|sydney",
+  "subject": "sydney",
+  "visual_family": "sydney",
+  "person_verified": true
+}
