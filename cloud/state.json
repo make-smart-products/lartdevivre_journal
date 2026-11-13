@@ -271,62 +271,11 @@
     -2200000201,
     -2200000205,
     -2200000209,
-    -2200000212
+    -2200000212,
+    -2200000202
   ],
-  "last_published_at": "2026-11-13T21:33:02.933375+00:00",
-  "pending": {
-    "object_id": -2200000202,
-    "attempted_at": "2026-11-13T21:33:05.857914+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2200000202,
-      "rubric": "fashion",
-      "topic": "Изумрудный верх как главный акцент",
-      "caption": "👗 Современная мода\nИзумрудный верх как главный акцент\n\nШрия Пилгаонкар на финале Lakmé Fashion Week 2025. Изумрудная баска раскрывается веером над длинной чёрной юбкой. Здесь заметнее всего соотношение объёмов: широкий верх и вытянутый низ. Небольшие серьги поддерживают наряд, а дополнительные крупные украшения уже изменили бы его равновесие.\n\nИсточник: FDCI / фотография мероприятия\nФото: Bollywood Hungama · CC BY 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 393,
-          "length": 17,
-          "url": "https://commons.wikimedia.org/wiki/File:Shriya_Pilgaonkar_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 413,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Shriya_Pilgaonkar_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Shriya Pilgaonkar snapped at the grand finale of Lakme Fashion Week 2025.jpg",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Shriya_Pilgaonkar_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
-          "artist": "Bollywood Hungama",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Shriya_Pilgaonkar_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
-          "description": "Shriya Pilgaonkar snapped at the grand finale of Lakme Fashion Week 2025",
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
-      "source_name": "FDCI / фотография мероприятия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "creator": "шрия пилгаонкар",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Shriya_Pilgaonkar_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
-      "work_key": "шрия пилгаонкар|fashion-lakme2",
-      "subject": "fashion-lakme2",
-      "visual_family": "fashion-lakme2"
-    },
-    "batch_date": "2026-11-14",
-    "sha256": "c7be570515bd207aeb9b9535766eda7f07e7bec70ac07c903659543db96d4a7c"
-  },
+  "last_published_at": "2026-11-13T21:33:08.616584+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3109,9 +3058,20 @@
       "rubric": "celebrities",
       "subject": "bella",
       "batch_date": "2026-11-14"
+    },
+    {
+      "object_id": -2200000202,
+      "message_ids": [
+        466
+      ],
+      "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
+      "published_at": "2026-11-13T21:33:08.616584+00:00",
+      "rubric": "fashion",
+      "subject": "fashion-lakme2",
+      "batch_date": "2026-11-14"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3134,7 +3094,7 @@
       "target": 15
     },
     "2026-11-14": {
-      "completed": 5,
+      "completed": 6,
       "target": 15
     }
   },
@@ -4856,14 +4816,6 @@
   },
   "recent_content": [
     {
-      "creator": "алексей акиндинов",
-      "visual_family": "contemporary-painting",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Alexey_Akindinov._Sails_of_happiness._2023.jpg/1280px-Alexey_Akindinov._Sails_of_happiness._2023.jpg",
-      "work_key": "алексей акиндинов|«паруса счастья», 2023",
-      "rubric": "painting",
-      "subject": "«Паруса счастья», 2023"
-    },
-    {
       "creator": "john hamilton mortimer",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP828470.jpg",
@@ -5698,6 +5650,14 @@
       "work_key": "белла хадид|bella",
       "rubric": "celebrities",
       "subject": "bella"
+    },
+    {
+      "creator": "шрия пилгаонкар",
+      "visual_family": "fashion-lakme2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Shriya_Pilgaonkar_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
+      "work_key": "шрия пилгаонкар|fashion-lakme2",
+      "rubric": "fashion",
+      "subject": "fashion-lakme2"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
