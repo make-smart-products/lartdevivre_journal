@@ -280,7 +280,47 @@
     -2200000207
   ],
   "last_published_at": "2026-11-13T21:33:38.022684+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2200000211,
+    "attempted_at": "2026-11-13T21:33:41.027094+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2200000211,
+      "rubric": "painting",
+      "topic": "«Качели»: поймать мгновение полёта",
+      "caption": "🖼 Известные картины\n«Качели»: поймать мгновение полёта\n\nЖан-Оноре Фрагонар, около 1767–1768 годов. Розовое платье вспыхивает на фоне густой зелени, а слетевшая туфелька продолжает движение качелей. Взгляды персонажей связывают разные части сцены. Это одна из самых известных картин Собрания Уоллеса: её можно рассматривать как маленький спектакль, где каждая деталь участвует в действии.\n\nИсточник: Собрание Уоллеса\nРепродукция: Jean-Honoré Fragonard · Public domain",
+      "caption_entities": [],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Joean_Honor%C3%A9_Fragonard_-_The_Swing.jpg/1280px-Joean_Honor%C3%A9_Fragonard_-_The_Swing.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Joean Honoré Fragonard - The Swing.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Joean_Honor%C3%A9_Fragonard_-_The_Swing.jpg/1280px-Joean_Honor%C3%A9_Fragonard_-_The_Swing.jpg",
+          "artist": "Jean-Honoré Fragonard",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Joean_Honor%C3%A9_Fragonard_-_The_Swing.jpg",
+          "description": "The Swing, also known as The Happy Accidents of the Swing"
+        }
+      ],
+      "source_url": "https://www.wallacecollection.org/explore/collection/search-the-collection/les-hazards-heureux-de-lescarpolette-swing/",
+      "source_name": "Собрание Уоллеса",
+      "modern_year": 1767,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
+      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
+      "creator": "жан-оноре фрагонар",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Joean_Honor%C3%A9_Fragonard_-_The_Swing.jpg/1280px-Joean_Honor%C3%A9_Fragonard_-_The_Swing.jpg",
+      "work_key": "жан-оноре фрагонар|swing",
+      "subject": "swing",
+      "visual_family": "swing",
+      "famous_work_verified": true,
+      "artwork_public_domain_verified": true
+    },
+    "batch_date": "2026-11-14",
+    "sha256": "6a3ec5fbcb70a140fca66f3cbf2e606118b4b6718b6c30af85dae1222929b3b6"
+  },
   "publications": [
     {
       "object_id": 436528,
