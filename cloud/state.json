@@ -280,62 +280,11 @@
     -2200000207,
     -2200000211,
     -2200000214,
-    -2200000204
+    -2200000204,
+    -2200000208
   ],
-  "last_published_at": "2026-11-13T21:33:55.156244+00:00",
-  "pending": {
-    "object_id": -2200000208,
-    "attempted_at": "2026-11-13T21:33:57.865978+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2200000208,
-      "rubric": "architecture",
-      "topic": "Стекло, камень и много воздуха",
-      "caption": "🏛 Современная архитектура\nСтекло, камень и много воздуха\n\nЦентр посетителей Apple Park в Купертино открылся в ноябре 2017 года. Каменные стены и полы из терраццо продолжают архитектурный язык основного кампуса — это подчёркивает Apple. На фотографии интерьера 2018 года стекло впускает в пространство отражения деревьев, а спокойные поверхности оставляют больше внимания свету и людям.\n\nИсточник: Apple\nФото: F ASTILY · CC BY-SA 4.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 410,
-          "length": 8,
-          "url": "https://commons.wikimedia.org/wiki/File:Apple_Park_Visitor_Center_1_2018-01-24.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 421,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Apple_Park_Visitor_Center_1_2018-01-24.jpg/1280px-Apple_Park_Visitor_Center_1_2018-01-24.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Apple Park Visitor Center 1 2018-01-24.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Apple_Park_Visitor_Center_1_2018-01-24.jpg/1280px-Apple_Park_Visitor_Center_1_2018-01-24.jpg",
-          "artist": "F ASTILY",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Apple_Park_Visitor_Center_1_2018-01-24.jpg",
-          "description": "Apple Park Visitor Center",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "source_url": "https://www.apple.com/newsroom/2017/11/apple-park-visitor-center-opens-to-the-public/",
-      "source_name": "Apple",
-      "modern_year": 2017,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "creator": "foster + partners",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Apple_Park_Visitor_Center_1_2018-01-24.jpg/1280px-Apple_Park_Visitor_Center_1_2018-01-24.jpg",
-      "work_key": "foster + partners|apple",
-      "subject": "apple",
-      "visual_family": "apple"
-    },
-    "batch_date": "2026-11-14",
-    "sha256": "6af90f1581a0b8a05647bc73457a191310265a534d2c938dd92c92b5c953273d"
-  },
+  "last_published_at": "2026-11-13T21:34:00.367366+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3217,9 +3166,20 @@
       "rubric": "fashion",
       "subject": "fashion-hu",
       "batch_date": "2026-11-14"
+    },
+    {
+      "object_id": -2200000208,
+      "message_ids": [
+        475
+      ],
+      "source_url": "https://www.apple.com/newsroom/2017/11/apple-park-visitor-center-opens-to-the-public/",
+      "published_at": "2026-11-13T21:34:00.367366+00:00",
+      "rubric": "architecture",
+      "subject": "apple",
+      "batch_date": "2026-11-14"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3242,7 +3202,7 @@
       "target": 15
     },
     "2026-11-14": {
-      "completed": 14,
+      "completed": 15,
       "target": 15
     }
   },
@@ -4964,14 +4924,6 @@
   },
   "recent_content": [
     {
-      "creator": "cos",
-      "visual_family": "contemporary-fashion",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Street_fashion_%2827305297617%29.jpg/1280px-Street_fashion_%2827305297617%29.jpg",
-      "work_key": "cos|повседневный комплект с чёткой линией",
-      "rubric": "fashion",
-      "subject": "Повседневный комплект с чёткой линией"
-    },
-    {
       "creator": "kengo kuma",
       "visual_family": "contemporary-architecture",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg/1280px-Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg",
@@ -5800,6 +5752,14 @@
       "work_key": "her universe|fashion-hu",
       "rubric": "fashion",
       "subject": "fashion-hu"
+    },
+    {
+      "creator": "foster + partners",
+      "visual_family": "apple",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Apple_Park_Visitor_Center_1_2018-01-24.jpg/1280px-Apple_Park_Visitor_Center_1_2018-01-24.jpg",
+      "work_key": "foster + partners|apple",
+      "rubric": "architecture",
+      "subject": "apple"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
