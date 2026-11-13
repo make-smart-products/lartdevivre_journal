@@ -282,7 +282,62 @@
     -2200000214
   ],
   "last_published_at": "2026-11-13T21:33:49.609933+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2200000204,
+    "attempted_at": "2026-11-13T21:33:52.491489+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2200000204,
+      "rubric": "fashion",
+      "topic": "Мода с правом на игру",
+      "caption": "👗 Современная мода\nМода с правом на игру\n\nКадр с Her Universe Fashion Show 2026: рядом оказываются кислотный зелёный, красный и чёрный, корсетные линии и объёмные рукава. У конкурса дизайнеров есть отдельные официальные правила. А на фотографии интереснее всего смелость сочетаний — выразительный образ начинается с решения, какой детали дать главную роль.\n\nИсточник: Her Universe / фотография шоу\nФото: Mandilea16 · CC BY 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 405,
+          "length": 10,
+          "url": "https://commons.wikimedia.org/wiki/File:Her_Universe_Fashion_Show_2026_0909.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 418,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Her_Universe_Fashion_Show_2026_0909.jpg/1280px-Her_Universe_Fashion_Show_2026_0909.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Her Universe Fashion Show 2026 0909.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Her_Universe_Fashion_Show_2026_0909.jpg/1280px-Her_Universe_Fashion_Show_2026_0909.jpg",
+          "artist": "Mandilea16",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Her_Universe_Fashion_Show_2026_0909.jpg",
+          "description": "Her Universe Fashion Show 2026",
+          "credit": "Own work",
+          "permission": "",
+          "date": "2026-07-23 09:13:26",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "source_url": "https://www.heruniverse.com/her-universe-fashion-show/official-rules/",
+      "source_name": "Her Universe / фотография шоу",
+      "modern_year": 2026,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
+      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
+      "creator": "her universe",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Her_Universe_Fashion_Show_2026_0909.jpg/1280px-Her_Universe_Fashion_Show_2026_0909.jpg",
+      "work_key": "her universe|fashion-hu",
+      "subject": "fashion-hu",
+      "visual_family": "fashion-hu"
+    },
+    "batch_date": "2026-11-14",
+    "sha256": "a02b1a5ac31488562af9c587ce5770dc1669625589e879985110fd6c8d8f973a"
+  },
   "publications": [
     {
       "object_id": 436528,
