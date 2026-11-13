@@ -267,62 +267,11 @@
     -2100000104,
     -2100000108,
     -2100000112,
-    -2100000116
+    -2100000116,
+    -2200000201
   ],
-  "last_published_at": "2026-11-13T21:32:42.123902+00:00",
-  "pending": {
-    "object_id": -2200000201,
-    "attempted_at": "2026-11-13T21:32:44.994120+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2200000201,
-      "rubric": "fashion",
-      "topic": "Чёрный образ, который держится на фактурах",
-      "caption": "👗 Современная мода\nЧёрный образ, который держится на фактурах\n\nЭльнааз Норузи на Lakmé Fashion Week 2025. В одном цвете встречаются полупрозрачные рукава, блестящий верх и спокойная юбка. Сапоги добавляют ещё один ритм — светлые точки на чёрном. Такой образ интересно собирать через разницу поверхностей, оставляя палитру предельно простой.\n\nИсточник: FDCI / фотография мероприятия\nФото: Bollywood Hungama · CC BY 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 389,
-          "length": 17,
-          "url": "https://commons.wikimedia.org/wiki/File:Elnaaz_Norouzi_snapped_at_the_Lakme_Fashion_Week_2025.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 409,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/0/05/Elnaaz_Norouzi_snapped_at_the_Lakme_Fashion_Week_2025.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Elnaaz Norouzi snapped at the Lakme Fashion Week 2025.jpg",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Elnaaz_Norouzi_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
-          "artist": "Bollywood Hungama",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Elnaaz_Norouzi_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
-          "description": "Elnaaz Norouzi snapped at the Lakme Fashion Week 2025",
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
-      "source_name": "FDCI / фотография мероприятия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "creator": "эльнааз норузи",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Elnaaz_Norouzi_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
-      "work_key": "эльнааз норузи|fashion-lakme1",
-      "subject": "fashion-lakme1",
-      "visual_family": "fashion-lakme1"
-    },
-    "batch_date": "2026-11-14",
-    "sha256": "b2c2064ec7b05042a5d2497a4754d2ba66285e2c72ab8e7d828827bdb4b640c5"
-  },
+  "last_published_at": "2026-11-13T21:32:47.562035+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3061,9 +3010,20 @@
       "rubric": "celebrities",
       "subject": "portman",
       "batch_date": "2026-11-14"
+    },
+    {
+      "object_id": -2200000201,
+      "message_ids": [
+        462
+      ],
+      "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
+      "published_at": "2026-11-13T21:32:47.562035+00:00",
+      "rubric": "fashion",
+      "subject": "fashion-lakme1",
+      "batch_date": "2026-11-14"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3086,7 +3046,7 @@
       "target": 15
     },
     "2026-11-14": {
-      "completed": 1,
+      "completed": 2,
       "target": 15
     }
   },
@@ -4808,14 +4768,6 @@
   },
   "recent_content": [
     {
-      "creator": "miu miu",
-      "visual_family": "contemporary-fashion",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/RABANNE_Spring-Summer_25_show.jpg",
-      "work_key": "miu miu|лёгкость за счёт фактур",
-      "rubric": "fashion",
-      "subject": "Лёгкость за счёт фактур"
-    },
-    {
       "creator": "herzog & de meuron",
       "visual_family": "contemporary-architecture",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2019-05-10_Elbphilharmonie_Hamburg.jpg/1280px-2019-05-10_Elbphilharmonie_Hamburg.jpg",
@@ -5651,6 +5603,14 @@
       "work_key": "натали портман|portman",
       "rubric": "celebrities",
       "subject": "portman"
+    },
+    {
+      "creator": "эльнааз норузи",
+      "visual_family": "fashion-lakme1",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Elnaaz_Norouzi_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
+      "work_key": "эльнааз норузи|fashion-lakme1",
+      "rubric": "fashion",
+      "subject": "fashion-lakme1"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
