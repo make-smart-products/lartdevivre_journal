@@ -272,7 +272,50 @@
     -2200000205
   ],
   "last_published_at": "2026-11-13T21:32:53.232173+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2200000209,
+    "attempted_at": "2026-11-13T21:32:56.095169+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2200000209,
+      "rubric": "painting",
+      "topic": "«Крик»: чувство превращается в пейзаж",
+      "caption": "🖼 Известные картины\n«Крик»: чувство превращается в пейзаж\n\nЭдвард Мунк, 1893 год. Волнистые линии неба и берега словно продолжаются в фигуре на переднем плане. Прямая диагональ ограждения делает это движение ещё тревожнее. Национальный музей Норвегии описывает работу как важный переход от символизма к экспрессионизму: настроение здесь передаёт сама форма картины.\n\nИсточник: Национальный музей Норвегии\nРепродукция: Edvard Munch · Public domain",
+      "caption_entities": [],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/1280px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Edvard Munch, 1893, The Scream, oil, tempera and pastel on cardboard, 91 x 73 cm, National Gallery of Norway.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/1280px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+          "artist": "Edvard Munch",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+          "description": "",
+          "credit": "National Museum of Art, Architecture and Design",
+          "permission": "",
+          "date": "1893"
+        }
+      ],
+      "source_url": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939",
+      "source_name": "Национальный музей Норвегии",
+      "modern_year": 1893,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
+      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
+      "creator": "эдвард мунк",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/1280px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+      "work_key": "эдвард мунк|scream",
+      "subject": "scream",
+      "visual_family": "scream",
+      "famous_work_verified": true,
+      "artwork_public_domain_verified": true
+    },
+    "batch_date": "2026-11-14",
+    "sha256": "ced0eb5dfb8c87b6af716e2c83b05ca8cc58229f8bedccf4932b4edf4fa1f8bd"
+  },
   "publications": [
     {
       "object_id": 436528,
