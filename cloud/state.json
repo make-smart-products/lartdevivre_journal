@@ -272,65 +272,11 @@
     -2200000205,
     -2200000209,
     -2200000212,
-    -2200000202
+    -2200000202,
+    -2200000206
   ],
-  "last_published_at": "2026-11-13T21:33:08.616584+00:00",
-  "pending": {
-    "object_id": -2200000206,
-    "attempted_at": "2026-11-13T21:33:11.321691+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2200000206,
-      "rubric": "architecture",
-      "topic": "«Дружелюбный пришелец» среди старого города",
-      "caption": "🏛 Современная архитектура\n«Дружелюбный пришелец» среди старого города\n\nKunsthaus Graz, Австрия, 2003 год. Питер Кук и Колин Фурнье создали музей с округлой синей оболочкой и выступающими световыми проёмами. Фурнье назвал его Friendly Alien. Рядом с обычными городскими фасадами особенно заметно, как современное здание может вступать с окружением в диалог через контраст.\n\nИсточник: Universalmuseum Joanneum\nФото: Isiwal · CC BY-SA 4.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 415,
-          "length": 6,
-          "url": "https://commons.wikimedia.org/wiki/File:Graz_Kunsthaus-4476.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 424,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Graz_Kunsthaus-4476.jpg/1280px-Graz_Kunsthaus-4476.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Graz Kunsthaus-4476.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Graz_Kunsthaus-4476.jpg/1280px-Graz_Kunsthaus-4476.jpg",
-          "artist": "Isiwal",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Graz_Kunsthaus-4476.jpg",
-          "description": "The Kunsthaus Graz (Graz Art Museum) was built in 2003.",
-          "credit": "Own work",
-          "permission": "",
-          "date": "2023-08-13 10:17:23",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "source_url": "https://www.museum-joanneum.at/en/kunsthaus-graz/discover/architecture",
-      "source_name": "Universalmuseum Joanneum",
-      "modern_year": 2003,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "creator": "peter cook / colin fournier",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Graz_Kunsthaus-4476.jpg/1280px-Graz_Kunsthaus-4476.jpg",
-      "work_key": "peter cook / colin fournier|graz",
-      "subject": "graz",
-      "visual_family": "graz"
-    },
-    "batch_date": "2026-11-14",
-    "sha256": "44dd48cd091148d292428f60e479bcd83169f15ddd9396fb605942601b077797"
-  },
+  "last_published_at": "2026-11-13T21:33:13.803766+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3124,9 +3070,20 @@
       "rubric": "fashion",
       "subject": "fashion-lakme2",
       "batch_date": "2026-11-14"
+    },
+    {
+      "object_id": -2200000206,
+      "message_ids": [
+        467
+      ],
+      "source_url": "https://www.museum-joanneum.at/en/kunsthaus-graz/discover/architecture",
+      "published_at": "2026-11-13T21:33:13.803766+00:00",
+      "rubric": "architecture",
+      "subject": "graz",
+      "batch_date": "2026-11-14"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3149,7 +3106,7 @@
       "target": 15
     },
     "2026-11-14": {
-      "completed": 6,
+      "completed": 7,
       "target": 15
     }
   },
@@ -4871,15 +4828,6 @@
   },
   "recent_content": [
     {
-      "creator": "john hamilton mortimer",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP828470.jpg",
-      "work_key": "john hamilton mortimer|shylock, from \"twelve characters from shakespeare\"",
-      "rubric": "books",
-      "subject": "shakespeare",
-      "angle": 2
-    },
-    {
       "creator": "zhao yong",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP-35736-002.jpg",
@@ -5713,6 +5661,14 @@
       "work_key": "шрия пилгаонкар|fashion-lakme2",
       "rubric": "fashion",
       "subject": "fashion-lakme2"
+    },
+    {
+      "creator": "peter cook / colin fournier",
+      "visual_family": "graz",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Graz_Kunsthaus-4476.jpg/1280px-Graz_Kunsthaus-4476.jpg",
+      "work_key": "peter cook / colin fournier|graz",
+      "rubric": "architecture",
+      "subject": "graz"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
