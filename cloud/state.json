@@ -278,67 +278,11 @@
     -2200000213,
     -2200000203,
     -2200000207,
-    -2200000211
+    -2200000211,
+    -2200000214
   ],
-  "last_published_at": "2026-11-13T21:33:43.771921+00:00",
-  "pending": {
-    "object_id": -2200000214,
-    "attempted_at": "2026-11-13T21:33:46.592860+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2200000214,
-      "rubric": "celebrities",
-      "topic": "Сидни Суини: между экраном и модой",
-      "caption": "✨ Модели, актрисы и знаменитости\nСидни Суини: между экраном и модой\n\nСидни Суини стала лицом сумки Miu Wander в кампании Miu Miu, снятой Тайроном Лебоном. На фотографии — отдельный выход актрисы на фестивале в Торонто в 2024 году. Цветочные аппликации соединяют строгий воротник с нарядной фактурой. Это фестивальный портрет, а не рекламный снимок сумки.\n\nИсточник: Miu Miu\nФото: Jay Dixit · CC BY-SA 4.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 380,
-          "length": 9,
-          "url": "https://commons.wikimedia.org/wiki/File:Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 392,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg/1280px-Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Sydney Sweeney at the 2024 Toronto International Film Festival 02.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg/1280px-Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg",
-          "artist": "Jay Dixit",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg",
-          "description": "Sydney Sweeney, actor, at the 2024 Toronto International Film Festival (TIFF) for the movie Eden .",
-          "credit": "Own work",
-          "permission": "",
-          "date": "2024-09-07 16:32:16",
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "image_role": "portrait"
-        }
-      ],
-      "source_url": "https://www.miumiu.com/mc/en/miumiu-club/campaigns/miu-wander.html",
-      "source_name": "Miu Miu",
-      "modern_year": 2022,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
-      "creator": "сидни суини",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg/1280px-Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg",
-      "work_key": "сидни суини|sydney",
-      "subject": "sydney",
-      "visual_family": "sydney",
-      "person_verified": true
-    },
-    "batch_date": "2026-11-14",
-    "sha256": "304ad9500f6ba4481cdbcc53f571de5aa33522b8ef52fd6b02ab7c8d5913f92b"
-  },
+  "last_published_at": "2026-11-13T21:33:49.609933+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3198,9 +3142,20 @@
       "rubric": "painting",
       "subject": "swing",
       "batch_date": "2026-11-14"
+    },
+    {
+      "object_id": -2200000214,
+      "message_ids": [
+        473
+      ],
+      "source_url": "https://www.miumiu.com/mc/en/miumiu-club/campaigns/miu-wander.html",
+      "published_at": "2026-11-13T21:33:49.609933+00:00",
+      "rubric": "celebrities",
+      "subject": "sydney",
+      "batch_date": "2026-11-14"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3223,7 +3178,7 @@
       "target": 15
     },
     "2026-11-14": {
-      "completed": 12,
+      "completed": 13,
       "target": 15
     }
   },
@@ -4945,14 +4900,6 @@
   },
   "recent_content": [
     {
-      "creator": "аллан горман",
-      "visual_family": "contemporary-painting",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/59th_Street_Bridge_and_Tram_%282022%29.jpg",
-      "work_key": "аллан горман|мост как современная живопись",
-      "rubric": "painting",
-      "subject": "Мост как современная живопись"
-    },
-    {
       "creator": "",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/an/web-large/DP-32541-001.jpg",
@@ -5783,6 +5730,14 @@
       "work_key": "жан-оноре фрагонар|swing",
       "rubric": "painting",
       "subject": "swing"
+    },
+    {
+      "creator": "сидни суини",
+      "visual_family": "sydney",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg/1280px-Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_02.jpg",
+      "work_key": "сидни суини|sydney",
+      "rubric": "celebrities",
+      "subject": "sydney"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
