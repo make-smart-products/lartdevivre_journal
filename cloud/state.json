@@ -279,7 +279,62 @@
     -2200000203
   ],
   "last_published_at": "2026-11-13T21:33:32.188862+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2200000207,
+    "attempted_at": "2026-11-13T21:33:35.140520+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2200000207,
+      "rubric": "architecture",
+      "topic": "Лестница становится городской скульптурой",
+      "caption": "🏛 Современная архитектура\nЛестница становится городской скульптурой\n\nVessel в нью-йоркском Hudson Yards открылся в 2019 году как проект Heatherwick Studio. Повторяющиеся лестницы и площадки складываются в объёмную решётку. На снимке снизу они обрамляют небо и соседние башни. Здесь выразительность создаёт один элемент, многократно повторённый и повёрнутый в пространстве.\n\nИсточник: Heatherwick Studio\nФото: Gzzz · CC BY-SA 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 410,
+          "length": 4,
+          "url": "https://commons.wikimedia.org/wiki/File:Inside_Vessel_NYC.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 417,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Inside_Vessel_NYC.jpg/1280px-Inside_Vessel_NYC.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Inside Vessel NYC.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Inside_Vessel_NYC.jpg/1280px-Inside_Vessel_NYC.jpg",
+          "artist": "Gzzz",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Inside_Vessel_NYC.jpg",
+          "description": "The skyscrapers of Hudson Yards in Manhattan (New York), seen vertically from inside the building Vessel .",
+          "credit": "Own work",
+          "permission": "",
+          "date": "2023-10-21 13:27:46",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "source_url": "https://heatherwick.com/studio/news/vessel-new-centrepiece-hudson-yards-new-york-city-opens-public-today/",
+      "source_name": "Heatherwick Studio",
+      "modern_year": 2019,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-13T21:30:27.893544+00:00",
+      "photo_verified_at": "2026-11-13T21:30:27.893544+00:00",
+      "creator": "heatherwick studio",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Inside_Vessel_NYC.jpg/1280px-Inside_Vessel_NYC.jpg",
+      "work_key": "heatherwick studio|vessel",
+      "subject": "vessel",
+      "visual_family": "vessel"
+    },
+    "batch_date": "2026-11-14",
+    "sha256": "8b4bb88a3d34693a09c5d2964baacc259ca6d029e39c80b593ae241f0ba6e50f"
+  },
   "publications": [
     {
       "object_id": 436528,
