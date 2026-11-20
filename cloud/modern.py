@@ -24,6 +24,11 @@ SOURCE_HOSTS = {
     "pero.co.in", "seoulfashionweek.org", "english.seoul.go.kr", "guestinresidence.com",
     "fdci.org", "heruniverse.com", "lego.com", "museum-joanneum.at", "apple.com",
     "nasjonalmuseet.no", "musee-orsay.fr", "wallacecollection.org", "chopard.com", "oscars.org",
+    "livingarchives.epfl.ch", "actu.epfl.ch", "serpentinegalleries.org", "thebroad.org",
+    "calatrava.com", "presse.stuttgart-tourist.de", "jkmm.fi", "mecanoo.nl", "davidchipperfield.com",
+    "rijksmuseum.nl", "api-www.louvre.fr", "collections.louvre.fr", "moma.org", "artic.edu",
+    "archive.artic.edu", "metmuseum.org", "tretyakovgallery.ru", "my.tretyakov.ru",
+    "fhcm.paris", "cameramoda.it", "fashion.rabanne.com",
 }
 OFFICIAL_MEDIA = {"https://www.youtube.com/watch?v=sE6Rk9TJcSk"}  # Louis Vuitton's verified channel.
 

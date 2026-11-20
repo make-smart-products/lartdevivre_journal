@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000339,
+  "rubric": "fashion",
+  "topic": "Нарядный верх и мягкая светлая ткань",
+  "caption": "👗 Современная мода\nНарядный верх и мягкая светлая ткань\n\nАхсаас Чанна на финале Lakmé Fashion Week 2025. Блестящий многоцветный верх соединён с длинной светлой юбкой и свободно драпирующейся тканью. Сочетание держится на контрасте плотного декора и лёгкости. Полезная идея для вечернего образа: дать фактурам разную роль, чтобы они не спорили за внимание.\n\nИсточник: FDCI / фото мероприятия\nФото: Bollywood Hungama · CC BY 3.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 398,
+      "length": 17,
+      "url": "https://commons.wikimedia.org/wiki/File:Ahsaas_Channa_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 418,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Ahsaas_Channa_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg/500px-Ahsaas_Channa_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Ahsaas Channa snapped at the grand finale of Lakme Fashion Week 2025.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Ahsaas_Channa_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg/500px-Ahsaas_Channa_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
+      "artist": "Bollywood Hungama",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ahsaas_Channa_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
+      "description": "Ahsaas Channa snapped at the grand finale of Lakme Fashion Week 2025",
+      "date": "2025-03-30",
+      "credit": "https://www.bollywoodhungama.com/news/parties-and-events/photos-kareena-kapoor-khan-pashmina-roshan-sophie-choudry-others-grace-grand-finale-lakme-fashion-week-2025/photos-kareena-kapoor-khan-pashmina-roshan-sophie-choudry-and-others-grace-the-grand-finale-of-lakme-fashion-week-2025-10/",
+      "permission": "",
+      "width": 480,
+      "height": 620,
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
+  "source_name": "FDCI / фото мероприятия",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "ахсаас чанна",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Ahsaas_Channa_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg/500px-Ahsaas_Channa_snapped_at_the_grand_finale_of_Lakme_Fashion_Week_2025.jpg",
+  "work_key": "ахсаас чанна|f-ahsaas",
+  "subject": "f-ahsaas",
+  "visual_family": "f-ahsaas"
+}

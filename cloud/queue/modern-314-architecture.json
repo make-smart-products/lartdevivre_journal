@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000314,
+  "rubric": "architecture",
+  "topic": "Кирпич, который пропускает свет",
+  "caption": "🏛 Современная архитектура\nКирпич, который пропускает свет\n\nРасширение Tate Modern в Лондоне завершено в 2016 году по проекту Herzog & de Meuron. Перфорированная кирпичная оболочка покрывает бетонную конструкцию и меняется в зависимости от точки обзора. Узкие горизонтальные проёмы подчёркивают наклонные грани. Знакомый материал приобретает почти текстильную выразительность.\n\nИсточник: Herzog & de Meuron\nФото: DiscoA340 · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 413,
+      "length": 9,
+      "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Tate_Modern_(January_2024)_01.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 425,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Exterior_of_Tate_Modern_%28January_2024%29_01.jpg/1280px-Exterior_of_Tate_Modern_%28January_2024%29_01.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Exterior of Tate Modern (January 2024) 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Exterior_of_Tate_Modern_%28January_2024%29_01.jpg/1280px-Exterior_of_Tate_Modern_%28January_2024%29_01.jpg",
+      "artist": "DiscoA340",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Tate_Modern_(January_2024)_01.jpg",
+      "description": "Exterior of Tate Modern in London, England.",
+      "date": "2024-01-02 15:55:24",
+      "credit": "Own work",
+      "permission": "",
+      "width": 1280,
+      "height": 853,
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "source_url": "https://www.herzogdemeuron.com/projects/263-the-tate-modern-project/",
+  "source_name": "Herzog & de Meuron",
+  "modern_year": 2016,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "herzog & de meuron",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Exterior_of_Tate_Modern_%28January_2024%29_01.jpg/1280px-Exterior_of_Tate_Modern_%28January_2024%29_01.jpg",
+  "work_key": "herzog & de meuron|a-tate",
+  "subject": "a-tate",
+  "visual_family": "a-tate"
+}

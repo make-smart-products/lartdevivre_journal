@@ -1,0 +1,38 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000320,
+  "rubric": "architecture",
+  "topic": "Штутгарт: сила повторяющегося квадрата",
+  "caption": "🏛 Современная архитектура\nШтутгарт: сила повторяющегося квадрата\n\nГородская библиотека Штутгарта открылась в 2011 году; архитектор — Ын Ён И. На фасаде повторяются квадратные модули со стеклянными блоками. Общая сетка выглядит строгой, но различия света и глубины оживляют поверхность. Выразительность здесь строится на одном последовательно проведённом правиле.\n\nИсточник: Stuttgart-Marketing\nФото: Pablodbds · CC0",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Aussenfassade_Stadtbibliothek_Stuttgart.jpg/1280px-Aussenfassade_Stadtbibliothek_Stuttgart.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Aussenfassade Stadtbibliothek Stuttgart.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Aussenfassade_Stadtbibliothek_Stuttgart.jpg/1280px-Aussenfassade_Stadtbibliothek_Stuttgart.jpg",
+      "artist": "Pablodbds",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Aussenfassade_Stadtbibliothek_Stuttgart.jpg",
+      "description": "A low-angle view of the exterior facade of the Stuttgart City Library (Stadtbibliothek).",
+      "date": "2025-10-14 16:08:41",
+      "credit": "Own work",
+      "permission": "",
+      "width": 1280,
+      "height": 1707
+    }
+  ],
+  "source_url": "https://presse.stuttgart-tourist.de/_Resources/Persistent/6/c/9/8/6c9870a1fb94c80e8dab6cb03bad3a7820dee5e7/05_Architektur_in_Stuttgart.pdf",
+  "source_name": "Stuttgart-Marketing",
+  "modern_year": 2011,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "eun young yi",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Aussenfassade_Stadtbibliothek_Stuttgart.jpg/1280px-Aussenfassade_Stadtbibliothek_Stuttgart.jpg",
+  "work_key": "eun young yi|a-stuttgart2",
+  "subject": "a-stuttgart2",
+  "visual_family": "a-stuttgart2"
+}

@@ -1,0 +1,54 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000302,
+  "rubric": "celebrities",
+  "topic": "Зои Салдана: фестивальный портрет до награды",
+  "caption": "✨ Модели, актрисы и знаменитости\nЗои Салдана: фестивальный портрет до награды\n\nЗа «Эмилию Перес» Зои Салдана получила «Оскар» за роль второго плана в 2025 году. Этот кадр сделан на фестивале в Торонто в 2024-м. Тонкие бретели и сложный рисунок кружева сочетаются с небольшими серьгами. В крупном портрете хорошо видно, как фактура одежды задаёт настроение всему образу.\n\nИсточник: Американская киноакадемия\nФото: Frank Sun · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 413,
+      "length": 9,
+      "url": "https://commons.wikimedia.org/wiki/File:Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 425,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg/1280px-Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Zoe Saldana at the 2024 Toronto International Film Festival 4.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg/1280px-Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg",
+      "artist": "Frank Sun",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg",
+      "description": "Zoe Saldana, actor, at the 2024 Toronto International Film Festival (TIFF) in Toronto, Canada",
+      "date": "2024-09-09 18:19:44",
+      "credit": "Own work",
+      "permission": "",
+      "width": 1280,
+      "height": 1931,
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_role": "portrait"
+    }
+  ],
+  "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
+  "source_name": "Американская киноакадемия",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "зои салдана",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg/1280px-Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg",
+  "work_key": "зои салдана|c-saldana",
+  "subject": "c-saldana",
+  "visual_family": "c-saldana",
+  "person_verified": true
+}

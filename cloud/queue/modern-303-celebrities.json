@@ -1,0 +1,54 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000303,
+  "rubric": "celebrities",
+  "topic": "Деми Мур: белая рубашка на красной дорожке",
+  "caption": "✨ Модели, актрисы и знаменитости\nДеми Мур: белая рубашка на красной дорожке\n\nЗа главную роль в «Субстанции» Деми Мур была номинирована на «Оскар» в 2025 году. На фото из Торонто, 2024, она выбирает белую рубашку и чёрный галстук. Длинные серьги добавляют светлые вертикали рядом с лицом. Несколько привычных предметов превращаются в самостоятельный фестивальный образ.\n\nИсточник: Американская киноакадемия\nФото: Jay Dixit · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 412,
+      "length": 9,
+      "url": "https://commons.wikimedia.org/wiki/File:Demi_Moore_at_the_2024_Toronto_International_Film_Festival_3_(cropped).jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 424,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Demi_Moore_at_the_2024_Toronto_International_Film_Festival_3_%28cropped%29.jpg/1280px-Demi_Moore_at_the_2024_Toronto_International_Film_Festival_3_%28cropped%29.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Demi Moore at the 2024 Toronto International Film Festival 3 (cropped).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Demi_Moore_at_the_2024_Toronto_International_Film_Festival_3_%28cropped%29.jpg/1280px-Demi_Moore_at_the_2024_Toronto_International_Film_Festival_3_%28cropped%29.jpg",
+      "artist": "Jay Dixit",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Demi_Moore_at_the_2024_Toronto_International_Film_Festival_3_(cropped).jpg",
+      "description": "Demi Moore, actor, at the 2024 Toronto International Film Festival (TIFF) in Toronto, Canada",
+      "date": "2024-09-05 23:03:51",
+      "credit": "Own work",
+      "permission": "",
+      "width": 1280,
+      "height": 1707,
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_role": "portrait"
+    }
+  ],
+  "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
+  "source_name": "Американская киноакадемия",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "деми мур",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Demi_Moore_at_the_2024_Toronto_International_Film_Festival_3_%28cropped%29.jpg/1280px-Demi_Moore_at_the_2024_Toronto_International_Film_Festival_3_%28cropped%29.jpg",
+  "work_key": "деми мур|c-moore",
+  "subject": "c-moore",
+  "visual_family": "c-moore",
+  "person_verified": true
+}

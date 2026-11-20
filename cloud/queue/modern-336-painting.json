@@ -1,0 +1,40 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000336,
+  "rubric": "painting",
+  "topic": "«Богатыри»: три разных силуэта",
+  "caption": "🖼 Известные картины\n«Богатыри»: три разных силуэта\n\nВиктор Васнецов завершил «Богатырей» в 1898 году. Три всадника отличаются посадкой, жестами и направлением взгляда, но образуют устойчивую общую группу. Низкая линия далёкого пейзажа усиливает их масштаб. Попробуйте рассмотреть сначала только контуры коней и фигур: характеры читаются уже в силуэтах.\n\nИсточник: Третьяковская галерея\nРепродукция: Viktor Vasnetsov · Public domain",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg/1280px-Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Viktor Vasnetsov - Богатыри - Google Art Project.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg/1280px-Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg",
+      "artist": "Viktor Vasnetsov",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg",
+      "description": "",
+      "date": "from 1881 until 1898 date QS:P571,+1850-00-00T00:00:00Z/7,P580,+1881-00-00T00:00:00Z/9,P582,+1898-00-00T00:00:00Z/9",
+      "credit": "Google Arts & Culture — GgFy94lN-r6DXw",
+      "permission": "",
+      "width": 1280,
+      "height": 832
+    }
+  ],
+  "source_url": "https://www.tretyakovgallery.ru/events/o/lektsiya-v-m-vasnetsov-bogatyri-24/",
+  "source_name": "Третьяковская галерея",
+  "modern_year": 1898,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "виктор васнецов",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg/1280px-Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg",
+  "work_key": "виктор васнецов|p-bogatyrs",
+  "subject": "p-bogatyrs",
+  "visual_family": "p-bogatyrs",
+  "famous_work_verified": true,
+  "artwork_public_domain_verified": true
+}

@@ -1,0 +1,54 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000311,
+  "rubric": "celebrities",
+  "topic": "Энн Хэтэуэй: спокойный фестивальный портрет",
+  "caption": "✨ Модели, актрисы и знаменитости\nЭнн Хэтэуэй: спокойный фестивальный портрет\n\nЭнн Хэтэуэй получила «Оскар» за роль второго плана в «Отверженных» в 2013 году. На фотографии с Берлинского кинофестиваля 2023 года длинные волосы и чёлка обрамляют лицо, а чёрная одежда оставляет фон спокойным. Пример того, как минимум заметных деталей помогает сохранить цельность публичного образа.\n\nИсточник: Американская киноакадемия\nФото: Harald Krichel · CC BY-SA 3.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 423,
+      "length": 14,
+      "url": "https://commons.wikimedia.org/wiki/File:Anne_Hathaway-68408.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 440,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Anne_Hathaway-68408.jpg/1280px-Anne_Hathaway-68408.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Anne Hathaway-68408.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Anne_Hathaway-68408.jpg/1280px-Anne_Hathaway-68408.jpg",
+      "artist": "Harald Krichel",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Anne_Hathaway-68408.jpg",
+      "description": "Actress Anne Hathaway at the Berlin Film Festival 2023",
+      "date": "2023-02-16",
+      "credit": "Own work",
+      "permission": "",
+      "width": 1280,
+      "height": 1528,
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "image_role": "portrait"
+    }
+  ],
+  "source_url": "https://www.oscars.org/oscars/ceremonies/2013",
+  "source_name": "Американская киноакадемия",
+  "modern_year": 2013,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "энн хэтэуэй",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Anne_Hathaway-68408.jpg/1280px-Anne_Hathaway-68408.jpg",
+  "work_key": "энн хэтэуэй|c-hathaway",
+  "subject": "c-hathaway",
+  "visual_family": "c-hathaway",
+  "person_verified": true
+}

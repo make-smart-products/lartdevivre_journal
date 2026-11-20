@@ -1,0 +1,40 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000332,
+  "rubric": "painting",
+  "topic": "«Бал в Мулен де ла Галетт»: пятна солнца",
+  "caption": "🖼 Известные картины\n«Бал в Мулен де ла Галетт»: пятна солнца\n\nОгюст Ренуар написал эту сцену в 1876 году. Свет дробится на пятна на лицах, одежде и дорожке, а группы людей соединяются взглядами и жестами. Даже тёмные костюмы не выглядят сплошными силуэтами. Радость городской встречи передаётся через цвет и движение всей поверхности.\n\nИсточник: Музей Орсе\nРепродукция: Pierre-Auguste Renoir · Public domain",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg/1280px-Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Pierre-Auguste Renoir, Le Moulin de la Galette.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg/1280px-Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg",
+      "artist": "Pierre-Auguste Renoir",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir,_Le_Moulin_de_la_Galette.jpg",
+      "description": "",
+      "date": "1876 date QS:P571,+1876-00-00T00:00:00Z/9",
+      "credit": "http://allart.biz/photos/image/Pierre_Auguste_Renoir_2_Bal_du_moulin_de_la_Galette_Smaller_version.html (derivative work of musee-orsay.fr image?) Notwithstanding the source description, this is the version at the Musée d'Orsay (in the smaller version the central figure leaning forward lacks an earring).",
+      "permission": "",
+      "width": 1280,
+      "height": 954
+    }
+  ],
+  "source_url": "https://www.musee-orsay.fr/en/artworks/bal-du-moulin-de-la-galette-497",
+  "source_name": "Музей Орсе",
+  "modern_year": 1876,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "огюст ренуар",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg/1280px-Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg",
+  "work_key": "огюст ренуар|p-moulin",
+  "subject": "p-moulin",
+  "visual_family": "p-moulin",
+  "famous_work_verified": true,
+  "artwork_public_domain_verified": true
+}

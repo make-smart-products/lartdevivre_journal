@@ -1,0 +1,40 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000334,
+  "rubric": "painting",
+  "topic": "«Олимпия»: взгляд навстречу зрителю",
+  "caption": "🖼 Известные картины\n«Олимпия»: взгляд навстречу зрителю\n\nЭдуард Мане, 1863 год. Светлая фигура резко выделяется на тёмном фоне, а прямой взгляд меняет привычное расстояние между картиной и зрителем. Букет и чёрная кошка добавляют самостоятельные акценты. Напряжение создаётся не только сюжетом, но и смелым соседством больших светлых и тёмных пятен.\n\nИсточник: Музей Орсе\nРепродукция: Édouard Manet · Public domain",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Edouard_Manet_-_Olympia_-_Google_Art_Project_2.jpg/1280px-Edouard_Manet_-_Olympia_-_Google_Art_Project_2.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Edouard Manet - Olympia - Google Art Project 2.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Edouard_Manet_-_Olympia_-_Google_Art_Project_2.jpg/1280px-Edouard_Manet_-_Olympia_-_Google_Art_Project_2.jpg",
+      "artist": "Édouard Manet",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Edouard_Manet_-_Olympia_-_Google_Art_Project_2.jpg",
+      "description": "",
+      "date": "1863 date QS:P571,+1863-00-00T00:00:00Z/9",
+      "credit": "Google Art Project: Home - pic Maximum resolution.",
+      "permission": "",
+      "width": 1280,
+      "height": 867
+    }
+  ],
+  "source_url": "https://www.musee-orsay.fr/en/artworks/olympia-712",
+  "source_name": "Музей Орсе",
+  "modern_year": 1863,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "эдуард мане",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Edouard_Manet_-_Olympia_-_Google_Art_Project_2.jpg/1280px-Edouard_Manet_-_Olympia_-_Google_Art_Project_2.jpg",
+  "work_key": "эдуард мане|p-olympia",
+  "subject": "p-olympia",
+  "visual_family": "p-olympia",
+  "famous_work_verified": true,
+  "artwork_public_domain_verified": true
+}

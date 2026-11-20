@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000342,
+  "rubric": "fashion",
+  "topic": "Серая куртка тоже может быть выразительной",
+  "caption": "👗 Современная мода\nСерая куртка тоже может быть выразительной\n\nУён из WOOAH на Seoul Fashion Week, февраль 2025 года. Свободная серая куртка, застёжка и небольшая подвеска создают спокойный городской образ. Здесь важны посадка и движение рукавов. Снимок напоминает, что на неделе моды интересны не только вечерние платья, но и знакомые повседневные вещи.\n\nИсточник: Правительство Сеула / фото мероприятия\nФото: TV10 · CC BY 3.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 412,
+      "length": 4,
+      "url": "https://commons.wikimedia.org/wiki/File:WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 419,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "WOOAH Wooyeon at 2025 Seoul Fashion Week.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg",
+      "artist": "TV10",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg",
+      "description": "WOOAH Wooyeon at 2025 Seoul Fashion Week",
+      "date": "February 9, 2025",
+      "credit": "YouTube: https://www.youtube.com/watch?v=k0vO0e5rvlY",
+      "permission": "",
+      "width": 1280,
+      "height": 1791,
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "source_url": "https://english.seoul.go.kr/seoul-hosts-2025-f-w-seoul-fashion-week-in-february-to-showcase-the-next-leaders-in-global-k-fashion/",
+  "source_name": "Правительство Сеула / фото мероприятия",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "wooah wooyeon",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg",
+  "work_key": "wooah wooyeon|f-wooyeon",
+  "subject": "f-wooyeon",
+  "visual_family": "f-wooyeon"
+}

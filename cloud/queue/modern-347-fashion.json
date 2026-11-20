@@ -1,0 +1,49 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000347,
+  "rubric": "fashion",
+  "topic": "Синий цвет через разные фактуры",
+  "caption": "👗 Современная мода\nСиний цвет через разные фактуры\n\nКеджимин на Seoul Fashion Week, февраль 2025 года. Пушистая верхняя одежда соседствует с рельефным коротким топом, а светлые бусы добавляют чёткую линию у шеи. Оттенки близки, поверхности различаются. Пример того, как сложность образа можно строить на материалах, сохраняя всего несколько основных цветов.\n\nИсточник: Правительство Сеула / фото мероприятия\nФото: 티비텐 (TV10) · CC BY 3.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 415,
+      "length": 10,
+      "url": "https://commons.wikimedia.org/wiki/File:KEJIMIN_(%EC%BC%80%EC%A7%80%EB%AF%BC)_%E2%80%93_SEOUL_FASHION_WEEK_%E2%80%93_2025.02.09_%E2%80%93_P2.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 428,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/KEJIMIN_%28%EC%BC%80%EC%A7%80%EB%AF%BC%29_%E2%80%93_SEOUL_FASHION_WEEK_%E2%80%93_2025.02.09_%E2%80%93_P2.jpg/960px-KEJIMIN_%28%EC%BC%80%EC%A7%80%EB%AF%BC%29_%E2%80%93_SEOUL_FASHION_WEEK_%E2%80%93_2025.02.09_%E2%80%93_P2.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "KEJIMIN (케지민) – SEOUL FASHION WEEK – 2025.02.09 – P2.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/KEJIMIN_%28%EC%BC%80%EC%A7%80%EB%AF%BC%29_%E2%80%93_SEOUL_FASHION_WEEK_%E2%80%93_2025.02.09_%E2%80%93_P2.jpg/960px-KEJIMIN_%28%EC%BC%80%EC%A7%80%EB%AF%BC%29_%E2%80%93_SEOUL_FASHION_WEEK_%E2%80%93_2025.02.09_%E2%80%93_P2.jpg",
+      "artist": "티비텐 (TV10)",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:KEJIMIN_(%EC%BC%80%EC%A7%80%EB%AF%BC)_%E2%80%93_SEOUL_FASHION_WEEK_%E2%80%93_2025.02.09_%E2%80%93_P2.jpg",
+      "description": "Kejimin at the Seoul Fashion Week on February 9, 2025",
+      "date": "2025-02-09",
+      "credit": "YouTube : [4K] 케지민 '큐티 섹시': Kejimin Seoul Fashion Week – View/save archived versions on archive.org",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "source_url": "https://english.seoul.go.kr/seoul-hosts-2025-f-w-seoul-fashion-week-in-february-to-showcase-the-next-leaders-in-global-k-fashion/",
+  "source_name": "Правительство Сеула / фото мероприятия",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "kejimin",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/KEJIMIN_%28%EC%BC%80%EC%A7%80%EB%AF%BC%29_%E2%80%93_SEOUL_FASHION_WEEK_%E2%80%93_2025.02.09_%E2%80%93_P2.jpg/960px-KEJIMIN_%28%EC%BC%80%EC%A7%80%EB%AF%BC%29_%E2%80%93_SEOUL_FASHION_WEEK_%E2%80%93_2025.02.09_%E2%80%93_P2.jpg",
+  "work_key": "kejimin|f-kejimin",
+  "subject": "f-kejimin",
+  "visual_family": "f-kejimin"
+}

@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000345,
+  "rubric": "fashion",
+  "topic": "Показ как пространство для движения",
+  "caption": "👗 Современная мода\nПоказ как пространство для движения\n\nRabanne весна–лето 2025: общий вид показа в Париже, снятого в сентябре 2024 года. Модели проходят между зрителями, и одежду можно видеть с разных сторон. В официальном описании коллекции повседневное встречается с изысканным. Широкий кадр напоминает, что модный образ существует не только в неподвижной позе.\n\nИсточник: Rabanne\nФото: Rabanne · CC BY 3.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 391,
+      "length": 7,
+      "url": "https://commons.wikimedia.org/wiki/File:RABANNE_Spring-Summer_25_show.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 401,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/RABANNE_Spring-Summer_25_show.jpg/500px-RABANNE_Spring-Summer_25_show.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "RABANNE Spring-Summer 25 show.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/RABANNE_Spring-Summer_25_show.jpg/500px-RABANNE_Spring-Summer_25_show.jpg",
+      "artist": "Rabanne",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RABANNE_Spring-Summer_25_show.jpg",
+      "description": "RABANNE Spring-Summer 2025 Fashion show in Paris (6:20)",
+      "date": "2024-09-26",
+      "credit": "RABANNE | Spring-Summer 25 show",
+      "permission": "",
+      "width": 480,
+      "height": 245,
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "source_url": "https://fashion.rabanne.com/en-us/pages/runway-spring-summer-2025",
+  "source_name": "Rabanne",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "rabanne",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/RABANNE_Spring-Summer_25_show.jpg/500px-RABANNE_Spring-Summer_25_show.jpg",
+  "work_key": "rabanne|f-rabanne",
+  "subject": "f-rabanne",
+  "visual_family": "f-rabanne"
+}

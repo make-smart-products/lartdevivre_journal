@@ -1,0 +1,38 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000317,
+  "rubric": "architecture",
+  "topic": "Музей под белой вуалью",
+  "caption": "🏛 Современная архитектура\nМузей под белой вуалью\n\nThe Broad в Лос-Анджелесе открылся в 2015 году. Diller Scofidio + Renfro вместе с Gensler объединили хранилище и выставочные пространства под ячеистой оболочкой. На снимке фасад складывается из повторяющихся диагоналей. Такая «вуаль» одновременно формирует узнаваемый образ и помогает работать с дневным светом.\n\nИсточник: The Broad\nФото: Leviclancy · CC0",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg/1280px-Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Exterior of the Broad Museum in Downtown LA.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg/1280px-Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg",
+      "artist": "Leviclancy",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg",
+      "description": "Exterior of the Broad Museum in Downtown LA",
+      "date": "2015-11-12 11:05:28",
+      "credit": "Own work",
+      "permission": "",
+      "width": 1280,
+      "height": 851
+    }
+  ],
+  "source_url": "https://www.thebroad.org/sites/default/files/the_broad_general_information_brochure.pdf",
+  "source_name": "The Broad",
+  "modern_year": 2015,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "diller scofidio + renfro",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg/1280px-Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg",
+  "work_key": "diller scofidio + renfro|a-broad",
+  "subject": "a-broad",
+  "visual_family": "a-broad"
+}

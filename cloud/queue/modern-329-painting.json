@@ -1,0 +1,40 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000329,
+  "rubric": "painting",
+  "topic": "Остров Гранд-Жатт: прогулка из цветных точек",
+  "caption": "🖼 Известные картины\nОстров Гранд-Жатт: прогулка из цветных точек\n\nЖорж Сёра работал над этой большой сценой в 1884–1886 годах. Маленькие цветовые прикосновения собираются в фигуры, траву и воду, если отойти от изображения. При этом силуэты кажутся почти неподвижными. Контраст между мерцанием поверхности и строгой композицией делает обычную прогулку необычной.\n\nИсточник: Чикагский институт искусств\nРепродукция: Georges Seurat · Public domain",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/1280px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Georges Seurat - A Sunday on La Grande Jatte -- 1884 - Google Art Project.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/1280px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+      "artist": "Georges Seurat",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+      "description": "",
+      "date": "1884",
+      "credit": "Google Arts & Culture — twGyqq52R-lYpA",
+      "permission": "",
+      "width": 1280,
+      "height": 852
+    }
+  ],
+  "source_url": "https://archive.artic.edu/seurat/seurat_themes.html",
+  "source_name": "Чикагский институт искусств",
+  "modern_year": 1886,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "жорж сёра",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/1280px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+  "work_key": "жорж сёра|p-jatte",
+  "subject": "p-jatte",
+  "visual_family": "p-jatte",
+  "famous_work_verified": true,
+  "artwork_public_domain_verified": true
+}

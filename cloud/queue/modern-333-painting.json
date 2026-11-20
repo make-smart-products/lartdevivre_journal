@@ -1,0 +1,40 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000333,
+  "rubric": "painting",
+  "topic": "«Свобода, ведущая народ»: движение вверх",
+  "caption": "🖼 Известные картины\n«Свобода, ведущая народ»: движение вверх\n\nЭжен Делакруа, 1830 год. Флаг становится вершиной композиции, к которой поднимаются фигуры и жесты. Яркие красный, синий и белый появляются в разных частях холста и связывают сцену. Даже до чтения исторического комментария картина показывает, как направление линий может передать общий порыв.\n\nИсточник: Лувр\nРепродукция: Eugène Delacroix · Public domain",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/1280px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "La Liberté guidant le peuple - Eugène Delacroix - Musée du Louvre Peintures RF 129 - après restauration 2024.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/1280px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+      "artist": "Eugène Delacroix",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+      "description": "",
+      "date": "between October 1830 and December 1830 date QS:P,+1830-00-00T00:00:00Z/9,P1319,+1830-10-00T00:00:00Z/10,P1326,+1830-12-00T00:00:00Z/10 Romanticism (second half of 18 th century date QS:P,+1750-00-00T00:00:00Z/7,P4241,Q40719707 –first half of 19 th century date QS:P,+1850-00-00T00:00:00Z/7,P4241,Q40719687 )",
+      "credit": "photo Shonagon 2024-05-02",
+      "permission": "",
+      "width": 1280,
+      "height": 1024
+    }
+  ],
+  "source_url": "https://collections.louvre.fr/en/ark:/53355/cl010065872",
+  "source_name": "Лувр",
+  "modern_year": 1830,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "эжен делакруа",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/1280px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+  "work_key": "эжен делакруа|p-liberty",
+  "subject": "p-liberty",
+  "visual_family": "p-liberty",
+  "famous_work_verified": true,
+  "artwork_public_domain_verified": true
+}

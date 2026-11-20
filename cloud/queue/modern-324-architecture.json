@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000324,
+  "rubric": "architecture",
+  "topic": "Небоскрёб как замкнутая петля",
+  "caption": "🏛 Современная архитектура\nНебоскрёб как замкнутая петля\n\nШтаб-квартира CCTV в Пекине завершена в 2012 году по проекту OMA. Вместо привычной одиночной башни архитекторы создали пространственную петлю с большой консолью. Диагональная сетка подчёркивает переходы между её частями. Один силуэт может выглядеть совершенно по-разному, если обходить здание с разных сторон.\n\nИсточник: OMA\nФото: BriYYZ from Toronto, Canada · CC BY-SA 2.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 389,
+      "length": 27,
+      "url": "https://commons.wikimedia.org/wiki/File:CCTV_Headquarters_(6349184617).jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 419,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/CCTV_Headquarters_%286349184617%29.jpg/1280px-CCTV_Headquarters_%286349184617%29.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "CCTV Headquarters (6349184617).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/CCTV_Headquarters_%286349184617%29.jpg/1280px-CCTV_Headquarters_%286349184617%29.jpg",
+      "artist": "BriYYZ from Toronto, Canada",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CCTV_Headquarters_(6349184617).jpg",
+      "description": "Rem Koolhaas and Ole Scheeren of OMA.",
+      "date": "2011-11-13 01:38",
+      "credit": "CCTV Headquarters",
+      "permission": "",
+      "width": 1280,
+      "height": 1707,
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+    }
+  ],
+  "source_url": "https://www.oma.com/projects/cctv-headquarters",
+  "source_name": "OMA",
+  "modern_year": 2012,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "oma",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/CCTV_Headquarters_%286349184617%29.jpg/1280px-CCTV_Headquarters_%286349184617%29.jpg",
+  "work_key": "oma|a-cctv",
+  "subject": "a-cctv",
+  "visual_family": "a-cctv"
+}

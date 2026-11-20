@@ -1,0 +1,54 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000304,
+  "rubric": "celebrities",
+  "topic": "Фернанда Торрес: бразильское имя в оскаровском списке",
+  "caption": "✨ Модели, актрисы и знаменитости\nФернанда Торрес: бразильское имя в оскаровском списке\n\nФернанда Торрес вошла в число номинанток на главную женскую роль за фильм «Я всё ещё здесь» в 2025 году. На фотографии с фестиваля в Торонто 2024 года — простая чёрная блуза с завязками. Свободная причёска и мягкий блеск ткани делают портрет выразительным без большого количества украшений.\n\nИсточник: Американская киноакадемия\nФото: Adam Chitayat · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 422,
+      "length": 13,
+      "url": "https://commons.wikimedia.org/wiki/File:Fernanda_Torres_at_the_2024_Toronto_International_Film_Festival_6.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 438,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Fernanda_Torres_at_the_2024_Toronto_International_Film_Festival_6.jpg/1280px-Fernanda_Torres_at_the_2024_Toronto_International_Film_Festival_6.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Fernanda Torres at the 2024 Toronto International Film Festival 6.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Fernanda_Torres_at_the_2024_Toronto_International_Film_Festival_6.jpg/1280px-Fernanda_Torres_at_the_2024_Toronto_International_Film_Festival_6.jpg",
+      "artist": "Adam Chitayat",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fernanda_Torres_at_the_2024_Toronto_International_Film_Festival_6.jpg",
+      "description": "Fernanda Torres, actor, at the 2024 Toronto International Film Festival (TIFF) for the movie I'm Still Here .",
+      "date": "2021-12-19 08:15:54",
+      "credit": "Own work",
+      "permission": "",
+      "width": 1280,
+      "height": 1920,
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_role": "portrait"
+    }
+  ],
+  "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
+  "source_name": "Американская киноакадемия",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "фернанда торрес",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Fernanda_Torres_at_the_2024_Toronto_International_Film_Festival_6.jpg/1280px-Fernanda_Torres_at_the_2024_Toronto_International_Film_Festival_6.jpg",
+  "work_key": "фернанда торрес|c-torres",
+  "subject": "c-torres",
+  "visual_family": "c-torres",
+  "person_verified": true
+}

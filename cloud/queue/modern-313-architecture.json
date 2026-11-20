@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000313,
+  "rubric": "architecture",
+  "topic": "Библиотека как стеклянный кристалл",
+  "caption": "🏛 Современная архитектура\nБиблиотека как стеклянный кристалл\n\nЦентральная библиотека Сиэтла, 2004 год, OMA и LMN. Наклонные стеклянные плоскости повторяют расположение разных функциональных зон внутри. Ромбовидная сетка делает сложный объём цельным. За выразительным фасадом стоит практическая идея: связать хранение книг, работу и общественные пространства в одном здании.\n\nИсточник: OMA\nФото: brewbooks from near Seattle, USA · CC BY-SA 2.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 396,
+      "length": 32,
+      "url": "https://commons.wikimedia.org/wiki/File:Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 431,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg/1280px-Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Seattle Central Library exterior - Flickr - brewbooks.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg/1280px-Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg",
+      "artist": "brewbooks from near Seattle, USA",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg",
+      "description": "On a photo tour of Seattle Central Library with listorama seattle 076",
+      "date": "2009-12-06 03:18",
+      "credit": "Seattle Central Library exterior",
+      "permission": "",
+      "width": 1280,
+      "height": 853,
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
+    }
+  ],
+  "source_url": "https://www.oma.com/projects/seattle-central-library",
+  "source_name": "OMA",
+  "modern_year": 2004,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "oma",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg/1280px-Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg",
+  "work_key": "oma|a-seattle",
+  "subject": "a-seattle",
+  "visual_family": "a-seattle"
+}

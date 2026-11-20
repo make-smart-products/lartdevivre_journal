@@ -1,0 +1,52 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000343,
+  "rubric": "fashion",
+  "topic": "Рисунок, который виден только вблизи",
+  "caption": "👗 Современная мода\nРисунок, который виден только вблизи\n\nСора из WOOAH на Seoul Fashion Week, февраль 2025 года. Серый верх кажется спокойным издалека, но крупный план раскрывает рисунок и фактуру ткани. Высокий воротник и широкие края рукавов меняют пропорции. Такие вещи интересно оценивать с двух расстояний: через общий силуэт и через детали.\n\nИсточник: Правительство Сеула / фото мероприятия\nФото: TV10 · CC BY 3.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 404,
+      "length": 4,
+      "url": "https://commons.wikimedia.org/wiki/File:WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 411,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "WOOAH Sora at 2025 Seoul Fashion Week.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg",
+      "artist": "TV10",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg",
+      "description": "WOOAH’s Sora at 2025 Seoul Fashion Week",
+      "date": "February 9, 2025",
+      "credit": "YouTube: https://www.youtube.com/watch?v=k0vO0e5rvlY",
+      "permission": "",
+      "width": 1280,
+      "height": 1790,
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "source_url": "https://english.seoul.go.kr/seoul-hosts-2025-f-w-seoul-fashion-week-in-february-to-showcase-the-next-leaders-in-global-k-fashion/",
+  "source_name": "Правительство Сеула / фото мероприятия",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "wooah sora",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg",
+  "work_key": "wooah sora|f-sora",
+  "subject": "f-sora",
+  "visual_family": "f-sora"
+}

@@ -1,0 +1,47 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000318,
+  "rubric": "architecture",
+  "topic": "Современная библиотека у моря",
+  "caption": "🏛 Современная архитектура\nСовременная библиотека у моря\n\nНовая Александрийская библиотека открылась в 2002 году по проекту Snøhetta. Внутри большое пространство раскрывается через уровни, колонны и протяжённые линии балконов. На фотографии стекло добавляет отражения и накладывает несколько планов друг на друга. Масштаб библиотеки читается через движение света и расположение людей.\n\nИсточник: Snøhetta\nФото: Cecioka · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 411,
+      "length": 7,
+      "url": "https://commons.wikimedia.org/wiki/File:Bibliotheca_Alexandrina_07.jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 421,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bibliotheca_Alexandrina_07.jpg/1280px-Bibliotheca_Alexandrina_07.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Bibliotheca Alexandrina 07.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bibliotheca_Alexandrina_07.jpg/1280px-Bibliotheca_Alexandrina_07.jpg",
+      "artist": "Cecioka",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bibliotheca_Alexandrina_07.jpg",
+      "description": "The New Libray of Alexandria (Bibliotheca Alexandrina) was establised in 2002. It is the largest library in Egypt.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "source_url": "https://www.snohetta.com/projects/bibliotheca-alexandrina",
+  "source_name": "Snøhetta",
+  "modern_year": 2002,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "snøhetta",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bibliotheca_Alexandrina_07.jpg/1280px-Bibliotheca_Alexandrina_07.jpg",
+  "work_key": "snøhetta|a-alexandria",
+  "subject": "a-alexandria",
+  "visual_family": "a-alexandria"
+}

@@ -1,0 +1,40 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000325,
+  "rubric": "painting",
+  "topic": "«Молочница»: внимание к простому действию",
+  "caption": "🖼 Известные картины\n«Молочница»: внимание к простому действию\n\nЯн Вермеер, около 1660 года. Тонкая струя молока удерживает внимание в центре спокойной сцены. Свет из окна выделяет хлеб, керамику и складки одежды, превращая повседневное занятие в самостоятельный сюжет. В этой картине интересно замечать, сколько выразительности рождается из небольших различий фактуры.\n\nИсточник: Рейксмюсеум\nРепродукция: Johannes Vermeer · Public domain",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Johannes Vermeer - Het melkmeisje - Google Art Project.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "artist": "Johannes Vermeer",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "description": "",
+      "date": "circa 1660 date QS:P571,+1660-00-00T00:00:00Z/9,P1480,Q5727902",
+      "credit": "Google Arts & Culture — AHrw. Z3. Av6. Zhjg 9. AHrw. Z3. Av6. Zhjg",
+      "permission": "",
+      "width": 1280,
+      "height": 1435
+    }
+  ],
+  "source_url": "https://www.rijksmuseum.nl/en/story/milkmaid-vermeer",
+  "source_name": "Рейксмюсеум",
+  "modern_year": 1660,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "ян вермеер",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+  "work_key": "ян вермеер|p-milkmaid",
+  "subject": "p-milkmaid",
+  "visual_family": "p-milkmaid",
+  "famous_work_verified": true,
+  "artwork_public_domain_verified": true
+}

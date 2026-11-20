@@ -4,6 +4,8 @@ on:
   schedule:
     # 19:30 UTC = 22:30 Moscow; one block of 15 editorial posts.
     - cron: '30 19 * * *'
+    # Recovery attempts after the daily slot; the Moscow-date counter prevents duplicates.
+    - cron: '10 20-23,0-3 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

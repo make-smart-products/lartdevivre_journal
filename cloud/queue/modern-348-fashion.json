@@ -1,0 +1,48 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000348,
+  "rubric": "fashion",
+  "topic": "Сеул: выразительность одного выхода",
+  "caption": "👗 Современная мода\nСеул: выразительность одного выхода\n\nЛи Се Хи на Seoul Fashion Week в феврале 2025 года. Белая рубашка и чёрный галстук соседствуют с верхом, украшенным крупной вышивкой. Тонкие косички и серьги-кольца добавляют другой ритм. Строгий воротник становится основой для более свободной стилизации: знакомое офисное сочетание получает новое настроение.\n\nИсточник: Правительство Сеула / фото мероприятия\nФото: TV10 · CC BY 3.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 423,
+      "length": 4,
+      "url": "https://commons.wikimedia.org/wiki/File:Lee_Se-hee_in_February_2025.png"
+    },
+    {
+      "type": "text_link",
+      "offset": 430,
+      "length": 9,
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Lee_Se-hee_in_February_2025.png/500px-Lee_Se-hee_in_February_2025.png"
+  ],
+  "licensed_images": [
+    {
+      "title": "Lee Se-hee in February 2025.png",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Lee_Se-hee_in_February_2025.png/500px-Lee_Se-hee_in_February_2025.png",
+      "artist": "TV10",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lee_Se-hee_in_February_2025.png",
+      "description": "Lee Sehee Seoul Fashion Week",
+      "date": "2025-02-06",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "source_url": "https://english.seoul.go.kr/seoul-hosts-2025-f-w-seoul-fashion-week-in-february-to-showcase-the-next-leaders-in-global-k-fashion/",
+  "source_name": "Правительство Сеула / фото мероприятия",
+  "modern_year": 2025,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "ли се хи",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Lee_Se-hee_in_February_2025.png/500px-Lee_Se-hee_in_February_2025.png",
+  "work_key": "ли се хи|f-lee",
+  "subject": "f-lee",
+  "visual_family": "f-lee"
+}

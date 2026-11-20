@@ -1,0 +1,40 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000328,
+  "rubric": "painting",
+  "topic": "«Американская готика»: рифмы линий",
+  "caption": "🖼 Известные картины\n«Американская готика»: рифмы линий\n\nГрант Вуд, 1930 год. Зубцы вил, полоски одежды и вытянутое окно за спинами героев повторяют похожие вертикали. Благодаря этим рифмам даже небольшая картина воспринимается очень собранной. Знакомый образ интересно рассмотреть через геометрию, прежде чем возвращаться к выражениям лиц и истории персонажей.\n\nИсточник: Чикагский институт искусств\nРепродукция: Grant Wood · Public domain",
+  "caption_entities": [],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/1280px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Grant Wood - American Gothic - Google Art Project.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/1280px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg",
+      "artist": "Grant Wood",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg",
+      "description": "",
+      "date": "1930 date QS:P571,+1930-00-00T00:00:00Z/9",
+      "credit": "5QEPm0jCc183Aw at Google Cultural Institute maximum zoom level",
+      "permission": "",
+      "width": 1280,
+      "height": 1545
+    }
+  ],
+  "source_url": "https://www.artic.edu/artworks/6565/american-gothic",
+  "source_name": "Чикагский институт искусств",
+  "modern_year": 1930,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "грант вуд",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/1280px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg",
+  "work_key": "грант вуд|p-gothic",
+  "subject": "p-gothic",
+  "visual_family": "p-gothic",
+  "famous_work_verified": true,
+  "artwork_public_domain_verified": true
+}

@@ -1,0 +1,54 @@
+{
+  "provider": "modern-editorial",
+  "kind": "article",
+  "object_id": -2300000312,
+  "rubric": "celebrities",
+  "topic": "Кейт Бланшетт: украшение меняет привычное место",
+  "caption": "✨ Модели, актрисы и знаменитости\nКейт Бланшетт: украшение меняет привычное место\n\nКейт Бланшетт получила «Оскар» за главную роль в «Жасмин» в 2014 году. На Венецианском фестивале 2024-го цепочка светлых бус проходит по линии открытых плеч. Необычное расположение знакомого украшения делает портрет запоминающимся. Здесь важнее всего линия, а цвет платья остаётся сдержанным.\n\nИсточник: Американская киноакадемия\nФото: Harald Krichel · CC BY-SA 4.0",
+  "caption_entities": [
+    {
+      "type": "text_link",
+      "offset": 418,
+      "length": 14,
+      "url": "https://commons.wikimedia.org/wiki/File:Cate_Blanchett-63298_(cropped_2).jpg"
+    },
+    {
+      "type": "text_link",
+      "offset": 435,
+      "length": 12,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "images": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Cate_Blanchett-63298_%28cropped_2%29.jpg/1280px-Cate_Blanchett-63298_%28cropped_2%29.jpg"
+  ],
+  "licensed_images": [
+    {
+      "title": "Cate Blanchett-63298 (cropped 2).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Cate_Blanchett-63298_%28cropped_2%29.jpg/1280px-Cate_Blanchett-63298_%28cropped_2%29.jpg",
+      "artist": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cate_Blanchett-63298_(cropped_2).jpg",
+      "description": "Actress Cate Blanchett at the 81st Venice International Film Festival",
+      "date": "2024-08-28",
+      "credit": "Own work",
+      "permission": "",
+      "width": 1280,
+      "height": 1709,
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_role": "portrait"
+    }
+  ],
+  "source_url": "https://www.oscars.org/oscars/ceremonies/2014",
+  "source_name": "Американская киноакадемия",
+  "modern_year": 2014,
+  "editorial_reviewed": true,
+  "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+  "creator": "кейт бланшетт",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Cate_Blanchett-63298_%28cropped_2%29.jpg/1280px-Cate_Blanchett-63298_%28cropped_2%29.jpg",
+  "work_key": "кейт бланшетт|c-blanchett",
+  "subject": "c-blanchett",
+  "visual_family": "c-blanchett",
+  "person_verified": true
+}
