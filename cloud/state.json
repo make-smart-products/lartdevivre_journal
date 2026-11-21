@@ -302,51 +302,11 @@
     -2300000305,
     -2300000341,
     -2300000317,
-    -2300000330
+    -2300000330,
+    -2300000306
   ],
-  "last_published_at": "2026-11-21T23:53:51.035583+00:00",
-  "pending": {
-    "object_id": -2300000306,
-    "attempted_at": "2026-11-21T23:53:53.566199+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000306,
-      "rubric": "celebrities",
-      "topic": "Моника Барбаро: ещё одно имя для знакомства",
-      "caption": "✨ Модели, актрисы и знаменитости\nМоника Барбаро: ещё одно имя для знакомства\n\nМоника Барбаро была номинирована на «Оскар» за роль второго плана в «Боб Дилан: Никому не известный» в 2025 году. Фестивальные списки полезны не только для отслеживания победителей: они помогают открыть актрис, за чьими следующими работами хочется следить. На фото — встреча с командой ВМС США в 2022 году; архивный повседневный портрет.\n\nИсточник: Американская киноакадемия\nФото: Petty Officer 2nd Class Cody Deccio · Public domain",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Monica_Barbaro_2022_%28cropped%29.jpg/500px-Monica_Barbaro_2022_%28cropped%29.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Monica Barbaro 2022 (cropped).jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Monica_Barbaro_2022_%28cropped%29.jpg/500px-Monica_Barbaro_2022_%28cropped%29.jpg",
-          "artist": "Petty Officer 2nd Class Cody Deccio",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Monica_Barbaro_2022_(cropped).jpg",
-          "description": "OAKLAND, California (Oct. 07, 2022) Lt. Cmdr. Griffen Stangel, assigned to the Navy Flight Demonstration Squadron, the Blue Angels, speaks with Monica Barbaro, Top Gun: Maverick actress, during Fleet Week San Francisco. The Blue Angels perform flight demonstrations at 32 locations across the country to showcase the teamwork and professionalism of the U.S. Navy and Marine Corps to the American public. (U.S. Navy photo by MC1 Cody Deccio)",
-          "date": "2022-10-06 20:00:00",
-          "image_role": "portrait"
-        }
-      ],
-      "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
-      "source_name": "Американская киноакадемия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "моника барбаро",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Monica_Barbaro_2022_%28cropped%29.jpg/500px-Monica_Barbaro_2022_%28cropped%29.jpg",
-      "work_key": "моника барбаро|c-barbaro",
-      "subject": "c-barbaro",
-      "visual_family": "c-barbaro",
-      "person_verified": true
-    },
-    "batch_date": "2026-11-21",
-    "sha256": "0d8a9dfd6648cd40cda6a051ad98479633df5169ebb16d2dbe6f768c46fc36a1"
-  },
+  "last_published_at": "2026-11-21T23:53:55.432465+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3470,9 +3430,20 @@
       "rubric": "painting",
       "subject": "p-lilies",
       "batch_date": "2026-11-21"
+    },
+    {
+      "object_id": -2300000306,
+      "message_ids": [
+        497
+      ],
+      "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
+      "published_at": "2026-11-21T23:53:55.432465+00:00",
+      "rubric": "celebrities",
+      "subject": "c-barbaro",
+      "batch_date": "2026-11-21"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3503,7 +3474,7 @@
       "target": 15
     },
     "2026-11-21": {
-      "completed": 6,
+      "completed": 7,
       "target": 15
     }
   },
@@ -5225,15 +5196,6 @@
   },
   "recent_content": [
     {
-      "creator": "giovanni battista piranesi",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP827958.jpg",
-      "work_key": "giovanni battista piranesi|plate 26: temple of clitumnus between foligno and spoleto... (tempio di clitumno tra fuligno e spoletti...), from \"alcune vedute di archi trionfali ed altri monumenti inalzati da romani parte di quali se veggono in roma e parte per l'italia\" (some views of triumphal arches and other monuments erected by the romans, some of which are in rome and some elsewhere in italy)",
-      "rubric": "travel",
-      "subject": "Rome",
-      "angle": 3
-    },
-    {
       "creator": "ева цукер",
       "visual_family": "contemporary-women",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Nackt_im_Sein_%282025%29.jpg/1280px-Nackt_im_Sein_%282025%29.jpg",
@@ -6050,6 +6012,14 @@
       "work_key": "клод моне|p-lilies",
       "rubric": "painting",
       "subject": "p-lilies"
+    },
+    {
+      "creator": "моника барбаро",
+      "visual_family": "c-barbaro",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Monica_Barbaro_2022_%28cropped%29.jpg/500px-Monica_Barbaro_2022_%28cropped%29.jpg",
+      "work_key": "моника барбаро|c-barbaro",
+      "rubric": "celebrities",
+      "subject": "c-barbaro"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
