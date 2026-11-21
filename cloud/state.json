@@ -303,67 +303,11 @@
     -2300000341,
     -2300000317,
     -2300000330,
-    -2300000306
+    -2300000306,
+    -2300000342
   ],
-  "last_published_at": "2026-11-21T23:53:55.432465+00:00",
-  "pending": {
-    "object_id": -2300000342,
-    "attempted_at": "2026-11-21T23:53:57.976946+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000342,
-      "rubric": "fashion",
-      "topic": "Серая куртка тоже может быть выразительной",
-      "caption": "👗 Современная мода\nСерая куртка тоже может быть выразительной\n\nУён из WOOAH на Seoul Fashion Week, февраль 2025 года. Свободная серая куртка, застёжка и небольшая подвеска создают спокойный городской образ. Здесь важны посадка и движение рукавов. Снимок напоминает, что на неделе моды интересны не только вечерние платья, но и знакомые повседневные вещи.\n\nИсточник: Правительство Сеула / фото мероприятия\nФото: TV10 · CC BY 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 412,
-          "length": 4,
-          "url": "https://commons.wikimedia.org/wiki/File:WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 419,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "WOOAH Wooyeon at 2025 Seoul Fashion Week.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg",
-          "artist": "TV10",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg",
-          "description": "WOOAH Wooyeon at 2025 Seoul Fashion Week",
-          "date": "February 9, 2025",
-          "credit": "YouTube: https://www.youtube.com/watch?v=k0vO0e5rvlY",
-          "permission": "",
-          "width": 1280,
-          "height": 1791,
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "source_url": "https://english.seoul.go.kr/seoul-hosts-2025-f-w-seoul-fashion-week-in-february-to-showcase-the-next-leaders-in-global-k-fashion/",
-      "source_name": "Правительство Сеула / фото мероприятия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "wooah wooyeon",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg",
-      "work_key": "wooah wooyeon|f-wooyeon",
-      "subject": "f-wooyeon",
-      "visual_family": "f-wooyeon"
-    },
-    "batch_date": "2026-11-21",
-    "sha256": "a53cca44f5a720bb8794159bc6593e5c01a4df26070de1c7d63550596c83acf7"
-  },
+  "last_published_at": "2026-11-21T23:54:00.403400+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3498,9 +3442,20 @@
       "rubric": "celebrities",
       "subject": "c-barbaro",
       "batch_date": "2026-11-21"
+    },
+    {
+      "object_id": -2300000342,
+      "message_ids": [
+        498
+      ],
+      "source_url": "https://english.seoul.go.kr/seoul-hosts-2025-f-w-seoul-fashion-week-in-february-to-showcase-the-next-leaders-in-global-k-fashion/",
+      "published_at": "2026-11-21T23:54:00.403400+00:00",
+      "rubric": "fashion",
+      "subject": "f-wooyeon",
+      "batch_date": "2026-11-21"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3531,7 +3486,7 @@
       "target": 15
     },
     "2026-11-21": {
-      "completed": 7,
+      "completed": 8,
       "target": 15
     }
   },
@@ -5253,14 +5208,6 @@
   },
   "recent_content": [
     {
-      "creator": "ева цукер",
-      "visual_family": "contemporary-women",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Nackt_im_Sein_%282025%29.jpg/1280px-Nackt_im_Sein_%282025%29.jpg",
-      "work_key": "ева цукер|«nackt im sein», 2025",
-      "rubric": "women",
-      "subject": "«Nackt im Sein», 2025"
-    },
-    {
       "creator": "блейн уайт",
       "visual_family": "contemporary-painting",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/On_The_Prowl.jpg/1280px-On_The_Prowl.jpg",
@@ -6077,6 +6024,14 @@
       "work_key": "моника барбаро|c-barbaro",
       "rubric": "celebrities",
       "subject": "c-barbaro"
+    },
+    {
+      "creator": "wooah wooyeon",
+      "visual_family": "f-wooyeon",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Wooyeon_at_2025_Seoul_Fashion_Week.jpg",
+      "work_key": "wooah wooyeon|f-wooyeon",
+      "rubric": "fashion",
+      "subject": "f-wooyeon"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
