@@ -308,67 +308,11 @@
     -2300000318,
     -2300000331,
     -2300000307,
-    -2300000343
+    -2300000343,
+    -2300000319
   ],
-  "last_published_at": "2026-11-21T23:54:19.330180+00:00",
-  "pending": {
-    "object_id": -2300000319,
-    "attempted_at": "2026-11-21T23:54:21.960618+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000319,
-      "rubric": "architecture",
-      "topic": "Рио: музей с раскрытыми крыльями",
-      "caption": "🏛 Современная архитектура\nРио: музей с раскрытыми крыльями\n\nМузей завтрашнего дня в Рио-де-Жанейро — проект Сантьяго Калатравы 2015 года. Вытянутая белая конструкция с повторяющимися рёбрами создаёт ощущение движения. У воды особенно заметны её горизонталь и лёгкий силуэт. Здание интересно рассматривать как соединение инженерной системы и почти биологического образа.\n\nИсточник: Santiago Calatrava\nФото: Mariordo (Mario Roberto Durán Ortiz) · CC BY-SA 4.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 407,
-          "length": 36,
-          "url": "https://commons.wikimedia.org/wiki/File:Museu_do_Amanha_05_2016_Rio_2085.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 446,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Museu_do_Amanha_05_2016_Rio_2085.jpg/1280px-Museu_do_Amanha_05_2016_Rio_2085.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Museu do Amanha 05 2016 Rio 2085.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Museu_do_Amanha_05_2016_Rio_2085.jpg/1280px-Museu_do_Amanha_05_2016_Rio_2085.jpg",
-          "artist": "Mariordo (Mario Roberto Durán Ortiz)",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Museu_do_Amanha_05_2016_Rio_2085.jpg",
-          "description": "Museu do Amanhã viewed from the Guanabara Bay side, , Porto Maravilha, Rio de Janeiro. Shown the solar panels installed in the upper structure. These elements move during the day like wings following the sun path. There are almost 5,500 solar panels in the entire building",
-          "date": "2016-05-16 16:53:08",
-          "credit": "Own work",
-          "permission": "",
-          "width": 1280,
-          "height": 853,
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "source_url": "https://calatrava.com/projects.html?project_type=building",
-      "source_name": "Santiago Calatrava",
-      "modern_year": 2015,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "santiago calatrava",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Museu_do_Amanha_05_2016_Rio_2085.jpg/1280px-Museu_do_Amanha_05_2016_Rio_2085.jpg",
-      "work_key": "santiago calatrava|a-tomorrow",
-      "subject": "a-tomorrow",
-      "visual_family": "a-tomorrow"
-    },
-    "batch_date": "2026-11-21",
-    "sha256": "9c06e336f87aea80919d85909b65c92f79f135c98594c0e28b9b362f5af81039"
-  },
+  "last_published_at": "2026-11-21T23:54:24.296137+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3558,9 +3502,20 @@
       "rubric": "fashion",
       "subject": "f-sora",
       "batch_date": "2026-11-21"
+    },
+    {
+      "object_id": -2300000319,
+      "message_ids": [
+        503
+      ],
+      "source_url": "https://calatrava.com/projects.html?project_type=building",
+      "published_at": "2026-11-21T23:54:24.296137+00:00",
+      "rubric": "architecture",
+      "subject": "a-tomorrow",
+      "batch_date": "2026-11-21"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3591,7 +3546,7 @@
       "target": 15
     },
     "2026-11-21": {
-      "completed": 12,
+      "completed": 13,
       "target": 15
     }
   },
@@ -5313,14 +5268,6 @@
   },
   "recent_content": [
     {
-      "creator": "shigeru ban / jean de gastines",
-      "visual_family": "contemporary-architecture",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Centre_Pompidou-Metz_10.jpg/1280px-Centre_Pompidou-Metz_10.jpg",
-      "work_key": "shigeru ban / jean de gastines|узор, который держит крышу",
-      "rubric": "architecture",
-      "subject": "Узор, который держит крышу"
-    },
-    {
       "creator": "anonymous, french, 19th century",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP809091.jpg",
@@ -6134,6 +6081,14 @@
       "work_key": "wooah sora|f-sora",
       "rubric": "fashion",
       "subject": "f-sora"
+    },
+    {
+      "creator": "santiago calatrava",
+      "visual_family": "a-tomorrow",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Museu_do_Amanha_05_2016_Rio_2085.jpg/1280px-Museu_do_Amanha_05_2016_Rio_2085.jpg",
+      "work_key": "santiago calatrava|a-tomorrow",
+      "rubric": "architecture",
+      "subject": "a-tomorrow"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
