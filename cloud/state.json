@@ -286,7 +286,64 @@
     -2300000301
   ],
   "last_published_at": "2026-11-21T00:54:55.645961+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2300000337,
+    "attempted_at": "2026-11-21T00:54:58.361794+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2300000337,
+      "rubric": "fashion",
+      "topic": "Белое платье и неожиданная косынка",
+      "caption": "👗 Современная мода\nБелое платье и неожиданная косынка\n\nЧум Даранг на Lakmé Fashion Week 2025. Драпированное светлое платье соседствует с контрастной косынкой с графическим рисунком. Мягкая ткань и чёткий принт создают разное настроение, но помещаются в один образ. Неожиданный аксессуар может сделать вечерний наряд менее предсказуемым, сохранив его основную линию.\n\nИсточник: FDCI / фото мероприятия\nФото: Bollywood Hungama · CC BY 3.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 408,
+          "length": 17,
+          "url": "https://commons.wikimedia.org/wiki/File:Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 428,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg/500px-Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Chum Darang snapped at the Lakme Fashion Week 2025.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg/500px-Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
+          "artist": "Bollywood Hungama",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
+          "description": "Chum Darang snapped at the Lakme Fashion Week 2025",
+          "date": "2025-03-30",
+          "credit": "https://www.bollywoodhungama.com/news/parties-and-events/photos-rakul-preet-singh-tara-sutaria-farah-khan-others-grace-lakme-fashion-week-2025/photos-rakul-preet-singh-tara-sutaria-farah-khan-and-others-grace-the-lakme-fashion-week-2025-1-2/",
+          "permission": "",
+          "width": 480,
+          "height": 685,
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
+      "source_name": "FDCI / фото мероприятия",
+      "modern_year": 2025,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "creator": "чум даранг",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg/500px-Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
+      "work_key": "чум даранг|f-chum",
+      "subject": "f-chum",
+      "visual_family": "f-chum"
+    },
+    "batch_date": "2026-11-20",
+    "sha256": "a9059bb7c850f3972c4c05d6646903ba53ecd5cb1d7e7c0c4a1e2f812c4af0d7"
+  },
   "publications": [
     {
       "object_id": 436528,
