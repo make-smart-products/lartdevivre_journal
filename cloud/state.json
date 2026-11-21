@@ -305,55 +305,11 @@
     -2300000330,
     -2300000306,
     -2300000342,
-    -2300000318
+    -2300000318,
+    -2300000331
   ],
-  "last_published_at": "2026-11-21T23:54:05.274439+00:00",
-  "pending": {
-    "object_id": -2300000331,
-    "attempted_at": "2026-11-21T23:54:07.965031+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000331,
-      "rubric": "painting",
-      "topic": "«Танцевальный класс»: жизнь между упражнениями",
-      "caption": "🖼 Известные картины\n«Танцевальный класс»: жизнь между упражнениями\n\nЭдгар Дега, 1874 год, версия из Метрополитен-музея. Балерины поправляют одежду и ждут своей очереди, пока преподаватель наблюдает за занятием. Большая свободная часть пола направляет взгляд в глубину. Вместо торжественного спектакля художник показывает рабочую паузу — именно она делает сцену такой живой.\n\nИсточник: Метрополитен-музей\nРепродукция: Edgar Degas · Public domain",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Edgar_Degas_The_Dance_Class.jpg/1280px-Edgar_Degas_The_Dance_Class.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Edgar Degas The Dance Class.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Edgar_Degas_The_Dance_Class.jpg/1280px-Edgar_Degas_The_Dance_Class.jpg",
-          "artist": "Edgar Degas",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_The_Dance_Class.jpg",
-          "description": "The imaginary scene is set in a rehearsal room in the old Paris Opéra—a poster for Rossini's \"Guillaume Tell\" is on the wall beside the mirror—even though the building had just burned to the ground.",
-          "date": "1874 date QS:P571,+1874-00-00T00:00:00Z/9",
-          "credit": "Metropolitan Museum of Art",
-          "permission": "This is a faithful photographic reproduction of a two-dimensional, public domain work of art. The work of art itself is in the public domain for the following reason: Public domain Public domain false false The author died in 1917, so this work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer . This work is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office ) before January 1, 1931. This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. https://creativecommons.org/publicdomain/mark/1.0/ PDM Creative Commons Public Domain Mark 1.0 false false The official position taken by the Wikimedia Foundation is that \" faithful reproductions of two-dimensional public domain works of art are public domain \". This photographic reproduction is therefore also considered to be in the public domain in the United States. In other jurisdictions, re-use of this content may be restricted; see Reuse of PD-Art photographs for details. This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication . The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. http://creativecommons.org/publicdomain/zero/1.0/deed.en CC0 Creative Commons Zero, Public Domain Dedication false false",
-          "width": 1280,
-          "height": 1384
-        }
-      ],
-      "source_url": "https://www.metmuseum.org/art/collection/search/438817",
-      "source_name": "Метрополитен-музей",
-      "modern_year": 1874,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "эдгар дега",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Edgar_Degas_The_Dance_Class.jpg/1280px-Edgar_Degas_The_Dance_Class.jpg",
-      "work_key": "эдгар дега|p-dance",
-      "subject": "p-dance",
-      "visual_family": "p-dance",
-      "famous_work_verified": true,
-      "artwork_public_domain_verified": true
-    },
-    "batch_date": "2026-11-21",
-    "sha256": "a5422b1c73908f3928740fa8706160c57df1b68fda2f02d63b93ee1daf63fafa"
-  },
+  "last_published_at": "2026-11-21T23:54:09.631364+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3510,9 +3466,20 @@
       "rubric": "architecture",
       "subject": "a-alexandria",
       "batch_date": "2026-11-21"
+    },
+    {
+      "object_id": -2300000331,
+      "message_ids": [
+        500
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/438817",
+      "published_at": "2026-11-21T23:54:09.631364+00:00",
+      "rubric": "painting",
+      "subject": "p-dance",
+      "batch_date": "2026-11-21"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3543,7 +3510,7 @@
       "target": 15
     },
     "2026-11-21": {
-      "completed": 9,
+      "completed": 10,
       "target": 15
     }
   },
@@ -5265,15 +5232,6 @@
   },
   "recent_content": [
     {
-      "creator": "robert thew",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP859568.jpg",
-      "work_key": "robert thew|queen catherine, cardinal wolsey and cardinal campeius (shakespeare, king henry viii, act 3, scene 1)",
-      "rubric": "books",
-      "subject": "shakespeare",
-      "angle": 2
-    },
-    {
       "creator": "honoré daumier",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP877687.jpg",
@@ -6089,6 +6047,14 @@
       "work_key": "snøhetta|a-alexandria",
       "rubric": "architecture",
       "subject": "a-alexandria"
+    },
+    {
+      "creator": "эдгар дега",
+      "visual_family": "p-dance",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Edgar_Degas_The_Dance_Class.jpg/1280px-Edgar_Degas_The_Dance_Class.jpg",
+      "work_key": "эдгар дега|p-dance",
+      "rubric": "painting",
+      "subject": "p-dance"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
