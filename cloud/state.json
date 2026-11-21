@@ -310,69 +310,11 @@
     -2300000307,
     -2300000343,
     -2300000319,
-    -2300000332
+    -2300000332,
+    -2300000308
   ],
-  "last_published_at": "2026-11-21T23:54:28.542111+00:00",
-  "pending": {
-    "object_id": -2300000308,
-    "attempted_at": "2026-11-21T23:54:31.156942+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000308,
-      "rubric": "celebrities",
-      "topic": "Джессика Честейн: цвет у самого лица",
-      "caption": "✨ Модели, актрисы и знаменитости\nДжессика Честейн: цвет у самого лица\n\nДжессика Честейн получила «Оскар» за «Глаза Тэмми Фэй» в 2022 году. На Берлинском кинофестивале 2025 года её рыжие волосы встречаются с ярким жёлто-зелёным цветом блузы. Небольшие сверкающие детали у воротника и на ухе поддерживают это сочетание. Один выразительный цвет может заменить сложный набор аксессуаров.\n\nИсточник: Американская киноакадемия\nФото: Harald Krichel · CC BY-SA 4.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 427,
-          "length": 14,
-          "url": "https://commons.wikimedia.org/wiki/File:Jessica_Chastain-64631_(cropped).jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 444,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Jessica_Chastain-64631_%28cropped%29.jpg/1280px-Jessica_Chastain-64631_%28cropped%29.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Jessica Chastain-64631 (cropped).jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Jessica_Chastain-64631_%28cropped%29.jpg/1280px-Jessica_Chastain-64631_%28cropped%29.jpg",
-          "artist": "Harald Krichel",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Jessica_Chastain-64631_(cropped).jpg",
-          "description": "Actress Jessica Chastain at the 75th Berlin International Film Festival",
-          "date": "2025-02-15",
-          "credit": "Own work",
-          "permission": "",
-          "width": 1280,
-          "height": 1545,
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "image_role": "portrait"
-        }
-      ],
-      "source_url": "https://www.oscars.org/oscars/ceremonies/2022",
-      "source_name": "Американская киноакадемия",
-      "modern_year": 2022,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "джессика честейн",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Jessica_Chastain-64631_%28cropped%29.jpg/1280px-Jessica_Chastain-64631_%28cropped%29.jpg",
-      "work_key": "джессика честейн|c-chastain",
-      "subject": "c-chastain",
-      "visual_family": "c-chastain",
-      "person_verified": true
-    },
-    "batch_date": "2026-11-21",
-    "sha256": "3dd824ab77fce65eb6617eb096998599349e30a40596ce737f0774c3fd1caaa4"
-  },
+  "last_published_at": "2026-11-21T23:54:32.822567+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3584,9 +3526,20 @@
       "rubric": "painting",
       "subject": "p-moulin",
       "batch_date": "2026-11-21"
+    },
+    {
+      "object_id": -2300000308,
+      "message_ids": [
+        505
+      ],
+      "source_url": "https://www.oscars.org/oscars/ceremonies/2022",
+      "published_at": "2026-11-21T23:54:32.822567+00:00",
+      "rubric": "celebrities",
+      "subject": "c-chastain",
+      "batch_date": "2026-11-21"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3617,7 +3570,7 @@
       "target": 15
     },
     "2026-11-21": {
-      "completed": 14,
+      "completed": 15,
       "target": 15
     }
   },
@@ -5339,14 +5292,6 @@
   },
   "recent_content": [
     {
-      "creator": "донателла маццолени",
-      "visual_family": "contemporary-women",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/IL_CORPO_DI_NAPOLI.jpg/1280px-IL_CORPO_DI_NAPOLI.jpg",
-      "work_key": "донателла маццолени|«il corpo di napoli», 2019",
-      "rubric": "women",
-      "subject": "«Il corpo di Napoli», 2019"
-    },
-    {
       "creator": "блейн уайт",
       "visual_family": "contemporary-painting",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/A_Passion_Undivided.jpg/1280px-A_Passion_Undivided.jpg",
@@ -6159,6 +6104,14 @@
       "work_key": "огюст ренуар|p-moulin",
       "rubric": "painting",
       "subject": "p-moulin"
+    },
+    {
+      "creator": "джессика честейн",
+      "visual_family": "c-chastain",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Jessica_Chastain-64631_%28cropped%29.jpg/1280px-Jessica_Chastain-64631_%28cropped%29.jpg",
+      "work_key": "джессика честейн|c-chastain",
+      "rubric": "celebrities",
+      "subject": "c-chastain"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
