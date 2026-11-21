@@ -283,67 +283,11 @@
     -2200000204,
     -2200000208,
     -2300000325,
-    -2300000301
+    -2300000301,
+    -2300000337
   ],
-  "last_published_at": "2026-11-21T00:54:55.645961+00:00",
-  "pending": {
-    "object_id": -2300000337,
-    "attempted_at": "2026-11-21T00:54:58.361794+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000337,
-      "rubric": "fashion",
-      "topic": "Белое платье и неожиданная косынка",
-      "caption": "👗 Современная мода\nБелое платье и неожиданная косынка\n\nЧум Даранг на Lakmé Fashion Week 2025. Драпированное светлое платье соседствует с контрастной косынкой с графическим рисунком. Мягкая ткань и чёткий принт создают разное настроение, но помещаются в один образ. Неожиданный аксессуар может сделать вечерний наряд менее предсказуемым, сохранив его основную линию.\n\nИсточник: FDCI / фото мероприятия\nФото: Bollywood Hungama · CC BY 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 408,
-          "length": 17,
-          "url": "https://commons.wikimedia.org/wiki/File:Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 428,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg/500px-Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Chum Darang snapped at the Lakme Fashion Week 2025.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg/500px-Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
-          "artist": "Bollywood Hungama",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
-          "description": "Chum Darang snapped at the Lakme Fashion Week 2025",
-          "date": "2025-03-30",
-          "credit": "https://www.bollywoodhungama.com/news/parties-and-events/photos-rakul-preet-singh-tara-sutaria-farah-khan-others-grace-lakme-fashion-week-2025/photos-rakul-preet-singh-tara-sutaria-farah-khan-and-others-grace-the-lakme-fashion-week-2025-1-2/",
-          "permission": "",
-          "width": 480,
-          "height": 685,
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
-      "source_name": "FDCI / фото мероприятия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "чум даранг",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg/500px-Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
-      "work_key": "чум даранг|f-chum",
-      "subject": "f-chum",
-      "visual_family": "f-chum"
-    },
-    "batch_date": "2026-11-20",
-    "sha256": "a9059bb7c850f3972c4c05d6646903ba53ecd5cb1d7e7c0c4a1e2f812c4af0d7"
-  },
+  "last_published_at": "2026-11-21T00:55:00.763539+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3258,9 +3202,20 @@
       "rubric": "celebrities",
       "subject": "c-madison",
       "batch_date": "2026-11-20"
+    },
+    {
+      "object_id": -2300000337,
+      "message_ids": [
+        478
+      ],
+      "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
+      "published_at": "2026-11-21T00:55:00.763539+00:00",
+      "rubric": "fashion",
+      "subject": "f-chum",
+      "batch_date": "2026-11-20"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3287,7 +3242,7 @@
       "target": 15
     },
     "2026-11-20": {
-      "completed": 2,
+      "completed": 3,
       "target": 15
     }
   },
@@ -5009,14 +4964,6 @@
   },
   "recent_content": [
     {
-      "creator": "кара джослин",
-      "visual_family": "contemporary-women",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%22The_Stranger_%28L%27Etranger%29%2C%22_2020%2C_Kara_Joslyn%2C_acrylic_and_polymer_automotive_paint_on_canvas_panel%2C_72x60_inches.jpg/1280px-%22The_Stranger_%28L%27Etranger%29%2C%22_2020%2C_Kara_Joslyn%2C_acrylic_and_polymer_automotive_paint_on_canvas_panel%2C_72x60_inches.jpg",
-      "work_key": "кара джослин|«the stranger (l’etranger)», 2020",
-      "rubric": "women",
-      "subject": "«The Stranger (L’Etranger)», 2020"
-    },
-    {
       "creator": "виланд пайер",
       "visual_family": "contemporary-painting",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Wieland_Payer_-_Seeker.jpg/1280px-Wieland_Payer_-_Seeker.jpg",
@@ -5844,6 +5791,14 @@
       "work_key": "майки мэдисон|c-madison",
       "rubric": "celebrities",
       "subject": "c-madison"
+    },
+    {
+      "creator": "чум даранг",
+      "visual_family": "f-chum",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg/500px-Chum_Darang_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
+      "work_key": "чум даранг|f-chum",
+      "rubric": "fashion",
+      "subject": "f-chum"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
