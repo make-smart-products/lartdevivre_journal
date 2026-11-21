@@ -284,67 +284,11 @@
     -2200000208,
     -2300000325,
     -2300000301,
-    -2300000337
+    -2300000337,
+    -2300000313
   ],
-  "last_published_at": "2026-11-21T00:55:00.763539+00:00",
-  "pending": {
-    "object_id": -2300000313,
-    "attempted_at": "2026-11-21T00:55:03.777658+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000313,
-      "rubric": "architecture",
-      "topic": "Библиотека как стеклянный кристалл",
-      "caption": "🏛 Современная архитектура\nБиблиотека как стеклянный кристалл\n\nЦентральная библиотека Сиэтла, 2004 год, OMA и LMN. Наклонные стеклянные плоскости повторяют расположение разных функциональных зон внутри. Ромбовидная сетка делает сложный объём цельным. За выразительным фасадом стоит практическая идея: связать хранение книг, работу и общественные пространства в одном здании.\n\nИсточник: OMA\nФото: brewbooks from near Seattle, USA · CC BY-SA 2.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 396,
-          "length": 32,
-          "url": "https://commons.wikimedia.org/wiki/File:Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 431,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/2.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg/1280px-Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Seattle Central Library exterior - Flickr - brewbooks.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg/1280px-Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg",
-          "artist": "brewbooks from near Seattle, USA",
-          "license": "CC BY-SA 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg",
-          "description": "On a photo tour of Seattle Central Library with listorama seattle 076",
-          "date": "2009-12-06 03:18",
-          "credit": "Seattle Central Library exterior",
-          "permission": "",
-          "width": 1280,
-          "height": 853,
-          "license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
-        }
-      ],
-      "source_url": "https://www.oma.com/projects/seattle-central-library",
-      "source_name": "OMA",
-      "modern_year": 2004,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "oma",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg/1280px-Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg",
-      "work_key": "oma|a-seattle",
-      "subject": "a-seattle",
-      "visual_family": "a-seattle"
-    },
-    "batch_date": "2026-11-20",
-    "sha256": "b6fbf66b8ed2f8956aa4c8dfdd8cba3320c3ea64963c9ab89df5712bf55e6590"
-  },
+  "last_published_at": "2026-11-21T00:55:06.656798+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3270,9 +3214,20 @@
       "rubric": "fashion",
       "subject": "f-chum",
       "batch_date": "2026-11-20"
+    },
+    {
+      "object_id": -2300000313,
+      "message_ids": [
+        479
+      ],
+      "source_url": "https://www.oma.com/projects/seattle-central-library",
+      "published_at": "2026-11-21T00:55:06.656798+00:00",
+      "rubric": "architecture",
+      "subject": "a-seattle",
+      "batch_date": "2026-11-20"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3299,7 +3254,7 @@
       "target": 15
     },
     "2026-11-20": {
-      "completed": 3,
+      "completed": 4,
       "target": 15
     }
   },
@@ -5021,14 +4976,6 @@
   },
   "recent_content": [
     {
-      "creator": "виланд пайер",
-      "visual_family": "contemporary-painting",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Wieland_Payer_-_Seeker.jpg/1280px-Wieland_Payer_-_Seeker.jpg",
-      "work_key": "виланд пайер|«seeker», 2023: пейзаж с несколькими слоями",
-      "rubric": "painting",
-      "subject": "«Seeker», 2023: пейзаж с несколькими слоями"
-    },
-    {
       "creator": "kōami shinzaburō",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/as/web-large/29_100_723_Tp.JPG",
@@ -5856,6 +5803,14 @@
       "work_key": "чум даранг|f-chum",
       "rubric": "fashion",
       "subject": "f-chum"
+    },
+    {
+      "creator": "oma",
+      "visual_family": "a-seattle",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg/1280px-Seattle_Central_Library_exterior_-_Flickr_-_brewbooks.jpg",
+      "work_key": "oma|a-seattle",
+      "rubric": "architecture",
+      "subject": "a-seattle"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
