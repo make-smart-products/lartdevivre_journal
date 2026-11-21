@@ -290,7 +290,64 @@
     -2300000302
   ],
   "last_published_at": "2026-11-21T00:55:16.671946+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2300000338,
+    "attempted_at": "2026-11-21T00:55:19.461058+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2300000338,
+      "rubric": "fashion",
+      "topic": "Кружево с геометрическим ритмом",
+      "caption": "👗 Современная мода\nКружево с геометрическим ритмом\n\nТара Сутария на Lakmé Fashion Week 2025. Длинные рукава и низ платья покрыты повторяющимся чёрным узором, а центральная часть читается плотнее. Благодаря этому кружево работает сразу как поверхность и рисунок. Длинные прямые волосы поддерживают вытянутую линию силуэта; дополнительные крупные украшения здесь совсем не обязательны.\n\nИсточник: FDCI / фото мероприятия\nФото: Bollywood Hungama · CC BY 3.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 426,
+          "length": 17,
+          "url": "https://commons.wikimedia.org/wiki/File:Tara_Sutaria_snapped_at_the_Lakme_Fashion_Week_2025.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 446,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Tara_Sutaria_snapped_at_the_Lakme_Fashion_Week_2025.jpg/500px-Tara_Sutaria_snapped_at_the_Lakme_Fashion_Week_2025.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Tara Sutaria snapped at the Lakme Fashion Week 2025.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Tara_Sutaria_snapped_at_the_Lakme_Fashion_Week_2025.jpg/500px-Tara_Sutaria_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
+          "artist": "Bollywood Hungama",
+          "license": "CC BY 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Tara_Sutaria_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
+          "description": "Tara Sutaria snapped at the Lakme Fashion Week 2025",
+          "date": "2025-03-30",
+          "credit": "https://www.bollywoodhungama.com/news/parties-and-events/photos-rakul-preet-singh-tara-sutaria-farah-khan-others-grace-lakme-fashion-week-2025/photos-rakul-preet-singh-tara-sutaria-farah-khan-and-others-grace-the-lakme-fashion-week-2025-2/",
+          "permission": "",
+          "width": 480,
+          "height": 657,
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "source_url": "https://fdci.org/event/lakme-fashion-week-x-fdci-2025/",
+      "source_name": "FDCI / фото мероприятия",
+      "modern_year": 2025,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "creator": "тара сутария",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Tara_Sutaria_snapped_at_the_Lakme_Fashion_Week_2025.jpg/500px-Tara_Sutaria_snapped_at_the_Lakme_Fashion_Week_2025.jpg",
+      "work_key": "тара сутария|f-tara",
+      "subject": "f-tara",
+      "visual_family": "f-tara"
+    },
+    "batch_date": "2026-11-20",
+    "sha256": "aab7dbb8b6063234991e0e1413452dae62c2ad0f382d4b319678729790d3ffc7"
+  },
   "publications": [
     {
       "object_id": 436528,
