@@ -281,55 +281,11 @@
     -2200000211,
     -2200000214,
     -2200000204,
-    -2200000208
+    -2200000208,
+    -2300000325
   ],
-  "last_published_at": "2026-11-13T21:34:00.367366+00:00",
-  "pending": {
-    "object_id": -2300000325,
-    "attempted_at": "2026-11-21T00:54:48.516493+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000325,
-      "rubric": "painting",
-      "topic": "«Молочница»: внимание к простому действию",
-      "caption": "🖼 Известные картины\n«Молочница»: внимание к простому действию\n\nЯн Вермеер, около 1660 года. Тонкая струя молока удерживает внимание в центре спокойной сцены. Свет из окна выделяет хлеб, керамику и складки одежды, превращая повседневное занятие в самостоятельный сюжет. В этой картине интересно замечать, сколько выразительности рождается из небольших различий фактуры.\n\nИсточник: Рейксмюсеум\nРепродукция: Johannes Vermeer · Public domain",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Johannes Vermeer - Het melkmeisje - Google Art Project.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
-          "artist": "Johannes Vermeer",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
-          "description": "",
-          "date": "circa 1660 date QS:P571,+1660-00-00T00:00:00Z/9,P1480,Q5727902",
-          "credit": "Google Arts & Culture — AHrw. Z3. Av6. Zhjg 9. AHrw. Z3. Av6. Zhjg",
-          "permission": "",
-          "width": 1280,
-          "height": 1435
-        }
-      ],
-      "source_url": "https://www.rijksmuseum.nl/en/story/milkmaid-vermeer",
-      "source_name": "Рейксмюсеум",
-      "modern_year": 1660,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "ян вермеер",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
-      "work_key": "ян вермеер|p-milkmaid",
-      "subject": "p-milkmaid",
-      "visual_family": "p-milkmaid",
-      "famous_work_verified": true,
-      "artwork_public_domain_verified": true
-    },
-    "batch_date": "2026-11-20",
-    "sha256": "a4ccc3f1d28eacc3e594e0c01ee81681862a79738d32928efa3fddf950540d30"
-  },
+  "last_published_at": "2026-11-21T00:54:50.995537+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3222,9 +3178,20 @@
       "rubric": "architecture",
       "subject": "apple",
       "batch_date": "2026-11-14"
+    },
+    {
+      "object_id": -2300000325,
+      "message_ids": [
+        476
+      ],
+      "source_url": "https://www.rijksmuseum.nl/en/story/milkmaid-vermeer",
+      "published_at": "2026-11-21T00:54:50.995537+00:00",
+      "rubric": "painting",
+      "subject": "p-milkmaid",
+      "batch_date": "2026-11-20"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3248,6 +3215,10 @@
     },
     "2026-11-14": {
       "completed": 15,
+      "target": 15
+    },
+    "2026-11-20": {
+      "completed": 1,
       "target": 15
     }
   },
@@ -4969,14 +4940,6 @@
   },
   "recent_content": [
     {
-      "creator": "kengo kuma",
-      "visual_family": "contemporary-architecture",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg/1280px-Discovery_and_the_V%5EA_-_geograph.org.uk_-_7342982.jpg",
-      "work_key": "kengo kuma|бетон с ритмом прибрежных скал",
-      "rubric": "architecture",
-      "subject": "Бетон с ритмом прибрежных скал"
-    },
-    {
       "creator": "utagawa hiroshige",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP123598.jpg",
@@ -5805,6 +5768,14 @@
       "work_key": "foster + partners|apple",
       "rubric": "architecture",
       "subject": "apple"
+    },
+    {
+      "creator": "ян вермеер",
+      "visual_family": "p-milkmaid",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+      "work_key": "ян вермеер|p-milkmaid",
+      "rubric": "painting",
+      "subject": "p-milkmaid"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
