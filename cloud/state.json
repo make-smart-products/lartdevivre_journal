@@ -286,69 +286,11 @@
     -2300000301,
     -2300000337,
     -2300000313,
-    -2300000326
+    -2300000326,
+    -2300000302
   ],
-  "last_published_at": "2026-11-21T00:55:11.388828+00:00",
-  "pending": {
-    "object_id": -2300000302,
-    "attempted_at": "2026-11-21T00:55:14.193439+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000302,
-      "rubric": "celebrities",
-      "topic": "Зои Салдана: фестивальный портрет до награды",
-      "caption": "✨ Модели, актрисы и знаменитости\nЗои Салдана: фестивальный портрет до награды\n\nЗа «Эмилию Перес» Зои Салдана получила «Оскар» за роль второго плана в 2025 году. Этот кадр сделан на фестивале в Торонто в 2024-м. Тонкие бретели и сложный рисунок кружева сочетаются с небольшими серьгами. В крупном портрете хорошо видно, как фактура одежды задаёт настроение всему образу.\n\nИсточник: Американская киноакадемия\nФото: Frank Sun · CC BY-SA 4.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 413,
-          "length": 9,
-          "url": "https://commons.wikimedia.org/wiki/File:Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 425,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg/1280px-Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Zoe Saldana at the 2024 Toronto International Film Festival 4.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg/1280px-Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg",
-          "artist": "Frank Sun",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg",
-          "description": "Zoe Saldana, actor, at the 2024 Toronto International Film Festival (TIFF) in Toronto, Canada",
-          "date": "2024-09-09 18:19:44",
-          "credit": "Own work",
-          "permission": "",
-          "width": 1280,
-          "height": 1931,
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "image_role": "portrait"
-        }
-      ],
-      "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
-      "source_name": "Американская киноакадемия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "зои салдана",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg/1280px-Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg",
-      "work_key": "зои салдана|c-saldana",
-      "subject": "c-saldana",
-      "visual_family": "c-saldana",
-      "person_verified": true
-    },
-    "batch_date": "2026-11-20",
-    "sha256": "000e117af6067cab9bd9de255c7bf3c52446f1e661d3a0c8896d2924ba564409"
-  },
+  "last_published_at": "2026-11-21T00:55:16.671946+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3296,9 +3238,20 @@
       "rubric": "painting",
       "subject": "p-mona",
       "batch_date": "2026-11-20"
+    },
+    {
+      "object_id": -2300000302,
+      "message_ids": [
+        481
+      ],
+      "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
+      "published_at": "2026-11-21T00:55:16.671946+00:00",
+      "rubric": "celebrities",
+      "subject": "c-saldana",
+      "batch_date": "2026-11-20"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3325,7 +3278,7 @@
       "target": 15
     },
     "2026-11-20": {
-      "completed": 5,
+      "completed": 6,
       "target": 15
     }
   },
@@ -5047,16 +5000,6 @@
   },
   "recent_content": [
     {
-      "creator": "anonymous",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP870761.jpg",
-      "work_key": "anonymous|castello sant' angelo, from \"speculum romanae magnificentiae\"",
-      "rubric": "quiz",
-      "subject": "Печатная графика",
-      "angle": 0,
-      "quiz_format": "technique"
-    },
-    {
       "creator": "cos",
       "visual_family": "contemporary-fashion",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Woman_in_pantsuit_sitting_on_chair_%28Originally_untitled%29_43316436315.jpg/1280px-Woman_in_pantsuit_sitting_on_chair_%28Originally_untitled%29_43316436315.jpg",
@@ -5881,6 +5824,14 @@
       "work_key": "леонардо да винчи|p-mona",
       "rubric": "painting",
       "subject": "p-mona"
+    },
+    {
+      "creator": "зои салдана",
+      "visual_family": "c-saldana",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg/1280px-Zoe_Saldana_at_the_2024_Toronto_International_Film_Festival_4.jpg",
+      "work_key": "зои салдана|c-saldana",
+      "rubric": "celebrities",
+      "subject": "c-saldana"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
