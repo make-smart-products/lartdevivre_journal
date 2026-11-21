@@ -309,7 +309,66 @@
     -2300000331
   ],
   "last_published_at": "2026-11-21T23:54:09.631364+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2300000307,
+    "attempted_at": "2026-11-21T23:54:12.307182+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2300000307,
+      "rubric": "celebrities",
+      "topic": "Мишель Йео: очки как часть публичного образа",
+      "caption": "✨ Модели, актрисы и знаменитости\nМишель Йео: очки как часть публичного образа\n\nМишель Йео получила «Оскар» за главную роль во «Всё везде и сразу» в 2023 году. На фотографии того же года — светлый жакет и выразительная оправа. Цветной значок становится небольшим акцентом. Образ для публичного выступления показывает другую сторону актрисы, знакомой зрителям по экранным превращениям.\n\nИсточник: Американская киноакадемия\nФото: Photographer: Lukasz Kobus / European Union · CC BY 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 427,
+          "length": 43,
+          "url": "https://commons.wikimedia.org/wiki/File:Michelle_Yeoh_at_EC_(2023)_2.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 473,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Michelle_Yeoh_at_EC_%282023%29_2.jpg/1280px-Michelle_Yeoh_at_EC_%282023%29_2.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Michelle Yeoh at EC (2023) 2.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Michelle_Yeoh_at_EC_%282023%29_2.jpg/1280px-Michelle_Yeoh_at_EC_%282023%29_2.jpg",
+          "artist": "Photographer: Lukasz Kobus / European Union",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Michelle_Yeoh_at_EC_(2023)_2.jpg",
+          "description": "United Nations Development Programme Goodwill Ambassador (UNDP) Michelle Yeoh at a press conference in European Commission regarding Road Safety.",
+          "date": "2023-09-20 14:20:58",
+          "credit": "Press briefing by Adina Vălean, European Commissioner, Jean Todt, United Nations Secretary-General`s Special Envoy for Road Safety, Jean-Charles Decaux, Co-CEO of JCDecaux, and Michelle Yeoh United Nations Development Programme Goodwill Ambassador",
+          "permission": "",
+          "width": 1280,
+          "height": 1827,
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "image_role": "portrait"
+        }
+      ],
+      "source_url": "https://www.oscars.org/oscars/ceremonies/2023",
+      "source_name": "Американская киноакадемия",
+      "modern_year": 2023,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "creator": "мишель йео",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Michelle_Yeoh_at_EC_%282023%29_2.jpg/1280px-Michelle_Yeoh_at_EC_%282023%29_2.jpg",
+      "work_key": "мишель йео|c-yeoh",
+      "subject": "c-yeoh",
+      "visual_family": "c-yeoh",
+      "person_verified": true
+    },
+    "batch_date": "2026-11-21",
+    "sha256": "d3d83721656616cf30825fea7122376577b3b192d9e707e9ed628e1de351697a"
+  },
   "publications": [
     {
       "object_id": 436528,
