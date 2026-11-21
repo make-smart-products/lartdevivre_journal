@@ -300,53 +300,11 @@
     -2300000316,
     -2300000329,
     -2300000305,
-    -2300000341
+    -2300000341,
+    -2300000317
   ],
-  "last_published_at": "2026-11-21T23:53:41.179642+00:00",
-  "pending": {
-    "object_id": -2300000317,
-    "attempted_at": "2026-11-21T23:53:43.688197+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000317,
-      "rubric": "architecture",
-      "topic": "Музей под белой вуалью",
-      "caption": "🏛 Современная архитектура\nМузей под белой вуалью\n\nThe Broad в Лос-Анджелесе открылся в 2015 году. Diller Scofidio + Renfro вместе с Gensler объединили хранилище и выставочные пространства под ячеистой оболочкой. На снимке фасад складывается из повторяющихся диагоналей. Такая «вуаль» одновременно формирует узнаваемый образ и помогает работать с дневным светом.\n\nИсточник: The Broad\nФото: Leviclancy · CC0",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg/1280px-Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Exterior of the Broad Museum in Downtown LA.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg/1280px-Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg",
-          "artist": "Leviclancy",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg",
-          "description": "Exterior of the Broad Museum in Downtown LA",
-          "date": "2015-11-12 11:05:28",
-          "credit": "Own work",
-          "permission": "",
-          "width": 1280,
-          "height": 851
-        }
-      ],
-      "source_url": "https://www.thebroad.org/sites/default/files/the_broad_general_information_brochure.pdf",
-      "source_name": "The Broad",
-      "modern_year": 2015,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "diller scofidio + renfro",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg/1280px-Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg",
-      "work_key": "diller scofidio + renfro|a-broad",
-      "subject": "a-broad",
-      "visual_family": "a-broad"
-    },
-    "batch_date": "2026-11-21",
-    "sha256": "3f4d4f203d2ecfdd4d233bd21af3b7c0aa0eb4f1b7ed163313167d2ba7e36166"
-  },
+  "last_published_at": "2026-11-21T23:53:46.073744+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3448,9 +3406,20 @@
       "rubric": "fashion",
       "subject": "f-jessie",
       "batch_date": "2026-11-21"
+    },
+    {
+      "object_id": -2300000317,
+      "message_ids": [
+        495
+      ],
+      "source_url": "https://www.thebroad.org/sites/default/files/the_broad_general_information_brochure.pdf",
+      "published_at": "2026-11-21T23:53:46.073744+00:00",
+      "rubric": "architecture",
+      "subject": "a-broad",
+      "batch_date": "2026-11-21"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3481,7 +3450,7 @@
       "target": 15
     },
     "2026-11-21": {
-      "completed": 4,
+      "completed": 5,
       "target": 15
     }
   },
@@ -5203,14 +5172,6 @@
   },
   "recent_content": [
     {
-      "creator": "uniqlo",
-      "visual_family": "contemporary-fashion",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Street_fashion_%2841455836144%29.jpg/1280px-Street_fashion_%2841455836144%29.jpg",
-      "work_key": "uniqlo|один цветовой акцент",
-      "rubric": "fashion",
-      "subject": "Один цветовой акцент"
-    },
-    {
       "creator": "zaha hadid architects",
       "visual_family": "contemporary-architecture",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%85%B4%E6%9C%BA%E5%9C%BA%E8%88%AA%E7%AB%99%E6%A5%BC%2C_2023-02-20_%2820240113195424%29.jpg/1280px-%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%85%B4%E6%9C%BA%E5%9C%BA%E8%88%AA%E7%AB%99%E6%A5%BC%2C_2023-02-20_%2820240113195424%29.jpg",
@@ -6028,6 +5989,14 @@
       "work_key": "джесси эндрюс|f-jessie",
       "rubric": "fashion",
       "subject": "f-jessie"
+    },
+    {
+      "creator": "diller scofidio + renfro",
+      "visual_family": "a-broad",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg/1280px-Exterior_of_the_Broad_Museum_in_Downtown_LA.jpg",
+      "work_key": "diller scofidio + renfro|a-broad",
+      "rubric": "architecture",
+      "subject": "a-broad"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
