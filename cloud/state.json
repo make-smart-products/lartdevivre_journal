@@ -302,7 +302,64 @@
     -2300000305
   ],
   "last_published_at": "2026-11-21T23:53:35.791335+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2300000341,
+    "attempted_at": "2026-11-21T23:53:38.844280+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2300000341,
+      "rubric": "fashion",
+      "topic": "Милан: светлый образ без обилия цвета",
+      "caption": "👗 Современная мода\nМилан: светлый образ без обилия цвета\n\nДжесси Эндрюс в Милане, сентябрь 2025 года, у показа Dolce & Gabbana. Светлый кружевной верх соединяется с полупрозрачной тканью; длинные серьги повторяют свободную линию волос. В таком сочетании главный интерес — в материалах и их границах. Архивный снимок показывает конкретный выход, а не новую коллекцию.\n\nИсточник: Camera Nazionale della Moda Italiana / авторская фотография\nФото: JacopoRaule25 · CC BY-SA 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 445,
+          "length": 13,
+          "url": "https://commons.wikimedia.org/wiki/File:Jessie_Andrews_in_Milan_2025.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 461,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Jessie_Andrews_in_Milan_2025.jpg/1280px-Jessie_Andrews_in_Milan_2025.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Jessie Andrews in Milan 2025.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Jessie_Andrews_in_Milan_2025.jpg/1280px-Jessie_Andrews_in_Milan_2025.jpg",
+          "artist": "JacopoRaule25",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jessie_Andrews_in_Milan_2025.jpg",
+          "description": "Jessie Andrews arriving in Milan at D&G 2025",
+          "date": "2025-09-25",
+          "credit": "Own work",
+          "permission": ".mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important} This work is free and may be used by anyone for any purpose. If you wish to use this content , you do not need to request permission as long as you follow any licensing requirements mentioned on this page. The Wikimedia Foundation has received an e-mail confirming that the copyright holder has approved publication under the terms mentioned on this page. This correspondence has been reviewed by a Volunteer Response Team (VRT) member and stored in our permission archive . The correspondence is available to trusted volunteers as ticket #2026020110007135 . If you have questions about the archived correspondence, please use the VRT noticeboard . Ticket link: https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&TicketNumber=2026020110007135 Find other files from the same ticket:",
+          "width": 1280,
+          "height": 1615,
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "source_url": "https://www.cameramoda.it/it/milano-moda-donna/calendario-pdf-ws/204/",
+      "source_name": "Camera Nazionale della Moda Italiana / авторская фотография",
+      "modern_year": 2025,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "creator": "джесси эндрюс",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Jessie_Andrews_in_Milan_2025.jpg/1280px-Jessie_Andrews_in_Milan_2025.jpg",
+      "work_key": "джесси эндрюс|f-jessie",
+      "subject": "f-jessie",
+      "visual_family": "f-jessie"
+    },
+    "batch_date": "2026-11-21",
+    "sha256": "3476615f7629e341376eabbdff4f3871a5efd29e4de211a865277643a9277057"
+  },
   "publications": [
     {
       "object_id": 436528,
