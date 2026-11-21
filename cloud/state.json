@@ -285,55 +285,11 @@
     -2300000325,
     -2300000301,
     -2300000337,
-    -2300000313
+    -2300000313,
+    -2300000326
   ],
-  "last_published_at": "2026-11-21T00:55:06.656798+00:00",
-  "pending": {
-    "object_id": -2300000326,
-    "attempted_at": "2026-11-21T00:55:09.513439+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000326,
-      "rubric": "painting",
-      "topic": "«Мона Лиза»: мягкость границ",
-      "caption": "🖼 Известные картины\n«Мона Лиза»: мягкость границ\n\nЛеонардо начал этот портрет около 1503 года и продолжал работать над ним позднее. В знакомом лице почти невозможно провести жёсткую границу между светом и тенью. Дальние скалы и дорога растворяются в дымке. Мягкие переходы связывают фигуру и пейзаж в одно пространство.\n\nИсточник: Лувр\nРепродукция: Leonardo da Vinci · Public domain",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
-          "artist": "Leonardo da Vinci",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
-          "description": "",
-          "date": "between 1503 and 1506 date QS:P,+1503-00-00T00:00:00Z/8,P1319,+1503-00-00T00:00:00Z/9,P1326,+1506-00-00T00:00:00Z/9",
-          "credit": "Cropped and relevelled from File:Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg . Originally C2RMF: Galerie de tableaux en très haute définition : image page",
-          "permission": "",
-          "width": 1280,
-          "height": 1908
-        }
-      ],
-      "source_url": "https://api-www.louvre.fr/sites/default/files/2025-11/Dossier_pedagogique_Louvre%20en%20classe.pdf",
-      "source_name": "Лувр",
-      "modern_year": 1503,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "леонардо да винчи",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
-      "work_key": "леонардо да винчи|p-mona",
-      "subject": "p-mona",
-      "visual_family": "p-mona",
-      "famous_work_verified": true,
-      "artwork_public_domain_verified": true
-    },
-    "batch_date": "2026-11-20",
-    "sha256": "46a2436fa10498f1cb142b5af983be21a5615cb5b2d888dd6aa05ce0639f7a85"
-  },
+  "last_published_at": "2026-11-21T00:55:11.388828+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3270,9 +3226,20 @@
       "rubric": "architecture",
       "subject": "a-seattle",
       "batch_date": "2026-11-20"
+    },
+    {
+      "object_id": -2300000326,
+      "message_ids": [
+        480
+      ],
+      "source_url": "https://api-www.louvre.fr/sites/default/files/2025-11/Dossier_pedagogique_Louvre%20en%20classe.pdf",
+      "published_at": "2026-11-21T00:55:11.388828+00:00",
+      "rubric": "painting",
+      "subject": "p-mona",
+      "batch_date": "2026-11-20"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3299,7 +3266,7 @@
       "target": 15
     },
     "2026-11-20": {
-      "completed": 4,
+      "completed": 5,
       "target": 15
     }
   },
@@ -5021,15 +4988,6 @@
   },
   "recent_content": [
     {
-      "creator": "kōami shinzaburō",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/29_100_723_Tp.JPG",
-      "work_key": "kōami shinzaburō|small box (kobako) with kyōgen theater scene at mibu temple in kyoto",
-      "rubric": "books",
-      "subject": "theater",
-      "angle": 0
-    },
-    {
       "creator": "anonymous",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP870761.jpg",
@@ -5856,6 +5814,14 @@
       "work_key": "oma|a-seattle",
       "rubric": "architecture",
       "subject": "a-seattle"
+    },
+    {
+      "creator": "леонардо да винчи",
+      "visual_family": "p-mona",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "work_key": "леонардо да винчи|p-mona",
+      "rubric": "painting",
+      "subject": "p-mona"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
