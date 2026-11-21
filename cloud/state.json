@@ -307,67 +307,11 @@
     -2300000342,
     -2300000318,
     -2300000331,
-    -2300000307
+    -2300000307,
+    -2300000343
   ],
-  "last_published_at": "2026-11-21T23:54:14.309067+00:00",
-  "pending": {
-    "object_id": -2300000343,
-    "attempted_at": "2026-11-21T23:54:16.949456+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000343,
-      "rubric": "fashion",
-      "topic": "Рисунок, который виден только вблизи",
-      "caption": "👗 Современная мода\nРисунок, который виден только вблизи\n\nСора из WOOAH на Seoul Fashion Week, февраль 2025 года. Серый верх кажется спокойным издалека, но крупный план раскрывает рисунок и фактуру ткани. Высокий воротник и широкие края рукавов меняют пропорции. Такие вещи интересно оценивать с двух расстояний: через общий силуэт и через детали.\n\nИсточник: Правительство Сеула / фото мероприятия\nФото: TV10 · CC BY 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 404,
-          "length": 4,
-          "url": "https://commons.wikimedia.org/wiki/File:WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 411,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "WOOAH Sora at 2025 Seoul Fashion Week.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg",
-          "artist": "TV10",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg",
-          "description": "WOOAH’s Sora at 2025 Seoul Fashion Week",
-          "date": "February 9, 2025",
-          "credit": "YouTube: https://www.youtube.com/watch?v=k0vO0e5rvlY",
-          "permission": "",
-          "width": 1280,
-          "height": 1790,
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "source_url": "https://english.seoul.go.kr/seoul-hosts-2025-f-w-seoul-fashion-week-in-february-to-showcase-the-next-leaders-in-global-k-fashion/",
-      "source_name": "Правительство Сеула / фото мероприятия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "wooah sora",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg",
-      "work_key": "wooah sora|f-sora",
-      "subject": "f-sora",
-      "visual_family": "f-sora"
-    },
-    "batch_date": "2026-11-21",
-    "sha256": "2b90a77313f595dc7981a1b25b03f3a96bb1d2b1069c585a00748bf24594f178"
-  },
+  "last_published_at": "2026-11-21T23:54:19.330180+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3546,9 +3490,20 @@
       "rubric": "celebrities",
       "subject": "c-yeoh",
       "batch_date": "2026-11-21"
+    },
+    {
+      "object_id": -2300000343,
+      "message_ids": [
+        502
+      ],
+      "source_url": "https://english.seoul.go.kr/seoul-hosts-2025-f-w-seoul-fashion-week-in-february-to-showcase-the-next-leaders-in-global-k-fashion/",
+      "published_at": "2026-11-21T23:54:19.330180+00:00",
+      "rubric": "fashion",
+      "subject": "f-sora",
+      "batch_date": "2026-11-21"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3579,7 +3534,7 @@
       "target": 15
     },
     "2026-11-21": {
-      "completed": 11,
+      "completed": 12,
       "target": 15
     }
   },
@@ -5301,14 +5256,6 @@
   },
   "recent_content": [
     {
-      "creator": "stella mccartney",
-      "visual_family": "contemporary-fashion",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg/1280px-MERCEDES-BENZ_FASHION_WEEK_MADRID_2024-_CLARA_ZAMORA_MECA.jpg",
-      "work_key": "stella mccartney|жакет и свободные брюки",
-      "rubric": "fashion",
-      "subject": "Жакет и свободные брюки"
-    },
-    {
       "creator": "shigeru ban / jean de gastines",
       "visual_family": "contemporary-architecture",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Centre_Pompidou-Metz_10.jpg/1280px-Centre_Pompidou-Metz_10.jpg",
@@ -6122,6 +6069,14 @@
       "work_key": "мишель йео|c-yeoh",
       "rubric": "celebrities",
       "subject": "c-yeoh"
+    },
+    {
+      "creator": "wooah sora",
+      "visual_family": "f-sora",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg/1280px-WOOAH_Sora_at_2025_Seoul_Fashion_Week.jpg",
+      "work_key": "wooah sora|f-sora",
+      "rubric": "fashion",
+      "subject": "f-sora"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
