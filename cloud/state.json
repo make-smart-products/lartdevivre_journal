@@ -296,67 +296,11 @@
     -2300000315,
     -2300000328,
     -2300000304,
-    -2300000340
+    -2300000340,
+    -2300000316
   ],
-  "last_published_at": "2026-11-21T00:56:03.087165+00:00",
-  "pending": {
-    "object_id": -2300000316,
-    "attempted_at": "2026-11-21T23:53:24.666680+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000316,
-      "rubric": "architecture",
-      "topic": "Павильон, похожий на облако",
-      "caption": "🏛 Современная архитектура\nПавильон, похожий на облако\n\nВременный павильон Serpentine 2013 года в Лондоне спроектировал Со Фудзимото. Белая стальная решётка образует полупрозрачный объём, сквозь который видны деревья и люди. Вблизи конструкция состоит из строгих прямых линий; издалека её контур кажется мягким. Архивный снимок показывает павильон в парке в 2013 году.\n\nИсточник: Serpentine\nФото: Dominic Alves · CC BY 2.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 397,
-          "length": 13,
-          "url": "https://commons.wikimedia.org/wiki/File:Sou_Fujimoto_Pavilion.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 413,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/2.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Sou_Fujimoto_Pavilion.jpg/1280px-Sou_Fujimoto_Pavilion.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Sou Fujimoto Pavilion.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Sou_Fujimoto_Pavilion.jpg/1280px-Sou_Fujimoto_Pavilion.jpg",
-          "artist": "Dominic Alves",
-          "license": "CC BY 2.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Sou_Fujimoto_Pavilion.jpg",
-          "description": "Sou Fujimoto Pavilion, Serpentine Gallery",
-          "date": "2013-06-25",
-          "credit": "Flickr",
-          "permission": "",
-          "width": 1280,
-          "height": 859,
-          "license_url": "https://creativecommons.org/licenses/by/2.0/"
-        }
-      ],
-      "source_url": "https://www.serpentinegalleries.org/whats-on/serpentine-gallery-pavilion-2013-sou-fujimoto/",
-      "source_name": "Serpentine",
-      "modern_year": 2013,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "sou fujimoto",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Sou_Fujimoto_Pavilion.jpg/1280px-Sou_Fujimoto_Pavilion.jpg",
-      "work_key": "sou fujimoto|a-serpentine",
-      "subject": "a-serpentine",
-      "visual_family": "a-serpentine"
-    },
-    "batch_date": "2026-11-21",
-    "sha256": "abe4d743f5ff95797b5ba95a4dc081466e9deade6c19e381c9f708ac92854de5"
-  },
+  "last_published_at": "2026-11-21T23:53:27.004082+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3414,9 +3358,20 @@
       "rubric": "fashion",
       "subject": "f-jessica",
       "batch_date": "2026-11-20"
+    },
+    {
+      "object_id": -2300000316,
+      "message_ids": [
+        491
+      ],
+      "source_url": "https://www.serpentinegalleries.org/whats-on/serpentine-gallery-pavilion-2013-sou-fujimoto/",
+      "published_at": "2026-11-21T23:53:27.004082+00:00",
+      "rubric": "architecture",
+      "subject": "a-serpentine",
+      "batch_date": "2026-11-21"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3444,6 +3399,10 @@
     },
     "2026-11-20": {
       "completed": 15,
+      "target": 15
+    },
+    "2026-11-21": {
+      "completed": 1,
       "target": 15
     }
   },
@@ -5165,15 +5124,6 @@
   },
   "recent_content": [
     {
-      "creator": "angelo testa",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP887790.jpg",
-      "work_key": "angelo testa|paris leaning on tree stump, back view, from \"oeuvre de canova: recueil de statues...\"",
-      "rubric": "travel",
-      "subject": "Paris",
-      "angle": 1
-    },
-    {
       "creator": "пиа кантос флоридо",
       "visual_family": "contemporary-women",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/PIARTE.jpg/1280px-PIARTE.jpg",
@@ -5993,6 +5943,14 @@
       "work_key": "джессика минь ань|f-jessica",
       "rubric": "fashion",
       "subject": "f-jessica"
+    },
+    {
+      "creator": "sou fujimoto",
+      "visual_family": "a-serpentine",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Sou_Fujimoto_Pavilion.jpg/1280px-Sou_Fujimoto_Pavilion.jpg",
+      "work_key": "sou fujimoto|a-serpentine",
+      "rubric": "architecture",
+      "subject": "a-serpentine"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
