@@ -282,69 +282,11 @@
     -2200000214,
     -2200000204,
     -2200000208,
-    -2300000325
+    -2300000325,
+    -2300000301
   ],
-  "last_published_at": "2026-11-21T00:54:50.995537+00:00",
-  "pending": {
-    "object_id": -2300000301,
-    "attempted_at": "2026-11-21T00:54:53.848478+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000301,
-      "rubric": "celebrities",
-      "topic": "Майки Мэдисон: роль, которая привела к «Оскару»",
-      "caption": "✨ Модели, актрисы и знаменитости\nМайки Мэдисон: роль, которая привела к «Оскару»\n\nВ 2025 году Майки Мэдисон получила «Оскар» за главную женскую роль в «Аноре». На снимке — Нью-Йоркский кинофестиваль 2024 года, до этой победы. Мягкая укладка и лаконичная линия у шеи создают спокойный портрет. Такие архивные фотографии позволяют увидеть актрису вне образа её героини.\n\nИсточник: Американская киноакадемия\nФото: Bryan Berlin · CC BY-SA 4.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 411,
-          "length": 12,
-          "url": "https://commons.wikimedia.org/wiki/File:Mikey_Madison_at_the_2024_New_York_Film_Festival_2_(cropped).jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 426,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Mikey_Madison_at_the_2024_New_York_Film_Festival_2_%28cropped%29.jpg/500px-Mikey_Madison_at_the_2024_New_York_Film_Festival_2_%28cropped%29.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Mikey Madison at the 2024 New York Film Festival 2 (cropped).jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Mikey_Madison_at_the_2024_New_York_Film_Festival_2_%28cropped%29.jpg/500px-Mikey_Madison_at_the_2024_New_York_Film_Festival_2_%28cropped%29.jpg",
-          "artist": "Bryan Berlin",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Mikey_Madison_at_the_2024_New_York_Film_Festival_2_(cropped).jpg",
-          "description": "Mikey Madison, actress, during the at 62nd New York Film Festival in 2024 at Alice Tully Hall for the movie Anora .",
-          "date": "2024-09-28 18:14:39",
-          "credit": "Own work",
-          "permission": "",
-          "width": 480,
-          "height": 669,
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "image_role": "portrait"
-        }
-      ],
-      "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
-      "source_name": "Американская киноакадемия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "майки мэдисон",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Mikey_Madison_at_the_2024_New_York_Film_Festival_2_%28cropped%29.jpg/500px-Mikey_Madison_at_the_2024_New_York_Film_Festival_2_%28cropped%29.jpg",
-      "work_key": "майки мэдисон|c-madison",
-      "subject": "c-madison",
-      "visual_family": "c-madison",
-      "person_verified": true
-    },
-    "batch_date": "2026-11-20",
-    "sha256": "91fdee58ed11de3e769ca10104556274795af248f9a3b946d50d968e87ee3a8e"
-  },
+  "last_published_at": "2026-11-21T00:54:55.645961+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3248,9 +3190,20 @@
       "rubric": "painting",
       "subject": "p-milkmaid",
       "batch_date": "2026-11-20"
+    },
+    {
+      "object_id": -2300000301,
+      "message_ids": [
+        477
+      ],
+      "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
+      "published_at": "2026-11-21T00:54:55.645961+00:00",
+      "rubric": "celebrities",
+      "subject": "c-madison",
+      "batch_date": "2026-11-20"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3277,7 +3230,7 @@
       "target": 15
     },
     "2026-11-20": {
-      "completed": 1,
+      "completed": 2,
       "target": 15
     }
   },
@@ -4999,15 +4952,6 @@
   },
   "recent_content": [
     {
-      "creator": "utagawa hiroshige",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP123598.jpg",
-      "work_key": "utagawa hiroshige|street in kyoto",
-      "rubric": "travel",
-      "subject": "Kyoto",
-      "angle": 0
-    },
-    {
       "creator": "кара джослин",
       "visual_family": "contemporary-women",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%22The_Stranger_%28L%27Etranger%29%2C%22_2020%2C_Kara_Joslyn%2C_acrylic_and_polymer_automotive_paint_on_canvas_panel%2C_72x60_inches.jpg/1280px-%22The_Stranger_%28L%27Etranger%29%2C%22_2020%2C_Kara_Joslyn%2C_acrylic_and_polymer_automotive_paint_on_canvas_panel%2C_72x60_inches.jpg",
@@ -5835,6 +5779,14 @@
       "work_key": "ян вермеер|p-milkmaid",
       "rubric": "painting",
       "subject": "p-milkmaid"
+    },
+    {
+      "creator": "майки мэдисон",
+      "visual_family": "c-madison",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Mikey_Madison_at_the_2024_New_York_Film_Festival_2_%28cropped%29.jpg/500px-Mikey_Madison_at_the_2024_New_York_Film_Festival_2_%28cropped%29.jpg",
+      "work_key": "майки мэдисон|c-madison",
+      "rubric": "celebrities",
+      "subject": "c-madison"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
