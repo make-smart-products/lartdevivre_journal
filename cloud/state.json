@@ -297,55 +297,11 @@
     -2300000328,
     -2300000304,
     -2300000340,
-    -2300000316
+    -2300000316,
+    -2300000329
   ],
-  "last_published_at": "2026-11-21T23:53:27.004082+00:00",
-  "pending": {
-    "object_id": -2300000329,
-    "attempted_at": "2026-11-21T23:53:29.439843+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000329,
-      "rubric": "painting",
-      "topic": "Остров Гранд-Жатт: прогулка из цветных точек",
-      "caption": "🖼 Известные картины\nОстров Гранд-Жатт: прогулка из цветных точек\n\nЖорж Сёра работал над этой большой сценой в 1884–1886 годах. Маленькие цветовые прикосновения собираются в фигуры, траву и воду, если отойти от изображения. При этом силуэты кажутся почти неподвижными. Контраст между мерцанием поверхности и строгой композицией делает обычную прогулку необычной.\n\nИсточник: Чикагский институт искусств\nРепродукция: Georges Seurat · Public domain",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/1280px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Georges Seurat - A Sunday on La Grande Jatte -- 1884 - Google Art Project.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/1280px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
-          "artist": "Georges Seurat",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
-          "description": "",
-          "date": "1884",
-          "credit": "Google Arts & Culture — twGyqq52R-lYpA",
-          "permission": "",
-          "width": 1280,
-          "height": 852
-        }
-      ],
-      "source_url": "https://archive.artic.edu/seurat/seurat_themes.html",
-      "source_name": "Чикагский институт искусств",
-      "modern_year": 1886,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "жорж сёра",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/1280px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
-      "work_key": "жорж сёра|p-jatte",
-      "subject": "p-jatte",
-      "visual_family": "p-jatte",
-      "famous_work_verified": true,
-      "artwork_public_domain_verified": true
-    },
-    "batch_date": "2026-11-21",
-    "sha256": "f47a210c8c262f4b2866ec8b318aed1f408f5fcb1b8c226b110a202d3ec0a088"
-  },
+  "last_published_at": "2026-11-21T23:53:31.030979+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3414,9 +3370,20 @@
       "rubric": "architecture",
       "subject": "a-serpentine",
       "batch_date": "2026-11-21"
+    },
+    {
+      "object_id": -2300000329,
+      "message_ids": [
+        492
+      ],
+      "source_url": "https://archive.artic.edu/seurat/seurat_themes.html",
+      "published_at": "2026-11-21T23:53:31.030979+00:00",
+      "rubric": "painting",
+      "subject": "p-jatte",
+      "batch_date": "2026-11-21"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3447,7 +3414,7 @@
       "target": 15
     },
     "2026-11-21": {
-      "completed": 1,
+      "completed": 2,
       "target": 15
     }
   },
@@ -5169,14 +5136,6 @@
   },
   "recent_content": [
     {
-      "creator": "пиа кантос флоридо",
-      "visual_family": "contemporary-women",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/PIARTE.jpg/1280px-PIARTE.jpg",
-      "work_key": "пиа кантос флоридо|цвет, который заменяет подробный рассказ",
-      "rubric": "women",
-      "subject": "Цвет, который заменяет подробный рассказ"
-    },
-    {
       "creator": "лоран импедулья",
       "visual_family": "contemporary-painting",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gumby_oil_on_canvas_120_x_100_cm_2025.jpg/1280px-Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
@@ -5996,6 +5955,14 @@
       "work_key": "sou fujimoto|a-serpentine",
       "rubric": "architecture",
       "subject": "a-serpentine"
+    },
+    {
+      "creator": "жорж сёра",
+      "visual_family": "p-jatte",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/1280px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+      "work_key": "жорж сёра|p-jatte",
+      "rubric": "painting",
+      "subject": "p-jatte"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
