@@ -304,7 +304,52 @@
     -2300000317
   ],
   "last_published_at": "2026-11-21T23:53:46.073744+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2300000330,
+    "attempted_at": "2026-11-21T23:53:48.567161+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2300000330,
+      "rubric": "painting",
+      "topic": "«Кувшинки»: картина без горизонта",
+      "caption": "🖼 Известные картины\n«Кувшинки»: картина без горизонта\n\nКлод Моне, 1916–1919 годы, версия из Метрополитен-музея. Вода занимает почти всё пространство: отдельные листья, цветы и отражения становятся главными ориентирами. Вместо дальнего пейзажа взгляд встречает поверхность пруда. Музей описывает этот поздний язык Моне как движение к почти абстрактной живописи.\n\nИсточник: Метрополитен-музей\nРепродукция: Claude Monet · Public domain",
+      "caption_entities": [],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Water_Lilies_by_Claude_Monet%2C_Metropolitan_Museum_of_Art_1983.532.JPG/1280px-Water_Lilies_by_Claude_Monet%2C_Metropolitan_Museum_of_Art_1983.532.JPG"
+      ],
+      "licensed_images": [
+        {
+          "title": "Water Lilies by Claude Monet, Metropolitan Museum of Art 1983.532.JPG",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Water_Lilies_by_Claude_Monet%2C_Metropolitan_Museum_of_Art_1983.532.JPG/1280px-Water_Lilies_by_Claude_Monet%2C_Metropolitan_Museum_of_Art_1983.532.JPG",
+          "artist": "Claude Monet",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Water_Lilies_by_Claude_Monet,_Metropolitan_Museum_of_Art_1983.532.JPG",
+          "description": "Water Lilies by Claude Monet, 1916-1919, Metropolitan Museum of Art, accession 1983.532",
+          "date": "between 1916 and 1919 date QS:P,+1916-00-00T00:00:00Z/8,P1319,+1916-00-00T00:00:00Z/9,P1326,+1919-00-00T00:00:00Z/9",
+          "credit": "Own work",
+          "permission": "The author died in 1926, so this work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 95 years or fewer . You must also include a United States public domain tag to indicate why this work is in the public domain in the United States. Note that Mexico has a term of 100 years and does not implement the rule of the shorter term , so this image may not be in the public domain in Mexico.",
+          "width": 1280,
+          "height": 822
+        }
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/437137",
+      "source_name": "Метрополитен-музей",
+      "modern_year": 1919,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "creator": "клод моне",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Water_Lilies_by_Claude_Monet%2C_Metropolitan_Museum_of_Art_1983.532.JPG/1280px-Water_Lilies_by_Claude_Monet%2C_Metropolitan_Museum_of_Art_1983.532.JPG",
+      "work_key": "клод моне|p-lilies",
+      "subject": "p-lilies",
+      "visual_family": "p-lilies",
+      "famous_work_verified": true,
+      "artwork_public_domain_verified": true
+    },
+    "batch_date": "2026-11-21",
+    "sha256": "a51cb266b3d3470a594bac8d5efe0626a00f1eb927365f2d6a87284919eecb7f"
+  },
   "publications": [
     {
       "object_id": 436528,
