@@ -292,67 +292,11 @@
     -2300000314,
     -2300000327,
     -2300000303,
-    -2300000339
+    -2300000339,
+    -2300000315
   ],
-  "last_published_at": "2026-11-21T00:55:42.136863+00:00",
-  "pending": {
-    "object_id": -2300000315,
-    "attempted_at": "2026-11-21T00:55:45.631132+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000315,
-      "rubric": "architecture",
-      "topic": "Учебный центр без привычной этажности",
-      "caption": "🏛 Современная архитектура\nУчебный центр без привычной этажности\n\nRolex Learning Center в Лозанне, SANAA, 2010 год. На вечерней фотографии особенно хорошо виден волнистый профиль здания: пол и крыша плавно поднимаются и опускаются. Вместо набора отдельных коробок получается непрерывный ландшафт для учёбы и встреч, а стекло позволяет читать эту идею снаружи.\n\nИсточник: EPFL\nФото: Mikado1201 · CC BY-SA 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 382,
-          "length": 10,
-          "url": "https://commons.wikimedia.org/wiki/File:Rolex_Learning_center.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 395,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/3.0/"
-        }
-      ],
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/b/b8/Rolex_Learning_center.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Rolex Learning center.jpg",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Rolex_Learning_center.jpg",
-          "artist": "Mikado1201",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Rolex_Learning_center.jpg",
-          "description": "Une vue générale du bâtiment.",
-          "date": "2012-02-20",
-          "credit": "Own work",
-          "permission": "",
-          "width": 1280,
-          "height": 854,
-          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
-        }
-      ],
-      "source_url": "https://livingarchives.epfl.ch/projects/7266/rolex-learning-center-axonometry/",
-      "source_name": "EPFL",
-      "modern_year": 2010,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "sanaa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Rolex_Learning_center.jpg",
-      "work_key": "sanaa|a-rolex",
-      "subject": "a-rolex",
-      "visual_family": "a-rolex"
-    },
-    "batch_date": "2026-11-20",
-    "sha256": "767efb3179525a4845f6885e1bdac83454e440ce9f58b72c3417807f0e1155e8"
-  },
+  "last_published_at": "2026-11-21T00:55:47.301832+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3366,9 +3310,20 @@
       "rubric": "fashion",
       "subject": "f-ahsaas",
       "batch_date": "2026-11-20"
+    },
+    {
+      "object_id": -2300000315,
+      "message_ids": [
+        487
+      ],
+      "source_url": "https://livingarchives.epfl.ch/projects/7266/rolex-learning-center-axonometry/",
+      "published_at": "2026-11-21T00:55:47.301832+00:00",
+      "rubric": "architecture",
+      "subject": "a-rolex",
+      "batch_date": "2026-11-20"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3395,7 +3350,7 @@
       "target": 15
     },
     "2026-11-20": {
-      "completed": 11,
+      "completed": 12,
       "target": 15
     }
   },
@@ -5117,15 +5072,6 @@
   },
   "recent_content": [
     {
-      "creator": "nishikawa sukenobu 西川祐信",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/JIB35_003_crd.jpg",
-      "work_key": "nishikawa sukenobu 西川祐信|picture book: mount asaka (ehon asakayama) 絵本浅香山",
-      "rubric": "books",
-      "subject": "illustrated book",
-      "angle": 1
-    },
-    {
       "creator": "",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/as/web-large/LC-18_124_11_001.jpg",
@@ -5948,6 +5894,14 @@
       "work_key": "ахсаас чанна|f-ahsaas",
       "rubric": "fashion",
       "subject": "f-ahsaas"
+    },
+    {
+      "creator": "sanaa",
+      "visual_family": "a-rolex",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Rolex_Learning_center.jpg",
+      "work_key": "sanaa|a-rolex",
+      "rubric": "architecture",
+      "subject": "a-rolex"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
