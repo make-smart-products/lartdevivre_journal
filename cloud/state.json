@@ -298,69 +298,11 @@
     -2300000304,
     -2300000340,
     -2300000316,
-    -2300000329
+    -2300000329,
+    -2300000305
   ],
-  "last_published_at": "2026-11-21T23:53:31.030979+00:00",
-  "pending": {
-    "object_id": -2300000305,
-    "attempted_at": "2026-11-21T23:53:33.536458+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000305,
-      "rubric": "celebrities",
-      "topic": "Синтия Эриво: за пределами экранного персонажа",
-      "caption": "✨ Модели, актрисы и знаменитости\nСинтия Эриво: за пределами экранного персонажа\n\nВ 2025 году Синтия Эриво была номинирована на «Оскар» за главную роль в Wicked. В архивном интервью 2018 года на снимке — совсем другой публичный образ: короткие светлые волосы, красная клетка и небольшие серьги. Любопытно сравнивать знакомую экранную героиню с индивидуальностью самой исполнительницы.\n\nИсточник: Американская киноакадемия\nФото: MTV UK · CC BY 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 427,
-          "length": 6,
-          "url": "https://commons.wikimedia.org/wiki/File:Bad_Times_at_the_El_Royale_-_Cynthia_Erivo.png"
-        },
-        {
-          "type": "text_link",
-          "offset": 436,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Bad_Times_at_the_El_Royale_-_Cynthia_Erivo.png/500px-Bad_Times_at_the_El_Royale_-_Cynthia_Erivo.png"
-      ],
-      "licensed_images": [
-        {
-          "title": "Bad Times at the El Royale - Cynthia Erivo.png",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Bad_Times_at_the_El_Royale_-_Cynthia_Erivo.png/500px-Bad_Times_at_the_El_Royale_-_Cynthia_Erivo.png",
-          "artist": "MTV UK",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Bad_Times_at_the_El_Royale_-_Cynthia_Erivo.png",
-          "description": "Cynthia Erivo in an interview.",
-          "date": "2018-10-10",
-          "credit": "YouTube : https://www.youtube.com/watch?v=WvTGpVQMIhI – View/save archived versions on archive.org",
-          "permission": "",
-          "width": 480,
-          "height": 563,
-          "license_url": "https://creativecommons.org/licenses/by/3.0/",
-          "image_role": "portrait"
-        }
-      ],
-      "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
-      "source_name": "Американская киноакадемия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "синтия эриво",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Bad_Times_at_the_El_Royale_-_Cynthia_Erivo.png/500px-Bad_Times_at_the_El_Royale_-_Cynthia_Erivo.png",
-      "work_key": "синтия эриво|c-erivo",
-      "subject": "c-erivo",
-      "visual_family": "c-erivo",
-      "person_verified": true
-    },
-    "batch_date": "2026-11-21",
-    "sha256": "8e151f0e92d28c8396915c4d4ce6454fb187cb7ee0c3e50982abf9bd1981850d"
-  },
+  "last_published_at": "2026-11-21T23:53:35.791335+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3440,9 +3382,20 @@
       "rubric": "painting",
       "subject": "p-jatte",
       "batch_date": "2026-11-21"
+    },
+    {
+      "object_id": -2300000305,
+      "message_ids": [
+        493
+      ],
+      "source_url": "https://www.oscars.org/oscars/ceremonies/2025",
+      "published_at": "2026-11-21T23:53:35.791335+00:00",
+      "rubric": "celebrities",
+      "subject": "c-erivo",
+      "batch_date": "2026-11-21"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3473,7 +3426,7 @@
       "target": 15
     },
     "2026-11-21": {
-      "completed": 2,
+      "completed": 3,
       "target": 15
     }
   },
@@ -5195,14 +5148,6 @@
   },
   "recent_content": [
     {
-      "creator": "лоран импедулья",
-      "visual_family": "contemporary-painting",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gumby_oil_on_canvas_120_x_100_cm_2025.jpg/1280px-Gumby_oil_on_canvas_120_x_100_cm_2025.jpg",
-      "work_key": "лоран импедулья|«gumby», 2025: живопись как поток образов",
-      "rubric": "painting",
-      "subject": "«Gumby», 2025: живопись как поток образов"
-    },
-    {
       "creator": "",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/an/web-large/DP-34800-001.jpg",
@@ -6022,6 +5967,14 @@
       "work_key": "жорж сёра|p-jatte",
       "rubric": "painting",
       "subject": "p-jatte"
+    },
+    {
+      "creator": "синтия эриво",
+      "visual_family": "c-erivo",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Bad_Times_at_the_El_Royale_-_Cynthia_Erivo.png/500px-Bad_Times_at_the_El_Royale_-_Cynthia_Erivo.png",
+      "work_key": "синтия эриво|c-erivo",
+      "rubric": "celebrities",
+      "subject": "c-erivo"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
