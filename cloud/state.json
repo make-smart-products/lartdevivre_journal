@@ -292,7 +292,52 @@
     -2300000314
   ],
   "last_published_at": "2026-11-21T00:55:27.223642+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2300000327,
+    "attempted_at": "2026-11-21T00:55:30.052170+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2300000327,
+      "rubric": "painting",
+      "topic": "«Звёздная ночь»: небо как движение",
+      "caption": "🖼 Известные картины\n«Звёздная ночь»: небо как движение\n\nВинсент ван Гог написал «Звёздную ночь» в июне 1889 года. Вихри неба противопоставлены более спокойной геометрии деревни. Тёмный кипарис соединяет нижний край с верхней частью холста. MoMA отмечает, что работа сочетает наблюдение с воображением, а её живописная энергия передаёт настроение.\n\nИсточник: MoMA\nРепродукция: Vincent van Gogh · Public domain",
+      "caption_entities": [],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Van Gogh - Starry Night - Google Art Project.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+          "artist": "Vincent van Gogh",
+          "license": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+          "description": "",
+          "date": "1889 date QS:P571,+1889-00-00T00:00:00Z/9",
+          "credit": "Google Arts & Culture — bgEuwDxel93-Pg",
+          "permission": "",
+          "width": 1280,
+          "height": 1014
+        }
+      ],
+      "source_url": "https://www.moma.org/collection/works/79802",
+      "source_name": "MoMA",
+      "modern_year": 1889,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "creator": "винсент ван гог",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "work_key": "винсент ван гог|p-starry",
+      "subject": "p-starry",
+      "visual_family": "p-starry",
+      "famous_work_verified": true,
+      "artwork_public_domain_verified": true
+    },
+    "batch_date": "2026-11-20",
+    "sha256": "6cd8c32a94c7940dd02a563ab26bad38fa4e21d2c1231be589fe80b0c73eb853"
+  },
   "publications": [
     {
       "object_id": 436528,
