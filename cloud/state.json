@@ -314,7 +314,64 @@
     -2300000308
   ],
   "last_published_at": "2026-11-21T23:54:32.822567+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2300000344,
+    "attempted_at": "2026-11-23T00:25:30.433968+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2300000344,
+      "rubric": "fashion",
+      "topic": "Четыре образа в одной тёмной палитре",
+      "caption": "👗 Современная мода\nЧетыре образа в одной тёмной палитре\n\nH1-KEY на Seoul Fashion Week в феврале 2026 года. Рюши, полупрозрачный слой, рисунок и пушистая фактура создают разные характеры внутри близкой палитры. Сравнивать удобно прямо в одном кадре: похожие цвета не делают одежду одинаковой. Общий образ группы складывается из различий, а не из полного совпадения вещей.\n\nИсточник: Правительство Сеула / фото мероприятия\nФото: TV10 · CC BY 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 428,
+          "length": 4,
+          "url": "https://commons.wikimedia.org/wiki/File:H1-Key_in_February_2026.png"
+        },
+        {
+          "type": "text_link",
+          "offset": 435,
+          "length": 9,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/H1-Key_in_February_2026.png/1280px-H1-Key_in_February_2026.png"
+      ],
+      "licensed_images": [
+        {
+          "title": "H1-Key in February 2026.png",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/H1-Key_in_February_2026.png/1280px-H1-Key_in_February_2026.png",
+          "artist": "TV10",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:H1-Key_in_February_2026.png",
+          "description": "H1-KEY Seoul Fashion Week",
+          "date": "2026-02-04",
+          "credit": "https://youtube.com/watch?v=p4wOHxfY3Co",
+          "permission": "",
+          "width": 1280,
+          "height": 759,
+          "license_url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "source_url": "https://english.seoul.go.kr/fashion-shows-and-orders-at-ddp-seoul-fashion-week-boosts-viewing-and-business-efficiency/",
+      "source_name": "Правительство Сеула / фото мероприятия",
+      "modern_year": 2026,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "creator": "h1-key",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/H1-Key_in_February_2026.png/1280px-H1-Key_in_February_2026.png",
+      "work_key": "h1-key|f-h1key",
+      "subject": "f-h1key",
+      "visual_family": "f-h1key"
+    },
+    "batch_date": "2026-11-22",
+    "sha256": "9d271e6bb7f0f13905f92247c3f58f2a97bd8a1580607866c161de23f7496d7f"
+  },
   "publications": [
     {
       "object_id": 436528,
