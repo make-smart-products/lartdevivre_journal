@@ -321,7 +321,66 @@
     -2300000334
   ],
   "last_published_at": "2026-11-23T00:25:57.373342+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2300000310,
+    "attempted_at": "2026-11-23T00:25:59.787087+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2300000310,
+      "rubric": "celebrities",
+      "topic": "Лупита Нионго: зелёный оттенок на фестивальной дорожке",
+      "caption": "✨ Модели, актрисы и знаменитости\nЛупита Нионго: зелёный оттенок на фестивальной дорожке\n\nЗа «12 лет рабства» Лупита Нионго получила «Оскар» за роль второго плана в 2014 году. На фестивале в Торонто в 2024-м светло-зелёное платье сочетается с переливчатым макияжем глаз. Небольшие серьги оставляют внимание на цвете. Один оттенок здесь связывает одежду и детали портрета.\n\nИсточник: Американская киноакадемия\nФото: John Sears · CC BY-SA 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 414,
+          "length": 10,
+          "url": "https://commons.wikimedia.org/wiki/File:Lupita_Nyong%27o_at_the_2024_Toronto_International_Film_Festival_4_(cropped).jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 427,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Lupita_Nyong%27o_at_the_2024_Toronto_International_Film_Festival_4_%28cropped%29.jpg/1280px-Lupita_Nyong%27o_at_the_2024_Toronto_International_Film_Festival_4_%28cropped%29.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Lupita Nyong'o at the 2024 Toronto International Film Festival 4 (cropped).jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Lupita_Nyong%27o_at_the_2024_Toronto_International_Film_Festival_4_%28cropped%29.jpg/1280px-Lupita_Nyong%27o_at_the_2024_Toronto_International_Film_Festival_4_%28cropped%29.jpg",
+          "artist": "John Sears",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Lupita_Nyong%27o_at_the_2024_Toronto_International_Film_Festival_4_(cropped).jpg",
+          "description": "Lupita Nyong'o, actor in 'The Wild Robot', at the 2024 Toronto International Film Festival",
+          "date": "2024-09-08 13:35:38",
+          "credit": "Own work",
+          "permission": "",
+          "width": 1280,
+          "height": 1430,
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "image_role": "portrait"
+        }
+      ],
+      "source_url": "https://www.oscars.org/oscars/ceremonies/2014",
+      "source_name": "Американская киноакадемия",
+      "modern_year": 2014,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "creator": "лупита нионго",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Lupita_Nyong%27o_at_the_2024_Toronto_International_Film_Festival_4_%28cropped%29.jpg/1280px-Lupita_Nyong%27o_at_the_2024_Toronto_International_Film_Festival_4_%28cropped%29.jpg",
+      "work_key": "лупита нионго|c-lupita",
+      "subject": "c-lupita",
+      "visual_family": "c-lupita",
+      "person_verified": true
+    },
+    "batch_date": "2026-11-22",
+    "sha256": "a937d178ce9132b3fce7b44dc4d8ad82cf638906a90db3d79b00e17c283de5b5"
+  },
   "publications": [
     {
       "object_id": 436528,
