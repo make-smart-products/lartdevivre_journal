@@ -322,69 +322,11 @@
     -2300000310,
     -2300000346,
     -2300000322,
-    -2300000335
+    -2300000335,
+    -2300000311
   ],
-  "last_published_at": "2026-11-23T00:26:15.310814+00:00",
-  "pending": {
-    "object_id": -2300000311,
-    "attempted_at": "2026-11-23T00:26:17.735361+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000311,
-      "rubric": "celebrities",
-      "topic": "Энн Хэтэуэй: спокойный фестивальный портрет",
-      "caption": "✨ Модели, актрисы и знаменитости\nЭнн Хэтэуэй: спокойный фестивальный портрет\n\nЭнн Хэтэуэй получила «Оскар» за роль второго плана в «Отверженных» в 2013 году. На фотографии с Берлинского кинофестиваля 2023 года длинные волосы и чёлка обрамляют лицо, а чёрная одежда оставляет фон спокойным. Пример того, как минимум заметных деталей помогает сохранить цельность публичного образа.\n\nИсточник: Американская киноакадемия\nФото: Harald Krichel · CC BY-SA 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 423,
-          "length": 14,
-          "url": "https://commons.wikimedia.org/wiki/File:Anne_Hathaway-68408.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 440,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/3.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Anne_Hathaway-68408.jpg/1280px-Anne_Hathaway-68408.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Anne Hathaway-68408.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Anne_Hathaway-68408.jpg/1280px-Anne_Hathaway-68408.jpg",
-          "artist": "Harald Krichel",
-          "license": "CC BY-SA 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Anne_Hathaway-68408.jpg",
-          "description": "Actress Anne Hathaway at the Berlin Film Festival 2023",
-          "date": "2023-02-16",
-          "credit": "Own work",
-          "permission": "",
-          "width": 1280,
-          "height": 1528,
-          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-          "image_role": "portrait"
-        }
-      ],
-      "source_url": "https://www.oscars.org/oscars/ceremonies/2013",
-      "source_name": "Американская киноакадемия",
-      "modern_year": 2013,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "энн хэтэуэй",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Anne_Hathaway-68408.jpg/1280px-Anne_Hathaway-68408.jpg",
-      "work_key": "энн хэтэуэй|c-hathaway",
-      "subject": "c-hathaway",
-      "visual_family": "c-hathaway",
-      "person_verified": true
-    },
-    "batch_date": "2026-11-22",
-    "sha256": "195ebb9e32d0296473b9d6e9646c2f724925157de730957ba3ffab500c66fe1e"
-  },
+  "last_published_at": "2026-11-23T00:26:19.795564+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3728,9 +3670,20 @@
       "rubric": "painting",
       "subject": "p-peaches",
       "batch_date": "2026-11-22"
+    },
+    {
+      "object_id": -2300000311,
+      "message_ids": [
+        517
+      ],
+      "source_url": "https://www.oscars.org/oscars/ceremonies/2013",
+      "published_at": "2026-11-23T00:26:19.795564+00:00",
+      "rubric": "celebrities",
+      "subject": "c-hathaway",
+      "batch_date": "2026-11-22"
     }
   ],
-  "next_rubric_index": 3,
+  "next_rubric_index": 0,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3765,7 +3718,7 @@
       "target": 15
     },
     "2026-11-22": {
-      "completed": 11,
+      "completed": 12,
       "target": 15
     }
   },
@@ -5487,15 +5440,6 @@
   },
   "recent_content": [
     {
-      "creator": "winslow homer",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP875357.jpg",
-      "work_key": "winslow homer|the chinese in new york – scene in a baxter street club-house (from \"harper's weekly,\" vol. xviii)",
-      "rubric": "travel",
-      "subject": "New York",
-      "angle": 4
-    },
-    {
       "creator": "нина пэйли",
       "visual_family": "contemporary-women",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/05.RamSitaGods.png/1280px-05.RamSitaGods.png",
@@ -6301,6 +6245,14 @@
       "work_key": "валентин серов|p-peaches",
       "rubric": "painting",
       "subject": "p-peaches"
+    },
+    {
+      "creator": "энн хэтэуэй",
+      "visual_family": "c-hathaway",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Anne_Hathaway-68408.jpg/1280px-Anne_Hathaway-68408.jpg",
+      "work_key": "энн хэтэуэй|c-hathaway",
+      "rubric": "celebrities",
+      "subject": "c-hathaway"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
