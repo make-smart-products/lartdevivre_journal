@@ -325,55 +325,11 @@
     -2300000335,
     -2300000311,
     -2300000347,
-    -2300000323
+    -2300000323,
+    -2300000336
   ],
-  "last_published_at": "2026-11-23T00:26:28.802928+00:00",
-  "pending": {
-    "object_id": -2300000336,
-    "attempted_at": "2026-11-23T00:26:31.153570+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000336,
-      "rubric": "painting",
-      "topic": "«Богатыри»: три разных силуэта",
-      "caption": "🖼 Известные картины\n«Богатыри»: три разных силуэта\n\nВиктор Васнецов завершил «Богатырей» в 1898 году. Три всадника отличаются посадкой, жестами и направлением взгляда, но образуют устойчивую общую группу. Низкая линия далёкого пейзажа усиливает их масштаб. Попробуйте рассмотреть сначала только контуры коней и фигур: характеры читаются уже в силуэтах.\n\nИсточник: Третьяковская галерея\nРепродукция: Viktor Vasnetsov · Public domain",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg/1280px-Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Viktor Vasnetsov - Богатыри - Google Art Project.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg/1280px-Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg",
-          "artist": "Viktor Vasnetsov",
-          "license": "Public domain",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg",
-          "description": "",
-          "date": "from 1881 until 1898 date QS:P571,+1850-00-00T00:00:00Z/7,P580,+1881-00-00T00:00:00Z/9,P582,+1898-00-00T00:00:00Z/9",
-          "credit": "Google Arts & Culture — GgFy94lN-r6DXw",
-          "permission": "",
-          "width": 1280,
-          "height": 832
-        }
-      ],
-      "source_url": "https://www.tretyakovgallery.ru/events/o/lektsiya-v-m-vasnetsov-bogatyri-24/",
-      "source_name": "Третьяковская галерея",
-      "modern_year": 1898,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "виктор васнецов",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg/1280px-Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg",
-      "work_key": "виктор васнецов|p-bogatyrs",
-      "subject": "p-bogatyrs",
-      "visual_family": "p-bogatyrs",
-      "famous_work_verified": true,
-      "artwork_public_domain_verified": true
-    },
-    "batch_date": "2026-11-22",
-    "sha256": "2495b0451b6f3ee0245da7f6ef98eed2fe476ed5b28117cd0d29049b6142ef70"
-  },
+  "last_published_at": "2026-11-23T00:26:32.679582+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3750,9 +3706,20 @@
       "rubric": "architecture",
       "subject": "a-james",
       "batch_date": "2026-11-22"
+    },
+    {
+      "object_id": -2300000336,
+      "message_ids": [
+        520
+      ],
+      "source_url": "https://www.tretyakovgallery.ru/events/o/lektsiya-v-m-vasnetsov-bogatyri-24/",
+      "published_at": "2026-11-23T00:26:32.679582+00:00",
+      "rubric": "painting",
+      "subject": "p-bogatyrs",
+      "batch_date": "2026-11-22"
     }
   ],
-  "next_rubric_index": 2,
+  "next_rubric_index": 3,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3787,7 +3754,7 @@
       "target": 15
     },
     "2026-11-22": {
-      "completed": 14,
+      "completed": 15,
       "target": 15
     }
   },
@@ -5509,15 +5476,6 @@
   },
   "recent_content": [
     {
-      "creator": "kuwagata keisai 鍬形蕙斎",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_774_08_crd.jpg",
-      "work_key": "kuwagata keisai 鍬形蕙斎|how to draw landscapes simply (sansui ryakugashiki) 山水略画式",
-      "rubric": "books",
-      "subject": "illustrated book",
-      "angle": 4
-    },
-    {
       "creator": "",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/cl/web-large/cdi08-164-10s1.jpg",
@@ -6322,6 +6280,14 @@
       "work_key": "david chipperfield architects|a-james",
       "rubric": "architecture",
       "subject": "a-james"
+    },
+    {
+      "creator": "виктор васнецов",
+      "visual_family": "p-bogatyrs",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg/1280px-Viktor_Vasnetsov_-_%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D1%80%D0%B8_-_Google_Art_Project.jpg",
+      "work_key": "виктор васнецов|p-bogatyrs",
+      "rubric": "painting",
+      "subject": "p-bogatyrs"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
