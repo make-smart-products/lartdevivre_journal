@@ -317,7 +317,66 @@
     -2300000333
   ],
   "last_published_at": "2026-11-23T00:25:40.386814+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2300000309,
+    "attempted_at": "2026-11-23T00:25:42.980825+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2300000309,
+      "rubric": "celebrities",
+      "topic": "Виола Дэвис: выразительность живого разговора",
+      "caption": "✨ Модели, актрисы и знаменитости\nВиола Дэвис: выразительность живого разговора\n\nВиола Дэвис получила «Оскар» за роль второго плана в «Оградах» в 2017 году. На архивном снимке с Comic-Con 2016 года она беседует с аудиторией. Яркая одежда и открытая улыбка создают совсем другое впечатление, чем постановочный рекламный кадр. Публичный портрет может запоминаться именно благодаря движению и эмоции.\n\nИсточник: Американская киноакадемия\nФото: Gage Skidmore · CC BY-SA 3.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 440,
+          "length": 13,
+          "url": "https://commons.wikimedia.org/wiki/File:Viola_Davis_by_Gage_Skidmore.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 456,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Viola_Davis_by_Gage_Skidmore.jpg/1280px-Viola_Davis_by_Gage_Skidmore.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Viola Davis by Gage Skidmore.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Viola_Davis_by_Gage_Skidmore.jpg/1280px-Viola_Davis_by_Gage_Skidmore.jpg",
+          "artist": "Gage Skidmore",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Viola_Davis_by_Gage_Skidmore.jpg",
+          "description": "Viola Davis speaking at the 2016 San Diego Comic-Con International in San Diego, California.",
+          "date": "2016-07-23",
+          "credit": "Own work",
+          "permission": "Must attribute to Gage Skidmore if used elsewhere, other than on Wikimedia and its projects.",
+          "width": 1280,
+          "height": 1554,
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "image_role": "portrait"
+        }
+      ],
+      "source_url": "https://www.oscars.org/oscars/ceremonies/2017",
+      "source_name": "Американская киноакадемия",
+      "modern_year": 2017,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "creator": "виола дэвис",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Viola_Davis_by_Gage_Skidmore.jpg/1280px-Viola_Davis_by_Gage_Skidmore.jpg",
+      "work_key": "виола дэвис|c-davis",
+      "subject": "c-davis",
+      "visual_family": "c-davis",
+      "person_verified": true
+    },
+    "batch_date": "2026-11-22",
+    "sha256": "d16245e8342212126388945af3972a02c20aa3adaf154e175ec2c730696a3e92"
+  },
   "publications": [
     {
       "object_id": 436528,
