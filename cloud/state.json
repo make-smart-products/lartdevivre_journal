@@ -320,67 +320,11 @@
     -2300000321,
     -2300000334,
     -2300000310,
-    -2300000346
+    -2300000346,
+    -2300000322
   ],
-  "last_published_at": "2026-11-23T00:26:06.672114+00:00",
-  "pending": {
-    "object_id": -2300000322,
-    "attempted_at": "2026-11-23T00:26:09.106475+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000322,
-      "rubric": "architecture",
-      "topic": "Кружево из металлических окружностей",
-      "caption": "🏛 Современная архитектура\nКружево из металлических окружностей\n\nБиблиотека Бирмингема построена Mecanoo в 2013 году. Слой переплетающихся колец перед стеклом отсылает к истории городской металлообработки. Разные по высоте объёмы, террасы и золотистая ротонда складываются в большой общественный комплекс. Орнамент здесь помогает связать современное здание с памятью места.\n\nИсточник: Mecanoo\nФото: Brian McNeil · CC BY 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 399,
-          "length": 12,
-          "url": "https://commons.wikimedia.org/wiki/File:Birmingham_library,_exterior_Nov_2014_03.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 414,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Birmingham_library%2C_exterior_Nov_2014_03.jpg/1280px-Birmingham_library%2C_exterior_Nov_2014_03.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Birmingham library, exterior Nov 2014 03.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Birmingham_library%2C_exterior_Nov_2014_03.jpg/1280px-Birmingham_library%2C_exterior_Nov_2014_03.jpg",
-          "artist": "Brian McNeil",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Birmingham_library,_exterior_Nov_2014_03.jpg",
-          "description": "Exterior of Birmingham library, England. Taken when attending the Wikimedia UK Volunteer Strategy Meeding, November 29, 2014.",
-          "date": "2014-11-29 09:57:57",
-          "credit": "Own work",
-          "permission": "",
-          "width": 1280,
-          "height": 853,
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "source_url": "https://www.mecanoo.nl/Projects/project/57/Library-of-Birmingham",
-      "source_name": "Mecanoo",
-      "modern_year": 2013,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "mecanoo",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Birmingham_library%2C_exterior_Nov_2014_03.jpg/1280px-Birmingham_library%2C_exterior_Nov_2014_03.jpg",
-      "work_key": "mecanoo|a-birmingham",
-      "subject": "a-birmingham",
-      "visual_family": "a-birmingham"
-    },
-    "batch_date": "2026-11-22",
-    "sha256": "c908f8ac43e22c1c1b838f109d5f21df206df85e84b908c81807d04dec89fc8c"
-  },
+  "last_published_at": "2026-11-23T00:26:11.297385+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3702,9 +3646,20 @@
       "rubric": "fashion",
       "subject": "f-gaeul",
       "batch_date": "2026-11-22"
+    },
+    {
+      "object_id": -2300000322,
+      "message_ids": [
+        515
+      ],
+      "source_url": "https://www.mecanoo.nl/Projects/project/57/Library-of-Birmingham",
+      "published_at": "2026-11-23T00:26:11.297385+00:00",
+      "rubric": "architecture",
+      "subject": "a-birmingham",
+      "batch_date": "2026-11-22"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3739,7 +3694,7 @@
       "target": 15
     },
     "2026-11-22": {
-      "completed": 9,
+      "completed": 10,
       "target": 15
     }
   },
@@ -5461,14 +5416,6 @@
   },
   "recent_content": [
     {
-      "creator": "loewe",
-      "visual_family": "contemporary-fashion",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Zendaya_Paris_2025.jpg",
-      "work_key": "loewe|фактура как главный акцент",
-      "rubric": "fashion",
-      "subject": "Фактура как главный акцент"
-    },
-    {
       "creator": "oma",
       "visual_family": "contemporary-architecture",
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Fondazione_Prada%2C_Milan.jpg/1280px-Fondazione_Prada%2C_Milan.jpg",
@@ -6275,6 +6222,14 @@
       "work_key": "ive gaeul|f-gaeul",
       "rubric": "fashion",
       "subject": "f-gaeul"
+    },
+    {
+      "creator": "mecanoo",
+      "visual_family": "a-birmingham",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Birmingham_library%2C_exterior_Nov_2014_03.jpg/1280px-Birmingham_library%2C_exterior_Nov_2014_03.jpg",
+      "work_key": "mecanoo|a-birmingham",
+      "rubric": "architecture",
+      "subject": "a-birmingham"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
