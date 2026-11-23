@@ -312,53 +312,11 @@
     -2300000319,
     -2300000332,
     -2300000308,
-    -2300000344
+    -2300000344,
+    -2300000320
   ],
-  "last_published_at": "2026-11-23T00:25:32.430377+00:00",
-  "pending": {
-    "object_id": -2300000320,
-    "attempted_at": "2026-11-23T00:25:34.667741+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000320,
-      "rubric": "architecture",
-      "topic": "Штутгарт: сила повторяющегося квадрата",
-      "caption": "🏛 Современная архитектура\nШтутгарт: сила повторяющегося квадрата\n\nГородская библиотека Штутгарта открылась в 2011 году; архитектор — Ын Ён И. На фасаде повторяются квадратные модули со стеклянными блоками. Общая сетка выглядит строгой, но различия света и глубины оживляют поверхность. Выразительность здесь строится на одном последовательно проведённом правиле.\n\nИсточник: Stuttgart-Marketing\nФото: Pablodbds · CC0",
-      "caption_entities": [],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Aussenfassade_Stadtbibliothek_Stuttgart.jpg/1280px-Aussenfassade_Stadtbibliothek_Stuttgart.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "Aussenfassade Stadtbibliothek Stuttgart.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Aussenfassade_Stadtbibliothek_Stuttgart.jpg/1280px-Aussenfassade_Stadtbibliothek_Stuttgart.jpg",
-          "artist": "Pablodbds",
-          "license": "CC0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Aussenfassade_Stadtbibliothek_Stuttgart.jpg",
-          "description": "A low-angle view of the exterior facade of the Stuttgart City Library (Stadtbibliothek).",
-          "date": "2025-10-14 16:08:41",
-          "credit": "Own work",
-          "permission": "",
-          "width": 1280,
-          "height": 1707
-        }
-      ],
-      "source_url": "https://presse.stuttgart-tourist.de/_Resources/Persistent/6/c/9/8/6c9870a1fb94c80e8dab6cb03bad3a7820dee5e7/05_Architektur_in_Stuttgart.pdf",
-      "source_name": "Stuttgart-Marketing",
-      "modern_year": 2011,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "eun young yi",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Aussenfassade_Stadtbibliothek_Stuttgart.jpg/1280px-Aussenfassade_Stadtbibliothek_Stuttgart.jpg",
-      "work_key": "eun young yi|a-stuttgart2",
-      "subject": "a-stuttgart2",
-      "visual_family": "a-stuttgart2"
-    },
-    "batch_date": "2026-11-22",
-    "sha256": "206bfd57ba881464aca70c844f1a67413bd83fd2a14563732032a8605990829f"
-  },
+  "last_published_at": "2026-11-23T00:25:36.498572+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3592,9 +3550,20 @@
       "rubric": "fashion",
       "subject": "f-h1key",
       "batch_date": "2026-11-22"
+    },
+    {
+      "object_id": -2300000320,
+      "message_ids": [
+        507
+      ],
+      "source_url": "https://presse.stuttgart-tourist.de/_Resources/Persistent/6/c/9/8/6c9870a1fb94c80e8dab6cb03bad3a7820dee5e7/05_Architektur_in_Stuttgart.pdf",
+      "published_at": "2026-11-23T00:25:36.498572+00:00",
+      "rubric": "architecture",
+      "subject": "a-stuttgart2",
+      "batch_date": "2026-11-22"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3629,7 +3598,7 @@
       "target": 15
     },
     "2026-11-22": {
-      "completed": 1,
+      "completed": 2,
       "target": 15
     }
   },
@@ -5351,15 +5320,6 @@
   },
   "recent_content": [
     {
-      "creator": "anonymous, french, 18th century",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP808983.jpg",
-      "work_key": "anonymous, french, 18th century|design for a court theatre",
-      "rubric": "books",
-      "subject": "theater",
-      "angle": 3
-    },
-    {
       "creator": "unknown",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/ph/web-large/DP265324.jpg",
@@ -6171,6 +6131,14 @@
       "work_key": "h1-key|f-h1key",
       "rubric": "fashion",
       "subject": "f-h1key"
+    },
+    {
+      "creator": "eun young yi",
+      "visual_family": "a-stuttgart2",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Aussenfassade_Stadtbibliothek_Stuttgart.jpg/1280px-Aussenfassade_Stadtbibliothek_Stuttgart.jpg",
+      "work_key": "eun young yi|a-stuttgart2",
+      "rubric": "architecture",
+      "subject": "a-stuttgart2"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
