@@ -319,64 +319,11 @@
     -2300000345,
     -2300000321,
     -2300000334,
-    -2300000310
+    -2300000310,
+    -2300000346
   ],
-  "last_published_at": "2026-11-23T00:26:02.277521+00:00",
-  "pending": {
-    "object_id": -2300000346,
-    "attempted_at": "2026-11-23T00:26:04.464243+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000346,
-      "rubric": "fashion",
-      "topic": "Кружево и мягкий цвет",
-      "caption": "👗 Современная мода\nКружево и мягкий цвет\n\nГаыль из IVE на Seoul Fashion Week, сентябрь 2025 года. Светлый кружевной край и полупрозрачная ткань с нежным рисунком поддерживают мягкую палитру образа. Небольшой браслет оставляет внимание на рукавах и фактуре. Крупный план показывает, что романтичное настроение может держаться на нескольких деликатных деталях.\n\nИсточник: Seoul Fashion Week / фото мероприятия\nФото: 티비텐 TV10 · CC BY 3.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 415,
-          "length": 8,
-          "url": "https://commons.wikimedia.org/wiki/File:Ive_Gaeul_at_Seoul_Fashion_Week,_1_September_2025_03.png"
-        },
-        {
-          "type": "text_link",
-          "offset": 426,
-          "length": 9,
-          "url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Ive_Gaeul_at_Seoul_Fashion_Week%2C_1_September_2025_03.png/960px-Ive_Gaeul_at_Seoul_Fashion_Week%2C_1_September_2025_03.png"
-      ],
-      "licensed_images": [
-        {
-          "title": "Ive Gaeul at Seoul Fashion Week, 1 September 2025 03.png",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Ive_Gaeul_at_Seoul_Fashion_Week%2C_1_September_2025_03.png/960px-Ive_Gaeul_at_Seoul_Fashion_Week%2C_1_September_2025_03.png",
-          "artist": "티비텐 TV10",
-          "license": "CC BY 3.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Ive_Gaeul_at_Seoul_Fashion_Week,_1_September_2025_03.png",
-          "description": "Ive Gaeul at Seoul Fashion Week, 1 September 2025",
-          "date": "2025-09-01",
-          "credit": "YouTube – View/save archived versions on archive.org",
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "source_url": "https://www.seoulfashionweek.org/",
-      "source_name": "Seoul Fashion Week / фото мероприятия",
-      "modern_year": 2025,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "ive gaeul",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Ive_Gaeul_at_Seoul_Fashion_Week%2C_1_September_2025_03.png/960px-Ive_Gaeul_at_Seoul_Fashion_Week%2C_1_September_2025_03.png",
-      "work_key": "ive gaeul|f-gaeul",
-      "subject": "f-gaeul",
-      "visual_family": "f-gaeul"
-    },
-    "batch_date": "2026-11-22",
-    "sha256": "7b6a0b5395d90c327c22f01418d8677f0dc0f928bdfe463f466fbc95ca90dbdd"
-  },
+  "last_published_at": "2026-11-23T00:26:06.672114+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3687,9 +3634,20 @@
       "rubric": "celebrities",
       "subject": "c-lupita",
       "batch_date": "2026-11-22"
+    },
+    {
+      "object_id": -2300000346,
+      "message_ids": [
+        514
+      ],
+      "source_url": "https://www.seoulfashionweek.org/",
+      "published_at": "2026-11-23T00:26:06.672114+00:00",
+      "rubric": "fashion",
+      "subject": "f-gaeul",
+      "batch_date": "2026-11-22"
     }
   ],
-  "next_rubric_index": 0,
+  "next_rubric_index": 1,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3724,7 +3682,7 @@
       "target": 15
     },
     "2026-11-22": {
-      "completed": 8,
+      "completed": 9,
       "target": 15
     }
   },
@@ -5446,16 +5404,6 @@
   },
   "recent_content": [
     {
-      "creator": "ambrose andrews",
-      "visual_family": "",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5812.jpg",
-      "work_key": "ambrose andrews|the children of nathan starr",
-      "rubric": "quiz",
-      "subject": "Живопись",
-      "angle": 0,
-      "quiz_format": "artist"
-    },
-    {
       "creator": "loewe",
       "visual_family": "contemporary-fashion",
       "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Zendaya_Paris_2025.jpg",
@@ -6262,6 +6210,14 @@
       "work_key": "лупита нионго|c-lupita",
       "rubric": "celebrities",
       "subject": "c-lupita"
+    },
+    {
+      "creator": "ive gaeul",
+      "visual_family": "f-gaeul",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Ive_Gaeul_at_Seoul_Fashion_Week%2C_1_September_2025_03.png/960px-Ive_Gaeul_at_Seoul_Fashion_Week%2C_1_September_2025_03.png",
+      "work_key": "ive gaeul|f-gaeul",
+      "rubric": "fashion",
+      "subject": "f-gaeul"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
