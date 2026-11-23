@@ -319,7 +319,64 @@
     -2300000345
   ],
   "last_published_at": "2026-11-23T00:25:48.947570+00:00",
-  "pending": null,
+  "pending": {
+    "object_id": -2300000321,
+    "attempted_at": "2026-11-23T00:25:51.260619+00:00",
+    "post": {
+      "provider": "modern-editorial",
+      "kind": "article",
+      "object_id": -2300000321,
+      "rubric": "architecture",
+      "topic": "Музей начинается с городской площади",
+      "caption": "🏛 Современная архитектура\nМузей начинается с городской площади\n\nAmos Rex в Хельсинки, JKMM, 2018 год. Выставочные пространства находятся под землёй, а их световые проёмы выходят на площадь округлыми холмами. На фотографии видно, как новые формы соседствуют с обычной городской жизнью. Крыша музея становится частью прогулки ещё до входа внутрь.\n\nИсточник: JKMM\nФото: Kulttuurinavigaattori · CC BY-SA 4.0",
+      "caption_entities": [
+        {
+          "type": "text_link",
+          "offset": 368,
+          "length": 21,
+          "url": "https://commons.wikimedia.org/wiki/File:Amos_Rex_aukio.jpg"
+        },
+        {
+          "type": "text_link",
+          "offset": 392,
+          "length": 12,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "images": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Amos_Rex_aukio.jpg/1280px-Amos_Rex_aukio.jpg"
+      ],
+      "licensed_images": [
+        {
+          "title": "Amos Rex aukio.jpg",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Amos_Rex_aukio.jpg/1280px-Amos_Rex_aukio.jpg",
+          "artist": "Kulttuurinavigaattori",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amos_Rex_aukio.jpg",
+          "description": "Amos Rex art museum square \"bubbles\" in Helsinki Finland",
+          "date": "2018-08-27 13:19:13",
+          "credit": "Own work",
+          "permission": "",
+          "width": 1280,
+          "height": 719,
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "source_url": "https://jkmm.fi/work/amos-rex-museum/",
+      "source_name": "JKMM",
+      "modern_year": 2018,
+      "editorial_reviewed": true,
+      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
+      "creator": "jkmm",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Amos_Rex_aukio.jpg/1280px-Amos_Rex_aukio.jpg",
+      "work_key": "jkmm|a-amos2",
+      "subject": "a-amos2",
+      "visual_family": "a-amos2"
+    },
+    "batch_date": "2026-11-22",
+    "sha256": "65d44eaef6cefa3f1d1547d2177885828a40c2ec7ab7a873625d86a9337929c5"
+  },
   "publications": [
     {
       "object_id": 436528,
