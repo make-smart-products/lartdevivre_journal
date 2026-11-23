@@ -324,67 +324,11 @@
     -2300000322,
     -2300000335,
     -2300000311,
-    -2300000347
+    -2300000347,
+    -2300000323
   ],
-  "last_published_at": "2026-11-23T00:26:24.246358+00:00",
-  "pending": {
-    "object_id": -2300000323,
-    "attempted_at": "2026-11-23T00:26:26.668638+00:00",
-    "post": {
-      "provider": "modern-editorial",
-      "kind": "article",
-      "object_id": -2300000323,
-      "rubric": "architecture",
-      "topic": "Берлин: современная колоннада",
-      "caption": "🏛 Современная архитектура\nБерлин: современная колоннада\n\nJames-Simon-Galerie открылась на Музейном острове в 2019 году. David Chipperfield Architects использовали тонкие колонны, высокий цоколь и широкие лестницы, чтобы связать новый вход с историческим ансамблем. Повторение вертикалей создаёт спокойный ритм. Современность здесь проявляется в пропорциях и ясности деталей.\n\nИсточник: David Chipperfield Architects\nФото: Chatchamp · CC BY-SA 4.0",
-      "caption_entities": [
-        {
-          "type": "text_link",
-          "offset": 423,
-          "length": 9,
-          "url": "https://commons.wikimedia.org/wiki/File:James_Simon_Galerie_in_der_Au%C3%9Fenansicht_Fr%C3%BChjahr_2019_IMG_20190416_155542.jpg"
-        },
-        {
-          "type": "text_link",
-          "offset": 435,
-          "length": 12,
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "images": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/James_Simon_Galerie_in_der_Au%C3%9Fenansicht_Fr%C3%BChjahr_2019_IMG_20190416_155542.jpg/1280px-James_Simon_Galerie_in_der_Au%C3%9Fenansicht_Fr%C3%BChjahr_2019_IMG_20190416_155542.jpg"
-      ],
-      "licensed_images": [
-        {
-          "title": "James Simon Galerie in der Außenansicht Frühjahr 2019 IMG 20190416 155542.jpg",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/James_Simon_Galerie_in_der_Au%C3%9Fenansicht_Fr%C3%BChjahr_2019_IMG_20190416_155542.jpg/1280px-James_Simon_Galerie_in_der_Au%C3%9Fenansicht_Fr%C3%BChjahr_2019_IMG_20190416_155542.jpg",
-          "artist": "Chatchamp",
-          "license": "CC BY-SA 4.0",
-          "source_url": "https://commons.wikimedia.org/wiki/File:James_Simon_Galerie_in_der_Au%C3%9Fenansicht_Fr%C3%BChjahr_2019_IMG_20190416_155542.jpg",
-          "description": "Das neue Eingangsgebäude der Museumsinsel, die James Simon Galerie, im Frühjahr 2019 und aus der Sicht von Unter den Linden. Rechts im Bild: Lustgarten",
-          "date": "2019-04-16 15:55:42",
-          "credit": "Own work",
-          "permission": "",
-          "width": 1280,
-          "height": 960,
-          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      ],
-      "source_url": "https://davidchipperfield.com/projects/james-simon-galerie",
-      "source_name": "David Chipperfield Architects",
-      "modern_year": 2019,
-      "editorial_reviewed": true,
-      "source_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "photo_verified_at": "2026-11-20T17:53:48.829006+00:00",
-      "creator": "david chipperfield architects",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/James_Simon_Galerie_in_der_Au%C3%9Fenansicht_Fr%C3%BChjahr_2019_IMG_20190416_155542.jpg/1280px-James_Simon_Galerie_in_der_Au%C3%9Fenansicht_Fr%C3%BChjahr_2019_IMG_20190416_155542.jpg",
-      "work_key": "david chipperfield architects|a-james",
-      "subject": "a-james",
-      "visual_family": "a-james"
-    },
-    "batch_date": "2026-11-22",
-    "sha256": "182f85d0d4344a2cac445453ed54ed25a6e86ef7e76ee79cff2166daf48e4349"
-  },
+  "last_published_at": "2026-11-23T00:26:28.802928+00:00",
+  "pending": null,
   "publications": [
     {
       "object_id": 436528,
@@ -3750,9 +3694,20 @@
       "rubric": "fashion",
       "subject": "f-kejimin",
       "batch_date": "2026-11-22"
+    },
+    {
+      "object_id": -2300000323,
+      "message_ids": [
+        519
+      ],
+      "source_url": "https://davidchipperfield.com/projects/james-simon-galerie",
+      "published_at": "2026-11-23T00:26:28.802928+00:00",
+      "rubric": "architecture",
+      "subject": "a-james",
+      "batch_date": "2026-11-22"
     }
   ],
-  "next_rubric_index": 1,
+  "next_rubric_index": 2,
   "daily_batches": {
     "2026-11-02": {
       "completed": 15,
@@ -3787,7 +3742,7 @@
       "target": 15
     },
     "2026-11-22": {
-      "completed": 13,
+      "completed": 14,
       "target": 15
     }
   },
@@ -5509,14 +5464,6 @@
   },
   "recent_content": [
     {
-      "creator": "армин андреас пангерль",
-      "visual_family": "contemporary-painting",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Orange_Hymne.jpg/1280px-Orange_Hymne.jpg",
-      "work_key": "армин андреас пангерль|«orange hymne», 2023",
-      "rubric": "painting",
-      "subject": "«Orange Hymne», 2023"
-    },
-    {
       "creator": "kuwagata keisai 鍬形蕙斎",
       "visual_family": "",
       "image": "https://images.metmuseum.org/CRDImages/as/web-large/2013_774_08_crd.jpg",
@@ -6322,6 +6269,14 @@
       "work_key": "kejimin|f-kejimin",
       "rubric": "fashion",
       "subject": "f-kejimin"
+    },
+    {
+      "creator": "david chipperfield architects",
+      "visual_family": "a-james",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/James_Simon_Galerie_in_der_Au%C3%9Fenansicht_Fr%C3%BChjahr_2019_IMG_20190416_155542.jpg/1280px-James_Simon_Galerie_in_der_Au%C3%9Fenansicht_Fr%C3%BChjahr_2019_IMG_20190416_155542.jpg",
+      "work_key": "david chipperfield architects|a-james",
+      "rubric": "architecture",
+      "subject": "a-james"
     }
   ],
   "editorial_policy_version": "2026-11-08-four-rubrics",
